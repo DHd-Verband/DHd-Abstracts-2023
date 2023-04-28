@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="MAYER_Manuela_Das_QhoD_Projekt__Digitale_Edition_von_Quellen" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das QhoD-Projekt: Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918</title>
+                <author>
+                    <persName>
+                        <surname>Mayer</surname>
+                        <forename>Manuela</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>manuela.mayer@oeaw.ac.at</email>
+                    <idno type="ORCID">0000-0001-5311-2864</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kurz</surname>
+                        <forename>Stephan</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>stephan.kurz@oeaw.ac.at</email>
+                    <idno type="ORCID">0000-0003-2546-2570</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Yilmaz</surname>
+                        <forename>Yasir</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>yasir.yilmaz@oeaw.ac.at</email>
+                    <idno type="ORCID">0000-0001-5387-3532</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sonnberger</surname>
+                        <forename>Jakob</forename>
+                    </persName>
+                    <affiliation>Zentrum für Informationsmodellierung Universität Graz, Österreich</affiliation>
+                    <email>jakob.sonnberger@uni-graz.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:39:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Edition</term>
+                    <term>Diplomatie</term>
+                    <term>Frühe Neuzeit</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Kollaboration</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Seit 2020 verbindet das Projekt 
+                <hi rend="italic">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</hi> (QhoD) schriftliche und dingliche Quellen zum diplomatischen Austausch zwischen dem Habsburgerreich und dem Osmanischen Reich. Der lange Zeitraum orientiert sich an der Aufnahme der diplomatischen Beziehungen der beiden Reiche zu Beginn des 16. Jahrhunderts bis zu ihrem politischen Ende 1918. Ediert werden Quellen zu fassbaren diplomatischen Missionen, die in diesen Zeitraum fallen. Bislang wurden bzw. werden vier solcher Missionen in Rahmen von Teilprojekten bearbeitet. Das QhoD-Projekt zeichnet sich durch eine breite Quellenbasis (sowohl quantitativ als auch medial und gattungsmäßig) und einen interdisziplinären Ansatz (Editionstechnik, Frühneuzeitforschung, Kunstgeschichte, Osmanistik, Turkologie) aus. Seit Juli 2022 sind die bislang bearbeiteten Quellen über &lt;
+                <ref target="https://qhod.net">
+                    <hi rend="underline color(1155CC)">https://qhod.net</hi>
+                </ref>&gt; frei nutzbar. Das den Nutzern zur Verfügung gestellte Material wird regelmäßig erweitert.
+            </p>
+            <p>Das Poster beschreibt die Quellen und die editorischen wie technischen Überlegungen zu ihrer Edition. Die technische Implementierung erfolgt mithilfe der GAMS repository software zur Datenaufbereitung und -archivierung. Die XML-Codierung erfolgt nach TEI-Standards.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Details zum Projekt:</head>
+<list type="unordered">
+                    <item>Die im Rahmen des Projekts bearbeiteten Quellen bestehen aus handschriftlichen Quellen (u.a. Briefe, Instruktionen, Berichte, Protokollregister, Befehle), gedruckten Quellen (u.a. publizierte Reiseberichte, Flugschriften, Zeitungsartikel, Karten) und Objekten (u.a. Militaria, Kunstgegenstände).</item>
+                    <item>Bearbeitet werden sowohl habsburgische als auch osmanische Quellen (aus heute öffentlichen wie privaten österreichischen bzw. türkischen Archiven).</item>
+                    <item>Von allen Quellen werden Faksimiles und bibliographische Metadaten bereitgestellt.</item>
+                    <item>Objekte werden zusätzlich kunsthistorisch beschrieben.</item>
+                    <item>Schriftliche Quellen werden transkribiert und annotiert (Personen, Orte, Datierungen, textkritischer Apparat) – es wird aber auch eine Lesefassung ohne Annotationen angeboten. Osmanische Texte werden zusätzlich zur Transkription ins Englische übersetzt. Deutsche Texte bleiben unübersetzt, erhalten aber, wie auch die osmanischen Texte, ein englisches Abstract.</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Technische/editorische Details:</head>
+<list type="unordered">
+                    <item>Gedruckte Quellen werden mittels Transkribus HTR erstbearbeitet. Handschriftliche Texte werden vorerst direkt in XML codiert. Derzeit laufen Versuche zur Erkennung osmanischer Texte in Transkribus und dem Training eines entsprechenden Modells.</item>
+                    <item>Für die Transkription der osmanischen Texte orientiert sich das Projekt an den Richtlinien des 
+                        <hi rend="italic">İslam Ansiklopedisi Transkripsiyon Alfabesi</hi>.
+                    </item>
+                    <item>Sammeln und Einspeisen von named entity data in das Austrian Prosopographical Information System (APIS), Anreichern mit GND-Identifiern.</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Aktuell beinhaltet QhoD:</head>
+<list type="unordered">
+                    <item>4 Teilprojekte zu einzelnen diplomatischen Missionen</item>
+                    <item>nach Mission: 15 Schreiben Selims II. an Maximilian II. (1566-1574); 31 schriftliche Quellen zur Internuntiatur Johann Rudolf Schmid zu Schwarzenhorns (1649); 157 schriftliche und dingliche Quellen zu den gleichzeitig stattfindenden Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20); Teilprojekt Nr. 4 zur Gesandtschaft Johann Jakob Kurtz von Senftenaus (1623/24) wurde erst kürzlich begonnen und befindet sich aktuell in der Materialsichtung</item>
+                    <item>sprachlich: 60 deutsche, 42 osmanische Texte</item>
+                    <item>nach Genre: 60 Briefe, 20 Protokollregister, 5 in LIDO beschriebene Objekte, 4 Reiseberichte, 4 Berichte, 3 Instruktionen, 16 behördliche Schriftstücke</item>
+                </list>
+                <p>QhoD versteht sich als offene Plattform zu Austausch und Sammlung von nachnutzbaren Editionsdaten mit dem thematischen Fokus auf die diplomatischen Beziehungen zwischen der Hohen Pforte und dem Wiener Kaiserhof vom Erstkontakt bis zum Ende beider Imperien. Dieser Kontakt bestand auch in Zeiten, in denen sich beide Reiche im Krieg miteinander befanden. Die edierten Quellen liefern somit einen wertvollen Zusatz zur bekannten (Militär-)Geschichte. Laufend werden neue Subprojekte hinzugefügt. Eine Kooperation zur Nutzung der QhoD-Infrastruktur ist nicht gebunden an bestimmte Institutionen, Arten von Fördermittel oder akademische Grade der Beitragenden (einige Transkriptionen wurden im Rahmen von Qualifikationsarbeiten nach QhoD-Richtlinien erstellt).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Strohmeyer, Arno. 2013a.</hi> “Die Theatralität interkulturellen Friedens: Damian Hugo von Virmont als Kaiserlicher Großbotschafter an der Hohen Pforte (1719/20).” In 
+                        <hi rend="italic">Frieden und Friedenssicherung in der Frühen Neuzeit. Das Heilige Römische Reich und Europa. Festschrift für Maximilian Lanzinner zum 65. Geburtstag</hi>, 413-438.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Strohmeyer, Arno. 2013b.</hi> “Kategorisierungleistungen und Denkschemata in diplomatischer Kommunikation: Johann Rudolf Schmid zum Schwarzenhorn als kaiserlicher Resident an der Hohen Pforte (1629-1643).” In 
+                        <hi rend="italic">Politische Kommunikation zwischen Imperien. Der diplomatische Aktionsraum Südost- und Osteuropa</hi>, 21-29.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Strohmeyer, Arno. 2014.</hi> “Krieg und Frieden in den habsburgisch-osmanischen Beziehungen in der Frühen Neuzeit.” In 
+                        <hi rend="italic">Die Türkei, der deutsche Sprachraum und Europa. Multidisziplinäre Annäherungen und Zugänge</hi>, hg. von Reiner Arntz, Michael Gehler, 31-50.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Yilmaz, Yasir. 2017.</hi> “Nebulous Ottomans vs. Good Old Habsburgs: a historiographical comparison.” 
+                        <hi rend="italic">Austrian History Yearbook</hi> 48: 173-190.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

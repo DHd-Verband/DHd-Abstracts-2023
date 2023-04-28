@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="ROEDER_Torsten_Greening_DH__individuelle_Handlungsspielr_ume" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Greening DH: individuelle Handlungsspielräume und institutionelle Perspektiven</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Baillot</surname>
+                        <forename>Anne</forename>
+                    </persName>
+                    <affiliation>Universität Le Mans</affiliation>
+                    <email>anne.baillot@univ-lemans.fr</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Feidicker</surname>
+                        <forename>Charlotte</forename>
+                    </persName>
+                    <affiliation>Universität Bielefeld</affiliation>
+                    <email>charlotte.feidicker@uni-bielefeld.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gerber</surname>
+                        <forename>Anja</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+                    <email>anja.gerber@bbaw.de</email>
+                    <idno type="ORCID">0000-0003-2576-1511</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Roeder</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg</affiliation>
+                    <email>dh@torstenroeder.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T12:29:02.850000000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Green DH</term>
+                    <term>Nachhaltigkeit</term>
+                    <term>Ökologie</term>
+                    <term>Best Practices</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Bewertung</term>
+                    <term>Einführung</term>
+                    <term>Projektmanagement</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die AG “Greening DH” wurde 2021 ins Leben gerufen mit dem Ziel, das Bewusstsein der Verbandsmitglieder für ökologische Aspekte von Aktivitäten im Bereich der Digital Humanities (Forschung, Lehre, Projektmanagement, Softwareentwicklung etc.) zu schärfen. Neben konkreten Handlungsanalysen und -empfehlungen geht es der AG darum, die grundlegenden Veränderungen, die sich daraus für das Fach ergeben, epistemologisch zu begleiten. Der angedachte Workshop auf der DHd 2023 möchte beide Aspekte adressieren: Der erste Halbtag ist der Handlungsanalyse und Vermittlung von Best Practices auf individueller Ebene gewidmet, der zweite Halbtag geht institutionellen Handlungsspielräumen nach.</p>
+            <div type="div1">
+                <head>Herausforderungen der Klimakrise für die DH-Community</head>
+                <p>Während Forschende einerseits die aktuellen klimatologischen Entwicklungen als “Krise” begreifen und sich über den dringenden Handlungsbedarf einig sind (vgl. Leal Filho et al. 2021), hat zum anderen die Ausübung wissenschaftlicher Tätigkeit eine direkte und mutmaßlich weitreichende Auswirkung auf die Umwelt. Die Diskrepanz zwischen individuellen Überzeugungen und systemischen Anforderungen in Bezug auf die Wichtigkeit ökologischer Perspektiven beeinflusst alle Arbeitsschritte eines Projektes und wird häufig als Konfliktsituation wahrgenommen. Insbesondere in den DH gilt es kritisch zu hinterfragen, ob fachspezifische Technologien, die arbeitsökonomisch nachhaltig sein sollen, auch ökologisch nachhaltig sind und ob jeder wissenschaftliche Erkenntnisgewinn den damit verbundenen Energieverbrauch aufwiegt. Dieser Fragenkomplex stand in den DH bislang nicht im Fokus fachspezifischer Reflexionen und wird in der laufenden Diskussion um Sustainability (FAIR, CARE) allenfalls marginal berücksichtigt.</p>
+                <p>In der Forschungsliteratur wird die Thematik der ökologisch nachhaltigen Digitalisierung bereits seit einigen Jahren behandelt (dazu ausführlich Lange/Santarius 2018). So haben sich im Bibliotheksbereich Akteurs-Netzwerke wie Libraries4Future und Netzwerk Grüne Bibliothek formiert (dazu Hauke et al. 2013). Ein weiterer Diskursstrang behandelt das Gebiet der ökologisch nachhaltigen Softwareentwicklung (z.B. Gröger/Köhn 2014; Eder/Gallagher 2017; Höfner/Frick 2018). Daneben liegen Untersuchungen zum Energiebedarf von Datenzentren (exemplarisch: Schomaker et al. 2014) und Methoden zu umweltverträglicher Langzeitarchivierung (exemplarisch: Pendergrass et al. 2019) vor. Letzteres gilt es im Zusammenhang mit Minimal Computing und insbesondere Minimal Publishing (hierzu Holmes/Takeda 2019) zu betrachten, die in den DH steigende Beachtung erfahren. Für die fachübergreifende Thematik der umweltverträglichen Konferenzorganisation liegen spätestens seit dem “Zoom-Jahr” 2020 zahlreiche Untersuchungen vor (Stroud/Feeley 2015, Klöwer et al. 2020; Faber 2021; Glausiusz 2021). Ferner entstanden Frameworks zur Evaluierung der Nachhaltigkeit von Forschungseinrichtungen (Ferreboeuf et al. 2019; Mariette et al. 2021). Für den Bereich der DH sind aus dem Kontext der Digital Humanities Climate Coalition inzwischen erste Beiträge erschienen, die sich konkret mit dem ökologischen Impact der DH auseinandersetzen und konkrete Handlungsempfehlungen zusammenstellen (DHCC Information, Measurement and Practice Action Group und DHCC Toolkit Action Group 2022).</p>
+                <p>Auch bei Open Science kann man sich fragen, inwiefern das Streben nach universellem Zugang zu hochqualitativen Informationen (etwa Scans, Scripts) mit den ökologischen Verhältnissen auf Dauer kompatibel sind. Die Fragen der ökologischen Nachhaltigkeit in den DH muss auch im Kontext globaler sozial-ökonomisch ungleicher Ressourcenverteilung betrachtet werden, die insbesondere Fragen der Zugänglichkeit betreffen und neue Perspektiven auf die FAIR-Kriterien eröffnen: Sind Bereitstellungsangebote, die hohe Bandbreiten und leistungsstarke Servers und Clients erfordern, unter globalen und ökologischen Gesichtspunkten überhaupt als “fair” bewertbar? Welche Tugenden der Offenheit sind noch vertretbar, wenn die Bedingungen des Zugangs das Klima für einen wachsenden Teil der Weltbevölkerung unerträglich machen?</p>
+            </div>
+            <div type="div1">
+                <head>Ablauf</head>
+                <div type="div2">
+                    <head>World Café: Was macht die individuelle Forschungspraxis?</head>
+                    <p>Der erste Halbtag fokussiert auf die Forschungspraxis der Teilnehmenden hinsichtlich ihres ökologischen Fußabdrucks. Die Teilnehmenden werden eingeladen, ihre Forschungstätigkeit einer kritischen Analyse zu unterziehen. Sie reflektieren, an welchen Stellen in ihrem Arbeitsablauf Handlungsspielräume bestehen, die eine Reduktion des ökologischen Fußabdrucks ihrer Arbeit ermöglichen. </p>
+                    <p>Nach diesem Einstieg werden drei einschlägige DH-Themen detaillierter betrachtet, zu denen bereits eine Handreichung der Digital Humanities Climate Coalition (s.o.) vorliegt, an welcher die Workshop-Veranstaltenden mitgearbeitet haben. Die Handreichung führt einschlägige Informationen zu ökologischen Aspekten digitaler Arbeitsprozesse zusammen.</p>
+                    <p>Das erste Thema beschäftigt sich mit der Projektorganisation und fragt, welche Aspekte zur Reduktion des ökologischen Fußabdrucks im Projektmanagement berücksichtigt werden sollten.</p>
+                    <p>Der zweite Themenblock nimmt die Nutzung von großer Rechenkapazität und Large Language Models in den Blick, auf denen Digital-Humanities-Forschung oft basiert. </p>
+                    <p>Als drittes Thema vertiefen die Teilnehmenden die Potentiale des Minimal Computings. Dieser Themenblock thematisiert grundlegend die Verwendung von sparsamen technologischen Lösungen, die teils als konträrer Ansatz zu den erwähnten großen Rechenkapazitäten zu verstehen sind, insbesondere aber auf den Bereich der Bereitstellung abzielen.</p>
+                    <p>Zu allen drei Themen werden Lösungsansätze auf Grundlage der DHCC-Handreichung durch die Teilnehmenden erarbeitet. Anschließend werden die anfangs identifizierten Handlungsspielräume unter Berücksichtigung der erarbeiteten Szenarien gemeinsam diskutiert.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/cf47cf019631708c47c7ee9f5cd26a7a.png"/>
+                        </figure>
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/64c3c7f0a506a9e60febc2ba1aa21bed.png"/>
+                            <head><p>Abbildungen: Labos 1point5, Infografiken zu CO2-Belastung durch Reisen zu Workshops und Konferenzen, Verkehrsmittel und Entfernungen im Vergleich. Quelle: 
+                        <ptr target="https://labos1point5.org/les-infographies/poster-ecoinfo"/> – Lizenz: CC BY.
+                    </p></head>
+                        </figure>
+                    </p>
+                    
+                </div>
+                <div type="div2">
+                    <head>Panel und Rollenspiel: Institutionelle Herausforderungen </head>
+                    <p>Der zweite Halbtag beginnt mit einer Podiumsdiskussion, die die DH-Community und angrenzende Felder zusammenführt. Diskutiert werden soll die Umsetzung einer grünen Agenda auf zwei Ebenen: zum einen institutionell auf Ebene der Infrastruktureinrichtungen, die für DH-Forschung unerlässlich sind, zum anderen durch Vertretende anderer geistes- und sozialwissenschaftlicher Fächer bzw. Bereiche, die in der ökologischen Diskussion weiter sind als die Digital Humanities. Die Diskussion der Panelistinnen untereinander und mit den Workshop-Teilnehmenden soll dazu beitragen, institutionelle Spielräume zu identifizieren, in denen ein Paradigmenwechsel in der Praxis angestoßen werden kann.</p>
+                    <p>Es soll hier besonders der Frage nachgegangen werden, an welcher Stelle die DH-Community eigene Lenkungsmechanismen einsetzen könnte, um einen strukturellen Systemwandel in die Wege zu leiten: Was können die einschlägigen DH-Verbände (DHd, EADH, ADHO) und zukünftigen Konferenzausrichtende beitragen? Wie können Förderinstitutionen als Unterstützung erreicht werden? An welchen Stellen können Infrastrukturen ansetzen?</p>
+                    <p>Eingeladene Panelistinnen:</p>
+                    <list type="unordered">
+                        <item>Dr. Magdalena Palica, Leiterin der Wissenschaftlichen Bibliothek der Stadt Trier</item>
+                    </list>
+                    <list type="unordered">
+                        <item>Prof. Dr. Julia Affolderbach, Professorin für Nachhaltige Regional- und Standortentwicklung, Universität Trier</item>
+                        <item>Dr. Rabea Kleymann, ZfL Berlin, Vertreterin des DHd-Vorstands</item>
+                    </list>
+                    <p>Diese Diskussionsrunde möchte einen Impuls für eine ganzheitlich nachhaltige DH-Praxis geben und weitere Aktivitäten auf diesem Gebiet anstoßen. Die eingeladenen Expertinnen sind bewusst nicht ausschließlich aus den engeren Kreisen der DH-Community gewählt, sondern auch aus angrenzenden strategischen Feldern, um einen umfassenderen Austausch anzuregen sowie potentielle Synergien auszuloten. Außerdem ist vorgesehen, das Panel aufzunehmen und im Nachgang als Podcast auszustrahlen.</p>
+                    <p>Im Anschluss an diese Podiumsdiskussion wird ein Rollenspiel den Teilnehmenden die Gelegenheit geben, eine Perspektive der in einem Projekt involvierten Akteurinnen und Akteure einzunehmen. Den Teilnehmenden wird eine Funktion zugeteilt (Personal aus Universitätsleitung, DH-Forschung, DH-Studium, IT, etc.) und sie sollen sich im Gespräch mit den anderen einer Herausforderung stellen. Für jede Rolle werden Profil und Ziele vorgegeben. Es sind drei Rollenspiel-Runden (jeweils ca. 20 min) geplant, wobei die Rollen jedes Mal unter den Teilnehmenden neu gemischt werden. So sind die zu lösenden Aufgaben jedes Mal neu und die Teilnehmenden werden dazu angeregt, sich die jeweiligen Argumente aus verschiedenen Perspektiven anzuschauen und sich in verschiedene Handlungsspielräume hineinzudenken. Die drei angedachten Szenarien sind:</p>
+                    <list type="unordered">
+                        <item>Top-Down: Das Direktorium verlangt den Entwurf einer Richtlinie, um den ökologischen Fußabdruck einer Abteilung / eines Instituts / einer Universität zu reduzieren, unter der Maßgabe des Qualitätserhalts von Forschung / Lehre / Infrastruktur.</item>
+                        <item>Bottom-Up: Mitarbeitende und Studierende engagieren sich für den Aufbau einer Nachhaltigkeitsgruppe, die sich innerhalb der Universität / Akademie für die nachhaltige Durchführung von Projekten und Bildungsveranstaltungen zu ökologischen Themen einsetzen soll und suchen Unterstützung in Verwaltung / Leitung.</item>
+                        <item>Worst Case (for now): Eine Hitzewelle von bis zu 45 Grad macht es unmöglich, den Betrieb von Forschung / Lehre / Rechenzentrum aufrecht zu erhalten: Welche Maßnahmen sollen getroffen und umgesetzt werden, um mit dieser Situation umzugehen?</item>
+                    </list>
+                    <p>Abschließend werden die gewonnenen Perspektiven, Fragen und Lösungsideen in einer gemeinsamen, moderierten Diskussion zusammengetragen. Individuelle und institutionelle Handlungsspielräume werden gegenübergestellt, passende Optionen für die Nachverwertung der Workshop-Resultate und zukünftige Perspektiven der “Green DH” erörtert.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret. </hi>2021. “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” 
+                        <hi rend="color(#000000)italic">FAccT 21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <ref target="https://doi.org/10.1145/3442188.3445922">
+                            <hi rend="color(#1155cc)underline">10.1145/3442188.3445922</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DHCC Information, Measurement and Practice Action Group. </hi>2022. “A Researcher Guide to Writing a Climate Justice Oriented Data Management Plan.”
+                        <hi rend="color(#000000)italic">Digital Humanities Climate Coalition</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#0563c1)underline">10.5281/zenodo.6451499</hi>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DHCC Toolkit Action Group.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">2022. </hi>
+                        <hi rend="color(#000000)italic">Toolkit</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#0563c1)underline">https://sas-dhrh.github.io/dhcc-toolkit/</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eder, Kerstin; Gallagher, John P.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">2017.</hi>
+                        <hi rend="color(#000000)"> “</hi>
+                        <hi rend="color(#000000)">Energy-Aware Software Engineering.” </hi>
+                        <hi rend="color(#000000)italic">ICT – Energy Concepts for Energy Efficiency and Sustainability</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <ref target="https://doi.org/10.5772/62522">
+                            <hi rend="color(#1155cc)underline">10.5772/62522</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Faber, Grant</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">. 2021. “A Framework to Estimate Emissions from Virtual Conferences.” In </hi>
+                        <hi rend="color(#000000)italic">International Journal of Environmental Studies</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">78: 608-623 </hi>
+                        <ref target="https://doi.org/10.1080/00207233.2020.1864190">
+                            <hi rend="color(#1155cc)underline">10.1080/00207233.2020.1864190</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ferreboeuf, Hugues; Efoui-Hess, Maxime; Kahraman, Zeynep. </hi>2019. 
+                        <hi rend="color(#000000)italic">Lean ICT: Towards Digital Sobriety</hi>
+                        <hi rend="color(#000000)">, The Shift Project </hi>
+                        <ptr target="https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Glausiusz, Josie.</hi> 2021. “Rethinking travel in a post-pandemic world.” In 
+                        <hi rend="color(#000000)italic">Nature</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">15.01. </hi>
+                        <ptr target="https://www.nature.com/articles/d41586-020-03649-8"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 14. Juli 2021).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gröger, Jens; Köhn, Marina.</hi> 2014. 
+                        <hi rend="color(#000000)italic">Dokumentation des Fachgesprächs “Nachhaltige Software” am 28.11.2014</hi>
+                        <hi rend="color(#000000)">, Umweltbundesamt </hi>
+                        <ptr target="https://www.umweltbundesamt.de/publikationen/nachhaltige-software"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hauke, Petra; Latimer, Karen; Werner, Klaus Ulrich (eds.).</hi> 2013. 
+                        <hi rend="color(#000000)italic">The Green Library – Die grüne Bibliothek</hi>
+                        <hi rend="color(#000000)">, De Gruyter / Saur.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Höfner, Anja / Frick, Vivian (eds.). </hi>2018. 
+                        <hi rend="color(#000000)italic">Was Bits und Bäume verbindet. Digitalisierung nachhaltig gestalten</hi>
+                        <hi rend="color(#000000)">, Oekom </hi>
+                        <ptr target="https://www.oekom.de/buch/was-bits-und-baeume-verbindet-9783962381493"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Holmes, Martin; Takeda , Joseph.</hi> 2019. “The Prefabricated Website: Who Needs a Server Anyway?” 
+                        <hi rend="color(#000000)italic">TEI 2019. What is text, really? TEI and beyond</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <ref target="https://gams.uni-graz.at/o:tei2019.116">
+                            <hi rend="color(#1155cc)underline">gams.uni-graz.at/o:tei2019.116</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klöwer, Milan; Hopkins, Debbie; Allen, Myles; Higham, James.</hi> 2020. “An analysis of ways to decarbonize conference travel after COVID-19.” In 
+                        <hi rend="color(#000000)italic">Nature</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">15.07. </hi>
+                        <ptr target="https://www.nature.com/articles/d41586-020-02057-2"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 14. Juli 2021).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lange, Steffen; Santarius, Tilman.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">2018. </hi>
+                        <hi rend="color(#000000)italic">Smarte Grüne Welt? Digitalisierung zwischen Überwachung, Konsum und Nachhaltigkeit</hi>
+                        <hi rend="color(#000000)">, Oekom </hi>
+                        <ptr target="https://www.oekom.de/buch/smarte-gruene-welt-9783962380205"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Leal Filho, Walter; Sima, Mihaela; Sharifi, Ayyoob et al.</hi> 2021. “Handling climate change education at universities: an overview.” In 
+                        <hi rend="color(#000000)italic">Environmental Sciences Europe</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">33,109 </hi>
+                        <ref target="https://doi.org/10.1186/s12302-021-00552-5">
+                            <hi rend="color(#0563c1)underline">10.1186/s12302-021-00552-5</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mariette, Jérôme; Blanchard, Odile; Berné, Olivier; Ben-Ari, Tamara.</hi> 2021. “An open-source tool to assess the carbon footprint of research.” In 
+                        <hi rend="color(#000000)italic">bioRxiv</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">16.01. </hi>
+                        <ref target="https://doi.org/10.1101/2021.01.14.426384">
+                            <hi rend="color(#1155cc)underline">10.1101/2021.01.14.426384</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pendergrass, Keith L.; Sampson, Walker; Walsh, Tim; Alagna, Laura.</hi> 2019. “Toward Environmentally Sustainable Digital Preservation.” In 
+                        <hi rend="color(#000000)italic">The American Archivist</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">82:165–206 </hi>
+                        <ref target="https://doi.org/10.17723/0360-9081-82.1.165">
+                            <hi rend="color(#1155cc)underline">10.17723/0360-9081-82.1.165</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schomaker, Gunnar; Janacek, Stefan; Schlitt, Daniel.</hi> 2014. “The Energy Demand of Data Centers.” 
+                        <hi rend="color(#000000)italic">ICT Innovations for Sustainability</hi>
+                        <hi rend="color(#000000)">, 113-124 </hi>
+                        <ref target="https://doi.org/10.1007/978-3-319-09228-7_6">
+                            <hi rend="color(#1155cc)underline">10.1007/978-3-319-09228-7_6</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stroud, James T.; Feeley, Kenneth J.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">2015. “Responsible academia: optimizing conference locations to minimize greenhouse gas emissions.” In </hi>
+                        <hi rend="color(#000000)italic">Ecography</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">38:402–404 </hi>
+                        <ref target="https://doi.org/10.1111/ecog.01366">
+                            <hi rend="color(#1155cc)underline">10.1111/ecog.01366</hi>
+                        </ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

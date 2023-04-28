@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KOU_HERREMA_Tianyi_Constructing_Multicultural_Germany__Narra" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Constructing Multicultural Germany: Narratives on the Germany Men’s National Football Team from 2006 to 2018</title>
+                <author>
+                    <persName>
+                        <surname>Kou-Herrema</surname>
+                        <forename>Tianyi</forename>
+                    </persName>
+                    <affiliation>Michigan State University, USA; Universität Leipzig, Germany</affiliation>
+                    <email>koutiany@msu.edu</email>
+                    <idno type="ORCID">0000-0001-6630-366X</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T20:09:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Designing</term>
+                    <term>Searching</term>
+                    <term>Writing</term>
+                    <term>Content Analysis</term>
+                    <term>Research Process</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Overview and Research Questions</head>
+                <p style="text-align: left; ">My dissertation examines media narratives built around the multicultural German national football teams (both men and women) and argues that football not only helps pursue and formulate national identity, but also has become a battleground for both the promotion and contestation of German national identity. I aim to answer the following research questions: How was this multicultural team portrayed, utilized, and interpreted differently in the media between 2006 to 2018? What social forces created the demographically diverse national team and discourse surrounding them between this period? How has the rhetoric “multicultural national team” influenced ongoing debates over German national identity?</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>State of Research</head>
+                <p style="text-align: left; ">This research builds on works drawn from the fields of sports studies, German studies, and digital humanities. Sports historian Kay Schiller (2015) warned readers not to confuse the rising acceptance of a multi-ethnic society with a positive endorsement of multiculturalism, which became a trend when studying football and national identity. Building on his argument, my research hopes to find out in which ways was the team perceived in the media as a representative and an endorsement of a supposed multicultural society. While Schiller recognized emerging discussions of multicultural society in debates over football nationalism, German studies scholars Stehle and Weber (2013) have focused on the phenomenon where media portrayed players differently based on their race rather than performance. However, most humanity scholars selected several articles and conducted close reading despite the number of materials they had at hand. With the help of computational methods, my work takes the approach of scalable reading (Müller) -- combining close and distant reading (Moretti, 2013), and treats computational methods as an addition to rather than a replacement of close reading when analyzing cultural phenomena. I believe that only through detecting long-term trends and telling individual stories can one better answer the open-ended research questions formulated above.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Research Program</head>
+                <p style="text-align: left; ">Since no databases exists containing news articles around the national teams, one of the central tasks of this dissertation is building a customized corpus consisting of news reports written and published between 2006 - 2018. The corpus consists of news reports collected from the LexisNexis database. This database contains enormous amount of data and is tricky to navigate. Therefore, I developed a strategy where I first read a sample collection of articles, documented and categorized key terms used in these articles, and eventually wrote three search strings to test which one gives me the best search results. Using the Precision at k metric, I determined the best search string that can be applied to LexisNexis’ database. This innovative approach on extracting data from a rather complicated database could also be applied to other research in the future. As for now, I have completed data collection. To complete my dissertation, I need to finish data cleaning, and then conduct topic modeling and co-occurrence network analysis. Latent Dirichlet Allocation (LDA) is a widely used technique for topic modeling, which is the process of uncovering hidden topics in a collection of documents. Co-occurrence network analysis can help uncover hidden relationships and provide insights into the structure of my corpus. In this project, I use it to show the relationship between certain players and language used to describe them. These results could help me locate individual narratives that require closer examination. My analysis will then combine this qualitative approach with closely reading representative news articles. With this goal in mind, my work hopes to bring new perspectives to understand the complex role of the multicultural 
+                    <hi rend="italic">Mannschaft</hi> in the process of shaping contemporary German identity.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schedule</head>
+<list type="unordered">
+                    <item>December 2022: Cleaning and testing corpus; conducting initial topic modeling analysis</item>
+                    <item>January – early March 2023: Conducting co- occurrence network analysis; compiling articles that need to be read closely; presenting at the 2023 DHd conference and receiving feedback</item>
+                    <item>April &amp; May 2023: Writing the distant reading section of my dissertation, including descriptions of methods, process, and results; compiling articles that need to be read closely</item>
+                    <item>June – September 2023: Completing the qualitative section where I conduct analysis on news articles that touch on football players involved in political debates</item>
+                    <item>October – February 2023: Writing the three main chapters of my dissertation</item>
+                    <item>March and April 2024 – Finishing the Epilogue chapter and revising all chapters</item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Moretti, Franco.</hi> 2013. 
+                        <hi rend="italic">Distant Reading</hi>. 1st edition. Verso.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Müller, Martin.</hi> n.d. “Scalable Reading.” Accessed August 3, 2022. 
+                        <ref target="https://scalablereading.northwestern.edu/">https://scalablereading.northwestern.edu/</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Schiller, Kay.</hi> 2015. “‘Siegen Für Deutschland?’ Patriotism, Nationalism and the German National Football Team, 1954-2014.” 
+                        <hi rend="italic">Historical Social Research / Historische Sozialforschung</hi> 40 (4 (154)): 176–96.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stehle, Maria, and Beverly M. Weber.</hi> 2013. “German Soccer, the 2010 World Cup, and Multicultural Belonging.” 
+                        <hi rend="italic">German Studies Review</hi> 36 (1): 103-124.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

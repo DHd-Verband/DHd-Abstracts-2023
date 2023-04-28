@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HORSTMANN_Jan_Algorithmen_anwenden___algorithmisch_denken" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Algorithmen anwenden – algorithmisch denken.</title>
+                    <title type="sub">„Algorithmizität“ als Brücke zwischen Geisteswissenschaften und Informatik?</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Universität Leipzig</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                    <idno type="ORCID">0000-0003-1354-9089</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Geiger</surname> 
+                        <forename>Jonathan D.</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>Jonathan.Geiger@adwmainz.de</email>
+                    <idno type="ORCID">0000-0002-0452-7075</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Horstmann</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Westfälische Wilhelms-Universität Münster</affiliation>
+                    <email>jan.horstmann@uni-muenster.de</email>
+                    <idno type="ORCID">0000-0001-8047-2232</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kleymann</surname>
+                        <forename>Rabea</forename>
+                    </persName>
+                    <affiliation>Leibniz Zentrum für Literatur- und Kulturforschung Berlin</affiliation>
+                    <email>kleymann@zfl-berlin.org</email>
+                    <idno type="ORCID">0000-0003-3856-2685</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schmitz</surname>
+                        <forename>Jascha</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität Berlin</affiliation>
+                    <email>smitzjak@hu-berlin.de</email>
+                    <idno type="ORCID">0000-0002-6971-6758</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schwandt</surname>
+                        <forename>Silke</forename>
+                    </persName>
+                    <affiliation>Universität Bielefeld</affiliation>
+                    <email>silke.schwandt@uni-bielefeld.de</email>
+                    <idno type="ORCID">0000-0001-8303-4668</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Algorithmus</term>
+                    <term>Theoriebildung</term>
+                    <term>Begriffsarbeit</term>
+                    <term>Transdisziplinarität</term>
+                    <term>Computational Thinking</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Kontextsetzung</term>
+                    <term>Theoretisierung</term>
+                    <term>Daten</term>
+                    <term>Forschung</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Latente und explizite Algorithmizität</head>
+                <p>In den Geisteswissenschaften werden immer wieder tradierte Strukturen der Wissensproduktion hinterfragt und neu geordnet – so auch vor dem Hintergrund der Digital Humanities, die die traditionellen Geisteswissenschaften mit digitalen Forschungsmethoden teils unterstützen, teils konfrontieren. Neben Reflexionen über Medialität und Sozialität geisteswissenschaftlicher Erkenntnisprozesse werden dichotomische Setzungen wie analog/digital, qualitativ/quantitativ sowie kontinuierlich/diskret auf den Prüfstand gestellt. Gleichzeitig gewinnen auch andere „epistemische Tugenden“ (Daston und Galison 2007), wie zum Beispiel Transparenz, Evidenz und Reproduzierbarkeit, für geisteswissenschaftliche Forschungsfelder eine neue Relevanz. Im Zuge dessen lässt sich eine umfassende Neuvermessung disziplinspezifischer Kulturen des Verstehens beobachten, die jenseits eines tradierten „Two Cultures“-Paradigmas (Snow 1959) verfährt. Kennzeichnend sind vielmehr Querverbindungen und Verschränkungen, welche die disziplinären Profile der Geisteswissenschaften sowie der Informatik neu ins Verhältnis setzen. Als eine solche mögliche disziplinäre Querverbindung möchten wir im Workshop 
+                    <hi rend="italic">Algorithmizität</hi> verhandeln.
+                </p>
+                <p>Der von der AG „Digital Humanities Theorie“ organisierte Workshop widmet sich Voraussetzungen, Potenzialen und Implikationen von Algorithmizität in den Humanities. Dabei knüpft der Workshop an aktuelle Forschungsinteressen der AG an und setzt zugleich Diskussionen der im Juni 2022 organisierten Tagung „Algorithmizität als Kultur des Verstehens“ fort. Einen ersten Ausgangspunkt des Workshops bildet nun die Annahme, dass sich in traditionellen und aktuellen Forschungspraktiken der Geisteswissenschaften latente Formen der Algorithmizität wiederfinden lassen. Darunter sind nicht nur digitale Formen geisteswissenschaftlichen Arbeitens im Sinne einer prozessual aufgefassten Algorithmisierung zu verstehen. Vielmehr bezeichnet Algorithmizität einen Formalisierungsgrad von Handlungsanweisungen, der sich in geisteswissenschaftlichen Methoden 
+                    <hi rend="italic">sui generis</hi> manifestiert. Insbesondere Versuche einer systematischen und symbolischen Externalisierung geistiger Operationen sind seit langem Bestandteil philosophischen Denkens (vgl. Gramelsberger 2020). Im Verlauf der Tagung  wurden konkrete Beispiele latenter (d.h. impliziter) bis expliziter Algorithmizität in den Geisteswissenschaften skizziert und diskutiert, die sich etwa in der Mathematisierung der Musik und algorithmischer Musikproduktion in den Musikwissenschaften (vgl. Braguinski 2018), dem systematisierten Vorgehen der 
+                    <hi rend="italic">Objektiven Hermeneutik</hi> und 
+                    <hi rend="italic">Grounded Theory</hi> in den Sozialwissenschaften (vgl. Muller et al. 2016; vorgestellt durch Dennis Möbus) oder in Binarität als Zugang zu literaturwissenschaftlichen Untersuchungen von Textmaterialität (vgl. Coch, Hahn und Pethes 2022) ausdrückt. Weitere historische Beispiele wären die Konzeption von Rede und Gegenrede in den platonischen Dialogen, das dialektische Format der mittelalterlichen Quaestio im Anschluss an Petrus Abaelardus, die methodologischen Überlegungen der frühneuzeitlichen Wissenschaftsphilosophie wie sie beispielsweise bei Bacon oder Descartes zu finden sind, die phänomenologische Reduktion nach Husserl oder schließlich die Hermeneutik als verbindendes Element der Geisteswissenschaften, der als methodisches und stufenweises Vorgehen der generellen Textrezeption eine besondere Rolle zukommt.
+                </p>
+                <p>Vor diesem Hintergrund verstehen wir Algorithmizität als ein graduelles Phänomen (vgl. Abb. 1). So können latente und explizite Formen der Algorithmizität unterschieden werden, die einerseits von Prozessen der Quantifizierung und Diskretisierung bis zu maschinenlesbaren Handlungsabläufen reichen, deren prozesshafte Kontingenzreduktion aufgrund zeichenbasierter Befehle maximal ist. Andererseits werden auch disziplinspezifische Umgangsformen mit Algorithmizität und Praktiken einer algorithmischen Gegenstandskonstruktion sichtbar.</p>
+                <figure>
+                    <graphic n="1001" width="8.678333333333333cm" height="7.408333333333333cm" url="Pictures/da3646813d38203259b61e604d59ad4d.png" rend="inline"/>
+                    <head>Abb. 1: Algorithmizität als graduelles Phänomen</head>
+                </figure>
+                <p>Algorithmizität wollen wir im Workshop aus drei unterschiedlichen Perspektiven betrachten und diskutieren: (1) als Konzept  in der theoretischen Begriffsarbeit, (2) als spezifisch (geisteswissenschaftliche) Erkenntnis- und Denkstruktur und (3) als (trans-)disziplinärer Kompass, d.h. als eine Art Navigationshilfe zwischen den einzelnen Disziplinen der Digital Humanities. Ziel des Workshops ist es, gemeinsam mit der DH-Community zu elaborieren, inwiefern Algorithmizität eine geeignete Beschreibungskategorie ist, um bestimmte Formen geisteswissenschaftlicher Wissensproduktionen zu charakterisieren. Die gemeinsame Diskussion von Beschreibungskategorien trägt dabei, so argumentieren wir, auch Forderungen von Open Science Rechnung, da die Dokumentation solcher Kategorien die Transparenz, Nachvollziehbarkeit und Reproduzierbarkeit von Interpretationen erhöht. Was wird eigentlich verhandelbar, wenn Strukturen der Problembehandlung und Bedeutungszuweisung in den Humanities als algorithmisch beschrieben werden? Inwiefern stellt Algorithmizität eine Bereicherung für den interdisziplinären Austausch dar? Denn Algorithmizität kann nicht nur als impliziter Teil von etablierten Kulturen des Verstehens, sondern selbst als Kulturtechnik des Verstehens begriffen werden. In welchen latenten und expliziten Ausprägungen Algorithmizität in einzelnen geisteswissenschaftlichen Erkenntnisprozessen stattfindet, wollen wir im Workshop diskutieren. Darüber hinaus fragen wir auch, inwiefern Algorithmizität in den computationellen Disziplinen einerseits und in den Geistes- und Kulturwissenschaften andererseits strukturelle Kongruenzen aufweisen, die methodisch, technisch und wissenschaftskulturell als Brücke zwischen diesen beiden Wissenschaftsbereichen dienen können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vermessung von Algorithmizität als Beschreibungskategorie</head>
+                <p>Aktuell wird Algorithmizität in den verschiedenen Disziplinen der (Digital) Humanities in unterschiedlicher Form diskutiert: Die Sozial- und Wirtschaftsgeschichte beispielsweise nimmt auf verschiedene Art Bezug auf algorithmische Methoden der empirischen Sozialforschung oder historischen Demographie, um ihre Interpretationen zu stützen (vgl. Schremmer 1998). In medienwissenschaftlichen Kontexten wird Algorithmizität einerseits als eine Eigenschaft der Kultur der Digitalität (vgl. Stalder 2019, 13) bezeichnet, andererseits aber auch als eine 
+                    <hi rend="italic">potentia</hi> beschrieben, die dem Algorithmus als spezifische Form vorausgeht (vgl. Rutz 2016, 41). In einer informatischen Perspektive taucht Algorithmizität neben Sequenzialität und Abstraktion als Teilaspekt eines 
+                    <hi rend="italic">computational thinking</hi> auf (vgl. Denning und Tedre 2019). Für die DH eröffnet sich ein Reflexionsraum für die eigenen Verstehenspraktiken (vgl. Rehbein 2022). Für die beteiligten geisteswissenschaftlichen Disziplinen stellt sich darüber hinaus die Frage nach dem Potenzial der Auseinandersetzung mit dem Begriff der Algorithmizität für die eigene Theoriereflexion.
+                </p>
+                <p>Um dieses interdisziplinäre Feld aus Perspektive der Algorithmizität zu sondieren, widmet sich unser Workshop folgenden zentralen Fragekomplexen:</p>
+                <p>Algorithmizität und Begriffsarbeit</p>
+<list type="unordered">
+                    <item>Was sind Kriterien zur Bestimmung des Algorithmischen? (Performanz, Effizienz, Binarität …) Welche Rolle(n) spielen sie?</item>
+                    <item>Gibt es ein Spannungsverhältnis zwischen Algorithmizität und Verstehen oder ist das eine im anderen enthalten?</item>
+                    <item>Wie können Begriffe wie ‘Algorithmus’, ‘Algorithmizität’ oder ‘Algorithmisierung’ differenziert werden?</item>
+                    <item>Was sind die Grenzen des Algorithmizitätsbegriffs? Wie unterscheidet sich Algorithmizität von den Begriffen Kalkül (vgl. Krämer 1991), Modell (vgl. Flanders und Jannidis 2019) oder Regel (vgl. Daston 2022)?</item>
+                </list>
+                <p>Algorithmizität als Erkenntnis-und Denkstruktur</p>
+<list type="unordered">
+                    <item>Ist 
+                        <hi rend="italic">computational thinking</hi> das Gleiche wie ein algorithmischer Erkenntnisprozess und das Gleiche wie ein regelgeleitetes Vorgehen (wie etwa Dilthey oder Descartes es beschreiben)?
+                    </item>
+                    <item>Was nützt uns die Klassifizierung von (geisteswissenschaftlichen) Erkenntnisprozessen als algorithmisch oder nicht-algorithmisch?</item>
+                    <item>Wird alles algorithmisch? Was sind die Grenzen des Phänomens?</item>
+                </list>
+                <p>Algorithmizität als (trans-)disziplinärer Kompass</p>
+<list type="unordered">
+                    <item>Wie unterscheiden sich die in den einzelnen Disziplinen der Humanities angewandten Algorithmen oder regelgeleiteten Methodensettings? Was sind Gemeinsamkeiten?</item>
+                    <item>Was sind disziplinäre Unterschiede zwischen geisteswissenschaftlicher und informatischer Wissensproduktion?</item>
+                    <item>Was nützt uns das Wissen um Gemeinsamkeiten und Unterschiede der weniger oder stärker algorithmisch geprägten Art der Erkenntnisproduktion in den Disziplinen?</item>
+                    <item>
+                        <hi rend="bold">
+                            <hi rend="normalweight">Ist das „</hi>
+                            <hi rend="normalweight">Two</hi>
+                            <hi rend="normalweight" xml:space="preserve"> Cultures“-Paradigma weiterhin gültig?</hi>
+                        </hi>
+                    </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodik und Ablauf des Workshops</head>
+                <p>Um partizipative Strukturen vor, während und nach dem Workshop zu ermöglichen, haben wir ein begleitendes Programm geplant. Zur Vorbereitung des Workshops sollen bis zur DHd-Konferenz 2023 sukzessive drei Beiträge für den Theorie-Blog<ref n="1" target="ftn1"/> publiziert werden: Nach einer Zusammenfassung der Tagung von 2022 mit ihren zentralen Thesen und Diskussionspunkten planen wir, zwei kontrastierende 
+                    <hi rend="italic">opinion pieces</hi> zu veröffentlichen, die das Für und Wider einer Verwendung des Begriffs ‘Algorithmizität’ im geisteswissenschaftlichen Diskurs versammeln. Um schon im Vorfeld Spannweiten des Algorithmizitätsbegriffs zu erproben, wird die Forschungscommunity ausdrücklich zur Partizipation aufgerufen, indem wir Diskussionen über die blogeigene Kommentarfunktion oder über Twitter<ref n="2" target="ftn2"/> und Mastodon<ref n="3" target="ftn3"/> ermöglichen. Im Workshop selbst sollen einerseits die vorläufigen Ergebnisse und Kernthesen der vorangegangenen Tagung in kondensierter Form präsentiert werden, vor allem wollen wir andererseits aber auch eine systematische Diskussion zur Verfasstheit und zum Potenzial von Algorithmizität führen. Unser Ziel für den Workshop ist es, den Teilnehmenden das Konzept bzw. Konzepte von Algorithmizität nahezubringen, anhand konkreter Beispiele aus den (digitalen) Geisteswissenschaften kritisch zu diskutieren und schließlich seine Eignung und seinen Mehrwert für den Theoriediskurs in den DH herauszuarbeiten.
+                </p>
+                <p>Der Workshop ist für vier Stunden angesetzt und der Ablauf ist folgendermaßen strukturiert:</p>
+                <p>0:00–0:15 Kurze Vorstellung der AG Theorie und der Workshopteilnehmenden</p>
+                <p>0:15–0:30 Erste Annäherungen an den Algorithmizitätsbegriff </p>
+                <p>0:30–0:45 Zusammenfassung der wesentlichen Thesen und vorläufigen Ergebnisse aus der vorangegangenen Tagung</p>
+                <p>0:45–1:30 Kontrastierende Stellungnahmen (pointierte Provokationen) und anschließende Diskussionen</p>
+<list type="unordered">
+                    <item>Algorithmizität als leere Worthülse</item>
+                    <item>Algorithmizität als Projektionsfläche für Theoriediskurse in den DH</item>
+                </list>
+                <p>1:30–2:00 
+                    Pause
+                </p>
+                <p>2:00–3:00 World-Café zu einzelnen Diskussionspunkten (vgl. zentrale Fragekomplexe), moderiert durch AG-Mitglieder; Ziele:</p>
+<list type="unordered">
+                    <item>Begriffsarbeit: Erarbeitung von interdisziplinären und disziplinspezifischen Kriterien und Definitionen von ‘Algorithmizität’</item>
+                    <item>Erkenntnisstruktur: Bestimmung (möglicher) Funktionen des Begriffs im wissenschaftlichen Diskurs</item>
+                    <item>(trans-)disziplinärer Kompass: Sammlung von Beispielen des Algorithmischen in bestehenden geisteswissenschaftlichen Wissensstrukturen</item>
+                </list>
+                <p>3:00–3:15 Pause
+                </p>
+                <p>3:15–3:45 Vorstellung der Gruppenarbeiten und moderierte Diskussion</p>
+                <p>3:45–4:00 Dokumentation der Ergebnisse; Ziel: Potenzialbewertung des Algorithmizitätsbegriffs für die Charakterisierung der DH allgemein und die Theoriebildung in den DH im Besonderen</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zielpublikum und Teilnehmer*innenzahl</head>
+                <p>Am Workshop können bis zu 25 Theorie-interessierte Personen aus allen Teildisziplinen der Digital Humanities teilnehmen. Erfahrungen im Einsatz oder in der Reflexion von Algorithmen und/oder epistemischen Strukturen ist hilfreich, aber keine Teilnahmevoraussetzung.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Beteiligte und Forschungsinteressen</head>
+                <p>Manuel Burghardt ist Professor für Computational Humanities im Institut für Informatik an der Universität Leipzig. Seine Forschungsinteressen umfassen computergestützte Verfahren der Annotation, Analyse und Visualisierung von geisteswissenschaftlichen Forschungsdaten.</p>
+                <p>Jonathan D. Geiger arbeitet an der Akademie der Wissenschaften und der Literatur | Mainz im Infrastrukturprojekt NFDI4Culture. Seine Interessensschwerpunkte liegen auf der philosophisch-theoretischen Reflexion digitaler Forschungsmethoden in den Geisteswissenschaften und der Digitalität insgesamt, sowie auf Fragen infrastruktureller Bedürfnisse der NFDI4Culture-Bedarfe und der Philosophie-Community.</p>
+                <p>Jan Horstmann leitet das Service Center for Digital Humanities (SCDH) an der ULB der Westfälischen Wilhelms-Universität Münster. Seine Forschungsinteressen und -schwerpunkte liegen im Bereich der digitalen Methodologie mit besonderem Fokus auf die Textannotation, -analyse und Visualisierung im Bereich der computationellen Literaturwissenschaft.</p>
+                <p>Rabea Kleymann ist Postdoktorandin am Leibniz-Zentrum für Literatur- und Kulturforschung Berlin. Dort leitet sie seit 2020 das Projekt „Diffraktive Epistemik. Wissenskulturen in den Digital Humanities“. Ihre Forschungsinteressen liegen im Bereich der Wissenschaftstheorie, Science &amp; Technology Studies sowie den computationellen Literaturwissenschaften.</p>
+                <p>Jascha Schmitz studiert im Master Geschichtswissenschaften an der Humboldt-Universität zu Berlin mit dem Schwerpunkt Digital History und arbeitet als wissenschaftliche Hilfskraft am Max-Planck-Institut für Wissenschaftsgeschichte. Im Rahmen seiner Masterarbeit liegt sein Forschungsfokus auf Simulationsmethoden für die Geschichtswissenschaften.</p>
+                <p>Silke Schwandt ist Professorin für Digital History an der Universität Bielefeld. Sie forscht aktuell zur Veränderung von geschichtswissenschaftlichen Forschungspraktiken unter Bedingungen der Digitalität sowie zum Potential von digitalen Methoden für die Selbstreflexion der Geschichtswissenschaft.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Benötigte technische Ausstattung</head>
+                <p>Wir benötigen einen Raum mit flexibler Bestuhlung und Tischen, die zu Gruppentischen verschoben werden können. Außerdem benötigen wir einen Moderationskoffer mit Materialien für Gruppenarbeiten und einen Beamer.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Vgl. 
+                            <ref target="https://dhtheorien.hypotheses.org/">https://dhtheorien.hypotheses.org/</ref> (zugegriffen: 09. Dezember 2022).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Vgl. die bisherige Diskussion unter 
+                            <ref target="https://twitter.com/search?q=dhtheorie_Algo22&amp;src=typed_query&amp;f=live">#dhtheorie_Algo22</ref> (zugegriffen: 09. Dezember 2022).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                         Vgl. 
+                            <ref target="https://fedihum.org/@DHTheorie">https://fedihum.org/@DHTheorie</ref> (zugegriffen: 09. Dezember 2022).
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Braguinski, Nikita.</hi> 2018. </hi>
+                        <hi rend="italic" style="font-size:11pt">RANDOM. Die Archäologie der elektronischen Spielzeugklänge.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> Bochum: projektverlag.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Coch, Charlotte, Torsten Hahn und Nicolas Pethes (Hg.).</hi> Im Erscheinen. </hi>
+                        <hi rend="italic" style="font-size:11pt">Lesen / Sehen. Literatur als wahrnehmbare Kommunikation</hi>
+                        <hi style="font-size:11pt">. Bielefeld: transcript.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Daston, Lorraine.</hi>2022. </hi>
+                        <hi rend="italic" style="font-size:11pt">Rules: A Short History of What We Live By</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, Princeton: Princeton University Press. </hi>
+                        <ref target="https://doi.org/10.1515/9780691239187">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.1515/9780691239187</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Daston, Lorraine und Peter Galison.</hi> 2007. </hi>
+                        <hi rend="italic" style="font-size:11pt">Objektivität</hi>
+                        <hi style="font-size:11pt">. 1. Aufl. Frankfurt am Main: Suhrkamp.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Denning, Peter J. und Matti Tedre.</hi> 2019. </hi>
+                        <hi rend="italic" style="font-size:11pt">Computational Thinking</hi>
+                        <hi style="font-size:11pt">. Cambridge: MIT Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Flanders, Julia und Fotis Jannidis (Hg.).</hi> 2019. </hi>
+                        <hi rend="italic" style="font-size:11pt">The Shape of Data in the Digital Humanities: Modeling Texts and Text-Based Resources. Digital research in the arts and humanities</hi>
+                        <hi style="font-size:11pt">. London, New York: Routledge.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Gramelsberger, Gabriele.</hi> 2020. Operative Epistemologie. (Re-)Organisation von Anschauung und Erfahrung durch die Formkraft der Mathematik. Hamburg: Meiner. </hi>
+                        <ref target="https://doi.org/10.28937/978-3-7873-3900-6">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.28937/978-3-7873-3900-6</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Krämer, Sybille.</hi> 1991. </hi>
+                        <hi rend="italic" style="font-size:11pt">Berechenbare Vernunft: Kalkül und Rationalismus im 17. Jahrhundert</hi>
+                        <hi style="font-size:11pt">, Berlin, Boston: de Gruyter.</hi>
+                        <ref target="https://doi.org/10.1515/9783110847079">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.1515/9783110847079</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(141314)" style="font-size:11pt" xml:space="preserve"><hi rend="bold">Muller, Michael, Shion Guha, Eric P. S. Baumer, David Mimno und N. Sadat Shami.</hi> 2016. “Machine Learning and Grounded Theory Method: Convergence, Divergence, and Combination.” </hi>
+                        <hi rend="italic color(141314)" style="font-size:11pt">Proceedings of GROUP’16</hi>
+                        <hi rend="color(141314)" style="font-size:11pt" xml:space="preserve">, Sanibel Island. </hi>
+                        <ref target="https://doi.org/10.1145/2957276.2957280">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.1145/2957276.2957280</hi>
+                        </ref>
+                        <hi rend="color(141314)" style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Rehbein, Malte.</hi> 2022. “Digitizing the Humanities.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Handbook Industry 4.0. Law, Technology, Society</hi>
+                        <hi style="font-size:11pt">, hg. von Walter Frenz, 1171–1176. Berlin: Springer.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Rutz, Hanns Holger.</hi> 2016. “Making a Space of Algorithmicity.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">xCoAx 2016: Proceedings of the Fourth Conference on Computation, Communication, Aesthetics and X</hi>
+                        <hi style="font-size:11pt">, hg. Von Mario Verdicchio, Alison Clifford, André Rangel und Miguel Carvalhais, 29–42.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Schremmer, Eckart (Hg.).</hi> 1998. </hi>
+                        <hi rend="italic" style="font-size:11pt">Wirtschafts- und Sozialgeschichte. Gegenstand und Methode: 17. Arbeitstagung der Gesellschaft für Sozial- und Wirtschaftsgeschichte in Jena 1997</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (Vierteljahrschrift für Sozial- und Wirtschaftsgeschichte). Stuttgart: Steiner.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold">Snow, Charles Percy.</hi> 2012 [1959]. </hi>
+                        <hi rend="italic" style="font-size:11pt">The two cultures</hi>
+                        <hi style="font-size:11pt">. Cambridge, New York: Cambridge UP.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stalder, Felix. 2019.</hi> 
+                        <hi rend="italic">Kultur Der Digitalität</hi>. 4. Auflage. Berlin: Suhrkamp.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

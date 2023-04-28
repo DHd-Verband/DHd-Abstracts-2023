@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SCHNEIDER_Stefanie_Re__ARTigo__Neuentwurf_eines_Social_Taggi" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Re: ARTigo. Neuentwurf eines Social-Tagging-Frameworks aus funktionalen Programmbausteinen</title>
+                <author>
+                    <persName>
+                        <surname>Schneider</surname>
+                        <forename>Stefanie</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>stefanie.schneider@itg.uni-muenchen.de</email>
+                    <idno type="ORCID">0000-0003-4915-6949</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kristen</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>max.kristen@campus.lmu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vollmer</surname>
+                        <forename>Ricarda</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                    <email>ricarda.vollmer@campus.lmu.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Chatbot</term>
+                    <term>Game with a Purpose</term>
+                    <term>Crowdsourcing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bilderfassung</term>
+                    <term>Annotieren</term>
+                    <term>Crowdsourcing</term>
+                    <term>Webentwicklung</term>
+                    <term>Bilder</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:11pt">Das Spiel</hi><ref n="1" target="ftn1"/>
+                <hi style="font-size:11pt" xml:space="preserve"> ist mehr als ein selbstgenügsamer Zeitvertreib für Kinder und Kind Gebliebene (Huizinga 1956). Längst, und substanziell beeinflusst durch die Genese neuerer, digitaler Spielformen, etabliert es sich als Tool, um Wissen nahezu </hi>
+                <hi rend="italic" style="font-size:11pt">en passant</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> zu gewinnen: So begreifen </hi>
+                <hi rend="italic" style="font-size:11pt">Games with a Purpose</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> (</hi>
+                <hi rend="italic" style="font-size:11pt">GWAPs</hi>
+                <hi style="font-size:11pt">; von Ahn und Dabbish 2004) ihre Spieler:innen als unersetzliches, online Wissen generierendes Kollektivum (</hi>
+                <hi rend="italic" style="font-size:11pt">Crowd</hi>
+                <hi style="font-size:11pt" xml:space="preserve">), das sich mäßig begeisternden Aufgaben ohne materielle Entlohnung widmet. Die offensichtliche Trivialität jener </hi>
+                <hi rend="italic" style="font-size:11pt" xml:space="preserve">Microtasks </hi>
+                <hi style="font-size:11pt" xml:space="preserve">wird mit spielähnlichen Mechanismen kaschiert (Deterding et al. 2011, Morschheuser et al. 2017) und durch pädagogische Elemente angereichert (Suttie et al. 2012). Im Folgenden fokussieren wir mit dem originär durch von Ahn und Dabbish (2004) konzipierten </hi>
+                <hi rend="italic" style="font-size:11pt">Extra Sensory Perception (ESP) Game</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> eine wiederholt rezipierte GWAP-Unterklasse, die </hi>
+                <hi rend="italic" style="font-size:11pt">Image-Labeling</hi>
+                <hi style="font-size:11pt" xml:space="preserve">-Prozesse anstößt. Einer der bekanntesten, für die </hi>
+                <hi rend="italic" style="font-size:11pt">Digital Humanities</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> relevanten Ableger ist die seit 2010 an der Ludwig-Maximilians-Universität München entwickelte Plattform ARTigo.</hi><ref n="2" target="ftn2"/>
+                <hi style="font-size:11pt" xml:space="preserve"> In ihr wird das ESP-Game zuvorderst auf kunsthistorische Bilddatenbestände appliziert.</hi>
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Spielprinzip</head>
+                <p>
+                    <hi style="font-size:11pt" xml:space="preserve">Das Spiel fußt auf dem sog. </hi>
+                    <hi rend="italic" style="font-size:11pt">Output-Agreement-</hi>
+                    <hi style="font-size:11pt" xml:space="preserve">Prinzip: Zwei anonym bleibenden Spieler:innen wird über eine </hi>
+                    <hi rend="italic" style="font-size:11pt">Graphical User Interface</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> (</hi>
+                    <hi rend="italic" style="font-size:11pt">GUI</hi>
+                    <hi style="font-size:11pt">) zeitgleich dasselbe Bild präsentiert. Ziel ist es, dieses Bild innerhalb einer festgelegten Zeitspanne mit Schlagwörtern (</hi>
+                    <hi rend="italic" style="font-size:11pt">Tags</hi>
+                    <hi style="font-size:11pt">) derart zu annotieren, dass möglichst viele Punkte durch übereinstimmende Angaben (</hi>
+                    <hi rend="italic" style="font-size:11pt">Matches</hi>
+                    <hi style="font-size:11pt" xml:space="preserve">) erzielt werden. Die Schlagwörter sind frei wählbar und nicht kontrolliert wie in einem Thesaurus, können je nach Spielmodus aber durch </hi>
+                    <hi rend="italic" style="font-size:11pt">Tabuwörter</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> eingeschränkt werden. Tabuwörter stellen bspw. häufig vergebene Schlagwörter dar, denen kein zusätzlicher Informationsgewinn attestiert wird; bei Franz Marcs </hi>
+                    <hi rend="italic" style="font-size:11pt">Die großen blauen Pferde</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> (1911) etwa die Begriffe „Landschaft“ und „Pferde“. Die Spieler:innen müssen nicht simultan operieren. Stattdessen können alte Spielrunden synthetisiert und die für ein Bild dort vergebenen Schlagwörter recycelt werden.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:11pt" xml:space="preserve">Bekanntlich erzeugen Output-Agreement-Spiele aufgrund jener Matching-Prozedur vor allem oberflächlich beschreibende </hi>
+                    <hi rend="italic" style="font-size:11pt">Surface Tags</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> (Bry und Wieser 2012, Bry et al. 2018); in ähnlicher Qualität mittlerweile ebenso von immer leistungsfähigeren </hi>
+                    <hi rend="italic" style="font-size:11pt" xml:space="preserve">Neuronalen Netzwerken </hi>
+                    <hi style="font-size:11pt">produziert (Heinisch 2021, Milani und Fraternali 2021, Zhao et al. 2021). Bspw. durch Tabuwörter implementierte</hi>
+                    <hi rend="italic" style="font-size:11pt">Scripting</hi>
+                    <hi style="font-size:11pt">-Mechanismen, die zur Eingabe semantisch ,tiefergehender‘ Schlagwörter auffordern, begünstigen die sukzessive Diversifikation eines Tag-Bestands zwar (von Ahn und Dabbish 2004, Wieser et al. 2013). Allerdings beobachten wir zwei Defizite:</hi>
+                </p>
+<list type="ordered">
+                    <item>
+                        <hi style="font-size:11pt" xml:space="preserve">Scripting wird oft nicht in Form modularer </hi>
+                        <hi rend="italic" style="font-size:11pt">Add-ons</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> implementiert. An ihre Stelle treten vermeintlich autonome Spiele, die in sog. „Ökosystemen“ komplementär wirken sollen (Wieser et al. 2013, Bry et al. 2018). Disparate, inflexible Codebasen – wie in ARTigo – sind die Folge.</hi>
+                    </item>
+                    <item>
+                        <hi style="font-size:11pt">92,26 % der Nutzer:innen von ARTigo initialisieren ein Spiel mit Tabuwörtern, ohne im Anschluss Tags zu vergeben.</hi><ref n="3" target="ftn3"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> Selbst aktiv Partizipierende verschlagworten jedoch durchschnittlich 4,29 Taggings weniger als in nicht-restringierten Spielrunden. Weder motiviert die GUI hinreichend noch adressiert sie potenziell am Spiel Interessierte und leitet sie klar, etwa mithilfe eines textuellen Dialogsystems, an (Scherz 2017, 214–229).</hi>
+                    </item>
+                </list>
+                <p>
+                    <hi style="font-size:11pt" xml:space="preserve">Im vorliegenden Beitrag schlagen wir einen Neuentwurf der ARTigo-Plattform vor, und zwar als plugin-basiertes Social-Tagging-Framework, konstituiert aus strikt funktionalen Programmbausteinen. In ihm wird Scripting mithilfe eines </hi>
+                    <hi rend="italic" style="font-size:11pt">proaktiven Dialogagenten</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> (Baudoin et al. 2005) über die GUI initiiert. Bei Vergabe eines Surface Tags (z. B. „Pferd“) empfiehlt der Agent initiativ bedeutsame Unterbegriffe („Zugpferd“, „Pony“) oder motiviert abhängig vom Spielmodus dazu, weniger deskriptiv zu annotieren (z. B. durch Fragen, etwa: „Welche Gefühle löst das Bild bei Dir aus?“). Je nach zugrunde liegendem Annotationsinteresse wird Domänenwissen gezielt provoziert, sodass bildwissenschaftlich hoch spezifische Aufgaben an die Crowd ausgelagert werden können. Dies befördert nicht nur die Akquise kunst- und kulturhistorischer Daten, sondern verortet auch das Spiel als propädeutisches Lehrmittel im Kontext der Bildwissenschaften, wie in zwei prototypischen Anwendungsszenarien deutlich werden soll.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Infrastruktur</head>
+                <p>
+                    <hi style="font-size:11pt">Konzipiert ist das Framework als dreistufige Architektur mit einer Daten-, Anwendungs- und Präsentationsschicht, die jeweils in Docker-Containern gekapselt sind, um eine Vielzahl von Installationsszenarien zu erlauben (Merkel 2014). Mit Grafana</hi><ref n="4" target="ftn4"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> überwachen wir die Auslastung und Interaktionsfrequenz der einzelnen Instanzen. Eine übergeordnete Konfigurationsdatei speist die Anwendungs- und die Präsentationsschicht. Der Quellcode ist frei auf GitHub unter einer </hi>
+                    <hi rend="italic" style="font-size:11pt">GNU General Public License</hi>
+                    <hi style="font-size:11pt" xml:space="preserve"> veröffentlicht.</hi><ref n="5" target="ftn5"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> Alle Komponenten sind </hi>
+                    <hi rend="italic" style="font-size:11pt">Open Source</hi>
+                    <hi style="font-size:11pt">.</hi>
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Datenschicht</head>
+                    <p>
+                        <hi style="font-size:11pt">Primär besteht die Datenschicht aus einem PostgreSQL-Datenbankmanagementsystem.</hi><ref n="6" target="ftn6"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> Damit auch ressourcenintensive Suchanfragen effizient bearbeitet werden, ist OpenSearch implementiert, Amazons seit 2021 entwickelter Elasticsearch-</hi>
+                        <hi rend="italic" style="font-size:11pt">Fork</hi>
+                        <hi style="font-size:11pt">.</hi><ref n="7" target="ftn7"/>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Anwendungsschicht</head>
+                    <p>
+                        <hi style="font-size:11pt">Auf die Datenschicht greift die Anwendungsschicht nur zu, wenn spielrelevante Informationen erfasst oder sie der Präsentationsschicht über eine REST-API zur Verfügung gestellt werden. Die offen zugängliche Schnittstelle ist mit Swagger UI</hi><ref n="8" target="ftn8"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> und ReDoc</hi><ref n="9" target="ftn9"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> an zwei interaktive Dokumentationsumgebungen nach OpenAPI-3.0-Spezifikation</hi><ref n="10" target="ftn10"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> gekoppelt, sodass externe Plattformen gleichermaßen in der Lage sind, valide Abfragen zu formulieren.</hi>
+                    </p>
+                    <p>
+                        <hi style="font-size:11pt">Kern der in Python mit Django</hi><ref n="11" target="ftn11"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> realisierten Anwendungsschicht ist der sieben Modulgruppen umfassende Spielkonfigurationsmechanismus. Jede Modulgruppe hat genau eine Funktion mit strikt festgelegtem </hi>
+                        <hi rend="italic" style="font-size:11pt">Output</hi>
+                        <hi style="font-size:11pt">:</hi>
+                    </p>
+<list type="ordered">
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Ressourcenmodule </hi>
+                            <hi style="font-size:11pt">selektieren die zu annotierenden Bilder. Als Kriterien dienen etwa die Anzahl der bereits zugewiesenen Tags oder wann ein Bild zuletzt bespielt wurde. Der mit Memcached</hi><ref n="12" target="ftn12"/>
+                            <hi style="font-size:11pt" xml:space="preserve"> integrierte Cache-Server sorgt für eine ressourcenschonende Auswahl.</hi>
+                        </item>
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">(optional) </hi>
+                            <hi style="font-size:11pt" xml:space="preserve">Durch </hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Opponentmodule </hi>
+                            <hi style="font-size:11pt">werden Akteure generiert, die ihre Tags automatisch gemäß der bis dato für ein Bild hinterlegten Schlagwörter wählen. Ihre Potenz ist konfigurierbar.</hi>
+                        </item>
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">(optional) Tabumodule </hi>
+                            <hi style="font-size:11pt">limitieren vorsätzlich den möglichen Tagraum. Sie verhindern Annotationen ohne zusätzlichen Informationsgewinn – wie am häufigsten für ein Bild vergebene Tags. Manuell definierte Restriktionen sind möglich („Impressionismus“ darf z. B. nicht für eine Reihe bekannt impressionistischer Bilder verwendet werden).</hi>
+                        </item>
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">(optional) </hi>
+                            <hi style="font-size:11pt" xml:space="preserve">Programmatisch ähneln </hi>
+                            <hi rend="italic" style="font-size:11pt">Input-</hi>
+                            <hi style="font-size:11pt" xml:space="preserve"> den zuvor eingeführten Tabumodulen. Jedoch restringieren sie nicht, sondern leiten je nach Spieltypus an, bspw. indem sie auf zu validierende Tags hinweisen.</hi>
+                        </item>
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">(optional) </hi>
+                            <hi style="font-size:11pt" xml:space="preserve">Mit </hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Vorschlagsmodulen </hi>
+                            <hi style="font-size:11pt">werden über Scripting feingranularere Termini als die bislang eingegebenen motiviert. Dazu binden wir nachweislich variationsreiche Glossare der englisch- und deutschsprachigen Wiktionary ein (Meyer und Gurevych 2010).</hi><ref n="13" target="ftn13"/>
+                            <hi style="font-size:11pt" xml:space="preserve"> Ebenso zurückgegeben werden signifikant in ähnlichen Kontexten verortete Tags, sog. </hi>
+                            <hi rend="italic" style="font-size:11pt">Kookkurrenzen</hi>
+                            <hi style="font-size:11pt">.</hi>
+                        </item>
+                        <item>
+                            <hi style="font-size:11pt" xml:space="preserve">Die jeweils hinterlegten Tags evaluieren </hi>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">Filtermodule </hi>
+                            <hi style="font-size:11pt">auf ihre prinzipielle Validität. Nicht zugelassen können etwa orthografisch inkorrekte, als Tabuwörter definierte oder in derselben Spielrunde bereits annotierte Tags sein.</hi>
+                        </item>
+                        <item>
+                            <hi rend="italic" style="font-size:11pt" xml:space="preserve">(optional) Bewertungsmodule </hi>
+                            <hi style="font-size:11pt">messen die Güte der validen Schlagwörter. Mit Punkten belohnt werden u. a. gematchte Tags oder solche, die auf Basis der Wiktionary explizit domänenrelevante Information tragen – bei kunsthistorischen Bildern zur Komposition, Ikonografie und Epoche. Auch durch veränderte Bewertungsmodi wird Scripting herbeigeführt (Jain und Parkes 2013).</hi>
+                        </item>
+                    </list>
+                    <p>Um individuellere Nutzungsszenarien zu berücksichtigen, kann das Framework erweitert werden, indem der jeweiligen Modulgruppe ein geeignetes Untermodul hinzugefügt und die übergeordnete Konfigurationsdatei aktualisiert wird.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Präsentationsschicht</head>
+                    <p>
+                        <hi style="font-size:11pt">Die Präsentationsschicht ist in HTML und JavaScript mit dem JavaScript-Framework Vue.js</hi><ref n="14" target="ftn14"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> programmiert. Alle dynamischen Webseiteninhalte werden mithilfe der JavaScript-Bibliothek axios</hi><ref n="15" target="ftn15"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> über die REST-API geladen. Die Anwendung ist responsiv und auch für mobile Endgeräte optimiert.</hi>
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="16.007291666666667cm" height="9.396991666666667cm" url="Pictures/a675143925aebf5c0dc6c2e470aa0c45.png" rend="inline"/>
+                        <head><p>
+                        <hi style="font-size:11pt">Abb. 1: Dem Spiel vorgeschaltet ist eine mit Typed.js animierte Homepage, die zugleich als Tutorial fungiert.</hi>
+                    </p></head>
+                    </figure>
+                    
+                    <figure>
+                        <graphic n="1002" width="16.007291666666667cm" height="9.396991666666667cm" url="Pictures/e2600f5f42615c068bc29d3dc1a536ef.png" rend="inline"/>
+                        <head><p>
+                        <hi style="font-size:11pt" xml:space="preserve">Abb. 2: Ein vertikaler </hi>
+                        <hi rend="italic" style="font-size:11pt">Stepper</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> assistiert den aus Fragen bestehenden Konfigurationsprozess.</hi>
+                    </p></head>
+                    </figure>
+                    <p>
+                        <hi style="font-size:11pt">Dem Spiel vorgeschaltet ist eine mit Typed.js</hi><ref n="16" target="ftn16"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> animierte Homepage, die zugleich als Tutorial fungiert (Abb. 1, </hi>
+                        <hi rend="italic" style="font-size:11pt">rechts</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">). Zeitlich begrenzte </hi>
+                        <hi rend="italic" style="font-size:11pt">Quests</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, die bspw. zum Tagging eines Künstlers reizen, sind in einem </hi>
+                        <hi rend="italic" style="font-size:11pt">Navigation Drawer</hi><ref n="17" target="ftn17"/>
+                        <hi style="font-size:11pt" xml:space="preserve">links gestellt (Abb. 1, </hi>
+                        <hi rend="italic" style="font-size:11pt">links</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">); sie werden zumeist randomisiert aus validen Modulkombinationen generiert. Ein vertikaler </hi>
+                        <hi rend="italic" style="font-size:11pt">Stepper</hi><ref n="18" target="ftn18"/>
+                        <hi style="font-size:11pt">assistiert den folgenden, aus Fragen bestehenden Konfigurationsprozess (z. B. „Wie lange dauert eine Spielrunde?“ oder „Wie viele Runden möchtest Du spielen?“; Abb. 2). Er speist sich aus derselben Konfigurationsdatei wie die Anwendungsschicht. Alle Felder sind optional und mit Standardwerten vorbelegt, um in wenigen Klicks neue Spiele zu erstellen.</hi>
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="16.007291666666667cm" height="9.396991666666667cm" url="Pictures/bff459c6b20602c6f5d1c491131c2022.png" rend="inline"/>
+                        <head><p>
+                        <hi style="font-size:11pt" xml:space="preserve">Abb. 3: Dominiert wird die Spiel-GUI von zwei Komponenten: dem zu annotierenden Bild, </hi>
+                        <hi rend="italic" style="font-size:11pt">links</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, und der von </hi>
+                        <hi rend="italic" style="font-size:11pt">Instant-Messaging</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">-Diensten inspirierten Eingabemaske, </hi>
+                        <hi rend="italic" style="font-size:11pt">rechts</hi>
+                        <hi style="font-size:11pt">.</hi>
+                    </p></head>
+                    </figure> 
+                    <figure>
+                        <graphic n="1004" width="16.007291666666667cm" height="9.396991666666667cm" url="Pictures/0cb0a25293ba5d8ff741826ced3091d2.png" rend="inline"/>
+                        <head><p>
+                        <hi style="font-size:11pt">Abb. 4: Jede Spielsitzung endet mit einer nochmaligen Gegenüberstellung der Ergebnisse in aggregierter Form.</hi>
+                    </p></head>
+                    </figure>
+                    <p>
+                        <hi style="font-size:11pt" xml:space="preserve">Dominiert wird die in Abb. 3 präsentierte Spiel-GUI von zwei Komponenten: dem zu annotierenden Bild, </hi>
+                        <hi rend="italic" style="font-size:11pt">links</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, und der von </hi>
+                        <hi rend="italic" style="font-size:11pt">Instant-Messaging</hi>
+                        <hi style="font-size:11pt">-Diensten – etwa Metas Facebook Messenger</hi><ref n="19" target="ftn19"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> – inspirierten Eingabemaske, </hi>
+                        <hi rend="italic" style="font-size:11pt">rechts</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. Einen Chat(-bot) simulierend erscheinen dort sukzessive die Tags des zugeschalteten Akteurs; nicht-gematchte Eingaben sind zunächst unscharf. Damit jener trotz der synthetischen Anlage menschenähnlich – als tatsächlich Spielender – empfunden wird (Jenkins et al. 2007), verzögern wir seine Antworten minimal; derweil zeigt ein </hi>
+                        <hi rend="italic" style="font-size:11pt">Typing Awareness Indicator</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> den Eingabeprozess an (Auerbach 2014). Die GUI festigt so den </hi>
+                        <hi rend="italic" style="font-size:11pt">per se</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> dialogisch motivierten Aspekt der Verschlagwortung (Bredekamp 2010). Scripting ist u. a. durch Steuerelemente wie Kombinations- und Optionsfelder eingebettet, sodass die Anzahl der auf dem Bildschirm präsenten Elemente reduziert wird. Ein Steuerelement ist demnach ausschließlich für die Zeit der Interaktion sichtbar. Zur Fokussierung auf den Annotationsprozess sind Kopf- und Fußzeile halbtransparent gesetzt. Der über beiden Komponenten – Bild und Eingabemaske – liegende, sie einschließende Fortschrittsbalken zeigt die Restlaufzeit der momentan aktiven Spielrunde an. Nach Ablauf dieser erscheint zunächst ein dreisekündiger Countdown, währenddessen die Spielsitzung pausiert werden kann, bevor das System zum nächsten Bild weiterschaltet. Jede Spielsitzung endet mit einer nochmaligen Gegenüberstellung der Ergebnisse in aggregierter Form (Abb. 4).</hi>
+                    </p>
+                    <p>
+                        <hi style="font-size:11pt">Um die Benutzerfreundlichkeit der GUI zu quantifizieren, beabsichtigen wir, Online-Fragebögen zu verschicken, die etablierte Metriken wie</hi>
+                        <hi rend="italic" style="font-size:11pt">Perceived Ease of Use</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, </hi>
+                        <hi rend="italic" style="font-size:11pt">Perceived Usefulness</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> und </hi>
+                        <hi rend="italic" style="font-size:11pt">System Usability Scale</hi>
+                        <hi style="font-size:11pt">erfassen.</hi>
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Use Cases</head>
+                <p>
+                    <hi style="font-size:11pt">Nicht nur die kollaborative, durch die Crowd initiierte Akquise kunst- und kulturhistorischer Daten kann mit dem hier eingeführten Framework sinnvoll befördert werden,</hi><ref n="20" target="ftn20"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> sondern auch das Spiel als pädagogisches Instrument, etwa im musealen Raum. Nachweislich sind in vielen Fällen Inhalte spielerisch effektiver zu vermitteln als mit grundständigen Lernmethoden (Scherz 2017, 230). Dieses Potenzial schöpft das </hi>
+                    <hi rend="italic" style="font-size:11pt" xml:space="preserve">digitale </hi>
+                    <hi style="font-size:11pt">Spiel aus, auch weil es ein Medium verwendet, das integraler Bestandteil der Welt jüngerer Generationen ist; also derjenigen, auf die sich Bildungsbemühungen in erster Linie zu konzentrieren haben. Während das Spiel als propädeutisches Lehrmittel vermehrt in naturwissenschaftlich orientierten Domänen integriert wird,</hi><ref n="21" target="ftn21"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> beabsichtigt das Framework, es auch im bildwissenschaftlichen Kontext zu verorten – etwa zum Studium der Grundlagen kunsthistorischer Argumentation.</hi>
+                </p>
+                <p>Aufgrund seiner hochgradigen Modularisierung, und der damit einhergehenden Flexibilisierung der Parameter, sehen wir zwei prototypische Anwendungsszenarien, die im Folgenden exemplarisch beschrieben werden:</p>
+<list type="ordered">
+                    <item>
+                        <hi style="font-size:11pt" xml:space="preserve">Im Fokus des </hi>
+                        <hi rend="italic" style="font-size:11pt" xml:space="preserve">Attributionsspiels </hi>
+                        <hi style="font-size:11pt">steht wortwörtlich die Attribution eines Bildes zu einer näher definierten Oberkategorie: einem geografischen Kontext, einer Epoche, dem oder der Kunstschaffenden selbst. Nicht zwingend entscheidend ist aber das exakte Matching. Stattdessen wird bereits eine regionale oder stilistische Annäherung an das interessierende Subjekt belohnt; etwa, wenn ein Kupferstich von Hans Baldung Grien fälschlicherweise Albrecht Dürer zugesprochen wurde. Der Schwierigkeitsgrad ließe sich erhöhen, indem das Bild als Explorationsfläche</hi><ref n="22" target="ftn22"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> mit einer ,Schablone‘ abgedeckt wird, die nur einen Teil des Bildes freigibt.</hi><ref n="23" target="ftn23"/>
+                        <hi style="font-size:11pt" xml:space="preserve"> Durch sensorische Interaktion auf mobilen Geräten, etwa Berührungen oder Pusten, könnte der Ausschnitt bei gleichzeitigem Punktverlust modifiziert werden.</hi>
+                    </item>
+                    <item>
+                        <hi style="font-size:11pt" xml:space="preserve">Ziel des </hi>
+                        <hi rend="italic" style="font-size:11pt">Ikonografiespiels</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> ist die visuell motivierte Aneignung von historischen Sach- und Personenidentitäten. Jeweils vorgegeben ist eine Ikonografie, bspw. der heilige Hieronymus. Über die Eingabemaske werden die Ikonografie beschreibende Attribute verschlagwortet (z. B. „Löwe“, „Buch“, „Stundenglas“), während der textuelle Dialogagent sukzessive auf sie zutreffende Ikonografien empfiehlt. Durch die fortwährende Interaktion (Boiano et al. 2018) spüren die Partizipierenden der tatsächlich korrekten Ikonografie nach. Auf diese Weise vermittelt das Spiel zwar Fachwissen, schärft jedoch gleichermaßen implizit das kunsthistorische Sehen. Wie Scherz (2017, 226–227) nehmen wir an, dass u. a. die Dauer einer Spielrunde in ihrer Spezifik unterschiedliche Attributketten und daher Tagging-Muster begünstigt, die es weiter zu untersuchen gelte.</hi>
+                    </item>
+                </list>
+                <p>
+                    <hi style="font-size:11pt">Immer treten die Spieler:innen in einen zweifachen pädagogischen Dialog: zum einen mit den jeweils angezeigten Bildern, zum anderen mit dem regelbasierten (Dialog-)System. Beide Spiele können dabei in kurzer Zeit verstanden und ihre Akzeptanz so wesentlich gesteigert werden (Kühn et al. 2009).</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenfassung und Ausblick</head>
+                <p>
+                    <hi style="font-size:11pt">Mit diesem Beitrag schlagen wir einen ganzheitlichen Neuentwurf der seit 2010 existierenden Social-Tagging-Plattform ARTigo vor, die kunsthistorische Image-Labeling-Prozesse anstößt. In dem nun aus funktionalen Programmbausteinen konstituierten Framework wird Scripting – ein Mechanismus, der zur Eingabe tiefensemantischer Schlagwörter auffordert – mithilfe eines proaktiven, textuellen Dialogagenten motiviert. Wie in zwei prototypischen Anwendungsszenarien dargelegt, einem Attributions- und einem Ikonografiespiel, eignet sich das Framework für die Akquise kunst- und kulturhistorisch relevanter Daten ebenso wie als pädagogisches Instrument im Kontext der Bildwissenschaften.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:11pt">Wir planen, die produzierten Taggings künftig automatisch in Wikidata</hi><ref n="24" target="ftn24"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> zu spiegeln. Um die Integration neuer Bilddatenbestände zu vereinfachen, soll des Weiteren eine Oberfläche zum </hi>
+                    <hi rend="italic" style="font-size:11pt" xml:space="preserve">Upload </hi>
+                    <hi style="font-size:11pt">eigener Sammlungen bereitgestellt werden. Zur präziseren Datenerhebung entwickeln wir derzeit ein adaptierbares Werkzeug, mit dem komplexe Studiendesigns ermöglicht werden: So erlaubt es die freie Parametrisierung der Spielmodule, eine große Anzahl von Studienelementen zu quantifizieren und ausgewählten Testgruppen zuzuspielen. Neben grundsätzlich breiteren Forschungsmöglichkeiten kann durch jenen Prozess auch das jeweilige Spieldesign weiter optimiert werden. In diesem Kontext evaluieren wir auch jede Modulgruppe und loten ihre Eignung für unterschiedliche Forschungsszenarien aus.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     Im Deutschen wird nicht zwischen 
+                        <hi rend="italic" xml:space="preserve">Play </hi>und 
+                        <hi rend="italic" xml:space="preserve">Game </hi>unterschieden. Der vorliegende Beitrag stützt sich explizit auf das 
+                        <hi rend="italic" xml:space="preserve">Game </hi>als wettstreitorientiertes, kompetitives und regelbasiertes Spiel (Walther 2003).
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <ref target="https://www.artigo.org/">
+                            <hi rend="color(1155CC)">https://www.artigo.org/</hi>
+                        </ref>, wie alle folgenden letzter Zugriff 2. Dezember 2022.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                             Alle folgenden Statistiken basieren auf einem 
+                                <hi rend="italic">Dump</hi> der PostgreSQL-Datenbank vom 28. Juli 2022. Mit 56,65 % liegt der Wert für Spiele ohne Tabuwörter signifikant niedriger.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                        
+                            <ref target="https://github.com/grafana/grafana">
+                                <hi rend="color(1155CC)">https://github.com/grafana/grafana</hi>
+                            </ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                        
+                            <ref target="https://github.com/arthist-lmu/artigo">
+                                <hi rend="color(1155CC)">https://github.com/arthist-lmu/artigo</hi>
+                            </ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                            
+                                <ref target="https://github.com/postgres/postgres">
+                                    <hi rend="color(1155CC)">https://github.com/postgres/postgres</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                            
+                                <ref target="https://github.com/opensearch-project/OpenSearch">
+                                    <hi rend="color(1155CC)">https://github.com/opensearch-project/OpenSearch</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                            
+                                <ref target="https://github.com/swagger-api/swagger-ui">
+                                    <hi rend="color(1155CC)">https://github.com/swagger-api/swagger-ui</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                            
+                                <ref target="https://github.com/Redocly/redoc">
+                                    <hi rend="color(1155CC)">https://github.com/Redocly/redoc</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                            
+                                <ref target="https://github.com/OAI/OpenAPI-Specification">
+                                    <hi rend="color(1155CC)">https://github.com/OAI/OpenAPI-Specification</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                            
+                                <ref target="https://github.com/django/django">
+                                    <hi rend="color(1155CC)">https://github.com/django/django</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn12" n="12">
+                                
+                                    <ref target="https://github.com/memcached/memcached">
+                                        <hi rend="color(1155CC)">https://github.com/memcached/memcached</hi>
+                                    </ref>.
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn13" n="13">
+                                
+                                    <ref target="https://de.wiktionary.org/wiki/">
+                                        <hi rend="color(1155CC)">https://de.wiktionary.org/wiki/</hi>
+                                    </ref>.
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn14" n="14">
+                            
+                                <ref target="https://github.com/vuejs/vue">
+                                    <hi rend="color(1155CC)">https://github.com/vuejs/vue</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn15" n="15">
+                            
+                                <ref target="https://github.com/axios/axios">
+                                    <hi rend="color(1155CC)">https://github.com/axios/axios</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn16" n="16">
+                            
+                                <ref target="https://github.com/mattboldt/typed.js/">
+                                    <hi rend="color(1155CC)">https://github.com/mattboldt/typed.js/</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn17" n="17">
+                            
+                                <ref target="https://material.io/components/navigation-drawer">
+                                    <hi rend="color(1155CC)">https://material.io/components/navigation-drawer</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn18" n="18">
+                            
+                                <ref target="https://material.io/archive/guidelines/components/steppers.html">
+                                    <hi rend="color(1155CC)">https://material.io/archive/guidelines/components/steppers.html</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn19" n="19">
+                            
+                                <ref target="https://about.facebook.com/de/technologies/messenger/">
+                                    <hi rend="color(1155CC)">https://about.facebook.com/de/technologies/messenger/</hi>
+                                </ref>.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn20" n="20">
+                         Die grundlegende Eignung von ARTigo zur Datenakquise ist hinreichend belegt: Seit 2010 wurden 10.679.711 Taggings in der deutsch-, englisch- und französischsprachigen Version annotiert.
+                    </note>
+<note rend="footnote text" xml:id="ftn21" n="21">
+                         Ausnahmen bilden im deutschsprachigen Raum z. B. das Multimedia-Spiel „Ricardas Geheimnis“ des Wallraf-Richartz-Museums Köln (Vielhaber 2021). Im angelsächsischen Raum ist das sieben Online-Spiele umfassende Projekt „Discover Ancient Egypt“ der National Museums Scotland zu nennen (
+                            <ref target="https://www.nms.ac.uk/explore-our-collections/games/discover-ancient-egypt/">
+                                <hi rend="color(1155CC)">https://www.nms.ac.uk/explore-our-collections/games/discover-ancient-egypt/</hi>
+                            </ref>).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn22" n="22">
+                             So bereits kooperativ mit ARTigo in dem Top Citizen Science-Projekt „Stadt-Land-Bild. Eine soziale Bildanalyse zeitgenössischer Sehnsuchtserscheinungen“ zwischen 2018 und 2019 geschehen (
+                                <ref target="https://www.akbild.ac.at/de/forschung/projekte/forschungsprojekte/2019/stadt-land-bild.-eine-soziale-bildanalyse-zeitgeno308ssischer-sehnsuchtserscheinungen">
+                                    <hi rend="color(1155CC)">https://www.akbild.ac.at/de/forschung/projekte/forschungsprojekte/2019/stadt-land-bild.-eine-soziale-bildanalyse-zeitgeno308ssischer-sehnsuchtserscheinungen</hi>
+                                </ref>
+                                <hi style="font-size:8pt">).</hi>
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn23" n="23">
+                             Siehe lose von Ahn et al. (2006).
+                        </note>
+<note rend="footnote text" xml:id="ftn24" n="24">
+                        
+                            <ref target="https://www.wikidata.org/wiki/">
+                                <hi rend="color(1155CC)">https://www.wikidata.org/wiki/</hi>
+                            </ref>.
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">von Ahn, Luis und Laura Dabbish</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2004. „Labeling Images with a Computer Game.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, 319–326 </hi>
+                        <ref target="https://doi.org/10.1145/985692.985733">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1145/985692.985733</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">von Ahn, Luis, Ruoran Liu und Manuel Blum</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2006. „Peekaboom. A Game for Locating Objects in Images.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, 55–64 </hi>
+                        <ref target="https://doi.org/10.1145/1124772.1124782">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1145/1124772.1124782</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Auerbach, David</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2014. „I Built That ,So-and-So Is Typing‘ Feature in Chat. And I’m Not Sorry.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Slate</hi>
+                        <hi style="font-size:11pt">, 14.02.2014.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Baudoin, Frédéric, Philippe Bretier und Vincent Corruble</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2005. „A Dialogue Agent with Adaptive and Proactive Capabilities.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the IEEE/WIC/ACM International Conference on Intelligent Agent Technology</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, 293–296 </hi>
+                        <ref target="https://doi.org/10.1109/IAT.2005.8">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1109/IAT.2005.8</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Boiano, Stefania, Ann Borda, Guiliano Gaia, Stefania Rossi und Pietro Cuomo</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2018. „Chatbots and New Audience Opportunities for Museums and Heritage Organisations.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Electronic Visualisation and the Arts</hi>
+                        <hi style="font-size:11pt">, 164–171.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Bredekamp, Horst</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2010. </hi>
+                        <hi rend="italic" style="font-size:11pt">Theorie des Bildakts. Frankfurter Adorno-Vorlesungen 2007.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> Frankfurt am Main: Suhrkamp.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Bry, François, Clemens Schefels und Corina Schemainda</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2018. „Eine qualitative Analyse der ARTigo-Annotationen.“ In Piotr Kuroczyński, Peter Bell und Lisa Dieckmann (Hrsg.). </hi>
+                        <hi rend="italic" style="font-size:11pt">Computing Art Reader. Einführung in die digitale Kunstgeschichte</hi>
+                        <hi style="font-size:11pt">. Heidelberg: arthistoricum.net, 96–114</hi>
+                        <ref target="https://doi.org/10.11588/arthistoricum.413.c5771">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.11588/arthistoricum.413.c5771</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Bry, François und Christoph Wieser</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2012. „Squaring and Scripting the ESP Game. Trimming a GWAP to Deep Semantics.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Serious Games Development and Applications. SGDA 2012. Lecture Notes in Computer Science</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 7528: 183–192 </hi>
+                        <ref target="https://doi.org/10.1007/978-3-642-33687-4_16">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1007/978-3-642-33687-4_16</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Deterding, Sebastian, Dan Dixon, Rilla Khaled und Lennart Nacke</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2011. „From Game Design Elements to Gamefulness. Defining ,Gamification‘.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the 15th International Academic MindTrek Conference. Envisioning Future Media Environments</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, 9–15 </hi>
+                        <ref target="https://doi.org/10.1145/2181037.2181040">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1145/2181037.2181040</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Heinisch, Barbara, Kristin Oswald, Maike Weißpflug, Sally Shuttleworth und Geoffrey Belknap</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2021. „Citizen Humanities.“ In Katrin Vohland, Anne Land-Zandstra, Luigi Ceccaroni, Rob Lemmens, Josep Perelló, Marisa Ponti, Roeland Samson und Katherin Wagenknecht (Hrsg.). </hi>
+                        <hi rend="italic" style="font-size:11pt">The Science of Citizen Science</hi>
+                        <hi style="font-size:11pt">. Berlin: Springer, 97–118.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Huizinga, Johan</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 1956. </hi>
+                        <hi rend="italic" style="font-size:11pt">Homo Ludens. Vom Ursprung der Kultur im Spiel.</hi>
+                        <hi style="font-size:11pt">Reinbek: Rowohlt.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Jain, Shaili und David C. Parkes</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2013. „A Game-Theoretic Analysis of the ESP Game.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">ACM Transactions on Economics and Computation</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 1.1 </hi>
+                        <ref target="https://doi.org/10.1145/2399187.2399190">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1145/2399187.2399190</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Jenkins, Marie-Claire, Richard Churchill, Stephen Cox und Dan Smith</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2007. „Analysis of User Interaction with Service Oriented Chatbot System.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">International Conference on Human-Computer Interaction. HCI 2007. Lecture Notes in Computer Science</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 4552: 76–83 </hi>
+                        <ref target="https://doi.org/10.1007/978-3-540-73110-8_9">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1007/978-3-540-73110-8_9</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Kühn, Eileen, Jens Reinhardt und Jürgen Sieck</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2009. „Spielen im Museum.“ In Jürgen Sieck und Michael A. Herzog (Hrsg.). </hi>
+                        <hi rend="italic" style="font-size:11pt" xml:space="preserve">Kultur und Informatik. Serious Games. </hi>
+                        <hi style="font-size:11pt">Boizenburg: Verlag Werner Hülsbusch, 201–222.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Merkel, Dirk</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2014. „Docker. Lightweight Linux Containers for Consistent Development and Deployment.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Linux Journal</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 239: 2.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Meyer, Christian M. und Iryna Gurevych</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2010. „Worth its Weight in Gold or Yet Another Resource. A Comparative Study of Wiktionary, OpenThesaurus and GermaNet.“ In Alexander Gelbukh (Hrsg.). </hi>
+                        <hi rend="italic" style="font-size:11pt">Computational Linguistics and Intelligent Text Processing. 11th International Conference. Lecture Notes in Computer Science</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 6008: 38–49.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Milani, Federico und Piero Fraternali</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2021. „A Dataset and a Convolutional Model for Iconography Classification in Paintings.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal on Computing and Cultural Heritage</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 14.4 </hi>
+                        <ref target="https://doi.org/10.1145/3458885">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1145/3458885</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Morschheuser, Benedikt, Juho Hamari, Jonna Koivisto und Alexander Maedche</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2017. „Gamified Crowdsourcing. Conceptualization, Literature Review, and Future Agenda.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">International Journal of Human-Computer Studies</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 106: 26–43 </hi>
+                        <ref target="https://doi.org/10.1016/j.ijhcs.2017.04.005">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1016/j.ijhcs.2017.04.005</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Scherz, Sabine</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2017. </hi>
+                        <hi rend="italic" style="font-size:11pt">Kunstgeschichte berechnet. Interdisziplinäre Bilddatenanalyse crowdgesourcter Annotationen.</hi>
+                        <hi style="font-size:11pt">Dissertation, Ludwig-Maximilians-Universität München.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Suttie, Neil, Sandy Louchart, Theodore Lim, Andrew Macvean, Wim Westera, Damian Brown und Damien Djaouti</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2012. „Introducing the ,Serious Games Mechanics‘. A Theoretical Framework to Analyse Relationships Between ,Game‘ and ,Pedagogical Aspects‘ of Serious Games.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Procedia Computer Science</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 15: 314–315 </hi>
+                        <ref target="https://doi.org/10.1016/j.procs.2012.10.091">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1016/j.procs.2012.10.091</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Vielhaber, Christiane</hi>
+                        <hi style="font-size:11pt">. 2021. „Computerspiel für junge Besucher des Wallraf. Jagd nach Reliquien im Kölner Museum</hi>
+                        <hi rend="italic" style="font-size:11pt">.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Kölner Stadt-Anzeiger,</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 02.07.2021.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Walther, Bo Kampmann</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2003. „Playing and Gaming. Reflections and Classifications.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">International Journal of Computer Game Research</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 3.1.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Wieser, Christoph, François Bry, Alexandre Bérard und Richard Lagrange</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2013. „ARTigo. Building an Artwork Search Engine With Games and Higher-Order Latent Semantic Analysis.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the AAAI Conference on Human Computation and Crowdsourcing</hi>
+                        <hi style="font-size:11pt">, 15–20.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Zhao, Wentao, Dalin Zhou, Xinguo Qiu und Wei Jiang</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2021. „Compare the Performance of the Models in Art Classification.“ In </hi>
+                        <hi rend="italic" style="font-size:11pt">PLOS ONE</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 16.3 </hi>
+                        <ref target="https://doi.org/10.1371/journal.pone.0248414">
+                            <hi rend="color(1155CC)" style="font-size:11pt">10.1371/journal.pone.0248414</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

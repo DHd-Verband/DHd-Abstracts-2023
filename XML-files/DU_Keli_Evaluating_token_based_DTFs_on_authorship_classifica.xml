@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="DU_Keli_Evaluating_token_based_DTFs_on_authorship_classifica" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Understanding the impact of three derived text formats on authorship classification with Delta</title>
+                <author>
+                    <persName>
+                        <surname>Du</surname>
+                        <forename>Keli</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Deutschland</affiliation>
+                    <email>duk@uni-trier.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:39:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>derived text formats</term>
+                    <term>authorship classification</term>
+                    <term>evaluation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Bearbeitung</term>
+                    <term>Bewertung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Methoden</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Introduction</head>
+                <p>
+                    <anchor xml:id="Hlk118913819"/>Due to copyright law, Text and Data Mining (TDM) with copyrighted texts faces a lot of restrictions in terms of storage, publication and follow-up use of the resulting corpora, which, however, is against the spirit of open data in digital humanities (DH). As a solution to the problem, the concept of derived text formats (DTFs) has been suggested and discussed (see e.g., 
+                    <hi rend="Quote_Char">Lin et al. 2012</hi>, 
+                    <hi rend="Quote_Char">Bhattacharyya et al. 2015</hi>, 
+                    <hi rend="Quote_Char">Jett et al. 2020</hi>, 
+                    <hi rend="Quote_Char">Schöch et al. 2020</hi>). In DTFs, although some information (primarily copyright-relevant features) has been removed from the texts, the texts can still be used for various relevant TDM tasks in DH, such as authorship attribution or topic modeling. 
+                    <hi rend="Quote_Char">Schöch et al. (2020)</hi> also provides a very detailed examination of several DTFs from the perspectives of Computational Literary Studies, Computer Science, memory institutions and law. DTFs are extremely meaningful for the DH community, because they match the spirit of open data and make it possible for researchers and libraries to provide more text data for DH research. It also supports the pursuit of open science by encouraging researchers to publish their research data without worrying about violating copyright laws. 
+                </p>
+                <p>However, as far as I know, there is not much research dedicated to the question, how much the loss of information caused by DTFs affects the TDM results. 
+                    <hi rend="Quote_Char">Eder (2013)</hi> presented an empirical study of verifying the impact of unwanted noise in texts on authorship attribution and emphasizing that the usefulness of damaged texts should not be underestimated in stylometric studies. He brought noise into texts by (a) randomly replacing a portion of characters, (b) increasing standard deviation of word counts and (c) randomly replacing original words with other words in the same corpus, in order to show the correlation between a dirty corpus and the attribution accuracy. The presented paper did a similar empirical study by transforming texts into token-based DTFs and provide a review on the correlation between information loss caused by these DTFs and the loss of accuracy in authorship classification.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Token-based DTFs</head>
+                <p>In 
+                    <hi rend="Quote_Char">Schöch et al. (2020)</hi>, three kinds of token-based DTFs are introduced, to enable the free reusability of text data: 
+                </p>
+<list type="unordered">
+                    <item>Simple document-term-matrix: The idea is to transform a corpus into a matrix, which only saves the frequency of each term in each text in the corpus.</item>
+                    <item>Sequence randomization in segments: The idea is to split a text into segments, randomize the sequence of words in each segment, and reassemble all the segments into a text. </item>
+                    <item>Selectively reduced information on individual tokens: The idea is to replace a portion of the words (e.g., all the function words) in text with their POS-tags.</item>
+                </list>
+                <p>Applying the first and the second DTFs to frequency-based authorship attribution does not present any challenge. Take the most well-known method in authorship attribution Burrows’s Delta (
+                    <hi rend="Quote_Char">Burrows, 2022</hi>) as an example: Delta test follows the “bag of words” model for representing documents and only requires the frequency of each word in each text to distinguish between authors. The sequence information of words in texts is not necessary. Therefore, the first and the second DTFs keep all the information needed for the Delta test and the transformation does not affect the test results. As a matter of fact, if one only wants to publish a corpus so that the reported classification results of authorship could be verified, all one must do is to publish the document-term-matrix and the metadata table of the corpus. 
+                </p>
+                <p>In comparison, if the texts are transformed into the third DTF, although the frequency information of some words in the text will not match the original situation, the sequence information of words could be kept. This opens the possibility of using the data in this form for other TDM tasks such as sentiment analysis or named entity recognition that require the sequence information of words. If a corpus is published with the expectation that it can be applied to multiple TDM tasks, it makes more sense to prepare the corpus in this format. And of course, it is important to understand how much this format will affect the outcome of different TDM tasks. Therefore, this paper evaluates the usefulness of the third token-based DTF on authorship attribution as a start. In the next sections, the method and the results of the evaluation are reported. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Method</head>
+                <p>For the evaluation, three corpora representing different languages and text types have been constructed: deu_DraCor (German plays), fra_ELTeC (French novels) and eng_RSC (English journal articles). The relevant information about the corpora is shown in Table 1. </p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">corpus</cell>
+                        <cell style="text-align: left;">corpus size (million words)</cell>
+                        <cell style="text-align: left;">
+                            <hi rend="color(24292F) background(white)">average text length (words)</hi>
+                        </cell>
+                        <cell style="text-align: left;">no. of texts</cell>
+                        <cell style="text-align: left;">no. of authors</cell>
+                        <cell style="text-align: left;">period</cell>
+                        <cell style="text-align: left;">language</cell>
+                        <cell style="text-align: left;">text type</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="color(24292F) background(white)">deu_DraCor (</hi>
+                            <hi rend="Quote_Char">Fischer et al., 2019</hi>
+                            <hi rend="color(24292F) background(white)">)</hi>
+                        </cell>
+                        <cell style="text-align: left;">5.69</cell>
+                        <cell style="text-align: left;">18237</cell>
+                        <cell style="text-align: left;">312</cell>
+                        <cell style="text-align: left;">55</cell>
+                        <cell style="text-align: left;">1650 - 1928</cell>
+                        <cell style="text-align: left;">German</cell>
+                        <cell style="text-align: left;">play</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="color(24292F) background(white)">fra_ELTeC (</hi>
+                            <hi rend="Quote_Char">Odebrecht et al., 2021</hi>
+                            <hi rend="color(24292F)">)</hi>
+                        </cell>
+                        <cell style="text-align: left;">11.33</cell>
+                        <cell style="text-align: left;">80370</cell>
+                        <cell style="text-align: left;">141</cell>
+                        <cell style="text-align: left;">30</cell>
+                        <cell style="text-align: left;">1840 - 1912</cell>
+                        <cell style="text-align: left;">French</cell>
+                        <cell style="text-align: left;">novel</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="color(24292F) background(white)">eng_RSC (</hi>
+                            <hi rend="Quote_Char">Kermes et al., 2016</hi>
+                            <hi rend="color(24292F)">)</hi>
+                        </cell>
+                        <cell style="text-align: left;">7.92</cell>
+                        <cell style="text-align: left;">6206</cell>
+                        <cell style="text-align: left;">1276</cell>
+                        <cell style="text-align: left;">69</cell>
+                        <cell style="text-align: left;">1665 - 1869</cell>
+                        <cell style="text-align: left;">English</cell>
+                        <cell style="text-align: left;">journal article</cell>
+                    </row>
+                
+                <head>Table 1: Overview of the corpora.</head></table>
+                <p>The test is designed as follows: First, for each document in a corpus, a certain percentage of words (0%, 10%, ..., 100%) were randomly selected and replaced by their corresponding POS-tags. Since function words are crucial to authorship attribution, instead of only replacing function words as suggested in 
+                    <hi rend="Quote_Char">Schöch et al. (2020)</hi>, any kind of word (including punctuation) may be replaced. The next step is the standard procedure for Delta test: creating a document-term-matrix, computing the z score of each value in it and then select the most frequent word types as feature to classify documents. The classification was done by a linear SVM classifier with 5-fold cross-validation. Following the results in 
+                    <hi rend="Quote_Char">Evert et al. (2017)</hi>, the 2000 most frequent word types in each corpus were taken as feature for all the classification tasks. A further test was also performed: All POS-tags that replaced their corresponding words were removed from the text and the Delta test were then conducted again. By comparing the classification results of these two tests, we can also determine the contribution of POS-tags to the results of the classification. Since the words in texts are randomly replaced or removed which could introduce some random variation into the results, each of the above-described tests is repeated 10 times.
+                </p>
+                <p>Before presenting the classification results, three text passages are prepared to give an impression of readability of the texts in DTF. The original text, the texts with 10% and 50% of words replaced by their corresponding POS-tags, are listed in Table 2.</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">percentage </cell>
+                        <cell style="text-align: left;">text</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <p>0%</p>
+                            <p>(original)</p>
+                        </cell>
+                        <cell style="text-align: left;">The members of this new group of alkaloids are so numerous, their deportment is so singular, and their derivatives raimify in so many directions, that I have not as yet been able to complete the study of these substances in all their bearings; nor is it my intention to go fully into the chemistry of the subject in the present communication, my object being merely to establish the existence of these bodies, and to give a general outline of their connection with the volatile bases, and of their most plominent chemical and physical properties, reserving a detailed description of their salts and derivatives to a future memoir .</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">10%</cell>
+                        <cell style="text-align: left;">The members of this new group of alkaloids are so numerous, their deportment is so singular, and their derivatives raimify in so many directions, that I have not as RB VBN able to complete the study of these substances in all their bearings ; nor is it my intention to go fully into DT chemistry of DT subject in the present communication, PP$ object being merely TO establish DT existence of these bodies, and to give a general outline of their connection IN the volatile bases, and of their most plominent chemical and physical properties, reserving a detailed description of their salts and derivatives to a JJ memoir.</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">50%</cell>
+                        <cell style="text-align: left;">DT members IN DT JJ NN IN NNS VBP so JJ, PP$ deportment is RB JJ, CC their NNS raimify in RB many NNS, WDT PP VHP RB RB yet been JJ TO VV DT study IN these NNS IN all PP$ NNS : CC is it my NN TO go RB into DT chemistry IN the subject in DT JJ communication, my object NN merely to VV DT NN of DT NNS, and TO VV DT JJ outline IN PP$ connection IN DT volatile bases, CC IN their RBS plominent chemical and physical properties, reserving DT JJ NN IN their NNS and derivatives TO a future NN.</cell>
+                    </row>
+                
+                <head>Table 2. Text passages in original format and DTF (The percentage value indicates the proportion of words replaced or removed.).</head></table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Results</head>
+                <p>The classification results on the German play collection, the English article collection, and the French novel collection are presented in Figures 1, 2 and 3, respectively. The y-axis is the F1(macro)-score, and the x-axis shows the portion of words that are replaced or removed. The blue boxplots and the yellow boxplots represent the classification results, when the words in texts are replaced with POS-tags or removed, respectively. As the reference value, the classification results for the original data are also shown in the figures. The Welch’s t-test is also performed to determine the difference in classification results. The “ns” in the figures means non-significance. </p>
+                <p>In all the three figures, the same trend can be observed: Step by step, the median of F1-score distributions get worse as the percentage increases. Especially when more than half of the words were replaced or removed, the tendency for the classification results to become worse became particularly obvious. In addition, the variance of the F1-scores always becomes larger, if a certain percentage of words in texts are replaced or removed. According to the Welch’s t-test, in all cases, whether the words are replaced or removed does not affect the classification. This observation indicates that the POS-tags do not contribute to the distinction of authorships.</p>
+                <p>Another interesting observation is, when all words in texts are replaced by POS-tags, the classification results improve, relative to a reduction of 90%, in the case of the German and English data, but not for the French data. To understand this situation, the change in the number of word types in each corpus was checked. As presented in Figure 4, when 90% of the words are replaced or removed, there are still around 20,000 word types in each text collection. But when all the words are replaced, only a few dozen types remain. Their number becomes so small that it looks like it is reduced to zero in the Figure 4. Since the classification is based on the most frequent 2000 types, although 90% of the words are replaced or removed, the 2000 features used for classification are still mostly from the remaining 10% of words. In the German and English collections, these words bring apparently noise to the classification task. In contrast, the remaining 10% of words in the French corpus are still able to guarantee a relatively good classification result. From the data in Table 1 we can see that number of authors in the French corpus is smaller, which indicates the classification task on the French corpus is easier. More importantly, as presented in previous studies (e.g., 
+                    <hi rend="Quote_Char">Eder 2015</hi>, 
+                    <hi rend="Quote_Char">Romanov &amp; Grallert 2022</hi>), that pulling random samples of at least 5000 words length out of texts will be sufficient for ensuring reliable authorship attribution. Considering the average length of the French novels is over 80,000 words, when 90% of the words are replaced or removed, the remaining 10% (that is, about 8000 words) is still sufficient to guarantee a good classification result. To clarify this issue, further research would certainly be of great interest.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.00113888888889cm" height="10.054166666666667cm" url="Pictures/43a5a63139486d6ce7ee7e070f64d716.png" rend="inline"/>
+                
+                <head>Figure 1. Authorship classification on the German play collection</head></figure>
+                <figure>
+                    <graphic n="1002" width="16.00113888888889cm" height="10.054166666666667cm" url="Pictures/420272f398c8c6c3ee7c52a746c15288.png" rend="inline"/>
+                
+                <head>Figure 2. Authorship classification on the English article collection</head></figure>
+                <figure>
+                    <graphic n="1003" width="16.00113888888889cm" height="9.913055555555555cm" url="Pictures/505bd8a1cab4d4a6804b511545807a78.png" rend="inline"/>
+                
+                <head>Figure 3. Authorship classification on the French novel collection</head></figure>
+                <figure>
+                    <graphic n="1004" width="16.00113888888889cm" height="9.66611111111111cm" url="Pictures/aefca129cf19a226ab4865b361e08de6.png" rend="inline"/>
+                
+                <head>Figure 4. Change of the number of word types in three text collections</head></figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Conclusion</head>
+                <p>This paper provides an exploration of the usefulness of three token-based DTFs for frequency-based authorship classification with Delta. As presented, selectively reducing information on individual tokens could ensure, to a certain extent, that the authorship classification results are not affected too much. The impact of token-based DTFs on the results of Delta test can be reduced by considering only replacing or removing content words, while all function words remain unchanged. But this limits the application of the texts on other TDM tasks such as topic modeling. For the future work, a series of tests are planned on evaluating the usefulness of token-based DTFs on other TDM tasks. The goal is to find DTFs that could balance various factors (e.g. word frequency, sequence information, content vs. function words, copyright) so that texts could be published and used for as many TDM tasks as possible without violating copyright law.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Bhattacharyya, Sayan, Peter Organisciak, und J. Stephen Downie.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2015. „A Fragmentizing Interface to a Large Corpus of Digitized Text: (Post)humanism and Non-consumptive Reading via Features“. </hi>
+                        <hi rend="italic" style="font-size:12pt">Interdisciplinary Science Reviews</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 40 (1): 61–77.</hi>
+                        <ref target="https://doi.org/10.1179/0308018814Z.000000000105" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1179/0308018814Z.000000000105">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">https://doi.org/10.1179/0308018814Z.000000000105</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Burrows, John.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2002. „‘Delta’: A Measure of Stylistic Difference and a Guide to Likely Authorship“. </hi>
+                        <hi rend="italic" style="font-size:12pt">Literary and Linguistic Computing</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 17 (3): 267–87.</hi>
+                        <ref target="https://doi.org/10.1093/llc/17.3.267" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1093/llc/17.3.267">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">https://doi.org/10.1093/llc/17.3.267</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Eder, Maciej.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2013. „Mind your corpus: systematic errors in authorship attribution“. </hi>
+                        <hi rend="italic" style="font-size:12pt">Literary and Linguistic Computing</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 28 (4): 603–14.</hi>
+                        <ref target="https://doi.org/10.1093/llc/fqt039" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1093/llc/fqt039">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">https://doi.org/10.1093/llc/fqt039</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Eder, Maciej</hi>
+                        <hi style="font-size:12pt" xml:space="preserve">. 2015. Does size matter? Authorship attribution, small samples, big problem, </hi>
+                        <hi rend="italic" style="font-size:12pt">Digital Scholarship in the Humanities</hi>
+                        <hi style="font-size:12pt">, Volume 30, Issue 2, Pages 167–182.</hi>
+                        <ref target="https://doi.org/10.1093/llc/fqt066">
+                            <hi style="font-size:12pt">https://doi.org/10.1093/llc/fqt066</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Evert, Stefan, Fotis Jannidis, Thomas Proisl, Steffen Pielström, Thorsten Vitt, Christof Schöch, und Isabella Reger.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2017. „Understanding and Explaining Distance Measures for Authorship Attribution“. </hi>
+                        <hi rend="italic" style="font-size:12pt">Digital Scholarship in the Humanities</hi>
+                        <hi style="font-size:12pt">.</hi>
+                        <ref target="https://academic.oup.com/dsh/article-pdf/32/suppl_2/ii4/21298943/fqx023.pdf" xml:space="preserve"> </ref>
+                        <ref target="https://academic.oup.com/dsh/article-pdf/32/suppl_2/ii4/21298943/fqx023.pdf">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">https://academic.oup.com/dsh/article-pdf/32/suppl_2/ii4/21298943/fqx023.pdf</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Fischer, F., Börner, I., Göbel, M., Hechtl, A., Kittel, C., Milling, C. and Trilcke, P.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2019. Programmable corpora: Introducing DraCor, an infrastructure for the research on European drama. </hi>
+                        <hi rend="italic" style="font-size:12pt">Digital Humanities 2019</hi>
+                        <hi style="font-size:12pt">: 5 doi:</hi>
+                        <ref target="https://doi.org/doi:10.5281/zenodo.4284002">
+                            <hi style="font-size:12pt">doi:10.5281/zenodo.4284002</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(1D1C1D) background(white)" style="font-size:12pt">Jett, Jacob, Capitanu Boris, Kudeki Deren, Cole Timothy, Hu Yuerong, Organisciak Peter, Underwood Ted, Koehl Eleanor Dickson, Dubnicek Ryan, Downie J. Stephen.</hi>
+                        <hi rend="color(1D1C1D) background(white)" style="font-size:12pt" xml:space="preserve"> 2020. “</hi>
+                        <hi rend="color(172B4D) background(white)" style="font-size:12pt">The HathiTrust Research Center Extracted Features Dataset (2.0)”</hi>
+                        <hi rend="color(1D1C1D) background(white)" style="font-size:12pt" xml:space="preserve">. HathiTrust Research Center. </hi>
+                        <ref target="https://doi.org/10.13012/R2TE-C227">
+                            <hi rend="underline color(1155CC) background(white)" style="font-size:12pt">https://doi.org/10.13012/R2TE-C227</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Kermes, H., Degaetano-Ortlieb, S., Khamis, A., Knappen, J. and Teich, E.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2016. The royal society corpus: From uncharted data to corpus. </hi>
+                        <hi rend="italic" style="font-size:12pt">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16)</hi>
+                        <hi style="font-size:12pt">. pp. 1928–31.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Lin, Yuri, Jean-Baptiste Michel, Erez Aiden Lieberman, Jon Orwant, Will Brockman, und Slav Petrov.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2012. „Syntactic Annotations for the Google Books NGram Corpus“. In </hi>
+                        <hi rend="italic" style="font-size:12pt">Proceedings of the ACL 2012 System Demonstrations</hi>
+                        <hi style="font-size:12pt">, 169–74. Jeju Island, Korea: Association for Computational Linguistics.</hi>
+                        <ref target="https://aclanthology.org/P12-3029" xml:space="preserve"> </ref>
+                        <ref target="https://aclanthology.org/P12-3029">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">https://aclanthology.org/P12-3029</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Odebrecht, C., Burnard, L. and Schöch, C.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2021. European Literary Text Collection (ELTeC): April 2021 release with 14 collections of at least 50 novels. Zenodo doi:</hi>
+                        <ref target="https://doi.org/10.5281/ZENODO.4662444">
+                            <hi style="font-size:12pt">10.5281/ZENODO.4662444</hi>
+                        </ref>
+                        <hi style="font-size:12pt" xml:space="preserve">. </hi>
+                        <ref target="https://zenodo.org/record/4662444">
+                            <hi style="font-size:12pt">https://zenodo.org/record/4662444</hi>
+                        </ref>
+                        <hi style="font-size:12pt" xml:space="preserve"> (accessed 9 December 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Romanov, Maxim, Grallert, Till</hi>
+                        <hi style="font-size:12pt" xml:space="preserve">. 2022. ‘Establishing Parameters for Stylometric Authorship Attribution of 19th-Century Arabic Books and Periodicals’. </hi>
+                        <hi rend="italic" style="font-size:12pt">DH2022</hi>
+                        <hi style="font-size:12pt" xml:space="preserve">, Tokyo, 23 July 2022. </hi>
+                        <ref target="https://dh-abstracts.library.virginia.edu/works/11858">
+                            <hi style="font-size:12pt">https://dh-abstracts.library.virginia.edu/works/11858</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:12pt">Schöch, Christof, Frédéric Döhl, Achim Rettinger, Evelyn Gius, Peer Trilcke, Peter Leinen, Fotis Jannidis, Maria Hinzmann, und Jörg Röpke.</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 2020. „Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen“. </hi>
+                        <hi rend="italic" style="font-size:12pt">Zeitschrift für digitale Geisteswissenschaften (ZfdG)</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 5.</hi>
+                        <ref target="http://dx.doi.org/10.17175/2020_006" xml:space="preserve"> </ref>
+                        <ref target="http://dx.doi.org/10.17175/2020_006">
+                            <hi rend="underline color(1155CC)" style="font-size:12pt">http://dx.doi.org/10.17175/2020_006</hi>
+                        </ref>
+                        <hi style="font-size:12pt">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

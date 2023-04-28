@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="CALVO_TELLO_Jos__GND_und_Normdaten_f_r_europ_ische_Literatur" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">GND und Normdaten für europäische Literatur? Personen und Werke in den multilingualen Korpora von ELTeC</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Calvo Tello</surname>
+                        <forename>José</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Georg-August-Universität Göttingen</affiliation>
+                    <email>calvotello@sub.uni-goettingen.de</email>
+                    <idno type="ORCID">0000-0002-1129-5604</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rißler-Pipka</surname>
+                        <forename>Nanette</forename>
+                    </persName>
+                    <affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)</affiliation>
+                    <email>nanette.rissler-pipka@gwdg.de</email>
+                    <idno type="ORCID">0000-0002-0719-9003</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Barth</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Georg-August-Universität Göttingen</affiliation>
+                    <email>florian.barth@uni-goettingen.de</email>
+                    <idno type="ORCID">0000-0003-3408-7311</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T12:29:02.850000000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Normdaten</term>
+                    <term>Mehrsprachigkeit</term>
+                    <term>Korpora</term>
+                    <term>GND</term>
+                    <term>ELTeC</term>
+                    <term>Wikidata</term>
+                    <term>VIAF</term>
+                    <term>Literatur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bereinigung</term>
+                    <term>Identifizierung</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                    <term>Personen</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1">
+                <head>GND, Normdaten und die Digital Humanities</head>
+                <p>Viele Projekte in den Digital Humanities verwenden Identifier für Entitäten wie Personen, Werke, Körperschaften oder Orte, die auf eindeutige Einträge in Normdaten-Verzeichnissen oder in Knowledge Bases verweisen 
+                    <ref target="https://www.zotero.org/google-docs/?nCvxH1">(</ref>
+                    <ref target="https://www.zotero.org/google-docs/?nCvxH1">Barth 2022 u. a.; </ref>
+                    <ref target="https://www.zotero.org/google-docs/?nCvxH1">Rosenkötter und Fischer 2020; Fischer und Jäschke 2018; Herrmann und Lauer 2018; Dieckmann, Hermes, und Neuefeind 2017)</ref>. Zu diesen Ressourcen gehören u. a. die Gemeinsame Normdatei (GND), andere Normdaten von Nationalbibliotheken, Wikidata, VIAF, DBpedia, Getty oder CERL. Jede dieser Ressourcen ist nach verschiedenen Kriterien aufgebaut und bietet unterschiedliche Funktionalitäten. Dies bringt Vor- und Nachteile für die Projekte mit sich, die sie nutzen. Zum Beispiel hat Wikidata keinen echten Normierungscharakter im Gegensatz zu Normdaten-Verzeichnissen wie der GND. Wikidata hat jedoch den Vorteil, dass Nutzende selbständig neue Entitäten anlegen können. Dies ist bei den durch Bibliotheken verwalteten Normdaten-Verzeichnissen meist nur auf Antrag möglich (in Zukunft sollen, zumindest für die GND, die Eingabemöglichkeiten durch angepasste Webformulare und Redaktionsumgebungen erweitert werden, vgl. 
+                    <ref target="https://www.zotero.org/google-docs/?aHvK7R">Kett u. a. 2022)</ref>.
+                </p>
+                <p>Nichtsdestotrotz ist die Sprache des Forschungsobjekts (z. B. von Textkorpora) und die Wahl der Normdaten-Ressource stark voneinander abhängig. Einige Projekte, die mit deutschsprachigen Texten arbeiten, haben sich für die GND entschieden, um Personen oder Werke zu identifizieren, u. a. die Digitale Bibliothek im TextGrid Repository,
+                    <ref n="1" target="ftn1"/>
+                     das Deutsche Textarchiv
+                    <ref n="2" target="ftn2"/>
+                     oder die deutschsprachigen Korpora aus DraCor 
+                    <ref target="https://www.zotero.org/google-docs/?sjqehf">(Fischer u. a. 2019)</ref> und ELTeC 
+                    <ref target="https://www.zotero.org/google-docs/?Xaybm1">(Burnard, Schöch, und Odebrecht 2021)</ref>. Projekte aus der deutschsprachigen Wissenschaftslandschaft, die im Bereich der nicht-deutschen Philologien forschen, entscheiden sich eher für andere Ressourcen, um Personen und Werke zu identifizieren. Die romanistischen Korpora der CLiGS-TextBox (Französisch, Spanisch, Italienisch und Portugiesisch; 
+                    <ref target="https://www.zotero.org/google-docs/?xmntoK">Schöch u. a. 2019)</ref>, die spanischen Korpora CoNSSA 
+                    <ref target="https://www.zotero.org/google-docs/?h54dWK">(Calvo Tello 2021)</ref> und CONHA 
+                    <ref target="https://www.zotero.org/google-docs/?LsEPod">(Henny-Krahmer 2018)</ref>, und die französischen Korpora in ELTeC und DraCor benutzen für die Identifikation ihrer Entitäten überwiegend Wikidata und VIAF.
+                </p>
+                <p>Die Bibliotheken und Fachinformationsdienste (FIDs) vieler Philologien in Deutschland verwenden die GND für die Sacherschließung ihrer Titel. Sie reichern umgekehrt die GND mit immer mehr Daten zu fremdsprachigen Autor*innen und deren Werke an. Es liegt nahe, dass die GND weiterhin hauptsächlich Autor*innen und Werke aus dem deutschsprachigen Raum verzeichnet. Das heißt jedoch nicht, dass die GND eine Quelle ist, die sich nur für die Germanistik eignet. Generell ist die GND in Form von Agenturen organisiert, die sich auf viele Bibliotheken und andere Institutionen in Deutschland verteilen und von der DNB koordiniert werden.
+                    <ref n="3" target="ftn3"/>
+                     Seit 2020 spielt die GND außerdem eine neue Rolle durch das Projekt “GND für Kulturdaten” 
+                    <ref target="https://www.zotero.org/google-docs/?kogN8V">(Rosenkötter und Fischer 2020; Balzer u. a. 2019)</ref> und seit 2021 durch die Beteiligung in der NFDI
+                    <ref n="4" target="ftn4"/>
+                     (Text+, NFDI4Culture).
+                    <ref n="5" target="ftn5"/>
+                    
+                </p>
+                <p>Daher fragen wir uns: Wie stark ist das Ungleichgewicht innerhalb der GND zwischen Einträgen zu deutsch- und fremdsprachiger Literatur?
+                    <ref n="6" target="ftn6"/>
+                     Können die Anglistik, die Romanistik, die klassischen Philologien, die Slavistik und andere damit rechnen, ihre Entitäten in der GND zu finden?
+                </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__k49cg8j1w3jf"/>ELTeC: mehrsprachige, vergleichbare Korpora für europäische Literatur
+                </head>
+                <p>Unsere Frage beantworten wir anhand der multilingualen Korpora von ELTeC. Dabei handelt es sich um literarische Korpora in verschiedenen europäischen Sprachen, die in der COST-Action Distant Reading erstellt wurden 
+                    <ref target="https://www.zotero.org/google-docs/?GwGJEJ">(Schöch u. a. 2021; Odebrecht, Burnard, und Schöch 2021)</ref>. Das Ziel des Projektes war die Zusammenstellung vergleichbarer Korpora mit 100 Romanen pro Sprache. Aktuell wurde dies für 11 Sprachen erreicht, während für 10 andere Sprachen weniger Romane vorliegen. Außerdem wurde jedes Dokument mit Metadaten zu Autor, Werk, Edition und Text ausgezeichnet. Auf Grundlage dieser Metadaten konnten wir unsere Analysen erstellen.
+                </p>
+                <p>Die Personen und Werke in ELTeC sind teilweise bereits mit Wikidata, GND oder VIAF eindeutig identifiziert. Die Abbildungen 1 und 2 zeigen im Vergleich die Annotation mit Normdaten für Autor*innen und Werke pro Sprache und die Wahl der Normdatenressource für die Identifikation von Autor*innen. </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/6273622c930ef171d9bd1cecaf8bc4e7.png"/>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/d6125ba0d9e97dbb341d3045f00b7d4c.png"/>
+                    </figure>
+                </p>
+                <p>Für die Sprachen Griechisch (GRE), Kroatisch (HR), Litauisch (LIT) und Rumänisch (ROM) konnten offenbar keine Normdaten verwendet werden. Um die Vergleichbarkeit der Ergebnisse zu gewährleisten, werden diese Sprachen bei den folgenden Analysen ausgeschlossen. Außer für das französische (FR) und in kleinen Teilen für das spanische (SPA), serbische (SRP) und ukrainische (UKR) Korpus wurden keine Werknormdaten eingetragen. Für die Autor*innen wurde überwiegend VIAF genutzt. Nur das französische und norwegische Korpus wurde auch mit Wikidata und das deutsche Korpus als einziges mit GND-IDs versehen. </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__3cwxcevno0x9"/>Methode
+                </head>
+                <p>Wir gehen in zwei Schritten vor, um ein vollständiges Bild über die mögliche Abdeckung mit Normdaten zu erhalten. Zunächst extrahieren wir die IDs der Autor*innen aus den TEI-Dokumenten der ELTeC-Korpora. Anhand der IDs werden die fehlenden Identifier aus Wikidata, GND und VIAF extrahiert. Das gelingt für die GND über die API von Lobid,
+                    <ref n="7" target="ftn7"/>
+                     und für Wikidata und VIAF durch ihre native API. Nach diesem Schritt erhalten alle Autor*innen eindeutige Identifier aus allen drei Ressourcen, falls Mappings gefunden werden konnten.
+                </p>
+                <p>Im nächsten Schritt werden die Werke mit Rückgriff auf die Autor*innen-ID identifiziert. Auch wenn für vier ELTeC-Korpora Werk-IDs (überwiegend mit VIAF) bereits vom Projekt erfasst wurden, ignorieren wir diese, um die gleiche Methode für alle Korpora anzuwenden. Wir führen drei parallele 
+                    <hi rend="italic">Reconciliation-</hi>Prozesse mit den drei Ressourcen für jedes Werk durch. Genauer, werden alle Werke aller Autor*innen abgerufen, um die Ähnlichkeit zwischen dem Titel des Werks in ELTeC und allen Titeln der Werke der jeweiligen Autor*in aus den Normdaten zu vergleichen. Für jede mögliche Paarung wird ein statistischer Wert für die Ähnlichkeit zwischen beiden Titeln berechnet (0 für Titel, die gar keine Gemeinsamkeiten haben, 1 für Titel, die deckungsgleich sind). Der Werktitel mit der höchsten Ähnlichkeit wird ausgewählt. Für die weitere Analyse werden nur die Werke berücksichtigt, deren Wert höher als 0.5 liegt. Für diese drei parallelen und automatischen 
+                    <hi rend="italic">Reconciliation- </hi>Prozesse werden die APIs von Lobid, Wikidata und VIAF benutzt.
+                </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__ba81lbzg8az6"/>Ergebnisse
+                </head>
+                <p>Ausgehend von den bereits in ELTeC identifizierten Autor*innen (vgl. Abb. 1) wird überprüft, ob diese auch in den jeweils anderen Normdatenressourcen (GND, Wikidata, VIAF) vorhanden sind. Daher sind hier Sprachen, für die keine Normdaten in ELTeC existieren (Griechisch, Kroatisch, Litauisch, Rumänisch), nicht berücksichtigt. </p>
+                <div type="div2">
+                    <head>
+                        <anchor xml:id="id__lb37f45vkmcx"/>Ergebnisse zu Autor*innen
+                    </head>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/4874ca78f120bdfda31cc823085356f3.png"/>
+                        </figure>
+                    </p>
+                    <p>Abbildung 3 zeigt die Summe der Normdaten zu Autor*innen pro Ressource, die in den hier betrachteten Korpora gefunden oder ergänzt werden konnten. Für alle drei Ressourcen ist die Abdeckung hier sehr gut. Die GND liegt im Vergleich nur leicht zurück.</p>
+                    <p>Die Verteilung dieser Daten pro Sprache wird in Abbildung 4 gezeigt. Das Bild entspricht der Zusammenfassung aus Abbildung 3. Erwartungsgemäß hat das deutsche Korpus die höchste Quote in der GND. Das norwegische Korpus kann mehr Treffer mit Wikidata als mit VIAF erzielen. Für Tschechisch und Polnisch erreichen sowohl VIAF als auch Wikidata sehr gute Ergebnisse. Neben dem Deutschen bietet die GND eine gute Abdeckung für Sprachen wie Englisch, Französisch, Italienisch, Norwegisch, Schwedisch und Ukrainisch.<ref n="8" target="ftn8"/>
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/51f596711eb8fce955bf097aa3123c60.png"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>
+                        <anchor xml:id="id__vcdukwal1tp"/>Ergebnisse zu Werken
+                    </head>
+                    <p>Das Bild ändert sich erwartungsgemäß, wenn nicht Autor*innen, sondern Werke in den drei Ressourcen gesucht werden (vgl. Abb.5). Während VIAF und Wikidata mehr als 700 Werke aus ELTeC verzeichnen, erreicht die GND nur knapp über 200. </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/530f5a73ae2ca0289c4d3c4b7330ca14.png"/>
+                        </figure>
+                    </p>
+                    <p>Um diese Zahlen besser zu verstehen, zeigt Abbildung 6, dass nur das deutsche Korpus akzeptable Ergebnisse aus der GND erreicht (80 % der Werke). Alle anderen Sprachen bewegen sich zwischen null und knapp über 40 %. Die Abdeckung von Wikidata oder VIAF ist für viele Sprachen deutlich höher: von 60 % bis zu 100 %.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/7c520b33ed58bb35dd758fe1d02cf5e8.png"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>
+                        <anchor xml:id="id__ji4e1q3dtx81"/>Anzahl der Informationen pro Entität
+                    </head>
+                    <p>Entscheidend für eine Bewertung der Ressource ist nicht nur, ob eine Entität vorhanden ist, sondern wie gut sie mit Metadaten beschrieben ist. Für die GND ist zu erwarten, dass Entitäten aus dem deutschsprachigen Raum ausführlicher beschrieben werden als Entitäten aus anderen Regionen. Um dies zu messen, werden die Daten von allen ELTeC-Autor*innen und deren Werke als XML-RDF-Dokumente aus der GND heruntergeladen und die Anzahl der XML-Elemente quantifiziert. Ohne den semantischen Gehalt der Elemente zu bewerten, gehen wir davon aus, dass mehr Elemente auch mehr Informationen pro Entität bedeuten. Abbildung 7 zeigt daher für die GND die Anzahl der Elemente pro Autor*in. Während für Autor*innen aus dem deutschsprachigen Raum 200-330 Elemente vorhanden sind, werden nur 100-240 für andere Sprachen verzeichnet. Auch wenn Sprachen wie Französisch oder Ukrainisch mittlere Werte (bis 240) zeigen, ist der Abstand zwischen diesen Sprachen und dem Deutschen immer noch sehr groß. </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/b1170f3fddaa77985cdb488672dea9b4.png"/>
+                        </figure>
+                    </p>
+                    <p>Für die Werke (vgl. Abb. 8) erreichen die deutschsprachigen Entitäten wieder deutlich höhere Werte als alle anderen Sprachen in der GND. Hier ist der Unterschied im Vergleich weniger groß, weil insgesamt für Werke weniger Elemente angelegt werden.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/2d30dd010e5a37fda9b462b356dfbb5a.png"/>
+                        </figure>
+                    </p>
+                    <p>Für einen Vergleich wurden diese Daten auch aus Wikidata extrahiert (Abbildungen 9 und 10). Wir prüfen, ob in Wikidata ähnliche Verzerrungen gegenüber dem Englischen oder anderen Sprachen zu beobachten sind. Jedoch hat in Wikidata keine Sprache einen so klaren Vorsprung im Vergleich zu allen anderen Sprachen wie das Deutsche in der GND.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/a8e395e577e67bd24fb4eb47ac8c7410.png"/>
+                        </figure>
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/59f0411dcb721ffb29a38920161b680a.png"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>
+                        <anchor xml:id="id__ijfwspnj67uq"/>Anreicherung durch ELTeC
+                    </head>
+                    <p>Insgesamt ist ein möglicher Grund für die bessere Abdeckung für Autor*innen und Werke in Wikidata und VIAF ist die Tatsache, dass die Teilnehmenden von ELTeC die Entitäten in Wikidata selbst eingetragen haben 
+                        <ref target="https://www.zotero.org/google-docs/?ZtkWvF">(Nešić u. a. 2022)</ref>. Die Abbildungen 11 und 12 zeigen, dass zwar die Mehrheit der Autor*innen aus ELTeC bereits vor dem Start des Projekts (2017-2018) in Wikidata vorhanden waren, aber viele neue Werkeinträge entstanden. Die Metadaten zu Werken aus den sieben Sprachen, die 
+                        <ref target="https://www.zotero.org/google-docs/?3grKCR">Nešić u. a. (2022)</ref> ausgewählt haben, führen zu einer deutlichen Verbesserung der Abdeckung in den letzten Jahren.
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/837cb6906555b831811250377a2aa7dd.png"/>
+                        </figure>
+                    </p>
+                    <p>
+                        <anchor xml:id="id__dqof1gaqugdd"/>
+                        <figure>
+                            <graphic url="Pictures/6cd2e8d4f35e2ad743e5724921f9729d.png"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>
+                        <anchor xml:id="id__nbrxpha2e5gw"/>Kanonisierungsgrad
+                    </head>
+                    <p>Eine weitere Hypothese ist, dass der Kanonisierungsgrad die Abdeckung in den drei Ressourcen beeinflusst. In den ELTeC Korpora wurde dies anhand des Metadatenfelds “reprints” belegt. Für Autor*innen und Werke, die keine oder wenige “reprints” (“low”) haben, zeigt Abbildung 13, dass alle drei Ressourcen eine niedrigere Abdeckung haben. Dabei ist der Unterschied für die GND deutlich größer als bei VIAF und Wikidata. Die Daten deuten darauf hin, dass die GND stärker vom Kanonisierungsgrad beeinflusst ist als die anderen zwei Ressourcen. Besonders niedrig ist die Abdeckung von nicht kanonisierten Werken in der GND (Abb. 13, “low reprints”). Zu beachten ist, dass die Verteilung von solchen Metadaten in den ELTeC Korpora nicht gleichmäßig ist. Die Ergebnisse können dementsprechend allein durch die Zusammenstellung der Korpora und die Metadatenanreicherung beeinflusst sein.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/3ad46075dc82f05414a551f1863a2ae3.png"/>
+                        </figure>
+                    </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__9ny72cb9xy4l"/>Abschluss
+                </head>
+                <p>Wie gut können nicht-germanistische Projekte aus dem deutschsprachigen Raum mit der GND Autor*innen und Werke identifizieren? Sollten sie lieber auf Wikidata oder VIAF zurückgreifen? Um das zu beantworten, wurden die multilingualen Korpora von ELTeC analysiert. Auch wenn diese Korpora nicht vollständig ausgewogen hinsichtlich Repräsentation der Inhalte und der Persistenz ihrer Identifier sein können, sind sie eine wertvolle Ressource von und für die Community. Weitere ähnliche Evaluationen könnten in Zukunft durchgeführt werden, wenn umfassenderes Vergleichsmaterial identifiziert oder zusammengestellt wird. Das ELTeC Korpus ist zeitlich (19. Jh.), quantitativ und sachlich (100 Romane pro Sprache) notwendig beschränkt und vor diesem Hintergrund sind auch die vorliegenden Ergebnisse zu betrachten. </p>
+                <p>Generell zeigt die GND eine gute Abdeckung von Personendaten und ist damit sehr nah an Wikidata oder VIAF. Jedoch füllt die GND deutlich mehr Felder (d.h. mehr Informationen) zu deutschen Autor*innen als zu anderen europäischen Autor*innen (für Personendaten außerhalb der Literatur mag das anders aussehen).</p>
+                <p>Hinsichtlich der Werknormdaten kann die GND nur für das Deutsche akzeptable Ergebnisse liefern. Auch für andere große Sprachen wie Französisch, Englisch oder Spanisch enthält die GND nur 40 % der enthaltenen Werke in ELTeC. Nicht nur die Abdeckung, sondern auch der Informationsgehalt ist für Werke deutschsprachiger Autor*innen höher als für alle anderen Sprachen. Darüber hinaus scheint die GND stärker vom Kanonisierungsgrad abhängig zu sein als VIAF oder Wikidata.</p>
+                <p>Wenn die GND damit als national-ausgerichtete Normdateninstitution erwartbar schlechter abschneidet, dann wäre zu prüfen, ob die Normdaten anderer Einrichtungen (vor allem von Nationalbibliotheken) eine ähnliche oder sogar stärkere Favorisierung der eigenen Sprache verzeichnen.</p>
+                <p>Durch die Einbindung der GND (der DNB und GND-Agenturen in anderen Bibliotheken) in die NFDI öffnet sich die GND nicht nur der Community, sondern es werden auch wichtige Diskussionen zu Multilingualität (GNDmul)
+                    <ref n="9" target="ftn9"/> und Internationalität geführt. Wir sind zuversichtlich, dass die GND mithilfe der Community den Anteil fremdsprachiger Werke und Autor*innen in Zukunft erhöhen kann. Innerhalb von Text+ versuchen wir, Normdaten und Forschungsdaten zu verknüpfen. Die in dieser Analyse verwendeten Skripte werden auch für die Entwicklung von Pipelines zur Datenanreicherung im TextGrid Repository genutzt. So können die neu identifizierten Personen und Werke aus den ELTeC-Korpora mit den entsprechenden IDs zu den Daten aus dem TextGrid Repository hinzugefügt werden. Umgekehrt konnte damit auch ELTeC neue Daten für die Korpora gewinnen.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1"><ref target="https://textgridrep.org/">https://textgridrep.org/.</ref></note>
+<note xml:id="ftn2" rend="footnote text" n="2"><ref target="https://www.deutschestextarchiv.de/">https://www.deutschestextarchiv.de/."</ref></note>
+<note xml:id="ftn3" rend="footnote text" n="3">Vgl. GND-Partner: <ref target="https://gnd.network/Webs/gnd/DE/UeberGND/Partner/partner_node.html">https://gnd.network/Webs/gnd/DE/UeberGND/Partner/partner_node.html</ref>; <ref target="https://prezi.com/p/unl16mzwubbs/gndzoom/">https://prezi.com/p/unl16mzwubbs/gndzoom/.</ref></note>
+<note xml:id="ftn4" rend="footnote text" n="4">Nationale Forschungsdateninfrastruktur: <ref target="https://www.nfdi.de/">https://www.nfdi.de/.</ref></note>
+<note xml:id="ftn5" rend="footnote text" n="5">Text+: <ref target="https://www.text-plus.org/">https://www.text-plus.org/</ref>; NFDI4Culture: <ref target="https://nfdi4culture.de/">https://nfdi4culture.de/.</ref></note>
+<note xml:id="ftn6" rend="footnote text" n="6">Von den 501.913 Einzelwerken in der GND sind 57.857 Deutsch, 10.476 Englisch und 6.918 Französisch, 5.918 Italienisch, 2.419 Spanisch, 449 Portugiesisch, 390 Rumänisch, aber auch 12.329 Latein, 6.072 Griechisch und der Großteil ohne Sprachangabe: 379.872 (<ref target="https://explore.gnd.network/search?f.satzart=Werk&amp;f.land.limit=80&amp;rows=25">https://explore.gnd.network/search?f.satzart=Werk&amp;f.land.limit=80&amp;rows=25</ref>) </note>
+<note xml:id="ftn7" rend="footnote text" n="7">Vgl. Lobid-API, mit der GND-Einträge abgerufen werden können: <ref target="https://lobid.org/gnd/api">https://lobid.org/gnd/api.</ref></note>
+<note xml:id="ftn8" rend="footnote text" n="8">Das lettische Korpus (LAV) zählen wir nicht mit, weil der Balken in Abb. 4 zwar 100% für alle drei Ressourcen anzeigt, aber es sich insgesamt nur um 5 Romane handelt (vgl. Abb. 1).</note>
+<note xml:id="ftn9" rend="footnote text" n="9"><ref target="https://gnd.network/Webs/gnd/DE/UeberGND/Partner/partner_node.html">https://gnd.network/Webs/gnd/DE/UeberGND/Partner/partner_node.html</ref></note>
+</div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Barth, Florian, Varachkina, Hanna, Dönicke, Tillmann, und Luisa Gödeke.</hi> Levels of Non-Fictionality in Fictional Texts. In 
+                        <hi rend="italic">Proceedings of ISA-18 Workshop at LREC2022</hi>, 27–32. Marseille, 20 June 2022. 
+                        <ptr target="http://www.lrec-conf.org/proceedings/lrec2022/workshops/ISA-18/pdf/2022.isa18-1.4.pdf"/>.
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Balzer, Detlev, Barbara K. Fischer, Jürgen Kett, Susanne Laux, Jens M. Lill, Jutta Lindenthal, Mathias Manecke, Martha Rosenkötter, und Axel Vitzthum.</hi> 2019. „Das Projekt ‚GND für Kulturdaten‘ (GND4C)“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">o-bib. Das offene Bibliotheksjournal / Herausgeber VDB</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">6 (4): 59–97. https://doi.org/10.5282/o-bib/2019H4S59-97.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Burnard, Lou, Christof Schöch, und Carolin Odebrecht.</hi> 2021. „In search of comity: TEI for distant reading“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Journal of the Text Encoding Initiative</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, Nr. Issue 14 (März). https://doi.org/10.4000/jtei.3500.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Calvo Tello, José.</hi> 2021. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">The Novel in the Spanish Silver Age: A Digital Analysis of Genre Using Machine Learning</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">. Digital Humanities Research 5. Bielefeld: transcript.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Dieckmann, Lisa, Jürgen Hermes, und Claes Neuefeind.</hi> 2017. „Bild, Beschreibung, (Meta)Text. Automatische inhaltliche Erschließung und Annotation kunsthistorischer Daten“. In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Digitale Nachhaltigkeit</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, 103–7. Bern: DHd. https://zenodo.org/record/3684825#.YuoMEBzP1aQ.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Fischer, Frank, Ingo Börner, Mathias Göbel, Angelika Hechtl, Christopher Kittel, Carsten Milling, und Peer Trilcke.</hi> 2019. „Programmable Corpora - Die digitale Literaturwissenschaft zwischen Forschung und Infrastruktur am Beispiel von DraCor“. In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">6. Tagung des Verbands Digital Humanities im deutschsprachigen Raum, DHd 2019, Frankfurt &amp; Mainz, Germany, March 25-29, 2019</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, herausgegeben von Patrick Sahle und Patrick Helling. https://doi.org/10.5281/zenodo.4622061.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Fischer, Frank, und Robert Jäschke.</hi> 2018. „Liebe und Tod in der Deutschen Nationalbibliothek“. In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">DHd2018: ”Kritik der digitalen Vernunft”</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, 261–66. Cologne, Germany: Digital Humanities im deutschsprachigen Raum. https://hal.archives-ouvertes.fr/hal-01787558.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Henny-Krahmer, Ulrike.</hi> 2018. „Exploration of Sentiments and Genre in Spanish American Novels“. In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Puentes/Bridges</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">. México DF: ADHO. https://dh2018.adho.org/exploration-of-sentiments-and-genre-in-spanish-american-novels/.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Herrmann, J. Berenike, und Gerhard Lauer.</hi> 2018. „Korpusliteraturwissenschaft. Zur Konzeption und Praxis am Beispiel eines Korpus zur literarischen Moderne“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Osnabrücker Beiträge zur Sprachtheorie</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, Nr. 92: 127–56.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Kett, Jürgen, Christoph Kudella, Andrea Rapp, Regine Stein, und Thorsten Trippel.</hi> 2022. „Text+ und die GND – Community-Hub und Wissensgraph“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Zeitschrift für Bibliothekswesen und Bibliographie</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">69 (1–2): 37–47. https://doi.org/10.3196/1864295020691262.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Ne<hi rend="hebrew">š</hi>ić, Milica Ikonić, Ranka Stanković, Christof Schöch, und Mihailo Skoric.</hi> 2022. „From ELTeC Text Collection Metadata and Named Entities to Linked-Data (and Back)“. In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">8th Workshop on Linked Data in Linguistics</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, 7–16. Marseille: LREC. http://www.lrec-conf.org/proceedings/lrec2022/workshops/LDL/pdf/2022.ldl2022-1.2.pdf.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Odebrecht, Carolin, Lou Burnard, und Christof Schöch.</hi> 2021. „European Literary Text Collection (ELTeC): April 2021 release with 14 collections of at least 50 novels.“ Zenodo. https://doi.org/10.5281/zenodo.4662444.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Rosenkötter, Martha, und Barbara Fischer.</hi> 2020. „Normdaten der Faktenanker für Qualität im semantischen Retrieval. Der Ausbau der Gemeinsamen Normdatei (GND) im Projekt GND für Kulturdaten (GND4C).“ In </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Spielräume: Digital Humanities zwischen Modellierung und Interpretation</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, 344–45. Paderborn: DHd. https://zenodo.org/record/3666690#.YuoNlRzP1aQ.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Schöch, Christof, Tomaz Erjavec, Roxana Patras, und Diana Santos.</hi> 2021. „Creating the European Literary Text Collection (ELTeC): Challenges and Perspectives“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Modern Languages Open</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, Mai. https://doi.org/10.5281/ZENODO.4742419.</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm"><hi rend="bold">Schöch, Christof, José Calvo Tello, Ulrike Henny-Krahmer, und Stefanie Popp.</hi> 2019. „The CLiGS Textbox: Building and Using Collections of Literary Texts in Romance Languages Encoded in TEI XML“. </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">
+                            <hi rend="italic">Journal of the Text Encoding Initiative</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?TUTULm">, August. https://doi.org/10.4000/jtei.2085.</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

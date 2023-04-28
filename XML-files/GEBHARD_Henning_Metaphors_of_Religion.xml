@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GEBHARD_Henning_Metaphors_of_Religion" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Metaphors of Religion</title>
+                <author>
+                    <persName>
+                        <surname>Gebhard</surname>
+                        <forename>Henning</forename>
+                    </persName>
+                    <affiliation>Ruhr Universität Bochum, Deutschland</affiliation>
+                    <email>henning.gebhard@rub.de</email>
+                    <idno type="ORCID">0000-0001-7853-1950</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jha</surname>
+                        <forename>Vandana</forename>
+                    </persName>
+                    <affiliation>Karlsruhe Institute for Technology, Deutschland</affiliation>
+                    <email>vandana.jha@kit.edu</email>
+                    <idno type="ORCID">0000-0002-6629-0042</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tögel</surname>
+                        <forename>Philipp</forename>
+                    </persName>
+                    <affiliation>Karlsruhe Institute for Technology, Deutschland</affiliation>
+                    <email>philipp.toegel@kit.edu</email>
+                    <idno type="ORCID">0000-0002-1791-0268</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dipper</surname>
+                        <forename>Stefanie</forename>
+                    </persName>
+                    <affiliation>Ruhr Universität Bochum, Deutschland</affiliation>
+                    <email>stefanie.dipper@rub.de</email>
+                    <idno type="ORCID">0000-0003-4357-9078</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Elwert</surname>
+                        <forename>Frederik</forename>
+                    </persName>
+                    <affiliation>Ruhr Universität Bochum, Deutschland</affiliation>
+                    <email>frederik.elwert@rub.de</email>
+                    <idno type="ORCID">0000-0001-9149-9377</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tonne</surname>
+                        <forename>Danah</forename>
+                    </persName>
+                    <affiliation>Karlsruhe Institute for Technology, Deutschland</affiliation>
+                    <email>danah.tonne@kit.edu</email>
+                    <idno type="ORCID">0000-0001-6296-7282</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-14T16:26:35.368830591</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Metaphern</term>
+                    <term>Religion</term>
+                    <term>Annotation</term>
+                    <term>Thesaurus</term>
+                    <term>Linked Open Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Infrastruktur</term>
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-c9e61a4d-7fff-da4b-0692-131bc8eb963e"/>Towards a Shared Infrastructure for Metaphor Analysis<ref n="1" target="ftn1"/>
+                </head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-554d791b-7fff-f4e2-dfef-fd51ca6c10bd"/>
+                    <hi rend="color(#000000) background-color(#ffffff)">The collaborative research center (CRC) 1475</hi>
+                    <hi rend="color(#000000) background-color(#ffffff)"><ref n="2" target="ftn2"/>
+                    </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)"> </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">studies the role of metaphors in religious meaning-making.</hi>
+                    <hi rend="color(#000000) background-color(#ffffff)"> </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">In metaphors, meaning is transferred from one semantic domain to another. Metaphors can thus serve as a means to express abstract concepts with reference to more concrete ones closer to human experience. Religion, which cannot directly address its ultimate subject (the transcendent, i.e., gods, otherworlds, etc.), is especially dependent on this procedure. By adopting conceptual metaphor theory </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">(</hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">Lakoff and Johnson, 1980; Steen et al., 2010; Nacey et al., 2019)</hi>
+                    <hi rend="color(#000000) background-color(#ffffff)"> </hi>
+                    <hi rend="color(#000000) background-color(#ffffff)">the CRC seeks to more thoroughly understand this process theoretically and grasp it methodologically to research its semantic forms empirically and comparatively. Through its multidisciplinary subprojects the CRC contributes to the historiography of religions and to answering systematic questions in the comparative study of religions. It covers a plethora of religious traditions from across the globe, including Christianity, Islam, Judaism, Zoroastrianism, Jainism, Buddhism, and Daoism. The time frame ranges from 3,000 BCE to the present day, including texts from multiple languages and diverse genres, from Korean Confucian ego-documents to Christian online forums.</hi>
+                </p>
+                <p>Motivated by the challenge of comparability and interoperability between its extremely heterogeneous subprojects, the CRC deliberately puts emphasis on digital methods. Thus, the shared infrastructure, provided by the information infrastructure (INF) project, does not only support the individual research projects, but fosters conceptual integration. Utilizing this infrastructure the subprojects annotate religious texts to make metaphorical language explicit. For this process we adapt the Five Step Method (Steen, 2011) to not only mark the presence of metaphors, but to include complex analysis of the structural functioning of the metaphor and the resulting domain mappings as well. As a standardization measure we append an additional step, where each concept is linked to a conceptual thesaurus.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>The Metaphor Workbench</head>
+                <p>Within the INF project, scholars of religion, computational linguists, and computer scientists jointly establish the digital research infrastructure of the CRC and provide the necessary tools for the subprojects.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Shared text repository</head>
+                    <p>An instance of the KIT Data Manager Base Repo (Jejkal et al., 2014) is used as a research data repository for all CRC subprojects. Existing data from the subprojects is stored as structured data objects including their respective metadata in the form of TEI compliant XML files (Burnard and Bauman, 2010) and is available for further processing, enrichment, analysis, etc. via standardized interfaces. In close collaboration with the subprojects, the INF project is evaluating existing representations of their data, required format conversion, legal aspects and rights management, as well as assisting the provision of required descriptive metadata. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Annotation services</head>
+                    <p>To annotate the metaphors the INF team provides tools for annotation implementing a shared metaphor annotation schema, which is based on the web annotation data model (Young, Sanderson, and Ciccarese, 2017). Because the available annotation tools (like INCEpTION, CATMA, WissKI etc.) are lacking the possibility to create the complex annotations needed for the CRC’s methodology, a new metaphor analysis tool will be developed, which guides and documents the interpretative analysis process. In the future, we will be using NLP expertise present in the CRC’s subprojects to integrate methods of (semi-)automatic metaphor detection and analysis.</p>
+                    <p>Furthermore, the INF project is advising the subprojects that aim for additional, project-specific annotation of their data, particularly with regard to the use of existing annotation standards and best practices. All of the annotations are provided in a Web Annotation Protocol Server (Tonne et al., 2019) as RDF triples to foster analysis across the subprojects and to ensure interoperability and reuse.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Conceptual thesaurus</head>
+                    <p>To facilitate comparability of our metaphor annotations across barriers of languages and cultural traditions, the CRC is developing a conceptual thesaurus (CT) as a shared reference system. Its taxonomy is based on the Historical Thesaurus of English (Kay, 2009), albeit extending and adapting it for the languages and topics prevalent in the CRC. Using the SKOS data model (Miles and Bechhofer, 2009) and principles from Linked Open Data (LOD; Berners-Lee, 2006), the CT will provide a language-independent framework for the annotation of domains used in metaphorical mappings. Linking concrete metaphorical expressions with a central semantic resource enables retrieving conceptually related metaphors from different corpora, and comparatively studying semantic domains used in metaphors.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Thesaurus of religious metaphors</head>
+                    <p>Linking texts, analysis, and concepts, the resulting annotations will make up the thesaurus of religious metaphors (TRM). The TRM will enable studies of metaphors in a systematic and comparative way by providing a semantically indexed collection of religious metaphors, as well as query and analysis tools.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Conclusions and Future Scope</head>
+                <p>The CRC’s infrastructure – research data repository, annotation services, conceptual thesaurus and thesaurus of religious metaphors – fosters reusability as well as interoperability with external knowledge graphs by focusing on open data principles and will be published under open licenses. In particular, the emerging TRM will act as a unique resource for scholars worldwide studying religious metaphors. The INF project itself is an integral part of the CRC in providing this shared infrastructure and thus enabling comparative studies on an unprecedented scale in the field.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">
+                        <hi rend="color(#000000)">Contributor Roles: Henning Gebhard (Writing – original draft; Writing – review &amp; editing; </hi>
+                        <hi rend="color(#000000)">Data Curation; Software</hi>
+                        <hi rend="color(#000000)">), Vandana Jha (Writing – original draft; Writing – review &amp; editing; </hi>
+                        <hi rend="color(#000000)">Data Curation; Software</hi>
+                        <hi rend="color(#000000)">), Philipp Tögel (Writing – original draft; Writing – review &amp; editing; </hi>
+                        <hi rend="color(#000000)">Data Curation; Software</hi>
+                        <hi rend="color(#000000)">), Stefanie Dipper (Writing – review &amp; editing; Conceptualization; Funding acquisition; Methodology; Supervision), Frederik Elwert (Writing – review &amp; editing; Conceptualization; Funding acquisition; Methodology; Supervision), Danah Tonne (Writing – review &amp; editing; Conceptualization; Funding acquisition; Methodology; Supervision).</hi>
+                    </note>
+<note xml:id="ftn2" rend="footnote text" n="2">
+                            
+                                <hi rend="color(#000000)">Funded by the German Research Association (DFG, Project ID 441126958), CRC 1475 “Metaphors of Religion” consists of </hi>
+                                <hi rend="color(#000000) background-color(#ffffff)">researchers from the Ruhr University Bochum and the Karlsruhe Institute of Technology in 14 scientific subprojects.</hi>
+                            
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Berners-Lee, Tim.</hi> 2006. “
+                        <hi rend="italic">Linked Data.”</hi> July 27, 2006. https://www.w3.org/DesignIssues/LinkedData.html.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burnard, Lou, and Syd Bauman, eds.</hi> 2010. 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange. </hi>Version 1.9.1, March 2011. Charlottesville: TEI Consortium. http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jejkal, Thomas, Alexander Vondrous, Andreas Kopmann, Rainer Stotzka, and Volker Hartmann.</hi> 2014. 
+                        <hi rend="italic">“KIT Data Manager: The Repository Architecture Enabling Cross-Disciplinary Research.” </hi>Large-Scale Data Management and Analysis (LSDMA) - Big Data in Science. Hrsg.: Ch. Jung, 9.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kay, Christian, ed.</hi> 2009. 
+                        <hi rend="italic">Historical Thesaurus of the Oxford English Dictionary: With Additional Material from “A Thesaurus of Old English.”</hi> Oxford; New York: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lakoff, George, and Mark Johnson.</hi> 1980. 
+                        <hi rend="italic">Metaphors We Live By.</hi> Chicago [u.a.]: Univ. of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Miles, Alistair, and Sean Bechhofer.</hi> 2009. 
+                        <hi rend="italic">“SKOS Simple Knowledge Organization System Reference.”</hi> 2009. https://www.w3.org/TR/skos-reference/.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nacey, Susan, Aletta G. Dorst, Tina Krennmayr, and W. Gudrun Reijnierse, eds.</hi> 2019. 
+                        <hi rend="italic">Metaphor Identification in Multiple Languages: MIPVU around the World.</hi> Converging Evidence in Language and Communication Research 22. Philadelphia: John Benjamins Publishing Company.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Steen, Gerard J. 2011.</hi>
+                        <hi rend="italic">“From Three Dimensions to Five Steps: The Value of Deliberate Metaphor.”</hi> Metaphorik.de – Online-Journal Zur Metaphorik in Sprache, Literatur, Medien.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Steen, Gerard J., Aletta G. Dorst, J. Berenike Herrmann, Anna A. Kaal, Tina Krennmayr, and Trijntje Pasma.</hi> 2010. 
+                        <hi rend="italic">A Method for Linguistic Metaphor Identification: From MIP to MIPVU.</hi> Vol. 14. Converging Evidence in Language and Communication Research 14. Amsterdam/Philadelphia: John Benjamins Publishing Company.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tonne, Danah, Germaine Götzelmann, Philipp Hegel, Michael Krewet, Julia Hübner, Sibylle Söring, Andreas Löffler, Michael Hitzker, Markus Höfler, and Timo Schmidt.</hi> 2019. 
+                        <hi rend="italic">“Ein Web Annotation Protocol Server Zur Untersuchung Vormoderner Wissensbestände.”</hi> https://dhd-boas-app.acdh-dev.oeaw.ac.at/pages/show.html?document=TONNE_Danah_Ein_Web_Annotation_Protocol_Server_zur_Untersuch.xml.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Young, Benjamin, Robert Sanderson, and Paolo Ciccarese.</hi> 2017. 
+                        <hi rend="italic">“Web Annotation Data Model.”</hi> 2017. 
+                        <ptr target="https://www.w3.org/TR/annotation-model/"/>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

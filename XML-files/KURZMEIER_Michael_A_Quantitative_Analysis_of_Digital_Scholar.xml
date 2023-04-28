@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KURZMEIER_Michael_A_Quantitative_Analysis_of_Digital_Scholar" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">A Quantitative Analysis of Digital Scholarly Editions</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Kurzmeier</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>University College Cork, Irland, Republik</affiliation>
+                    <email>mkurzmeier@ucc.ie</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>O’Sullivan</surname>
+                        <forename>James</forename>
+                    </persName>
+                    <affiliation>University College Cork, Irland, Republik</affiliation>
+                    <email>james.osullivan@ucc.ie</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Murphy</surname>
+                        <forename>Órla</forename>
+                    </persName>
+                    <affiliation>University College Cork, Irland, Republik</affiliation>
+                    <email>o.murphy@ucc.ie</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pidd</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Digital Humanities Institute, University of Sheffield</affiliation>
+                    <email>m.pidd@sheffield.ac.uk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wessels</surname>
+                        <forename>Bridgette</forename>
+                    </persName>
+                    <affiliation>University of Glasgow</affiliation>
+                    <email>bridgette.wessels@glasgow.ac.uk</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T18:01:13.726736984</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Scholarly Edition</term>
+                    <term>Interview</term>
+                    <term>History</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Aufzeichnung</term>
+                    <term>Sprache</term>
+                    <term>Metadaten</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="id_docs-internal-guid-48bae190-7fff-a93c-6610-24cf7a51f1f9"/>Digital scholarly editions are key resources for arts and humanities research, and predate in various forms the concepts of digital humanities or humanities computing (Sula and Hill 2019). While individual projects are remembered for their contribution to the field, few comprehensive data sources exist to show the development of the field. This poster is both an analysis of the sources from which to write a history of digital scholarly editing, and an overview of the state and development of the field using quantitative methods.
+            </p>
+            <p>Digital editions are positioned between drawing from archived material, and being an archive themselves (Dillen 2019, 266). In addition to that, digital editions also are web resources in need of archiving, lest they fall subject to link rot and very soon disappear from the web either for the lack of a persistent identifier or lack of maintenance. For digital editions past and present, two main data sources are available. Patrick Sahle lists around 700 editions in a curated catalog (Sahle, n.d.), while the Catalogue of Digital Editions features about 320 digital editions in a database (Franzini 2012). Both sources have different criteria for inclusion, overlap in content and differ in granularity, yet these are the sources from which a history of digital scholarly editions will mostly draw. Analysis of these sources will present them in their scope, aim and usability for research, while highlighting underrepresented areas of data collection on digital scholarly editions.</p>
+            <p>Adding to the collection of material to describe the history and development of digital editions, the second phase of C21 Editions project engaged in semi-structured interviews with an extensive group of 50 experts and stakeholders from a range of relevant disciplines, including digital scholarly editing, digital publishing, archiving and preservation, interface design, and creative practice. As the field of digital scholarly editions is by now old enough to span entire academic careers, these interviews represent a wealth of insight into the developments of the field. The interviews have been coded and allow for automated analysis of this novel primary source. This poster will present the preliminary results of analyzing the coded interviews with a special emphasis on digital publishing, open data and open access and research infrastructures. </p>
+            <p>A quantitative analysis of the data sources combined with the coded interviews will then provide data-driven insight into the development of digital scholarly editions since the 1970s. The analysis will in a first step focus on the amount of projects and their average duration over time to produce an overview of the field. In a second step, long-term cycles such as the adaptation of TEI-XML and open access standards will be analyzed. Preservation and availability of all editions listed in both data sources will show the loss rate affecting digital scholarly editions and lead back to a discussion of the current state and history of the field based on the work currently being undertaken within the C21 Editions project.</p>
+            <p>Acknowledgements</p>
+            <p>
+                <lb/>
+                <hi rend="color(#000000)">This research is part of </hi>
+                <hi rend="color(#000000)italic">C21 Editions: Scholarly Editing and Publishing in the Digital Age</hi>
+                <hi rend="color(#000000)">, a three-year international collaboration jointly funded by the Arts &amp; Humanities Research Council (AH/W001489/1) and Irish Research Council (IRC/W001489/1).</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-2c6b2a33-7fff-0341-fd71-ac597fd110dd"/>
+                        <ref target="https://www.zotero.org/google-docs/?kFgaPH">
+                            <hi rend="bold">Dillen, Wout.</hi> 2019. ‘On Edited Archives and Archived Editions’.
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?kFgaPH">
+                            <hi rend="color(#000000)italic">International Journal of Digital Humanities</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?kFgaPH">
+                            <hi rend="color(#000000)"> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?kFgaPH">
+                            <hi rend="color(#000000)">1 (2): 263–77. https://doi.org/10.1007/s42803-019-00018-4.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Franzini, Greta.</hi> 2012. ‘Gfranzini/Digeds_Cat: First Release’. Zenodo. https://doi.org/10.5281/ZENODO.1161425.</bibl>
+                    <bibl><hi rend="bold">Sahle, Patrick.</hi> n.d. ‘A Catalog of Digital Scholarly Editions - by Title, Complete List, a-z ( 714 Items)’. 
+                        <ptr target="https://v3.digitale-edition.de/vlet_a-z.html"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sula, Chris Alen, and Heather V Hill.</hi> 2019. ‘The Early History of Digital Humanities: An Analysis of Computers and the Humanities (1966–2004) and Literary and Linguistic Computing (1986–2004)’.
+                        <hi rend="color(#000000)italic">Digital Scholarship in the Humanities</hi>
+                        <hi rend="color(#000000)">, November, fqz072. https://doi.org/10.1093/llc/fqz072.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

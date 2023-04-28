@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KOLBE_Ines__Werktitel_als_Wissensraum_____ber_die_Potentiale" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>„Werktitel als Wissensraum“ – über die Potentiale von Werknormdaten für die Digitalen Geisteswissenschaften</title>
+                <author>
+                    <persName>
+                        <surname>Dietrich</surname>
+                        <forename>Elisabeth</forename>
+                    </persName>
+                    <affiliation>Herzogin Anna Amalia Bibliothek Weimar, Deutschland</affiliation>
+                    <email>elisabeth.dietrich@klassik-stiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kolbe</surname>
+                        <forename>Ines</forename>
+                    </persName>
+                    <affiliation>Deutsches Literaturarchiv Marbach, Deutschland</affiliation>
+                    <email>ines.kolbe@dla-marbach.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T15:37:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Normdaten</term>
+                    <term>Kanon</term>
+                    <term>deutschsprachige Literatur</term>
+                    <term>Werkbeziehungen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Kollaboration</term>
+                    <term>Daten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>1. Normdaten für Werke: Ausgangslage und Nutzen</head>
+            <p>
+                <hi style="font-size:12pt">Werknormdaten bieten die Möglichkeit, zentrale werkbezogene Angaben, wie Autorschaft, Erscheinungsjahr, Erscheinungsort und Genre, normiert – sprich standardisiert – in einem digitalen Datensatz abzubilden und mittels eines unikalen Identifiers persistent zur Verfügung zu stellen. Normdaten bilden wichtige Bausteine beim explorativen Suchen und Finden wissenschaftlich valider Informationen, schaffen durch ihre Vernetzung mit anderen Daten und Entitäten ein Semantic Web, aus dem sich neue fachübergreifende Forschungsfragen generieren lassen. Obwohl der wissenschaftliche Nutzen hoch ist, werden Werknormdaten im bibliothekarischen Arbeitsalltag in der Regel nur vereinzelt und rudimentär erstellt. Systematisch und in hoher Qualität werden Werknormdaten meist nur in drittmittelfinanzierten Projekten für eine konkrete Medienform oder Epoche erfasst, z.B. für Druckgrafiken, Bühnenstücke oder Werke der Musik (zu Letzterem: Bicher &amp; Wiermann 2018). Das Projekt »Werktitel als Wissensraum«</hi><ref n="1" target="ftn1"/>
+                <hi style="font-size:12pt" xml:space="preserve"> hat das Ziel, den Grundstock für ein zentrales elektronisches, dynamisches Werklexikon zur deutschen Literatur innerhalb der GND zu legen. Der Werkbegriff folgt dem FRBR-Modell, das die Grundlage für RDA bildet, dem internationalen Regelwerk für Bibliotheken und Archive.</hi><ref n="2" target="ftn2"/>
+                <hi style="font-size:12pt">Das Konzept der werkorientierten Erschließung ist nicht neu und nimmt seinen Anfang in den von Antonio Panizzi entwickelten, 1841 erschienenen »Rules for the Compilation of Catalogue«, denen „das Prinzip zugrunde [liegt], alle Katalogeintragungen für unterschiedliche Ausgaben (Auflagen, Übersetzungen) eines Werkes zusammenzuführen“ (Barnert, Dietrich, Kolbe und Schmidgall 2021, 140). Durch die Einführung des Regelwerks RDA (Resource Description and Access) in Deutschland wird das zugrundeliegende FRBR-Modell mit den Ebenen Werk, Expression, Manifestation und Exemplar bei der Katalogisierung berücksichtigt. In Datenbanken können die miteinander in Beziehung stehenden Entitäten wie Werke, Übersetzungen (Expressionen), Ausgaben (Manifestationen) und Exemplare virtuell zusammengeführt werden. Die Idee mit Hilfe von Werknormdaten Informationen zu bündeln, wird auch in anderen Ländern umgesetzt, etwa in Finnland, Frankreich und den Vereinigten Staaten. In den jeweiligen Verzeichnissen der Nationalbibliotheken – in denen die Werknormdaten unterschiedlich umfangreich aufbereitet sind – finden sich neben den Übersetzungstiteln und Editionen teils auch Adaptionen des Grundwerks.</hi><ref n="3" target="ftn3"/>
+                <hi style="font-size:12pt" xml:space="preserve"> Neben Bibliotheken können andere Einrichtungen ihre Bestände durch die Nutzung der Werknormdaten anreichern.  Somit schafft unser von der DFG gefördertes Projekt entscheidende Voraussetzungen für eine materialübergreifende Vernetzung musealer, bibliothekarischer und archivarischer Sammlungen und verbessert die Recherchemöglichkeiten für Nutzende (vgl. Althage 2019).</hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+                <head>2. Zur Arbeitsweise des Projekts</head>
+            
+            <p>
+                <hi style="font-size:12pt">Vor Projektbeginn wurden die deutschsprachigen Werke aus „Kindlers Literatur-Lexikon“, Wilperts „Lexikon der Weltliteratur“ und Frenzels „Daten deutscher Dichtung“ als wichtigste Registrationsmedien der Nachkriegsgermanistik sowie vier neuere, nach der Jahrtausendwende erschienene Werklexika, die auch nicht-kanonisierte Einzelwerke enthalten, sowie die Werknormdatenpools in Marbach und Weimar ausgewertet. Die in den 10 Datenquellen am häufigsten vertretenen deutschsprachigen Werke bilden die Grundmenge von 4.625 Werken, wovon 2.050 Werktitel mit Erscheinungsjahr von 1700 bis 1914 in der Herzogin Anna Amalia Bibliothek Weimar und 2.575 Titel erschienen von 1915 bis 2015 in der Bibliothek des Deutschen Literaturarchivs Marbach bearbeitet werden. Der Befund, dass die Menge der in den Lexika aufgeführten Werke für das 20./21. Jahrhundert größer ist als für das 18./19. Jahrhundert, ist an sich schon aussagekräftig. Insgesamt sind ca. 800 Autor:innen vertreten, darunter nur 65 Frauen. Die Auswahl der bekanntesten Werke erfolgte mit der Absicht, einen möglichst großen Nutzen für die Katalogisierung zu bieten, da die verbreitetsten Werke in verschiedenen Übersetzungen und Auflagen vorliegen.</hi><ref n="4" target="ftn4"/>
+                <hi style="font-size:12pt" xml:space="preserve"> Wir empfehlen, in Folgeprojekten Werklexika mit anderen Schwerpunkten auszuwählen, z.B. „Die deutschsprachigen Schriftstellerinnen des 18. und 19. Jahrhunderts“ von Elisabeth Friedrichs oder „Frauen Literatur Geschichte“ von Hiltrud Gnüg und Renate Möhrmann.</hi><ref n="5" target="ftn5"/>
+            </p>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Jedes der 4.625 Werke wird in der Gemeinsamen Normdatei (GND) und in Wikidata ergänzt beziehungsweise neu erstellt. Die GND ist eine kooperativ gepflegte digitale Normdatenbank für Personen, Körperschaften, Konferenzen, Geografika, Sachbegriffe und Werke. Wikidata hat sich in den letzten Jahren zu einem Knotenpunkt für die Vernetzung von Wissen entwickelt. In einem zweiten Arbeitspaket werden für jedes Werk der Grundmenge in Beziehung stehende Werke ermittelt. Mit Hilfe zahlreicher fachspezifischer Nachschlagewerke werden Werkbearbeitungen wie Vertonungen, Bühnenbearbeitungen, Verfilmungen sowie Vorlagen, Fassungen und Nachfolger identifiziert und wiederum als Werknormdaten erfasst. Im Laufe des Projekts wurden bereits 12.000 Werknormsätze in der GND bearbeitet oder neu erstellt. In einem dritten Arbeitspaket werden die Normdaten mitsamt der GND-Identifikationsnummern in bestehende Wikidata-Einträge eingepflegt oder in neue Einträge übernommen. Die so entstehenden Netzwerke erlauben Einblicke in die intellektuelle Produktion und Kollaboration und offenbaren literaturhistorische Entwicklungen, Trends, Debatten und Themenschwerpunkte (Märchen, Wertheriaden, Exilliteratur). Mit diesem Portfolio wird das Projekt seinem Anspruch einer offen zugänglichen und vernetzten literarischen Gedächtniskultur mithilfe von standardisierten Daten gerecht und trägt damit dem Tagungsmotto </hi>
+                <hi rend="italic" style="font-size:12pt">Open Humanities, Open Culture</hi>
+                <hi style="font-size:12pt">vollends Rechnung.</hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+                <head>3. Auswertungsmöglichkeiten und Anwendungsszenarien der Daten</head>
+            <p>
+                <hi style="font-size:12pt">Bei der Recherche und Anreicherung der Werknormdaten in der GND wurden bereits einige Besonderheiten registriert. Eine erste Übersicht über die Verteilung der Werkformen je Zeitraum zeigt zum einen die Vielfalt der Werkformen bei den Beziehungswerken (Tabelle 1). Zum anderen lässt sich im Vergleich feststellen, dass Film- und Hörspielbearbeitungen für die Werke der neueren Literatur häufiger vertreten sind. Auch geschlechtsspezifische Prozesse lassen sich anhand des Datensets nachvollziehen: die schrittweise Eroberung weiterer Handlungsräume und Schreibpraktiken im 20. Jahrhundert lassen allmählich Frauen als Autorinnen hervortreten (vgl. Seifert 2021, 93). Überwiegen bei den Frauen die Genre Prosa, Lyrik, Drama und Autobiografie, zeigt sich bei den fachspezifischen Werken zu Staatskunde, Philosophie, Geschichte, Religion oder Medizin, dass die Wissenschaftsgeschichte und -literatur bis weit ins 20. Jahrhundert überwiegend männlich dominiert war.</hi><ref n="6" target="ftn6"/>
+                <hi style="font-size:12pt" xml:space="preserve"> Systematische Auswertungen der Art und Häufigkeit der Werkbeziehungen sowie von Verfasserschaft je Zeitraum können interessante Aufschlüsse zur Literaturproduktion und -rezeption geben</hi>
+                <anchor xml:id="Hlk109802837"/>
+                <hi style="font-size:12pt">.</hi>
+            </p>
+            <table rend="rules">
+                <row>
+                    <cell style="text-align: left;">
+                        <p>Neue Werktitel:</p>
+                        <p>Werkformen</p>
+                    </cell>
+                    <cell style="text-align: left;">
+                        <p> Werke </p>
+                        <p>
+                            <hi style="font-size:12pt" xml:space="preserve">1700–1914 </hi>
+                        </p>
+                    </cell>
+                    <cell style="text-align: left;">
+                        <p> Werke </p>
+                        <p>
+                            <hi style="font-size:12pt">1915–2015</hi>
+                        </p>
+                    </cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Werke der Literatur (Libretti, Manuskripte, Fachliteratur, Bühnenstücke, Lyrik)</cell>
+                    <cell style="text-align: left;"> 37,2 %</cell>
+                    <cell style="text-align: left;">26,2 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Werke der Musik (Opern, Lieder, Musicals)</cell>
+                    <cell style="text-align: left;"> 19,8 %</cell>
+                    <cell style="text-align: left;"> 18 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Filmwerke (Spiel- und Fernsehfilme, Serien)</cell>
+                    <cell style="text-align: left;"> 20 %</cell>
+                    <cell style="text-align: left;">21,7 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Hörspiele</cell>
+                    <cell style="text-align: left;"> 15 %</cell>
+                    <cell style="text-align: left;">32,4 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Werke der Bildenden Kunst (Gemälde, Grafik, Objekte, Installationen)</cell>
+                    <cell style="text-align: left;"> 6,8 %</cell>
+                    <cell style="text-align: left;"> 1 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Ballette/ Tanztheater</cell>
+                    <cell style="text-align: left;"> 0,6 %</cell>
+                    <cell style="text-align: left;">0,17 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Computerspiele (virtuell)</cell>
+                    <cell style="text-align: left;"> 0,1 %</cell>
+                    <cell style="text-align: left;"> 0,1 %</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Spiele (konventionell, haptisch)</cell>
+                    <cell style="text-align: left;"> 0,2 %</cell>
+                    <cell style="text-align: left;"> 0,1 %</cell>
+                </row>
+                <head>Tab. 1: Übersicht der Werkformen der neuen Werktitel mit prozentualer Verteilung pro Zeitraum, eigene Darstellung</head>
+            </table>
+
+            <p>
+                <hi style="font-size:12pt">Der Schwerpunkt des Projekts liegt auf der Erfassung der Werknormdaten. Die Expertise bei der Auswertung der Daten mit DH-Methoden liegen bei Ihnen, den Wissenschaftler:innen der Digital Humanities. Wir sind gespannt auf Ihre Anregungen, welche Anforderungen an die Daten in der Community bestehen, damit diese für zukünftige Projekte berücksichtigt werden können. Der Frage nach der Verknüpfung der Werknormdaten mit verfügbaren Volltexten muss gemeinsam weiter nachgegangen werden. Die Auswertung von Volltexten in Bezug auf Werke als Entitäten sowie um Bezüge zwischen Werken zu erkennen, scheint vielversprechend. Die Daten könnten auch als Trainingsdaten für maschinelle Lernverfahren genutzt werden. Die digital zugängliche Datengrundlage aus dem Projekt lässt sich auf vielfältige Weise nachnutzen, etwa um Werkbeziehungen anhand kartografischer Anwendungen zu visualisieren und Intellektuellen-Netzwerke in Europa abzubilden. Auch spielbasierte Anwendungen ließen sich anhand des Datensets erstellen, z.B. in Form eines Werke-Quartetts, in das bestimmte werkbasierte Kategorien eingefügt werden, etwa die Anzahl oder Vielfalt an Beziehungen oder der Publikumserfolg. Diese möglichen Anwendungsbeispiele zeigen, wie normierte Daten auch außerhalb bibliothekarischer Zusammenhänge von Nutzen sind und auf spielerische Weise Wissen vermitteln und neue fächerübergreifenden Forschungsprojekte im Bereich Open Humanities initiieren können.</hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+                <head>4. Fallbeispiele: Möglichkeiten &amp; Desiderata in Katalogen</head>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Im Folgenden wird anhand von je einem Fallbeispiel aus den beiden Zeiträumen präsentiert, wie Werknormdatensätze die Funktion zentraler Sucheinstiege übernehmen können, die unterschiedliche bibliografische Informationen bündeln, vernetzen und jeweils in den Komplex der in Beziehung stehenden Werke hineinführen. Die unterschiedlichen Visualisierungen dieser Datensets zeigen bestehende Möglichkeiten, zentrale Werkinformationen übersichtlich darzustellen und komfortable Sucheinstiege anzubieten. </hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt">Anhand des Werknormsatzes für Johann Wolfgang von Goethes Briefroman</hi>
+                <hi rend="italic" style="font-size:12pt">Die Leiden des jungen Werthers</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> wird die Varianz von Bearbeitungen im Kontext der Werk- und Rezeptionsgeschichte veranschaulicht. Die gegenwärtigen Möglichkeiten einer Visualisierung des Datensets werden hier mithilfe des GND-Explorers umgesetzt (Abb. 1). Anhand der Relationen-Ansicht werden die Vor- und Nachteile im Vergleich mit der Darstellung im „Faktenblatt“ sowie im Vergleich mit der konventionellen Ansicht im Katalog der deutschen Nationalbibliothek (DNB) erläutert. Gut zu unterscheiden sind im GND-Explorer die Bezüge zu (literarischen) Vorbildern, Adaptionen und Bearbeitungen sowie zu anderen Entitäten mittels einer farblichen Markierung (Autor, Geografika). Die jeweiligen Vorlagen für den Werther einerseits und seiner Vorbildfunktion andererseits sind über das Faktenblatt überschaubarer. Wie die Thematik des Werthers bildhaft verarbeitet wurde, also zu Kunstwerken anregte, ist in der Ansicht ungünstig übersetzt und der Zusammenhang zwischen Grund- und Beziehungswerk nur über das Faktenblatt nachvollziehbar.</hi>
+            </p>
+            <figure>
+                <graphic n="1001" width="19.106444444444445cm" height="11.151305555555556cm" url="Pictures/1ee871d3ea480bff18341a461c74a1cf.png" rend="block"/>
+                <head>Abb. 1: „Die Leiden des jungen Werthers“,Quelle: GND-Explorer, Screenshot der Ansicht „Relationen“
+                <ref target="https://explore.gnd.network/gnd/4099202-0/relations">
+                    Die @Leiden des jungen Werthers - Relationen - GND-Explorer</ref>(zugegriffen: 19.07.2022)</head>
+            </figure>
+            
+            <figure>
+                <graphic n="1002" width="19.106444444444445cm" height="10.398125cm" url="Pictures/10ee16c11e3454693b976d123ed20e2b.png" rend="block"/>
+                <head>Abb. 2: „Die Leiden des jungen Werthers“, Quelle: GND-Explorer, Screenshot der Ansicht „Faktenblatt“ (Ausschnitt), 
+                <ref target="https://explore.gnd.network/gnd/4099202-0/relations">
+                    Die @Leiden des jungen Werthers - Relationen - GND-Explorer
+                </ref> (zugegriffen: 19.07.2022)
+            </head>
+            </figure>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Das zweite Beispiel ist Ilse Aichingers Roman </hi>
+                <hi rend="italic" style="font-size:12pt">Die größere Hoffnung</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> von 1948. Hier wird der Werknormsatz im neuen Online-Katalog Kallías des DLA gezeigt (Abb. 2), dessen Beta-Version seit 2021 verfügbar ist. Unter der Detailansicht werden die mit dem Werk in Verbindung stehenden Bestände des DLA in vier Gruppen angeboten: unter „primäre Quellen“ findet man die Ausgaben des Romans und die Handschriften, unter „sekundäre Quellen“ die Literatur, die sich mit dem Roman beschäftigt, daneben werden Übersetzungen und Rezensionen zusammengestellt. Auf der rechten Seite befinden sich unterhalb der Abbildung eines Buchcovers und der Bezeichnung „Werkbeziehungen“ die im Werktitelprojekt angelegten Werke. Folgt man einem Link, wird wiederum ein Werknormsatz, z.B. eines Hörspiels, angezeigt. Nicht zu allen diesen ermittelten Werken hat das DLA auch Bestände. Die Verknüpfung der Manifestationen mit Werknormdaten erfolgt bisher händisch bei der Katalogisierung oder in der Normdatenredaktion. Im Projekt ist die Entwicklung eines Tools geplant, das Manifestationen und Werke semi-automatisch verknüpft. Bis Ende 2022 wird zum Katalog ein Bereitstellungsdienst hinzugefügt, der es ermöglicht, auch sehr umfangreiche Datensets z.B.im csv-Format zu exportieren, um mit den Daten weiterzuarbeiten.</hi>
+            </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="13.763625cm" url="Pictures/7fa71a54a44c3589af6495a6bed19151.PNG" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="10.833805555555555cm" url="Pictures/5b1d757a3f61fc4bb13c3377036f9471.PNG" rend="inline"/>
+                
+                <head>Abb. 3, „Die größere Hoffnung“, Quelle: Kallías – der Online-Katalog des Deutschen Literaturarchivs Marbach, Screenshot,
+                <ref target="https://www.dla-marbach.de/find/opac/id/AK00140601">https://www.dla-marbach.de/find/opac/id/AK00140601
+                </ref>(zugegriffen: 26.07.2022)
+            </head>
+            </figure>
+            <p>
+                <hi style="font-size:12pt">Wir freuen uns auf Ihre Fragen und Hinweise zur generellen Aufbereitung von Normdaten und zu unserem projektbezogenen Datenset. Wir möchten die in den Digital Humanities aktiven Wissenschaftler:innen über unseren Projektstand und die Potentiale werkbasierter Daten informieren und freuen uns über einen Austausch zu Auswertungen und Nachnutzungsoptionen der bereitgestellten Forschungsdaten.</hi>
+            </p>
+        </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     Von der DFG gefördert mit einer Laufzeit von 3 Jahren (2020-2023). 
+                        <ref target="https://www.klassik-stiftung.de/herzogin-anna-amalia-bibliothek/werktitel-als-wissensraum/">Normdaten für Werke zur materialübergreifenden Vernetzung. Werktitel als Datenbasis für die Frage nach Verbreitungswegen von Literatur. - Archiv- und Forschungsbibliothek (klassik-stiftung.de)</ref>, 
+                        <ref target="https://www.dla-marbach.de/bibliothek/projekte/werktitel-als-wissensraum/">Werktitel als Wissensraum - DLA Marbach (dla-marbach.de)</ref> (zugegriffen: 25.07.2022)
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                     Laut diesem Modell wird ein Werk „als eine intellektuelle oder künstlerische Schöpfung“ bezeichnet, d. h. es geht um den intellektuellen oder künstlerischen Inhalt (RDA, 5.1.2). Das Datenmodell der GND, in der wir die Werke erfassen, beruht auf FRBR und FRAD, diese wurden im IFLA Library Reference Model (IFLA LRM), siehe 
+                        <ref target="https://www.iflastandards.info/lrm/lrmer.html">https://www.iflastandards.info/lrm/lrmer.html</ref> zusammengebracht. Zum Datenmodell der GND gibt es eine eigene Ontologie (
+                        <ref target="https://d-nb.info/standards/elementset/gnd_20191015">https://d-nb.info/standards/elementset/gnd_20191015</ref>), die Klassen und Relationen definiert, mit welcher die GND-Daten in RDF beschrieben werden.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                     Die Finnische Nationalbibliothek bietet über einen Open Data Service (FENNICA) die Möglichkeit, werkbasierte Informationen zu finnischer Literatur einzusehen: 
+                        <ref target="https://data.nationallibrary.fi/bib/search.html?query=kalevala&amp;submit=Go">Linked Data - National Library of Finland</ref>. Über die Französische Nationalbibliothek lassen sich ebenfalls werkbasierte Normdaten abrufen. Besonders eindrucksvoll präsentiert sich der Datenbestand der Library of Congress (LOC), welche mittels des BIBFRAME-Datenmodells die Daten aufbereitet. 
+                        <ref target="https://id.loc.gov/resources/hubs/36b91418-3b45-5387-7e94-a3736ae11e20.html" xml:space="preserve"> LC Linked Data Service: Authorities and Vocabularies | Library of Congress (loc.gov)</ref>.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                    
+                        <hi rend="footnote_reference" xml:space="preserve"> 4 </hi>“The Concept of a Work in WorldCat: An Application of FRBR” (2003) online unter: https://www.oclc.org/content/dam/research/publications/library/2003/lavoie_frbr.pdf, hier Conclusion (Punkt 5): “Analysis suggests that concentrating on relatively large works, in particular those works whose content has been augmented, revised, or consists of collections of other works (a relatively small portion of the catalog) might be sufficient to capture the lion’s share of benefits potentially available from implementing FRBR.”
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                     Friedrichs, Elisabeth 1991: Die deutschsprachigen Schriftstellerinnen des 18. und 19. Jahrhunderts : ein Lexikon. Stuttgart: Metzler; Gnüg, Hiltrud, Renate Möhrmann (Hrsg.) 1999: Frauen Literatur Geschichte. Schreibende Frauen vom Mittelalter bis zur Gegenwart. Stuttgart/Weimar: Metzler.
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                     Diese Verteilung ergibt sich aus einer quantitativen Auswertung der 4.625 Werktitel aus dem Projekt.
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi style="font-size:12pt" xml:space="preserve"><hi rend="bold">Althage, Melanie.</hi> 2019. Normdaten – Knotenpunkte für den Wissensaustausch im Internet. Bericht zur Sitzung des Arbeitskreises Digital Humanities, WWU Münster, 1. Februar 2019. </hi>
+                        <ref target="https://www.uni-muenster.de/CDH/blog/?p=164">
+                            <hi style="font-size:12pt">Normdaten – Knotenpunkte für den Wissensaustausch im Internet – CDH-Blog (uni-muenster.de)</hi>
+                        </ref>
+                        <hi style="font-size:12pt" xml:space="preserve"> (zugegriffen: 25.07.2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:12pt" xml:space="preserve"><hi rend="bold">Barnert, Arno, Elisabeth Dietrich, Ines Kolbe und Karin Schmidgall. </hi>2021. Vom Nutzen vernetzter Werke: Das Kooperationsprojekt »Werktitel als Wissensraum« des Deutschen Literaturarchivs Marbach und der Herzogin Anna Amalia Bibliothek Weimar. In </hi>
+                        <hi rend="italic" style="font-size:12pt">ZfBB</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 3, 68</hi>
+                        <hi rend="color(333333)" style="font-size:12pt">: 138-151.</hi>
+                    </bibl>
+                    <bibl>
+               
+                            <hi rend="bold" style="font-size:12pt">Baum, Constanze und Thomas Stäcker.</hi> 2015. Methoden – Theorien – Projekte. In: Grenzen und Möglichkeiten der Digital Humanities. In 
+                        <hi rend="italic" style="font-size:12pt">Sonderband der Zeitschrift für digitale Geisteswissenschaften 1</hi>
+                        <hi style="font-size:12pt" xml:space="preserve">. </hi>
+                        <ref target="http://dx.doi.org/10.17175/sb001_023">
+                            <hi rend="color(9D3A00)" style="font-size:12pt">10.17175/sb001_023</hi>
+                        </ref>
+                        <hi style="font-size:12pt" xml:space="preserve"> (zugegriffen: 21.07.2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:12pt" xml:space="preserve"><hi rend="bold">Bicher, Katrin und Barbara Wiermann. </hi>2018. Normdaten zu „Werken der Musik“ und ihr Potenzial für die digitale Musikwissenschaft. In </hi>
+                        <hi rend="italic" style="font-size:12pt">Preprints der Zeitschrift BIBLIOTHEK – Forschung und Praxis</hi>
+                        <hi style="font-size:12pt" xml:space="preserve">. </hi>
+                        <ref target="https://edoc.hu-berlin.de/bitstream/handle/18452/19897/AR_3218_Bicher_Wiermann_Preprint_BFP_2018.pdf?sequence=1&amp;isAllowed=y">
+                            <hi style="font-size:12pt">Normdaten zu „Werken der Musik“ und ihr Potenzial für die digitale Musikwissenschaft (hu-berlin.de)</hi>
+                        </ref>
+                        <hi style="font-size:12pt" xml:space="preserve"> (zugegriffen: 25.07.2022).</hi>
+                    </bibl>
+                    <bibl rend="footnote text">
+                        <hi style="font-size:12pt"><hi rend="bold">Bischoff, Doerte und Susanne Komfort-Hein. </hi>2019. Handbuch Literatur &amp; Transnationalität. Berlin: De Gruyter.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:12pt" xml:space="preserve"><hi rend="bold">Brown, Hillary und Gillian Dow.</hi> 2011. </hi>
+                        <hi rend="color(333333)" style="font-size:12pt" xml:space="preserve">Readers, writers, salonnières: female networks in Europe, 1700 – 1900. </hi>
+                        <hi style="font-size:12pt">Oxford, Bern (u.a.): Lang</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:12pt"><hi rend="bold">Rippl, Gabriele und Simone Winko.</hi> 2013. Handbuch Kanon und Wertung: Theorien, Instanzen, Geschichte. Stuttgart: Verlag J. B. Metzler.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:12pt"><hi rend="bold">Seifert, Nicole.</hi> 2021. Frauen Literatur: abgewertet, vergessen, wiederentdeckt. Köln: Kiepenheuer &amp; Witsch.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

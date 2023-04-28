@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="JUNG_Kerstin_Die_Wahl_der_Mittel___Jupyter_Notebooks_als_For" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Die Wahl der Mittel – Jupyter-Notebooks als Forschungsinfrastruktur</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Jung</surname>
+                        <forename>Kerstin</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung</affiliation>
+                    <email>kerstin.jung@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-9548-8461</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hein</surname>
+                        <forename>Pascal</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Literaturwissenschaft</affiliation>
+                    <email>pascal.hein@ilw.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-2138-3069</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Blessing</surname>
+                        <forename>André</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung</affiliation>
+                    <email>andre.blessing@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0001-7573-578X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hess</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Deutsches Literaturarchiv Marbach</affiliation>
+                    <email>jan.hess@dla-marbach.de</email>
+                    <idno type="ORCID">0000-0003-4162-2132</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kushnarenko</surname>
+                        <forename>Volodymyr</forename>
+                    </persName>
+                    <affiliation>Höchstleistungsrechenzentrum (HLRS), Universität Stuttgart</affiliation>
+                    <email>volodymyr.kushnarenko@hlrs.de</email>
+                    <idno type="ORCID">0000-0001-7427-2410</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T19:28:23.553025504</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Jupyter-Notebooks</term>
+                    <term>ausführbarer Quellcode</term>
+                    <term>Python</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Programmierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Visualisierung</term>
+                    <term>Infrastruktur</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Mit Python als vielgenutzter Programmiersprache in den Digital Humanities<ref n="1" target="ftn0"/> steigt auch der Bedarf an Möglichkeiten zur nachhaltigen Weitergabe und Wiederverwendbarkeit von Python-Quellcode. Softwareentwicklungsnahen Lösungen wie der Verfügbarmachung über Versionsverwaltungsrepositorien oder dem Einpflegen in eine Paketverwaltung wurde der ‚Notebook‘-Ansatz<ref n="2" target="ftn1"/> zur Seite gestellt, der Dokumentation, Ausführung und Visualisierung verzahnt und eine Aufbereitung für verschiedene Zielgruppen ermöglicht.
+            </p>
+            <p>Im Forschungskontext werden solche Notebooks daher verwendet, um auf einer (Web-)Seite Datensätze einzulesen, zu analysieren, visualisieren und die verwendete Methodik zu erläutern, ohne dies auf verschiedene Orte oder Zugänge verteilen zu müssen. In der (Nach-)Nutzung können z. B. Parameter in der Analyse oder Visualisierung direkt im Browser verändert werden und eine Anpassung ohne Programmierkenntnisse oder -erfahrung ermöglichen. Die Notebook-Dateien können wiederum über entsprechende Softwareentwicklungs-Repositorien zur Verfügung gestellt werden, was Anpassungen für weitere Datensätze oder Forschungsfragen erlaubt. Jupyter-Notebooks sind dabei als JSON-Dokumente strukturiert verarbeitbar.</p>
+            <p>Im Rahmen unseres Projekts geht es uns um die Möglichkeit, Jupyter-Notebooks so zur Verfügung zu stellen, dass sie für eine sehr heterogene Nutzendengruppe (u. a. Autor*innen, Forschende, Schüler*innen) einen Mehrwert bedeuten.<ref n="3" target="ftn2"/> Wir möchten verschiedene Ebenen der Vorkenntnisse bedienen und gleichzeitig ermöglichen, eigene Forschungsfragen einzubringen. Im Beitrag soll aber auch der infrastrukturelle Aufwand verdeutlicht werden, der hinter der Möglichkeit nachhaltig ausführbarer Notebooks für die Forschung steht und auf einen Ausgleich zwischen Flexibilität der Nutzung und Sicherheit des Angebots hinausläuft. Letztendlich möchte der Beitrag die Diskussion befördern, inwieweit die Community von einer forschungsgetriebenen, unabhängigen und nachhaltigen Infrastruktur zum Umgang mit Jupyter-Notebooks profitieren würde, da ein entsprechendes Vorgehen für individuelle Projekte weniger umsetzbar ist.
+            </p>
+            <p>Zu den Vorteilen der Bereitstellung von Zugängen zu Daten und Analysen durch Notebooks gehören (i) die Möglichkeit, ein Angebot an eine breite Nutzendengruppe zu machen: Je nach Aufbereitung der Notebooks (interaktive Elemente wie Dropdown-Menüs oder Range-Sliders sind möglich) können sie fast ohne Vorkenntnisse mit Python betrieben werden und an das individuelle Forschungsinteresse angepasste Ergebnisse produziert werden, (ii) dass die technischen Voraussetzungen, z. B. benötigte Pakete, im Notebook selbst spezifiziert sind. Diese Vorteile kommen allerdings nur in einer konfigurierten Ausführungsumgebung zum Tragen. Werden nur die Jupyter-Notebook-Dateien bereitgestellt, setzt das bei den Nutzenden Kenntnisse in Python, Bash o. Ä. sowie im Umgang mit Jupyter voraus. Oft sind Pakete in aufeinander abgestimmten Versionen erforderlich oder in Abhängigkeit vom Betriebssystem verfügbar, so dass nur eine vorkonfigurierte Umgebung den Nutzenden tatsächlich die technischen Hürden abnimmt.</p>
+            <p>So stellt sich die Frage, in welchem Rahmen ausführbare Jupyter-Notebooks zur Verfügung gestellt werden können. Der Betrieb einer zugänglichen Ausführungsumgebung (‚Hub‘) setzt Hardware, Administrations- und Wartungskapazitäten voraus. Eine Nutzungsverwaltung (Vergabe und Pflege von Accounts, Monitoring von Speicher- und Rechenkapazitäten) ist dabei ebenso unerlässlich wie Aktualisierungen mittels Updates auf Ebene von Maschine, Hub und Paketen und damit verbundene Wartungsarbeiten durch Abhängigkeiten in den Notebooks. Der Betrieb einer nachhaltigen Ausführungsumgebung setzt dies für einen längeren Zeitraum voraus, so dass die Idee der eigenen Ausführungsumgebung den Rahmen eines Forschungsprojekts oft übersteigt. Des Weiteren muss der Sicherheitsaspekt berücksichtigt werden, da es sich bei ausführbaren Jupyter-Notebooks um ausführbaren Quellcode handelt, der gewollt oder ungewollt Schaden am eigenen oder an externen Systemen verursachen kann.</p>
+            <p>Mit dem Service Colaboratory<ref n="4" target="ftn3"/> bietet Google an , Notebooks einzurichten, Pakete dafür dauerhaft zu installieren und diese Notebooks ggf. mit Zugangsbeschränkung zu veröffentlichen. Dies zeigt die technische Möglichkeit, einen Notebook-Service mit großen Gestaltungsmöglichkeiten für die Nutzenden zu hosten. Allerdings kann diese Lösung für die Forschung nicht als Standard vorgeschlagen werden – allein aufgrund der problematischen Speicherung aller Daten, aber auch weil hier aufgrund des unvorhersehbaren Umgangs mit den eigenen Diensten die Nachhaltigkeit nicht gesichert werden kann.
+            </p>
+            <p>Eine Alternative hierzu kann der Betrieb einer stark restringierten Ausführungsumgebung sein, die zwar die vorhandenen Notebooks abspielen kann und Nutzende ggf. aus vorgegebenen Parametern wählen lässt, Forschenden aber kaum Flexibilität bezüglich einer eigenen Exploration oder Einbindung weiterer Pakete ermöglicht.</p>
+            <p>Sofern spezifische technische Expertise angenommen werden kann, ist eine weitere Möglichkeit, Docker-Container zum Download zur Verfügung zu stellen oder eine detaillierte Dokumentation zur Nutzung eines Notebooks innerhalb einer integrierten Entwicklungsumgebung zu liefern. Die Zielgruppe wird damit allerdings auf Nutzende der entsprechenden Infrastruktur einschränkt.</p>
+            <p>Notebooks, die über bestimmte Repositorien öffentlich zur Verfügung gestellt werden, können über Binder<ref n="5" target="ftn4"/> in eine Ausführungsumgebung gebracht werden. Dabei sind vor allem forschungsbezogene Repositorien wie Zenodo von Interesse, die gute Voraussetzungen für die langfristige Verfügbarkeit auf geschützten Servern bieten. Forschungsgetriebene Ansätze wie von GESIS<ref n="6" target="ftn5"/> mit Binder (Bleier und Erdogan 2020) sowie Forschungsumgebungen mit Nutzendenverwaltung wie das DHVLab<ref n="7" target="ftn6"/> und DH2go<ref n="8" target="ftn7"/> (Heckelen et al. 2022), die die Ausführung von Jupyter-Notebooks erlauben, ermöglichen ggf. auch den Umgang mit spezifischeren Daten, sind aber ggf. auf Nutzende aus bestimmten Fachbereichen oder Institutionen beschränkt.
+            </p>
+            <p>Ein entsprechender Ansatz für die breite Forschungscommunity wäre ein großer Gewinn bezüglich der Verfügbarmachung, Nachnutzung und Dokumentation von Forschungsmethoden und -ergebnissen.</p>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn0" rend="footnote text" n="1">Vgl. die Wellen der Sprachen Fortran, Prolog, Perl und Python in der Korpusstudie von Burghardt et al. (2022). </note>
+<note xml:id="ftn1" rend="footnote text" n="2">Jupyter-Notebooks, https://jupyter.org/ (zugegriffen: 15. Dezember 2022).</note>
+<note xml:id="ftn2" rend="footnote text" n="3">Im Projekt SDC4Lit (Science Data Center for Literature, https://www.sdc4lit.de/, zugegriffen: 15. Dezember 2022) werden u.a. literarische Blogs zur Untersuchung zur Verfügung gestellt. Dabei kommen z.B. Tools zu Linkextraktion und Graphaufbau zum Einsatz, die über Jupyter-Notebooks bereitgestellt werden können.</note>
+<note xml:id="ftn3" rend="footnote text" n="4">https://colab.research.google.com/ (zugegriffen: 15. Dezember 2022).</note>
+<note xml:id="ftn4" rend="footnote text" n="5">https://mybinder.org/ (zugegriffen: 15. Dezember 2022).</note>
+<note xml:id="ftn5" rend="footnote text" n="6">https://notebooks.gesis.org/binder/ (zugegriffen: 15. Dezember 2022).</note>
+<note xml:id="ftn6" rend="footnote text" n="7">https://dhvlab.gwi.uni-muenchen.de/ (zugegriffen: 15. Dezember 2022).</note>
+<note xml:id="ftn7" rend="footnote text" n="8">https://dh2go.ilw.uni-stuttgart.de/ (zugegriffen: 15. Dezember 2022).</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bleier, Arnim und Kenan Erdogan.</hi> 2020. 
+                        <hi rend="italic">“A Persistent BinderHub: Democratizing Access to Computational Resources in the Social Sciences."</hi>
+                        <hi rend="italic">JupyterCon2020 Online Conference</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burghardt, Manuel, Jan Luhmann und Andreas Niekler.</hi> 2022. 
+                        <hi rend="italic">“Tools as Epistemologies in DH? A Corpus-Based Exploration.“</hi> In 
+                        <hi rend="italic">Digital Humanities 2022. Conference Abstracts,</hi> 144-146. Tokyo, Japan.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heckelen, Malte, Claus-Michael Schlesinger und Fabienne Burkhard.</hi> 2022. 
+                        <hi rend="italic">“Dh2go - Lehr- Und Lernumgebung Für Die Digital Humanities.“</hi> In 
+                        <hi rend="italic">DHd2022: Kulturen des digitalen Gedächtnisses. Konferenzabstracts.</hi> Zenodo. https://doi.org/10.5281/zenodo.6328013
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

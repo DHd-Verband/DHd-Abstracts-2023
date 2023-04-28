@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SCHENK_Nicolas_Vom_Heben_verborgener_Sch_tze___Literarische_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vom Heben verborgener Schätze – Literarische Blogs als Ressource</title>
+                <author>
+                    <persName>
+                        <surname>Schenk</surname>
+                        <forename>Nicolas</forename>
+                    </persName>
+                    <affiliation>Deutsches Literaturarchiv Marbach</affiliation>
+                    <email>nicolas.schenk@dla-marbach.de</email>
+                    <idno type="ORCID">0000-0003-1733-9601</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Blessing</surname>
+                        <forename>André</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung</affiliation>
+                    <email>andre.blessing@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0001-7573-578X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hein</surname>
+                        <forename>Pascal</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Literaturwissenschaft</affiliation>
+                    <email>pascal.hein@ilw.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-2138-3069</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hess</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Deutsches Literaturarchiv Marbach</affiliation>
+                    <email>jan.hess@dla-marbach.de</email>
+                    <idno type="ORCID">0000-0003-4162-2132</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jung</surname>
+                        <forename>Kerstin</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung</affiliation>
+                    <email>kerstin.jung@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-9548-8461</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schlesinger</surname>
+                        <forename>Claus-Michael</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Literaturwissenschaft</affiliation>
+                    <email>claus-michael.schlesinger@ilw.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0001-6718-5773</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-12T14:47:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Literarische Blogs</term>
+                    <term>Aufbereitung</term>
+                    <term>Ressource</term>
+                    <term>Korpus</term>
+                    <term>WARC</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Strukturanalyse</term>
+                    <term>Bereinigung</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="Hlk121927806"/>30 Mio. Token, 140.000 Blogposts, über 200 aufbereitete Blogs
+                </head>
+                <p style="text-align: left; ">Bereits seit Ende der 90er Jahre gewannen Weblogs als Medium zur öffentlichen Darstellung unterschiedlicher Themen und Inhalte immer mehr an Popularität. Findige Literatur- und Kulturschaffende zögerten nicht lange, um das neue Medium auch für literarische Zwecke umzunutzen.<ref n="1" target="ftn1"/>
+                    <hi rend="1345" xml:space="preserve">Blogs wie </hi>
+                    <hi rend="italic">Die Dschungel. Anderswelt</hi><ref n="2" target="ftn2"/>
+                    <hi rend="1670">von Alban Nikolai Herbst</hi>, 
+                    <hi rend="italic">Abfall für alle</hi><ref n="3" target="ftn3"/>
+                    <hi rend="1486">von Rainald Goetz</hi>, Wolfgang Herrndorfs 
+                    <hi rend="italic">Arbeit und Struktur</hi><ref n="4" target="ftn4"/>
+                    <hi rend="1605" xml:space="preserve">oder das kollaborativ betriebene Blog </hi>
+                    <hi rend="italic">Die Riesenmaschine</hi><ref n="5" target="ftn5"/>
+                    <hi rend="3834">werden seither zwar regelmäßig als Gegenstand wissenschaftlicher Unters</hi>uchungen herangezogen (vgl. Fassio 2021, Giacomuzzi 2008, Knapp 2014, Knapp 2012), wie viele andere Formen von Literatur im Netz im Vergleich zu ihren genuin analogen Pendants jedoch immer noch durchaus stiefmütterlich behandelt. Hinzu kommt, dass sich die Verfasser:innen dieser Blog-Studien in erster Linie klassisch hermeneutisch-literaturwissenschaftlicher Methoden bedienen und nur in seltenen Fällen auf computergestützte Analysemethoden und -werkzeuge zurückgreifen (vgl. zuletzt: Fassio 2021), obwohl die Weblogs schon ihrem Begriff nach born-digital sind und damit eine ‚digitale‘, computergestützte Form der Analyse zunächst auf der Hand zu liegen scheint.<ref n="6" target="ftn6"/>
+                </p>
+                <p style="text-align: left; ">In dem Beitrag zur Jahrestagung der DHd 2022 (Blessing et al 2022) haben die Autor:innen des vorliegenden Beitrags bereits am Beispiel des u. a. von der Autorin Kathrin Passig ins Leben gerufenen Techniktagebuch<ref n="7" target="ftn7"/> verschiedene computergestützte Möglichkeiten sowie geeignete Werkzeuge für die Analyse literarischer Blogs vorgestellt. Der in der End-Anwendung später kaum sichtbare Aufwand an textuellen Preprocessing-Schritten, der bereits an diesem vermeintlich einfachen Fallbeispiel offenbar wurde, gepaart mit den Reaktionen und dem großen Interesse aus der wissenschaftlichen Community an der grundlegenden Methodik zum Umgang mit WARC-Dateien, lassen bereits die Gründe erahnen, weshalb in der Blog-Forschung digitale Methoden bislang vergleichsweise selten zum Einsatz kamen. Im hier nun vorliegenden Beitrag sollen – als Fortsetzung und Erweiterung des vorangehenden Beitrags auf der DHd 2022 – nicht nur exemplarisch ebendiese Herausforderungen, sondern vielmehr auch Lösungsmöglichkeiten im Umgang mit (archivierten) Blogs aufgezeigt werden. Im Fokus der Untersuchung steht dabei nicht mehr nur ein einzelnes Blog, sondern vielmehr ein insgesamt aus über 200 aufbereiteten Blogs mit ca. 140.000 Blogposts und 30 Millionen Token bestehender Fundus literarischer Blogs. Ebensolche literarische Weblogs sammelt die Bibliothek des Deutschen Literaturarchivs Marbach neben literarischen Zeitschriften und Objekten der Netzliteratur bereits seit 2008.<ref n="8" target="ftn8"/> Bislang erfolgt die Bereitstellung dieser Sammlungsobjekte über die Plattform Literatur-im-Netz<ref n="9" target="ftn9"/>, 2023 werden diese zusammen mit der hier vorgestellten Ressource über das SDC4Lit-Repositorium bereitgestellt.<ref n="10" target="ftn10"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bausteine
+                    <hi rend="1217" xml:space="preserve"> </hi>von
+                    <hi rend="1217" xml:space="preserve"> </hi>Weblogs
+                </head>
+                <p style="text-align: left; ">Typische Bausteine in Blogs sind Blogposts als (meist datierte) Inhaltseinheiten verschiedenster Länge und unter Verwendung unterschiedlicher Modalitäten wie Text, Bild, Animation, Video, Referenz (z. B. Hyperlinks), etc. Weiterhin finden sich auf der Ebene der Blogposts oft Kommentarformulare und Kommentare sowie eine Etikettierung von Einträgen in Form von Tags, die der Gruppierung und Beschreibung der Einträge dienen und sich auf Themen, Stimmungen, Autoren, etc. des Blogposts beziehen können (vgl. zu den Bausteinen von Blogs: Ernst 2010, 286f.). Zusätzliche Elemente wie Übersichtsseiten, die als Einstiegsseiten der jeweiligen Blogs die einzelnen Blogposts (zusätzlich) in einer bestimmten Reihenfolge auflisten, oder Archivseiten, die den Nutzer:innen einen Zugang zu älteren Blogposts ermöglichen sollen, prägen die Struktur der Blogs und damit ggf. deren Analyse.</p>
+                <figure>
+                    <graphic n="1001" width="12.85875cm" height="14.578541666666666cm" url="Pictures/c073c23d192f92b060d468fd2a8ed439.png" rend="inline"/>
+                    <head><p rend="docdata" style="text-align: left; ">
+                    <hi style="font-size:9pt">Abb.1: Links: Übersichtsseite (Home) mit mehreren Blogposts. Rechts: Seite des ersten Blogposts mit Tags, Kommentaren und Kommentarfunktion. Beispiele aus "Logbuch Isla volante : Bilder und Texte von der Insel". Spiegelung 2017.03.17_01, URN: urn:nbn:de:bsz:mar1-dd001-fe31dc38-7c43-4da2-ae3d-fd9619f88ea45.</hi>
+                </p></head>
+                </figure>
+                
+                <p style="text-align: left; ">Die Spiegelungen der Blogs, die am DLA durchgeführt werden, erfolgen zunächst mit einem Crawling-Vorgang, der der Hyperlinkstruktur im Blog folgt und die clientseitig (wie durch einen Browser) empfangenen Daten gemeinsam mit einigen Metadaten zum Crawlingprozess im Web ARChive- oder kurz: WARC-Format ablegt. Das aus dem ARC-Format des Internet Archive weiterentwickelte Archivformat hat sich inzwischen als internationaler Standard für die Archivierung von Webinhalten etabliert (IIPC, n.d.). Beim Crawling können Inhalte, die ggf. nicht Teil des Blogs sind, wie z. B. zufällig eingebundene Werbeanzeigen oder externe Inhalte, auf die von diesen Werbeanzeigen verwiesen wird, Teil des Archivobjekts werden. Aber auch bezüglich der tatsächlichen Blog-Elemente sind im Archivobjekt Inhalte (z. B. bestimmte Textpassagen) so oft abgelegt, wie der Crawler ihnen auf verschiedenen Seiten begegnet ist. Der Inhalt eines Blogposts kann an verschiedenen Stellen für den Crawler erreichbar sein: auf der Übersichtsseite, auf der eigenen Seite des Posts, auf der Seite jedes Schlagworts, mit dem der Post versehen ist, im Archiv, etc. Aber auch Textpassagen aus Strukturelementen wie Kopf- und Fußzeilen führen zu mehrfachen Vorkommen von Textpassagen oder Begriffen.</p>
+                <p style="text-align: left; ">Werkzeuge, die Strukturelemente ausblenden und (Text-)Duplikate erkennen, sind daher bei der Vorverarbeitung der Daten für Analysen notwendig, arbeiten oft aber statistisch und müssen ggf. auf jedes zu untersuchende Blog neu angepasst werden, was im Spannungsfeld mit dem maschinell unterstützten Distant Reading steht. Im Folgenden wird daher das Vorgehen bei der Aufbereitung der Blogs beschrieben, das notwendig ist, um die Texte auch für quantitative Analysen verfügbar zu machen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Aufbereitung der Blogs als Ressource für quantitative Analysen</head>
+                <p style="text-align: left; ">Die am DLA archivierten Blogs sind nicht nur inhaltlich und stilistisch sehr heterogen, sondern auch in Bezug auf die technische Umsetzung. In den meisten Fällen werden bekannte Blog-Hoster wie wordpress (40%), twoday (15%), blogger, blogspot usw. verwendet. Diese Blog-Hoster wiederum setzen Content Management Systeme (CMS) ein, die die Blogpost-Erstellung, -Verwaltung sowie die Blogdarstellung sowohl für die Blogverfasser:innen, als auch für die Blogleser:innen vereinfachen.<ref n="11" target="ftn11"/>
+                </p>
+                <p style="text-align: left; ">Für die Analyse des Inhalts eines Blogs sind nur die Blogposts relevant, da alle Übersichtsseiten (Home, Tags, Categories) eines Blogs automatisch daraus generiert werden. Darüber hinaus hat sich gezeigt, dass beim Erstellen von WARC-Crawls auch einiges an ‚Beifang‘, also Webseiten, die nicht zum Blog gehören, aber für das Abspielen teilweise nützlich sein könnten, mit-archiviert werden, was wiederum bei der Aufbereitung der Blogs beachtet werden muss. Die hier beschriebene Umsetzung zielt darauf ab, ein sauberes Textkorpus für jedes Blog zu extrahieren und alle irrelevanten und redundanten Inhalte zu ignorieren.</p>
+                <p style="text-align: left; ">Bei der Aufbereitung werden Verfahren aus dem Information Retrieval eingesetzt (vgl. Manning, Raghavan und Schütze 2008, 443–459). Das Besondere am aktuellen Datensatz liegt darin, dass die Daten bereits im WARC-Format vorliegen. Cormack, Smucker und Clarke (2011) haben bereits gezeigt, wie bei sehr großen Web-Crawls
+                    <hi rend="Footnote_Anchor"><ref n="12" target="ftn12"/>
+                    </hi>, die als WARCs vorliegen, relevante Informationen extrahiert werden können. Unser Szenario unterscheidet sich dahingehend, dass hier eine klare Definition der gesuchten Information 
+                    <hi rend="color(202122)">–</hi> in Form von Blogposts 
+                    <hi rend="color(202122)">–</hi> existiert. Dies erfordert einen feingranularen Ansatz.
+                </p>
+                <p style="text-align: left; ">Die Umsetzung läuft in mehreren Schritten: In Schritt 1 werden alle HTML-Seiten des Blogs aus den WARCs extrahiert und erkannte Fremdinhalte entfernt. Schritt 2 erkennt das verwendete CMS-System. Schritt 3 basiert auf einem Regelsystem, das für jedes Blog die Posts ermittelt. Die URL-Pfade der Blogs sind ein Hauptmerkmal, welches in den Regelsystemen verwendet wird. In Schritt 4 werden zu jedem Post Text- und Metadaten mittels trafilatura<ref n="13" target="ftn13"/> extrahiert. Alle Schritte sind als Jupyter-Notebooks implementiert und werden zusammen mit der Ressource veröffentlicht. Nach der Aufbereitung liegen die Daten im JSON- und txt-Format vor. Ein JSON-Datensatz enthält Text und Metadaten und kann z. B. direkt in Analyse-Tools importiert werden. Zum Aufbereitungsprozess gibt es Logfiles, die für die iterative Verbesserung des Prozesses ausgewertet werden.
+                </p>
+                <p style="text-align: left; ">Da in allen vier dieser Umsetzungsschritte Anpassungen notwendig sind, gehen Weiterentwicklung und Optimierung der Aufbereitung immer einher mit dem Einsatz von Analysewerkzeugen. Bei der Verwendung solcher Werkzeuge können systematische Auffälligkeiten sichtbar werden, wodurch beispielsweise noch vorhandene Redundanzen zum Vorschein kommen. Ein Werkzeug, mit dem große Textkorpora durchsucht und auf grammatikalische sowie syntaktische Strukturen hin untersucht werden können, ist CQPweb<ref n="14" target="ftn14"/>
+                    <hi rend="3225">(</hi>Hardie 2012, 380–409). Ein Auszug aus einer Beispielanfrage, in der 
+                    <hi rend="color(202122)">–</hi> angelehnt an eine mögliche Forschungsfrage zu Formen der Erinnerung 
+                    <hi rend="color(202122)">–</hi> nach dem Zeichenstring „erinnere mich“ gesucht wird, bringt redundante Textstellen zutage (Abb. 2). Dieser Hinweis fließt in die Optimierung der Regeln in den Aufbereitungsskripten ein.
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="6.453827777777778cm" url="Pictures/cbedb39644834f8c3d52821e2d4950c5.png" rend="inline"/>
+                    <head><p>
+                    <hi style="font-size:9pt">Abb. 2: Auszug aus einer CQPweb-Testinstanz mit dem Suchbegriff „erinnere mich“.</hi>
+                </p></head>
+                </figure>
+                
+                <p style="text-align: left; ">Das Durchsuchen und Abspielen von WARC-Dateien wird durch die Web-Applikation SolrWayback<ref n="15" target="ftn15"/> ermöglicht. In der Ergebnisliste zur Suche nach dem Begriff „techniktagebuch“ verweisen die ersten Treffer alle auf Twitter (Abb. 3). Der Inhalt des Tweets bleibt dabei gleich, jedoch steht das Webinterface in verschiedenen Sprachen zur Verfügung. Insgesamt werden bei der Suchanfrage knapp 50 verschiedene Sprachen für die Twitterseite gefunden.
+                </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="3.7186916666666665cm" url="Pictures/e00935f28d31c601ab55973cd03728f3.png" rend="inline"/>
+                    <head><p>
+                    <hi style="font-size:9pt">Abb. 3: Auszug aus der Trefferliste einer SolrWayback-Testinstanz mit der Suchanfrage „techniktagebuch“ und dem Beginn der CSV-Trefferliste.</hi>
+                </p></head>
+                </figure>
+                
+                <p style="text-align: left; ">Der Erfolg bei der Aufbereitung lässt sich anhand der Zahlen in Tabelle 1 ablesen. Hier wird auch die Heterogenität der Blogs sichtbar: Die Aufbereitungsschritte haben je nach Blog unterschiedlich starke Auswirkungen. Während der Unterschied der Anzahl von WARC-Records und HTML-Seiten deutlich macht, wie viele externe Inhalte und Nicht-HTML-Inhalte entfernt werden müssen, zeigt sich an der Differenz zwischen der Anzahl an HTML-Seiten und der Anzahl an Blogposts, wie hoch die Redundanz durch generierte Übersichtsseiten ausfällt.</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Blog</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">WARC-Records</hi>
+                        </cell>
+                        <cell style="text-align: left;">HTML-Seiten</cell>
+                        <cell style="text-align: left;">Blogposts</cell>
+                        <cell style="text-align: left;">Token</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">Die.Dschungel.Anderswelt</hi><ref n="16" target="ftn16"/>
+                        </cell>
+                        <cell style="text-align: left;">123.859</cell>
+                        <cell style="text-align: left;"> 65.014</cell>
+                        <cell style="text-align: left;">14.106</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">7,8 Mio</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">Techniktagebuch</hi><ref n="17" target="ftn17"/>
+                        </cell>
+                        <cell style="text-align: left;">310.131</cell>
+                        <cell style="text-align: left;"> 127.532</cell>
+                        <cell style="text-align: left;"> 5.233</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">1,6 Mio</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">Lux autumnalis</hi><ref n="18" target="ftn18"/>
+                        </cell>
+                        <cell style="text-align: left;"> 11.121</cell>
+                        <cell style="text-align: left;"> 6.426</cell>
+                        <cell style="text-align: left;"> 3.092</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">1,3 Mio</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">Henrikes Tagebuch</hi><ref n="19" target="ftn19"/>
+                        </cell>
+                        <cell style="text-align: left;">499.878</cell>
+                        <cell style="text-align: left;">168.856</cell>
+                        <cell style="text-align: left;"> 861</cell>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:12pt">0,2 Mio</hi>
+                        </cell>
+                    </row>
+                    <head>Tab. 1: Übersicht der resultierenden Ressourcengrößen nach der schrittweisen Aufbereitung für vier Beispielblogs.</head>
+                </table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Evaluation</head>
+                <p style="text-align: left; ">Die Zahlen zur Ressourcengröße aus Tabelle 1 veranschaulichen, dass die Aufbereitung der Blogs nicht vollständig manuell validiert werden kann. Trotzdem ist eine Aussage über die Qualität der aufbereiteten Blog-Daten wichtig. Zu diesem Zweck wurde ein Annotations-Jupyter-Notebook entworfen, mit dessen Hilfe automatisch aus den jeweiligen CMS-Familien wie beispielsweise Wordpress oder Blogger repräsentative Datenmengen entnommen werden, die anschließend von mehreren Annotator:innen bewertet werden. Im ersten Schritt geht es um das Erkennen der Blog-Posts in Abgrenzung zu Übersichtsseiten oder weiteren Seiten wie beispielsweise dem Impressum. Wenn es sich bei der Seite um einen Post handelt, dann wird im zweiten Schritt die Qualität der Metadaten- und Textextraktion bewertet. Dabei wird u. a. darauf geachtet, ob Datum und Überschrift richtig extrahiert wurden und ob der extrahierte Text vollständig ist oder beispielsweise Teile aus der Seitennavigation enthalten sind.</p>
+                <p style="text-align: left; ">Es hat sich gezeigt, dass die beschriebene manuelle Bewertung auch für Menschen nicht immer trivial ist. Daher ist der Annotationsprozess aktuell noch nicht abgeschlossen. Die Evaluationsergebnisse werden jedoch mit dem Release der Daten bereitgestellt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="Hlk121924745"/>Nutzungsszenarien für die aufbereiteten Blog-Daten
+                </head>
+                <p style="text-align: left; ">
+                    <anchor xml:id="Hlk121924975"/>
+                    <hi rend="2864" xml:space="preserve">Nach den oben beschriebenen Aufbereitungsschritten sind die </hi>daraus resultierenden Daten (nahezu) frei von Dubletten und Fremdinhalten, sodass sie für verschiedene Formen der Textanalyse sowie für weitere Prozessierungsschritte verwendet werden können. Dazu gehören korpuslinguistische Untersuchungen, wie sie mit CQPweb durchgeführt werden können, das Erstellen von Sprachmodellen (z. B. embeddings, topic-models) oder automatische Keyword-Erkennung. Auch die Untersuchung der in den Blogposts enthaltenen Metadaten (Datum, Autor:in, Verschlagwortung) kann für die Forschung von Interesse sein. Beispielhaft erwähnt sei an dieser Stelle die Verschlagwortung der einzelnen Blogs durch die jeweiligen Blog-Autor:innen, die mit End-Anwendungen wie Keshif<ref n="20" target="ftn20"/> erst auf Basis der aufbereiteten Blog-Daten überhaupt sinnvoll visualisiert und analysiert werden können (vgl. Abb. 4).
+                </p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="8.383302777777779cm" url="Pictures/ba90fcabec9d394e7ca170e1cffd5f60.png" rend="inline"/>
+                    <head><p>
+                    <hi style="font-size:9pt">Abb. 4: Screenshot aus einer Keshif-Testinstanz. Rechts werden alle Blogs hervorgehoben, in denen das Schlagwort Kunst vergeben wurde, links befindet sich eine Liste aller Schlagworte.</hi>
+                </p></head>
+                </figure>
+                
+                <p style="text-align: left; ">In Blessing et al (2022) wurde am Fallbeispiel des Techniktagebuchs bereits exemplarisch aufgezeigt, welche komplexeren computergestützten Analysen durch die Verwendung der extrahierten Text- und Metadaten vorgenommen werden können. Unter anderem wurde bereits untersucht, welche Zusammenhänge zwischen Inhalt 
+                    <hi rend="color(202122)">–</hi> repräsentiert durch automatische Keyword-Erkennung und die Verschlagwortung durch die Autor:innen 
+                    <hi rend="color(202122)">–</hi> und Form bzw. Sprache erkennbar werden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schätze heben und nutzen</head>
+                <p style="text-align: left; ">30 Millionen Zeichen, 140.000 Blogposts, über 200 Blogs: Schon wegen seiner Größe ist das hier vorgestellte, aufbereitete Korpus für viele Bereiche der Digital Humanities, beispielsweise die Computational Literary Studies, die Digital History oder für NLP-Untersuchungen, eine wichtige Quelle für Inhaltsanalysen oder das Trainieren von Sprachmodellen. Wie in diesem Beitrag gezeigt stellt vor allem die Struktur der Weblogs eine Herausforderung dar, enthalten die WARC-Dateien, in denen die Blogs zunächst vorliegen, doch sehr viel Redundantes, das für eine Vielzahl von Inhaltsanalysen nicht nur uninteressant, sondern sogar hinderlich ist. Mit den im Zuge der Veröffentlichung der SDC4Lit-Plattform 2023<ref n="21" target="ftn21"/> zur Verfügung gestellten Blog-Daten in aufbereiteter Form wird eine robuste Ressource bereitgestellt, die neben den Rohdaten im WARC-Format auch das bereinigte Textkorpus in Form der inhaltlich relevanten Blogposts sowie die zugehörigen Metadaten zu jedem Post enthält. Dank der ebenfalls über SDC4Lit zur Verfügung gestellten WARC-Volltextsuche und WARC-Player wie SolrWayback können die Blogs bzw. die einzelnen Blogposts zudem – unabhängig von allen weiteren Analyseschritten – möglichst originalgetreu in ihrer ursprünglichen Repräsentationsform angesehen und erforscht werden, auch wenn die originalen Webseiten bereits nicht mehr vorhanden sind oder geändert wurden. Die Implementierung der Aufbereitung wird in Form von dokumentierten Jupyter-Notebooks bereitgestellt, dank der auch weitere, über das hier präsentierte Korpus hinausgehende (literarische) Blogs aufbereitet und damit für weitere DH-Bereiche zugänglich gemacht werden können, sodass die nunmehr bereits gehobenen Weblog-Schätze künftig nicht die einzigen bleiben.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                        
+                            <hi rend="1840">In Bezugnahme auf Ernst (2010, 294</hi>
+                            <hi style="font-size:9pt">–297); Giacomuzzi (2012, 183) und Jürgensen (2011, 407) liefert Fassio (2021, 97f.) eine ausführliche Diskussion der bisherigen Definitions- und Typisierungsversuche literarischer Weblogs.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                        
+                            <ref target="https://dschungel-anderswelt.de/,">
+                                <hi rend="color(0563C1)" style="font-size:9pt">https://dschungel-anderswelt.de/</hi>
+                            </ref>
+                            <hi rend="Hyperlink">
+                                <hi rend="color(0563C1)" style="font-size:9pt">,</hi>
+                            </hi>
+                            <anchor xml:id="Hlk122009052"/>
+                            <hi style="font-size:9pt">(zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                        
+                            <hi rend="2460">Das Blog erschien zunächst in einer Folge von 343 Blogposts auf rainaldgoetz.de (Quelle offline), anschließend auch in Buchform: </hi>
+                            <hi style="font-size:9pt">Goetz, Rainald. 2015. "Abfall für alle. Roman eines Jahres." Frankfurt a. M.: Suhrkamp.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                        
+                            <ref target="https://www.wolfgang-herrndorf.de/">
+                                <hi rend="color(0563C1)" style="font-size:9pt">https://www.wolfgang-herrndorf.de/</hi>
+                                <hi style="font-size:9pt">,</hi>
+                            </ref>
+                            <hi rend="Hyperlink"> (zugegriffen: 14. Dezember 2022)</hi>
+                            <hi style="font-size:9pt" xml:space="preserve">; auch als Print-Ausgabe: </hi>
+                            <hi rend="color(202122)" style="font-size:9pt">Wolfgang Herrndorf. 2015.</hi>
+                            <anchor xml:id="Hlk122009830"/>
+                            <hi rend="color(202122)" style="font-size:9pt">"Arbeit und Struktur." Rowohlt: Reinbek.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                        
+                            <ref target="http://riesenmaschine.de/">
+                                <hi rend="color(0563C1)" style="font-size:9pt">http://riesenmaschine.de/</hi>
+                                <hi style="font-size:9pt">,</hi>
+                            </ref>
+                            <hi rend="Hyperlink"> (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                        
+                            <hi rend="2692">Neben hermeneutischen Untersuchung</hi>
+                            <hi style="font-size:9pt">en einzelner literarischer Blogs (Ainetter 2006, Knapp 2012, 2014) oder theoretischer bzw. struktureller Überlegungen (Ernst 2010) stellt ein Großteil der Studien zu (literarischen) Weblogs die Beziehung bzw. Abgrenzung verwandter Textsorten wie Flugblatt, Zeitung, Autobiographie oder – am häufigsten – dem Tagebuch in den Fokus (Augustin 2015, Flüh 2017, Jürgensen 2011, Michelbach 2019).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                        
+                            <ref target="https://techniktagebuch.tumblr.com/">
+                                <hi style="font-size:9pt">https://techniktagebuch.tumblr.com/</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                        
+                            <hi style="font-size:9pt">Das Deutsche Literaturarchiv Marbach sammelt deutschsprachige Literatur von 1750 bis zur Gegenwart, sodass unser Korpus vorwiegend aus deutschsprachigen Blogs besteht. Allerdings finden sich in unserer Sammlung auch an manchen Stellen nicht-deutschsprachige Absätze oder gar ganze Blogeinträge. Die Technik zur Extraktion der Texte lässt sich zu weiten Teilen auch auf andere Sprachen übertragen, sodass die entwickelte Pipeline auch für andere Sprachen vollständig oder zumindest größtenteils nachnutzbar ist.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                        
+                            <ref target="http://literatur-im-netz.dla-marbach.de">
+                                <hi rend="color(0563C1)" style="font-size:9pt">http://literatur-im-netz.dla-marbach.de</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                        
+                            <hi rend="3936">Im Rahmen des Projekts </hi>
+                            <hi rend="italic" style="font-size:9pt">SDC4Lit – Aufbau eines nachhaltigen Datenlebenszyklus für Literaturforschung und -vermittlung (</hi>
+                            <ref target="https://www.sdc4lit.de/">
+                                <hi rend="color(0563C1)" style="font-size:9pt">https://www.sdc4lit.de/</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, zugegriffen: 14. Dezember 2022) entsteht seit 2019 die SDC4Lit-Plattform, über die die gesammelten Blogs zusammen mit den sonstigen Beständen von Literatur im Netz nicht nur in einem Repositorium verfügbar gemacht, sondern auch (explorative) Zugangs- und Analysemöglichkeiten aufgezeigt und bereitgestellt werden.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                        
+                            <hi rend="2549">Bei </hi>
+                            <hi style="font-size:9pt">einigen Blog-Hostern stehen APIs zur Verfügung, über die der Download einer inhaltsorientierten Version der Blogs möglich ist. Diese Repräsentationen sind bisher nicht Teil der Sammlung.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn12" n="12">
+                            
+                                <hi style="font-size:9pt">Der ClueWeb09-Datensatz umfasst 1.040.809.705 Webseiten.</hi>
+                                <ref target="http://lemurproject.org/clueweb09/">
+                                    <hi style="font-size:9pt">http://lemurproject.org/clueweb09/</hi>
+                                </ref>
+                                <hi style="font-size:9pt">(zugegriffen: 14. Dezember 2022).</hi>
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn13" n="13">
+                        
+                            <ref target="https://github.com/adbar/trafilatura">
+                                <hi style="font-size:9pt">https://github.com/adbar/trafilatura</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022), eine Python-Bibliothek zur Boilerplate-Entfernung und Metadatenerkennung (Barbaresi 2019).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn14" n="14">
+                        
+                            <ref target="https://cqpweb.lancs.ac.uk">
+                                <hi style="font-size:9pt">https://cqpweb.lancs.ac.uk</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn15" n="15">
+                        
+                            <ref target="https://github.com/netarchivesuite/solrwayback">
+                                <hi rend="color(0563C1)" style="font-size:9pt">https://github.com/netarchivesuite/solrwayback</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn16" n="16">
+                                
+                                    <ref target="https://dschungel-anderswelt.de">
+                                        <hi style="font-size:9pt">https://dschungel-anderswelt.de</hi>
+                                    </ref>
+                                    <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn17" n="17">
+                                
+                                    <ref target="https://techniktagebuch.tumblr.com">
+                                        <hi style="font-size:9pt">https://techniktagebuch.tumblr.com</hi>
+                                    </ref>
+                                    <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn18" n="18">
+                                
+                                    <ref target="http://www.luxautumnalis.de">
+                                        <hi style="font-size:9pt">http://www.luxautumnalis.de</hi>
+                                    </ref>
+                                    <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn19" n="19">
+                                
+                                    <ref target="http://henrikeheiland.blogspot.de/">
+                                        <hi style="font-size:9pt">http://henrikeheiland.blogspot.de/</hi>
+                                    </ref>
+                                    <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                                
+                            </note>
+<note rend="footnote text" xml:id="ftn20" n="20">
+                        
+                            <ref target="https://github.com/adilyalcin/Keshif.">
+                                <hi rend="color(0563C1)" style="font-size:9pt">https://github.com/adilyalcin/Keshif</hi>
+                            </ref>
+                            <hi style="font-size:9pt">, (zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn21" n="21">
+                        
+                            <ref target="https://www.sdc4lit.de/">https://www.sdc4lit.de/</ref>, (
+                            <hi style="font-size:9pt">zugegriffen: 14. Dezember 2022).</hi>
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <anchor xml:id="Hlk121927828"/>
+                        <hi rend="bold">Ainetter,Sylvia</hi>. 2006. "Blogs - literarische Aspekte eines neuen Mediums. Eine Analyse am Beispiel des Weblogs Miagolare". Wien: Lit Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Augustin</hi>, 
+                        <hi rend="bold">Elisabeth</hi>. 2015. "BlogLife. Zur Bewältigung von Lebensereignissen in Weblogs." Bielefeld: transcript.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Barbaresi, Adrien</hi>. 2019. "Generic Web Content Extraction with Open-Source Software". In 
+                        <hi rend="italic">Proceedings of the 15th Conference on Natural Language Processing</hi> (KONVENS 2019): 267–268.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Blessing, André, Jan Hess und Kerstin Jung</hi>. 2022. "‘Ja, jetzt ist das langweilig. Aber in zwanzig Jahren!‘ - Bereitstellung, Zugang und Analyse literarischer Blogs am Beispiel des Techniktagebuchs." 
+                        <hi rend="italic">DHd 2022 Kulturen des digitalen Gedächtnisses. 8. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2022), Potsdam</hi>. Zenodo: 
+                        <ref target="https://doi.org/10.5281/zenodo.6322488">https://doi.org/10.5281/zenodo.6322488</ref>; 
+                        <ref target="https://doi.org/10.5281/zenodo.6322488">https://doi.org/10.5281/zenodo.6328029</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Cormack, Gordon V., Mark D. Smucker und Charles L. A. Clarke</hi>. 2011. "Efficient and effective spam filtering and re-ranking for large web datasets." In 
+                        <hi rend="italic">Information retrieval 14</hi>: 441–465.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ernst, Thomas</hi>. 2010. "Weblogs. Ein globales Medienformat." In 
+                        <hi rend="italic">Globalisierung und Gegenwartsliteratur. Konstellationen - Konzepte - Perspektiven</hi>, hg. von Wilhelm Amann, Georg Mein und Rolf Parr, 281–302. Heidelberg: Synchron Wissenschaftsverlag der Autoren.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fassio, Marcella</hi>. 2021. "Das literarische Weblog. Praktiken, Poetiken, Autorschaften". Bielefeld: Transcript.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Flüh, Thorsten</hi>. 2017. "Flugblatt – Zeitung – Blog. Materialität und Medialität als Literaturen." Wien: Passagen Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Giacomuzzi, Renate</hi>. 2008. "Die ‚Dschungel. Anderswelt‘ und A. N. Herbsts ‚Poetologie des literarischen Bloggens‘." 
+                        <hi rend="italic">Die Horen 53</hi>: 137–149.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Giacomuzzi, Renate. </hi>2012. "Deutschsprachige Literaturmagazine im Internet. Ein Handbuch." Innsbruck: Studien-Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Hardie, Andrew. </hi>2012. "CQPweb – combining power, flexibility and usability in a corpus analysis tool." In 
+                        <hi rend="italic">International Journal of Corpus Linguistics</hi> 17(3): 380
+                        <anchor xml:id="Hlk121927169"/>–409.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">IIPC</hi>. n. d. "The WARC Format." 
+                        <ref target="https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/">https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/</ref> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jürgensen, Christoph</hi>. 2011. "Ins Netz gegangen – Inszenierungen von Autorschaft im Internet am Beispiel von Rainald Goetz und Alban Nikolai Herbst." In 
+                        <hi rend="italic">Schriftstellerische Inszenierungspraktiken – Typologie und Geschichte</hi>, hg. von Christoph Jürgensen und Gerhard Kaiser, 405–422. Heidelberg: Winter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Knapp, Lore</hi>. 2012. "Christoph Schlingensiefs Blog. Multimediale Autofiktion im Künstlerblog." In 
+                        <hi rend="italic">Narrative Genres im Internet: Theoretische Bezugsrahmen, Mediengattungstypologie und Funktionen</hi>, hg. von Ansgar Nünning und Jan Rupp, 117–132. Trier: Wissenschaftlicher Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Knapp, Lore. </hi>2014. "Künstlerblogs. Zum Einfluss der Digitalisierung auf literarische Schreibprozesse (Goetz, Schlingensief, Herrndorf)." Berlin: Ripperger &amp; Kremers.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Manning, Christopher D., Prabhakar Raghavan und Hinrich Schütze</hi>. 2010. "Introduction to information retrieval." In 
+                        <hi rend="italic">Information retrieval 13</hi>: 192–195. 
+                        <ref target="https://doi.org/10.1007/s10791-009-9115-y">https://doi.org/10.1007/s10791-009-9115-y</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Michelbach, Elisabeth. </hi>2019. "Poetik des autobiografischen Blogs." Dissertation, Universität Göttingen.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

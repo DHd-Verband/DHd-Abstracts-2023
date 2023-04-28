@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HILGER_Agnes_Dunkelgr_n__blassgr_n__fenchelgr_n_oder___ber_d" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dunkelgrün, blassgrün, fenchelgrün oder: Über die Konkretisierung des Vokabulars im deutschsprachigen Roman (1760–1920)</title>
+                <author>
+                    <persName>
+                        <surname>Hilger</surname>
+                        <forename>Agnes</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                    <email>agnes.helene.hilger@gmail.com</email>
+                    <idno type="ORCID">0000-0002-7636-341X</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Beschreibung</term>
+                    <term>Telling</term>
+                    <term>Showing</term>
+                    <term>Literaturgeschichte</term>
+                    <term>Roman</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Literatur</term>
+                    <term>Forschungsergebnis</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hintergrund</head>
+                <p style="text-align: left; ">Im Jahr 2012 entdecken Ryan Heuser und Long Le-Khac, dass eine Reihe von semantisch verwandten Wörtern in englischsprachigen Romanen über das 19. Jahrhundert hinweg immer häufiger verwendet wird (vgl. Heuser/Le-Khac 2012). Diese Wörter sind tendenziell konkret.<ref n="1" target="ftn1"/> Sie bezeichnen Körperteile wie 
+                    <hi rend="italic">finger</hi> oder 
+                    <hi rend="italic">hair</hi> oder Farben wie 
+                    <hi rend="italic">red</hi> oder 
+                    <hi rend="italic">scarlet</hi>. Ted Underwood zeigt in einer späteren Untersuchung, dass dieser Trend bereits 1760 einsetzt. Er weist angesichts des mehrere Epochen umfassenden Anstiegs auf eine Lücke im bisherigen literaturgeschichtlichen Wissen hin.
+                </p>
+                <p style="text-align: left; ">Eine Masterarbeit, die dem Poster zugrunde liegt, verfolgte das Ziel, die Beobachtungen von Heuser, Le-Khac und Underwood zunächst versuchsweise für die deutschsprachige Literatur nachzuvollziehen und sodann eine erste Eingrenzung derjenigen Bereiche zu leisten, die von der Entwicklung betroffen sind. Die Ergebnisse sollen hier vorgestellt werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpus und Methode</head>
+                <p style="text-align: left; ">Das Korpus basiert auf den bei TextGrid und Projekt Gutenberg digital zur Verfügung gestellten Texten (vgl. Neuroth u.a. 2015; Reuters o.J.). Es enthält 1147 zwischen 1760 und 1920 erschiene Romane. Diese sind jedoch nicht gleichmäßig über den Zeitraum verteilt (s. Figure 1). Die Unausgewogenheit soll in anschließenden Arbeiten angegangen werden.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.651875cm" url="Pictures/c6a4ccc27f04856681800a8242c965b3.png" rend="inline"/>
+                    <head>Figure 1: Übersicht über die im Korpus enthaltenen Romane pro Jahr.</head>
+                </figure>
+                <p style="text-align: left; ">Um die Wortfrequenzen zu ermitteln, wurden zunächst Wortlisten erstellt. Als Heuristik diente eine sehr grobe Einteilung in drei Gruppen: 1) Informationen zu Figuren, 2) Informationen zu Räumen und 3) Informationen zu Beschaffenheit und Material. Auf Basis dieser Unterscheidung wurde eine Liste von 31 Wortfeldern erstellt.<ref n="2" target="ftn2"/> Anschließend wurden auf Basis von GermaNet Listen von zu diesen Wortfeldern gehörenden Wörtern erstellt (vgl. Henrich/Hinrichs 2010). Ein Beispiel für ein solches Wortfeld sind Farbwörter. Ausgehend vom Knoten 
+                    <hi rend="italic">farbspezifisch</hi> wurden dessen Hyponyme – zum Beispiel 
+                    <hi rend="italic">grün</hi> – und wiederum dessen Hyponyme – beispielsweise 
+                    <hi rend="italic">dunkelgrün</hi> und 
+                    <hi rend="italic">blassgrün</hi> – extrahiert.
+                </p>
+                <p style="text-align: left; ">Um der historischen Sprachstufe und der Domäne Roman gerecht zu werden, wurden die Wortlisten anschließend mit einem Word-Embedding-Modell erweitert. Dafür wurde ein auf CommonCrawl trainiertes Fasttext-Modell auf dem Roman-Korpus weitertrainiert (vgl. Bojanowski 2016). Aufgrund guter Performance in ähnlichen Tasks schien ein solches Fasttext-Modell ausreichend (vgl. Ehrmanntraut u.a. 2021). Um die Wortlisten zu erweitern, wurden zu den extrahierten Wörtern abhängig von der Länge der Liste die zwei bis zwanzig nächsten Nachbarn ermittelt und, sofern nicht schon vorhanden, der Liste angehängt. Neben Wörtern wie 
+                    <hi rend="italic">grün</hi> oder 
+                    <hi rend="italic" xml:space="preserve">dunkelgrün </hi>enthielt die Liste nun auch sehr spezifische wie 
+                    <hi rend="italic">fenchelgrün</hi>. Anschließend wurden die Listen von Hand bereinigt. 
+                </p>
+                <p style="text-align: left; ">Die Romane wurden mit dem Python-Paket spaCy lemmatisiert und für jedes Wortfeld die zugehörigen Wortfrequenzen berechnet (vgl. Honnibal/Montani 2017). </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p style="text-align: left; ">Nimmt man die Wortfrequenzen aller 31 konkreten Wortfelder zusammen, ergibt sich ein signifikanter Anstieg (Mann-Kendall-Test, α=0,01, p=2,22e-16). In Figure 2 repräsentiert jeder Punkt einen Roman, die y-Achse gibt jeweils die Wortfrequenz an. Im Korpus gibt es also einen ähnlichen Trend wie in den englischsprachigen Texten.</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="11.41236111111111cm" url="Pictures/c274ce979fbbda434210b65a244baa1d.png" rend="inline"/>
+                    <head>Figure 2: Frequenzen der konkreten Wörter pro Roman und Jahr.</head>
+                </figure>
+                <p style="text-align: left; ">Insbesondere bei den Wortfeldern, die Figuren, Gebäude und Innenräume beschreiben, gibt es signifikante Anstiege. Bei den Wortfeldern, die der Darstellung von Naturräumen (z.B. die Wortfelder 
+                    <hi rend="italic">Gartenanlage, Gewächs, Bewaldung</hi>) dienen dürften, gibt es dagegen keine signifikanten Trends. Figure 3 gibt einen Überblick über die Ergebnisse zu den untersuchten Wortfeldern (α=0,01).
+                </p>
+                
+                    <table rend="rules">
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default"/>
+                            <cell style="text-align: left;" rend="DH-Default">Anstieg</cell>
+                            <cell style="text-align: left;" rend="DH-Default">Rückgang</cell>
+                            <cell style="text-align: left;" rend="DH-Default">Kein Trend</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">1) Räume</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Bau/Gebäude</p>
+                                <p style="text-align: left; ">Gebäudeteil</p>
+                                <p style="text-align: left; ">Zimmer</p>
+                                <p style="text-align: left; ">Einrichtungsgegenstand/</p>
+                                <p style="text-align: left; ">Möbel</p>
+                                <p style="text-align: left; ">Heimtextilie</p>
+                                <p style="text-align: left; ">Haushaltsgegenstand/</p>
+                                <p style="text-align: left; ">Haushaltsprodukt</p>
+                                <p style="text-align: left; ">Dekorationsgegenstand/</p>
+                                <p style="text-align: left; ">Ziergegenstand</p>
+                                <p style="text-align: left; ">Gras/Grünfläche</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">Pflanzenteil</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Gartenanlage/ Grünanlage</p>
+                                <p style="text-align: left; ">Weg</p>
+                                <p style="text-align: left; ">Gewächs/Pflanze</p>
+                                <p style="text-align: left; ">Bewaldung/Wald</p>
+                                <p style="text-align: left; ">Kunstobjekt</p>
+                                <p style="text-align: left; ">Bild</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">2) Figuren</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Körperteil</p>
+                                <p style="text-align: left; ">Bekleidung/Kleidung</p>
+                                <p style="text-align: left; ">Bekleidungsteil/</p>
+                                <p style="text-align: left; ">Kleidungsteil</p>
+                                <p style="text-align: left; ">Aufmachung/Outfit</p>
+                                <p style="text-align: left; ">Aussehensspezifisch</p>
+                                <p style="text-align: left; ">Tasche</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default"/>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Geschmeide/Schmuck</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi rend="bold" style="font-size:11pt">3) Beschaffen-heit</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Gewebe/Stoff/Textil</p>
+                                <p style="text-align: left; ">Farbspezifisch</p>
+                                <p style="text-align: left; ">Helligkeitsspezifisch</p>
+                                <p style="text-align: left; ">Oberflächenspezifisch</p>
+                                <p style="text-align: left; ">Muster/Musterung</p>
+                                <p style="text-align: left; ">Formspezifisch</p>
+                                <p style="text-align: left; ">Geruch</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default"/>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ornament/Verzierung</p>
+                                <p style="text-align: left; ">Holz</p>
+                            </cell>
+                        </row>
+                    <head>Figure 3: Übersicht über die Trends für alle untersuchten Wortfelder.</head>
+                    </table>
+                
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">Die Ergebnisse der Arbeit deuten auf eine grundlegende Veränderung im untersuchten Korpus hin, die von der germanistischen Literaturgeschichte bislang nicht wahrgenommen wurde: Die Art und Weise, in der Romane ihre fiktive Welt physisch gestalten, wandelt sich über einen mehrere Epochen umfassenden Zeitraum hinweg erheblich. Zudem ermöglichen die Ergebnisse der Arbeit eine erste Differenzierung. Besonders betroffen scheinen Informationen über das physische Erscheinungsbild von Figuren und Orten, an denen Figuren leben. Eine anschließende Arbeit soll diese Ergebnisse konkretisieren.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Die Zuschreibung ‚konkret‘ ist als Heuristik zu verstehen. Ausschlaggebend ist für die Zuordnung anders als in der sprachwissenschaftlichen Abgrenzung von Konkreta und Abstrakta nicht die Gegenständlichkeit, sondern die Möglichkeit der sinnlichen Wahrnehmbarkeit. Dabei orientiere ich mich an der Definition, die Sabine Schulte im Walde und Maximilian Köper für ihren Datensatz benutzen (vgl. Köper/Schulte im Walde 2016).
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Der Begriff ‚Wortfeld‘ ist hier weit gefasst und bezeichnet anders als in der Sprachwissenschaft keine Gruppe synonymer Wörter, sondern eine Gruppe von semantisch verwandten Wörtern, die sich unter einen Oberbegriff subsumieren lassen. Für die Wortfelder, die Gegenstände umfassen, fällt der Begriff daher mit dem des Sachfeldes zusammen (vgl. Fries 2016, S. 774).
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bojanowski, Piotr, Edouard Grave, Armand Joulin und Tomas Mikolov</hi>. 2016. „Enriching word vectors with subword information“. 
+                        <hi rend="italic">arXiv preprint arXiv:1607.04606</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ehrmanntraut, Anton, Thora Hagen, Leonard Konle, und Fotis Jannidis</hi>. 2021. „Type- and Token-Based Word Embeddings in the Digital Humanities“. 
+                        <hi rend="italic">Proceedings of the Conference on Computational Humanities Research</hi>, 16–38.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fries, Norbert</hi>. 2016. „Wortfeld“. In Metzler Lexikon Sprache, hg. von Helmut Glück und Michael Rödel, Stuttgart: Metzler. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Henrich, Verena und Erhard Hinrichs</hi>. 2010. „GernEdiT - The GermaNet Editing Tool“. In 
+                        <hi rend="italic">Proceedings of the Seventh Conference on International Language Resources and Evaluation (LREC 2010)</hi>, 2228–2235.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heuser, Ryan, und Long Le-Khac</hi>. 2012. „A Quantitative Literary History of 2,958 Nineteenth-Century British Novels. The Semantic Cohort Method“. 
+                        <hi rend="italic">Stanford Literary Lab Pamphlets</hi>. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Honnibal, Matthew, und Ines Montani</hi>. 2017. „spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing“.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Köper, Maximilian, und Sabine Schulte im Walde</hi>. 2016. „Automatically Generated Norms of Abstractness, Arousal, Imageability and Valence for 350,000 German Lemmas“. In 
+                        <hi rend="italic">Proceedings of the 10th Conference on Language Resources and Evaluation (LREC)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neuroth, Heike, Andrea Rapp, und Sibylle Söring</hi> (Hgg). 2015. TextGrid. Von der Community - für die Community. Eine Virtuelle Forschungsumgebung für die Geisteswissenschaften. Glückstadt.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reuters, Hella</hi> (Hg.). o.J. Projekt Gutenberg-DE, online unter: 
+                        <ref target="http://www.projekt-gutenberg.org">www.projekt-gutenberg.org</ref> [zuletzt aufgerufen am 14.12.2022].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Underwood, Ted</hi>. 2019. 
+                        <hi rend="italic">Distant horizons. Digital Evidence and Literary Change</hi>. Chicago: The University of Chicago Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SLUYTER_G_THJE_Henny_Opening_a_Journal__Erfahrungen_bei_der_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Opening a Journal. Erfahrungen bei der Gründung des Journal of Computational Literary Studies</title>
+                <author>
+                    <persName>
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>evelyn.gius@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0001-8888-8419</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName>
+                    <affiliation>Universität Trier</affiliation>
+                    <email>schoech@uni-trier.de</email>
+                    <idno type="ORCID">0000-0002-4557-2753</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                    <idno type="ORCID">0000-0002-1421-4320</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>dominik.gerstorfer@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-8095-2540</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Guhr</surname>
+                        <forename>Svenja</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>svenja.guhr@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-7686-3609</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ripoll</surname>
+                        <forename>Elodie</forename>
+                    </persName>
+                    <affiliation>Universität Trier</affiliation>
+                    <email>ripoll@uni-trier.de</email>
+                    <idno type="ORCID">0000-0003-4782-769X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sluyter-Gäthje</surname>
+                        <forename>Henny</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>sluytergaeth@uni-potsdam.de</email>
+                    <idno type="ORCID">0000-0003-2969-3237</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Journal</term>
+                    <term>Open Access</term>
+                    <term>Review</term>
+                    <term>Workflow</term>
+                    <term>Community</term>
+                    <term>Computational Literary Studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Organisation</term>
+                    <term>Forschungsprozess</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+            <head>1. Einleitung</head>
+            <p style="text-align: left; ">Die Open-Access-Transformation des wissenschaftlichen Publikationssystems hat nicht nur eine Rekonzeptualisierung des Zugangs zu Erkenntnissen sowie eine Neuausrichtung der Finanzierung wissenschaftlichen Publizierens eingeleitet; mit ihr gehen auch neue institutionelle Organisationsformen und technische Gestaltungsspielräume einher (u.a. Wissenschaftsrat 2021). Neben die Openness als Zugang treten daher weitere Szenarien der Öffnung. Gerade dort, wo Open-Access-Publikationsmedien ohne die Beteiligung etablierter Verlage gegründet werden, können die Rollen, die Logiken und die Konventionen des wissenschaftlichen Publizierens derzeit neu verhandelt und womöglich sogar neu erfunden werden. </p>
+            <p style="text-align: left; ">Im Folgenden berichten wir aus dem Work in Progress der Gründung eines verlagsunabhängigen Open-Access-Journals in den Digital Humanities, des 
+                <hi rend="italic">Journal of Computational Literary Studies</hi> (JCLS).<ref n="1" target="ftn1"/> Der erste Call for Papers von JCLS wurde im Herbst 2021 veröffentlicht. Mit seinem ersten Rolling Issue im Herbst 2022 wird JCLS den Publikationsbetrieb aufnehmen. Anlässlich dieser Gründung möchten wir das Journal zum einen vorstellen (Abschnitt 2); zum anderen möchten wir – ausgehend von den Erfahrungen der Gründungsphase des Journals – drei Felder umreißen, auf denen sich aus unserer Sicht aktuell Entwicklungs- und Öffnungspotenziale im Publikationssystem bieten. Dabei handelt es sich um das Feld der Community (Abschnitt 3.1), das Feld des Reviews (Abschnitt 3.2) und das Feld des Workflows (Abschnitt 3.3). Damit wollen wir auch zu einem breiten Austausch über die konkrete Ausgestaltung von unabhängigen Open-Access-Journals anregen. 
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+            <head>2. Über JCLS </head>
+            <p style="text-align: left; ">JCLS ist dauerhaft als internationales Golden-Open-Access-Journal ohne Gebühren für Schreibende oder Lesende angelegt. Es bietet eine Publikationsplattform für Arbeiten zur Entwicklung, Anwendung und Kritik von computergestützten Ansätzen in den Literaturwissenschaften. Die Gründung der Zeitschrift erfolgte zu einem Zeitpunkt, an dem die Computational Literary Studies (CLS) im Rahmen der zunehmenden Ausdifferenzierung der Digital Humanities eine Sichtbarkeit erlangt haben. Die Zeitschrift will Forschung fördern, die das Spektrum computergestützter Methoden zur Analyse literarischer Texte und ihrer (kulturellen, sozialen, historischen, performativen) Kontexte erweitert. Sie bietet ein Forum, um den Aufbau literarischer Korpora, die Identifizierung von Besonderheiten literarischer Texte, die Domänenanpassung von Methoden, die Operationalisierung von Konzepten, die Annotation von Texten, die Evaluation von Messverfahren, die Interpretierbarkeit von Ergebnissen und deren Reproduzierbarkeit zu behandeln. JCLS will schließlich auch die Debattierbarkeit der Kernkonzepte der CLS, Computationalität und Literarizität, adressieren.</p>
+            <p style="text-align: left; ">Institutionell ist JCLS als verlagsunabhängiges Journal ausgerichtet, das in Kooperation von drei Professuren (in der Rolle der Herausgeber:innen) mit der Universitäts- und Landesbibliothek Darmstadt (ULB) als Infrastrukturpartner betrieben wird. Die ULB sorgt für die nachhaltige Verfügbarkeit der publizierten Artikel (in PDF, XML, HTML und LaTeX) und stellt über eine Kooperation mit der gemeinnützigen Open Library of Humanities<ref n="2" target="ftn2"/> (OLH) das auf Python basierende Redaktionsmanagement- und Publikationssystem Janeway<ref n="3" target="ftn3"/> zur Verfügung. Dieses wird als Open-Source-Software von der OLH entwickelt (Eve und Byers 2018). Auch die OLH agiert als Infrastrukturpartner, nicht als Verlag.
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+            <head>3. Entwicklungspotenziale</head>
+            <div type="div2" rend="DH-Heading2">
+            <head>3.1 Community</head>
+            <p style="text-align: left; ">Die digitale Transformation von Öffentlichkeiten ermöglicht auch ein breiteres Verständnis der Akteursrolle von Publikationsmedien. Während traditionelle Publikationsorgane sich vornehmlich als Publikationsdienstleister verstehen, begreifen sich Publikationsmedien derzeit zunehmend als Community-Hubs, die auch jenseits der Publikation von wissenschaftlichen Inhalten mit ihrer Community interagieren und etwa eventbasiert Räume für die Community schaffen. Openness erweist sich hier als Praxis der Öffnung von diversifizierten Kommunikationsräumen. Mit der Gründung von JCLS wurde entsprechend (neben einem Twitter-Account) zugleich die 
+                <hi rend="italic">Annual Conference of Computational Literary Studies</hi> ins Leben gerufen, die erstmals im Juni 2022 ausgerichtet wurde.<ref n="4" target="ftn4"/>
+            </p></div>
+            <div type="div2" rend="DH-Heading2">
+            <head>3.2 Review-Verfahren</head>
+            <p style="text-align: left; ">Es gibt zunehmend – auch in den Digital Humanities (vgl. Burghardt et al. 2022) – Forderungen nach einer konsequenten Umstellung der wissenschaftlichen Qualitätssicherung auf Open Peer Review (vgl. Ross-Hellauer 2017). Dennoch sprechen insbesondere internationale Anerkennungs- und Gratifikationsmechanismen derzeit noch für ein Double Blind Peer Review, das als maßgeblich für die Akzeptanz von Publikationsorganen gilt. JCLS hat sich daher, einem Majoritätsvotum des Editorial Boards folgend, für ein Double Blind Peer Review-Verfahren entschieden. Zugleich integrieren wir im Rahmen der Conference-Paper-Issues eine Phase des offenen, kollaborativen Reviews in den Qualitätssicherungsprozess, die Ideen des Open Peer Review aufgreift. </p></div>
+            <div type="div2" rend="DH-Heading2">
+            <head>3.3 Redaktionsworkflow</head>
+            <p style="text-align: left; ">Die technische Realisierung von Redaktionsworkflows basiert bis heute meist auf einer Logik des Up- und Downloads von Dateien, was u.a. Probleme mit der Versionierung, Hürden für die kollaborative Textbearbeitung und vermeidbaren Mehraufwand mit sich bringt. Mit JCLS haben wir erste Schritte in Richtung eines online-basierten Workflows eingeleitet, bei dem die Texte in einem webbasierten LaTeX-Editor mit Git-Anbindung auf der Grundlage eines gezielt entwickelten und zur Nachnutzung zur Verfügung gestellten LaTeX-Templates<ref n="5" target="ftn5"/> kollaborativ verfasst werden können. Auch den Reviewer:innen wird die Möglichkeit gegeben, anonym Änderungsvorschläge direkt in diesem Online-Dokument vorzunehmen. Projektiert wird derzeit eine Weiterentwicklung dieses Workflows, durch die eine direkte, API-basierte Kommunikation zwischen Janeway und dem LaTeX-Editor möglich werden soll.
+            </p></div></div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://jcls.io/">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://jcls.io/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve">Vgl. </hi>
+                        <ref target="https://www.openlibhums.org">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://www.openlibhums.org</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve">Vgl. </hi>
+                        <ref target="https://janeway.systems/">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://janeway.systems/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://jcls.io/site/conference/">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://jcls.io/site/conference/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve">Vgl. </hi>
+                        <ref target="https://github.com/Journal-of-CLS/JCLS-Template/">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://github.com/Journal-of-CLS/JCLS-Template/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Burghardt, Manuel et al.</hi> 2022. "Offen für alle(s)? Open Identities im Reviewprozess der DHd-Konferenz". In 
+                        <hi rend="italic">DHd2022: Kulturen des digitalen Gedächtnisses Konferenzabstracts</hi>. Potsdam, 21–24. DOI: https://doi.org/10.5281/zenodo.6328145 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Eve, Martin Paul und Andy Byers</hi>. 2018. “Janeway: A Scholarly Communications Platform”. In 
+                        <hi rend="italic">Insights: The UKSG Journal</hi>. https://eprints.bbk.ac.uk/id/eprint/22452/ (zugegriffen: 19. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ross-Hellauer, Tony</hi>. 2017. "What is open peer review? A systematic review." In 
+                        <hi rend="italic">F1000Res (6:588)</hi>. DOI: https://doi.org/10.12688/f1000research.11369.2 (zugegriffen: 19. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wissenschaftsrat</hi>. “Empfehlungen zur Transformation des wissenschaftlichen Publizierens zu Open Access.” Köln: Wissenschaftsrat, 2022. https://www.wissenschaftsrat.de/download/2022/9477-22.pdf.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

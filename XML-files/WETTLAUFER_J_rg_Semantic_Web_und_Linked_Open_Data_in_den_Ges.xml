@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="WETTLAUFER_J_rg_Semantic_Web_und_Linked_Open_Data_in_den_Ges" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Semantic Web und Linked Open Data in den Geschichts-<br/>wissenschaften</title>
+                <author>
+                    <persName>
+                        <surname>Kröger</surname>
+                        <forename>Bärbel</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+                    <email>bkroege@gwdg.de</email>
+                    <idno type="ORCID">0000-0001-7179-6438</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Störiko</surname>
+                        <forename>Johanna</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+                    <email>johanna.danielzik@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wettlaufer</surname>
+                        <forename>Jörg</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften zu Göttingen, Deutschland</affiliation>
+                    <email>jwettla@gwdg.de</email>
+                    <idno type="ORCID">0000-0003-1957-8059</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-12T21:49:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Semantic Web</term>
+                    <term>Linked Open Data</term>
+                    <term>Wikidata</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                    <term>Webentwicklung</term>
+                    <term>Link</term>
+                    <term>benannte Entitäten (named entities)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Seit der Veröffentlichung des ersten Konzepts eines „Semantic Web“ als Erweiterung des World Wide Web (Berners-Lee und Lassila Hendler 2001) haben sich GeisteswissenschaftlerInnen mit den Möglichkeiten und Grenzen der maschinenlesbaren Modellierung ihrer Daten im Rahmen dieses Entwurfs beschäftigt. Das Datenmodell des Resource Description Framework (RDF) und die Serialisierung in Turtle oder N-Triples hat sich zum Standard in der Modellierung von maschinenlesbaren semantischen Aussagen entwickelt. Obwohl sich eine Reihe von Erwartungen aus der Entstehungszeit des Semantic Web nicht erfüllt haben (umfassende Erweiterung des WWW mit semantischen Daten, Stabilität der Uniform Resource Identifier etc.), bildet das RDF-Datenmodell heute die Grundlage verschiedener Wissensbasen (DBpedia, Wikidata) und weiterer Wissensgraphen (knowledge graphs), die zurzeit in verschiedenen Zusammenhängen entstehen. Aus diesem Grund sind das Semantic Web und die Verlinkung von offen zugänglichen Daten (Linked Open Data) für die digitalen Geisteswissenschaften weiterhin und sogar verstärkt von Interesse (Beretta 2021, Beretta &amp; Alamercery 2020, Hiltmann &amp; Riechert 2020, Meroño-Peñuela 2017, Meroño-Peñuela et al. 2014, Pollin 2017, Wettlaufer 2018, Wettlaufer et al. 2015). </p>
+            <p style="text-align: left; ">Der ganztägige Workshop bietet eine Einführung in die Thematik „Semantic Web und Linked Open Data“ mit einem Schwerpunkt auf den Geschichtswissenschaften. Das Angebot richtet sich an Teilnehmende ohne Vorkenntnisse im Bereich Semantic Web/Linked Open Data und eignet sich für Forschende aller Fachbereiche. Didaktisch teilt sich der Workshop in vier Teile, wobei die praktische Übung etwa zwei Drittel der Zeit beansprucht.</p>
+            <p style="text-align: left; ">Zu Beginn des Workshops werden die Grundlagen des Semantic Web, des Resource Description Frameworks sowie damit verbundener www-Standards im Rahmen einer einführenden Darstellung behandelt. Besondere Aufmerksamkeit kommt dabei den Themen Wikidata<ref n="1" target="ftn1"/> und SPARQL<ref n="2" target="ftn2"/> zu, die in den anschließenden Übungen eine wesentliche Rolle spielen. Folgende Themenblöcke sind für diesen ersten, einführenden Teil vorgesehen:
+            </p>
+            <p style="text-align: left; ">Die Idee des Semantic Web: kurze Vorstellung der Grundidee, entwickelt aus dem Grundproblem der maschinellen Verarbeitung natürlicher Sprache. Das Resource Description Framework (RDF) als Grundlage für formalisierte Aussagen. Die Bedeutung stabiler URIs für die Idee des Semantic Web. Die Turtle Serialisierung von RDF als Grundlage für die Abfragesprache SPARQL. Namespaces und ihre Bedeutung, auch im Semantic Web. RDF-Schema und Ontologien zur Formulierung komplexerer Aussagen. Linked Open Data, Knowledge Graphs und die LOD Cloud. Wikidata (und DBpedia) als zentrale Knoten der LOD Cloud. Kurzer Exkurs zu alternativen Ansätzen zur Verlinkung von Normdaten: Beacon-Dateien. Übersicht zu Ressourcen im Semantic Web und in der LOD Cloud für die Geschichtswissenschaften.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="10.660944444444445cm" url="Pictures/b901deb103ac436af2deff59ab960407.jpg" rend="inline"/>
+                <head>Abbildung 1. The Semantic Web Technology Stack. 
+                    <ref target="http://bnode.org/media/2009/07/08/semantic_web_technology_stack.png">http://bnode.org/media/2009/07/08/semantic_web_technology_stack.png</ref>
+                </head>
+            </figure>
+            <p style="text-align: left;">Im zweiten Teil des Workshops sollen die Teilnehmenden in die Benutzung der Linked Open Data Plattform Wikidata eingeführt und Grundlagen für die Verwendung der Abfragesprache SPARQL gelegt werden.</p>
+            <p style="text-align: left;">Wikidata ist nicht nur der momentan größte frei verfügbare Wissensgraph, sondern bietet Daten unter freien Lizenzen und erlaubt genau wie die Wikipedia die freie Mitarbeit beim Aufbau der Wissensbasis. In der Übung lernen die Teilnehmenden somit eine der relevantesten Datenquellen für das Semantic Web kennen (Jacobsen et al. 2018). Außerdem ermöglicht Wikidata mit dem QueryService<ref n="3" target="ftn3"/> einen niederschwelligen Einstieg in SPARQL, für den keine lokalen Installationen oder technischen Kenntnisse notwendig sind. Für die Übungen wird lediglich ein internetfähiges Gerät (vorzugsweise Laptop) sowie ein Wikidata-Account benötigt. Auch die graphische Benutzeroberfläche der Wikidata eignet sich gut für die Vermittlung der theoretischen Konzepte des Semantic Web, ohne dabei Kenntnisse der Informatik voraussetzen zu müssen.
+            </p>
+            <p style="text-align: left;">Der erste Übungsblock erläutert zunächst die Datenstrukturen der Wikidata. Anhand eines Beispieleintrags (Item) werden die theoretischen Konzepte aus dem ersten Teil des Workshops in ihrer Anwendung innerhalb der Wikidata gezeigt. Der Beispieleintrag repräsentiert ein Item, das über Properties mit weiteren Items verbunden werden kann. Durch eine solche Verknüpfung entsteht ein Statement. Dieses kann wiederum durch sogenannte Qualifier näher beschrieben werden. Qualifier sind für die Nutzung der Wikidata in der Geschichtswissenschaft besonders relevant. Sie ermöglichen unter anderem die Modellierung der Herkunft einer Information. Als „Referenz“ können so Internetressourcen verlinkt werden, aus denen die Information entnommen wurde. Qualifier wie „Startzeitpunkt“ und „Endzeitpunkt“ erlauben die Spezifikation eines Zeitraumes, innerhalb dessen eine Information gültig ist. Neben dem Aufbau der Wikidata-Items behandelt dieser Teil des Workshops auch eine Einführung in das Benennungssystem der Wikidata und die verschiedenen RDF-Namespaces, die dort verwendet werden. Schließlich kann ein Item der Wikidata mit mehreren Labels ausgezeichnet werden, die eine Benennung und Beschreibung in unterschiedlichen Sprachen ermöglichen.</p>
+            <p style="text-align: left;">Eingeübt wird der Umgang mit Wikidata anschließend anhand von Datensätzen aus dem Forschungsprojekt Germania Sacra<ref n="4" target="ftn4"/>, welches sich mit der Erforschung kirchlicher Institutionen und Personen des Mittelalters und der Frühen Neuzeit beschäftigt. Für den Workshop werden aufbereitete Forschungsdaten zur Verfügung gestellt, welche die Teilnehmenden selbstständig in die Wikidata einpflegen können. So ergänzen sie bestehende Datensätze zu Bischöfen des Alten Reiches um weitere Informationen wie ihren Begräbnisort. Die händische Eingabe der Daten vertieft das Verständnis für die Datenstrukturen, ist mit größeren Datenmengen aber nicht praktikabel. Als Ausblick auf den Einsatz von Wikidata im Forschungsalltag werden daher mit den Tools „Quickstatements“<ref n="5" target="ftn5"/> und „OpenRefine“<ref n="6" target="ftn6"/> Möglichkeiten zur seriellen Eingabe von größeren Datenmengen vorgestellt. 
+            </p>
+            <p style="text-align: left;">Der nächste Block der Übung behandelt die Grundlagen der Abfragesprache SPARQL. Ziel ist es, dass die Teilnehmenden ein Verständnis dafür entwickeln, wie geisteswissenschaftliche Fragestellungen als Abfrage formuliert und mit SPARQL auf Wikidata umgesetzt werden können. Dafür muss zunächst recherchiert werden, wie die in der Fragestellung enthaltenen geisteswissenschaftlichen Konzepte in der Wikidata modelliert sind. Anschließend wird eine passende Abfrage formuliert. Diese folgt mit SELECT, WHERE und gegebenenfalls OPTIONAL immer derselben Grundstruktur, die um weitere, komplexere Befehle ergänzt werden kann (siehe Abbildung 2). Diese Grundbausteine von SPARQL werden zunächst mit einfachen Abfragen wie „Finden Sie alle Datensätze zu Bischöfen mit einer WIAG-Kennung“ geübt. Vertiefend behandelt die Übung dann das Verketten von Abfragemustern und das Abfragen von Labels aus der Wikidata. Diese Grundlagen der Abfragesprache SPARQL werden durch Rückbezüge zum theoretischen Teil des Workshops auch mit den formalen Grundlagen des Semantic Web verknüpft. Während der Übung wechseln sich Demonstrationen neuer Konzepte und die Bearbeitung von aufeinander aufbauenden Übungsaufgaben ab. Während der Übungen sind die Teilnehmenden dazu eingeladen, sich mit anderen auszutauschen, Ergebnisse zu vergleichen und Fragen zu stellen. So erarbeiten sie sich Schritt für Schritt die Abfrage der im ersten Teil der Übung eingepflegten Datensätze.</p>
+            <figure>
+                <graphic n="1002" width="16.003763888888887cm" height="8.297333333333333cm" url="Pictures/5d402f7d0124f10ff6b42813a941916f.png" rend="inline"/>
+                <head>Abbildung 2. SPARQL Abfrage im Wikidata Query-Service. Abrufbar unter https://w.wiki/5FuN</head>
+            </figure>
+            <p style="text-align: left;">Das technische Framework, in das die Wikidata eingebettet ist, bietet den Nutzenden frei verfügbare Tools, mit denen abgefragte Daten graphisch dargestellt werden können. Dazu zählen ein interaktiver Graph, ein Zeitstrahl, eine Karte, eine Bildergalerie und viele andere Visualisierungsmöglichkeiten. Diese Tools werden zum Abschluss des praktischen Teiles vorgestellt und ausprobiert. Als Ergebnis dieses Hands on Übungsteils entsteht eine Visualisierung der Daten, die die Teilnehmer zu Beginn des Workshops in die Wikidata eingepflegt und mit den erworbenen SPARQL-Kenntnissen abgefragt haben.</p>
+            <p style="text-align: left;">Im vierten und letzten Teil des Workshops soll den Teilnehmenden ein Einblick in den Datenbestand der Wikidata zu geschichtlichen Themen und in die plattformspezifische Modellierung dieser Daten vermittelt werden. Daran anknüpfend soll ein Blick auf die Potenziale von wikibase-basierten Wissensgraphen für die Geschichtswissenschaften geworfen werden. Die Vor- und Nachteile einer Datensammlung, die in einem kollaborativen Prozess entsteht, werden diskutiert. Dabei gilt ein kritischer Blick den Fragen der Datenqualität, der Datenmodellierung und der Vollständigkeit der Daten.</p>
+            <figure>
+                <graphic n="1003" width="16.003763888888887cm" height="12.617097222222222cm" url="Pictures/3508162b1b56c994e7a7d02d14f4a9bf.png" rend="inline"/>
+                <head>Abbildung 3. Darstellung des Linked Open Data Webs der Wikimedia (Quelle: https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision) </head>
+            </figure>
+            <p style="text-align: left;">Auch Alternativen zur Wikidata werden in diesem Teil des Workshops thematisiert. Wikibase<ref n="7" target="ftn7"/>, das technische Framework, das der Wikidata zugrundeliegt, kann auch als eigenständige, von Wikidata unabhängige Instanz verwendet werden. Diese Lösung hat das Potenzial, die Vorteile des Systems zur Verlinkung von Daten zu nutzen und gleichzeitig eine unabhängige und durch die Forschenden selbst kuratierte Datensammlung aufzubauen. Hierfür gibt es in den Digital Humanities einige Anwendungsbeispiele, die kurz vorgestellt werden.
+            </p>
+            <p style="text-align: left;">Als Grundlage für eine anschließende praxisorientierte Betrachtung eigenständiger Wikibase-Instanzen dienen kleinere Pilotprojekte, die unter anderem im Rahmen von Lehrveranstaltungen an der Universität Göttingen realisiert wurden. Es wurde nicht nur die Wikidata, sondern auch die vom Forschungszentrum Gotha der Universität Erfurt betriebene Wikibase-Instanz FactGrid<ref n="8" target="ftn8"/> mit Daten angereichert. Im Fokus standen dabei die Bischöfe des Alten Reiches, die ihre Servitienzahlungen an die päpstliche Kurie mit Hilfe des Florentiner Bankhauses der Familie Medici abwickelten. Mit den im Workshop erworbenen Kenntnissen können die Teilnehmenden diese Daten abfragen und sich einen Einblick in die konkrete Nutzung von Linked Open Data in den Geschichtswissenschaften – und auch für ihre eigene Forschungsfragen – verschaffen. 
+            </p>
+            <p style="text-align: left;">Zur Nachbereitung des Workshops werden den Teilnehmenden die Übungsaufgaben inklusive einer Musterlösung zur Verfügung gestellt. Sie erhalten außerdem in Form eines „Cheat Sheet“ eine Übersicht über alle in der Übung verwendeten Befehle.</p>
+            <p style="text-align: left;">
+                <hi rend="bold">Zielgruppe:</hi> HistorikerInnen und GeisteswissenschaftlerInnen ohne Vorkenntnisse in SWT und LOD.
+            </p>
+            <p style="text-align: left;">
+                <hi rend="bold">Didaktisches Konzept:</hi> Einführende Vermittlung von Grundlagenwissen, Interaktive Übungen, Gruppenarbeit/Hands on Beispiele. 
+            </p>
+            <p style="text-align: left;">
+                <hi rend="bold">Erwartete Teilnehmerzahl:</hi> 5-25
+            </p>
+            <p style="text-align: left;">
+                <hi rend="bold">Technische Austattung:</hi> Seminarraum mit HD Beamer
+            </p>
+            <p style="text-align: left;">Vortragende: </p>
+            <p>Bärbel Kröger, M.A.</p>
+            <p>Akademie der Wissenschaften zu Göttingen</p>
+            <p>Geiststraße 10</p>
+            <p>37073 Göttingen</p>
+            <p>
+                <ref target="mailto:bkroege@gwdg.de">
+                    <hi rend="underline color(0563C1)">bkroege@gwdg.de</hi>
+                </ref>
+            </p>
+            <p>Bärbel Kröger arbeitet im Akademievorhaben Germania Sacra und forscht zum Einsatz von Linked Open Data im Bereich der mittelalterlichen Kirchengeschichte. Sie leitet ebenfalls das Linked Data Projekt WIAG (Wissensaggregator Mittelalter und Frühe Neuzeit). </p>
+            <p>Johanna Störiko, M. Sc.</p>
+            <p>Georg-August-Universität Göttingen</p>
+            <p>Institut für Digital Humanities</p>
+            <p>Nikolausberger Weg 23</p>
+            <p>37073 Göttingen</p>
+            <p>
+                <ref target="mailto:johanna.danielzik@uni-goettingen.de">
+                    <hi rend="underline color(0563C1)">johanna.stoeriko@uni-goettingen.de</hi>
+                </ref>
+            </p>
+            <p>Johanna Störiko (geb. Danielzik) untersuchte in ihrer Masterarbeit historische Werbeanzeigen in Kulturzeitschriften der Jahrhundertwende mit digitalen Methoden. Sie interessiert sich für den Einsatz von Technologien des Semantic Web und Linked Open Data in den digitalen Geschichtswissenschaften.</p>
+            <p>Dr. Jörg Wettlaufer </p>
+            <p>Koordination Digitalisierung und Datenkuration | Digitale Akademie</p>
+            <p>Akademie der Wissenschaften zu Göttingen</p>
+            <p>Theaterstraße 7</p>
+            <p>37073 Göttingen</p>
+            <p>Germany</p>
+            <p>
+                <ref target="mailto:jwettla@gwdg.de">
+                    <hi rend="underline color(0066CC)">jwettla@gwdg.de</hi>
+                </ref>
+            </p>
+            <p>Jörg Wettlaufer leitet die Digitale Akademie der Wissenschaften zu Göttingen und forscht zu Themen der Digitalen Geschichtswissenschaft, insbesondere dem Einsatz Semantic Web Technologien in den Digitalen Geisteswissenschaften sowie zur Rechts- und Sozialgeschichte. </p>
+            
+            <table rend="rules">
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">9:00</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Vorstellungsrunde und Einführung in die Veranstaltung (30 min.)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">9:30</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Teil 1: Einführung Grundlagen des Semantic Web und LOD (60 min.)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">10:30</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Kaffeepause</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">11:00</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Teil 2: Übung mit Wikidata anhand von Beispielen (90 min.)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">12:30</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Mittagspause</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">13:30</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Teil 3: Übung SPARQL auf Wikidata (90 min.)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">15:00</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Pause</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">15:30</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Teil 4: Beispiele für den Einsatz von Wikidata und LOD in den Geschichtswissenschaften (90 min.)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;" rend="DH-Default">17:00</cell>
+                    <cell style="text-align: left;" rend="DH-Default">Ende</cell>
+                </row>
+                <head><p style="text-align: left; ">Geplanter Ablauf des Workshops:</p></head>
+            </table>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     https://www.wikidata.org/
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                     https://www.w3.org/TR/sparql11-query/
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                     https://query.wikidata.org/
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                     http://www.germania-sacra.de
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                     https://quickstatements.toolforge.org
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                     https://openrefine.org/ 
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                     https://www.wikimedia.de/projects/wikibase
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                     https://database.factgrid.de
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Beretta</hi>, Francesco. 2021. “A challenge for historical research: making data FAIR using a collaborative ontology management environment (OntoME)”, Semantic Web 12: 2, Special issue on Semantic Web for Cultural Heritage. https://doi.org/10.3233/SW-200416
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Beretta</hi>, Francesco and Vincent 
+                        <hi rend="bold">Alamercery</hi>. 2020. "Du projet symogih.org au consortium Data for History - La modélisation collaborative de l’information au service de la production de données géo-historiques et de l’interopérabilité dans le web sémantique." 
+                        <hi rend="italic">Revue ouverte d‘ingénierie des systèmes d’information</hi> 1(3):1-15. https://doi.org/10.21494/ISTE.OP.2020.0532
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Berners-Lee</hi>, Tim, James 
+                        <hi rend="bold">Hendler</hi> and Ora 
+                        <hi rend="bold">Lassila</hi>. 2001. The Semantic Web: a new form of Web content that is meaningful to computers will unleash a revolution of new possibilities. 
+                        <hi rend="italic">Scientific American</hi> 284(5), 34-43.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hiltmann</hi>, Torsten and Thomas 
+                        <hi rend="bold">Riechert</hi>. 2020. “Digital Heraldry. The State of the Art and New Approaches Based on Semantic Web Technologies.” In 
+                        <hi rend="italic">L’édition en ligne de documents d’archives médiévaux</hi>, ed. by Christelle Balouzat-Loubet, Turnhout, 102-125.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Jacobsen, </hi>Annika et al. 2018. “Wikidata as an intuitive resource towards semantic data modeling in data FAIRification.” In 
+                        <hi rend="italic">Semantic Web Applications and Tools for Health Care and Life Sciences. Proceedings of the 11th International Conference Semantic Web Applications and Tools for Life Sciences (SWAT4HCLS 2018)</hi>. Ed. by Christoper J.O. Baker, CEUR workshop proceedings Vol. 2275. http://ceur-ws.org/Vol-2275/
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Meroño-Peñuela</hi>, Albert, Ashkan 
+                        <hi rend="bold">Ashkpour</hi>, Marieke 
+                        <hi rend="bold">van Erp</hi>, Kees  
+                        <hi rend="bold">Mandemakers</hi>, Leen 
+                        <hi rend="bold">Breure</hi>, Andrea 
+                        <hi rend="bold">Scharnhorst</hi>, Stefan 
+                        <hi rend="bold">Schlobach</hi> and Frank  
+                        <hi rend="bold">van Harmelen</hi>. 2015. “Semantic Technologies for Historical Research: A  Survey.” 
+                        <hi rend="italic">Semantic Web Journal</hi> 6: 539-564. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Meroño-Peñuela</hi>, Alberto. 2017. “Digital Humanities on the Semantic Web: Accessing Historical and Musical Linked Data,” 
+                        <hi rend="italic">Journal of Catalan Intellectual History (JOCIH)</hi> 1(11): 144-149. DOI: 10.1515/jocih-2016-0013
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pollin</hi>, Christopher and Georg 
+                        <hi rend="bold">Vogeler</hi>. 2017. “Semantically Enriched Historical Data. Drawing on the Example of the Digital Edition of the ‘Urfehdebücher der Stadt Basel’”, In 2
+                        <hi rend="superscript">nd</hi> Workshop on Humanities in the Semantic Web (WHiSe), ed. by A. Adamou, E. Daga and L. Isaksen, 27-32.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wettlaufer</hi>, Jörg. 2018. “Der nächste Schritt? Digitale Editionen und Semantic Web.” In 
+                        <hi rend="italic">Zeitschrift für Digitale Geisteswissenschaften</hi>, Sonderheft "Digitale Metamorphosen", Hg. von Roland S. Kamzelak und Timo Steyer (= Sonderband der Zeitschrift für digitale Geisteswissenschaften, 2). DOI: 10.17175/sb002_007
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wettlaufer</hi>, Jörg, Christopher 
+                        <hi rend="bold">Johnson</hi>, Martin 
+                        <hi rend="bold">Scholz</hi>, Mark 
+                        <hi rend="bold">Fichtner</hi>, Sree Ganesh 
+                        <hi rend="bold">Thotempudi</hi>. 2015. “Semantic Blumenbach: Exploration of Text-Object Relationships with Semantic Web Technology in the History of Science,” Digital Scholarship in the Humanities (DSH), Special Issue ‘Digital Humanities 2014’; ed. by Melissa Terras, Claire Clivaz, Deb Verhoeven and Frederic Kaplan, 30 Supplement 1: i187-i198 https://academic.oup.com/dsh/article/30/suppl_1/i187/364720/
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

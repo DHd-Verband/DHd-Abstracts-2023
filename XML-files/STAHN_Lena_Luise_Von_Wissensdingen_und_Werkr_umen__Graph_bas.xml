@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="STAHN_Lena_Luise_Von_Wissensdingen_und_Werkr_umen__Graph_bas" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Von Wissensdingen und Werkräumen. Graph-basierte Modellierung von Denk- und Arbeitsspuren in Nachlässen</title>
+                <author>
+                    <persName>
+                        <surname>Stahn</surname>
+                        <forename>Lena-Luise</forename>
+                    </persName>
+                    <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                    <email>lstahn@uni-wuppertal.de</email>
+                    <idno type="ORCID">0000-0003-1298-5145</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-12T17:58:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wissensmodellierung</term>
+                    <term>Nachlasserschließung</term>
+                    <term>Ontology Engineering</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="geh38krskpd"/>Fragestellung und theoretischer Rahmen
+                </head>
+                <p>Die aus der Medientheorie stammende Vorstellung von den überlieferten Dokumenten, den Artefakten als "Wissensdingen",<ref n="1" target="ftn1"/> "denen zeitgenössisch zugeschrieben wurde, ein inhärentes Wissen über ihre eigene Natur zu enthalten sowie dieses erschließbar und vermittelbar machen zu können" (Müller 2020, 17), und des durch ihre Kontextualisierung sichtbar gemachten "Wissensraums" (Rheinberger 1992) soll auf Nachlässe und ihre Aufarbeitung in Form von Digitalen Editionen übertragen werden:<ref n="2" target="ftn2"/> Das "artefaktische" (Sahle 2017, 239) Dokument bildet das "Wissensding", es ist Träger des Wissens, des Textes im Nachlass. Es wurde von der Autorin erschaffen oder von ihr in ihre Arbeit einbezogen. Mit jedem Objekt verband sie ein Gedanke, eine Idee. Es repräsentiert ein "Stück" ihres Denkens und Arbeitens. Der Nachlass bildet 
+                    <hi rend="italic">als Kontext des Denk- und Arbeitsprozesses</hi> den "Wissensraum", der das (Text)Werk als Ganzes verkörpert. 
+                </p>
+                <p>Um das "Autorinnen-Werk" zu erfassen und die Dynamik des Schaffensprozesses<ref n="3" target="ftn3"/> aufdecken zu können, entwickelt die Dissertation eine Ontologie, die die Nachlassbestandteile als typologisch, konzeptionell, inhaltlich und strukturell relationierte Elemente beschreibt (Zangerl &amp; Pollin 2020, 125; Spadini &amp; Tomasi 2021, 1f.). Auf Modellebene wird damit ermöglicht, die Arbeitspraktiken, die Prozesse des Denkens und Schreibens, den "Laborcharakter"<ref n="4" target="ftn4"/> des Werks nachvollziehbar zu machen. Dabei liegt die Frage zugrunde, inwieweit Ansätze und Methoden der Wissensmodellierung (Davis et al. 1993; Flanders &amp; Jannidis 2015) dazu geeignet sind, den Nachlass als kontextualisierten "Wissensraum" zu öffnen, in dem sich Arbeitspraxis und Werk der Autorin begreifen lassen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Positionierung in den DH: SDE zwischen Text und Daten</head>
+                <p>Obwohl sie mit ihrer stetigen Veränderbarkeit und Aktualität das Potential haben, als "
+                    <hi rend="italic">Protokoll</hi> des Forschungs
+                    <hi rend="italic">prozesses</hi>" (Sahle 2010, 27) (kursiv übernommen) zu gelten, bleibt der editorische Blick auch Digitaler Editionen (SDE) der statischen, dokument-basierten Sichtweise verhaften (Van Zundert 2016, 83-106). Zur Erschließung von Nachlässen existieren für jeden Dokumenttyp eigene meist der bibliothekarisch-archivarischen Domäne entstammende Regeln,<ref n="5" target="ftn5"/> was wenig Raum lässt für Ansätze der Intertextualität (Broich &amp; Schulte-Middelich 1985; Spadini &amp; Tomasi 2021), der Idee, alles sei ein einziger "Text, der sich selbst permanent zitiert" (Neuhaus 2014, 236). Ein übergreifendes, semantisch differenzierendes Modell, in das alle Dokumente eingebettet wären, und damit eine Möglichkeit, ein adäquates Bild der Arbeitspraktiken zu schaffen, die zu ihrer Entstehung innerhalb des Werkkontexts geführt haben, fehlt.
+                </p>
+                <p>Die "Transmedialisierung" verlangt nach Sahle 2017 von der SDE, ihren Schwerpunkt von der medialen Präsentation des Materials auf das "als Daten gefasste akkumulierte Wissen und das ihnen zugrundeliegende Modell als Explikation der editorischen Methode"<ref n="6" target="ftn6"/> zu verlagern. Diese Datafizierung (Hyvönen 2020) versucht, eine Antwort auf die relevanter werdende Frage nach der Langzeitverfügbarkeit und Nachhaltigkeit (Fritze 2019) von SDE zu geben: Angesichts der "Begrenzungen von TEI" (Sahle 2017, 247) und der Entwicklung immer neuer, lokaler, eigener Lösungen steigt die Dringlichkeit, die Daten über den Projektzeitraum hinaus "lebendig" und für menschliche und maschinelle Anwendungen nutzbar und interoperabel zu halten und damit einem Informationsverlust entgegenzuwirken (Daquino &amp; Tomasi 2015, 1f.). 
+                </p>
+                <p>Dennoch verbleiben in der praktischen Umsetzung die projektspezifisch angepassten Modelle und (TEI/XML-)Daten häufig innerhalb der (geschlossenen) Projektdatenbank, eine übergreifend interpretierbare, graph-basierte Semantik fehlt, das Konzept des Knowledge Graphs (Rehbein 2017, 165) findet kaum Verwendung (Spadini &amp; Tomasi 2021, 1). Diese Problematik zeigt sich paradigmatisch für den Bereich der Nachlasserschließung:<ref n="7" target="ftn7"/> Derzeit befinden sich mehrere Ansätze in der Entwicklung,<ref n="8" target="ftn8"/> es fehlt jedoch an Anwendungsbeispielen,<ref n="9" target="ftn9"/> während das Nebeneinander vieler neu entwickelter Modelle einen zusätzlichen Aufwand der Konsolidierung erfordert. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="kpqzehenwcai"/>Praktischer Ansatz
+                </head>
+                <p>Ziel des Projekts ist es, durch die Entwicklung einer domänenspezifischen Ontologie den Nachlass Niklas Luhmanns (1927-1998)<ref n="10" target="ftn10"/> in einem graph-basierten Datenmodell abzubilden (Allemang &amp; Hendler 2011). Dazu werden existierende Modellierungsansätze aus den Bereichen Museum, Archiv und Bibliothek evaluiert, um die in den Nachlassdokumenten ermittelten Entitäten und Relationen adäquat zu beschreiben. Das im Projekt bereits genutzten FRBRer-Modell (Madison et al. 2009) wird auf seine Passfähigkeit überprüft und ergänzt bzw. durch Alternativen ersetzt. Im Fokus steht FRBRoo/LRM als eine an CIDOC-CRM<ref n="11" target="ftn11"/> angepasste FRBR-Version,<ref n="12" target="ftn12"/> daneben werden gängige Metadatenschemata wie DCTerms, SKOS, PRISM oder die SPAR Ontologies (Lüschow 2020, 82; Tomasi 2012) sowie spezifisch für bestimmte Fragestellungen entwickelte Ontologien,<ref n="13" target="ftn13"/> insbesondere außerhalb des Bibliothekskontextes,<ref n="14" target="ftn14"/> untersucht.
+                </p>
+                <p>Das Vorhaben befindet sich noch in der Startphase. Ein erstes Mapping zu FRBRoo/LRM zeigt sich als prinzipiell machbar, die andauernde Entwicklung des Werkmodells im Projekt erfordert jedoch eine kontinuierliche Überprüfung des gewählten Ansatzes.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="uuo7aopcxvgt"/>Kontextualisierung
+                </head>
+                <p>
+                    <hi style="font-size:11pt">Der Erkenntnisgewinn des Vorhabens liegt im Bereich der Datenmodelle und Ontologien für die Nachlasserschließung: Die Arbeit am Nachlass Luhmanns steht stellvertretend für wissens- und werktheoretisch basierte Untersuchungen, insbesondere bedingt durch den Zettelkasten als "Werk" und Arbeitsinstrument, dessen Spuren sich durch die weiteren Arbeiten Luhmanns ziehen und den Prozess der Wissensanreicherung nachvollziehbar machen. Der Nachlass in seinem Gesamtkontext ist damit gut geeignet, die trotz bekannter Einschränkungen (s.o.) weithin genutzten Modellierungsansätze aus den bibliothekarisch-archivarischen bzw. editionswissenschaftlichen Bereichen auf die Fragestellung nach Werkcharakter und Arbeitsprozess hin zu überprüfen. Gleichzeitig ist im Verlauf der Modellierung zu erwarten, das Verständnis von Werk und Arbeitsprozess vertiefen und Erkenntnisse auch auf wissenstheoretischer Basis gewinnen zu können.</hi><ref n="15" target="ftn15"/>
+                </p>
+                <p>Mit dem resultierenden, konzeptionell und technisch implementierten Knowledge Graph lässt sich das Verhältnis der Dimensionen von "Werk" auf Basis des Nachlasses abbilden. Dieser proof of concept zeigt eine Möglichkeit, der SDE eine Ebene in Form formal explizierter Information<ref n="16" target="ftn16"/> (Vogeler 2021, 79) zu geben, die mithilfe informationswissenschaftlicher Methoden Fragen editionswissenschaftlichen, werk-konstitutiven Charakters neu zu betrachten hilft, perspektivisch mit Auswirkungen auch auf die editorische Praxis.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Eine erste Auslegung des Begriffs, wie er in dieser Arbeit verwendet werden soll, lehnt sich an Rheinbergers Definition des "epistemischen Dings" an (Rheinberger 1992). Wie in (Thaut 2012, 7) erläutert, verwendet er den Begriff synonym zu "Erkenntnisding" und dem in dieser Arbeit hauptsächlich genutzten "Wissensding". Müller bietet eine gute Übersicht zur Entwicklung des Begriffs (Müller 2020, 17).
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Zur Begründung, weshalb diese Übertragung gerechtfertigt ist, vgl. Sahles Äußerung zum Geltungsbereich Digitaler Editionen: "Grundsätzlich ist aber alles edierbar, was einer kritischen Aufbereitung bedarf. Theoretisch also z. B. auch Bildwerke für die kunsthistorische Forschung oder ganz allgemein museale physische Objekte der Kulturgeschichte." (Sahle 2017, 239).
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                         "Während diese genetischen Zusammenhänge in den Künstlerhäusern von Moreau und Rodin unmittelbar ins Auge springen, ist es noch heute Gegenstand der Diskussion, wie diese Dynamik im Fall der Textgenese in eine Edition zu transportieren ist – Thomas Mann hat dies anschaulich einen "Bohrungsprozeß" genannt." (Plachta 2016, 31). In diesem Zusammenhang wird im Folgenden auch von Arbeitspraktiken gesprochen, im Sinn der "Praktiken der Wissensvermittlung und -generierung", wie sie von Müller (Müller 2020, 18) definiert werden.
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                         Plachta 2016, 33.
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                         Während RNA und RNAB den Begriff des Werks allein als Sammelbezeichnung für bestimmte Dokumentarten und zur Abgrenzung von anderen Archiv-Bestandteilen verwenden, formuliert FRBR ihn zwar als theoretische Entität, allerdings nur bezogen auf in Bibliotheken vorkommende und damit veröffentlichte Schriften. Vgl. 
+                            <ref target="https://kalliope-verbund.info/de/standards/regelwerke.html">https://kalliope-verbund.info/de/standards/regelwerke.html</ref> (abgerufen am 27.05.22) und 
+                            <ref target="https://www.ifla.org/de/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/bibliographic-control/functional-requirements-the-frbr-family-of-models/functional-requirements-for-bibliographic-records-frbr/">
+                                <hi rend="underline color(1155CC)">https://www.ifla.org/de/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/bibliographic-control/functional-requirements-the-frbr-family-of-models/functional-requirements-for-bibliographic-records-frbr/</hi>
+                            </ref> (abgerufen am 27.05.22). Auch neuere Ansätze entstammen entweder ebenfalls dem bibliothekarisch-archivarischen Bereich, etwa Records in Context (vgl. 
+                            <ref target="https://www.ica.org/en/records-in-contexts-conceptual-model">
+                                <hi rend="underline color(1155CC)">https://www.ica.org/en/records-in-contexts-conceptual-model</hi>
+                            </ref>, abgerufen am 12.12.22), Library Reference Model (Llanes-Padrón &amp; Pastor-Sánchez 2017, Riva et al. 2018) oder RDA (Tillet 2011), und weisen einen entsprechenden Fokus auf oder sind auf eine Domäne zugeschnitten, in der der Werk-Begriff keine Rolle spielt (hier sei insbesondere auf die inzwischen zahlreich existierenden Erweiterungen des CIDOC-CRM hingewiesen, vgl. z.B. 
+                            <ref target="https://ontome.net/project">
+                                <hi rend="underline color(1155CC)">https://ontome.net/project</hi>
+                            </ref>, abgerufen am 12.12.22).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                         "Man kann deshalb sagen, dass der eigentliche Wandel in der Editorik nicht so sehr in einem Wechsel der Medien liegt, als in ihrer Transmedialisierung: Bei Editionen geht es nicht nur um ihre mediale Erscheinung, sondern vor allem um das als Daten gefasste akkumulierte Wissen und das ihnen zugrundeliegende Modell als Explikation der editorischen Methode." (Sahle 2017, 241).
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                         "Klassische archivarische und bibliothekarische Erschließungsmaßnahmen bilden die beste Grundlage für das Auffinden und Erforschen von Nachlassdokumenten. Sie haben aber ihre Grenzen, wenn es darum geht, die komplexen Verbindungen von Einzeldokumenten und Nachlassteilen untereinander und nach außen aufzuzeigen und das (Kontext-)Wissen der Bearbeiter*innen zu den Originalen zu formalisieren." (Zangerl &amp; Pollin 2020, 125).
+                    </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                         Insbesondere die "Records in Context"-Ontologie ist für das Vorhaben von Bedeutung, vgl. Llanes-Padrón Dunia &amp; Pastor-Sánchez 2017, 387–405.
+                    </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                         Die einzige, der Autorin derzeit bekannte, Untersuchung in diesem Zusammenhang widmet sich der Entwicklung einer domänenspezifischen Nachlass-Ontologie im Rahmen des Projekts "Stefan Zweig digital" (Zangerl &amp; Pollin 2020). Diese Untersuchung kann dem Vorhaben aber nur bis zu dem Punkt als Orientierung dienen, ab dem eine explizite Modellierung der Domäne vorgenommen wird. Es muss differenziert werden zwischen der Domäne des Schriftsteller- und des wissenschaftlichen (Soziologen-)Nachlasses.
+                    </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                         Das Langzeitprojekt "Niklas Luhmann – Theorie als Passion. Wissenschaftliche Erschließung und Edition des Nachlasses" (Laufzeit 2015-2030, gefördert durch die Nordrhein-Westfälischen Akademie der Wissenschaften und der Künste) beschäftigt sich mit der Erschließung des wissenschaftlichen Nachlasses Luhmanns. Webpräsenz und Edition sind zu finden unter 
+                            <ref target="https://niklas-luhmann-archiv.de/">
+                                <hi rend="underline color(1155CC)">https://niklas-luhmann-archiv.de/</hi>
+                            </ref> .
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                         Die aktuelle Version ist zu finden unter 
+                            <ref target="https://cidoc-crm.org/">
+                                <hi rend="underline color(1155CC)">https://cidoc-crm.org/</hi>
+                            </ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn12" n="12">
+                         "The idea that both the library and museum communities might benefit from harmonising the two models" 
+                            <ref target="https://cidoc-crm.org/frbroo/short-intro-frbroo">
+                                <hi rend="underline color(1155CC)">https://cidoc-crm.org/frbroo/short-intro-frbroo</hi>
+                            </ref> ; 
+                            <ref target="https://www.cidoc-crm.org/frbroo/Issue/ID-360-lrmoo">
+                                <hi rend="underline color(1155CC)">https://www.cidoc-crm.org/frbroo/Issue/ID-360-lrmoo</hi>
+                            </ref> .
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn13" n="13">
+                         Bspw. Citation Typing Ontology (CiTO), Intertextual Relationships Ontology for literary studies (INTRO) oder CRMtex (Spadini &amp; Tomais 2021, 1f.). Frühe Beispiele für Editionen mit einem semantischen Ansatz sind die "Semantic Scholarly Digital Edition" des Projekts "Paolo Bufalini’s Notebook" (
+                            <ref target="http://projects.dharc.unibo.it/bufalini-notebook/">
+                                <hi rend="underline color(1155CC)">http://projects.dharc.unibo.it/bufalini-notebook/</hi>
+                            </ref>), die Edition der Korrespondenz Jakob Burckhardts" (
+                            <ref target="https://burckhardtsource.org/">
+                                <hi rend="underline color(1155CC)">https://burckhardtsource.org/</hi>
+                            </ref>) und Old Bailey Online" (
+                            <ref target="https://www.oldbaileyonline.org/">
+                                <hi rend="underline color(1155CC)">https://www.oldbaileyonline.org/</hi>
+                            </ref>).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn14" n="14">
+                         Coyle 2022.
+                    </note>
+<note rend="footnote text" xml:id="ftn15" n="15">
+                         Angelehnt an den u. a. von Eide beschriebenen "purpose of learning new things through the modeling activity”, vgl. Eide 2014, 5.
+                    </note>
+<note rend="footnote text" xml:id="ftn16" n="16">
+                         Erwähnt sei hier auch die Sahle’sche Auslegung von "Text als Inhalt", vgl. Sahle 2013 III, 45ff.
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Allemang, Dean, und James Hendler. </hi>2011. 
+                        <hi rend="italic">Semantic web for the working ontologist: effective modeling in RDFS and OWL</hi>. Elsevier.
+                    </bibl>
+                    <bibl><hi rend="bold">Broich, Ulrich, und Bernd Schulte-Middelich. </hi>1985. "Intertextualität: Formen Funktionen anglistische Fallstudien." 
+                        <hi rend="italic">Konzepte der Sprach- und Literaturwissenschaft</hi> 35.  Tübingen: Niemeyer.
+                    </bibl>
+                    <bibl><hi rend="bold">Coyle, Karen. </hi>2022. "Works, Expressions, Manifestations, Items: An Ontology". 
+                        <hi rend="italic">Code4Lib Journal</hi> 53.
+                    </bibl>
+                    <bibl><hi rend="bold">Daquino, Marilena, und Francesca Tomasi. </hi>2015. "Historical Context Ontology (HiCO): a conceptual model for describing context information of cultural heritage objects". In 
+                        <hi rend="italic">Research Conference on Metadata and Semantics Research</hi>, 424–436. Cham: Springer.
+                    </bibl>
+                    <bibl><hi rend="bold">Davis, Randall, Shrobe, Howard, und Szolovits, Peter. </hi>1993. "What is a knowledge representation?", 
+                        <hi rend="italic">AI magazine</hi> 14 (1): 17-17.
+                    </bibl>
+                    <bibl><hi rend="bold">Eide, Øyvind. </hi>2018. "Ontologies, Data Modeling, and TEI". 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 8 (2013). https://doi.org/10.4000/jtei.1191.
+                    </bibl>
+                    <bibl><hi rend="bold">Flanders, Julia, und Fotis Jannidis.</hi> 2015. "Knowledge organization and data modeling in the humanities". Konferenzbeitrag. urn:nbn:de:bvb:20-opus-111270.</bibl>
+                    <bibl><hi rend="bold">Fritze, Christiane.</hi> 2019. "Wohin mit der digitalen Edition? Ein Beitrag aus der Perspektive der Österreichischen Nationalbibliothek." 
+                        <hi rend="italic">Bibliothek Forschung und Praxis</hi> 43 (3): 432–40.
+                    </bibl>
+                    <bibl><hi rend="bold">Madison, Olivia, John Byrum, Jr., Suzanne Jouguelet, Dorothy McGarry, Nancy Williamson, und Maria Witt.</hi> 2009. "Functional requirements for bibliographic records final report." September 1997, as amended and corrected through February 2009. International Federation of Library Associations and Institutions.</bibl>
+                    <bibl><hi rend="bold">Hyvönen, Eero. </hi>2020. "Using the Semantic Web in Digital Humanities: Shift from data publishing to data-analysis and serendipitous knowledge discovery". 
+                        <hi rend="italic">Semantic Web</hi> 11 (1): 187–93.
+                    </bibl>
+                    <bibl><hi rend="bold">Llanes-Padrón, Dunia, und Juan-Antonio Pastor-Sánchez.</hi> 2017. "Records in Contexts: The Road of Archives to Semantic Interoperability". 
+                        <hi rend="italic">Program</hi> 51 (4): 387–405. 10.1108/PROG-03-2017-0021.
+                    </bibl>
+                    <bibl><hi rend="bold">Lüschow, Andreas. </hi>2020. "Automatische Extraktion und semantische Modellierung der Einträge einer Bibliographie französischsprachiger Romane". In 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>, 80-84.
+                    </bibl>
+                    <bibl><hi rend="bold">Müller, Miriam. </hi>2020. "Der sammelnde Professor: Wissensdinge an Universitäten des Alten Reichs im 18. Jahrhundert." 
+                        <hi rend="italic">Wissenschaftskulturen. Reihe I, Wissensgeschichte, Bd. 1</hi>. Stuttgart: Franz Steiner Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Neuhaus, Stefan.</hi> 2014. 
+                        <hi rend="italic">Grundriss der Literaturwissenschaft</hi>. 4., überarb. und erw. Aufl.. Tübingen: Francke.
+                    </bibl>
+                    <bibl><hi rend="bold">Plachta, Bodo.</hi> 2016. "Arbeitsweisen und Editionsstrategien. Eine Annäherung aus historischer Perspektive". In 
+                        <hi rend="italic">Textgenese und digitales Edieren. Wolfgang Koeppens "Jugend" im Kontext der Editionsphilologie</hi>, hg. von Katharina Krüger, 19–37. Berlin [ua]: De Gruyter.
+                    </bibl>
+                    <bibl><hi rend="bold">Rehbein, Malte. </hi>2017. "Ontologien". In 
+                        <hi rend="italic">Digital Humanities</hi>, hg. von Fotis Jannidis, Hubertus Kohle und Malte Rehbein, 162-176. Stuttgart: J.B. Metzler.
+                    </bibl>
+                    <bibl><hi rend="bold">Rheinberger, Hans-Jörg.</hi> 1992. "Das ‘Epistemische Ding’ und seine technischen Bedingungen". In 
+                        <hi rend="italic">Experiment-Differenz-Schrift</hi>, hg. von Hans-Jörg Rheinberger und Wim J. Van der Steen, 67–86. Marburg: Basilisken-Presse.
+                    </bibl>
+                    <bibl><hi rend="bold">Riva, Pat, Patrick Le Boeuf, und Maja Žumer.</hi> 2018. "IFLA library reference model: A conceptual model for bibliographic information".</bibl>
+                    <bibl><hi rend="bold">Sahle, Patrick.</hi> 2010. "Zwischen Mediengebundenheit und Transmedialisierung". 
+                        <hi rend="italic">Editio</hi> 24 (2010): 23–36. 10.1515/9783110223163.0.23.
+                    </bibl>
+                    <bibl><hi rend="bold">Sahle, Patrick.</hi> 2013. "Digitale Editionsformen: Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels". 
+                        <hi rend="italic">Schriften des Instituts für Dokumentologie und Editorik</hi> 7-9. Norderstedt: BoD Books on Demand.
+                    </bibl>
+                    <bibl><hi rend="bold">Sahle, Patrick.</hi> 2017. "Digitale Edition". In 
+                        <hi rend="italic">Digital Humanities</hi>, hg. von Fotis Jannidis, Hubertus Kohle und Malte Rehbein, 234-249. Stuttgart: J.B. Metzler.
+                    </bibl>
+                    <bibl><hi rend="bold">Spadini, Elena, und Franscesca Tomasi.</hi> 2021. "Introduction". In 
+                        <hi rend="italic">Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing</hi>, hg. von Elena Spadini, Francesca Tomasi und Georg Vogeler, 1-6. Norderstedt: BoD Books on Demand.
+                    </bibl>
+                    <bibl><hi rend="bold">Thaut, Lioba.</hi> 2010. 
+                        <hi rend="italic">Sammeln am Deutschen Hygiene-Museum Dresden 1990 bis 2010: Klassifikation, Kontingenz und Wissensproduktion</hi>. Oldenburg: Institut für Materielle Kultur.
+                    </bibl>
+                    <bibl><hi rend="bold">Tillett, Barbara B.,</hi> 2011. "Keeping libraries relevant in the Semantic Web with resource description and access (RDA)". 
+                        <hi rend="italic">Serials</hi> 24(3), 266–272:
+                        <ref target="http://doi.org/10.1629/24266" xml:space="preserve"> </ref>http://doi.org/10.1629/24266.
+                    </bibl>
+                    <bibl><hi rend="bold">Tomasi, Francesca. </hi>2012 "Digital editions between embedded markup and external representation. A case study: Vespasiano da Bisticci’s Letters". In 
+                        <hi rend="italic">Dall'Informatica umanistica alle culture digitali</hi>, hg. von Fabio Ciotti und Gianfranco Crupi, 201-219. Casa Editrice Università La Sapienza.
+                    </bibl>
+                    <bibl><hi rend="bold">Van Zundert, Joris. </hi>2016. "Barely Beyond the Book?" In 
+                        <hi rend="italic">Digital Scholarly Editing: Theories and Practices</hi>, hg. von Matthew James Driscoll und Elena Pierazzo, 83-106. Open Book Publishers.
+                    </bibl>
+                    <bibl><hi rend="bold">Vogeler, Georg.</hi> 2021. "Standing-off Trees and Graphs: On the Affordance of Technologies for the Assertive Edition". In 
+                        <hi rend="italic">Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing</hi>, hg. von Elena Spadini, Francesca Tomasi und Georg Vogeler, 73-94. Norderstedt: BoD Books on Demand.
+                    </bibl>
+                    <bibl><hi rend="bold">Zangerl, Lina Maria, und Christopher Pollin.</hi> 2020. "Der Nachlass als Netzwerk: Zur Entwicklung einer Nachlass-Ontologie am Beispiel des Projekts ‘Stefan Zweig digital’" In 
+                        <hi rend="italic">digital humanities austria 2018: empowering researchers</hi>, hg. von Katharina Zeppezauer-Wachauer et al., 123-127. Austrian Academy of Sciences Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

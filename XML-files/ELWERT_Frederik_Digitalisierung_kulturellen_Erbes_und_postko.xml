@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="ELWERT_Frederik_Digitalisierung_kulturellen_Erbes_und_postko" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Digitalisierung kulturellen Erbes und postkoloniale Perspektiven</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Elwert</surname>
+                        <forename>Frederik</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                    <email>frederik.elwert@rub.de</email>
+                    <idno type="ORCID">0000-0001-9149-9377</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Berger</surname>
+                        <forename>Claudia</forename>
+                    </persName>
+                    <affiliation>Universität Erfurt</affiliation>
+                    <email>claudia.berger@uni-erfurt.de</email>
+                    <idno type="ORCID">0000-0001-5203-0971</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>High-Steskal</surname>
+                        <forename>Nicole</forename>
+                    </persName>
+                    <affiliation>Universität für Weiterbildung Krems</affiliation>
+                    <email>nicole.high-steskal@donau-uni.ac.at</email>
+                    <idno type="ORCID">0000-0002-9823-5507</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neudecker</surname>
+                        <forename>Clemens</forename>
+                    </persName>
+                    <affiliation>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</affiliation>
+                    <email>clemens.neudecker@sbb.spk-berlin.de</email>
+                    <idno type="ORCID">0000-0001-5293-8322</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pons</surname>
+                        <forename>Jessie</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum</affiliation>
+                    <email>jessie.pons@rub.de</email>
+                    <idno type="ORCID">0000-0003-1211-2213</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Akhlaq</surname>
+                        <forename>Sara</forename>
+                    </persName>
+                    <affiliation>Linköpings universitet</affiliation>
+                    <email>sara.akhlaq@liu.se</email>
+                    <idno type="ORCID">0000-0002-7356-7492</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-02T12:35:51.289861604</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Kulturelles Erbe</term>
+                    <term>Digitalisierung</term>
+                    <term>Postkolonialismus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Panelthema</head>
+                <p>Der Nutzen der Digitalisierung von Objekten kulturellen Erbes scheint auf den ersten Blick selbstevident: Der Zugang zu Objekten wird unabhängig vom physischen Zugriff und somit die artefaktbezogene Forschung deutlich erleichtert. Artefakte, die bislang an verschiedenen Orten aufbewahrt werden, können digital zusammengeführt, kontextualisiert und miteinander in Beziehung gesetzt werden. Und nicht zuletzt kann die umfassende digitale Dokumentation auch angesichts der Bedrohung des kulturellen Erbes durch Raub, Krieg oder Umweltzerstörung zumindest ein digitales Gedächtnis sicherstellen.</p>
+                <p>Zugleich steht diese vermeintliche Selbstevidenz zuweilen einer kritischen Auseinandersetzung mit den epistemologischen Grundlagen und politischen Konsequenzen im Wege. Oder, wie es Monika Stobiecka zusammenfasst: “Digital archaeology has been used largely to avoid the politics and ethics of dealing with difficult questions concerning the field of heritage studies” (Stobiecka 2020; siehe auch Thompson 2017). Dabei bietet die Praxis der Digitalisierung von Kulturerbe genügend Anknüpfungspunkte für eine kritische (Selbst-)Reflexion, insbesondere dann, wenn sie in postkolonialen Kontexten stattfindet. In diesem Panel geht es uns daher darum, einen Diskussionsraum zu eröffnen, in dem Anfragen an die Praxis der Digitalisierung und die eigene Rolle gestellt werden können.</p>
+                <p>Eine solche Auseinandersetzung muss letztlich schon beim Konzept des kulturellen Erbes ansetzen. Wie Stuart Hall in seinem Essay “Whose Heritage?” schreibt, hat der scheinbar unverdächtige Begriff eine unsichtbare, eingeschriebene Agenda, indem darin ein bestimmtes Bild der Vergangenheit und die Konstruktion einer oft national gefassten Identität in der Gegenwart eingeschrieben ist. Um diese unsichtbare Funktion kulturellen Erbes sichtbar zu machen, sei zu fragen: Wofür Kulturerbe, und für wen (Hall 2004)? Dies ist vor allem dann von besonderer Bedeutung, wenn das Kulturerbe im Kontext postkolonialer Machtgeflechte thematisiert wird. So wird etwa die Digitalisierung des kulturellen Erbes in Krisenregionen des Mittleren Ostens in erster Linie von westlichen Akteuren vorangetrieben, was Fragen nach einem neuen „digitalen Kolonialismus“ aufwirft (Thompson 2017, 155). Diese Fragen können und müssen dabei auf ganz verschiedenen Ebenen verhandelt werden. Grundlegend kann etwa gefragt werden, inwieweit Digitalisierungsprojekte hier in der Tradition der Archäologie des 18. und 19. Jahrhunderts stehen, in der westliche Akteure als wahre Kenner und Bewahrer vergangener Kulturen auftraten und vergleichbare Narrative der Errettung des Kulturerbes eine Rolle spielten (Thompson 2017, 162). In der konkreten Praxis kann gefragt werden, welche Kriterien für die Auswahl für Digitalisierungsprojekte eine Rolle spielen oder ob Open-Access-Mandate mit indigenen Vorstellungen von Zugang und Sichtbarkeit bestimmter Objekte in Einklang zu bringen sind (Manžuch 2017, 4–5). Auch rechtliche Fragen spielen hier eine Rolle, wenn etwa die physischen Objekte selbst aufgrund ihres Alters als gemeinfrei klassifiziert werden, auf die Digitalisate aber neue Schutzrechte reklamiert werden (Thompson 2017, 172).</p>
+                <p>Als Reaktion auf einige dieser Herausforderungen und als Gegengewicht zu den stark technisch formulierten FAIR-Prinzipien (Findability, Accessibility, Interoperability, and Reusability; Wilkinson u. a. 2016) wurden die CARE-Prinzipien (Collective Benefit, Authority to Control, Responsibility, Ethics) für “Indigenous Data Governance” formuliert (Carroll u. a. 2021). Diese Prinzipien lenken den Blick auf die Rechte und den Nutzen der Herkunftsgemeinschaften. In der Diskussion sind sie zunehmend als Korrektiv zu einem rein technischen Blick auf Daten eingeführt worden. Sie beziehen sich allerdings explizit auf die konkreten Bedarfe indigener Gemeinschaften und können daher nicht unterschiedslos auf andere postkoloniale Konstellationen übertragen werden.</p>
+                <p>Während die FAIR- und CARE-Prinzipien zumeist in Forschungsprojekten zum Tragen kommen, ist ihre Umsetzung in der Digitalisierung von großen Sammlungsbeständen, wie etwa in Museen, Archiven oder Bibliotheken, oft von vielen Ungewissheiten geprägt und stellt Institutionen vor enorme Herausforderungen. Die Rückgabe von Benin-Bronzen hat etwa die Frage des Umgangs mit den Objektdaten sowie der intellektuellen Autorität, die durch die Daten ausgeübt wird, aufgeworfen (Geismar 2018, 111-2; Pavis und Wallace 2019; Wallace und Euler 2020). Die intellektuelle Autorität zeigt sich beispielsweise in den Objektbeschreibungen und den eingesetzten Vokabularen, die in kleinteiliger Arbeit von Kurator*innen erstellt wurden, um Objekte beschreiben und finden zu können. Einerseits ist es notwendig koloniale Begriffe in Sammlungsdatenbanken zu entfernen, damit koloniale Weltbilder durch die rasche Verbreitung von offenen Daten nicht weiter reproduziert werden. Andererseits sollten diese Begrifflichkeiten nicht vollständig eliminiert werden, da sie über die historische Entwicklung von Institutionen Auskunft geben können. Noch weitgehender lässt sich fragen, wie Metadatenschemata gestaltet werden müssten, um nicht nur einen westlichen Blick auf die Artefakte zum Ausdruck bringen. Das digitale Medium eröffnet neue Wege, um die intellektuelle Autorität neu zu verteilen, nämlich die Aufnahme von unterrepräsentierten Stimmen in Sammlungsdatenbanken und Objektbeschreibungen (Risam 2019, 9), doch stellt sich hier die Frage wer an der Wissensproduktion beteiligt sein darf, kann oder soll und in wie weit Infrastrukturen anderes Wissen und Wissensstrukturen zulassen (Scholz et al. 2021, 299-315). .</p>
+                <p>Dieses Panel will diese und ähnliche theoretische Fragen in Beziehung setzen zu unserer eigenen Praxis in den Digital Humanities und in Digitalisierungsprojekten. Dabei geht es uns darum, einen Schritt zurückzumachen und mit einer gewissen Distanz noch einmal auf unser eigenes Tun und seine epistemologischen Grundlagen zu blicken. Das Ziel ist nicht, moralisch eindeutige Urteile zu fällen, sondern einen Raum zu eröffnen, in dem kritische Fragen gestellt, aber auch eigene Ansätze zum Umgang mit ihnen vorgestellt werden können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__qoyixsjwqvse"/>Beiträge
+                </head>
+                <p>
+                    <hi rend="background-color(#ffffff)">Claudia Berger: Im Projekt „Kartographien Afrikas und Asiens“ (KarAfAs) digitalisieren wir einen ganz besonderen Bestand, der von Kolonialismus in verschiedenen Vermittlungsgraden durchdrungen ist. Unser Digitalisierungsvorhaben speist sich daher zu nicht unerheblichem Anteil aus dem Anliegen, dieses Material, das teils autoritativ koloniale Weltbilder zu manifestieren geholfen hat, teils durch indigene Mitproduzent*innen entstanden ist, global verfügbar zu machen und damit zugänglich für eben jene, die in jenen Gegenden leben und forschen, die von diesem kartographischen Material beschrieben wurden und betroffen waren. Die Frage ist allerdings, ob ein Digitalisierungsvorhaben diesem Anspruch gerecht werden kann. Hierein spielen Fragen der Digitalisierungskultur und des </hi>
+                    <hi rend="background-color(#ffffff)italic">digital divide</hi>
+                    <hi rend="background-color(#ffffff)">, aber auch der Aufbereitung der Sammlung zur Zugänglichmachung und Kommunikationsstrategien.</hi>
+                </p>
+                <p>Nicole High-Steskal: Das Linking Viennese Art through Artificial Intelligence - Projekt beschäftigt sich mit dem Einsatz von Künstlicher Intelligenz, um die offenen Bestände von drei Museen in Wien zusammenzuführen. Die Digitalisierungsgrundlage der Museen ist sehr gut und ein Großteil der Objekte wurden zwischen 2002 und 2010 digital erfasst als koloniale Bezüge in Objektbeschreibungen und Vokabularen noch nicht thematisiert wurden, gleichzeitig lag der Fokus der Provenienzforschung vielfach auf Objekte, die zwischen 1938 und 1945 in die Sammlungen gelangt sind und nicht auf koloniale Bezüge. Im Rahmen des LiviaAI-Projektes stellt sich daher die Frage, wie wir sicherstellen können, dass unser Zugang rassistische oder koloniale Sichtweisen nicht reproduziert oder verstärkt, insbesondere bei großen Datensätzen, wo es nicht möglich ist alle Datensätze durchzuschauen. Um mögliche Biases in den Datensätzen besser einschätzen zu können, wurde im Projekt ein spezieller Fokus auf die Aufarbeitung der Digitalisierungsgeschichte und Kontextualisierung der einzelnen Datensätze gelegt. Der Beitrag stellt das LiviaAI-Projekt vor und greift ausgehend davon theoretische Fragestellungen auf.</p>
+                <p>Clemens Neudecker: Die Staatsbibliothek zu Berlin - Preußischer Kulturbesitz verfügt durch den Vollständigkeitsanspruch der „Sammlung Deutscher Drucke“ der SBB über besonders dichte Bestände aus den Jahren 1871 bis 1912. Im Zuge eines geplanten Digitalisierungsvorhabens “Digitalisierung von Quellen zur deutschen Kolonialzeit 1876-1919” beabsichtigt die SBB die reichen Quellen aus der deutschen Kolonialzeit zu digitalisieren um so insb. Forschung und Projekte zu Fragen der De-Kolonisation, aber auch der Herausbildung des Kolonialgedankens und der Gründung der deutschen Kolonien, zu unterstützen. Die einschlägigen Titel sind mittlerweile ganz überwiegend urheberrechtsfrei und können via Open Access digital bereitgestellt werden. Parallel wird in einem Forschungsprojekt der SBB zu Künstlicher Intelligenz (KI) für das digitale Kulturelle Erbe untersucht, wie digitalisierte Kulturdaten als Datensets (“collections as data”) besser Eingang in die Entwicklung von Verfahren und Modellen aus dem Bereich der KI finden können, wobei insbesondere Fragen zur Provenienz und Kontextualisierung der Daten eine Rolle spielen, da im Bereich der KI verbreitete Daten und Modelle oft bereits über ethisch und sozial problematischen Bias verfügen (vgl. z.B. Bender et al. “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, 2021, und Inke Arns: “Can Artificial Intelligence be biased? On the critique of AI's 'algorithmic bias' in the arts”, 2022). Besonderer Fokus wird daher auf die Dokumentation und Kontextualisierung von digitalen Kulturdaten aus der Kolonialzeit als Datensets gerichtet, so dass die im Zuge des Digitalisierungsvorhabens entstehenden Daten als Use cases dienen können, um gemeinsam mit der Community Empfehlungen und Richtlinien zu erarbeiten, wie digitalisierte Kulturdaten aus kolonialen Kontexten angemessen dokumentiert, kontextualisiert und als Datensets für die Forschung zugänglich gemacht werden können.</p>
+                <p>Jessie Pons: Das Projekt „Digitalisierung Gandharischer Artefakte“ (DiGA) digitalisiert buddhistische Skulpturen, die in zwei Sammlungen pakistanischer Museen in der Provinz Khyber-Pakhtunkhwa aufbewahrt werden. Die Digitalisate und beschreibende Metadaten werden frei zugänglich gemacht. Dennoch stellen wir uns im Projekt die Frage, inwieweit unser Vorhaben Teil eines neuen digitalen Kolonialismus ist, wenn Infrastrukturen, Metadatenstandards und Einkommen innerhalb des westlichen Wissenschaftssystems verbleiben. Wir sind daher im engen Austausch mit lokalen Stakeholdern, insbesondere dem Direktorat für Archäologie und Museen (KP), um die Interessen und Bedürfnisse der pakistanischen Partner in der Planung und Umsetzung zu berücksichtigen. Im Rahmen des Panels möchte ich einige unserer Ansätze vorstellen, aber auch offene Fragen und Herausforderungen diskutieren.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__biuz1i7sk248"/>Zeitplan
+                </head>
+                <p>Einführung ins Thema: 6 Minuten</p>
+                <p>Vier Kurz-Inputs à 6 Minuten: 24 Minuten</p>
+                <p>Diskussion im Panel: 30 Minuten</p>
+                <p>Diskussion mit dem Publikum: 30 Minuten</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Arns, Inke.</hi> 2022. “Can Artificial Intelligence be biased? On the critique of AI's 'algorithmic bias' in the arts”. Working paper. 
+                        <ptr target="https://zenodo.org/record/6797469"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, und Margaret Mitchell.</hi> 2021. “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”. In: 
+                        <hi rend="italic">Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</hi>, 610-623. 
+                        <ptr target="https://doi.org/10.1145/3442188.3445922"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Carroll, Stephanie Russo, Edit Herczog, Maui Hudson, Keith Russell, und Shelley Stall.</hi> 2021. „Operationalizing the CARE and FAIR Principles for Indigenous Data Futures“. 
+                        <hi rend="italic">Scientific Data</hi> 8 (1): 108. 
+                        <ptr target="https://doi.org/10.1038/s41597-021-00892-0"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Geismar, Haidy.</hi> 2018. Museum Object Lessons for the Digital Age. London: UCL Press. 
+                        <ptr target="https://doi.org/10.14324/111.9781787352810"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Hall, Stuart.</hi> 2004. „Whose heritage? Un-settling ‘the heritage’, re-imagining the post-nation“. In 
+                        <hi rend="italic">The Politics of Heritage</hi>, 37–47. Routledge.
+                    </bibl>
+                    <bibl><hi rend="bold">Manžuch, Zinaida.</hi> 2017. „Ethical Issues In Digitization Of Cultural Heritage“. 
+                        <hi rend="italic">Journal of Contemporary Archival Studies</hi>, Governance of Digital Memories in the Era of Big Data, 4 (4): 1–17.
+                    </bibl>
+                    <bibl><hi rend="bold">Pavis, Mathilde, und Andrea Wallace.</hi> 2019. „Response to the 2018 Sarr-Savoy Report: Statement on Intellectual Property Rights and Open Access Relevant to the Digitization and Restitution of African Cultural Heritage and Associated Materials“. SSRN Electronic Journal. 
+                        <ptr target="https://doi.org/10.2139/ssrn.3378200"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Risam, Roopika.</hi> 2019. New digital worlds: postcolonial digital humanities in theory, praxis, and pedagogy. Evanston, Illinois: Northwestern University Press.Stobiecka, Monika. 2020. „Archaeological Heritage in the Age of Digital Colonialism“. 
+                        <hi rend="italic">Archaeological Dialogues</hi> 27 (2): 113–25. 
+                        <ptr target="https://doi.org/10.1017/S1380203820000239"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Scholz, Andrea, Thiago da Costa Oliveira, und Marian Dörk,</hi> 2021. „Infrastructure as digital tools and knowledge practices: Connecting the Ethnologisches Museum Berlin with Amazonian Indigenous Communities“, in 
+                        <hi rend="italic">Digitalisierung ethnologischer Sammlungen: Perspektiven aus Theorie und Praxis</hi>, Hans Peter Hahn, Oliver Lueb, Katja Müller, und Karoline Noack, Bielefeld : transcript Verlag: 299–316 . 
+                        <ptr target="https://doi.org/10.14361/9783839457900-017"/>
+                    </bibl>
+                    <bibl><hi rend="bold">Thompson, Erin.</hi> 2017. „Legal and Ethical Considerations for Digital Recreations of Cultural Heritage“. 
+                        <hi rend="italic">Chapman Law Review</hi> 20 (1/6): 153–76.
+                    </bibl>
+                    <bibl><hi rend="bold">Wallace, Andrea, und Ellen Euler.</hi> 2020. „Revisiting Access to Cultural Heritage in the PublicDomain: EU and International Developments“. IIC - International Review of Intellectual Property and Competition Law. 
+                        <ptr target="https://doi.org/10.1007/s40319-020-00961-8"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, u. a.</hi> 2016. „The FAIR Guiding Principles for scientific data management and stewardship“. 
+                        <hi rend="italic">Scientific Data</hi> 3 (März): 160018. 
+                        <ptr target="https://doi.org/10.1038/sdata.2016.18"/>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

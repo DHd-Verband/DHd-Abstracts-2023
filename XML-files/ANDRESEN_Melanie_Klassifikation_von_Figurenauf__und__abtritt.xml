@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="ANDRESEN_Melanie_Klassifikation_von_Figurenauf__und__abtritt" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Klassifikation von Figurenauf- und -abtritten in XML-kodierten Dramen</title>
+                <author>
+                    <persName>
+                        <surname>Ehlers</surname>
+                        <forename>Lena</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                    <email>st161358@stud.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-8860-3740</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Andresen</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                    <email>melanie.andresen@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-3913-1273</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-02T08:39:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Drama</term>
+                    <term>Annotation</term>
+                    <term>Computational Literary Studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Strukturanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">In diesem Beitrag wird eine regelbasierte Methode vorgestellt, um Figurenauf- und -abtritte in den Regieanweisungen dramatischer Texte zu klassifizieren. In der Forschung wurde Regieanweisungen meist nur wenig Beachtung geschenkt, etwa weil sie während einer Theateraufführung nicht textuell in Erscheinung treten (Schößler, 2017, S.3). Als eine der wenigen quantitativen Untersuchungen stellen Trilcke et al. (2020) fest, dass sich die vermutete Episierung des Dramas im Laufe der Jahrhunderte am Korpus GerDraCor bestätigt. Eine Differenzierung nach Funktionen der Regieanweisungen erfolgt nicht. </p>
+            <p style="text-align: left; ">Dabei ist die (Ko-)Präsenz von Figuren auf der Bühne eine häufig genutzte Grundlage für quantitative Dramenanalysen, insbesondere in der Netzwerkanalyse (z.B. Marcus 1973, Krautter et al. 2018, Fischer et al. 2018). Trilcke et al. (2017) konnten bereits am Beispiel von Lessings Emilia Galotti zeigen, dass in statischen Netzwerken, die das ganze Drama auf einmal darstellen, wichtige Informationen zur Dynamik der Beziehungen zwischen den Figuren verloren gehen können. Unserer Ansicht nach ist außerdem zu berücksichtigen, dass Figuren auch innerhalb von Szenen auf- und abtreten und die Anwesenheit von zwei Figuren in einer Szene nicht zwangsläufig bedeutet, dass diese Figuren auch gleichzeitig auf der Bühne stehen.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpus und manuelle Annotation</head>
+                <p style="text-align: left; ">Das Deutsche Dramenkorpus GerDraCor enthält über 550 deutschsprachige, TEI-kodierte Dramentexte aus dem Zeitraum von 1650 bis 1947 (Fischer et al. 2019). Die Regieanweisungen sind als 
+                    <hi rend="italic">stage</hi>-Elemente kodiert, die bisher keine weiteren Attribute besitzen, die Auskunft über den Inhalt der Regieanweisungen, wie z.B. das Auf- oder Abtreten von Figuren, geben würden. 
+                </p>
+                <p style="text-align: left; ">Insgesamt wurden 16 Dramentexte manuell annotiert, wovon vier zur Implementierung<ref n="1" target="ftn1"/> und zwölf zur Evaluation genutzt wurden. Die Guidelines für die manuelle Annotation stehen unter 
+                    <ref target="https://doi.org/10.5281/zenodo.6951465">https://doi.org/10.5281/zenodo.6951465</ref> zur Verfügung. Die Annotation erfolgte direkt im XML-Format. Abbildung 1 zeigt, wie ein 
+                    <hi rend="italic">stage</hi>-Element mithilfe der Attribute 
+                    <hi rend="italic">type</hi> und 
+                    <hi rend="italic">who</hi> um die extrahierten Informationen erweitert wird.
+                </p>
+                <figure>
+                    <graphic n="1001" width="11.096625cm" height="6.212494444444444cm" url="Pictures/f0de109adad81b8cf4bcaa784a464530.png" rend="inline"/>
+                <head>Abbildung 1: Exemplarische Ergänzung eines 
+                    <hi rend="italic">stage</hi>-Elements </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Regelbasierte Annotation</head>
+                <p style="text-align: left; ">Das entwickelte Verfahren klassifiziert den unstrukturierten Text innerhalb der 
+                    <hi rend="italic">stage</hi>-Elemente mithilfe manuell erstellter Regeln. Diese basieren auf Schlüsselwörtern und -phrasen („treten herein“, „gehen ab“, …) und nutzen reguläre Ausdrücke. Zusätzlich wird die Position einbezogen, etwa bei Regieanweisungen am Anfang einer Szene, die oftmals ausschließlich die Namen der anwesenden Figuren enthalten.
+                </p>
+                <p style="text-align: left; ">Wurde im ersten Schritt ein Auf- oder Abtritt erkannt, folgt als zweiter Schritt die Zuordnung der betroffenen Figuren. Hierfür wird die im XML enthaltene Liste der Namen aller sprechenden Figuren genutzt, die auch die Abbildung auf die Figuren-IDs ermöglicht. Der Auf- oder Abtritt wird entweder einer in der Regieanweisung genannten Figur oder derjenigen Figur, deren Rede die Regieanweisung zugeordnet ist (vgl. Fall in Abb. 1), zugeschrieben.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Evaluation </head>
+                <p style="text-align: left; ">Die Evaluation erfolgt anhand von zwölf manuell annotierten Texten, die nicht zur Aufstellung der Regeln herangezogen wurden. Evaluiert werden 1) die Klassifikation der Regieanweisungen in Figurenauf- und -abtritte und 2) die Zuordnung der betroffenen Figuren. Im zweiten Schritt werden nur die Elemente in die Evaluation einbezogen, die im ersten Schritt korrekt klassifiziert wurden. Tabelle 1 zeigt, dass die durchschnittlichen Werte für Precision, Recall und F1-Score für die Auf-/Abtritterkennung bei 0,85 liegen. Auch die Figurenerkennung liefert gute Ergebnisse (F1 = 0,87). Zwischen den Texten zeigt sich allerdings eine erhebliche Variation in der Qualität. </p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Autor*in</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Titel</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Jahr</cell>
+                        <cell style="text-align: left;" cols="4" rend="DH-Default">Auf-/Abtritterkennung</cell>
+                        <cell style="text-align: left;" cols="5" rend="DH-Default">Figurenerkennung</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: right;" rend="DH-Default">P</cell>
+                        <cell style="text-align: right;" rend="DH-Default">R</cell>
+                        <cell style="text-align: right;" rend="DH-Default">
+                            <hi rend="bold" style="font-size:10.5pt">F</hi>
+                            <hi rend="bold subscript" style="font-size:10.5pt">1</hi>
+                        </cell>
+                        <cell style="text-align: right;" rend="DH-Default">n</cell>
+                        <cell style="text-align: right;" rend="DH-Default">P</cell>
+                        <cell style="text-align: right;" rend="DH-Default">R</cell>
+                        <cell style="text-align: right;" rend="DH-Default">
+                            <hi rend="bold" style="font-size:10.5pt">F</hi>
+                            <hi rend="bold subscript" style="font-size:10.5pt">1</hi>
+                        </cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">n</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Gottsched</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Das Testament</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1745</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,94</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,97</cell>
+                        <cell style="text-align: right;" rend="DH-Default">543</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,65</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,77</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">63</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Schlegel</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Canut</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1746</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">23</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">23</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Gellert</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Die zärtlichen Schwestern</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1747</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,98</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,97</cell>
+                        <cell style="text-align: right;" rend="DH-Default">129</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,99</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,99</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,99</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">63</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Pfeil</cell>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <hi style="font-size:10.5pt">Lucie Woodvil</hi>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">1756</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,97</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,96</cell>
+                        <cell style="text-align: right;" rend="DH-Default">141</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,9</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">78</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Lenz</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Der Hofmeister</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1774</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,86</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,83</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: right;" rend="DH-Default">315</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,89</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,8</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,84</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">70</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Schiller</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Die Räuber</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1781</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,8</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,79</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,79</cell>
+                        <cell style="text-align: right;" rend="DH-Default">544</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,86</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,74</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,79</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">75</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Goethe</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Die natürliche Tochter</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1803</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,93</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,97</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" rend="DH-Default">101</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,97</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,98</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,98</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">28</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Kleist</cell>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <hi style="font-size:10.5pt">Die Familie Schroffenstein</hi>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">1803</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,7</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,76</cell>
+                        <cell style="text-align: right;" rend="DH-Default">320</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,91</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,73</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,81</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">71</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Günderode</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Magie und Schicksal</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1805</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,93</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,95</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,94</cell>
+                        <cell style="text-align: right;" rend="DH-Default">84</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,98</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,88</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,93</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">37</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Günderode</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Udohla</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1805</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,94</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,62</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,74</cell>
+                        <cell style="text-align: right;" rend="DH-Default">41</cell>
+                        <cell style="text-align: right;" rend="DH-Default">1</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,96</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,98</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">16</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Weißenthurn</cell>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <hi style="font-size:10.5pt">Das Manuscript</hi>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">1817</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,7</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,89</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,79</cell>
+                        <cell style="text-align: right;" rend="DH-Default">675</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,72</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,78</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">64</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Hofmannsthal</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Der Rosenkavalier</cell>
+                        <cell style="text-align: left;" rend="DH-Default">1911</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,39</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,47</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,43</cell>
+                        <cell style="text-align: right;" rend="DH-Default">715</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,76</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,41</cell>
+                        <cell style="text-align: right;" rend="DH-Default">0,53</cell>
+                        <cell style="text-align: right;" cols="2" rend="DH-Default">38</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" cols="3" rend="DH-Default">Mittelwerte</cell>
+                        <cell style="text-align: left;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: left;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: left;" rend="DH-Default">0,85</cell>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: left;" rend="DH-Default">0,81</cell>
+                        <cell style="text-align: left;" rend="DH-Default">0,93</cell>
+                        <cell style="text-align: left;" cols="2" rend="DH-Default">0,87</cell>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                    </row>
+               
+                <head>Tabelle 1: Evaluationsergebnisse</head> </table>
+                <p style="text-align: left; ">Aufgrund des regelbasierten Verfahrens schneiden Texte, die stark von den zur Erstellung der Regeln verwendeten Texten abweichen, in der Evaluation schlechter ab. Besonders Texte mit langen Regieanweisungen sorgen dafür, dass viele Schlüsselwörter auch in anderen Kontexten vorkommen. Das zeigt sich insbesondere beim 
+                    <hi rend="italic">Rosenkavalier</hi>, dessen Regieanweisungen mit 12 Tokens im Mittel doppelt so lang sind wie der Durchschnitt aller Dramen. Ein weiteres Problem stellen von der Figurenliste abweichende Namen dar, etwa Varianten des Eigennamens oder Appellativa. Ersteres könnte in Zukunft durch die Nutzung von Ähnlichkeitsmaßen adressiert werden, die aber zu mehr Falsch-Positiven führen können. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Analyse </head>
+                <p style="text-align: left; ">Abbildung 2 zeigt, dass die meisten Auf- und Abtritte tatsächlich innerhalb von Szenen stattfinden (ca. 46%). Etwas weniger erfolgen am Beginn einer Szene (41%) und etwa 13% am Ende. Erwartungsgemäß handelt es sich am Anfang der Szene fast ausschließlich um Auftritte, am Ende um Abtritte. Innerhalb der Szenen komme Auf- und Abtritte zu jeweils gleichen Anteilen vor. </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="11.43cm" url="Pictures/3a5a6c4c76dc2f2b50c89c07c82ca340.png" rend="inline"/>
+                    <head>Abbildung 2: Verteilung der annotierten stage-Elemente auf den Beginn, die Mitte und das Ende einer Szene.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">In diesem Paper haben wir ein mit Figurenauf- und -abtritten annotiertes Teilkorpus zu GerDraCor präsentiert und einen regelbasierten Algorithmus vorgestellt, der diese Annotationen mit einem mittleren F1-Wert von über 0,85 reproduzieren kann. Ein Großteil der annotierten Auf- und Abtritte erfolgt innerhalb von Szenen. Diese Veränderungen in den Figurenkonstellationen werden bei einer szenenweisen Betrachtung der Figurenpräsenz nicht berücksichtigt, haben aber potenziell Auswirkungen auf beispielsweise netzwerkanalytische Arbeiten. Alle Daten und Skripte zu diesem Beitrag sind unter 
+                    <ref target="https://github.com/quadrama/enter-exit">https://github.com/quadrama/enter-exit</ref> verfügbar.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Es handelt sich um 
+                            <hi rend="italic">Emilia Galotti</hi> (Lessing, 1772), 
+                            <hi rend="italic">Götz von Berlichingen</hi> (Goethe, 1773), 
+                            <hi rend="italic" xml:space="preserve">Iphigenie auf Tauris </hi>(Goethe, 1787) sowie 
+                            <hi rend="italic">Maria Stuart</hi> (Schiller, 1800).
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">Fischer, Frank, Ingo Börner, Mathias Göbel, Angelika Hechtl, Christopher Kittel, Carsten Milling, und Peer Trilcke. 2019. „Programmable Corpora – Die digitale Literaturwissenschaft zwischen Forschung und Infrastruktur am Beispiel von DraCor“. In 
+                        <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>, 194–97. 
+                        <ref target="https://doi.org/10.5281/zenodo.2596095">https://doi.org/10.5281/zenodo.2596095</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">Fischer, Frank, Peer Trilcke, Christopher Kittel, Carsten Milling, und Daniil Skorinkin. 2018. „To Catch a Protagonist: Quantitative Dominance Relations in German-Language Drama (1730–1930)“. In 
+                        <hi rend="italic">DH 2018. Book of Abstracts</hi>, 193–201. Mexiko City.
+                    </bibl>
+                    <bibl style="text-align: left; ">Krautter, Benjamin, Janis Pagel, Nils Reiter, und Marcus Willand. 2018. „Titelhelden und Protagonisten - interpretierbare Figurenklassifikation in deutschsprachigen Dramen“. 
+                        <hi rend="italic">LitLab Pamphlets</hi> 7 (November). 
+                        <ref target="https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf">https://www.digitalhumanitiescooperation.de/wp-content/uploads/2018/12/p07_krautter_et_al.pdf</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">Marcus, Solomon. 1973. Mathematische Poetik. Linguistische Forschungen 13. Frankfurt a.M.: Athenäum.</bibl>
+                    <bibl style="text-align: left; ">Schößler, Franziska. 2017. 
+                        <hi rend="italic">Einführung in die Dramenanalyse</hi>. 2. Aufl. J. B. Metzler. 
+                        <ref target="https://link.springer.com/book/10.1007/978-3-476-05285-8">https://link.springer.com/book/10.1007/978-3-476-05285-8</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">Trilcke, Peer, Frank Fischer, Mathias Göbel, Dario Kampkaspar, und Christopher Kittel. 2017. „Netzwerkdynamik, Plotanalyse – Zur Visualisierung und Berechnung der ›progressiven Strukturierung‹ literarischer Texte“. In 
+                        <hi rend="italic">4. Jahrestagung des DHd</hi>, 175–80. Bern: Zenodo. 
+                        <ref target="https://doi.org/10.5281/ZENODO.4622799">https://doi.org/10.5281/ZENODO.4622799</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">Trilcke, Peer, Christopher Kittel, Nils Reiter, Daria Maximova, und Frank Fischer. 2020. „Opening the Stage – A Quantitative Look at Stage Directions in German Drama“. In 
+                        <hi rend="italic">Digital Humanities 2020 - Book of Abstracts</hi>, 422–25. Ottawa, Kanada.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

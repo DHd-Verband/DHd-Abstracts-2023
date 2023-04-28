@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="CHRIST_Andreas_Digitale_Interaktion_auf_Augenh_he___drei_Weg" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Interaktion auf Augenhöhe – drei Wege zu partizipativer Forschung und FAIRer Lehre an der UB Kiel</title>
+                <author>
+                    <persName>
+                        <surname>Christ</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                    <email>christ@ub.uni-kiel.de</email>
+                    <idno type="ORCID">0000-0002-3591-2355</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Diebel</surname>
+                        <forename>Richard</forename>
+                    </persName>
+                    <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                    <email>diebel@ub.uni-kiel.de</email>
+                    <idno type="ORCID">0000-0001-7525-7175</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Henzel</surname>
+                        <forename>Katrin</forename>
+                    </persName>
+                    <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                    <email>henzel@ub.uni-kiel.de</email>
+                    <idno type="ORCID">0000-0001-8260-223X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Petersen</surname>
+                        <forename>Britta</forename>
+                    </persName>
+                    <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                    <email>b.petersen@rz.uni-kiel.de</email>
+                    <idno type="ORCID">0000-0002-0355-2594</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vetter</surname>
+                        <forename>Angila</forename>
+                    </persName>
+                    <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                    <email>vetter@ub.uni-kiel.de</email>
+                    <idno type="ORCID">0000-0001-7662-191X</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-16T17:08:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Partizipative Forschung</term>
+                    <term>FAIRe Lehre</term>
+                    <term>OER</term>
+                    <term>Citizen Science</term>
+                    <term>Inklusion</term>
+                    <term>Open Cultural Heritage Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Lehre</term>
+                    <term>Curricula</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangslage</head>
+                <p style="text-align: left; ">Das Selbstverständnis wissenschaftlicher Bibliotheken hat sich grundlegend gewandelt (z.B. Auberer et al. 2022): Neben ‚traditionellen‘ Aufgaben im Bewahren, Digitalisieren, Erschließen und dauerhaften Bereitstellen offener Kulturdaten übernehmen insbesondere Universitätsbibliotheken zunehmend Aufgaben im Forschungsdatenmanagement, stellen Arbeits- und Infrastrukturen inklusive Schulungs- und Beratungsdienste für DH-Projekte bereit. Ihnen kommt damit „eine wichtige Rolle bei der Sicherung guter wissenschaftlicher Praxis durch professionellen Umgang mit Forschungsdaten“ zu (Rösch 2021, 136). Hierin wird die 
+                    <hi rend="italic" xml:space="preserve">vermittelnde </hi>Rolle von Bibliotheken deutlich, gerade auch im Umgang mit Standards für Open Data. Der von den Bibliotheken selbst wie auch an sie herangetragene Anspruch an Offenheit (Berg-Weiß et al. 2022) ist jedoch nicht garantiert, vielmehr zeigt sich aufgrund der ausgesprochen heterogenen Ausgangs- und Rahmenbedingungen für Open Science (vgl. UNESCO 2021, 6) erst in konkreten Anwendungsfällen, ob der Zugang zu Kulturdaten, ihre Erstellung und (Nach-)Nutzung gemäß rechtlicher Vorgaben tatsächlich offen sind.
+                </p>
+                <p style="text-align: left; ">Ein solches Anwendungsszenarium ist mit der FAIRen Produktion und Nachnutzung von OER im Kontext der Lehre Gegenstand dieses Posters. Als Beispiel dient ein an der UB Kiel angesiedeltes Projekt, welches wiederum in ein partizipatives Forschungsdatenmanagement eingebettet ist, das mit Inklusion und Citizen Science zwei weitere Schwerpunkte bildet. Alle drei Bereiche teilen dabei die Grundidee der digitalen Interaktion auf Augenhöhe, die essentiell für das Gelingen partizipativer Forschung und FAIRer Lehre ist.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>FAIRe Open Educational Resources</head>
+                <p style="text-align: left; ">Freier Zugang zu und niedrigschwellige Nachnutzung von Lern- und Lehrmaterialien gehören zu einer offenen Wissenschaftspraxis. Open Educational Resources (OER) „kommt eine wichtige Funktion bei einem chancengerechten Wandel in der Bildung [...] zu“ (BMBF 2022, 2). Informations- und Kommunikationstechnologien bieten dabei, wie die UNESCO in ihrer Empfehlung zu OER betont, „ein hohes Potenzial für effektiven, chancengerechten und inklusiven Zugang zu OER und deren Weiterverwendung, Bearbeitung und Weiterverbreitung“ (UNESCO 2019, I.3). Dieses Potenzial umzusetzen ist jedoch anspruchsvoll, da neben der Verwendung offener Lizenzen und Dateiformate auch automatische Auffindbarkeit und didaktische Kontextualisierung gewährleistet werden müssen (Twillo o.J.). Herkömmliche Lernmanagement-Systeme an Hochschulen eignen sich für die Produktion FAIRer OER nur sehr bedingt (Dietrich, Zug 2020). Im zentralen Forschungsdatenmanagement der CAU kommt daher LiaScript – ein erweiterbarer, freier Markdown-Dialekt (Dietrich 2022) – zum Einsatz. Er wurde für die Erstellung digitaler Lern- und Lehrressourcen entwickelt und gewährleistet einfache Editier- und Versionierbarkeit der Materialien mittels Open-Source-Software ohne den Einsatz proprietärer Autor:innensysteme. Durch die Verwendung von Markdown bleiben die Materialien formatunabhängig und können für verschiedene Anwendungsfälle in passende Formate (u.a. HTML, PDF, SCORM für Lernmanagement-Systeme) exportiert werden. In zwei Kieler Pilotprojekten werden modulare LiaScript-Bausteine zu Digital-Literacy-Inhalten gemeinsam mit den Fachwissenschaften entwickelt, welche die didaktische Strukturierung und fachliche Einbettung sichern. Ein von der UB Kiel mit dem Germanistischen und Historischen Seminar der CAU Kiel durchgeführtes Projekt hat die Integration dieser Bausteine in bestehende curriculare Lehrveranstaltungen zum Ziel. Hierbei spielen organisatorisch-infrastrukturelle, fachliche, didaktische und technische Aspekte eine Rolle, die zusammen mit ersten Evaluationsergebnissen zum Einsatz des Tools in Lehrveranstaltungen diskutiert werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einbindung in ein Gesamtkonzept eines partizipativen und inklusiven Forschungsdatenmanagements</head>
+                <p style="text-align: left; ">Eng verbunden mit der Forderung nach offener und freier Bildung sind die Themen Partizipation der Zivilgesellschaft mittels Citizen Science und eine inklusiv gedachte und praktizierte Wissenschaft als Bestandteile einer offenen Wissenschaftskultur. Universitätsbibliotheken bieten aufgrund ihrer bestehenden Erfahrung und Infrastruktur die Möglichkeit, partizipative, trans- und interdisziplinäre Forschungsprojekte anzustoßen und zu begleiten, zur Vernetzung zwischen Bürger:innen und der Scientific Community beizutragen, Citizen-Science-Projekte sichtbar zu machen und zu beraten (Vohland et al. 2021, 114; siehe auch Wiederkehr 2021). Die Transkription von Texten, Georeferenzierung von Objekten und Kategorisierung von kulturellen Artefakten bietet, etwa über eine App, einen niederschwelligen Zugang, um Bürger:innen an Forschungsprozessen zu beteiligen (vgl. Studie zu ‘Public Participation in Scientific Research’, Bonney et al. 2009) und sie, nicht zuletzt mittels OER, beim Erwerb von Datenkompetenzen zu unterstützen. </p>
+                <p style="text-align: left; ">Offenheit und Teilhabe sind wesentliche Forderungen der FAIR-Prinzipien. Wie aber gestalten sich FAIRe Daten für und barrierearmes Arbeiten in inklusiven Forschungsgruppen? Versteht man Behinderung als komplexes Phänomen und als Interaktion zwischen Individuum und Umwelt (UNESCO 2022, Abs. 1f.), liegt die Vermutung nahe, es könne keine allgemeingültigen Standards für einen inklusiven Umgang mit Forschungsdaten geben. Doch zeigen z.B. die Regelungen im Webdesign (nach WCAG 2.1 und BITV 2.0), dass sich die Rahmenbedingungen sehr wohl ändern und Barrieren abbauen lassen. Für das Forschungsdatenmanagement soll Ähnliches erreicht werden, hier gilt es den Fokus über die Präsentation von Daten hinaus um Datenerhebung, -analyse und -archivierung zu erweitern.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Auberer, Benjamin, Alexander Berg-Weiß, Vanessa Gabriel und Martin Spenger.</hi> 2022. „Potentiale nutzen und Verbindungen herstellen. Neue fachliche Aufgabenbereiche für Bibliotheken am Beispiel Forschungsdatenmanagement.“ 
+                        <hi rend="italic">O-Bib</hi> 9 (2), 1–16. 10.5282/o-bib/5783.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Berg-Weiß, Alexander, Sibylle Hermann, Miriam Kötter, Caroline Leiß, Christoph Müller und Annette Strauch-Davey. </hi>2022. „Openness in Bibliotheken. Positionspapier der Kommission für Forschungsnahe Dienste des VDB.“ 
+                        <hi rend="italic">O-Bib</hi> 9 (2):1-4. 10.5282/o-bib/5826.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Bundesministerium für Bildung und Forschung (BMBF).</hi> 2022. 
+                        <hi rend="italic" xml:space="preserve">OER-Strategie. Freie Bildungsmaterialien für die Entwicklung digitaler Bildung. </hi>Berlin: BMBF. https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/3/691288_OER-Strategie.html (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dietrich, André und Sebastian Zug.</hi> 2020. 
+                        <hi rend="italic">From Hero to Zero with Learning Management Systems. Why and How LMSs fail in distributing knowledge.</hi>
+                        <hi rend="color(0563C1)">https://aizac.herokuapp.com/from-hero-to-zero-with-learning-management-systems</hi> (zugegriffen: 28. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dietrich, André.</hi> 2022. 
+                        <hi rend="italic">Share your knowledge and build online courses with simple Markdown!</hi>
+                        <hi rend="color(0563C1)">https://liascript.github.io</hi> (zugegriffen: 01. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Göbel, Claudia, Justus Henke und Sylvi Mauermeister.</hi> 2020. 
+                        <hi rend="italic">Kultur und Gesellschaft gemeinsam erforschen. Überblick und Handlungsoptionen zu Citizen Science in den Geistes- und Sozialwissenschaften</hi>, 
+                        <hi rend="color(111111)">unter Mitarbeit von Susann Hippler, Nicola Gabriel und Steffen Zierold, Institut für Hochschulforschung (HoF) an der Martin</hi>
+                        <hi rend="color(111111)" style="font-family:Cambria Math">-</hi>
+                        <hi rend="color(111111)">Luther</hi>
+                        <hi rend="color(111111)" style="font-family:Cambria Math">-</hi>
+                        <hi rend="color(111111)">Universität, Halle</hi>
+                        <hi rend="color(111111)" style="font-family:Cambria Math">-</hi>
+                        <hi rend="color(111111)">Wittenberg</hi>. 
+                        <hi rend="color(0563C1)">https://www.hof.uni-halle.de/web/dateien/pdf/HoF-Handreichungen14.pdf</hi> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Heinisch, Barbara, Kristin Oswald, Maike Weißpflug et al.</hi> 2021. „Citizen Humanities.“ In 
+                        <hi rend="italic">The Science of Citizen Science</hi>, hg. von Kathrin Vohland, Anne Land-Zandstra, Luigi Ceccaroni et al., Cham: Springer, 97–118. 10.1007/978-3-030-58278-4_6.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Bonney, Rick et al.</hi> 2009. 
+                        <hi rend="italic">Public participation in scientific research: Defining the field and assessing its potential for informal science education: A CAISE inquiry group report</hi>. 
+                        <ref target="https://files.eric.ed.gov/fulltext/ED519688.pdf">https://files.eric.ed.gov/fulltext/ED519688.pdf</ref> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Rösch, Hermann.</hi> 2021. „Forschungsethik und Forschungsdaten.“ In 
+                        <hi rend="italic">Praxishandbuch Forschungsdatenmanagement</hi>, hg. von Markus Putnings, Heike Neuroth und Janna Neumann, Berlin, Boston: De Gruyter Saur, 115–140. 10.1515/9783110657807.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Twillo. o.J.</hi>
+                        <hi rend="italic" xml:space="preserve"> Digitaler Leitfaden Teilen von Bildungsmaterialien</hi>. 
+                        <hi rend="color(0563C1)">https://twillo-lehre-teilen.github.io/leitfaden-oer-workshop/#/</hi> (zugegriffen: 01. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Wiederkehr, Stefan.</hi> 2021. „Citizen Science: Eine Chance für wissenschaftliche Bibliotheken.“ 
+                        <hi rend="italic">O-Bib</hi> 8 (4), 1–13
+                        <hi rend="bold" xml:space="preserve">. </hi>10.5282/o-bib/5727.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">UNESCO.</hi> 2019. 
+                        <hi rend="italic">UNESCO Empfehlung zu Open Educational Resources</hi>. Paris: UNESCO. 
+                        <hi rend="color(0563C1)">https://www.unesco.de/sites/default/files/2020-05/2019_Empfehlung%20Open%20Educational%20Resources.pdf</hi> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">UNESCO.</hi> 2021. 
+                        <hi rend="italic">UNESCO Recommendation on Open Science</hi>. Paris: UNESCO. 
+                        <hi rend="color(0563C1)">https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en</hi> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">UNESCO Institute for Statistics.</hi> 2022. „Disability“, in 
+                        <hi rend="italic" xml:space="preserve">UIS Glossary. </hi>
+                        <hi rend="color(0563C1)">https://uis.unesco.org/en/glossary-term/disability</hi> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

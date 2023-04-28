@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="LANG_Sarah_Data_Feminism_in_DH__Hackathon_und_Netzwerktreffe" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Data Feminism in DH: Hackathon und Netzwerktreffen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Lang</surname>
+                        <forename>Sarah</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Österreich</affiliation>
+                    <email>sarah.lang@uni-graz.at</email>
+                    <idno type="ORCID">0000-0002-4618-9481</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Borek</surname>
+                        <forename>Luise</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+                    <email>luise.borek@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0001-5849-374X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Probst</surname>
+                        <forename>Nora</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>nora.probst@uni-koeln.de</email>
+                    <idno type="ORCID">0000-0001-6932-0879</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T18:33:55.925223916</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Data Feminism</term>
+                    <term>Datenfeminismus</term>
+                    <term>Korpuskritik</term>
+                    <term>Intersektionalität</term>
+                    <term>Gender Data Gap</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Strukturanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Einführung</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Das Ziel von 
+                    <hi rend="italic">Data Feminism</hi> ist es, ausgehend von Positionen des intersektionalen Feminismus die vorwiegend männlich dominierten Narrative in den Digital Humanities kritisch zu reflektieren und bislang marginalisierten Stimmen insbesondere von Frauen* mehr Sichtbarkeit zukommen zu lassen. In den Geisteswissenschaften ist häufig zu beobachten, dass sich der weiß, cis-männlich und hegemonial dominierte Bias aus den Archiven und Quellen in die erhobenen Daten und digitalen Technologien überträgt. Die vom 
+                    <hi rend="italic">Data Feminism</hi> angestrebte Balance im Sinne einer gendersensiblen Repräsentation ist ein wichtiger Baustein, um der Forderung nach einer grundlegenden Offenheit geisteswissenschaftlicher Forschung nachzukommen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Data Feminism in den DH</head>
+                <p>Das 2020 von Catherine D'Ignazio und Lauren F. Klein veröffentlichte Buch 
+                    <hi rend="italic">Data Feminism</hi> (MIT Press) hat für die Digital Humanities eine hohe Relevanz, wendet sich allerdings eher an ein Publikum aus der Data Science. Zwar bieten Kleins Forschungen durchaus Schnittstellen zu Fragestellungen in den DH, doch lässt sich aus dem Buch keine unmittelbar anwendbare Anleitung für die Umsetzung von Data Feminism in den Digital Humanities generieren. Vielmehr handelt es sich um ein Manifest, das vor allem die Wichtig- und Dringlichkeit von intersektionalen, datenfeministischen Ansätzen deutlich macht und grundlegende Leitsätze zu deren Umsetzung formuliert. Diese Leitsätze auf konkrete Forschungsfragen oder Datenrepositorien aus den Digital Humanities zu übertragen, ist nach wie vor ein Desiderat.
+                </p>
+                <p>Hier setzt unser Workshop an. Gemeinsam mit den Teilnehmenden soll eine Handreichung erarbeitet werden, die grundlegende Informationen und Leitlinien bezüglich folgender Fragen zusammenstellt: </p>
+                <p>1) Was lässt sich unter dem Begriff Data Feminism verstehen?</p>
+                <p>2) Wieso braucht man Data Feminism in den DH und inwiefern sollten dessen Ansätze in den bestehenden Diskursen der DH Berücksichtigung finden?</p>
+                <p>3) Wie können datenfeministische Projekte in den DH konkret aussehen? Inwiefern lassen sich Forschungsfelder definieren, die für Interessierte einen guten Ausgangspunkt bilden, um einige Ansätze des Data Feminism unmittelbar und praktisch umzusetzen?</p>
+                <p>Ein solche Handreichung sollte die Umsetzung datenfeministischer Ansätze in den DH insofern befördern, als sie die Einstiegshürden senkt und Interessierten diejenigen Informationen zur Verfügung stellt, die sie für einen effizienten, konkreten und praxisbezogenen Einstieg in Data Feminism benötigen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsstand: Offene Fragen und Desiderate im Kontext des Data Feminism in den DH</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Problemstellung 1: Data Gender Gap und das kulturelle Erbe</head>
+                    <p>Beim Arbeiten mit Quellen zum kulturellen Erbe wird eine Vielzahl von Problemen offenbar, die bei vielen anderen Datensätzen (die beispielsweise auf statistischen Erhebungen und Befragungen beruhen) nicht bestehen und die sich genuin aus dem geisteswissenschaftlichen Forschungsgegenstand ergeben: So lassen sich Positionen des Data Feminism zum Teil gar nicht auf historische Daten anwenden, wenn beispielsweise Informationen über Frauen* oder andere Gruppen, die der hegemonialen Norm nicht entsprechen, gar nicht erst dokumentiert wurden (Mandell 2019, Lampe 2021, Rezai 2022). Nicht nur in den materiellen Beständen von vielen GLAM-Institutionen, sondern auch in den daraus hervorgegangenen Datenbeständen sind Frauen* unterrepräsentiert (Flanders 2018, Wiens et al. 2020). Diese Problematik eines Gender Data Gaps (Criado-Perez 2020) spiegelt sich auch in den verfügbaren Normdaten wider, da – etwa in der GND – zunächst vor allem publizierende Personen systematisch erfasst wurden.<ref n="1" target="ftn1"/> Auch eine adäquate Verschlagwortung etwa in Bibliothekskatalogen stellt in diesem Zusammenhang eine große Herausforderung dar (vgl. Juen 2021).
+                    </p>
+                    <p>Bevor also eine datenfeministische Analyse überhaupt beginnen kann, ist umfangreiche Erschließungsarbeit zu leisten und es ist je nach konkretem Anwendungsfall gegebenenfalls notwendig, bestehende Korpora um Quellen von oder über Frauen* zu erweitern. Ein Beispiel für solche Arbeiten, bei denen bestehende Datensätze mit bislang unterrepräsentierten Gruppen ergänzt werden, ist das Women Film Pioneers Project (WFPP) (https://wfpp.columbia.edu/, vgl. Wreyford/Cobb 2017, Dang 2020, Dickel et al. 2022, Gaines et al. 2022). In Themenfeldern, in denen Daten von Frauen* zwar vorhanden, aber noch tiefergehender erschlossen oder digitalisiert werden müssen, ist dies arbeitsaufwendig und wird erfordern, dass die DH auf Dauer ausreichend Energie und Fördergelder in solche Tätigkeiten investieren. Wenn es also um Datenfeminismus und intersektionale Arbeit im Kontext der Digital Humanities geht, handelt es sich oftmals noch gar nicht um Datenanalysen, sondern vielmehr um erschließungsbezogene Tätigkeiten. Denn es gilt zunächst, die statistischen Ungleichgewichte der uns zur Verfügung stehenden Datensätze zum Thema zu machen und in diesem Sinne auf Lösungsstrategien hinzuarbeiten.</p>
+                    <p>Eine weitere Herausforderung besteht hier ausgerechnet in der erstrebenswerten Offenheit von Daten, die inzwischen bei allen Förderinstitutionen und -richtlinien verlangt wird: Für marginalisierte und oftmals sensible Daten kann diese Offenheit aus Datenschutzgründen jedoch schnell zum Ausschlusskriterium werden. Hier müssen förderpolitisch Lösungen implementiert werden, die eine Erschließung und wissenschaftliche Nutzung ermöglichen, ohne den Datenschutz zu verletzen. Nicht zuletzt stellen Fälle, in denen Frauen* oder unterrepräsentierte Gruppen in Datensätzen unsichtbar, schwer sichtbar oder überhaupt nicht vorhanden sind, eine schwer zu lösende Aufgabe dar. Was ist mit Fällen, in denen es nicht möglich ist, diese Lücke durch neue Datenerhebungen zu füllen? Kann man unterrepräsentierte Daten aus bestehenden Datensätzen interpolieren? </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Problemstellung 2: Modellierung, Kuratierung, Daten- und Korpuskritik </head>
+                    <p>Positionen des Data Feminism halten bereits insofern Einzug in die DH, als in den vergangenen Jahren Hegemonie-kritische Forschungsthemen wie Gender-sensible Datenmodellierung, Korpuskritik, Decolonializing DH usw. stärkere Berücksichtigung finden (Risam 2015, Wernimont 2015, Koh/Stommel 2018, Losh/Wernimont 2018, Kim/Koh 2021, Guiliano/Heitmann 2019, Mandell 2019, Risam/Bordalejo 2019). Da ein feministischer und intersektional angelegter Umgang mit Daten in der Regel mit einer Analyse von Machtstrukturen beginnt, bieten die DH einen besonders geeigneten Nährboden für diesen Ansatz. Grundsätzlich gilt es nicht nur, dem Gender Data Gap durch die Erhebung von Daten zu Frauen* entgegenzuwirken, sondern es müssen auch die bestehenden Kategorien, Klassifizierungen und Datenmodelle auf Grundlage intersektionaler feministischer Perspektiven kritisch hinterfragt und ggf. komplexer gestaltet werden (Kyvernitou/Bikakis 2017) – dazu gehören Überlegungen zu Marginalisierungen an der Intersektion von Gender und rassistischen, klassistischen, ableistischen und weiteren Diskriminierungserfahrungen. . Denn personenbezogenen Daten lassen sich in der Regel nicht durch Selbstbezeichnungen und/oder zusätzliche Befragungen ergänzen – Gender-bezogene Daten sind bei historischen Datensätzen in der Regel Zuschreibungen, die auf äußerlichen Merkmalen beruhen. In aller Regel erlauben diese Datensätze weder eine Unterscheidung zwischen biologischem Geschlecht und Gender, noch gehen sie über das binäre Geschlechtermodell hinaus. Data Feminism muss in den DH nicht nur den Data Gender Gap im Blick behalten und die Digitalisierung von bislang nicht digitalisierten Quellen forcieren, sondern auch bestehende Klassifizierungen, Datenmodelle und -kuratierungen kritisch hinterfragen.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Problemstellung 3: Anwendung außerhalb offensichtlicher Anwendungsfälle</head>
+                    <p>Online finden sich eine ganze Reihe von Arbeiten, die sich des Data-Feminism-Begriffs bereits bedienen, doch handelt es sich häufig noch um Work-in-Progress, das noch nicht in Form von wissenschaftlichen Publikationen veröffentlicht ist (Bui/Gleißner/Kühn/Nenninger 2021, Keck 2021a, 2021b, Klein 2018, 2022). Zudem ergibt sich hier die Auseinandersetzung mit Data Feminism häufig unmittelbar aus einer thematischen Schwerpunktsetzung heraus. Wie aber könnte man mit Datensätzen oder Forschungsfragen umgehen, die nicht für Ansätze des Data Feminism prädestiniert scheinen, aber dennoch von diesen Ansätzen in hohem Maße profitieren würden? Um ein solches Paradigma zu etablieren, genügt es nicht, wenn sich lediglich einzelne Projekte für datenfeministische Perspektiven öffnen, bei denen der Nutzen des Data Feminism unmittelbar auf der Hand liegt. Um die Erkenntnisse der Intersektionalitäts- und Datenfeminismus-Forschung konsequent in den DH zu etablieren – wie unter anderem von Roopika Risam 2015 gefordert –, werden Leitlinien benötigt, die aufzeigen, wie diese auf eine größere Breite an Datensätzen und Forschungsfragen Anwendung finden können. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Problemstellung 4: Maschinelles Lernen als Bias-Verstärker oder Chance?</head>
+                    <p>Zu fragen wäre schließlich, ob in diesem Kontext Algorithmen des maschinellen Lernens Abhilfe leisten könnten. Bisherige Publikationen zur Daten- und Korpuskritik in Bezug auf marginalisierte Gruppen halten sich diesbezüglich eher bedeckt und betonen, dass Algorithmen vor allem Bias der sie vornehmlich programmierenden (weißen cis-männlichen) Gruppen (Klinger/Svensson 2021) reproduzieren (Guiliano/Heitmann 2019). </p>
+                    <p>Andere Publikationen verweisen allerdings darauf, dass die Aufgabe der DH in Bezug auf maschinelles Lernen gerade darin besteht, den Maschinen jenen “computer science gaze” abzutrainieren und stattdessen einen “curatorial gaze” zu etablieren (Bönisch 2021). Zu fragen wäre folglich, ob Algorithmen des maschinellen Lernens programmiert werden könnten, die trotz der in Problemstellung 1 und 2 skizzierten Herausforderungen einen “intersectional decolonialist gaze” auf Daten des kulturellen Erbes etablieren.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Aufbau des Workshops</head>
+                <p>Ziel dieses Workshops ist zum einen die Vernetzung aller Forschenden, die Positionen des Data Feminism bereits in ihren Forschungen berücksichtigen oder perspektivisch berücksichtigen wollen. Zum anderen geht es um die Erarbeitung konkreter Umsetzungsstrategien, wie sich die Forderungen des Data Feminism im Kontext der DH realisieren lassen. Der Workshop nennt sich Hackathon, um die kollektive Arbeitsform im Sinne einer gemeinsamen Daten-bezogenen Arbeitspraxis zu betonen. Zu Anfang werden zunächst die grundlegenden Konzepte des Data Feminism vorgestellt, um den Einstieg auch Personen ohne Vorerfahrungen zu ermöglichen. Im Anschluss können Teilnehmende eigene Arbeiten kurz vorstellen und ihren Zugriff auf Data Feminism im Kontext der DH erläutern. Aus diesen Inputs ergibt sich dann ein Austausch in Kleingruppen. Aufbauend auf den Erläuterungen und Diskussionen zu Beginn erarbeiten die Teilnehmenden in der Folge gemeinsam eine Handreichung, die auf wenigen Seiten grundlegende Informationen zum praktischen datenfeministischen Arbeiten in den Digital Humanities vermittelt und konkrete Leitlinien enthält. Auf diese Weise können sich Interessierte durch die Lektüre grundlegende Kenntnisse des Data Feminism selbstständig aneignen. Wir hoffen, dass damit die Einstiegshürde in datenfeminisitische DH-Forschung gesenkt und Data Feminism zukünftig in den DH einen breiteren Rückhalt finden wird. Die Handreichung soll idealerweise auf Deutsch und Englisch herausgegeben werden. Um all diese Aspekte (Einführung in grundlegende Konzepte, Kurzvorstellung eigener Arbeiten, Kleingruppendiskussion sowie Erstellung der Handreichung) zeitlich abdecken zu können, werden zwei Halbtage für den Workshop veranschlagt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Organisationsteam</head>
+                <p>Sarah Lang, Universität Graz, 
+                    <ref target="mailto:sarah.lang@uni-graz.at">sarah.lang@uni-graz.at</ref>, 
+                    <ptr target="https://orcid.org/0000-0002-4618-9481"/>. Forschungsinteressen/Hintergrund: Digital Humanities PostDoc, Wissenschaftsgeschichte (Alchemie).
+                </p>
+                <p>Luise Borek, Technische Universität Darmstadt, 
+                    <ref target="mailto:luise.borek@tu-darmstadt.de">luise.borek@tu-darmstadt.de</ref>, 0000-0001-5849-374X. Forschungsinteressen/Hintergrund: PostDoc (TU Darmstadt) Vertretungsprofessur Digital Humanites (Universität Graz); germanistische Mediävistik. DFG-Netzwerk Offenes Mittelalter.
+                </p>
+                <p>Nora Probst, Universität zu Köln, Deutschland, 
+                    <ref target="mailto:nora.probst@uni-koeln.de">nora.probst@uni-koeln.de</ref>, 0000-0001-6932-0879. Forschungsinteressen/Hintergrund: Digitale Kulturwissenschaften, Vertretungsprofessorin der Professur "Kulturen der Digitalität".
+                </p>
+                <p>Alle Einreichenden verbindet durch ihre Aktivitäten in der AG Empowerment das Interesse an Korpuskritik und Datenfeminismus.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">Criado-Perez’ Buch 
+                            <hi rend="italic">Invisible Women</hi> hat in den letzten zwei Jahren viel Aufmerksamkeit für das Thema generiert. Wir distanzieren uns allerdings ausdrücklich von dem in der Studie vertretenen binären Geschlechtermodell, das Personen jenseits der Cis-Geschlechtlichkeit vollständig ignoriert, und vertreten unsererseits einen intersektionalen, queerfeministischen und inklusiven Ansatz nach D’Ignazio/Klein 2020.
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Aleksander, Karin.</hi> 2014. "Die Frau im Bibliothekskatalog." 
+                        <hi rend="italic">LIBREAS. Library Ideas</hi> 25 (2014). 
+                        <ptr target="https://libreas.eu/ausgabe25/02alexander/"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Bönisch, Dominik.</hi> 2021. “The Curator’s Machine: Clustering of Museum Collection Data through Annotation of Hidden Connection Patterns between Artworks”. 
+                        <hi rend="italic">International Journal for Digital Art History</hi> 5 (Mai 2021): 5.20–5.35. 
+                        <ptr target="https://journals.ub.uni-heidelberg.de/index.php/dah/article/view/75953"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Bui, Magdalena, Lea Gleißner, Fey Kühn und Amelie Nenninger.</hi> 2021. “Questioning Street Names Leipzig: wie Genderbias die Straßenbenennung in Leipzig beeinflusst und wie die DH helfen können Bias sichtbar zu machen.” In: Blog 
+                        <hi rend="italic">Public Humanities in den Digital Humanities</hi>. 23.08.2021. 
+                        <ptr target="https://publicdh.hypotheses.org/282"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Criado-Perez, Caroline.</hi> 2020.
+                        <hi rend="italic"> Invisible Women: Exposing Data Bias in a World Designed for Men.</hi> London: Chatto &amp; Windus.
+                    </bibl>
+                    <bibl><hi rend="bold">Dang, Sarah-Mai.</hi> 2020. ”Unknowable Facts and Digital Databases: Reflections on the Women Film Pioneers Project and Women in Film History.“ 
+                        <hi rend="italic"> Digital Humanities Quarterly</hi> 14 (4). 
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/14/4/000528/000528.html"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Dickel, Henri, Matija Miskovic, Kharazm Noori, Christian Schmidt, Atefeh Soltanifard, Sarah-Mai Dang und Thorsten Thormählen. </hi>
+                        <hi rend="italic">Women Film Pioneers Explorer.</hi>
+                        <ptr target="https://www.online.unimarburg.de/women-film-pioneers-explorer/"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">D'Ignazio, Catherine und Lauren Klein.</hi> 2020. 
+                        <hi rend="italic">Data Feminism. </hi>Cambridge/MA: MIT Press. 
+                        <ptr target="https://datafeminism.io/"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Flanders, Julia.</hi> 2018. “Building Otherwise.” In: 
+                        <hi rend="italic">Bodies of Information: Intersectional Feminism and the Digital Humanities</hi>, herausgegeben von Elizabeth Losh und Jacqueline Wernimont, 289-304. Minneapolis/MN: University of Minnesota Press. Debates in the Digital Humanities. DOI: 
+                        <ptr target="https://doi.org/10.5749/j.ctv9hj9r9"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Gaines, Jane, Radha Vatsal, and Monica Dall’Asta (eds.). </hi>2022. 
+                        <hi rend="italic">Women Film Pioneers Project. </hi>New York, NY: Columbia University Libraries. 
+                        <ptr target="https://wfpp.columbia.edu/"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Guiliano, Jennifer und Carolyn Heitman</hi> (2019): „Difficult Heritage and the Complexities of Indigenous Data.“ 
+                        <hi rend="italic">Journal of Cultural Analytics </hi>4/1: 1–25. doi:10.22148/16.044.
+                    </bibl>
+                    <bibl><hi rend="bold">Juen, Sara.</hi> 2021. “Feminismus, Algorithmen, Gender-Data-Gap und was das alles mit Bibliotheks- und Informationswissenschaft zu tun hat.” 
+                        <hi rend="italic">LIBREAS. Library Ideas</hi> 39 (2021). 
+                        <ptr target="https://doi.org/10.18452/23448"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Keck, Jana.</hi> 2021a. “Text Mining America's German-Language Newspapers, 1830-1914: Processing Ger(wo)manness.” Historikertag 2021, Peter Haber Preis für digitale Geschichte. 
+                        <ptr target="https://doi.org/10.5281/zenodo.5518019"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Keck, Jana.</hi> 2021b. “A Data Feminist Approach to Studying the C19 Social Network of German-Americans.” Global Digital Humanities Symposium 2021. 
+                        <ptr target="https://www.youtube.com/watch?v=zrg1htGXRIA"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Klein, Lauren.</hi> 2018. “Data feminism: Community, allyship, and action in the digital humanities” (Keynote address). Digital Frontiers Annual Conference, Lawrence, KS, United States. 
+                        <ptr target="https://digital.library.txstate.edu/handle/10877/7839"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Klein, Lauren.</hi> 2022. “Data Feminism and Digital Humanities” (Vortrag). 
+                        <ptr target="https://www.youtube.com/watch?v=W0sITS8a6YY"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Klinger, Ulrike und Jakob Svensson.</hi> 2021. “The power of code: women and the making of the digital world.” 
+                        <hi rend="italic">Information, Communication &amp; Society</hi> 24 (14): 2075–2090. DOI: 10.1080/1369118X.2021.1962947.
+                    </bibl>
+                    <bibl><hi rend="bold">Kyvernitou, Ionna und Antonis Bikakis.</hi> 2017. “An Ontology for Gendered Content Representation of Cultural Heritage Artefacts.” 
+                        <hi rend="italic">Digital Humanites Quarterly</hi> 11/3 (2017). 
+                        <ptr target="http://www.digitalhumanities.org//dhq/vol/11/3/000316/000316.html"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Lampe, Moritz.</hi> 2021. 
+                        <hi rend="italic">Diskriminierende Begriffe und Wissensordnungen im Bildarchiv. Eine postkoloniale Perspektive am Beispiel des ‘Bildindex der Kunst und Architektur’. </hi>Berliner Handreichung zur Bibliotheks- und Informationswissenschaft 481. Berlin. DOI: 10.18452/23766 (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Losh, Elizabeth und Jacqueline Wernimont.</hi> 2018. 
+                        <hi rend="italic">Bodies of Information: Intersectional Feminism and the Digital Humanities.</hi> Minneapolis/MN: University of Minnesota Press. Debates in the Digital Humanities. DOI: 
+                        <ptr target="https://doi.org/10.5749/j.ctv9hj9r9"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Mandell, Laura.</hi> 2019. „Gender and Cultural Analytics: Finding or Making Stereotypes?“ In: 
+                        <hi rend="italic">Debates in the Digital Humanities</hi> 2019, herausgegeben von Matthew K. Gold and Lauren F. Klein. University of Minnesota Press. DOI: 
+                        <ptr target="http://dx.doi.org/10.5749/j.ctvg251hk.4"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Rezai, Yasami.</hi> 2022. “Data Stories for/from All: Why Data Feminism is for Everyone.” 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 16/2 (2022). 
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/16/2/000618/000618.html"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Risam, Roopika</hi> (2015). “Beyond the Margins: Intersectionality and the Digital Humanities.” 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 9(2). 
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/9/2/000208/000208.html"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Risam, Roopika und Barbara Bordalejo (eds.).</hi> 2019. 
+                        <hi rend="italic">Intersectionality in Digital Humanities.</hi> Amsterdam: Amsterdam University Press. DOI: 
+                        <ptr target="https://doi.org/10.1017/9781641890519"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Wiens, Brianna, Stan Ruecker, Jennifer Roberts-Smith, Milena Radzikowska und Shana MacDonald. </hi>2020. “Materializing Data: New Research Methods for Feminist Digital Humanities.” 
+                        <hi rend="italic">Digital Studies/le Champ Numérique</hi> 10(1).DOI: 
+                        <ptr target="https://doi.org/10.16995/dscn.373"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Wernimont, Jacqueline (ed.).</hi> 2015. 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 9.2 (2015), Special Issue 
+                        <hi rend="italic">Feminisms in Digital Humanities. </hi>
+                        <ptr target="http://www.digitalhumanities.org/dhq/vol/9/2/index.html"/> (zuletzt zugegriffen 02.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Wreyford, Natalie, und Shelley Cobb.</hi> 2017. “Data and Responsibility: Toward a Feminist Methodology for Producing Historical Data on Women in the Contemporary UK Film Industry”.
+                        <hi rend="italic">Feminist Media Histories </hi>3/3 (2017): 107–132. doi:10.1525/fmh.2017.3.3.107.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

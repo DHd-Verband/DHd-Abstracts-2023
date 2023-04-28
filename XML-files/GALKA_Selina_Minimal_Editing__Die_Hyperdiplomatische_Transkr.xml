@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GALKA_Selina_Minimal_Editing__Die_Hyperdiplomatische_Transkr" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minimal Editing: Die Hyperdiplomatische Transkriptionsplattform</title>
+                <author>
+                    <persName>
+                        <surname>Galka</surname>
+                        <forename>Selina</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                    <email>selina.galka@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klug</surname>
+                        <forename>Helmut W.</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                    <email>helmutwklug@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T07:52:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Edition</term>
+                    <term>Transkription</term>
+                    <term>Publikationsplattform</term>
+                    <term>Workflow</term>
+                    <term>Datenmodellierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Transkription</term>
+                    <term>Modellierung</term>
+                    <term>Archivierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Minimal Editing</head>
+                <p style="text-align: left; ">Digitale Editionen sind in der Regel kostspielige Großprojekte, die von Drittmittelförderung abhängig sind. Projektmitarbeiterinnen und -mitarbeiter müssen umfangreiche technische und philologische Fähigkeiten mitbringen und die Projekte werden meist in sehr spezifischen Editionsumgebungen entwickelt – Elena Pierazzo nennt derartige digitale Editionen “Haute Couture”-Editionen (Pierazzo 2019, 213).</p>
+                <p style="text-align: left; ">Kleinere Editionsvorhaben werden oft nur von Einzelpersonen gestemmt oder vielleicht im Kontext einer Lehrveranstaltung oder Qualifikationsarbeit umgesetzt; eine Vermittlung der Ergebnisse in Form eines Webauftritts oder die Archivierung in einem zertifizierten Repositorium ist in derartigen Fällen nur selten möglich; oft scheitert es am entsprechenden Know-How oder an finanzieller Unterstützung. Diese Arbeiten verschwinden eher früher als später ungenutzt in dunklen Schubladen. Um dieser Problematik Herr zu werden, müssen nachhaltige Lösungen her! Eine solche Lösung für derartige Fälle wäre sicher 
+                    <hi rend="italic">minimal editing</hi>.
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Minimal Editions</hi> stellen reduzierte digitale Editionen im Gegenzug zu kostspieligen, aufwendigen Editionsgroßprojekten dar. Wie eine derartige Minimaledition zu definieren wäre, ist Gegenstand des aktuellen Forschungsdiskurses: Basiert sie auf dem effizientesten Workflow, um den Arbeitsaufwand der Datenverarbeitung zu reduzieren, der kleinstmöglichen technischen Infrastruktur (i.e 
+                    <hi rend="italic">minimal computing</hi>, cf. Gil 2015), um die Hemmschwelle vor der Technik möglichst niedrig zu halten, der sparsamsten Modellierung der Objekte, um Bearbeitungszeit zu sparen und die weitere Verarbeitung zu vereinfachen oder zeichnet sie sich durch einen reduzierten Funktionsumfang bei der Onlinepublikation aus? 
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Minimal editing</hi> kann es möglich machen, digitale Editionen mit vorgefertigten Workflows, bereits etablierten, einfachen technischen Lösungen und leicht zu integrierenden Basis-Funktionalitäten im Bereich der Datenmodellierung wie auch der Datenpräsentation schnell, einfach und mit einem geringen Kostenaufwand umzusetzen. Das bringt allerdings die unterschiedlichsten Einschränkungen mit sich! Demgegenüber stehen aber die Erwartungen und Ideen der Editorinnen und Editoren und die Vorgaben der Förderorganisationen. Allerdings würde der Aufbau einer zeitgemäßen Infrastruktur, die Langzeitverfügbarkeit garantiert, mit Komponenten, die 
+                    <hi rend="italic" xml:space="preserve">ad hoc </hi>für unterschiedliche Editionsprojekte benutzbar sind, den Aufwand für die Umsetzung einer digitalen Edition reduzieren und somit vermutlich zu einer größeren Anzahl von digitalen Editionsprodukten führen. Pierazzo bezeichnet diese Editionen als “Prêt-à-Porter”-Editionen (Pierazzo 2019, 213). 
+                </p>
+                <p style="text-align: left; ">Weitere Stichworte im Zusammenhang mit 
+                    <hi rend="italic">minimal editing</hi> sind 
+                    <hi rend="italic">minimal functionalities</hi> und 
+                    <hi rend="italic">minimal computing</hi>. Federico Caria und Brigitte Mathiak untersuchten, welche minimalen Funktionalitäten der Webauftritt einer digitalen Edition unbedingt aufweisen sollte, damit diese von der Community auch zufriedenstellend genutzt werden kann (2018); Greta Franzini, Melissa Terras und Simon Mahony führten ebenfalls eine Umfrage zu Erwartungen und dem Gebrauch von digitalen Editionen durch (2019). Die dabei gesammelten Ergebnisse können helfen, die wichtigsten Komponenten einer 
+                    <hi rend="italic">Minimal Edition</hi> zu definieren, wie z. B. eine Such- und Exportfunktion über bzw. in den Daten oder eine grundsätzlich benutzerfreundliche Navigationsstruktur (Caria/Mathiak 2018, 360), oder die Einbindung von Faksimiles, leicht erkennbare Angabe von Lizenzen, die Möglichkeit der Nachnutzbarkeit der Daten und eine umfassende Dokumentation (Franzini/Terras/Mahony 2018, 1).
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Minimal computing</hi> hingegen ist ein Ansatz, bei dem versucht wird, die technischen Ansprüche zu reduzieren und für die Arbeit nur jene Technologien zu verwenden, welche tatsächlich notwendig für die Umsetzung eines bestimmten Vorhabens sind. Erst 2022 erschien eine ganze Ausgabe des 
+                    <hi rend="italic">Digital Humanities Quarterly</hi>, welche sich den unterschiedlichsten Aspekten des 
+                    <hi rend="italic">minimal computing</hi> widmet (Risam/Gil 2022a). Um zu bestimmen, welche Technologien tatsächlich notwendig und ausreichend sind, schlagen Risam und Gil vor, folgende vier Fragen zu stellen (Risam/Gill 2022b): Was brauchen wir, was haben wir, was müssen wir priorisieren und was sind wir bereit aufzugeben?
+                </p>
+                <p style="text-align: left; ">Alle diese Publikationen zeigen einen Trend in Richtung maßgeschneidertes Editionsmanagement auf. Es gibt bereits Lösungen, Tools und Plattformen, die unter dem Aspekt Minimal Editing zusammenzufassen sind – darunter fällt z.B. EVT (Edition Visualization Technique), ein Open-Source-Tool, welches es ermöglicht, XML-TEI Dokumente als digitale Editionen im Browser anzuzeigen. Dasselbe gilt für CETEIcean und TEI-Publisher, welche ebenfalls Lösungen anbieten, um XML- und TEI-Dokumente ohne Erfahrung in der Webprogrammierung im Browser zugänglich zu machen. Transcriptiones erlaubt es, Transkriptionen zu teilen und kollaborativ zu überarbeiten, wobei hier jedoch kein Fokus auf die Modellierung mit XML/TEI oder eine nachhaltige Archivierung gelegt wird. Den Tools, die eine Kodierung mit TEI unterstützen, ist gemeinsam, dass zwar niederschwellig eine Webansicht generiert werden kann, allerdings wird hier der Aspekt der Langzeitarchivierung, d.h. dass die Daten permanent zitierbar verfügbar bleiben, nicht berücksichtigt. </p>
+                <p style="text-align: left; ">Ein Zugang zur “Minimal Edition”, der sich am Paradigma eines effizient gestalteten Workflows orientiert und den Aspekt der Langzeitarchivierung miteinschließt, ist in Österreich im Rahmen des bundesgeförderten Projektes 
+                    <hi rend="italic">DiTAH - Digitale Transformation der österreichischen Geisteswissenschaften</hi> umgesetzt worden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hyper: Hyperdiplomatische Transkriptionsplattform</head>
+                <p style="text-align: left; ">Im geplanten Vortrag soll eine Variante des 
+                    <hi rend="italic">minimal editing</hi> anhand der hyperdiplomatischen Publikationsplattform vorgestellt werden: Die Hyperdiplomatische Transkriptionsplattform (Hyper, 
+                    <ref target="http://gams.uni-graz.at/context:hyper">
+                        <hi rend="color(1155CC)">http://gams.uni-graz.at/context:hyper</hi>
+                    </ref>) wurde entwickelt, um das Archivieren und Publizieren von Editionsdaten, die auf dem standardisierten Datenmodell der hyperdiplomatischen Transkription (Böhm/Klug 2021) beruhen, möglichst ressourcenschonend und im Sinne von
+                    <hi rend="italic" xml:space="preserve"> minimal editing</hi> zu gestalten – mit den Ressourcen, die im vorliegenden Fall möglichst sparsam verwendet werden sollen, sind vor allem die nötigen Arbeiten und der finanzielle Aufwand im Zusammenhang mit einer Publikation und Langzeitarchivierung der Editionsdaten gemeint.
+                </p>
+                <p style="text-align: left; ">Eine hyperdiplomatische Transkription versucht, die historische Quelle möglichst detailreich bis hin zur Teilzeichenebene (z. B. Superskripte oder sogar Teilstriche eines Zeichens) bzw. unter Berücksichtigung der Quellentopographie (Verortung der Informationseinheiten in einem digitalen Abbild der Quelle) in ein modernes Zeichensystem zu übertragen. In Grazer Projekten (
+                    <ref target="https://gams.uni-graz.at/context:malab">
+                        <hi rend="italic">Mittelalterlabor</hi>
+                    </ref>, 
+                    <ref target="http://gams.uni-graz.at/context:corema">
+                        <hi rend="italic">Cooking recipes of the Middle Ages</hi>
+                    </ref>) wird nach einer hyperdiplomatischen Transkriptionsmethode gearbeitet, die ursprünglich auf die Philosophie der “Grazer dynamischen Editionsmethode” (Hofmeister-Winter 2003) zurückgeht: Es wird dabei eine “Basistransliteration” (Hofmeister-Winter 2003, S. 101) erstellt, deren Ziel es ist, den Text der Handschrift möglichst getreu mit typographischen Mitteln abzubilden, wobei die Quellentopographie dabei keine bzw. nur bedingt eine Rolle spielt. In dieser Phase soll noch keine inhaltliche Interpretation stattfinden, sondern vorerst nur der paläografische Informationsgehalt der Handschrift, also die Schriftsymbole wiedergegeben werden. Es werden in einem Graphinventar nicht nur alphabetische Schriftsymbole, sondern alle graphischen Phänomene wie Abbreviaturen, Superskripte oder Verzierungen mit bestimmten von den Transkribierenden individuell festlegbaren Kodierungen festgehalten. Im Graphinventar werden die von der Schreiberin oder dem Schreiber verwendeten Zeichen beschrieben und mit einer proprietären Kodierung versehen, sodass es gleichzeitig als Transliterationsschlüssel dient, der im Rahmen der digitalen Workflows eine zentrale Stellung einnimmt. Die Transkription soll damit sowohl sprach- und literaturwissenschaftlichen als auch geschichtswissenschaftlichen Ansprüchen genügen bzw. sie in manchen Fällen übertreffen – das Ziel dieser Herangehensweise ist es aber prinzipiell, eine Transkription zu erstellen, die über den konkreten Anwendungsfall hinaus auch von anderen Forscherinnen und Forschern verwendet werden kann (Böhm/Klug 2020). 
+                </p>
+                <p style="text-align: left; ">Die Hyperdiplomatische Transkriptionsplattform bietet daher ein vorgefertigtes Datenmodell für die hyperdiplomatische Transkription (Klug/Böhm 2021), vorgefertigte Routinen und Transformationen, die darauf aufsetzen, und unterschiedliche Beschreibungszugänge, um den Workflow zu verdeutlichen und einfach nachnutzbar zu machen. Die Plattform (Klug/Galka 2022) wurde mit Testusern entwickelt, die sich willig auf das Experiment eingelassen haben. Die dafür produzierten Daten stehen mittlerweile offen in einem funktionell umfangreichen Webauftritt zur Verfügung: 33 Texte zum Thema “Jagd in den deutschsprachigen Texten des Mittelalters und der Frühen Neuzeit” (
+                    <ref target="http://jagd-im-mittelalter.de/">
+                        <hi rend="color(1155CC)">http://jagd-im-mittelalter.de/</hi>
+                    </ref>), transkribiert und modelliert von Timo Bülters und Simone Schultz-Balluff, und die hyperdiplomatische Transkription der Handschrift Wien, ÖNB, Cod. 3085, fol. 1r-39v von Astrid Böhm (2022).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Workflow</head>
+                <p style="text-align: left; ">Die hyperdiplomatische Transkription erfolgt mittels Transkribus, einer Transkriptionssoftware, die eine automatische Textsegmentierung und Text-Bild-Verknüpfung erlaubt und darüber hinaus eine äußerst benutzerinnenfreundliche Arbeitsoberfläche bietet. In Transkribus wird mittels proprietärer Codierung transkribiert, wobei die proprietäre Kodierung, die im Transkriptionsprozess verwendet wird, im TEI-XML in der Zeichenbeschreibung (&lt;charDecl&gt;) festgehalten wird. Mit Daten aus Projekten, die diese Transkriptionsmethode anwenden (
+                    <ref target="https://gams.uni-graz.at/context:malab">
+                        <hi rend="italic">Mittelalterlabor</hi>
+                    </ref>, 
+                    <ref target="http://gams.uni-graz.at/context:corema">
+                        <hi rend="italic">Cooking recipes of the Middle Ages</hi>
+                    </ref>), wurde in Transkribus außerdem ein HTR-Modell für spätmittelalterliche Bastarda trainiert (German Bastarda, hyperdiplomatic), das kurz vor der Publikation steht. Auch Textauszeichnungen (Initialen, Überschriften usw.) und die Annotationen wie z.B. Revisionen der Schreiberin oder des Schreibers oder Anmerkungen/Notizen der Editorinnen und Editoren erfolgen in Transkribus. Generell wird aber versucht, die Annotationen in Transkribus auf ein notwendiges Minimum zu beschränken. Die Software ermöglicht einen TEI/XML-Export der Transkription – die exportierten Daten werden mittels X-Technologien bzw. mit auf der Plattform bereitgestellten XSLT-Stylesheets weiterverarbeitet und ins finale Datenmodell transformiert. Die Kollationierung der Transkription mit der Quelle erfolgt außerhalb von Transkribus und setzt auf den selben Transformationen auf. Das publikationsfähige TEI-Dokument enthält einen umfangreichen &lt;teiHeader&gt; mit &lt;editorialDecl&gt;, &lt;msDesc&gt; und &lt;charDecl&gt; und den Editionstext, der die Struktur des Faksimiles abbildet. Die XSLT-Stylesheets, Schema-Dateien zur Validierung, Templates für Handschriftenbeschreibung (&lt;msDesc&gt;) und Editionsrichtlinien (&lt;editorialDecl&gt;) werden auf GitHub zum Download bereitgestellt (
+                    <ref target="https://github.com/ditah-at/hyper">
+                        <hi rend="color(1155CC)">https://github.com/ditah-at/hyper</hi>
+                    </ref>).
+                </p>
+                <p style="text-align: left; ">Die Archivierung und Publikation erfolgt mittels des Geisteswissenschaftlichen Asset Management Systems (
+                    <ref target="https://gams.uni-graz.at/">GAMS</ref>). GAMS ist ein Asset Management System zur Verwaltung, Publikation und Langzeitarchivierung digitaler Ressourcen aus allen geisteswissenschaftlichen Fächern, welches auf der Open-Source-Lösung Fedora (
+                    <hi rend="italic">Flexible Extensible Digital Object Repository Architecture</hi>) basiert und am Zentrum für Informationsmodellierung an der Universität Graz ständig weiterentwickelt wird. Mit Hilfe des Systems können unterschiedliche Ressourcen verwaltet, mit Metadaten angereichert und persistent zitierbar publiziert werden (Stigler/Steiner 2018). Das Asset-Management-System entspricht den Empfehlungen des OAIS-Referenzmodells (
+                    <hi rend="italic">Open Archival Information System</hi>), welche eine verlässliche Langzeitarchivierung von digitalen Daten garantieren sollen. Die Auffindbarkeit der Daten wird durch die Vergabe von persistenten Identifikatoren und der Anreicherung mit umfassenden Metadaten ermöglicht. GAMS ist seit 2019 mit dem Core Trust Seal als vertrauenswürdiges digitales Repositorium und seit Frühjahr 2020 außerdem als CLARIN Datencenter zertifiziert.
+                </p>
+                <p style="text-align: left; ">Das finale TEI/XML-Dokument wird gemeinsam mit den Faksimiles in das Repositorium ingestiert und unter einem systeminternen Permalink langzeitarchiviert. Die Daten werden außerdem mit einem PID aus dem Handle.net-System versehen und stehen stabil referenzierbar zur Verfügung. Im Zuge des Ingest wird automatisch die HTML-Anzeige 
+                    <hi rend="italic">on the fly</hi> mittels gängigen Webtechnologien basierend auf vorgefertigten XSLT-Transformationen generiert. Der Webauftritt der Hyperdiplomatischen Transkriptionsplattform umfasst eine vertikale wie auch horizontale Text-Bild-Synopse (wahlweise mit diplomatischer Transkription oder Lesetext), die Editionsrichtlinien, die Handschriften- und Zeichenbeschreibung, Metadaten und Lizenzinformationen sowie Zitiervorschläge.
+                </p>
+                <p style="text-align: left; ">Die Hyperdiplomatische Transkriptionsplattform stellt zur Nachvollziehbarkeit und Nachnutzbarkeit des Workflows sämtliche XSLT-Stylesheets etc. zur Verfügung. Außerdem werden in einer umfangreichen Dokumentation (
+                    <ref target="http://gams.uni-graz.at/o:hyper.documentation/sdef:TEI/get?mode=overview">
+                        <hi rend="color(1155CC)">http://gams.uni-graz.at/o:hyper.documentation/sdef:TEI/get?mode=overview</hi>
+                    </ref>), die sich der Transkription, dem Datenmodell, der Kollationierung und Validierung sowieder Archivierung und Publikation der Daten widmet, die einzelnen Schritte mit Verlinkungen zu weiteren Ressourcen, wie z.B. dem 
+                    <hi rend="italic" xml:space="preserve">KONDE-Weißbuch </hi>(Klug/Galka/Steiner 2021) mit Einträgen zur digitalen Edition, genau erläutert. Eine Kurzbeschreibung (
+                    <ref target="http://gams.uni-graz.at/o:hyper.documentation/sdef:TEI/get?mode=shortdescription">
+                        <hi rend="color(1155CC)">http://gams.uni-graz.at/o:hyper.documentation/sdef:TEI/get?mode=shortdescription</hi>
+                    </ref>) der einzelnen Schritte erspart das ständige zur Rate ziehen der ausführlichen Dokumentation und ein Aktivitätsdiagramm veranschaulicht die einzelnen Arbeitsschritte und bietet eine Verlinkung zu den jeweiligen Anleitungen (
+                    <ref target="http://gams.uni-graz.at/archive/objects/context:hyper/methods/sdef:Context/get?mode=diagram">
+                        <hi rend="color(1155CC)">http://gams.uni-graz.at/archive/objects/context:hyper/methods/sdef:Context/get?mode=diagram</hi>
+                    </ref>).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">Die Plattform und das Editionskonzept richtet sich grundsätzlich an all jene Editorinnen und Editoren, die bereits Vorkenntnisse in Bezug auf digitale Editionen mitbringen, wie z.B. Wissen über XML/TEI, XSLT, oder den Umgang mit dem Oxygen-XML-Editor. Das Paradigma der “Minimal Edition” bezieht sich hier auf einen nachhaltig erarbeiteten und von weiteren Editionsprojekten nachnutzbaren Workflow. In der Regel evaluiert jedes Editionsprojekt in unterschiedlichen Stadien mögliche Tools und Workflows, mit denen im Team gearbeitet werden soll, sei es für die Transkription, Annotation oder für die Publikation. Im Projekt Hyper wurde jedoch ein standardisierter Workflow entwickelt, der auf wenigen, zur sofortigen Nutzung bereitstehenden Tools und Routinen aufbaut und in einer umfangreichen Dokumentation beschrieben wird, wodurch Editorinnen und Editoren,  welche diesen Text auch einem größeren Publikum im Zuge einer digitalen Edition möglichst einfach zugänglich machen wollen, auf diesen zugreifen können. Die “Einschränkung” ist, dass die hyperdiplomatische Transkribtionsmethode übernommen werden muss. Risam/Gill 2022b schlagen für ihre Variante des 
+                    <hi rend="italic">minimal editing</hi> vor, nur die absolut notwendigen Technologien für die Umsetzung eines bestimmten Vorhabens zu verwenden. Da einer der Grundpfeiler von digitalen Edition aber die Modellierung der Daten in einem standardisierten Datenformat ist, wurde bewusst entschieden, dass bei der hyperdiplomatischen Modellierung mit TEI/XML keine Abstriche gemacht werden sollen. Da sowohl Edierende wie auch Benutzerinnen und Benutzer von digitalen Editionen gewisse Standards in der Datenpräsentation erwarten (Caria/Mathiak 2018), werden auch dafür komplexe Technologien verwendet, die allerdings an die verwendete Repositoriumslösung angeknüpft sind. Sowohl die Modellierung der Quelle als auch die Präsentation sind in einem projektspezifischen Datenmodell verwirklicht. 
+                    <hi rend="italic">Hyper</hi> unterscheidet sich von anderen Tools und Lösungen auch dadurch, dass die Daten langzeitarchiviert werden und unter einem PID erreichbar sind. “Minimal Editing” bedeutet im Rahmen dieser Plattform also nicht nur, dass es ein fertiges Datenmodell und einen erprobten Workflow gibt, sondern auch, dass der Aufwand seitens der Repositoriumsbetreiber für die Archivierung und Präsentation der Daten sehr gering ist. Alle veröffentlichten Quellen stehen 
+                    <hi rend="italic">open access</hi> zur Verfügung, außerdem werden sämtliche Dateien, die im Workflow benötigt werden, wie XSLT-Stylesheets oder Schema-Dateien offen auf GitHub bereitgestellt.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left; ">Das Ziel der 
+                    <hi rend="italic">Minimal Edition</hi> ist es nicht, möglichst viele Editionsprojekte möglichst schnell umzusetzen, sondern einen niederschwelligen Zugang anzubieten, damit ohne großen Aufwand “reduziertere” digitale Editionen geschaffen werden können, die trotzdem qualitativen Standards entsprechen. Die 
+                    <hi rend="italic">Hyperdiplomatische Transkriptionsplattform</hi> ist zwar momentan hauptsächlich für all jene interessant, die hyperdiplomatisch transkribieren – allerdings ist es ein erster Schritt in eine Zukunft, in der auch andere Editionen, die dem 
+                    <hi rend="italic">minimal-editing</hi>-Konzept folgen, ohne großen organisatorischen Aufwand publiziert werden können.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Böhm, Astrid.</hi> 2022. “Hyperdiplomatische Transkription der Handschrift Wien, ÖNB, Cod. 3085, fol. 1r-39v.” In 
+                        <hi rend="italic">Hyperdiplomatische Transkriptionsplattform</hi>, hg. von Helmut W. Klug unter Mitarbeit von Selina Galka. GAMS. PID: o:hyper.OENB3085 (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Böhm, Astrid, und Helmut W. Klug.</hi> 2020. “Quellenorientierte Aufbereitung historischer Texte im Rahmen digitaler Editionen: Das Problem der Transkription in mediävistischen Editionsprojekten.” In 
+                        <hi rend="italic">Digitale Methoden und Objekte in Forschung und Vermittlung der mediävistischen Disziplinen</hi>.
+                        <hi rend="italic" xml:space="preserve"> Akten der Tagung Bamberg, 08.-10. November 2018</hi>, hg. von Ingrid Bennewitz und Martin Fischer, S. 51–72. Bamberg: University of Bamberg Press.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Caria, Federico, and Brigitte Mathiak.</hi> 2018. “Minimal Functionality for Digital Scholarly Editions.” In 
+                        <hi rend="italic">Digital Cultural Heritage: Final Conference of the Marie Skłodowska-Curie Initial Training Network for Digital Cultural Heritage, ITN-DCH 2017, Olimje, Slovenia, May 23–25, 2017, Revised Selected Papers</hi>, hg. von Marinos Ioannides, 350–63. Cham: Springer International Publishing. 
+                        <ref target="https://doi.org/10.1007/978-3-319-75826-8_28">https://doi.org/10.1007/978-3-319-75826-8_28</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">CETEIcean.</hi> TEI in HTML5 Custom Elements. Raffaele Viglianti. 
+                        <ref target="https://github.com/TEIC/CETEIcean">
+                            <hi rend="color(1155CC)">https://github.com/TEIC/CETEIcean</hi>
+                        </ref> (zugegriffen: 22. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">CoreTrustSeal. </hi>
+                        <ref target="https://www.coretrustseal.org/">
+                            <hi rend="color(1155CC)">https://www.coretrustseal.org/</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Data Seal of Approval Synopsis. </hi>
+                        <ref target="https://www.coretrustseal.org/about/history/data-seal-of-approval-synopsis-2008-2018/">
+                            <hi rend="color(1155CC)">https://www.coretrustseal.org/about/history/data-seal-of-approval-synopsis-2008-2018/</hi>
+                        </ref>. (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">EVT (Edition Visualization Technique).</hi> Roberto Rosselli Del Turco. 
+                        <ref target="http://evt.labcd.unipi.it/">
+                            <hi rend="color(1155CC)">http://evt.labcd.unipi.it</hi>
+                        </ref> (zugegriffen: 22. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">FAIR Principles. </hi>
+                        <ref target="https://www.go-fair.org/fair-principles/">
+                            <hi rend="color(1155CC)">https://www.go-fair.org/fair-principles/</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">FEDORA Commons. </hi>
+                        <ref target="http://www.fedora-commons.org/">
+                            <hi rend="color(1155CC)">http://www.fedora-commons.org/</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Franzini, Greta, Melissa Terras und Simon Mahony.</hi> 2019. “Digital editions of text: Surveying user requirements in the Digital Humanities.” In
+                        <hi rend="italic" xml:space="preserve"> ACM Journal on Computing and Cultural Heritage (JOCCH)</hi> 12 (1): 1-23. 
+                        <ref target="https://doi.org/10.1145/3230671">
+                            <hi rend="color(1155CC)">https://doi.org/10.1145/3230671</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">GAMS. </hi>
+                        <ref target="https://gams.uni-graz.at/">
+                            <hi rend="color(1155CC)">https://gams.uni-graz.at</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Gil, Alex:</hi> “The User, the Learner and the Machines We Make”, 21. Mai 2015. 
+                        <ref target="http://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/">http://go-dh.github.io/mincomp/thoughts/2015/05/21/user-vs-learner/</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Handle.net Registry.</hi> 
+                        <ref target="https://www.handle.net/">
+                            <hi rend="color(1155CC)">https://www.handle.net/</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Hofmeister-Winter, Andrea.</hi> 2003. “Das Konzept einer „Dynamischen Edition” dargestellt an der Erstausgabe des „Brixner Dommesnerbuches” von Veit Feichter (Mitte 16. Jh.).”, Göppingen: Kümmerle.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">GitHub: Hyper. </hi>
+                        <ref target="https://github.com/ditah-at/hyper">
+                            <hi rend="color(1155CC)">https://github.com/ditah-at/hyper</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Klug, Helmut W., Astrid Böhm und Elisabeth Raunig (Hrsg.).</hi> 2019. Mittelalterlabor. Transkription der Handschrift Graz, UB, Ms. 1609. 
+                        <ref target="http://hdl.handle.net/11471/521.60">hdl.handle.net/11471/521.60</ref> (GAMS. 521.60.) (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Klug, Helmut W., Astrid Böhm und Christian Steiner (Hrsg).</hi> 2020-02. CoReMA - Cooking Recipes of the Middle Ages. Corpus - Analysis - Visualisation. hdl.handle.net/11471/562.10 (GAMS. 562.10) (zugegriffen: 25. Juli 2022).</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Klug, Helmut W., Selina Galka und Elisabeth Steiner (Hrsg).</hi> 2021. KONDE Weißbuch. hdl.handle.net/11471/562.50. (GAMS. 562.50.) 
+                        <ref target="http://www.digitale-edition.at/">
+                            <hi rend="color(1155CC)">www.digitale-edition.at</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Klug, Helmut W. und Astrid Böhm</hi> 2021. “Datenmodell “Hyperdiplomatische Transkription”.” In 
+                        <hi rend="italic">KONDE Weißbuch</hi>, hg. von Helmut W. Klug unter Mitarbeit von Selina Galka und Elisabeth Steiner im HRSM Projekt “Kompetenznetzwerk Digitale Edition”. Handle: hdl.handle.net/11471/562.50.50. PID: o:konde.50 (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Klug, Helmut W. und Selina Galka (Hrsg.).</hi> 2022. Hyperdiplomatische Publikationsplattform. 
+                        <ref target="http://gams.uni-graz.at/hyper">
+                            <hi rend="color(1155CC)">gams.uni-graz.at/hyper</hi>
+                        </ref>. (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">OAIS Reference Model</hi> (ISO 14721). 
+                        <ref target="http://www.oais.info/">
+                            <hi rend="color(1155CC)">http://www.oais.info/</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Pierazzo, Elena.</hi> 2019. “What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter.” In
+                        <hi rend="italic" xml:space="preserve"> International Journal of Digital Humanities</hi> 1 (2): 209-20. doi:10.1007/s42803-019-00019-3. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Risam, Roopika und Alex Gil.</hi> 2022a. Minimal Computing. Digital Humanities Quarterly, Vol 16 (2). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/16/2/index.html">
+                            <hi rend="color(1155CC)">http://www.digitalhumanities.org/dhq/vol/16/2/index.html</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Risam, Roopika und Alex Gil.</hi> 2022b. “Introduction: The Questions of Minimal Computing.” In 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 16 (2). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html">
+                            <hi rend="color(1155CC)">http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stigler, Johannes, und Elisabeth Steiner.</hi> 2018. “GAMS – Eine Infrastruktur zur Langzeitarchivierung und Publikation geisteswissenschaftlicher Forschungsdaten.” In 
+                        <hi rend="italic" xml:space="preserve">Mitteilungen der Vereinigung Österreichischer Bibliothekarinnen und Bibliothekare </hi>71: 207–16. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">TEI-Publisher.</hi> The Instant Publishing Toolbox. 
+                        <ref target="https://teipublisher.com/index.html">
+                            <hi rend="color(1155CC)">https://teipublisher.com/index.html</hi>
+                        </ref> (zugegriffen: 22. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">transcriptiones.</hi> Transkriptionen historischer Manuskripte erstellen, teilen, nutzen. 
+                        <ref target="https://transcriptiones.ch/">
+                            <hi rend="color(1155CC)">https://transcriptiones.ch</hi>
+                        </ref> (zugegriffen: 22. Dezember 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

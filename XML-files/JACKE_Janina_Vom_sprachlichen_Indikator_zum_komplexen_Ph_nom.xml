@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="JACKE_Janina_Vom_sprachlichen_Indikator_zum_komplexen_Ph_nom" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vom sprachlichen Indikator zum komplexen Phänomen?</title>
+                <author>
+                    <persName>
+                        <surname>Jacke</surname>
+                        <forename>Janina</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>janina.jacke@uni-goettingen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-14T09:22:18.29</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Operationalisierung</term>
+                    <term>Literaturwissenschaft</term>
+                    <term>Komplexität</term>
+                    <term>Theorie</term>
+                    <term>unzuverlässiges Erzählen</term>
+                    <term>Modellierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zum Verhältnis zwischen computationeller und traditioneller Literaturwissenschaft</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Operationalisierungsprobleme in der computationellen Literaturwissenschaft am Beispiel des unzuverlässigen Erzählens</head>
+                </div>
+                <p>Im Feld der Digital Humanities hat sich die computationelle Literaturwissenschaft als Teildisziplin etabliert. Von literaturwissenschaftlicher Seite wird allerdings immer wieder angemahnt, die computationelle Auseinandersetzung mit Literatur sei zu reduktionistisch – unter anderem weil Textanalysen nur statistisch-deskriptiv und weitgehend kontextfrei möglich seien (vgl. Gius/Jacke 2022). Derartigen Bedenken lässt sich auf unterschiedliche Weise begegnen. Eine Möglichkeit besteht in der Akzeptanz, dass die computationelle und die traditionelle Literaturwissenschaft schlichtweg unterschiedliche Fragen an Texte stellen. Soll die Idee eines Brückenschlags zwischen traditioneller und computationeller Literaturwissenschaft dagegen nicht verworfen werden, gibt es zwei weitere Möglichkeiten: Es kann der ambitionierte Versuch unternommen werden, auch für komplexere literaturwissenschaftliche Fragestellungen (vollständig) computationelle Lösungen zu finden. Solche Versuche sind zwar wünschenswert, sollten aber (durch den großen Aufwand und die oft eingeschränkten Erfolgsaussichten) nicht die einzige Möglichkeit darstellen, computationelle Modellierung für traditionelle literaturwissenschaftliche Fragen fruchtbar zu machen. </p>
+                <p>Der vorliegende Beitrag stellt eine andere Möglichkeit vor, wie ein Brückenschlag aussehen kann: Es kann es fruchtbar sein, dezidiert nur eine computationelle Teil-Operationalisierung komplexer literarischer Phänomens anzustreben und möglichst genau zu ergründen und zu explizieren, welcher Status den entwickelten computationellen Analysemethoden im Zusammenhang mit komplexeren literarischen Phänomenen und Fragestellungen zukommt. Computationelle Modelle können deskriptiv-quantitativ Textmerkmale feststellen, die als Indikatoren für komplexere literaturwissenschaftlich interessante Phänomene verstanden werden können. Sinnvoll verwertbar sind solche Analysen, wenn das Indikationsverhältnis (also die genaue Beziehung zwischen Indikator und komplexem Phänomen) spezifiziert wird. Dabei geht es zum einen um die (aus literaturwissenschaftlicher Perspektive nachvollziehbare) 
+                    <hi rend="italic">Erklärung der Indikationsbeziehung</hi> („Warum indiziert das sprachliche Merkmal das komplexe literarische Phänomen?“), zum anderen um die 
+                    <hi rend="italic">Bestimmung der</hi>
+                    <hi rend="italic">Indikationskraft</hi> („Wie eng ist der Zusammenhang zwischen Indikator und komplexem Phänomen?“). Für beide Fragen kann die Identifikation und Analyse von 'Zwischenphänomenen' sinnvoll sein – also von Phänomenen mittlerer Komplexität, die (inhaltlich-logisch) als Verbindungsglieder zwischen einfachem sprachlichen Indikator und komplexem literarischen Phänomen zu verstehen sind.
+                </p>
+                <p>Die vorgeschlagenen Ideen zur
+                    <hi rend="color(#000000)">Spezifikation des Indikationsverhältnisses basieren auf ersten Erkenntnissen aus dem Versuch der Operationalisierung und computationellen Teil-Modellierung des literaturwissenschaftlichen Konzepts „</hi>
+                    <hi rend="color(#000000)">unzuverlässiges Erzählen“</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">im Rahmen des Projekts CAUTION.</hi>
+                    <hi rend="color(#000000)"><ref n="1" target="ftn1"/>
+                    </hi>
+                    <hi rend="color(#000000)"> U</hi>
+                    <hi rend="color(#000000)">nzuverlässiges Erzählen liegt dann vor, wenn der Erzählfigur einer fiktionalen Erzählung insofern ‚nicht zu trauen‘ ist, als ihre Aussagen über die fiktive Welt teilweise falsch sind oder relevante Aussagen fehlen bzw. die moralischen Ansichten der Erzählfigur in Diskrepanz zu durch das Werk vermittelten Werten stehen (vgl. Kindt 2008, 53). In diesem Beitrag wird unzuverlässiges Erzählen als illustratives Beispiel angeführt. Da die präsentierten Ideen zur Spezifikation des Indikationsverhältnisses auch im Rahmen anderer Vorhaben genutzt werden können, in denen komplexe literaturwissenschaftliche Konzepte (teilweise) computationell modelliert werden, versteht sich dieser Ansatz als theoretischer Beitrag, der zur Stärkung der Brücke zwischen traditioneller und computationeller Literaturwissenschaft beitragen möchte.</hi>
+                </p>
+                <p>Im Folgenden sollen zunächst kurz die für den vorgestellten Ansatz zentralen Begriffe „Operationalisierung“ und „Komplexität“ diskutiert werden (Abschnitt 2). Im Anschluss wird die vorgeschlagene Analyse des Indikationsverhältnisses genauer expliziert (Abschnitt 3), die auf einer theoretischen Analyse des Unzuverlässigkeitskonzepts sowie ersten Annotations- und Analyseerfahrungen im Rahmen von CAUTION basiert.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Begriffsklärung: Operationalisierung und Komplexität</head>
+                <p>Die Operationalisierung geisteswissenschaftlicher Konzepte für die computationelle Textanalyse ist bereits zum Thema extensiver Auseinandersetzung geworden (vgl. Moretti 2013, Döring/Bortz 2016, Pichler/Reiter 2021, Krautter et al. im Erscheinen). Unter der Operationalisierung von Begriffen ist die Angabe von Handlungsschritten zu verstehen, die ausgeführt werden müssen, um das Phänomen identifizieren (bzw. messen und quantifizieren) zu können. Im Feld der Digital Humanities wurde der Begriff von Moretti eingeführt (vgl. Moretti 2013). Seine literaturwissenschaftlichen Beispiele zeigen aber, dass die operationalisierten Modelle oft nicht oder nur lose an die zu operationalisierenden literaturwissenschaftlichen Konzepte angeknüpft sind (vgl. Krautter/Pichler/Reiter im Erscheinen). Es liegt der Schluss nahe, dass viele literaturwissenschaftliche Konzepte zu komplex sind, um sich unter Erhaltung ihrer ursprünglichen Bedeutung und Funktion vollständig und eindeutig operationalisieren bzw. computationell modellieren zu lassen. Dennoch scheinen die bisherigen Beiträge nicht grundsätzlich von dem Ziel Abstand zu nehmen, mit computationellen Operationalisierungen vollständige Übersetzungen bzw. direkte Entsprechungen komplexer Konzepte zu entwickeln. Reduzierte Ansprüche lassen sich lediglich insofern feststellen, als im Falle umstrittener Konzepte eine begründete Auswahl aus dem Definitionsangebot (vgl. Döring/Bortz 2016, 226) oder möglicher Kontexte (vgl. Pichler/Reiter 2021, 6) getroffen wird. Grundsätzlich wird aber davon ausgegangen, dass durch die Aufgliederung in Teilschritte (vgl. Pichler/Reiter 2021, 19–23) bzw. die Kombination unterschiedlicher Indikatoren (vgl. Döring/Bortz 2016, 229) die entwickelten Modelle direkt auf die komplexen geisteswissenschaftlichen Phänomene zielen. Es wird nicht in Betracht gezogen, dass es – um Reduktionismus zu vermeiden – notwendig oder sinnvoll sein könnte, mit dem computationellen Modell dezidiert nur einen Baustein zu ihrer Analyse beizutragen und dessen genaue Funktion zu explizieren. Das Kriterium der Validität (vgl. Drost 2011) computationeller Modelle wäre aus dieser Perspektive neu zu denken: Es ist nicht notwendig, dass die Modelle dasjenige messen, nach dem Literaturwissenschaftler:innen fragen – sofern die Relation zwischen Modell und Phänomen so expliziert wird, dass ein (nicht-computationelles) literaturwissenschaftliches Weiterarbeiten mit den erzielten Ergebnissen ermöglicht wird (vgl. hier auch Flick 2012 zu Triangulation).</p>
+                <p>
+                    <hi rend="color(#000000)">Aber warum bzw. inwiefern kann die Komplexität literaturwissenschaftlicher Phänomene es notwendig oder sinnvoll machen, von einer vollständigen computationellen Modellierung abzusehen? In diesem Zusammenhang sind unterschiedliche Dimensionen der Komplexität literarischer Phänomene (bzw. der literaturwissenschaftlichen Konzepte, die diese Phänomene fassen sollen) zu beachten. </hi>Literarische Phänomene können zum einen dadurch komplex sein, dass sie zusammengesetzt sind (vgl. Gius 2019). In solchen Fällen müssen mehrere Teilphänomene vorliegen bzw. untersucht werden, um Aussagen über das komplexe Gesamtphänomen treffen zu können. Eine Operationalisierung, die so ein zusammengesetztes Phänomen unter Erhaltung der literaturwissenschaftlichen Bedeutung in Teilschritte zur Erkennung übersetzen will, ist deshalb schwierig, weil die einzelnen Teilphänomene und ihre Beziehung zueinander identifiziert und diese dann jeweils operationalisiert und computationell modelliert werden müssen. Da literaturwissenschaftliche Konzepte häufig nicht derart analytisch aufbereitet sind, wäre die Rekonstruktion und behutsame Schärfung einer solchen Definition (vgl. Carnap 1959 zu Explikation), ebenso wie die Überprüfung, ob diese Definition mit der tatsächlichen Verwendung des Konzepts in der Literaturwissenschaft kompatibel ist, eine Aufgabe, die im Rahmen der Operationalisierung stattfinden müsste.
+                </p>
+                <p>Unzuverlässiges Erzählen ist insofern zusammengesetzt, als es in distinkte Typen mit unterschiedlichen Eigenschaften zerfällt (vgl. Jacke 2020, 17–57). Zudem muss (zumindest laut einigen Definitionen) eine Kombination aus mehreren (Text-)Eigenschaften gegeben sein, damit unzuverlässiges Erzählen vorliegt. Diese Probleme ließen sich allerdings noch durch begründete Auswahl und ein Zergliedern in Analyseschritte adressieren, wie von Döring/Bortz bzw. Pichler/Reiter vorgeschlagen.</p>
+                <p>Zum anderen können literarische Phänomene dadurch komplex sein, dass ihre Feststellung in einem Text interpretationsabhängig ist. Interpretationsabhängigkeit ist dabei als gradierbare Eigenschaft zu verstehen – der Grad bemisst sich danach, in welchem Maße nicht-wahrheitserhaltende Schlüsse und strittige (Kontext-)Annahmen notwendig sind, um das Vorliegen des Phänomens festzustellen. Auch bei der Feststellung des Vorliegens interpretationsabhängiger Phänomene spielen aber in der Regel der literarische Text selbst bzw. konkrete identifizierbare Texteigenschaften eine zentrale Rolle – die alleinige Bezugnahme auf sie ist aber eben nicht ausreichend, um für ihr Vorliegen zu argumentieren. Bei starker Interpretationsabhängigkeit ist es in der Regel extrem kompliziert (bzw. möglicherweise unmöglich), ein literaturwissenschaftliches Konzept vollständig (computationell) zu operationalisieren. Dies ergibt sich zum einen durch die Schwierigkeit, die im Rahmen von Interpretation stattfindenden zahlreichen und schwer zu fassenden Prozesse überhaupt zu rekonstruieren, zum anderen durch die Herausforderung, extratextuelles Wissen in computationellen Analysen abzubilden.</p>
+                <p>Einige zentrale Aspekte, die für das Vorliegen unzuverlässigen Erzählens notwendig sind, sind interpretationsabhängig. Beispielsweise ist es für faktenbezogene Unzuverlässigkeit notwendig, dass eine Erzählfigur falsche Aussagen über die erzählte Welt tätigt (oder relevante Informationen auslässt, vgl. Kindt 2008, 53). Eine derartige Diagnose erfordert eine Entscheidung darüber, was in der erzählten Welt wahr und relevant ist. Für Entscheidungen dieser Art sind zwar Textargumente (vgl. Descher/Petraschka 2019, 88–93) sehr wichtig. Aber zum einen müssen diese Textargumente unter Umständen in komplizierter Weise gegeneinander abgewägt werden und zum anderen sind – gerade bei potenziell unzuverlässig erzählten Texten – Kontextannahmen in der Regel unerlässlich für die Rekonstruktion der fiktiven Welt.</p>
+                <p>Während eine vollständige (computationelle) Operationalisierung unzuverlässigen Erzählens also wenig aussichtsreich erscheint, bietet die Relevanz von Textargumenten dennoch einen aussichtsreichen Ausgangspunkt für die Entwicklung computationeller Modelle, die für die Analyse von Unzuverlässigkeit in Texten unterstützend herangezogen werden können. So werden in der (nicht-computationellen) Unzuverlässigkeitsforschung auch tatsächlich Indikatorenlisten zusammengestellt, die unter anderem auch wenig komplexe sprachliche Phänomene enthalten, deren computationelle Modellierung aussichtsreich bzw. bereits umgesetzt ist. Die Indikatoren reichen von konkreten sprachlichen Einzelphänomenen („Ausrufe, Ellipsen, Wiederholungen“) und nicht spezifizierten linguistischen Sammelphänomenen („linguistische Signale für Expressivität und Subjektivität“) über Eigenschaften bzw. Zustände von Erzähler:innen („Hinweise auf kognitive Einschränkungen“) sowie Sprachhandlungen und Absichten (versuchte „Rezeptionslenkung durch den Erzähler“, Nünning 1998, 27–28) bis hin zu inhaltlich-strukturellen (verschiedene Arten von Widersprüchen) und inhaltlich-kontextuellen Phänomenen (stark unwahrscheinliche oder unmögliche Aussagen). Eine Analyse der Indikationsbeziehungen wird in der Unzuverlässigkeitsforschung allerdings nicht vorgenommen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zum Status von Indikatoren für komplexe literaturwissenschaftliche Phänomene</head>
+                <p>Um Klarheit über die Relevanz konkreter computationell modellierter sprachlicher Indikatoren im Zusammenhang mit komplexen literarischen Phänomenen zu erlangen, sollte zum einen reflektiert und kommuniziert werden, welche Funktion dem Modell zukommen soll, also ob es beispielsweise als Heuristik zum Auffinden für eine Forschungsfrage potenziell relevanter Texte (bzw. zur Exploration von Korpora), in argumentativen Zusammenhängen genutzt (vgl. Gerstorfer 2020) oder in anderen Funktionen eingesetzt werden soll. Hiervon ist abhängig, wie stark die Indikationsbeziehung überhaupt sein muss, um valide (oder: plausible) Ergebnisse erzielen zu können (vgl. Gius/Jacke 2022).<ref n="2" target="ftn2"/>
+                </p>
+                <p>Zwei weitere Aspekte der Indikationsbeziehung, die für eine literaturwissenschaftliche Verwertbarkeit computationeller Modelle im Zusammengang mit komplexen Phänomenen analysiert und kommuniziert werden sollten, werden im Folgenden etwas genauer vorgestellt.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Erklärung der Indikationsbeziehung</head>
+                    <p>Grundsätzlich gilt, dass computationelle Modelle, die für die Textanalyse eingesetzt werden, für viele Literaturwissenschaftler:innen insbesondere dann interessant sind, wenn (zumindest ansatzweise) nachvollziehbar wird, 
+                        <hi rend="italic">warum</hi> sie funktionieren. Es ist deswegen lohnenswert zu fragen, warum bestimmte einfache sprachliche Textmerkmale auf das Vorliegen eines bestimmten komplexen Phänomens hinweisen können – und ob sich zwischen diesen beiden Polen möglicherweise Phänomene mittlerer Komplexität identifizieren lassen, die dieses Indikationsverhältnis (logisch-inhaltlich) besser nachvollziehbar machen.
+                    </p>
+                    <p>Warum, beispielsweise, soll ein sprachliches Phänomen wie Ausrufe unzuverlässiges Erzählen indizieren? Ausrufe sind ein Merkmal expressiver Sprache. Expressive Sprache weist auf eine emotional aufgewühlte Erzählinstanz hin. Eine emotional aufgewühlte Erzählinstanz neigt dazu, etwas durcheinanderzubringen. Eine Erzählinstanz, die etwas durcheinanderbringt, ist disponiert, inkorrekte Aussagen zu treffen. Eine Erzählinstanz, die inkorrekte Aussagen tätigt, lässt sich als unzuverlässige Erzählinstanz einordnen.</p>
+                    <p>Während diese Reihe das Fortschreiten von nicht zu stark interpretationsabhängigen Texteigenschaften illustriert, sollten insbesondere bei dem hier gewählten Beispiel auch kausale Zusammenhänge bzw. Richtungen beachtet werden. Eine entsprechende Analyse zeigt, dass das Vorliegen sprachlicher Merkmale wie Ausrufe im Text und das Vorliegen unzuverlässigen Erzählens nicht im eigentlichen Sinn kausal verbunden sind, sondern dass beide Phänomene (intrafiktionaler Logik folgend) die gleiche Ursache haben können – nämlich eine emotional aufgewühlte Erzählinstanz (siehe auch Reichenbachs 
+                        <hi rend="italic">common cause principle</hi>, vgl. Hitchcock/Rédei 2020).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Art und Stärke der Indikationsbeziehung</head>
+                    <p>Konkrete sprachliche Texteigenschaften, die als Indikatoren für komplexere literarische Phänomene betrachtet werden, können diese Phänomene in unterschiedlicher Art und mit unterschiedlicher Stärke indizieren:</p>
+                    <p>(1) Das Vorkommen bestimmter sprachlicher Indikatoren (ggf. mit einer bestimmten Frequenz, in bestimmten Kombinationen oder an bestimmten Stellen in einem Text) kann notwendig oder (meist in Kombination mit anderen Indikatoren) hinreichend für das Vorliegen eines bestimmten komplexen Phänomens sein. Ein Indikator ist dann notwendig für ein Phänomen, wenn er vorliegen muss, sofern das Phänomen vorliegt; hinreichend ist er dann, wenn sein Vorliegen das Vorliegen des Phänomens garantiert (vgl. Brennan 2022). Während ein einzelnes sprachliches Phänomen in der Regel weder notwendig noch hinreichend für das Vorliegen eines komplexen literarischen Phänomens ist, lassen sich unter Einbeziehung der oben genannten Zwischenphänomene als Verbindungsglieder zwischen sprachlichem Indikator und komplexem Phänomen aussagekräftigere Ergebnisse erzielen.<ref n="3" target="ftn3"/> Für jede dieser Indikationsbeziehungen lässt sich analysieren, ob der Indikator (möglicherweise auch in Konjunktionen oder Disjunktionen mit weiteren Indikatoren) notwendig oder hinreichend ist. Beispielsweise lässt sich feststellen, dass die Disjunktion aus Ausrufen und bestimmten weiteren sprachlichen Einzelphänomenen (wie beispielsweise expressiven Adjektiven etc., vgl. Gutzmann 2019) notwendig für expressive Sprache ist. Derartige Analysen lassen sich etwa auf der Basis von begriffsanalytischen Überlegungen und literaturwissenschaftlichen Argumentationsanalysen durchführen.<ref n="4" target="ftn4"/>
+                    </p>
+                    <p>(2) Basierend auf dem Vorkommen bestimmter sprachlicher Indikatoren (ggf. mit einer bestimmten Frequenz, in bestimmten Kombinationen oder an bestimmten Stellen in einem Text) kann dem Vorliegen eines bestimmten komplexen Phänomens eine hohe Wahrscheinlichkeit zugeschrieben werden. Solche bedingte Wahrscheinlichkeit lässt sich zum einen ebenfalls auf einer Mikroebene analysieren: So ist beispielsweise anzunehmen, dass expressive Sprache zwar weder notwendig noch hinreichend für eine emotional aufgewühlte Erzählinstanz ist, diese aber mit hoher Wahrscheinlichkeit indiziert.<ref n="5" target="ftn5"/> Zum anderen kann aber auch die Wahrscheinlichkeit auf der Makroebene interessant sein, mit der ein einfaches sprachliches Phänomen ein komplexes literarisches indiziert. Derartige Untersuchungen lassen sich nur mithilfe von Studien durchführen, bei denen Literaturwissenschaftler:innen das Vorliegen relevanter mittelkomplexer und komplexer Phänomene in einem Testkorpus beurteilen und manuell auszeichnen, in dem zugleich sprachliche Indikatoren für das Phänomen computationell identifiziert und ausgewertet werden. Derartige Studien werden im Rahmen des Projekts CAUTION durchgeführt.<ref n="6" target="ftn6"/>
+                    </p>
+                    <p>Auch bei der Analyse von Wahrscheinlichkeitszusammenhängen ist es wichtig, Kausalitätsrichtungen zu beachten, um die Relevanz eines computationellen Modells richtig einzuschätzen: Selbst wenn beispielsweise Emotionalität der Erzählinstanz sich mit sehr hoher Wahrscheinlichkeit in Form (automatisch messbarer) emotionaler Sprache niederschlägt, und wenn dieselbe Emotionalität ebenfalls mit hoher Wahrscheinlichkeit unzuverlässiges Erzählen hervorbringt, muss untersucht werden, ob die sprachlichen Indikatoren und unzuverlässiges Erzählen nicht mit ebenso hoher Wahrscheinlichkeit jeweils andere (verschiedene) Ursachen haben können.</p>
+                    <p>Insgesamt kann die Identifikation von mittelkomplexen Phänomenen als Verbindungsgliedern zwischen sprachlichen Indikatoren und komplexen literarischen Phänomenen also nicht nur die Relevanz computationell modellier- und auswertbarer Texteigenschaften für literaturwissenschaftlich interessante Phänomene logisch-inhaltlich besser begreifbar machen. Sie ermöglicht auch eine aussagekräftigere (theoretische und methodologische) Analyse des komplexen literaturwissenschaftlichen Konzepts sowie eine Analyse der Indikationsverhältnisse und schafft die Grundlage für Teilerfolge (bspw. falls zwar letztlich kein signifikantes Indikationsverhältnis zwischen sprachlichem Indikator und komplexem Phänomen festgestellt werden kann, wohl aber zwischen sprachlichem Indikator und literaturwissenschaftlich ebenfalls relevanten Zwischenphänomenen). Der hier vorgeschlagene Weg, komplexe literarische Phänomene im Rahmen computationeller Zugänge bewusst nur partiell zu operationalisieren und zu modellieren, stellt auf diese Weise eine Möglichkeit dar, wie
+                        <hi rend="color(#000000)">die Untersuchung literarischer Phänomene von den Vorteilen computationeller Analysen (u.a. Exaktheit und Reichweite) profitieren kann, ohne dass der Vorwurf des Reduktionismus angebracht ist. Denn nicht nur wird der genaue (eingeschränkte) Stellenwert der Analysen explizit gemacht – dies geschieht zudem auf eine Weise, die den Zusammenhang zwischen sprachlichen Merkmalen und komplexen interpretationsabhängigen Phänomenen auch inhaltlich expliziert und dadurch geisteswissenschaftlich anknüpfbar macht.</hi>
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">
+                            <hi rend="color(#000000)">„CAUTION“ steht für „Computer-Aided Analysis of Unreliability and Truth in Fiction – Operationalizing and Interconnecting Narratology“. Das Projekt ist assoziiert mit dem DFG-Schwerpunktprogramm Computational Literary Studies (vgl. </hi>
+                            
+                            <hi rend="color(#000000)">).</hi>
+                        </note>
+<note xml:id="ftn2" rend="footnote text" n="2"> Im Zusammenhang mit unzuverlässigem Erzählen scheinen die sprachlichen Indikatoren zumindest eine heuristische Funktion einzunehmen: Durch sie können Leser:innen auf die Idee gebracht werden, es mit unzuverlässigem Erzählen zu tun zu haben. Welche dieser Indikatoren auch für die Stützung von Unzuverlässigkeitsdiagnosen genutzt werden können, soll im Rahmen des Projekts CAUTION erforscht werden.</note>
+<note xml:id="ftn3" rend="footnote text" n="3">
+                            <anchor xml:id="id_docs-internal-guid-586958b9-7fff-40a1-8b5e-cef393f96698"/>
+                            <hi rend="color(#000000)">Ein ähnliches Vorgehen lässt sich im Rahmen von Mackies Rekonstruktion von Kausalität finden (vgl. Mackie 1974, 59–87).</hi>
+                        </note>
+<note xml:id="ftn4" rend="footnote text" n="4"> Konkret kann dies beispielsweise bedeuten, Definitionen relevanter Begriffe wie „Emotion“ heranzuziehen oder literaturwissenschaftliche Argumentationen zu untersuchen, die für die Emotionalität einer Erzählfigur argumentieren, um herauszufinden, welche Texteigenschaften in diesem Zusammenhang relevant sind.</note>
+<note xml:id="ftn5" rend="footnote text" n="5"> Für die genauere Analyse der involvierten Wahrscheinlichkeitswerte ließen sich probabilistische Logiken einsetzen, die beispielsweise mit dem Konzept der Wahrscheinlichkeitserhaltung (statt dem der Wahrheitserhaltung) arbeiten, vgl. Demey/Sack 2019.</note>
+<note xml:id="ftn6" rend="footnote text" n="6"> Zum Zeitpunkt der Verfassung dieses Beitrags ist die Annotation noch nicht so weit fortgeschritten, dass erste Ergebnisse im Hinblick auf Korrelation und Wahrscheinlichkeitswerte präsentiert werden können.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-f0c49038-7fff-6f1f-3309-20548146cd3e"/>
+                        <hi rend="bold">Brennan, Andrew.</hi> 2022. „Necessary and Sufficient Conditions.“
+                        <hi rend="color(#000000)italic">The Stanford Encyclopedia of Philosophy</hi>
+                        <hi rend="color(#000000)italic">, </hi>
+                        <hi rend="color(#000000)">hg. von Edward N. Zalta. </hi>
+                        <ptr target="https://plato.stanford.edu/archives/fall2022/entries/necessary-sufficient/"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 1. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Carnap, Rudolf. 1959.</hi>
+                        <hi rend="italic">Induktive Logik und Wahrscheinlichkeit</hi>. Wien: Springer.
+                    </bibl>
+                    <bibl><hi rend="bold">Demey, Lorenz und Joshua Sack.</hi> 2019. „Logic and Probability.“ 
+                        <hi rend="italic">T</hi>
+                        <hi rend="italic">he Stanford Encyclopedia of Philosophy, </hi>hg. von Edward N. Zalta. 
+                        <ptr target="https://plato.stanford.edu/entries/logic-probability/"/>(zugegriffen: 15. Dezember 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Descher, Stefan und Thomas Petraschka.</hi> 2019. 
+                        <hi rend="italic">Argumentieren in der Literaturwissenschaft. Eine Einführung</hi>. Stuttgart: Reclam.
+                    </bibl>
+                    <bibl><hi rend="bold">Döring, Nicola und Jürgen Bortz. </hi>2016. „Operationalisierung.“ 
+                        <hi rend="italic">Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</hi>, hg. von Nicola Döring und Jürgen Bortz. Berlin, Heidelberg: Springer, 221–289.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drost, Ellen. </hi> 2011.
+                        <anchor xml:id="id_page437R_mcid0"/>
+                        <hi rend="color(#000000)">„</hi>Validity and Reliability in Social Science Research.“ 
+                        <hi rend="italic">Education Research and Perspectives</hi> 38 (1), 105–124.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gerstorfer, Dominik.</hi> 2020. „Entdecken und Rechtfertigen in den Digital Humanities.“
+                        <hi rend="color(#000000)italic">Reflektierte algorithmische Textanalyse. Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>
+                        <hi rend="color(#000000)">, hg. von Nils Reiter, Axel Pichler und Jonas Kuhn. De Gruyter, 107–124. </hi>
+                        <ptr target="https://www.degruyter.com/document/doi/10.1515/9783110693973-005/html"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 1. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn.</hi> 2019. „Computationelle Textanalysen als fünfdimensionales Problem. Ein Modell zur Beschreibung von Komplexität.“ 
+                        <hi rend="color(#000000)italic">LitLab Pamphlet</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">#8, hg. von Thomas Weitin. </hi>
+                        <ptr target="https://www.digitalhumanitiescooperation.de/wp-content/uploads/2019/12/pamphlet_gius_2.0.pdf"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 1. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn und Janina Jacke.</hi> 2022, im Erscheinen. „Are Computational Literary Studies Structuralist?“
+                        <hi rend="color(#000000)italic">Journal of Cultural Analytics</hi>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gutzmann, Daniel.</hi> 2019.
+                        <hi rend="color(#000000)italic">The Grammar of Expressivity. </hi>
+                        <hi rend="color(#000000)">Oxford, New York: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hitchcock, Christopher und Miklós
+                        Rédei.</hi> 2020. „Reichenbach's Common Cause Principle.“ 
+                        <hi rend="color(#000000)italic">The Stanford Encyclopedia of Philosophy, </hi>
+                        <hi rend="color(#000000)">hg. von Edward N. Zalta. </hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <ptr target="https://plato.stanford.edu/entries/physics-Rpcc/"/>
+                        <hi rend="color(#000000)">(zugegriffen: 15. Dezember 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jacke, Janina. </hi> 2020.
+                        <hi rend="color(#000000)italic">Systematik unzuverlässigen Erzählens. Analytische Aufarbeitung und Explikation einer problematischen Kategorie</hi>
+                        <hi rend="color(#000000)">. Berlin, Boston: de Gruyter.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kindt, Tom.</hi> 2008. 
+                        <hi rend="color(#000000)italic">Unzuverlässiges Erzählen und literarische Moderne. Eine Untersuchung der Romane von Ernst Weiß</hi>
+                        <hi rend="color(#000000)">. Tübingen: Niemeyer.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mackie, John Leslie. </hi>1974. 
+                        <hi rend="color(#000000)italic">The Cement of the Universe. A Study of Causation</hi>
+                        <hi rend="color(#000000)">. Oxford: Clarendon Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Moretti, Franco.</hi> 2013. „‚Operationalizating‘: or, the function of measurement in modern literary theory.“ 
+                        <hi rend="color(#000000)italic">LitLab Pamphlet</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">#6, hg. von Thomas Weitin. </hi>
+                        <ptr target="https://litlab.stanford.edu/LiteraryLabPamphlet6.pdf"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(zugegriffen: 1. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nünning, Ansgar. </hi> 1998. „‚Unreliable Narration‘ zur Einführung. Grundzüge eines kognitiv-narratologischen Theorie und Analyse unglaubwürdigen Erzählens.“
+                        <hi rend="color(#000000)italic">Unreliable Narration. Studien zur Theorie und Praxisunglaubwürdigen Erzählens</hi>
+                        <hi rend="color(#000000)">, hg. von Ansgar Nünning, Bruno Zerweck und Carola Surkamp. Trier: Wissenschaftlicher Verlag Trier, 3–39.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krautter, Benjamin, Nils Reiter und Axel Pichler.</hi> Im Erscheinen. „Operationalisierung.“ 
+                        <hi rend="color(#000000)italic">Zeitschrift für digitale Geisteswissenschaften</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(Sonderband: Glossar der Begriffe).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pichler, Axel und Nils Reiter.</hi> 2021. „Zur Operationalisierung literaturwissenschaftlicher Begriffe in der algorithmischen Textanalyse. Eine Annäherung über Norbert Altenhofers hermeneutische Modellinterpretation von Kleists 
+                        <hi rend="color(#000000)italic">Das Erdbeben in Chili</hi>
+                        <hi rend="color(#000000)">.“ </hi>
+                        <hi rend="color(#000000)italic">Journal of Literary Theory</hi>
+                        <hi rend="color(#000000)"> 15 (1–2), 1–29.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

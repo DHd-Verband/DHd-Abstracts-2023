@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="RADISCH_Erik_Buddhist_Murals_of_Kucha_on_the_Northern_Silk_R" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Buddhist Murals of Kucha on the Northern Silk Road. Ein Versuch der Semi-Automatisierung der Annotierung</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Radisch</surname>
+                        <forename>Erik</forename>
+                    </persName>
+                    <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig, Deutschland</affiliation>
+                    <email>radisch@saw-leipzig.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-02T07:04:12.907000000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Neuronale Netze</term>
+                    <term>Bildannotation</term>
+                    <term>Semi-Automatisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Bilderfassung</term>
+                    <term>Annotieren</term>
+                    <term>Archivierung</term>
+                    <term>Bilder</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die buddhistischen Höhlenkomplexe in der Region Kucha an der nördlichen Seidenstraße (Uigurisches Autonomes Gebiet Xinjiang, VR China) beherbergen beeindruckende Wandmalereien, die etwa aus dem 5. bis 10. Jhd. stammen. Die ersten Hinweise auf eine frühere buddhistische Kultur wurden zu Beginn des 20. Jahrhunderts entdeckt, woraufhin mehrere Länder Expeditionen in das Gebiet schickten, um die einst in der Region vorherrschende Religion zu erforschen. Es war eine Sensation, als verschiedene buddhistische Höhlenkomplexe entdeckt wurden. Damals wurden auch die ersten Fotografien vom Ist-Zustand der Höhlen angefertigt und Teile der Malereien aus den Höhlen entnommen und in die jeweiligen Nationalmuseen gebracht. Heute sind Fragmente der Wandmalereien über die ganze Welt verstreut, was eine Zuordnung zu den einzelnen Ursprungshöhlen sehr schwierig macht (Weitere Informationen: Yaldiz 1987; Popova 2008; Dreyer 2015).</p>
+            <p>Das hier vorgestellte Projekt hat es sich zur Aufgabe gemacht, die Wandmalereien in situ und die weltweit vorhandenen Einzelstücke zu dokumentieren, zu beschreiben und mit Hilfe von historischen Fotografien wieder in ihren ursprünglichen Kontext zu bringen.<ref n="1" target="ftn1"/>
+            </p>
+            <p>Das Projekt bedient sich moderner Möglichkeiten der Digital Humanities, indem nicht nur eine umfangreiche textliche Beschreibung einzelner Szenen erfolgt, sondern auch die Bildinhalte der sich wiederholenden Darstellungen erfasst und mit digitalen Methoden angereichert werden. Zu diesem Zweck wird das digitale Bildannotationstool Annotorious<ref n="2" target="ftn2"/> (siehe Abbildung 1) genutzt, um die Inhalte direkt mit einer rund 1.000 Einträge umfassenden Taxonomie zu annotieren. Die erarbeiteten Forschungsdaten stehen online frei zur Verfügung.<ref n="3" target="ftn3"/>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/8f400e17cb83c6ae4e748a13ed8c2e8d.png"/>
+                    <head>Abbildung 1: Annotatieren mit Annotorious</head>
+                </figure>Die Annotation von Objekten im Bild ermöglicht zwar eine wissenschaftliche Nachvollziehbarkeit der identifizierten Objekte, ist aber auch eine sehr umfangreiche und zeitaufwändige Aufgabe. Viele Bildinhalte wiederholen sich häufig in unterschiedlichen Zusammenhängen. Außerdem liegen manchmal mehrere Bilder eines Objekts aus verschiedenen Perspektiven vor oder es gibt Bilder aus der Zeit der Expeditionen, auf denen abgetrennte Teile noch in ihrem ursprünglichen Kontext zu sehen sind. Es besteht also die Notwendigkeit, manchmal sehr ähnliche oder gleiche Objekte mehrfach zu annotieren. Die Übertragung von Annotationen ist jedoch schwierig. Selbst wenn Fotos von denselben Objekten vorhanden sind, können unterschiedliche Blickwinkel und verschiedene Objektive dazu führen, dass die Bilder verzerrt sind. Es ist kaum möglich, diese Aufgabe mit herkömmlichen Computer-Vision-Methoden automatisch durchzuführen.
+            </p>
+            <p>Aus diesem Grund wird im Rahmen des Projekts derzeit versucht, mit den bereits vorgenommenen Annotationen Region Based Convolutional Neural Networks (RCNNs)<ref n="4" target="ftn4"/> zu trainieren, um in Zukunft zumindest Teile der Annotation halbautomatisch (die Annotierenden werden die Möglichkeit haben, die gefundenen Regionen des RCNNs einzusehen und diese anzunehmen oder gegebenenfalls zu verbessern) durchführen zu können.
+            </p>
+            <p>Bislang wurden RCNNs in den Digital Humanities vor allem zur Identifizierung, Lokalisierung und Ordnung von Objekten in Bildern eingesetzt (siehe z.B.: Howanitz et al. 2019; Arnold/Tilton 2019; Duhaime 2019; Duhaime 2019; Helm et al. 2021). Ihre Verwendung für eine halbautomatische Annotation ist zumindest zur Kenntnis des Autors dieses Posterproposals noch nicht umgesetzt worden. Da die Ränder automatisch erkannten Annotationen oft ausfransen oder nicht das gesamte Objekt erkannt wird,mag es auch gewagt sein, einen solchen Versuch zu starten.</p>
+            <p>Die Voraussetzungen des Kucha-Projekts sind sehr gut. Es existieren bereits über 9.000 Polygone, die in insgesamt etwa 12.000 Annotationen verwendet wurden (ein Polygon kann mit mehreren Elementen der Taxonomie verknüpft sein). Einige Objekte wurden mehre hundert Mal annotiert. Es gibt jedoch auch einige Probleme, die zu berücksichtigen sind. So gibt es beispielsweise zwei grundlegend verschiedene Arten von Bildern im Korpus: zum einen Fotografien (historische und moderne), zum anderen Zeichnungen der Malereien. Die Erkennung auf Fotografien dürfte deutlich schwieriger sein, da hier die Malereien oft in sehr schlechtem Zustand sind und selbst von einem geübten Auge nur schwer zu identifizieren sind.</p>
+            <p>Es wurden verschiedene Experimente durchgeführt, die die prinzipielle Nutzbarkeit von RCNNs für eine semi-automatisierte Annotation testen sollten. Diese werden im Poster näher präsentiert. In einem ersten Experiment wurden alle Trainingsdaten zusammen trainiert (mAP
+                <hi rend="sub">IoU =0.75</hi> = 5.85<ref n="5" target="ftn5"/>). Ein zweites Experiment teilte die Daten nach Bildarten auf (mAP
+                <hi rend="sub">IoU =0.75</hi> = 3.40 für Fotos und mAP
+                <hi rend="sub">IoU =0.75</hi> = 4.04 bei Zeichnungen). Es war dabei auffällig, dass die Zeichnungen bessere Resultate erzielten, die aber niedriger als die Resultate des ersten Experimentes waren. Die folgenden beiden Experimenten wurden deswegen vorerst auf Zeichnungen beschränkt. Das dritte Experiment konzentrierte sich auf Klassen mit mehr als 50 Annotationen, was zwar den Großteil der Klassen außen vor ließ, aber vielversprechende Ergebnisse erzeugte ( mAP
+                <hi rend="sub">IoU =0.75 </hi>= 23.06). Deswegen wurden in einem vierten Experiment alle Klassen von menschlichen Abbildungen zu einer Metaklasse zusammengelegt. Dieses letzte Experiment funktionierte besonders vielversprechend (mAP
+                <hi rend="sub">IoU =0.75</hi> = 59.99; ein Beispiel kann in Abbildung 2 eingesehen werden). Zur Bewertung der Experimente kann der Output der Testbilder online eingesehen werden.<ref n="6" target="ftn6"/> Bis zur DHd im nächsten Jahr sollen einige weitere Experimente durchgeführt werden und ein erster Prototyp zur Anwendung kommen und im Rahmen des Posters präsentiert werden.
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/2aa0930e41f18fd8a4b028eb59bec23c.png"/>
+                    <head>Abbildung 2: Beispiel-Output für Experiment 4</head>
+                </figure>
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">
+    Wissenschaftliche Bearbeitung der buddhistischen Hoehlenmalereien in der Kucha-Region der nördlichen Seidenstrasse (SAW-Leipzig). Datenbank: 
+                    <ref target="https://kucha.saw-leipzig.de/">https://kucha.saw-leipzig.de</ref>.
+                </note>
+
+<note xml:id="ftn2" rend="footnote text" n="2">
+                   <ref target="https://recogito.github.io/annotorious/">https://recogito.github.io/annotorious/</ref>. Das Projekt hat seine eigene Reihe «Leipzig Kucha Studies». Erster Band: Konczak-Nagel/Zin 2020
+                </note>
+<note xml:id="ftn3" rend="footnote text" n="3">
+    <ref target="https://kuchatest.saw-leipzig.de/">https://kuchatest.saw-leipzig.de/</ref>
+                </note>
+
+<note xml:id="ftn4" rend="footnote text" n="4"> Das Projekt nutzt hierfür detectron2 (Wu et al. 2019).</note>
+<note xml:id="ftn5" rend="footnote text" n="5"> Die Maßeinheit gibt die Mean Average Precision bei einer Mindestübereinstimmung einer Region mit dem Goldstandard von 75% an.</note>
+<note xml:id="ftn6" rend="footnote text" n="6"><ref target="https://github.com/erikradisch/examplePics">https://github.com/erikradisch/examplePics</ref>
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Arnold, </hi>
+                        <hi rend="bold">T. </hi>
+                        <hi rend="bold">and</hi>
+                        <hi rend="bold"> </hi>
+                        <hi rend="bold">Tilton, </hi>
+                        <hi rend="bold">L</hi>
+                        <hi rend="bold">. </hi>2019. “Distant viewing: analyzing large visual corpora.” In Digital Scholarship in the Humanities 36(1), DOI: 
+                        <ptr target="https://doi.org/10.1093/llc/fqz013"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dreyer, C.</hi> 2015. “
+                        <hi rend="italic">Abenteuer Seidenstraße: Die Berliner Turfan-Expeditionen 1902–1914</hi>.” Leipzig: Seemann.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Duhaime, D. </hi>2019. “PixPlot.” 
+                        <ptr target="https://github.com/YaleDHLab/pix-plot"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Helm, </hi>
+                        <hi rend="bold">W., </hi>
+                        <hi rend="bold">Schmideler, S., </hi>
+                        <hi rend="bold">I</hi>
+                        <hi rend="bold">m, C., Mandl, T., Kollmann, </hi>
+                        <hi rend="bold">S. and </hi>
+                        <hi rend="bold">Müller, </hi>
+                        <hi rend="bold">L.</hi>
+                        <hi rend="bold"> </hi>2021. “Wie sich die Bilder ähneln. Vom Zufallsfund zur systematischen Forschung im Bereich der automatisierten Bildähnlichkeitssuche.” In Fabrikation von Erkenntnis: Experimente in den Digital Humanities, ed. Burghardt, M., Dieckmann, L., Steyer, T., Trilcke, P., Walkowski, N.-O., Weis, J. and Wuttke, U. ZfdG (Sonderband 5). DOI: 10.26298/melusina.8f8w-y749-wsdb.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Howanitz, </hi>
+                        <hi rend="bold">G., </hi>
+                        <hi rend="bold">Bermeitinger, B., Radisch, E., Gassner, S., Rehbein, M. </hi>
+                        <hi rend="bold">and</hi>
+                        <hi rend="bold"> Handschuh, S. </hi>2019. July 11. “Deep Watching - Towards New Methods of Analyzing Visual Media in Cultural Studies.” Digital Humanities 2019 (DH2019), Utrecht, Netherlands. 
+                        <ptr target="https://zenodo.org/record/3326470#.Y5uLSKfMIYw"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Konczak-Nagel, I. </hi>
+                        <hi rend="bold">a</hi>
+                        <hi rend="bold">nd </hi>
+                        <hi rend="bold">Zin, M. </hi>2020. “Essays and Studies in the Art of Kucha” (Leipzig Kucha Studies 1). New Delhi: Dev Publishers.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Popova, I. F. </hi>
+                        <hi rend="bold">(ed.)</hi>. 2008. “
+                        <hi rend="italic">Russian Expeditions to Central Asia at the Turn of the 20th Century: Collected Articles</hi>.” St Petersburg: Slavia Publishers.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wu, Y., Kirillov, </hi>
+                        <hi rend="bold">A., </hi>
+                        <hi rend="bold">Massa, F., </hi>
+                        <hi rend="bold">Lo, </hi>
+                        <hi rend="bold">W. and </hi>
+                        <hi rend="bold">Girshick, R. </hi>2019. “Detectron2.” 
+                        <ptr target="https://github.com/facebookresearch/detectron2"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Yaldiz, </hi>
+                        <hi rend="bold">M.</hi> 1987. “
+                        <hi rend="italic">Archäologie und Kunstgeschichte Chinesisch-Zentralasiens (Xinjiang)</hi>.” Handbuch der Orientalistik, Abteilung 7, Kunst und Archäologie, Band 3, Innerasien. Leiden: Brill. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

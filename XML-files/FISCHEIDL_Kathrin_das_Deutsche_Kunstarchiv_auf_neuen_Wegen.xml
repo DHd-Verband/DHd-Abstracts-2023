@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="FISCHEIDL_Kathrin_das_Deutsche_Kunstarchiv_auf_neuen_Wegen" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das Deutsche Kunstarchiv auf neuen Wegen</title>
+                <author>
+                    <persName>
+                        <surname>Fischeidl</surname>
+                        <forename>Kathrin</forename>
+                    </persName>
+                    <affiliation>Germanisches Nationalmuseum, Deutschland</affiliation>
+                    <email>k.fischeidl@gnm.de</email>
+                    <idno type="ORCID">0000-0001-5508-7826</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-16T13:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>WissKI</term>
+                    <term>Archive</term>
+                    <term>CIDOC CRM</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Archivierung</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                    <term>Software</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+            <head>Ausgangslage</head>
+            <p>
+                <hi style="font-family:CorpoS">Mit dem Sammlungsschwerpunkt auf schriftlichen Unterlagen aus dem Bereich der Bildenden Kunst unterscheidet sich das Deutsche Kunstarchiv im Germanischen Nationalmuseum in Nürnberg von Kommunal- oder Staatsarchiven. Die ca. 1450 Bestände, die seit den 1960er Jahren gesammelt werden, umfassen Vor- und Nachlässe aus dem deutschen Sprachraum der Gebiete Architektur, Bildhauerei, Bildwissenschaft, Design, Fotografie, Kunstgeschichte, Kunsthandel, Kunsthandwerk, Malerei und Restaurierung und decken den Zeitraum vom späten 19. Jahrhundert bis in die Gegenwart ab.</hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS">Durch den konkreten Schwerpunkt und die strukturelle Ähnlichkeit der einzelnen Bestände wuchs der Wunsch nach einem auf die Archivbestände zugeschnittenen Datenbanksystem.</hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS">2019 wurde der Entschluss gefasst, die seit 2009 genutzte hierarchische Datenbank durch eine semantische und graphbasierte Datenbank zu ersetzen. Ein Systemwechsel war unter anderem notwendig, weil die vorherige Archivsoftware nicht 64-bit fähig war. Anpassungen bei der Onlinepräsentation sind ebenso stark eingeschränkt und berücksichtigen nicht die adäquate Darstellbarkeit auf mobilen Geräten. Ein Upgrade auf eine neuere Version desselben Systems ist kostenpflichtig.</hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS" xml:space="preserve">Während viele Archive zur Erschließung und Onlinestellung ihrer Bestände auf kommerzielle Softwarelösungen zurückgreifen, haben die Archive des Germanischen Nationalmuseums - das Historische Archiv und das Deutsche Kunstarchiv - einen alternativen Weg beschritten. </hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+            <head>Anforderung</head>
+            <p>
+                <hi style="font-family:CorpoS">Aufgrund der negativen Erfahrung mit der vorherigen Archivsoftware, soll die neue Software Open Source sein. Darüber hinaus ist eine flexible Webpräsentation wichtig, die an die sich stetig ändernden Anforderungen der Nutzer:innen und der Geräte jeweils angepasst werden kann. Die im Archivinformationssystem zur Verfügung gestellten Daten müssen persistent und zitierfähig sein, um Nachhaltigkeit und Zukunftsfähigkeit sicherzustellen. Außerdem ist ein strukturell standardkonformes System zentral für die Implementierung von ISAD(</hi>G) (Internationale Grundsätze für die archivische Verzeichnung
+                <hi style="font-family:CorpoS">) und dem ISO-zertifizierten CIDOC (</hi>International Committee on Documentation
+                <hi style="font-family:CorpoS">) Conceptual Reference Model des International Council of Museums (ICOM).</hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+            <head>Evaluierung</head>
+            <p>
+                <hi style="font-family:CorpoS" xml:space="preserve">Die zugrundeliegende Ontologie für das semantische Datenmodell ist das CIDOC CRM. Ausschlaggebend für diese Entscheidung waren die Flexibilität und die Erweiterungsmöglichkeiten. So konnten die Anforderungen, die der Wechsel eines Erschließungssystems mit sich bringt, diskutiert und eine für die Bedürfnisse des Deutschen Kunstarchivs maßgeschneiderte aber zugleich den archivischen Standards entsprechende Erschließungsstruktur modelliert werden. </hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS" xml:space="preserve">Bei der Konzeption der Erweiterung des CIDOC CRM wurden nicht nur die Vorgaben der inhaltlich beschreibenden Bestandserschließung berücksichtigt, sondern auch Anforderungen der Dokumentation, der Digitalisierung und der Vernetzung innerhalb der Bestände mitbedacht. Aus intensiven Diskussionen mit allen archiv- und datenbankerprobten Mitarbeiter:innen ging die Konzeption von Mechanismen zur Erfassung von archivinternen Workflows hervor. So wurden im Datenmodell Eingabefelder für restauratorische Maßnahmen, Akzessionierung oder das Depotmanagement ergänzt. Die weiteren beschreibenden Erfassungsfelder basieren auf den Erschließungsstandards ISAD(G) sowie RNAB (Ressourcenerschließung mit Normdaten in Archiven und Bibliotheken für Personen-, Familien-, Körperschaftsarchive und Sammlungen). Das entwickelte Archivinformationssystem bietet den Verzeichner:innen auf diese Weise die Möglichkeit auf allen Ebenen - vom Gesamtbestand bis hin zum Einzeldokument - inhaltliche Informationen mit Daten zur Bestandsverwaltung und -konservierung zu verknüpfen. </hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS">Die Anwendungsontologie des Deutschen Kunstarchivs bietet neben der Ontologie des International Council on Archives Records in Contexts (RiC-O) eine praxisnahe Diskussionsgrundlage für eine allgemeinere Erweiterung des CIDOC CRM für die archivische Erschließung. Bisher gibt es in diesem Kontext nur vereinzelte Versuche, wie den des Portuguese National Archive (vgl. Melo 2022) oder für Kommunalarchive allgemein (vgl. Vitzthum 2021). Das Portuguese National Archive weicht in der Modellierung des graphbasierten Datenmodells vom Deutschen Kunstarchiv ab. Das heißt, es werden unterschiedliche Klassen des CIDOC CRMs benutzt. Die Modellierung am Beispiel der Kommunalarchive wendet die RiC-Ontologie auf die Archivbestände an. Das Archivinformationssystem des Deutschen Kunstarchivs zeigt exemplarisch, dass sich mithilfe des CIDOC CRM und WissKI Archivbestände adäquat strukturieren sowie erfassen lassen und sich darüber hinaus auch deren Binnenstruktur abbilden lässt.</hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS">Bei der Evaluierung existierender Systeme hinsichtlich der vorliegenden Anforderungen zeigte sich, dass für die Umsetzung des Graphnetzwerks mit einer spezifischen Domänenontologie lediglich WissKI alle Aspekte erfüllt.</hi>
+            </p></div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Umsetzung, aktueller Stand und Ausblick</head>
+            <p>
+                <hi style="font-family:CorpoS">Innerhalb von zwei Jahren wurden die Daten ins neue Datenbanksystem migriert. Aktuell verzeichnen die Mitarbeiter:innen des Deutschen Kunstarchivs neue Bestände bereits im WissKI. Um in nationale und internationale Portale Daten liefern zu können, muss ein Export der auf CIDOC CRM basierenden Metadaten in die gewünschte EAD (Encoded Archival Description) xml Struktur entwickelt werden. Zusätzlich wird an einem Konzept zur Onlinestellung der Daten gearbeitet, das im folgenden Jahr umgesetzt werden soll.</hi>
+            </p>
+            <p>
+                <hi style="font-family:CorpoS">Das Poster veranschaulicht zum einen die Entscheidungsgrundlagen und Vorstellungen der Mitarbeiter:innen des Deutschen Kunstarchivs bezüglich der Umsetzung eines Linked Open Data basierten Archivinformationssystems. Zum anderen wird die Modellierung der Domänenontologie auf Basis von CIDOC CRM abgebildet, die für die Umsetzung des Datenmodells notwendig ist.</hi>
+            </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left;">
+                        <hi style="font-family:CorpoS;font-size:9pt" xml:space="preserve"><hi rend="bold">Bekiari, Chryssoula und George Bruseker, Erin Canning, Martin Doerr, Philippe Michon , Christian-Emil Ore, Stephen Stead, Athanasios Velios.</hi> 2022. „Definition of the CIDOC Conceptual Reference Model.” </hi>
+                        <ref target="https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.1.pdf">
+                            <hi style="font-family:CorpoS;font-size:9pt">https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.1.pdf</hi>
+                        </ref>
+                        <hi style="font-family:CorpoS;font-size:9pt" xml:space="preserve"> (zugegriffen: 15.12.2022).</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi style="font-family:CorpoS;font-size:9pt"><hi rend="bold">Brüning, Rainer und Werner Heegewaldt, Nils Brübach.</hi> 2002. „ISAD(G) - Internationale Grundsätze für die archivische Verzeichnung.“ 2. überarbeitete Ausgabe. https://www.ica.org/sites/default/files/CBPS_2000_Guidelines_ ISAD%28G%29_Second-edition_DE.pdf (zugegriffen: 15.12.2022).</hi>
+                    </bibl>
+                    <bibl style="text-align: left;"><hi rend="bold">Clavaud, Florence und International Council on Archives Expert Group on Archival Description.</hi> 2021. „Records in Contexts Ontology (ICA RiC-O) version 0.2.“ https://www.ica.org/standards/RiC/RiC-O_v0-2.html (zugegriffen: 15.12.2022).</bibl>
+                    <bibl style="text-align: left;">
+                        <hi style="font-family:CorpoS;font-size:9pt" xml:space="preserve"><hi rend="bold">Melo, Dora und Irene Pimenta Rodrigues, Davide Varagnolo.</hi> 2022. „A strategy for archives metadata representation on CIDOC-CRM and knowledge discovery.” In </hi>
+                        <hi rend="italic" style="font-family:CorpoS;font-size:9pt" xml:space="preserve">Semantic Web – Interoperability, Usability, Applicability, </hi>
+                        <hi style="font-family:CorpoS;font-size:9pt">Pre-Press 1-32.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi style="font-family:CorpoS;font-size:9pt" xml:space="preserve"><hi rend="bold">Österreichische Nationalbibliothek, Schweizerische Nationalbibliothek und Staatsbibliothek zu Berlin – Preußischer Kulturbesitz.</hi> 2019. „Ressourcenerschließung mit Normdaten in Archiven und Bibliotheken (RNAB) für Personen-, Familien-, Körperschaftsarchive und Sammlungen. Richtlinie und Regeln.“ Wien, Bern, Berlin. </hi>
+                        <ref target="https://d-nb.info/1186104252/34">
+                            <hi style="font-family:CorpoS;font-size:9pt">https://d-nb.info/1186104252/34</hi>
+                        </ref>
+                        <hi style="font-family:CorpoS;font-size:9pt" xml:space="preserve"> (zugegriffen: 15.12.2022).</hi>
+                    </bibl>
+                    <bibl style="text-align: left;"><hi rend="bold">Society of American Archivists, Library of Congress.</hi> 1999. „EAD Application Guidelines for Version 1.0” https://www.loc.gov/ead/ (zugegriffen: 15.12.2022).</bibl>
+                    <bibl style="text-align: left;"><hi rend="bold">Vitzthum, Maximilian.</hi> 2021. „kommais“ - Zur Umsetzung eines auf Records in Contexts basierenden Archivinformationssystems für Kommunalarchive auf Grundlage der virtuellen Forschungsumgebung "WissKI". Unveröffentlichte Masterarbeit. Erlangen, Nürnberg: Friedrich-Alexander-Universität Erlangen-Nürnberg.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

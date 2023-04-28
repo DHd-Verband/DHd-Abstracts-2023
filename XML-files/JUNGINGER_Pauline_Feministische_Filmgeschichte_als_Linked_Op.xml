@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="JUNGINGER_Pauline_Feministische_Filmgeschichte_als_Linked_Op" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Feministische Filmgeschichte als Linked Open Data: Ein Thesaurus für das Women Film Pioneers Project (WFPP)</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Junginger</surname>
+                        <forename>Pauline</forename>
+                    </persName>
+                    <affiliation>Philipps-Universität Marburg, Deutschland</affiliation>
+                    <email>pauline.junginger@uni-marburg.de</email>
+                    <idno type="ORCID">0000-0003-3899-1674</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T10:09:24.544613916</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotieren</term>
+                    <term>Metadaten</term>
+                    <term>Text</term>
+                    <term>Personen</term>
+                    <term>Linked Open Data</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das 
+                <hi rend="italic">Women Film Pioneers Project </hi>(WFPP) ist eine etablierte Online-Ressource für die Forschung zu Frauen im Frühen Kino (Gaines, Vatsal und Dall’Asta, o. J.).
+                <hi rend="sup"> </hi>Der Fokus des WFPP liegt auf dem Erzählen individueller Geschichten von Filmpionierinnen und der Sichtbarmachung blinder Flecken, um die Aufmerksamkeit auf das zu lenken, was selbst in der feministischen Filmtheorie lange unvorstellbar schien: Die große Rolle die Frauen zu Beginn der Filmgeschichte gespielt haben (Dang 2020). Anfang der 1990er Jahre zunächst als klassisches Buchprojekt konzipiert, wurde das WFPP 2013 als digitale Plattform veröffentlicht, die vorrangig drei Ziele verfolgt: die Verfügbarmachung von Forschungsergebnissen, die Anregung weiterer Forschung und das Hinterfragen klassischer filmhistorischer Narrative, in denen die Beiträge von Frauen unerwähnt bleiben. Obwohl strukturierten Metadaten eine zentrale Bedeutung bei der Sichtbarmachung, Zugänglichkeit und Nachnutzung von Forschungsdaten und digitalen Publikationen zukommt (Baca 2016; Flanders und Jannidis 2018), arbeitet das WFPP bisher nur sehr eingeschränkt mit Metadaten.
+                <hi rend="sup"><ref n="1" target="ftn1"/>
+                </hi> Das Ziel meiner Dissertation ist deshalb die Entwicklung eines Thesaurus und dazugehöriger Annotationsrichtlinien für die semantische Verschlagwortung der Profile über Filmpionierinnen. Die zentralen Forschungsfragen des Dissertationsprojekts lauten dabei: Wie kann ein Thesaurus für die feministische Filmgeschichtsschreibung am Beispiel des WFPP entwickelt und angewendet werden? Wie kann die Forschung zu Frauen im Frühen Kino mit Hilfe strukturierter Metadaten sichtbarer und zugänglicher gestaltet werden? Welche Geschichte kann durch das WFPP (nicht) erzählt werden?
+            </p>
+            <p>Für die Entwicklung eines Thesaurus für das WFPP sind neben der feministischen Filmgeschichtsschreibung verschiedene Forschungsfelder relevant, die sich mit der Zugänglichkeit von Wissen, digitalen Publikationen, Kategorisierungspraktiken und Metadaten beschäftigen. Zentraler Bezugspunkt sind dabei die digitalen Geisteswissenschaften, hier insbesondere Forschung zur digitalen Modellierung und Verfügbarmachung von text-basierten Ressourcen (Flanders und Jannidis 2018; Blaney et al. 2021). In diesem Zusammenhang beschreibt Murtha Baca wie elementar Metadaten für die Gestaltung digitaler Ressourcen sind (Baca 2016), was ebenfalls an die anwendungsbezogene Forschung im Bereich des Forschungsdatenmanagements anschließt
+                <hi rend="sup"> </hi>(Dierkes 2021; Iglezakis et al. 2021). Um Metadaten im Sinne der FAIR-Prinzipien interoperabel zu gestalten und mit anderen Daten verlinkbar zu machen, bietet sich ihre Bereitstellung in Linked Open Data an (Schmidt, Thiery und Trognitz 2022). Diesbezüglich hat sich das 
+                <hi rend="italic">Simple Knowledge Organization System</hi> (SKOS) als ein Standard etabliert, um Thesauri maschinenlesbar zu formalisieren (Zaytseva 2020). 
+            </p>
+            <p>Die methodische Umsetzung des Dissertationsprojekts erfolgt in drei Schritten. Für die Modellierung der Themen- und Begriffsfelder des Thesaurus wurden zunächst neun Kategorien identifiziert, die für filmhistoriografische Untersuchungen besonders relevant sind: Personen, Werke, Tätigkeiten, Orte, Techniken, Institutionen, Filmgenre, Themen und Publikationen. Im Zuge einer manuellen Textanalyse und -annotation mit CATMA werden die knapp 300 Profile mittels der neun Kategorien verschlagwortet. Dabei werden die gewählten Kategorien evaluiert, jeweils um Begriffsfelder ergänzt und in Form eines Thesaurus organisiert. Im nächsten Schritt erfolgt die Formalisierung des Thesaurus anhand von SKOS. Abschließend wird der Thesaurus exemplarisch an einer Auswahl von Profilen erprobt und zusätzlich um Annotationsrichtlinien ergänzt. Im Rahmen von Workshops mit Autor*innen, Nutzer*innen und zentralen Akteur*innen des WFPP werden der Thesaurus und die Annotationsrichtlinien evaluiert und Empfehlungen für die Weiterentwicklung formuliert. </p>
+            <p>Die Arbeit mit SKOS wird von einer kritischen Reflexion darüber begleitet, welche Form der Datenmodellierung durch die Anwendung dieses Standards ermöglicht und was dadurch verhindert wird (Flanders und Jannidis 2018, 11). Dabei geht es sowohl um eine Auseinandersetzung mit den epistemischen Bedingungen von SKOS (Drucker 2011), als auch um ein Nachdenken über die spezifischen Anforderungen feministischer Filmgeschichtsschreibung an die Gestaltung von Kategorien.
+                <hi rend="sup"><ref n="2" target="ftn2"/>
+                </hi> Wie kann es gelingen, spezifisch feministische Werte in die Gestaltung von Kategorien einfließen zu lassen, wenn wir davon ausgehen, dass es sich dabei nicht um neutrale Praktiken handelt, sondern um Prozesse, in die politische Haltungen und Werte eingeschrieben sind (Bowker und Star 1999; Drabinski 2013; D’Ignazio und Klein 2020)? Im Zusammenhang mit feministischer Filmgeschichtsschreibung geht es konkret auch um die Frage, wie die zahlreichen Leerstellen und Wissenslücken, die es aufgrund verloren gegangener Quellen und der fehlenden Dokumentation „feminisierter Arbeit“ (Hill 2016, 5) in Bezug auf die frühe Filmindustrie gibt, in daten-basierten Ansätzen dargestellt werden können (Dang 2020). 
+            </p>
+            <p>Der Vortrag präsentiert eine erste Version des Thesaurus und diskutiert zentrale Erkenntnisse aus der Annotation der Sammlung im Hinblick auf die Frage, inwiefern durch die formale Beschreibung der Profile die Struktur der Wissensproduktion im 
+                <hi rend="italic">Women Film Pioneers Project</hi> sichtbar gemacht und somit auch daraufhin untersucht werden kann, 
+                <hi rend="italic">wie</hi> das WFPP feministische Filmgeschichte schreibt.
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1"> Bei den Profilen werden Schlagwörter hinsichtlich der Tätigkeiten der Pionierinnen sowie der Länder, in denen sie tätig waren, vergeben.</note>
+<note xml:id="ftn2" rend="footnote text" n="2"> In ihrem CfP für die Zeitschrift Digital Humanities Quarterly (DHQ), weisen Dominik Gerstorfer, Evelyn Gius und Janina Jacke darauf hin, dass die systematische Reflexion über Kategoriensysteme bisher eine Leerstelle in den Digital Humanities darstellt.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Baca, Murtha.</hi> 2016. „Introduction to Metadata.“ Los Angeles: Getty Research Institute. http://www.getty.edu/publications/intrometadata (zugegriffen am 27.07.2022).</bibl>
+                    <bibl>Blaney, Jonathan, Jane Winters, Sarah Milligan und Martin Steer. 2021. 
+                        <hi rend="italic">Doing digital history.</hi> Manchester: Manchester University Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Bowker, Geoffrey C. und Susan Leigh Star. </hi>1999. 
+                        <hi rend="italic">Sorting Things Out: Classification and its Consequences.</hi> Cambridge: MIT Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Dang, Sarah-Mai. </hi>2020. „Unknowable Facts and Digital Databases: Reflections on the Women Film Pioneers Project and Women in Film History.“ 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                        <hi rend="italic"> </hi>14 (4). http://www.digitalhumanities.org/dhq/vol/14/4/000528/000528.html (zugegriffen am 01.08.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">D’Ignazio, Catherine und Lauren F. Klein. </hi>2020. 
+                        <hi rend="italic">Data Feminism</hi>. Cambridge: MIT Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Dierkes, Jens. </hi>2021. „Planung, Beschreibung und Dokumentation von Forschungsdaten.“ In 
+                        <hi rend="italic">Praxishandbuch Forschungsdatenmanagement</hi>, hg. von Markus Putnings, Heike Neuroth und Janna Neumann, 303-325, Berlin/Boston: De Gruyter Saur. https://doi.org/10.1515/9783110657807.
+                    </bibl>
+                    <bibl><hi rend="bold">Drabinski, Emily.</hi> 2013. „Queering the Catalog: Queer Theory and the Politics of Correction.“ 
+                        <hi rend="italic">The Library Quarterly</hi> 83 (2): 94–111. https://doi.org/10.1086/669547.
+                    </bibl>
+                    <bibl><hi rend="bold">Drucker, Johanna.</hi> 2011. „Humanities Approaches to Graphical Display.“ 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 5 (1). http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html (zugegriffen am 15.07.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Flanders, Julia und Fotis Jannidis, hg. </hi>2018. 
+                        <hi rend="italic">The Shape of Data in the Digital Humanities: Modeling Texts and Text-based Resources</hi>. London: Routledge. https://doi.org/10.4324/9781315552941.
+                    </bibl>
+                    <bibl><hi rend="bold">Gaines, Jane, Radha Vatsal und Monica Dall’Asta. o. J. </hi>
+                        <hi rend="italic">Women Film Pioneers Project</hi>. New York: Columbia University Libraries. https://wfpp.columbia.edu/ (zugegriffen am 27.07.2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Hill, Erin. 2016. </hi>
+                        <hi rend="italic">Never Done: A History of Women’s Work in Media Production</hi>. New Brunswick: Rutgers University Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Iglezakis, Dorothea, Marc Fuhrmans, Susanne Arndt, Évariste Demandt, Stephan Hachinger, Daniela Hausen, Giacomo Lanza, Johannes Lipp, Rainer Stotzka und Džulia Terzijska.</hi> 2021. „Interoperabilität von Metadaten innerhalb der NFDI: Konsortienübergreifender Metadaten-Workshop am 2./3. Juli 2020.“ In 
+                        <hi rend="italic">Bausteine Forschungsdatenmanagement</hi> 2: 124–35. https://doi.org/10.17192/bfdm.2021.2.8313.
+                    </bibl>
+                    <bibl><hi rend="bold">Schmidt, Sophie C., Florian Thiery und Martina Trognitz. </hi>2022. „Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata.“ 
+                        <hi rend="italic">Digital</hi> 2 (3): 333–64. https://doi.org/10.3390/digital2030019.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

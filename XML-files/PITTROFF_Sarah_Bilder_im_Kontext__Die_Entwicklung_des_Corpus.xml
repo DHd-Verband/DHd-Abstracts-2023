@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="PITTROFF_Sarah_Bilder_im_Kontext__Die_Entwicklung_des_Corpus" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Bilder im Kontext: Die Entwicklung des Corpus Vitrearum vom Bildarchiv zu Born-Digitals</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Pittroff</surname>
+                        <forename>Sarah</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+                    <email>sarah.pittroff@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gerber</surname>
+                        <forename>Anja</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>anja.gerber@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Steller</surname>
+                        <forename>Jonatan</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+                    <email>jonatan.steller@adwmainz.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T21:52:08.225598167</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Corpusfotografie</term>
+                    <term>Kontextualisierung</term>
+                    <term>Datenmodellierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bilderfassung</term>
+                    <term>Programmierung</term>
+                    <term>Kontextsetzung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Lehre</term>
+                    <term>Artefakte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die großen geisteswissenschaftlichen Langzeitvorhaben im deutschen Akademienprogramm umfassen auf Jahrzehnte angelegte Forschungsprojekte, die in der Vergangenheit analog konzipiert wurden und in der Gegenwart vor der Herausforderung stehen, nicht nur ihre Methoden sondern auch ihre Forschungsergebnisse und Publikationsformen einer digitalen Transformation zu unterziehen. Als ursprünglich analoges Langzeitvorhaben, mit nachträglich ergänzter digitaler Komponente, ist das Corpus Vitrearum Medii Aevi (CVMA) Deutschland ein Paradebeispiel für die kontinuierliche Entwicklung von der Buchreihe über das ergänzende digitale Bildarchiv bis hin zum Aufbau von 
+                <hi rend="italic">born-digital</hi> Publikationen. Unter dem Namen ‘Glasmalereien im Kontext’ verlinken Mitarbeitende des Forschungsvorhabens entkontextualisierte Einzelfotografien von Kirchenfenstern, machen die Fenster in ihrem räumlichen Kontext digital erfahrbar und reichern sie mit Linked Open Data an. Der vorliegende Beitrag soll das Vorgehen bei der Entwicklung des Formats aufzeigen und argumentiert darüber hinaus, dass solche offenen digitalen Publikationsformen ein zentraler Beitrag der Digital Humanities zur Weiterentwicklung traditioneller Vorhaben und zukunftsgerichtete Anbindung ihrer Forschungsergebnisse sein können.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__r7c4kqjpjqug"/>Ausgangslage: Das entkontextualisierte Bildarchiv
+                </head>
+                <p>Das CVMA Deutschland ist ein interakademisches Forschungsvorhaben mit Arbeitsstellen in Freiburg (Akademie der Wissenschaften und Literatur Mainz) sowie Potsdam (Berlin-Brandenburgische Akademie der Wissenschaften). Die Aufgabe des Corpus ist die Erfassung, Dokumentation und Katalogisierung von Glasmalereien des Mittelalters und der Frühen Neuzeit (bis etwa 1550) in Deutschland. Das CVMA Deutschland ist Mitglied des 1952 gegründeten Internationalen Corpus Vitrearum, welches sich aufgrund der erheblichen Verluste durch die beiden Weltkriege zum Ziel gesetzt hat, die Glasmalereien des Mittelalters vollständig fotografisch zu erfassen und nach festen Richtlinien zu dokumentieren. Die Forschungsergebnisse werden auf Grundlage der auf internationaler Ebene vereinbarten Richtlinien (Comité international d’histoire de l’art und Union académique internationale 2016) als Katalogtexte in den Corpusbänden publiziert. Dabei entsteht neben einem umfassenden schriftlichen Werk ein umfangreiches kuratiertes Bildarchiv, welches in Deutschland seit 2015 über eine gemeinsame Plattform strukturiert online verfügbar gemacht wird (CVMA Deutschland o. J. a). Mit Metadaten angereicherte Bilddaten dienen als nachnutzbares digitales Instrument für die wissenschaftliche Arbeit.</p>
+                <p>Die Rolle des Bildes als Repräsentation des Kunstwerkes ist je nach Publikationsform unterschiedlich. Im gedruckten Corpusband präsentiert sich die Abbildung als visuelle Argumentation mittels Gegenüberstellungen und vergleichenden Anbringungen inhaltlich gleichberechtigt zum Text. Beide Kommunikationsformen ergänzen sich zu einer umfassenden Darlegung der wissenschaftlichen Erkenntnisse. Digitale Bildarchive stehen im Vergleich zu klassischen Bucheditionen vor Herausforderungen auf zwei Ebenen: der des potentiellen Nutzer:innenkreises eines über das Internet frei zugänglichen und vernetzten Bildarchivs, der im Gegensatz zu dem oft engen und bildungsbürgerlichen Nutzer:innenkreis der gedruckten Corpusbände steht, wo traditionell Kontextwissen durch die Gesamtschau innerhalb eines Bandes abgedeckt wird. Online-Bildarchive sprechen in der Regel breitere Zielgruppen an, Webseiten bedienen veränderte Lese- und Betrachtungsmethoden (cf. Hyman, Moser und Segala 2014, 37). Herausforderungen stellen sich genauso auf der Ebene der nun vom Werk- als auch vom Textkontext entfremdeten Abbildung, die ihre ästhetische wie wissenschaftliche Bedeutung im Online-Bildarchiv neu manifestieren muss.</p>
+                <p>Das Online-Bildarchiv des CVMA Deutschland (CVMA Deutschland o. J. a) versammelt bereits mehr als 7.000 Abbildungen aus der Buchreihe sowie zusätzliches, bisher unveröffentlichtes Material und wird von den beiden Arbeitsstellen konstant um weitere Bestände erweitert. Dabei stehen Detailaufnahmen einzelner Scheiben, zugehörige Fensterdarstellungen oder Montagen komplexer Bilderzählungen nicht zwangsläufig nebeneinander. Die Sortierung der Galerieansicht orientiert sich zunächst an einer Datenlogik, nicht an ihrem Inhalt. Über diesen Zugang fehlen übergreifende Informationen zum Nachvollziehen der Zusammenhänge zwischen Einzelbildern und ihrer wissenschaftlichen Einordnung. Der Workflow einer Veröffentlichung über das Online-Bildarchiv lässt die Möglichkeit, Abbildungen semantisch zu Objekten zu gruppieren und sie innerhalb der Architektur bzw. der Räume zu verorten, in denen sie sich befinden, als Desiderat zurück. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__u8ps9rxljcvs"/>Grundlage: Nachhaltiges und interoperables Metadatenmanagement
+                </head>
+                <p>Grundlage für die Erweiterung und Weiterentwicklung des Online-Bildarchivs auf ein 
+                    <hi rend="italic">born-digital</hi> Publikationsformat ist die einheitliche Anlage von Metadaten entlang internationaler Standards. Die Grundsätze des nachhaltigen und interoperablen Metadatenmanagements müssen nach der Langzeitverfügbarkeit der Daten und damit auch nach der sie zugänglich machenden Soft- und Hardware fragen. Die Antwort zielt dabei auf Standards, die von vielen geteilt, verstanden und weiterentwickelt werden. Auch eine interoperable und nachhaltige Datenmodellierung, die unabhängig von ausführenden und alternden Softwarelösungen lesbar bleiben möchte, basiert auf standardisierten Ausdrücken und generischen Ansätzen der Formulierung von Beziehungen.
+                </p>
+                <p>Die Integration von Metadaten in die Bilddateien ist ein maßgeblicher Bestandteil der Strategie ihrer Langzeitarchivierung und Auffindbarkeit. Das CVMA orientiert sich dabei am Standard für PDF-Dokumente, der 
+                    <hi rend="italic">Extensible Metadata Platform</hi> (XMP), seit 2012 ISO Standard ISO 16684-1 (ISO 2019). Die Metadaten werden hierbei in den Header der Bilddateien geschrieben, so dass die digitale Ressource und ihre Metadaten eine Einheit bilden. Die CVMA-XMP-Metadatenspezifikation (CVMA Deutschland 2016)vereint administrative, beschreibende und technische Metadaten. Sie nutzt weit verbreitete Standards nach, z. B. Dublin Core, IPTC und wurde um einen CVMA-spezifischen 
+                    <hi rend="italic">namespace </hi>erweitert, mit dem die genuin glasmalereispezifischen Informationen erfasst werden. Die Bilddateien enthalten auf diese Weise ihre relevante Metadaten und können durch Dritte heruntergeladen werden, wobei die Einheit der digitalen Fotografie und ihrer Metadaten eine umfassende Nachnutzbarkeit über die visuelle Information hinaus gewährleistet. 
+                </p>
+                <p>Die Auszeichnung der Abbildungen mit Normdaten nutzt nicht nur der Verlinkung von Informationen mit außenstehenden Repositorien, sondern dient auch der internen Strukturierung des Bildarchivs. So werden prospektiv alle Normdateneinträge, zur Zeit zumindest die IconClass Notationen sowie die Personendaten, neben den eigentlichen Bilddateien als Ressourcen des Archivs betrachtet und prozessiert. Jede Ressource erhält durch die automatisierte Vergabe von Uniform Ressource Identifiern (URI) eine CVMA-interne ID. Diese erlaubt eine eindeutige Referenzierung innerhalb des Bildarchivs und auch nach außen. Über unterschiedliche Serialisierungen können diese Ressourcen für verschiedene Bedarfe ausgegeben werden. JSON-, RDF- und TTL-Formate erlauben eine Einbindung der Ressourcen in weitere Datenkontexte, die HTML-Serialisierung dient in erster Linie einer visuellen Erfassung der Ressourcen über den Browser. Für die Bilddaten ist dies die Einzelansicht der Abbildung im Online-Bildarchiv mit einer Auswahl an relevanten Metadaten, die über Kartenansicht und begleitender Textanzeige ein grundlegendes Informationsset zum dargestellten Werk bietet. Für Iconclass-Notationen umfasst dies die Darstellung aller Bildressourcen aus dem Online-Bildarchiv, die mit jener spezifischen Notation ausgezeichnet sind.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__nao8dxx9rx2t"/>Erweiterung: Das Cultural Heritage Framework
+                </head>
+                <p>Das Ziel der Strukturierung des Bildarchivs lautet aber nicht, weitere Sammlungen zu erzeugen, sondern die Daten durch eine komplexere semantische Verknüpfung zu modellieren. Dafür kommt das an der Digitalen Akademie in Mainz entwickelte Cultural Heritage Framework, kurz CHF, zum Einsatz (Schrade 2017).</p>
+                <p>Das Framework dient unterschiedlichen Projekten, die mit Objekterfassung im Bereich des kulturellen Erbes befasst sind, dazu, Digitalisate unterschiedlicher Provenienz zu einem Kulturerbeobjekt zu verknüpfen, mit (wissenschaftlichen) Texten anzureichern und als 
+                    <hi rend="italic">born-digital</hi> Onlinepublikation zu veröffentlichen.
+                </p>
+                <p>Das Datenmodell besteht aus mehreren Komponenten, die auf den jeweiligen Erfassungsbedarf des Projektes angepasst werden: ‘Artefakte’, ‘Entitäten’, ‘Ereignisse’, ‘Personen’ und ‘Orte’. Artefakte können dabei mit den digitalen institutionellen Sammlungen, zum Beispiel Ressourcen aus dem CVMA Online-Bildarchiv, verknüpft werden. Datierungen, geographische Angaben wie Koordinaten, Ortsangaben oder 
+                    <hi rend="italic">Geonames Identifier</hi> und Stichwörter werden zwischen den entsprechenden Datenbanken, die diese Informationen speichern, sowie dem Datenmodell ausgetauscht. Es organisiert textuelle und nicht-textuelle Forschungsdaten. 
+                </p>
+                <p>Für das CVMA wurde hieraus das auf der Webseite verfügbar gemachte Modul “Glasmalerei im Kontext” entwickelt. Das Publikationsmodell kann aus drei Perspektiven betrachtet werden. </p>
+                <p>Aus der Sicht des Datenmodells strukturiert es Forschungsdaten zu Bauwerken, meist Kirchen, hierarchisch: vom Standort zum Gebäude, zum Gebäudeteil, zum Fenster, zur Einzelscheibe bzw. Montage. Spezielle Entitäten können mit weiteren spezifischen Ressourcen verknüpft werden. Die oberste Hierarchieebene sieht die Einbindung eines Grundrisses vor, während die unterste Hierarchieebene eine direkte Verlinkung zu den Bildressourcen des Online-Bildarchivs erlaubt. Auf allen Ebenen der Fenster- und Scheibendarstellungen wird eine Gegenüberstellung der Glasmalereien und ihrer Erhaltungsschemata ermöglicht, um mittelalterlich erhaltene Bestandteile und die Anteile möglicher Restaurierungsmaßnahmen visuell nachzuvollziehen. Damit wird das Publikationsformat zu einem wertvollen Forschungsinstrument.</p>
+                <p>Aus der Sicht der Abbildungen bietet das Modul ‘Glasmalereien im Kontext’ die Möglichkeit zur semantischen Strukturierung und kontextualisierten Darstellung der im Online-Bildarchiv publizierten Bildressourcen. So bietet sich dem Nutzer des Bildarchivs bei jeder über das Modul verlinkten Ressource automatisch der Weg in die Standortdarstellung. Eine Datenmodellierung über das Content Management System und dem dort aufgesetzten CHF wirkt sich also strukturierend auf das Online-Bildarchiv aus.</p>
+                <p>Aus der Sicht der Nutzenden schließlich eröffnet sich ein niedrigschwelliger Zugang nicht nur zu einzelnen Forschungsressourcen, wie im Bildarchiv, sondern auch zu den Forschungsergebnissen, die in Form von Bildmaterial und kurzen Texten als Microsites veröffentlicht sind. Hier gibt es in übersichtlichen Schritten immer tiefergehende Informationen von der Baugeschichte des Kirchenstandortes bis zu den Vorbildern einzelner in den Glasmalereien dargestellter Szenen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__qtg5mca3s47w"/>Ergebnis: Glasmalereien im Kontext – 
+                    <hi rend="italic">Born-Digitals</hi> als semantische Datenmodellierung, offene digitale Publikationsform und Open Educational Resource
+                </head>
+                <p>‘Glasmalereien im Kontext’ ist eine Kombination aus semantischer Datenmodellierung und deren Ausspielung als digitale Publikationsform (CVMA Deutschland o. J. b). Aufgeschlüsselt nach Standorten können Nutzer:innen hier Kirchenräume und ihren mittelalterlichen Glasmalereibestand über Text- und Bildmaterial erkunden. Die Notwendigkeit, Struktur in die entkontextualisiert vorliegende Bildsammlung zu bringen, hat im Ergebnis eigenständige 
+                    <hi rend="italic">born-digital</hi> Publikationen aus vormals gedruckten Corpusbänden entstehen lassen, die sich in konservativer Modellierung an der Struktur der Printpublikationen orientieren und darüber hinaus auch innovative Modellierungen zulassen, die als niedrigschwellige aber hochwertige, aktualisierte und non-lineare Ergänzungen zu den gedruckten Werken veröffentlicht werden.
+                </p>
+                <p>Für die nah am Corpusband formulierte Modellierung werden ausgewählte Standorte mit überarbeiteten und reduzierten Katalogtexten zu den jeweiligen Gesamtfenstern, Szenen und Einzelscheiben angeboten. Eine Kirche wird in Objektgruppen untergliedert, bei denen es sich um Gebäudeteile wie Chor oder Langhaus handelt. Die darunter liegenden Ebenen bilden die dort enthaltenen Objekte. Dies sind die Buntglasfenster, die in ihrer Gesamtdarstellung als Bildmontagen und im Detail als Einzelscheiben dargestellt sind. Beide Entitäten sind im Objekt enthaltene Objektteile.</p>
+                <p>Während eines mehrere Jahrzehnte umspannenden Forschungszeitraums ergeben sich unter Umständen für bereits bearbeitete Objekte neue Erkenntnisse oder Forschungsmeinungen, die der Revision bedürfen. Das born-digital Format ‘Glasmalereien im Kontext’ bietet die Möglichkeit, bereits gedruckte Katalogtexte und -abbildungen in den Corpusbänden zu ergänzen und zu erweitern, auf die vorangegangenen Texte bezug zu nehmen oder von ihnen Abstand zu gewinnen. So können bspw. neue Erkenntnisse zu bereits vor geraumer Zeit publizierten Forschungen einfließen und neu aufgefundene Standorte veröffentlicht werden. Hier zeigt sich die einzigartige Möglichkeit, aktuelle Forschungen zitierfähig und nachnutzbar zu publizieren.</p>
+                <p>Darüber hinaus bietet das generische Datenmodell aber auch die Möglichkeit, alternative Rekonstruktionsvorschläge für einen architektonischen Teilraum, einer Objektgruppe im CHF, vorzulegen. Hier werden Abbildungen nicht in ihrer aktuellen Anbringung im Kirchenraum kontextualisiert, sondern ihre vermutete Anbringungen zu unterschiedlichen Zeitpunkten in der Vergangenheit für einen Ort modelliert. Diese Nebeneinanderstellung unterschiedlicher Zustände bzw. Rekonstruktionen stellt einen innovativen Ansatz in der Forschung der mittelalterlichen Glasmalerei dar, der insbesondere in der universitären Lehre in Seminaren Anwendung findet.</p>
+                <p>Dabei ist das CHF in seiner Form als ‘Glasmalereien im Kontext’ zugleich Modellierungsumgebung und semantisches Tool und wird mit der Verfügbarmachung der Ergebnisse über das Internet als digitale Publikationsform sofort zur Open Educational Resource.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Comité international d’histoire de l’art und Union académique internationale. </hi>2016. „Corpus Vitrearum: Richtlinien“. 
+                        <hi rend="italic">CVMA Freiburg</hi>. Vers. 4. Troyes. 
+                        <ptr target="http://cvi.cvma-freiburg.de/documents/CVRichtlinienEdition.pdf"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">CVMA Deutschland. </hi>2016. „XMP Metadatenspezifikation“. 
+                        <hi rend="italic">CVMA Deutschland.</hi> Vers. 1.1, 8. Juni 2016. 
+                        <ptr target="https://corpusvitrearum.de/cvma-digital/spezifikationen/cvma-xmp/11.html"/>.
+                    </bibl>
+                    <bibl>———. o. J. a. „Bildarchiv“. 
+                        <hi rend="bold">CVMA Deutschland.</hi> Letzter Zugriff am 2. August 2022. 
+                        <ptr target="https://corpusvitrearum.de/bildarchiv"/>.
+                    </bibl>
+                    <bibl>———. o. J. b. „Mittelalterliche Glasmalereien im Kontext“. 
+                        <hi rend="bold">CVMA Deutschland.</hi> Letzter Zugriff am 2. August 2022. 
+                        <ptr target="https://corpusvitrearum.de/glasmalerei-im-kontext"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hyman, Jack A., Mary T. Moser und Laura N. Segala. </hi>2014. „Electronic Reading and Digital Library Technologies: Understanding Learner Expectation and Usage Intent for Mobile Learning“. 
+                        <hi rend="italic">Educational Technology Research and Development</hi> 62 (1): 35–52.
+                        <ref target="https://doi.org/10.1007/s11423-013-9330-5">
+                            <hi rend="color(#1155cc)underline">https://doi.org/10.1007/s11423-013-9330-5</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">IconClass. </hi>o. J. „IconClass Illustrated Edition“. 
+                        <hi rend="italic">IconClass</hi>. Letzter Zugriff am 2. August 2022. 
+                        <ref target="https://iconclass.org/">
+                            <hi rend="color(#1155cc)underline">https://iconclass.org</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">ISO (International Organization for Standardization). </hi>2019. 
+                        <hi rend="italic">Graphic Technology — Extensible Metadata Platform (XMP) — Part 1: Data Model, Serialization and Core Properties.</hi> ISO 16684-1:2019, 2, April 2019. Paris: ISO. 
+                        <ptr target="https://www.iso.org/standard/75163.html"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Schrade, Torsten. </hi>2017. „Sammlungs- und Editionsportale mit dem Cultural Heritage Framework der Digitalen Akademie: Ein Werkstattbericht“. Vortrag beim Workshop 
+                        <hi rend="italic">Editionsportale</hi>, Friedrich-Schiller-Universität Jena, 3. August 2017. 
+                        <ptr target="https://digicademy.github.io/2017-editionsportale-jena"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">The Getty. </hi>2017. „Art &amp; Architecture Thesaurus“. 
+                        <hi rend="italic">The Getty Research Institute</hi>. 7. März 2017. 
+                        <ptr target="https://www.getty.edu/research/tools/vocabularies/aat/"/>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

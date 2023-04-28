@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="TIETZ_Tabea_Knowledge_Graph_basierte_Forschungsdatenintegrat" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Knowledge Graph-basierte Forschungsdaten-<br/>integration in NFDI4Culture</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Tietz</surname>
+                        <forename>Tabea</forename>
+                    </persName>
+                    <affiliation>FIZ Karlsruhe – Leibniz Institut für Informationsinfrastruktur, Deutschland; Karlsruher Institut für Technologie, Institut AIFB, Deutschland</affiliation>
+                    <email>tabea.tietz@fiz-karlsruhe.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bruns</surname>
+                        <forename>Oleksandra</forename>
+                    </persName>
+                    <affiliation>FIZ Karlsruhe – Leibniz Institut für Informationsinfrastruktur, Deutschland; Karlsruher Institut für Technologie, Institut AIFB, Deutschland</affiliation>
+                    <email>oleksandra.bruns@fiz-karlsruhe.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fliegl</surname>
+                        <forename>Heike</forename>
+                    </persName>
+                    <affiliation>FIZ Karlsruhe – Leibniz Institut für Informationsinfrastruktur, Deutschland</affiliation>
+                    <email>heike.fliegl@fiz-karlsruhe.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Posthumus</surname>
+                        <forename>Etienne</forename>
+                    </persName>
+                    <affiliation>FIZ Karlsruhe – Leibniz Institut für Informationsinfrastruktur, Deutschland</affiliation>
+                    <email>eposthumus@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schrade</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz, Deutschland</affiliation>
+                    <email>Torsten.Schrade@adwmainz.de</email>
+                    <idno type="ORCID">0000-0002-0953-2818</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sack</surname>
+                        <forename>Harald</forename>
+                    </persName>
+                    <affiliation>FIZ Karlsruhe – Leibniz Institut für Informationsinfrastruktur, Deutschland; Karlsruher Institut für Technologie, Institut AIFB, Deutschland</affiliation>
+                    <email>harald.sack@fiz-karlsruhe.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T16:03:11</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>forschungsdatenmanagegement</term>
+                    <term>knowledge graphs</term>
+                    <term>datenintegration</term>
+                    <term>infrastruktur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Kollaboration</term>
+                    <term>Webentwicklung</term>
+                    <term>Forschungsprozess</term>
+                    <term>Forschungsergebnis</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Nationale Forschungsdateninfrastruktur (NFDI)<ref n="1" target="ftn0"/> wurde im Jahr 2020 mit dem Ziel ins Leben gerufen, die Datenbestände aus Wissenschaft und Forschung für das deutsche Wissenschaftssystem systematisch zu erschließen, zu vernetzen und nutzbar zu machen. NFDI4Culture startete im Oktober 2020 als Konsortium der ersten Förderrunde und widmet sich Forschungsdaten zu materiellen und immateriellen Kulturgütern (Altenhöner et al. 2020). Die Interessengemeinschaft von NFDI4Culture reicht von Architektur-, Kunst- und Musik- bis hin zu Theater-, Tanz-, Film- und Medienwissenschaft und besteht aus über 70 beteiligten Organisationen<ref n="2" target="ftn1"/>. Dieses multidisziplinäre Konsortium produziert und verarbeitet eine große Menge heterogener Daten und unterhält Repositorien und Services, die für das deutsche Wissenschaftssystem und auch darüber hinaus in Kunst und Kultur von großer Bedeutung sind. Zum Datenspektrum von NFDI4Culture gehören 2D-Digitalisate von Gemälden, Fotografien und Zeichnungen ebenso wie digitale 3D-Modelle kulturhistorisch bedeutender Gebäude, Denkmäler oder audio-visuelle Daten von Musik-, Film und Bühnenaufführungen (Bicher et al., 2022). In den Datendomänen des Konsortiums werden bisher jedoch nur vereinzelt einheitliche offene Standards und Datenmodelle genutzt. Forschungsdaten liegen oftmals in sogenannten Datensilos vor, die weder von außen gefunden noch wiederverwendet werden können, da auch die Zugangsmöglichkeiten uneinheitlich und kompliziert sind. Zudem sind die Lizenzen zur Nutzung der Ressourcen oft nicht sofort ersichtlich oder vollständig geklärt, was deren Nachnutzung zusätzlich erschwert. Weiterhin stellen insbesondere auch die mit digitalen Kulturgütern zusammenhängenden, häufig komplexen datenrechtlichen und datenethischen Aspekte eine Herausforderung dar. Ziel von NFDI4Culture ist es daher, eine bedarfsgerechte Infrastruktur für die Forschungsdaten der Interessengemeinschaft zu schaffen, die den F.A.I.R. Prinzipien folgt und somit das Auffinden, den Zugang, die Nutzbarkeit und Interoperabilität der Ressourcen für alle sicherstellt (Wilkinson et al., 2016).
+                </p>
+                <p>Die Implementierung der F.A.I.R. Prinzipien erfolgt im Konsortium über die Bereitstellung und Nutzung von domänenspezifischen Ontologien, die Entwicklung von Knowledge Graphs und die Verknüpfung einer Vielzahl von strukturierten Datenbanken und Knowledge Graphs untereinander. Ein einheitlicher und intuitiver Zugriff auf die dezentral vorliegenden Forschungsdatenressourcen des Konsortiums wird über eine zentrale Plattform, das “Culture Information Portal”
+                    <anchor xml:id="id_docs-internal-guid-f19d7d69-7fff-7838-7846-d2568cecec58"/>
+                    <hi rend="color(#000000)"><ref n="3" target="ftn2"/>
+                    </hi> sichergestellt.
+                </p>
+                <p>In diesem Beitrag wird der aktuelle Stand und die weiteren Planungen der technisch übergreifenden Task Area 5 von NFDI4Culture zur Knowledge Graph-basierten Integration von Forschungsdaten materieller und immaterieller Kulturgütern vorgestellt. Dies beinhaltet eine Diskussion aktueller technischer und domänenspezifischer Herausforderungen, die Vorstellung der NFDICO Ontologie und des NFDI4Culture Knowledge Graphen sowie eine Darstellung zur Implementation des Culture Information Portals.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Herausforderungen der Datenintegration in NFDI4Culture</head>
+                <p>Die von NFDI4Culture in den Blick genommene Forschungslandschaft ist durch eine starke Diversität gekennzeichnet. Sie umfasst nicht nur eine Vielzahl von Forschungsdisziplinen, sondern auch unterschiedlichste Organisationen, darunter Universitätsinstitute, Kunst- und Musikhochschulen, Akademien, Galerien, Bibliotheken, Archive, Museen und einzelne Forscher*innen. Dementsprechend sind die Forschungsprozesse- und ressourcen, die auffindbar, interoperabel und wiederverwendbar gemacht werden müssen, ebenfalls heterogen und liegen nicht nur in divergierenden Standards und Formaten vor, sondern auch in unterschiedlich aufbereiteten Zuständen. Kollektionen sind nicht immer vollständig digitalisiert und erschlossen, weshalb oft nur wenige beschreibende Metadaten zur Verfügung stehen. Andere Datensätze liegen bereits vollumfänglich als Linked Open Data vor und können problemlos mit dem NFDI4Culture Knowledge Graph verknüpft werden. Die Implementierung der F.A.I.R. Prinzipien ist ein Hauptziel des Konsortiums. Daher werden dedizierte Ontologien zur Verfügung gestellt und Maßnahmen getroffen, um alle Akteur*innen dabei zu unterstützen, eigene Daten und Ressourcen langfristig und nachhaltig selbst in Linked Open Data zu transformieren. </p>
+                <p>Ein wissenschaftsgeleitetes Forschungsdatenmanagement erfordert die aktive Teilnahme aller. Das Konsortium sieht daher umfangreiche Beteiligungsmöglichkeiten für die Nutzenden aller involvierten Fachdisziplinen, aber auch für Kunst- und Kulturschaffende unterschiedlichster Tätigkeitsbereiche und Vertreter*innen der Zivilgesellschaft vor. Es zielt darauf ab, das breite Spektrum der verschiedenen Akteur*innen im Bereich des Kulturerbes zu repräsentieren. Unter anderem ist vorgesehen, dass die Fachgemeinschaft selbst den Knowledge Graph mit eigenen Ressourcen erweitert und dessen Inhalte pflegt. Bedingung dafür ist eine technische Infrastruktur, die es ermöglicht, Ressourcen intuitiv und ohne tiefe technische Kenntnisse zu kuratieren, hinzuzufügen, zu verknüpfen und zu durchsuchen. Diese Infrastruktur wird eine semantische expressive Repräsentation der Daten ermöglichen, um eine vollumfängliche Umsetzung der F.A.I.R Prinzipien zu gewährleisten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>NFDICO und der NFDI4Culture Knowledge Graph </head>
+                <p>Ein Ziel von Task Area 5 in NFDI4Culture ist die Bereitstellung von Ontologien, um die Forschungsdaten in NFDI4Culture standardisiert und formal zu repräsentieren und miteinander verknüpfen zu können. In einem “bottom-up” Ansatz nach der sogenannten “Waterfalls” Methode (Keet, 2020) und im kontinuierlichen Austausch mit den Domänenexpert*innen des Konsortiums wurde dazu die NFDICO Ontologie entwickelt. Sie verknüpft Datensätze, Forschungsprojekte, Services, Repositorien, Institutionen und Forschungsdisziplinen und dient als Grundlage für den NFDI4Culture Knowledge Graph. Als Modellierungsgrundlage dienten die durch die NFDI4Culture Community übermittelten Beschreibungen ihrer Forschungsressourcen. Die Klasse nfdico:Contribution<ref n="4" target="ftn3"/> (Abb. 1) repräsentiert die Beiträge der Fachgemeinschaften und ordnet die Arten der Beiträge (z.B. Datenportal, Datensatz, Kollektion, Software, Infrastruktur, Service) unter.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/1bfd8101641734a6d421199dc5e8c2d1.jpg"/>
+                        <head>Abbildung 1: Modellierung der Klasse nfdico:Contribution</head>
+                    </figure>Instanzen können beispielsweise durch Medientypen, Lizenzangaben, zugehörige Personen und Institutionen und Projekte beschrieben werden. Ein Modellierungsbeispiel für die Klasse nfdico:Service<ref n="5" target="ftn4"/> als Unterklasse von nfdico:Contribution ist in Abb. 2 dargestellt. Die Klasse wird beispielsweise durch die akademische Disziplin, Medientypen, verwendete Normen und Ontologien spezifiziert. 
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/56a5ce004df8d5002fa24eba175a9e54.jpg"/>
+                        <head>Abbildung 2: Modellierung der Klasse nfdico:Service</head>
+                    </figure>NFDICO besteht in der Version 1.1 aus 36 Klassen und 60 Objektattributen. Die spezifisch für den Anwendungsfall in NFDI4Culture definierten Klassen (Prefix nfdico) wurden den “best-practices” in der Ontologieentwicklung folgend zur Sicherstellung hoher semantischer Expressivität und Interoperabilität mit 24 bereits existierenden Ontologien verknüpft, darunter frapo<ref n="6" target="ftn5"/>, fabio<ref n="7" target="ftn6"/>, void<ref n="8" target="ftn7"/> und schema<ref n="9" target="ftn8"/> (Keet, 2020). Die Ontologie ist seit Juni 2022 öffentlich verfügbar und vollständig dokumentiert<ref n="10" target="ftn9"/>. NFDICO folgt einem generischen Modellierungsansatz und repräsentiert die Beiträge der Fachgemeinschaft nicht ausschließlich für NFDI4Culture Domänen, sondern ermöglicht die Nachnutzung durch weitere NFDI Konsortien anderer Fachrichtungen. So dient NFDICO beispielsweise als Grundlage der Basisontologie des NFDI Konsortiums NFDI-MatWerk<ref n="11" target="ftn10"/>. Gemäß der Waterfalls Methodologie der Ontologieentwicklung wird NFDICO in Absprache mit Domänenexpert*innen iterativ und modular erweitert.
+                </p>
+                <p>Wie bereits o.g., dient NFDICO als Grundlage für den NFDI4Culture Knowledge Graph. Eine erste Version des Graphen ist publiziert und kann über einen öffentlichen SPARQL Endpunkt<ref n="12" target="ftn11"/> abgefragt werden. Der inhaltliche Aufbau des Knowledge Graphen erfolgte auf Basis der Forschungsressourcen und beschreibenden Metadaten, die von der NFDI4Culture Community übermittelt wurden. Alle Beiträge wurden normalisiert und via RDFLib<ref n="13" target="ftn12"/> in den Knowledge Graph integriert. Außerdem wurden (soweit möglich) Verknüpfungen der Entitäten aus dem Knowledge Graph zu Wikidata<ref n="14" target="ftn13"/> und der Gemeinsamen Normdatei (GND)<ref n="15" target="ftn14"/> hergestellt. Das heißt, die Daten im NFDI4Culture Knowledge Graph sind von Anfang an anschlussfähig und können mittels föderierter SPARQL Abfragen erweitert werden. So können für alle in NFDI4Culture beteiligten Organisationen über die jeweiligen Wikidata-Verknüpfungen zusätzliche Informationen, wie zum Beispiel der Typ der Organisation (z.B. Bibliotheken<ref n="16" target="ftn15"/> ) in die Ergebnisanzeige mit einbezogen werden, obwohl diese Informationen im NFDI4Culture Knowledge Graph nicht explizit enthalten sind.
+                </p>
+                <p>Der NFDI4Culture Knowledge Graph enthält aktuell 1796 Entitäten, darunter 173 Organisationen, 156 Forschungsressourcen, die mit ca. 10.000 RDF-Tripeln beschrieben werden. Der Knowledge Graph wird kontinuierlich erweitert und schrittweise für Beiträge durch die Community geöffnet, sodass alle Akteur*innen in Zukunft selbst eigene Ressourcen verknüpfen und öffentlich zugänglich machen können. Die Interaktion der Community mit dem Knowledge Graph erfolgt über eine einheitliche und intuitive Schnittstelle, das im Folgenden beschriebene Culture Information Portal.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Culture Information Portal und Integration des Knowledge Graph </head>
+                <p>Mit dem Culture Information Portal verfolgt NFDI4Culture das Ziel, einen einheitlichen, intuitiven und zentralen Einstiegspunkt auf die dezentral gespeicherten Forschungsdaten der Community und alle weiteren Dienste des Konsortiums (wie z.B. ein übergreifendes Helpdesk, nachnutzbare Guidelines zu allen Bereichen des Forschungsdatenmanagements oder das konsortiumsweite Identitäts- und Zugriffsmanagement für die gemeinsamen Kommunikations- und Kollaborationswerkzeuge) bereitzustellen. Forschungsdaten sollen durch die Community selbst hinzugefügt, kuratiert und auffindbar gemacht werden. Weiterhin informiert das Culture Information Portal über aktuelle Veranstaltungen und Neuigkeiten des Konsortiums, sowie über beteiligte Akteure und Projektfortschritte. Alle Informationen im Portal sollen außerdem im Sinne der F.A.I.R. Prinzipien als Linked Open Data vorliegen und eine gute Anschlussfähigkeit an europäische Informationsinfrastrukturen wie die European Open Science Cloud gewährleistet sein. Das Portal wurde aus diesem Grund als webbasiertes Forschungsinformationssystem (Current Research Information System / CRIS) auf Basis des Open Source Content Management Systems TYPO3<ref n="17" target="ftn16"/> realisiert. Das Datenmodell des Portals orientiert sich am CERIF-Standard der euroCRIS<ref n="18" target="ftn17"/>, wodurch gleichzeitig eine sehr gute Kompatibilität zu NFDICO gegeben ist. Für die CRIS Implementierung wurde die TYPO3-Extension “Academy” nachgenutzt und weiterentwickelt<ref n="19" target="ftn18"/>.
+                </p>
+                <p>Zur Integration des Culture Knowledge Graphen wurden mit dem Ziel einer föderierten Informationsinfrastruktur zunächst existierende Systeme auf die oben genannten Kriterien überprüft, darunter Wikibase<ref n="20" target="ftn19"/> und WissKI<ref n="21" target="ftn20"/>. Wikibase ist eine freie Software zur kollaborativen Kuratierung von Datenbanken mit der Möglichkeit, Daten im Sinne von LOD zu strukturieren, zu verknüpfen und abzufragen. Wikibase bietet allerdings nicht die Möglichkeit, externe, bereits existierende Ontologien zu integrieren, was die semantische Expressivität der Daten stark begrenzt. Außerdem ist es mit Wikibase nicht möglich, eigene Eingabemasken zu entwickeln, was die intuitive Interaktion mit dem Knowledge Graph einschränkt. WissKI ist eine webbasierte Software zum Sammeln, Strukturieren und Teilen von forschungsbezogenen Daten. Feste Grundlage von WissKI bildet dabei die Optimierung der Software auf CIDOC-CRM, was sich für den hier beschriebenen Anwendungsfall als zu einschränkend gezeigt hat. Die Modellierung in CIDOC-CRM folgt einem Ereignis-basierten Paradigma. Dadurch gerät die Modellierung einfacher Fakten oft sehr komplex und behindert den typischen Anwendungsfall in NFDI4Culture. Durch CIDOC werden einfache SPARQL-Abfragen zu Personen und Organisationen oft hochkomplex und daher ineffizient. Aufgrund der großen Menge an Daten, die in NFDI4Culture erwartet werden, ist eine Abfrage-Effizienz allerdings relevant. Der Zugang zu NFDI4Culture Daten soll für alle Nutzer*innen so einfach wie möglich gestaltet werden, eine CIDOC-CRM-basierte Modellierung schafft aufgrund ihrer Komplexität zusätzliche Barrieren. Dennoch ist CIDOC ein wichtiger und gängiger Bestandteil der GLAM Community. Daher wird ein Mapping des NFDI4Culture Datenmodells nach CIDOC durchgeführt, um einen CIDOC-basierten Export zu gewährleisten.
+                </p>
+                <p>Als beste Lösung zur Gewährleistung der semantischen Expressivität der erfassten Ressourcen und Metadaten mittels NFDICO und weiterer Ontologien einerseits bei gleichzeitiger Umsetzbarkeit der benötigten Kurationsmechanismen andererseits stellte sich die direkte Implementierung der benötigten Funktionalitäten in TYPO3 heraus. Die TYPO3 Extension “LOD”<ref n="22" target="ftn21"/> bietet hierbei einen unmittelbar über der relationalen Datenbank des CMS realisierten “Semantic Layer” mit einem konfigurierbaren IRI-Generator sowie IRI-Resolver für alle Datensätze sowie einem RDF-Serializer für alle Datenbankinhalte. Alle im Portal bzw. Culture CRIS erfassten Ressourcen werden dabei über eine standardisierte LOD API unter Verwendung des Hydra Core Vocabulary<ref n="23" target="ftn22"/> in verschiedenen RDF Serialisierungen (z.B. RDFa, Turtle, JSON-LD u.a.) veröffentlicht<ref n="24" target="ftn23"/>. Hierdurch können die Daten für den Culture Knowledge Graph bereits jetzt im Kreis der Mitarbeitenden des Konsortiums dezentral kuratiert und kontinuierlich erweitert werden. Die über die LOD API des CMS publizierten Daten werden mittels Ingest-Routinen in den eigentlichen Knowledge Graph integriert. Zum Einsatz kommt oxigraph<ref n="25" target="ftn24"/> als nativer RDF-Store mit einem pythonbasierten Wrapper<ref n="26" target="ftn25"/> für ein leichtgewichtiges Deployment des öffentlichen SPARQL-Endpoints, der über ein grafisches Interface wiederum direkt in das Culture Information Portal integriert ist.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Weiteres Vorgehen und Zusammenfassung </head>
+                <p>NFDI4Culture öffnet Forschungsdatensilos und schafft einheitliche und intuitive Zugriffsmöglichkeit auf Forschungsdaten. Dieses Vorhaben wird in der Task Area 5 durch die Bereitstellung dedizierter Ontologien, die Implementation und Verknüpfung von Knowledge Graphen und die Umsetzung des Culture Information Portals erreicht. Akteur*innen der Community können mit ihrer Beteiligung am Vorhaben ihre Daten also auffindbar, interoperabel und wiederverwendbar machen, die Zitierfähigkeit eigener Ressourcen gewährleisten und die multidisziplinäre Verknüpfungen der Daten für ihre Forschung ausnutzen. Alle hier präsentierten Beiträge sind öffentlich verfügbar und nutzbar. Im weiteren Vorgehen wird die Ontologie bedarfsorientiert erweitert und das Culture Information Portal schrittweise für die Community geöffnet werden, um mit den Inhalten im Knowledge Graph zu interagieren und den Knowledge Graph mit Forschungsdaten anzureichern und diese zu kuratieren. Die technische Infrastruktur wird stetig verbessert, um unter anderem teil-automatisierte Qualitätskontrollen der Daten zu umzusetzen (z.B. durch SHACL<ref n="27" target="ftn26"/>) und die Integration größerer Datenmengen über den SPARQL Endpunkt zu ermöglichen.
+                </p>
+                <p>Vergleichbare und verwandte Initiativen werden mit der “Linked Data Platform Finland”<ref n="28" target="ftn28"/> und dem “Dutch Digital Heritage Network”<ref n="29" target="ftn29"/> umgesetzt. Auch NFDI4Culture ist eine nationale Initiative, gleichsam ist allen Beteiligten die Bedeutung einer globalen Vernetzung bewusst, denn auch deutsche Kulturdaten und deutsches kulturelles Erbe sind international und von internationalem Interesse. In NFDI4Culture wurden bereits Maßnahmen implementiert, um auch Organisationen und Forschende außerhalb des Konsortiums zu involvieren. Beispielsweise dienen dazu das Steering Board<ref n="30" target="ftn27"/> und die “Linked Open Data Working Group”. Technisch ist eine Vernetzung mit anderen Plattformen und die Nutzung international anerkannter Standards ebenso elementar. Der NFDI4Culture Knowledge Graph enthält bereits Verknüpfungen zu Wikidata, die mit Hilfe der Nutzer*innen stetig erweitert werden. Zudem besteht auf der NFDI4Culture Ontologie-Ebene bereits ein Mapping mit dem “Common European Research Information Format (CERIF)”. Diese Verknüpfungen werden in Zukunft weiter ausgebaut werden.
+                </p>
+                <p>Unter Umsetzung der F.A.I.R. Prinzipien und mit der Beteiligung der gesamten Community wird in NFDI4Culture eine Forschungsinfrastruktur geschaffen, die langfristig und nachhaltig Forschungsdaten auffindbar, zugreifbar und nutzbar für alle macht. </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn0" rend="footnote text" n="1">
+                        <anchor xml:id="id_docs-internal-guid-eb8a023b-7fff-559b-2ac2-3a439bed033f"/>
+                        <ref target="https://www.nfdi.de/">https://www.nfdi.de/</ref></note>
+
+<note xml:id="ftn1" rend="footnote text" n="2">
+                        <anchor xml:id="id_docs-internal-guid-ef20414e-7fff-cb86-8d72-f5acc6813f24"/>
+                        <ref target="https://nfdi4culture.de/">https://nfdi4culture.de/</ref></note>
+
+<note xml:id="ftn2" rend="footnote text" n="3">
+                            <anchor xml:id="id_docs-internal-guid-f19d7d69-7fff-7838-7846-d2568cecec581"/>
+                            <ref target="https://nfdi4culture.de/">https://nfdi4culture.de/</ref></note>
+
+<note xml:id="ftn3" rend="footnote text" n="4">
+                        <anchor xml:id="id_docs-internal-guid-07be3bbd-7fff-3ac0-6fcf-c643d60cb572"/>
+                        <ref target="https://nfdi4culture.de/ontology#Contribution">https://nfdi4culture.de/ontology#Contribution</ref></note>
+
+<note xml:id="ftn4" rend="footnote text" n="5">
+                        <anchor xml:id="id_docs-internal-guid-286e1869-7fff-1944-b4cd-de2efbed348c"/>
+                        <ref target="https://nfdi4culture.de/ontology#Service">https://nfdi4culture.de/ontology#Service</ref></note>
+
+<note xml:id="ftn5" rend="footnote text" n="6">
+                        <anchor xml:id="id_docs-internal-guid-4b57849c-7fff-380c-e2fa-49d621c32a4e"/>
+                        <ref target="http://www.sparontologies.net/ontologies/frapo">http://www.sparontologies.net/ontologies/frapo</ref></note>
+
+<note xml:id="ftn6" rend="footnote text" n="7">
+                        <anchor xml:id="id_docs-internal-guid-29211e47-7fff-e7eb-cd74-c6d851688a96"/>
+                        <ref target="http://www.sparontologies.net/ontologies/fabio">http://www.sparontologies.net/ontologies/fabio</ref></note>
+
+<note xml:id="ftn7" rend="footnote text" n="8">
+                        <anchor xml:id="id_docs-internal-guid-a146b1bc-7fff-4fc5-7ad4-f7d7e49218a8"/>
+                        <ref target="https://www.w3.org/TR/void/">https://www.w3.org/TR/void/</ref></note>
+
+<note xml:id="ftn8" rend="footnote text" n="9">
+                        <anchor xml:id="id_docs-internal-guid-335b49ef-7fff-a0ec-17b3-c1aae15ce9a1"/>
+                        <ref target="https://schema.org/">https://schema.org/</ref></note>
+
+<note xml:id="ftn9" rend="footnote text" n="10">
+                        <anchor xml:id="id_docs-internal-guid-630c4308-7fff-e8de-a227-b973cbcb46da"/>
+                        <ref target="https://nfdi4culture.de/ontology">https://nfdi4culture.de/ontology</ref></note>
+
+<note xml:id="ftn10" rend="footnote text" n="11">
+                        <anchor xml:id="id_docs-internal-guid-55e4fceb-7fff-b2d5-f2ca-1317e83008d0"/>
+                        <ref target="https://nfdi-matwerk.de/">https://nfdi-matwerk.de/"</ref></note>
+
+<note xml:id="ftn11" rend="footnote text" n="12">
+                        <anchor xml:id="id_docs-internal-guid-83b859a3-7fff-3fa4-97a8-e0c532c9be8e"/>
+                        <ref target="https://nfdi4culture.de/de/resources/knowledge-graph.html">https://nfdi4culture.de/de/resources/knowledge-graph.html</ref></note>
+
+<note xml:id="ftn12" rend="footnote text" n="13">
+                        <anchor xml:id="id_docs-internal-guid-d02d34b2-7fff-a7c2-ceb9-4122400b1de9"/>
+                        <ref target="https://github.com/RDFLib/rdflib">https://github.com/RDFLib/rdflib</ref></note>
+                        
+<note xml:id="ftn13" rend="footnote text" n="14">
+                        <anchor xml:id="id_docs-internal-guid-4722774d-7fff-0476-9810-ee640cd8a839"/>
+                        <ref target="https://www.wikidata.org/">https://www.wikidata.org/</ref></note>
+
+<note xml:id="ftn14" rend="footnote text" n="15">
+                        <anchor xml:id="id_docs-internal-guid-78ab6b02-7fff-8261-ac0a-b3683cfca3a2"/>
+                        <ref target="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html</ref> </note>
+
+<note xml:id="ftn15" rend="footnote text" n="16">
+                        <ref target="https://nfdi4culture.de/resources/knowledge-graph.html">SPARQL Query</ref>
+                    </note>
+<note xml:id="ftn16" rend="footnote text" n="17">
+                        <anchor xml:id="id_docs-internal-guid-052d9aad-7fff-6288-6244-91e4d03eb39f"/>
+                        <ref target="https://typo3.org/cms">https://typo3.org/cms</ref> </note>
+                        
+<note xml:id="ftn17" rend="footnote text" n="18">
+                        <anchor xml:id="id_docs-internal-guid-c69232bf-7fff-72ca-246c-c026fc817a30"/>
+                        <ref target="https://eurocris.org/">https://eurocris.org/</ref>. CERIF ist ein von der Europäischen Union empfohlenes, standardisiertes Datenmodell, vgl. <ref target="https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.1.1/introduction.html">https://openaire-guidelines-for-cris-managers.readthedocs.io/en/v1.1.1/introduction.html</ref></note>
+
+<note xml:id="ftn18" rend="footnote text" n="19">
+                        <anchor xml:id="id_docs-internal-guid-c15ac6fd-7fff-0ed6-4b51-08dabdd20d7b"/>
+                        <ref target="https://github.com/digicademy/academy">https://github.com/digicademy/academy</ref></note>
+
+<note xml:id="ftn19" rend="footnote text" n="20">
+                        <anchor xml:id="id_docs-internal-guid-49d201ff-7fff-7031-5082-03a476378aa0"/>
+                        <ref target="https://wikiba.se/">https://wikiba.se/</ref></note>
+
+<note xml:id="ftn20" rend="footnote text" n="21">
+                        <anchor xml:id="id_docs-internal-guid-46d3abef-7fff-bd98-411a-1429897248b6"/>
+                        <ref target="https://wiss-ki.eu/">https://wiss-ki.eu/</ref></note>
+
+<note xml:id="ftn21" rend="footnote text" n="22">
+                        <anchor xml:id="id_docs-internal-guid-8defb53a-7fff-5877-7d96-4e9fb8a1d135"/>
+                        <ref target="https://github.com/digicademy/lod">https://github.com/digicademy/lod</ref></note>
+
+<note xml:id="ftn22" rend="footnote text" n="23">
+                        <anchor xml:id="id_docs-internal-guid-50accf2d-7fff-db13-e217-3996f2e49672"/>
+                        <ref target="https://www.hydra-cg.com/spec/latest/core/">https://www.hydra-cg.com/spec/latest/core/</ref></note>
+
+<note xml:id="ftn23" rend="footnote text" n="24">
+                        <anchor xml:id="id_docs-internal-guid-658b6ef1-7fff-3be3-22e3-44c1488c92f8"/>
+                        <ref target="https://nfdi4culture.de/resource/">https://nfdi4culture.de/resource/</ref></note>
+
+<note xml:id="ftn24" rend="footnote text" n="25">
+                        <anchor xml:id="id_docs-internal-guid-7c7e9d20-7fff-8864-4025-30f98fe32fcd"/>
+                        <ref target="https://github.com/oxigraph/oxigraph">https://github.com/oxigraph/oxigraph</ref> </note>
+
+<note xml:id="ftn25" rend="footnote text" n="26">
+                        <anchor xml:id="id_docs-internal-guid-54b78461-7fff-4a2c-2d38-476776a43bf1"/>
+                        <ref target="https://github.com/epoz/shmarql">https://github.com/epoz/shmarql</ref></note>
+
+<note xml:id="ftn26" rend="footnote text" n="27">
+                        <ref target="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</ref></note>
+
+<note xml:id="ftn28" rend="footnote text" n="28">
+                     <ref target="https://www.ldf.fi/">https://www.ldf.fi/</ref></note>
+
+<note xml:id="ftn29" rend="footnote text" n="29">
+                     <ref target="https://netwerkdigitaalerfgoed.nl/en/">https://netwerkdigitaalerfgoed.nl/en/</ref></note>
+
+<note xml:id="ftn27" rend="footnote text" n="30">
+                        <anchor xml:id="id_docs-internal-guid-643c4e00-7fff-38ad-74c3-0f897ca92f1e"/>
+                        <ref target="https://nfdi4culture.de/about-us/consortium.html#c256">https://nfdi4culture.de/about-us/consortium.html#c256</ref></note>
+
+                    </div>
+                    
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Altenhöner Reinhard et al. </hi>2020. “NFDI4Culture - Consortium for research data on material and immaterial cultural heritage.” Research Ideas and Outcomes 6: e57036. https://doi.org/10.3897/rio.6.e57036</bibl>
+                    <bibl><hi rend="bold">Bicher, Katrin et al.</hi> 2022. "Digitalisierung des Kulturellen und digitale Arbeitskultur im Forschungsverbund NFDI4Culture. Community-Arbeit an, durch und mit fachspezifischen Datenkorpora und Elementen der FDM-Infrastruktur". Zeitschrift für Bibliothekswesen und Bibliographie, Jahrgang 69, Heft 1-2, S. 26-36. http://dx.doi.org/10.3196/1864295020691258 </bibl>
+                    <bibl><hi rend="bold">Keet, Maria.</hi> 2020. "Methodologies for Ontology Development." An Introduction to Ontology Engineering, Engineering Library.</bibl>
+                    <bibl><hi rend="bold">Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg et al.</hi> 2016. "The FAIR Guiding Principles for scientific data management and stewardship." Scientific data 3, no. 1: 1-9. https://doi.org/10.1038/sdata.2016.18 </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

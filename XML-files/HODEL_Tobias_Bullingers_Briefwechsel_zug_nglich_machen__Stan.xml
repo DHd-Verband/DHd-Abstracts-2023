@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HODEL_Tobias_Bullingers_Briefwechsel_zug_nglich_machen__Stan" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bullingers Briefwechsel zugänglich machen: Stand der Handschriftenerkennung</title>
+                <author>
+                    <persName>
+                        <surname>Ströbel</surname>
+                        <forename>Phillip</forename>
+                    </persName>
+                    <affiliation>Computer Linguistik, Universität Zürich</affiliation>
+                    <email>pstroebel@cl.uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hodel</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <affiliation>Walter Benjamin Kolleg, Universität Bern, Schweiz</affiliation>
+                    <email>tobias.hodel@unibe.ch</email>
+                    <idno type="ORCID">0000-0002-2071-6407</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Institute of Complex Systems (iCoSys), Haute école d'ingénierie et d'architecture de Fribourg, Haute école spécialisée de Suisse occidentale</affiliation>
+                    <email>andreas.fischer@unifr.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Scius</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Institute of Complex Systems (iCoSys), Haute école d'ingénierie et d'architecture de Fribourg, Haute école spécialisée de Suisse occidentale</affiliation>
+                    <email>anna.scius-bertrand@hefr.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wolf</surname>
+                        <forename>Beat</forename>
+                    </persName>
+                    <affiliation>Institute of Complex Systems (iCoSys), Haute école d'ingénierie et d'architecture de Fribourg, Haute école spécialisée de Suisse occidentale</affiliation>
+                    <email>beat.wolf@hefr.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Janka</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Walter Benjamin Kolleg, Universität Bern, Schweiz</affiliation>
+                    <email>anna.janka@unibe.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Widmer</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Walter Benjamin Kolleg, Universität Bern, Schweiz</affiliation>
+                    <email>jonas.widmer@unibe.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Scheurer</surname>
+                        <forename>Patricia</forename>
+                    </persName>
+                    <affiliation>Computer Linguistik, Universität Zürich</affiliation>
+                    <email>patricia.scheurer@uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Volk</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>Computer Linguistik, Universität Zürich</affiliation>
+                    <email>volk@cl.uzh.ch</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-05T09:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handschriftenerkennung</term>
+                    <term>Data augmentation</term>
+                    <term>maschinelles Lernen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Bewertung</term>
+                    <term>Daten</term>
+                    <term>Manuskript</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Automatisierte Handschriftenerkennung fokussierte in der Vergangenheit vorwiegend auf Training und Erkennung einzelner Handschriften, die individuell trainiert wurden. Typischerweise finden sich in den Geisteswissenschaften jedoch Datensätze, die von mehreren Händen und häufig auch über längere Zeiträume verschriftlicht wurden. Aussagen zu Erkennalgorithmen müssen entsprechende Voraussetzungen ernst nehmen und nicht nur die Fähigkeit nachweisen, einzelne Hände mit hoher Qualität zu erkennen, sondern auch mit ähnlichen jedoch nicht identischen Handschriften umzugehen.</p>
+            <p style="text-align: left; ">Ein umfangreicher frühneuzeitlicher Briefwechsel aus dem 16. Jahrhundert, der hauptsächlich in zwei Sprachen (Latein und Frühneuhochdeutsch) vorliegt und mehrere hundert Hände umfasst, ist diesbezüglich ein interessanter Vergleichsfall, um bestehende Plattformen mit neuen Möglichkeiten der 
+                <hi rend="italic">Data Augmentation</hi> und dem Einbezug von Transformer-basierten neuronalen Netzen zu vergleichen. Wir nutzen dafür die im Rahmen des Projekts 
+                <hi rend="italic">Bullinger Digital</hi><ref n="1" target="ftn1"/> erarbeiteten Daten, um Aussagen über Erkennqualität sowie Potenziale in der automatischen Erkennung zu machen. Für die Evaluation verwenden wir zwei spezifisch erstellte Testsets. Diese widerspiegeln die Tatsache, dass von einigen (wenigen) Personen eine Vielzahl von Briefen und von diversen Personen nur wenige Schreiben im Datensatz vorhanden sind (Abbildung 1). Die beiden Testsets sind zwar ähnlich groß (
+                <hi rend="bold">Viel-</hi> (1’235 Zeilen) als auch 
+                <hi rend="bold">Wenigschreiber</hi> (1’013 Zeilen)), leisten aber Aussagen zu sehr unterschiedlichen Größenordnungen, da von den Vielschreibern eine weit umfangreichere Masse erkannt werden wird, aber auch mehr Material zum Training von Modellen zur Verfügung steht. Bei der Evaluation können wir aufgrund der Aufteilung aber präzisere Voraussagen machen, welche Datenmassen mit welcher Qualität erkannt werden. Weiter lässt sich abschätzen, welche Erkennungsform sich für welche (Trainings-)Datenmenge eignet.
+            </p>
+            <figure>
+                <graphic n="1001" width="13.97cm" height="9.527380555555556cm" url="Pictures/6764b66722dfdc494dfef755c3bb0fc4.png" rend="inline"/>
+                <head>Abbildung 1. Verteilung der Top-20-Autoren, welche Briefe an Bullinger schrieben (Anzahl Briefe auf y-Achse).</head>
+            </figure>
+            <p style="text-align: left; ">Im Folgenden testen wir drei Ansätze, die Aufschlüsse zum Stand und möglichen Entwicklungen im Bereich der Handschriftenerkennung versprechen, am Korpus:</p>
+<list type="ordered">
+                <item>
+                    <hi rend="italic">Transkribus</hi> mit seinen zwei Engines (HTR+ (Strauss et al. 2018) und PyLaia (Puigcerver 2017)) testet eine etablierte Methode am Datensatz.
+                </item>
+                <item>
+                    <hi rend="italic">Data Augmentation</hi> soll die Erkennung mit der State-of-the-Art-Engine HTR-Flor (de Sousa Neto et al. 2020) verbessern.
+                </item>
+                <item>Neue Transformer-basierte Modelle (Li et al. 2021) sollen auf ihre Tauglichkeit für historische Daten geprüft werden.</item>
+            </list>
+            <p style="text-align: left; ">Seit 1974 erscheinen in regelmäßigen Abständen Bände der Heinrich-Bullinger-Briefwechsel-Edition, erarbeitet am Institut für Schweizerische Reformationsgeschichte (IRG) der Universität Zürich. Der letzte Band stammt von 2022 und weitere sind aktuell in Arbeit (Bullinger 2022). Die Edition bedient diverse Nutzer*innengruppen, insbesondere Theolog*innen und die Geschichtswissenschaften, was sich etwa an den Editionsgrundsätzen (Bullinger 1973) zeigt, z. B. stillschweigende Auflösung von Abkürzungen, Identifikation von Personen und Orten etc.</p>
+            <p style="text-align: left; ">Um die Vielzahl der nicht transkribierten Briefe schneller maschinell zu verarbeiten, arbeiten wir im Rahmen des Projekts 
+                <hi rend="italic">Bullinger Digital</hi> an der automatisierten Aufbereitung der Dokumente. Die Texte der bereits edierten Briefe sowie der am IRG provisorisch transkribierten Briefe haben wir mittels des 
+                <hi rend="italic">Text-to-Image-Verfahrens</hi> (Leifert, Labahn, and Sánchez 2020) mit den Bildvorlagen automatisiert aligniert. Damit steht nun ein Korpus von 1’297’908 Token für Training und Validierung zur Verfügung.<ref n="2" target="ftn2"/>
+            </p>
+            <p style="text-align: left; ">Bei der Zuordnung der Zeilen wurde mit einem 
+                <hi rend="italic">Threshold</hi> agiert, der dafür sorgte, dass nur transkribierte Textteile zugeordnet wurden, bei denen eine relativ hohe Wahrscheinlichkeit der Übereinstimmung errechnet wurde. Dadurch wurden zwar ca. 25-30% aller Zeilen nicht zugeordnet, Fehler in der Layouterkennung und nicht identifizierte Streichungen und Ähnliches führten aber nicht zu falschen Zuordnungen, die wiederum negativen Einfluss auf das Training von Texterkennungsmodellen hätte.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Texterkennung mit etabliertem Framework und Plattform: Transkribus</head>
+                <p style="text-align: left; ">2015 wurde die Plattform 
+                    <hi rend="italic">Transkribus</hi> gelauncht und danach von 2016 bis 2019 
+                    <hi rend="italic">Deep-Learning-</hi>basierte Erweiterungen, insbesondere Layout- und Texterkennungsengines (Muehlberger et al. 2019) implementiert. Die Plattform wird von einer Kooperative betrieben und für diverse Zwecke in der Forschung und durch Erinnerungsinstitutionen eingesetzt. Training von Handschriftenmodellen und Erkennung neuer Seiten erfolgen über ein GUI.
+                </p>
+                <p style="text-align: left; ">Basierend auf den oben erwähnten Trainings- und Testdaten erzeugten wir mehrere Handschriftenmodelle, dabei testeten wir jeweils beide verfügbaren Engines (HTR+ und PyLaia), um Unterschiede in der Qualität aufzuzeigen. Wir übernahmen die Layouterkennung unverändert. </p>
+                <p style="text-align: left; ">Die in Transkribus trainierten Modelle (Tabelle 1) zeigen gute Ergebnisse. Gerade für Vielschreiber wird trotz vieler unterschiedlicher Hände insbesondere mit HTR+ eine Erkennung unter 8% 
+                    <hi rend="italic">Character Error Rate</hi> erreicht.<ref n="3" target="ftn3"/> Die Erkennung der Wenigschreiber ist dagegen etwas fehlerbehafteter. Alle Modelle wurden “austrainiert”, ohne dass ein problematisches 
+                    <hi rend="italic">Overfitting</hi> beobachtet wurde (Hodel 2020).
+                </p>
+                <p style="text-align: left; ">Eine signifikante Verbesserung erreichten wir durch die Nutzung von grossen Modellen als 
+                    <hi rend="italic">Basemodels</hi>. Mit einem vortrainierten Modell basierend auf 5’820’990 Wörtern (im Sinne von 
+                    <hi rend="italic">Tokens</hi>) in lateinischer Schrift (keine Kurrentschrift), kann die Erkennqualität weiter verbessert werden.
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="4">CER</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2">Vielschreiber</cell>
+                        <cell style="text-align: center;" cols="2">Wenigschreiber</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Trainingsdaten</cell>
+                        <cell style="text-align: left;">
+                            <hi rend="bold">base model</hi>
+                        </cell>
+                        <cell style="text-align: left;">HTR+</cell>
+                        <cell style="text-align: left;">PyLaia</cell>
+                        <cell style="text-align: left;">HTR+</cell>
+                        <cell style="text-align: left;">PyLaia</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">multilingual</cell>
+                        <cell style="text-align: right;">-</cell>
+                        <cell style="text-align: right;">7.26</cell>
+                        <cell style="text-align: right;">9.9</cell>
+                        <cell style="text-align: right;">10.06</cell>
+                        <cell style="text-align: right;">12.7</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Latin</cell>
+                        <cell style="text-align: right;">6.79</cell>
+                        <cell style="text-align: right;">-</cell>
+                        <cell style="text-align: right;">9.51</cell>
+                        <cell style="text-align: right;">-</cell>
+                    </row>
+                    <head>Tabelle 1. Resultate der sprachunabhängig trainierten Modelle in Transkribus mit HTR+ und PyLaia. HTR+: 500 Epochen, PyLaia: 250 Epochen.</head>
+                </table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Data Augmentation zur Erweiterung des Trainingsmaterials</head>
+                <p style="text-align: left; ">Um für einen gegebenen Schreibstil ein zuverlässiges Erkennungssystem zu trainieren, braucht es eine große Anzahl annotierter Textzeilen. Es ist deshalb schwierig, seltene Hände automatisch zu transkribieren, da der entsprechende Schreibstil nicht oder nur ungenügend in den Trainingsdaten repräsentiert ist. 
+                    <hi rend="italic">Data Augmentation</hi> kann verwendet werden, um die Trainingsdaten automatisch mit weiteren Beispielen anzureichern und so den Lernprozess zu unterstützen. In unserer Arbeit verfolgen wir dazu einen vielversprechenden Ansatz: Wir lernen die Schreibstile von seltenen Händen mittels 
+                    <hi rend="italic">Generative Adversarial Networks (GANs)</hi>, um anschließend beliebige Texte zu synthetisieren und den Trainingsdaten als zusätzliche Lernbeispiele hinzuzufügen.
+                </p>
+                <p style="text-align: left; ">Für die Synthetisierung wird 
+                    <hi rend="italic">lineGen</hi> (Davis et al. 2020) eingesetzt, ein kürzlich vorgeschlagenes GAN-Netzwerk, welches auf ganzen Textzeilen arbeitet und drei Zielfunktionen integriert: den 
+                    <hi rend="italic">Adversarial Loss</hi> (Unterscheidung zwischen echten und synthetischen Bildern), den 
+                    <hi rend="italic" xml:space="preserve">Perceptual Loss </hi>(visuelle Qualität der generierten Bilder) und den 
+                    <hi rend="italic">CTC Loss</hi> (Qualität der automatischen Transkription). Das trainierte lineGen-System erlaubt es, einen beliebigen Text mit dem gelernten Stil zu synthetisieren, d. h. aus dem Text ein Textzeilenbild zu generieren. Abbildung 2 zeigt Beispiele von generierten Textzeilenbildern, wenn lineGen auf rund 17’000 Textzeilenbildern unterschiedlich lange und unter Verwendung der Standard-Hyperparameter mit verschiedenen Schreibstilen trainiert wird und im Anschluss ein englischer Text synthetisiert wird. Das GAN konvergiert auf einen Schreibstil, der ähnlich leserlich ist wie echte Beispiele aus den Trainingsdaten.<ref n="4" target="ftn4"/>
+                </p>
+                <figure>
+                    <graphic n="1001" url="Pictures/d97845d873b381ed35504baae5266175.png" rend="inline"/>
+                    <head>Abbildung 2. Beispiele von synthetischen Textzeilenbildern basierend auf lineGen über unterschiedliche Anzahl Epochen.</head>
+                </figure>
+                <p style="text-align: left; ">Der Einfluss der synthetischen Lernbeispiele auf die Erkennungsrate wurde in zwei Szenarien untersucht, welche eine kleine Trainingsmenge vorsehen, wie es für Wenigschreiber typisch ist: In Szenario A gehen wir von 1’000 Trainingszeilen aus und in Szenario B von 200 Trainingszeilen. Als Erkennungssystem wird HTR-Flor (de Sousa Neto et al. 2020) eingesetzt, eines der besten Systeme nach aktuellem Stand der Technik, und für die Auswertung werden rund 1’000 zufällig ausgewählte Textzeilen als Testdaten verwendet. Abbildung 3 zeigt den Trainingsverlauf für Szenario A unter Verwendung der Standard-Hyperparameter für HTR-Flor. Die CER auf den Testdaten erreicht 26.8% für das Training mit 1’000 echten Textzeilen. Wenn mit 1’000 synthetischen Textzeilen trainiert wird, scheitert das Lernen. Eine mögliche Interpretation ist, dass die synthetische Schrift nicht genügend natürliche Variation beinhaltet, welche fürs Trainieren nötig ist. Wenn aber die 1’000 echten mit den 1’000 synthetischen Textzeilen kombiniert werden, kann die CER signifikant auf 24.1% verbessert werden. Abbildung 4 zeigt den Trainingsverlauf für Szenario B. Hier scheitert das Lernen sowohl mit 200 echten als auch mit 200 synthetischen Textzeilen. Hingegen führt die Kombination von echten und synthetischen Trainingszeilen erneut zu einer signifikant verbesserten CER von 47.7%.</p>
+                <figure>
+                <graphic n="1001" url="Pictures/65af8f75b572fc71e743acc599374f18.png" rend="inline"/>
+                <head>Abbildung 3. Training von HTR-Flor während 75 Epochen im Szenario A (1‘000 Trainingszeilen).</head>
+                </figure>
+                <figure>
+                <graphic n="1001" url="Pictures/7cf56806dd2d0e273b86ed53f7708483.png" rend="inline"/>
+                <head>Abbildung 4. Training von HTR-Flor während 75 Epochen im Szenario B (200 Trainingszeilen).</head>
+                </figure>
+                <p style="text-align: left; ">Diese initialen experimentellen Resultate sind vielversprechend und legen die Vermutung nahe, dass GAN-basierte synthetische Lernbeispiele dabei helfen können, die Erkennung für Wenigschreiber zu verbessern. In einem nächsten Schritt planen wir umfangreichere Experimente, welche darauf abzielen, den Stil von Wenigschreibern zu lernen oder den Stil von Gruppen ähnlicher Schriftbilder. Eine wichtige Fragestellung dabei wird sein, wie viele Lernbeispiele nötig sind, um einen Stil zuverlässig lernen zu können. Anschließend planen wir, ein 
+                    <hi rend="italic">Transfer Learning</hi> durchzuführen, ausgehend von einem gut trainierten Grundsystem für Vielschreiber, welches mit Hilfe der synthetischen Lernbeispiele an die Wenigschreiber angepasst wird.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Nutzung einer Transformer-basierten Architektur</head>
+                <p style="text-align: left; ">Transformer-basierte Architekturen (Vaswani et al. 2017) haben das Feld der natürlichen Sprachverarbeitung in Sachen Sprachmodellierung revolutioniert und zu einem Paradigmenwechsel beim Trainieren von Systemen für unterschiedlichste Anwendungen geführt. Transformer-Modelle wie BERT (Devlin et al. 2018) und deren Weiterenwicklungen, welche auf großen Mengen an Sprachdaten trainiert wurden, sind als starke Transfer-Lerner (Ruder et al. 2019) bekannt und erlauben einen vielfältigen Einsatz beim Fine-Tuning für spezifische Aufgaben (
+                    <hi rend="italic">Natural Language Understanding</hi>, Fragenbeantwortung, Wortarten-Klassifikation). Transformer können auch für Bildverarbeitung genutzt werden (Dosovitskiy et al. 2021; Touvron et al. 2021), was die Entwicklung von BERT-ähnlichen und auf großen Bildmengen vortrainierten Modellen zur Folge hatte (Bao, Dong, and Wei 2021).
+                </p>
+                <p style="text-align: left; ">Für unser Projekt nutzen wir als Grundlage 
+                    <hi rend="italic">TrOCR</hi> (Li et al. 2021), welchem ein 
+                    <hi rend="italic">Encoder-Decoder</hi>-Struktur zugrunde liegt. Bildseitig beruht der Encoder auf der BEiT-Architektur (Bao, Dong, and Wei 2021), welche für die 
+                    <hi rend="italic">Feature</hi>-Extraktion aus den Bildern verantwortlich ist, während der 
+                    <hi rend="italic">Decoder</hi> die Bildinformation mit Hilfe eines RoBERTa-Sprachmodells (Liu et al. 2019) in eine 
+                    <hi rend="italic">Subword</hi>-Folge “übersetzt”. Li et al. benutzten in zwei 
+                    <hi rend="italic">Pre-Training</hi>-Phasen über 700 Millionen an synthetisch erzeugten und echten Textzeilenbilder mit dem dazugehörigen Text in englischer Sprache, die danach mit dem IAM-Datenset (Marti and Bunke 2002) einem 
+                    <hi rend="italic">finetuning</hi> unterzogen wurden. Die CER von 2.89% liegt nur 0.14 Prozentpunkte hinter einem klassischen Ansatz (Diaz et al. 2021).
+                </p>
+                <p style="text-align: left; ">Im Gegensatz zu den beiden anderen Projektteilen wurde für die TrOCR-Anwendung die Zeilen nach Sprachen unterschieden. Dies Sprachverteilung und einige weitere Kennzahlen können Tabelle 2 entnommen werden.</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;"># Zeilen</cell>
+                        <cell style="text-align: right;">%</cell>
+                        <cell style="text-align: right;"># Worte</cell>
+                        <cell style="text-align: right;"># Wörter / Zeile</cell>
+                        <cell style="text-align: right;"># Buchstaben</cell>
+                        <cell style="text-align: right;"># Buchstaben / Zeile</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Latein</cell>
+                        <cell style="text-align: right;">134’236</cell>
+                        <cell style="text-align: right;">81.02</cell>
+                        <cell style="text-align: right;">1’073’106</cell>
+                        <cell style="text-align: right;">7.99</cell>
+                        <cell style="text-align: right;">7’314’648</cell>
+                        <cell style="text-align: right;">54.49</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">FNHD</cell>
+                        <cell style="text-align: right;">31’437</cell>
+                        <cell style="text-align: right;">18.98</cell>
+                        <cell style="text-align: right;">253’372</cell>
+                        <cell style="text-align: right;">8.06</cell>
+                        <cell style="text-align: right;">1’547’725</cell>
+                        <cell style="text-align: right;">49.23</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Total</cell>
+                        <cell style="text-align: right;">165’673</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">1’326’478</cell>
+                        <cell style="text-align: right;">8.01</cell>
+                        <cell style="text-align: right;">8’862’373</cell>
+                        <cell style="text-align: right;">53.49</cell>
+                    </row>                
+                    <head>Tabelle 2. Kennzahlen der extrahierten Zeilen aus dem Material der Bullinger-Briefe.</head>
+                    </table>
+                <p style="text-align: left; ">Wir untersuchen die Eignung von TrOCR für die Texterkennung auf historischen Daten, indem wir die Anzahl Epochen, die für das Fine-Tuning aufgewendet werden, variieren und multi- wie auch monolinguale Modelle trainieren. Alle Modelle führen während eines Drittels der Epochenzahl ein 
+                    <hi rend="italic">Warm-Up</hi> durch.<ref n="5" target="ftn5"/> Für die Evaluation haben wir auch die Testsets nach Sprachen aufgeteilt. Tabelle 3 fasst die Ergebnisse zusammen.
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="6">CER</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="3">Vielschreiber</cell>
+                        <cell style="text-align: center;" cols="3">Wenigschreiber</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Trainingsdaten</cell>
+                        <cell style="text-align: right;"># Epochen</cell>
+                        <cell style="text-align: right;">
+                            <hi rend="bold">multiling.</hi>
+                        </cell>
+                        <cell style="text-align: right;">Latein</cell>
+                        <cell style="text-align: right;">FNHD</cell>
+                        <cell style="text-align: right;">
+                            <hi rend="bold">multiling.</hi>
+                        </cell>
+                        <cell style="text-align: right;">Latein</cell>
+                        <cell style="text-align: right;">FNHD</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">multilingual</cell>
+                        <cell style="text-align: right;">1</cell>
+                        <cell style="text-align: right;">9.53</cell>
+                        <cell style="text-align: right;">9.49</cell>
+                        <cell style="text-align: right;">9.7</cell>
+                        <cell style="text-align: right;">11.58</cell>
+                        <cell style="text-align: right;">11.07</cell>
+                        <cell style="text-align: right;">12.79</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">2</cell>
+                        <cell style="text-align: right;">8.38</cell>
+                        <cell style="text-align: right;">8.51</cell>
+                        <cell style="text-align: right;">7.71</cell>
+                        <cell style="text-align: right;">10.46</cell>
+                        <cell style="text-align: right;">10.18</cell>
+                        <cell style="text-align: right;">11.11</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">3</cell>
+                        <cell style="text-align: right;">7.81</cell>
+                        <cell style="text-align: right;">8.07</cell>
+                        <cell style="text-align: right;">6.5</cell>
+                        <cell style="text-align: right;">9.95</cell>
+                        <cell style="text-align: right;">9.61</cell>
+                        <cell style="text-align: right;">10.74</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">4</cell>
+                        <cell style="text-align: right;">7.21</cell>
+                        <cell style="text-align: right;">7.61</cell>
+                        <cell style="text-align: right;">5.27</cell>
+                        <cell style="text-align: right;">9.68</cell>
+                        <cell style="text-align: right;">9.31</cell>
+                        <cell style="text-align: right;">10.55</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">5</cell>
+                        <cell style="text-align: right;">7.31</cell>
+                        <cell style="text-align: right;">7.85</cell>
+                        <cell style="text-align: right;">5.25</cell>
+                        <cell style="text-align: right;">9.69</cell>
+                        <cell style="text-align: right;">9.54</cell>
+                        <cell style="text-align: right;">10.25</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">6</cell>
+                        <cell style="text-align: right;">7.41</cell>
+                        <cell style="text-align: right;">7.89</cell>
+                        <cell style="text-align: right;">5.09</cell>
+                        <cell style="text-align: right;">9.61</cell>
+                        <cell style="text-align: right;">9.39</cell>
+                        <cell style="text-align: right;">10.11</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Latein</cell>
+                        <cell style="text-align: right;">5</cell>
+                        <cell style="text-align: right;">11.09</cell>
+                        <cell style="text-align: right;">7.99</cell>
+                        <cell style="text-align: right;">26.21</cell>
+                        <cell style="text-align: right;">16.1</cell>
+                        <cell style="text-align: right;">9.69</cell>
+                        <cell style="text-align: right;">31.21</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">FNHD</cell>
+                        <cell style="text-align: right;">5</cell>
+                        <cell style="text-align: right;">28.41</cell>
+                        <cell style="text-align: right;">33.02</cell>
+                        <cell style="text-align: right;">6.06</cell>
+                        <cell style="text-align: right;">27.89</cell>
+                        <cell style="text-align: right;">34.83</cell>
+                        <cell style="text-align: right;">11.43</cell>
+                    </row>
+                    <head>Tabelle 3. Resultate der Modelle trainiert auf verschiedenen Sprachzusammenstellungen und Anzahl Epochen (fett = beste Performance in einer Spalte).</head>
+                </table>
+                
+                <p style="text-align: left; ">Aufgrund der Resultate entschieden wir uns, die monolingualen Modelle auf 5 Epochen zu trainieren. Auf die frühneuhochdeutschen Zeilen der Vielschreiber angewandt liefert das monolinguale Modell mit einer CER von 6.06% entgegen der Erwartungen nicht das beste Resultat. Dieses erreichte ein multilinguales Modell (trainiert über 6 Epochen) mit einer CER von 5.09%, also knapp einem Prozentpunkt Unterschied. Die größere Menge an Bilddaten beeinflusst während des Fine-Tunings merklich die Performanz.</p>
+                <p style="text-align: left; ">Unsere Experimente zeigen, dass Transformer-basierte HTR für historische Daten CERs in akzeptablen Bereichen liefert, ohne dass TrOCR bis zu unserem Fine- Latein oder FNHD gesehen hätte. Trotz der im Vergleich zum Pre-Training kleinen lateinischen und frühneuhochdeutschen Textmenge lernt TrOCR die Dekodierung von neuen Sprachen zuverlässig. In Zeilen, in welchen die Sprache hingegen ändert (Code-Switching), was im Bullinger-Briefwechsel relativ häufig passiert (Volk et al. 2022), reagiert TrOCR zu spät für den Sprachwechsel (Abbildung 5). Solche Phänomene werden wir mit flexibleren Modellen abzufangen versuchen.</p>
+                <figure>
+                    <graphic n="1001" url="Pictures/b57440fc281b5b56694658e398bc4342.png" rend="inline"/>
+                    <head>Abbildung 5. Performanz verschiedener TrOCR-Modelle auf einer Zeile, in welcher Sprachwechsel vorliegt. Der Trennstrich markiert die Sprachgrenze, die im multilingualen Modell zu spät und in monolingualen gar nicht erkannt wird.</head>
+                    </figure>
+                
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schlüsse</head>
+                <p style="text-align: left; ">Die Arbeit mit dem Bullinger-Korpus ist aufschlussreich in unterschiedlicher Hinsicht. Zentral für diese Arbeit sind drei 
+                    <hi rend="italic">Schlussfolgerungen</hi>:
+                </p>
+<list type="ordered">
+                    <item>Wir stellen eine Harmonisierung unterschiedlicher (
+                        <hi rend="italic">Deep-Learning-</hi>basierter) Systeme mit Bezug zur Erkennqualität von Handschriften fest. Unabhängig davon, ob etablierte Plattformen oder neue Systeme wie TrOCR genutzt werden.
+                    </item>
+                    <item>Der Gebrauch von 
+                        <hi rend="italic">Data-Augmentation-</hi>Techniken verspricht einen Gewinn, der aktuell noch weiter auszuloten ist, im Grundsatz aber schon zu Verbesserungen führt. 
+                    </item>
+                    <item>Aktuell haben etablierte Plattformen den Vorteil, dass grosse 
+                        <hi rend="italic">Basemodels</hi> genutzt werden können, die noch leichte Vorteile mitbringen, bei grossen Projekten wie Bullinger Digital aber noch anhand der Fehlermuster ausgelotet werden müssen.
+                    </item>
+                </list>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                    
+                        <hi style="font-size:10pt"> </hi>
+                        <ref target="https://www.bullinger-digital.ch/">
+                            <hi rend="color(1155CC)" style="font-size:10pt">https://www.bullinger-digital.ch/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <hi style="font-size:10pt">Stand 1.6.2022.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                        
+                            <hi style="font-size:10pt">Character Error Rate wird mit CER abgekürzt und steht für Zeichenfehlerrate.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                         Für den Aufbau des Experiments: Spoto et al. 2022.
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                        
+                            <hi style="font-size:10pt">Warm-up bedeutet, dass zu Beginn des Trainings mit kleinen Lernraten gerechnet wird, um das Modell langsam an die neuen Daten zu gewöhnen.</hi>
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bullinger, Heinrich. </hi>1973. 
+                        <hi rend="italic">Briefe der Jahre 1524-1531</hi>. Edited by Ulrich Gäbler and Fritz Büsser. Vol. 1. Heinrich Bullinger Werke. Zweite Abteilung: Briefwechsel. Zürich: Theologischer Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">———. 2022. 
+                        <hi rend="italic">Briefe von April bis Dezember 1547: Anhang: Neue Briefe aus den Jahren 1523 bis 1546</hi>. Edited by Reinhard Bodenmann, Yvonne Häfner, and Judith Steiniger. 1st ed. Vol. 20. Heinrich Bullinger Werke. Zweite Abteilung: Briefwechsel. Zürich: Theologischer Verlag Zürich.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Davis, Brian, Bryan Morse, Brian Price, Chris Tensmeyer, Curtis Wigington, and Rajiv Jain.</hi> 2020. “Text and Style Conditioned GAN for the Generation of Offline-Handwriting Lines.” In 
+                        <hi rend="italic">The 31st British Machine Vision (Virtual) Conference 2020</hi>. Bath. https://www.bmvc2020-conference.com/conference/papers/paper_0815.html.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Diaz, Daniel Hernandez, Siyang Qin, Reeve Ingle, Yasuhisa Fujii, and Alessandro Bissacco.</hi> 2021. “Rethinking Text Line Recognition Models.” arXiv. http://arxiv.org/abs/2104.07787.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dosovitskiy, Alexey, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, et al.</hi> 2021. “An Image Is Worth 16x16 Words: Transformers for Image Recognition at Scale.” arXiv. http://arxiv.org/abs/2010.11929.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Hodel, Tobias. </hi>2020. “Best-Practices Zur Erkennung Alter Drucke Und Handschriften – Die Nutzung von Transkribus Large- Und Small-Scale.” In 
+                        <hi rend="italic">DHd 2020. Spielräume Digital Humanities Zwischen Modellierung Und Interpretation</hi>, edited by Christof Schöch, 84–87. Paderborn. https://doi.org/10.5281/zenodo.3666689.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Leifert, Gundram, Roger Labahn, and Joan Andreu Sánchez.</hi> 2020. “Two Semi-Supervised Training Approaches for Automated Text Recognition.” In 
+                        <hi rend="italic">2020 17th International Conference on Frontiers in Handwriting Recognition (ICFHR)</hi>, 145–50. https://doi.org/10.1109/ICFHR2020.2020.00036.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Li, Minghao, Tengchao Lv, Lei Cui, Yijuan Lu, Dinei Florencio, Cha Zhang, Zhoujun Li, and Furu Wei.</hi> 2021. “TrOCR: Transformer-Based Optical Character Recognition with Pre-Trained Models.” arXiv. http://arxiv.org/abs/2109.10282.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Liu, Yinhan, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. </hi>2019. “RoBERTa: A Robustly Optimized BERT Pretraining Approach.” arXiv. https://doi.org/10.48550/arXiv.1907.11692.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Marti, U.-V., and H. Bunke.</hi> 2002. “The IAM-Database: An English Sentence Database for Offline Handwriting Recognition.” 
+                        <hi rend="italic">International Journal on Document Analysis and Recognition</hi> 5 (1): 39–46. https://doi.org/10.1007/s100320200071.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Puigcerver, Joan.</hi> 2017. “Are Multidimensional Recurrent Layers Really Necessary for Handwritten Text Recognition?” In 
+                        <hi rend="italic">2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)</hi>, 01:67–72. https://doi.org/10.1109/ICDAR.2017.20.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Ruder, Sebastian, Matthew E. Peters, Swabha Swayamdipta, and Thomas Wolf. </hi>2019. “Transfer Learning in Natural Language Processing.” In 
+                        <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Tutorials</hi>, 15–18. Minneapolis, Minnesota: Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-5004.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sousa Neto, Arthur Flor de, Byron Leite Dantas Bezerra, Alejandro Héctor Toselli, and Estanislau Baptista Lima.</hi> 2020. “HTR-Flor: A Deep Learning System for Offline Handwritten Text Recognition.” In 
+                        <hi rend="italic">2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)</hi>, 54–61. https://doi.org/10.1109/SIBGRAPI51738.2020.00016.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Spoto, Martin, Beat Wolf, Andreas Fischer, and Anna Scius-Bertrand.</hi> 2022. “Improving Handwriting Recognition for Historical Documents Using Synthetic Text Lines.” In 
+                        <hi rend="italic">Proceedings 20th Conf. of the International Graphonomics Society (IGS)</hi>. Las Palmas de Gran Canaria.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Strauss, Tobias, Max Weidemann, Johannes Michael, Gundram Leifert, Tobias Grüning, and Roger Labahn.</hi> 2018. “System Description of CITlab’s Recognition &amp; Retrieval Engine for ICDAR2017 Competition on Information Extraction in Historical Handwritten Records.” 
+                        <hi rend="italic">CoRR</hi> abs/1804.09943. http://arxiv.org/abs/1804.09943.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Touvron, Hugo, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, and Herve Jegou. </hi>2021. “Training Data-Efficient Image Transformers &amp; Distillation through Attention.” In 
+                        <hi rend="italic">Proceedings of the 38th International Conference on Machine Learning</hi>, 10347–57. PMLR. https://proceedings.mlr.press/v139/touvron21a.html.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin.</hi> 2017. “Attention Is All You Need.” In 
+                        <hi rend="italic">Advances in Neural Information Processing Systems</hi>, 30:5998–6008. Curran Associates, Inc. https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Volk, Martin, Lukas Fischer, Patricia Scheurer, Raphael Schwitter, Phillip Ströbel, Benjamin Suter.</hi> 2022. “Nunc Profana Tractemus. Detecting Code-Switching in a Large Corpus of 16th Century Letters.” 
+                        <hi rend="italic">In Proceddings of LREC 2022</hi>. Marseille.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

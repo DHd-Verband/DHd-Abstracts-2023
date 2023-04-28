@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KRAUSE_Celia_Forschungsdateninfrastruktur_als_offene_Werksta" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Forschungsdaten-<br/>infrastruktur als offene Werkstatt: Community Building zwischen generischen und datenspezifischen Praktiken</title>
+                <author>
+                    <persName>
+                        <surname>Hagener</surname>
+                        <forename>Malte</forename>
+                    </persName>
+                    <affiliation>Philipps-Universität Marburg, Deutschland</affiliation>
+                    <email>malte.hagener@uni-marburg.de</email>
+                    <idno type="ORCID">0000-0003-4664-5536</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Stanicka-Brzezicka</surname>
+                        <forename>Ksenia</forename>
+                    </persName>
+                    <affiliation>Philipps-Universität Marburg, Marburg Center for Digital Culture and Infrastructure, Herder-Institut für historische Ostmitteleuropaforschung</affiliation>
+                    <email>ksenia.stanicka@uni-marburg.de</email>
+                    <idno type="ORCID">0000-0003-2390-8903</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Krause</surname>
+                        <forename>Celia</forename>
+                    </persName>
+                    <affiliation>Deutsches Dokumentationszentrum für Kunstgeschichte, Bildarchiv Foto Marburg</affiliation>
+                    <email>celia.krause@fotomarburg.de</email>
+                    <idno type="ORCID">0000-0002-4448-230X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Eggersglüß</surname>
+                        <forename>Christoph</forename>
+                    </persName>
+                    <affiliation>Philipps-Universität Marburg, Marburg Center for Digital Culture and Infrastructure</affiliation>
+                    <email>christoph.eggersgluess@uni-marburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-06T14:59:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Infrastruktur</term>
+                    <term>Meta: CommunityBuilding</term>
+                    <term>Meta: Lehren/Lernen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anliegen</head>
+                <p>Sowohl die in der Forschungslandschaft inzwischen gut etablierten Digital Humanities, als auch das gewünschte Zusammenwachsen der Prozesse in den verschiedenen GLAM-Einrichtungen wären ohne Community Building jenseits der tradierten Communities nicht denkbar. Der Aufbau dieser neuen Fachgemeinschaften zwingt zu einer Reflexion der etablierten Arbeitsweisen und bezieht die Verwendung von Richtlinien und Werkzeugen für den Umgang mit Daten ein. Unser Anliegen ist es zu verdeutlichen, auf welche Weise sich eine gemeinsame Infrastruktur für Forschungsdaten und das Community Building gegenseitig beeinflussen können. Eine solche Infrastruktur kann etwa in Analogie zu einer "offenen Werkstatt” verstanden werden, die Raum für einfache Zugänge und Hilfsmittel zur gemeinschaftlichen Nutzung in strukturierter Form anbietet.</p>
+                <p>Die Frage nach den Alleinstellungsmerkmalen einzelner Disziplinen steht vor allem im Kontext globaler Digitalisierung und Standardisierung von Forschungsprozessen, der Einführung digitaler Curricula sowie aufgrund der zunehmenden Forderung nach Interoperabilität im Raum (Balsinger 2005). Ebenso besteht die Anforderung, durch die Integration „analoger“ und „digitaler“ Aspekte in die Forschung oder die berufliche Praxis neue, „hybride“ Praktiken zu etablieren (Zaagsma 2013). Innerhalb vornehmlich digital arbeitender Fachcommunities stehen außerdem zunehmend generisch einsetzbare Werkzeuge und Methoden im Spannungsfeld mit den speziell auf bestimmte Datendomänen zugeschnittenen Tools.</p>
+                <p>Angesichts der Entwicklung gemeinsamer Infrastrukturen haben gemeinschaftlich entwickelte und genutzte Tools mittlerweile eine rasante Dynamik erfahren. Viele Projekte ließen sich ohne kollaborative und transparente Arbeitsgestaltung kaum realisieren und werden daher von Virtuellen Forschungsumgebungen, Wikis, Messaging-Diensten, Cloud- und Ticketsystemen, Sync&amp;Share Systemen, Versionierungstools und spezieller Software unterstützt. Das Community Building kann innerhalb dieser Infrastrukturen als Prozess verstanden werden, der zwischen generischer Offenheit und Zielgruppenspezifik anzusiedeln ist und Fächergrenzen überschreitet. Das Panel möchte in der Diskussion rezenten Problemlagen nachgehen und eruieren, wie sich Prozesse des Community Building im Digitalen an Orten des Lernens, der Forschung oder Vernetzung gestalten und welche Veränderungen, Herausforderungen sowie Chancen und Risiken dies für Universitäten wie GLAM-Einrichtungen birgt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Impulsvorträge</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Von geisteswissenschaftlichen Forschungsdaten zu 
+                        <hi rend="italic">NFDI4Culture</hi> als Open Community
+                    </head>
+                    <p>Blickt man zurück auf die Entwicklung der letzten Jahre, so hat die Diskussion um den Begriff „Forschungsdaten“ das Community Building in den Geisteswissenschaften maßgeblich befeuert (Andorfer 2015). Die ausgeprägte Unschärfe dieses Begriffs stand einer von allen Communities akzeptierten Definition lange entgegen. Umfragen halfen einer Konkretisierung näherzukommen und legten Sichtweisen und Umgang mit Daten offen. Auf diese Weise hat man versucht, Kategorien zu bilden, um eine übergreifende Ordnung zu finden. Etwa zeitgleich wurden allgemeine und fachspezifische Policies und Empfehlungen zum Umgang mit Forschungsdaten für die Communities herausgegeben (z. B. DFG 2015ff.). Diese mündeten schließlich – getragen vom Aufbau spezieller Repositorien und Datenzentren (
+                        <ref target="https://dhd-ag-datenzentren.github.io/">
+                            <hi rend="underline color(1155CC)">https://dhd-ag-datenzentren.github.io/</hi>
+                        </ref>) – in den konkreten Bedarf einer Infrastruktur, welche eine langfristige Sicherung und nachhaltige Bereitstellung digitaler Forschungsdaten garantieren kann, wobei der Akzent auf einer fachübergreifenden Zusammenarbeit liegt.
+                    </p>
+                    <p>Resultat dieser Bestrebung ist seit Herbst 2020 die Nationale Forschungsdateninfrastruktur (NFDI), darunter das Konsortium 
+                        <hi rend="italic">NFDI4Culture</hi> für das (im)materielle Kulturerbe (
+                        <ref target="https://nfdi4culture.de/">
+                            <hi rend="underline color(1155CC)">https://nfdi4culture.de/</hi>
+                        </ref>). Die Zielgruppen dieser Infrastruktur sind einerseits die Datenerzeuger und Vertreter verschiedener Wissensgebiete, andererseits die Datenanbieter (i.d.R. Infrastruktureinrichtungen, GLAM), deren Funktionsbereiche sich teilweise überlappen und für einen reibungslosen Datenfluss ineinander greifen. Entscheidend ist die Konsolidierung der Communities: Es gilt, die Interessen unterschiedlicher Teilgruppen zusammenzuführen und zielgruppenspezifische Angebote für qualitativ hochwertige Forschungsdaten zu entwickeln. Eine Verständigung zwischen den Disziplinen wird gefördert, indem Fachvertreter:innen in gemeinsamen Task Areas zusammenarbeiten (Altenhöner et al. 2020). Für eine solche Zusammenarbeit sind auch fachübergreifende Angebote gefragt, weshalb die NFDI gemeinsame Querschnittsthemen identifiziert hat, die über die Konsortien hinweg in (bislang) vier Sektionen („Gemeinsame Infrastruktur“, „Metadaten, Terminologien, Provenienz“, „Recht und Ethik“ sowie „Training und Ausbildung“) bearbeitet werden.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Kleine Tools und schwach strukturiertes Publizieren (Code and Data Literacy am Beispiel medienkulturwissenschaftlicher Lehre)</head>
+                    <p>Data Literacy kann als Indikator dienen, wenn es um die Zugehörigkeit zu digital geprägten Communities geht, ebenso bietet sie Möglichkeiten, diese zu verbinden. Der Vortrag möchte den kritischen Umgang mit Code und Daten als „ability to collect, manage, evaluate, and apply data, in a critical manner“ (Ridsdale et al. 2015) in einem erweiterten Sinne anhand ausgewählter Beispiele verdeutlichen und für einen offenen Umgang mit Methoden, Tools sowie Lerneinheiten plädieren. Zunächst sollen die Vorteile von Open Educational Resources (OER) aufgezeigt werden. Etwas globaler formuliert soll damit auch für das zügige und eher schwach strukturierte Publizieren unfertiger, kürzerer und kleinerer Recherchen und Übungen durch Studierende argumentiert werden. Dies führt nicht nur über das gegenseitige Lesen, Kommentieren und Korrigieren im Seminar hinaus, sondern öffnet die Publikation von Unterrichtsmaterial auch für einen Austausch mit den Fachcommunities (Bsp. 
+                        <ref target="https://zfmedienwissenschaft.de/online/open-media-studies-blog">
+                            <hi rend="underline color(1155CC)">https://zfmedienwissenschaft.de/online/open-media-studies-blog</hi>
+                        </ref>). Ressourcen, Tutorials und Anleitungen auch außerhalb des angestammten Lehrbetriebs gibt es viele (u.a.
+                        <ref target="https://programminghistorian.org/">
+                            <hi rend="underline color(1155CC)">https://programminghistorian.org/</hi>
+                        </ref> oder
+                        <ref target="https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/">
+                            <hi rend="underline color(1155CC)">https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/</hi>
+                        </ref>). Ihre Auffindung und Nutzung gehört auch zur Data Literacy. Mit der Öffnung der Seminare, insbesondere durch die gezielte Ansprache von Infrastruktureinrichtungen/GLAM (Bsp. DNBLab sowie lokale Angebote der Universitätsbibliotheken), können nicht nur Lehr- und Lerneinheiten, sondern auch die eingesetzten Tools kontextabhängig und datenspezifisch weiterentwickelt werden. So werden neben allgemein nützlichen Redaktionsabläufen auch eine Vielzahl von Herangehensweisen an unterschiedlichste Medieninhalte und Schnittstellen auf allen Ebenen wissenschaftlichen Arbeitens eingeübt, also Datenkompetenz wie Datenkritik praktisch erprobt. In der Diskussion verweisen wir auf Trainings- und Ausbildungsszenarien, die nicht nur von einer Einrichtung allein geleistet werden können, sondern sich entlang von Forschungsdateninfrastrukturen und dem Austausch von OER bewegen. Schwerpunkte sind medien- und kulturwissenschaftliche Kontexte und die Ausprägung bestimmter Datenbegriffe.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Humanities im Wandel – Neue Möglichkeiten durch Community Building</head>
+                    <p>Das letzte Statement liefert unter Einbezug des genannten Praxisfalls eine zusammenfassende Definition des Begriffs „Community Building”, skizziert nochmals seinen praktischen Nutzen und legt offen, welche Kriterien und Aspekte einer Forschungsdateninfrastruktur dafür entscheidend sind. </p>
+                    <p>Da im Digitalen viele Prozesse in den Geistes- und Kulturwissenschaften gemeinsam, also fachübergreifend, erfolgen, soll auch allgemein darüber reflektiert werden, auf welche Weise die Vernetzung von Personen und Einrichtungen in diesem Feld spezifisch verläuft. Einerseits wird diese unmittelbar durch die projektbedingte Entwicklung bestimmter Tools und Services für die User angeregt („If we build it, they will come“: Ramsay 2016). Andererseits tragen länger andauernde, übergreifende Prozesse wie die Entwicklung von Auszeichnungsformaten, Vokabularen, Ontologien und Metadatenprofilen, die Ausarbeitung von Daten- und Qualitätsmanagement-Strategien (etwa mit Datenmanagementplänen), die digitale Kuratierung oder Archivierung oder die Herstellung von Linked Open Data zum Community Building bei. Daneben ist eine Übertragbarkeit von Methoden in der Datenverarbeitung zu beobachten, und zwar nicht nur zwischen einzelnen Disziplinen innerhalb der Digital Humanities, sondern darüber hinaus zwischen diesen und der Informatik sowie anderen MINT-Fächern (Musikwissenschaft: Plaksin 2021).</p>
+                    <p>Besonders relevant wird die Frage sein, ob es sich um eine interdisziplinäre oder vielmehr eine transdisziplinäre, sehr offene Form der Zusammenarbeit handelt (Balsiger 2005, 140ff. 148f. 166f. 174. 179, Jungert 2010). In einem Fall werden Wissen und Methoden aus dem anderen Wissensgebiet genutzt, ohne den Methoden- und Erkenntnisraum des eigenen Gebietes zu verlassen. Im anderen Fall können Wissen und Methoden der eigenen Disziplin einen Gegenstand der Nachbardisziplin erschließen, wobei der Methoden- und Erkenntnisraum überschritten wird. Quasi disziplin-unabhängig – wie in einer offenen Werkstatt – kann dann an Aspekten gearbeitet werden, die jede Disziplin für sich allein womöglich nicht behandeln würde (z. B. Mittelstraß 1992).</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Leitfragen für die Diskussion</head>
+                <p>1. Wo finden sich Beispiele für generische und spezifische Bedarfe innerhalb der/einer Forschungsdateninfrastruktur?</p>
+                <p>2. Inwieweit werden konkrete Interaktions- und Partizipationsmöglichkeiten an 
+                    <hi rend="italic">NFDI4Culture</hi> als offene Werkstatt von den Zielgruppen bereits wahrgenommen?
+                </p>
+                <p>3. Abseits unseres Beispiels: Welche konkreten Lösungen bieten Forschende, um ihre (datenorientierten und auf digitalen Tools beruhenden) Arbeitsweisen in den NFDI-Aufbauprozess zu integrieren und inwieweit ist es überhaupt möglich und sinnvoll?</p>
+                <p>4. Wie gelingt es, Forschungscommunities über ein Service-Portfolio dauerhaft in den NFDI-Entwicklungsprozess einzubinden?</p>
+                <p>5. Wie wirken sich – datenspezifisch betrachtet – die community-übergreifend genutzten Werkzeuge und Methoden auf das Community Building aus?</p>
+                <p>6. Wie sollen Forschungs- und Infrastrukturprojekte auf die zunehmende praxisorientierte Diversität reagieren?</p>
+                <p>7. Wie beeinflusst das Community Building den Transfer in die Öffentlichkeit und die Rezeption in anderen Bereichen der (Wissens-)Gesellschaft, die ebenfalls dem digitalen Wandel unterliegen (GLAM als „Knowledge Broker“, Simon 2018, 320)?</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Altenhöner, Reinhard et al.</hi> 2020. 
+                        <hi rend="italic">NFDI4Culture - Consortium for research data on material and immaterial cultural heritage. Research Ideas and Outcomes</hi>.
+                        <ref target="https://doi.org/10.3897/rio.6.e57036">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.3897/rio.6.e57036</hi>
+                        </ref> (zugegriffen: 3. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Andorfer, Peter.</hi> 2015. "Forschungsdaten in den (digitalen) Geisteswissenschaften. Versuch einer Konkretisierung." 
+                        <hi rend="italic">DARIAH-DE Working Papers:</hi> 14. 
+                        <ref target="http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf">
+                            <hi rend="underline color(1155CC)">http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf</hi>
+                        </ref> (zugegriffen: 03. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Balsiger, Philipp W.</hi> 2005. 
+                        <hi rend="italic">Transdisziplinarität: systematisch-vergleichende Untersuchung disziplinübergreifender Wissenschaftspraxis</hi>. München: Wilhelm Fink Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">DFG</hi> 2015ff. 
+                        <hi rend="italic">Fachspezifische Empfehlungen zum Umgang mit Forschungsdaten</hi>.
+                        <ref target="https://www.dfg.de/foerderung/grundlagen_rahmenbedingungen/forschungsdaten/empfehlungen/index.html">
+                            <hi rend="underline color(1155CC)">https://www.dfg.de/foerderung/grundlagen_rahmenbedingungen/forschungsdaten/empfehlungen/index.html</hi>
+                        </ref> (zugegriffen: 03. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Jungert, Michael.</hi> 2010. "Was zwischen wem und warum eigentlich. Grundsätzliche Fragen der Interdisziplinarität" In 
+                        <hi rend="italic" xml:space="preserve">Interdisziplinarität. Theorie, Praxis, Probleme. </hi>Darmstadt: WBG, 1-12.
+                    </bibl>
+                    <bibl><hi rend="bold">Mittelstraß, Jürgen.</hi> 1992. "Auf dem Weg zur Transdisziplinarität." 
+                        <hi rend="italic">Gaia</hi> 1: 250.
+                    </bibl>
+                    <bibl><hi rend="bold">Plaksin, Anna.</hi> 2021. "Modelle zur computergestützten Analyse von Überlieferungen der Mensuralmusik – Empirische Textforschung im Kontext phylogenetischer Verfahren." PhD diss. Univ. Münster und TU Darmstadt. 
+                        <ref target="https://doi.org/10.26083/tuprints-00017211">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.26083/tuprints-00017211</hi>
+                        </ref> (zugegriffen: 03. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Ramsay, Stephen.</hi> 2016. "Who’s In and Who’s Out." In 
+                        <hi rend="italic">Defining Digital Humanities. A Reader</hi>, hg. von 
+                        <hi rend="product-banner-author-name" xml:space="preserve">Melissa Terras, Julianne Nyhan and Edward Vanhoutte, 239-242. </hi>
+                        <hi rend="product-ryt-detail">London</hi>
+                        <hi rend="product-banner-author-name">: Routledge.</hi>
+                    </bibl>
+                    <bibl><hi rend="bold">Ridsdale, Chantel et al.</hi> 2015. 
+                        <hi rend="italic">Strategies and Best Practices for Data Literacy Education, Knowledge Synthesis Report</hi>. http://hdl.handle.net/10222/64578 (zugegriffen: 3. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Simon, Holger.</hi> 2018. "Digitales Ökosystem - Eine Antwort auf die digitale Transformation in den Kulturinstitutionen am Beispiel der Museen", in: Kuroczyński, Piotr, Bell, Peter und Dieckmann, Lisa (Hrsg.). 
+                        <hi rend="italic">Computing Art Reader: Einführung in die digitale Kunstgeschichte</hi>, Heidelberg: arthistoricum.net. 
+                        <ref target="https://books.ub.uni-heidelberg.de/arthistoricum/catalog/book/413">https://books.ub.uni-heidelberg.de/arthistoricum/catalog/book/413</ref>, 319-328 (zugegriffen: 3. Dezember 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Zaagsma, Gerben.</hi> 2013. "On Digital History". 
+                        <hi rend="italic">BMGN - Low Countries Historical Review</hi> 128,4: 3-29.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

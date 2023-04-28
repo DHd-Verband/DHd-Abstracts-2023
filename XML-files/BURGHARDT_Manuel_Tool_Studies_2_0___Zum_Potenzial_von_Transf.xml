@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="BURGHARDT_Manuel_Tool_Studies_2_0___Zum_Potenzial_von_Transf" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tool Studies 2.0 – Zum Potenzial von Transformern für die Erkennung und Klassifikation von Software-Tools in DH-Publikationen</title>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Computational Humanities, Universität Leipzig</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ruth</surname>
+                        <forename>Nicolas</forename>
+                    </persName>
+                    <affiliation>Computational Humanities, Universität Leipzig</affiliation>
+                    <email>nicolas.ruth@web.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Niekler</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Computational Humanities, Universität Leipzig</affiliation>
+                    <email>aniekler@informatik.uni-leipzig.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>RoBERTa</term>
+                    <term>tool studies</term>
+                    <term>software entity recognition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung: Zur Rolle von Tools in den Digital Humanities</head>
+                <p>Software-Tools spielen in den Digital Humanities eine zentrale Rolle, ja, sind geradezu genre-prägend für diese Disziplin. Diese wichtige, praktische Rolle ist u.a. belegt durch die Existenz diverser Tutorials und vor allem auch von Tool-Katalogen (vgl. Tab. 1) sowie Versuchen der einheitlichen Kategorisierung von Tools, etwa der TaDiRAH-Taxonomie (Borek et al., 2016).</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Name</cell>
+                        <cell style="text-align: left;">Typ</cell>
+                        <cell style="text-align: left;">URL</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:10pt">Programming Historian</hi>
+                        </cell>
+                        <cell style="text-align: left;">Tutorials</cell>
+                        <cell style="text-align: left;">https://programminghistorian.org/</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">forTEXT</cell>
+                        <cell style="text-align: left;">Tutorials</cell>
+                        <cell style="text-align: left;">https://fortext.net/</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">CLARIAH-DE Tutorial Finder</cell>
+                        <cell style="text-align: left;">Tutorials</cell>
+                        <cell style="text-align: left;">https://teaching.clariah.de/search/</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">TAPoR</cell>
+                        <cell style="text-align: left;">Katalog</cell>
+                        <cell style="text-align: left;">https://tapor.ca/home</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Digital Methods Initiative</cell>
+                        <cell style="text-align: left;">Katalog</cell>
+                        <cell style="text-align: left;">https://wiki.digitalmethods.net/Dmi/ToolDatabase</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi style="font-size:10pt">Alan Liu’s DH Toychest</hi>
+                        </cell>
+                        <cell style="text-align: left;">Katalog </cell>
+                        <cell style="text-align: left;">http://dhresourcesforprojectbuilding.pbworks.com</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">SSH Open Marketplace</cell>
+                        <cell style="text-align: left;">Katalog</cell>
+                        <cell style="text-align: left;">https://marketplace.sshopencloud.eu/</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">NFDI4Culture </cell>
+                        <cell style="text-align: left;">Katalog</cell>
+                        <cell style="text-align: left;">https://riojournal.com/article/57036/instance/5947376/; Tabelle 9, Appendix</cell>
+                    </row>
+                    <head><hi rend="italic" xml:space="preserve">Tabelle 1: Übersicht zu verschiedenen Tutorials und Katalogen für Tools in den Digital Humanities.</hi></head>
+                </table>
+
+                <p>Neben diesen stärker praxeologischen Aspekten finden sich auch diverse Diskurse um die Rolle und Implikationen von Tools in den Digital Humanities. Ein Thema ist dabei etwa „Tool Criticism“, also der kritische Umgang mit Tools, insbesondere deren spezifischer Funktionsweise und den Effekten, die diese auf die letztlichen Ergebnisse haben (Koolen et al., 2019; Traub &amp; van Ossenbruggen, 2015; van Es et al., 2018). Ein weiteres Themenfeld findet sich im Bereich der Mensch-Maschine-Interaktion, also den speziellen Anforderungen, die geisteswissenschaftliche Forschende an die Funktionalität und Usability von Software-Tools mitbringen (Burghardt &amp; Wolff, 2014; Wolff, 2015).</p>
+                <p>Besonders stark ausgeprägt ist die Diskurslinie, die sich mit der Frage um die epistemologischen Effekte – also die unmittelbare Auswirkung von digitalen Tools auf den geisteswissenschaftlichen Erkenntnisprozess – beschäftigen (Burghardt et al., 2022; Dalbello, 2011; Kaden, 2016; Ramsay &amp; Rockwell, 2012). </p>
+                <p>Dabei erstrecken sich die genannten Diskussionen vornehmlich auf Einzelbeispiele, größere empirische Untersuchungen gibt es bislang nur wenige. Dazu zählt u.a. eine Studie aus dem Umfeld des Research Software Engineering, bei der die Art und Häufigkeit von Softwarezitationen in DHd-Abstracts analysiert wurde (Henny-Krahmer &amp; Jettka, 2022). Weiterhin sind hier die zahlreichen Experimente von Frank Fischer und Kollegen, die u.a. DH-Abstracts und Tutorials des Programming Historian auf Tool-Vorkommen hin untersucht haben (Barbot et al., 2019; Fischer &amp; Moranville, 2020b, 2020a; Zarei, Alireza et al., 2022) sowie auch erste eigene Experimente (Burghardt et al., 2022) zu nennen. Ein erster Austausch zwischen den unterschiedlichen Akteur*innen im deutschsprachigen Raum fand weiterhin im Rahmen einer gemeinsamen Veranstaltung mit dem Titel „Die Werkbänke der Digital Humanities: Zur Rolle von Tools und Software für die Forschungsarbeit“ bei der vDHd (2021) statt.</p>
+                <p>Als grundlegende Methoden zur Erkennung von Tools finden sich in den genannten Studien vor allem zwei Ansätze: (1) lexikonbasierte Ansätze, bei denen mithilfe bestehender Tool-Listen, wie sie bspw. in den in Tab. 1 genannten Ressourcen verfügbar sind, ein einfacher look-up in einem Zielkorpus von DH-Publikationen erfolgt. Dieser Ansatz lässt sich sehr schnell umsetzen, leidet aber unter den üblichen Einschränkungen lexikonbasierter Verfahren, bspw. der Unvollständigkeit von statischen Wortlisten und gleichzeitig die Ambiguität einzelner Einträge (R, Python, Gate, etc.). (2) Der zweite Ansatz versucht diese Einschränkungen zu überwinden, indem auf verschiedentliche Verfahren des maschinellen Lernens mit dem Ziel eines Klassifikationstasks gesetzt wird. Hier gibt es einerseits vortrainierte Modelle aus dem Bereich der Software Entity Recognition (Patrice &amp; Romary, 2015; Schindler et al., 2022), die aber zumeist aus dem naturwissenschaftlichen Bereich kommen und deshalb nur mäßig für den Einsatz in Digital Humanities-Publikationen geeignet sind (vgl. Henny-Krahmer &amp; Jettka, 2022). In einer aktuellen Publikation experimentieren Zarei et al. (2022) mit einem auf Prodigy und dem spaCy-Framework basierenden NER-Ansatz, welcher für ein sehr klar umrissenes Anwendungsszenario mit vorhergehendem Training gute Ergebnisse bringt. Für einen Ansatz, der in der Lage ist auch Tools zu erkennen, die nicht vortrainiert wurden, schlagen die Autoren weiterführende Ansätze mit aktuellen Transformer-Modellen wie bspw. BERT (Devlin et al., 2019) vor. Erste Experimente mit BERT für eine binäre Klassifikation von Sätzen mit / ohne Tools wurden von uns bereits im Rahmen einer Vorstudie (Burghardt et al., 2022) erfolgreich durchgeführt und zeigten sich nach einer ersten qualitativen Evaluation als sehr vielversprechend. Das vorliegende Paper knüpft hier nahtlos an und präsentiert Erkenntnisse aus aktuellen Experimenten mit dem RoBERTa-Modell (Liu et al., 2019), einer optimierten Variante des bekannten BERT-Modells. Der von uns verfolgte Ansatz ist neben einer grundlegenden Identifikation von Tools über deren Embedding-Vektoren auch in der Lage die Tools größeren Kategorien, wie bspw. 
+                    <hi rend="italic">Textanalysetool</hi> oder 
+                    <hi rend="italic">Visualisierungstool</hi>, zuzuordnen. Wir glauben, dass wir mit einem solchen Ansatz einen wichtigen Beitrag zu den bestehenden Tool-Diskursen in den DH leisten können und hoffen damit weitere empirische “Tool Studies” zu befördern.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Tool-Identifizierung und -Klassifikation mit RoBERTa Tool-Embeddings</head>
+                <p>Der Task der Tool-Identifizierung und -Klassifikation lässt sich methodisch als Problem der Text-Klassifikation einordnen. Beim gewählten Ansatz handelt es sich um ein Verfahren des überwachten Maschinellen Lernens, welches konkret aus einer binären und einer mehrklassigen Klassifikationsaufgabe besteht. Die grundlegende Idee beim nachfolgenden Vorgehen ist, dass die Erwähnung eines Tools in einem Paper in einem spezifischen sprachlichen Kontext steht, der sich in Form eines Sequenz-Embeddings mithilfe eines transformer-basierten Sprachmodells abbilden und klassifizieren lässt.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Korpus, Trainings- und Testdaten </head>
+                    <p>Am Anfang steht die Erstellung spezieller, gelabelter Trainings- und Testdatensätze. Der Ausgangsdatensatz, der ebenfalls als Untersuchungsgegenstand für die folgende Analysen dient, besteht aus 3.737 englisch-sprachigen Zeitschriftenpublikationen aus dem Bereich der Digital Humanities, die zwischen 1966 und 2020 veröffentlicht wurden (Luhmann &amp; Burghardt, 2021). Eine manuelle Extraktion von Sequenzen in Papers, die die Nennung eines Tools beinhalten, ist in Anbetracht der vorliegenden Datenmengen nicht durchführbar. Stattdessen wurden automatisch bekannte Tools im Korpus gesucht, um entsprechende Sequenzen ausfindig machen zu können. Um qualitativ hochwertige Trainingsdaten zu erhalten, haben wir zunächst nach besonders populären Tools gesucht. Dazu haben wir insgesamt acht Listen und Tutorials mit Toolnennungen (vgl. Tab. 1) durchsucht und nur diejenigen Tools ausgewählt, die in mindestens zwei unterschiedlichen Listen genannt wurden. Aus diesen Tools haben wir dann zur weiteren Qualitätssteigerung diejenigen entfernt, die ein hohes Maß an Ambiguität aufwiesen. Dieses reduzierte Lexikon, mit insgesamt 246 Tools, dient als Ausgangspunkt für die Erstellung der Trainingsdaten. Im nächsten Schritt wurden sodann alle Papers des Korpus tokenisiert, mit dem Tool-Lexikon durchsucht und bei einem Treffer als Textausschnitt mit 15 Tokens vor und 15 Tokens nach dem Treffer als Sequenz-Label-Paar in den Trainingsdatensatz übernommen. Anschließend wurde die Menge der gefundenen Sequenzen durch zufällig gewählte und gleichmäßig über alle Papers verteilte, weitere Sequenzen ergänzt, die als Negativbeispiele für Toolnennung dienen.</p>
+                    <p>Als Label wird hier für den binären Trainingsdatensatz „Tool“ und „Kein Tool“ verwendet und für den mehrklassigen Trainingsdatensatz die Zugehörigkeit des Tools zur bestehenden Taxonomie von Alan Lius “DH Toychest”, da diese fast alle Tools in unseren Trainingsdaten bereits enthält und aus unserer Sicht auch gut nachvollziehbar ist. Langfristiges Ziel ist hier die Übernahme einer standardisierten Taxonomie wie TaDiRAH. Anschließend wurden die Datensätze für jeden der beiden Klassifikationstasks nach dem Prinzip einer 
+                        <hi rend="italic">5-fold cross-validation</hi> in fünf Trainings- und Testsätze geteilt. Final besteht der Datensatz aus 3.780 Sequenz-Label-Paaren in jedem der fünf 
+                        <hi rend="italic">folds</hi>. Für jede Runde der Kreuzvalidierung wurden vier 
+                        <hi rend="italic">folds</hi> für das Training und der fünfte 
+                        <hi rend="italic">fold</hi> als Testdatensatz für die Validierung benutzt.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Modell-Evaluation</head>
+                    <p>Als transformer-basiertes Sprachmodell wurde eine RoBERTa Implementierung von Hugging Face gewählt.<ref n="1" target="ftn1"/> Aus Effizienzgründen wurde konkret „distilroberta-base“ als „case-sensitive“- und „knowledge distilled“-Variante verwendet. Die Ergebnisse dieser Modell-Evaluation sind sehr vielversprechend. So wird für den Klassifikationstask der binären Tool-Detektion für beide Klassen bei den 5 
+                        <hi rend="italic">folds</hi> im Schnitt ein F1-Score von 0,99 erreicht. Für den Task der Tool-Kategorisierung wurden ebenfalls gute F1-Scores im Bereich 0,94 - 0,99 erzielt, die sich von Kategorie zu Kategorie geringfügig unterscheiden (vgl. Tab. 2). 
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell style="text-align: left;">Class</cell>
+                            <cell style="text-align: center;">F1-Score*</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Authoring / Annotation / Editing / Publishing Platforms &amp; Tools (including collaborative platforms)</cell>
+                            <cell style="text-align: center;">0,97</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Exhibition/Collection/Edition Platforms &amp; Too</cell>
+                            <cell style="text-align: center;">0,96</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">
+                                <hi style="font-size:10pt">Platforms and Communication</hi>
+                            </cell>
+                            <cell style="text-align: center;">0,99</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">
+                                <hi style="font-size:10pt">Programming Languages/Packages</hi>
+                            </cell>
+                            <cell style="text-align: center;">0,98</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">Text Analysis Tools</cell>
+                            <cell style="text-align: center;">0,97</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">
+                                <hi style="font-size:10pt">Visualization Tools</hi>
+                            </cell>
+                            <cell style="text-align: center;">0,94</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">
+                                <hi style="font-size:10pt">No Tool</hi>
+                            </cell>
+                            <cell style="text-align: center;">0,99</cell>
+                        </row>
+                        <head><hi rend="italic">Tabelle 2: Ergebnisse des mehrklassigen Klassifikationsansatzes. Kategorien mit zu geringen Vorkommen für aussagekräftigen Klassifikationswert wurden entfernt (Testsamples &gt; 100). *Mittelwert über alle Runden der Kreuzvalidierung</hi></head>
+                    </table>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Analysen</head>
+                <p>Die sehr guten Ergebnisse aus der Evaluation sollen im Folgenden im Rahmen einer beispielhaften Analyse weiter diskutiert werden. Dazu wurde der Ursprungsdatensatz mit den 3,737 DH-Papers mit einem „Sliding Window“-Ansatz und einer Fenstergröße von 31 Tokens (das entspricht der Größe unserer Trainingssequenzen, siehe oben) und einer Überlappung von fünf Tokens in insgesamt 753.210 Sequenzen geteilt. Diese wurden anschließend klassifiziert und in eine neue Datenbank geschrieben. </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ergebnisse der binären Toolidentifikation</head>
+                    <p>Für den binären Klassifizierungstask der Tool-Detektion werden 14.561 Sequenzen mit potenziellen Toolnennungen vorhergesagt. Obwohl die Trainingssätze auf Basis von nur 246 unterschiedlichen Tools erstellt wurden, ist der Anteil an gefundenen Sequenzen, die genau eines dieser Tools enthalten mit 45,5% überschaubar – mehr als die Hälfte der Sequenzen enthalten andere Tools.</p>
+                    <p>An dieser Stelle soll weiterhin ein Vergleich zu TAPoR, dem mit über 1.600 Einträgen größten Tool-Katalog, angestellt werden. 54,7% der von uns identifizierten Tool-Sequenzen enthalten Tools, die auch in TAPoR gelistet sind und die auch schon von vorhergehenden Lexikonansätzen gefunden wurden (vgl. Barbot et al., 2019; Fischer &amp; Moranville, 2020b, 2020a; Burghardt et al., 2022). In den restlichen 45,3% der Sequenzen finden sich allerdings neue Tools, also solche, die nicht schon in der sehr umfangreichen TAPoR-Liste dokumentiert sind. Mithilfe eines POS-Taggers wurden aus diesen Sequenzen Eigennamen gefiltert, um einen Überblick über die 
+                        <hi rend="italic">neuen</hi> Tools zu erhalten.
+                    </p>
+                    <p>Es sind dies einerseits Programmiersprachen (
+                        <hi rend="italic">Java</hi>, 
+                        <hi rend="italic">SNOBOL4</hi>, 
+                        <hi rend="italic">Swift</hi>, 
+                        <hi rend="italic">Pascal</hi>, 
+                        <hi rend="italic">NetLogo</hi>), Datenbanken (
+                        <hi rend="italic">SQL</hi>) und Markupsprachen (
+                        <hi rend="italic">TEI</hi>, 
+                        <hi rend="italic">SGML</hi>), aber auch diverse Belege aus dem Online-Bereich, etwa Social Media (
+                        <hi rend="italic">YouTube</hi>, 
+                        <hi rend="italic">Wikipedia</hi>, 
+                        <hi rend="italic">Facebook</hi>, 
+                        <hi rend="italic">Instagram</hi>, …) und Web Browser (
+                        <hi rend="italic">Netscape</hi>, 
+                        <hi rend="italic">Mozilla</hi>) sowie auch diverse Beispiele aus dem Bereich des Desktop Publishing (
+                        <hi rend="italic">WordPerfect</hi>, 
+                        <hi rend="italic">Microsoft Word</hi>, 
+                        <hi rend="italic">WordStar</hi>, 
+                        <hi rend="italic">PageMaker</hi>). Daneben finden sich zahlreiche weitere, teils antiquierte Tools, die nicht ohne Weiteres zu größeren Gruppen zusammengefasst werden können, etwa: 
+                        <hi rend="italic">TreeForm</hi>, 
+                        <hi rend="italic">Storyspace</hi>, 
+                        <hi rend="italic">MtScript</hi>, 
+                        <hi rend="italic">Seshat</hi>, 
+                        <hi rend="italic">FarsiTag</hi>, 
+                        <hi rend="italic">PlotVis</hi>, 
+                        <hi rend="italic">LexStat</hi>, 
+                        <hi rend="italic">Galgo</hi>, 
+                        <hi rend="italic">Neurolingo</hi>, 
+                        <hi rend="italic">AustLit</hi>, 
+                        <hi rend="italic">XyWrite</hi>, 
+                        <hi rend="italic">StoryTrek</hi>, u.v.m.
+                    </p>
+                    <p>Es zeigt sich also, dass unser Ansatz das Tool-Inventar bestehender Kataloge wie TAPoR deutlich erweitern kann, und über die Embeddings auch weitere, neue Tools gefunden werden.</p>
+                    <p>Betrachtet man den jüngsten Aufruf (April 2022)<ref n="2" target="ftn2"/> von TAPoR, bei dem Mitglieder der DH-Community gebeten werden, weitere Tools in TAPoR zu ergänzen, dann könnte unser Ansatz hier im großen Stil automatisiert weitere Vorschläge unterbreiten, indem systematisch verschiedene DH-Publikationen klassifiziert werden.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ergebnisse der multi-class Toolkategorisierung</head>
+                    <p>In einer zweiten Analyse wurden die Ergebnisse der automatischen Toolkategorisierung diachron ausgewertet (vgl. Abb. 1). Die Charts sind zur Paperanzahl pro Jahr im Datensatz normalisiert und zeigen einen zeitlichen Verlauf des Vorkommens der jeweiligen Kategorie.</p>
+                    <p>Dabei fällt bspw. auf, dass (a) Tools für „Authoring / Annotation / Editing / Publishing“ ebenso wie (b) Tools für “Exhibition / Collection / Edition Platforms” und (c) Kommunikationsplattformen alle erst Anfang der 2010er an Fahrt aufgenommen haben. Gleichzeitig zeigt sich im Falle der Programmiersprachen, dass diese in den Anfängen der DH, also den 1965er - 1985er Jahren, besonders populär waren, danach nimmt deren Nennung in Publikationen allerdings deutlich ab.</p>
+                    <p>Tools für die (e) Textanalyse hatten ihren ersten Peak in der Mitte der 1970er, für etwa 10 Jahre, und dann nochmals besonders extrem in den frühen 2000ern und später wieder von 2010-2020. Für eine weitergehende Analyse dieser Konjunkturen ist ein close reading der entsprechenden Publikationen vonnöten, um so zu untersuchen, ob bspw. besonders populäre Einzeltools wie 
+                        <hi rend="italic">Voyant</hi> (Release 2003) für diese Spitzen verantwortlich sind. Spannend – und ggf. als Ursache für den Rückgang der Programmiersprachen zu interpretieren – ist weiterhin die steile Karriere von (f) Visualisierungstools, ab Anfang 2010.
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="16.748125cm" url="Pictures/2443720090d07f096a92f23c2fb55236.png" rend="inline"/>
+                        <head>Abbildung 1. Diachrone Ergebnisse der multi-class Toolkategorisierung</head>
+                    </figure>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick: Tool Studies 2.0</head>
+                <p>In diesem Beitrag haben wir dargestellt, dass es vielfältige Diskurse zur Rolle und Funktion von Tools in den DH gibt. Wir sehen großes Potenzial bei systematischen, empirischen Analysen von Tools, um die bestehenden Diskussionen zu ergänzen. Die bisherige, erste Welle der Tool Studies setzt primär auf lexikonbasierte Verfahren (vgl. Barbot et al., 2019; Burghardt et al., 2022; Fischer &amp; Moranville, 2020b, 2020a). Vereinzelt wurden auch einfache Ansätze aus dem Bereich des maschinellen Lernens (vgl. Burghardt et al., 2022; Henny-Krahmer &amp; Jettka, 2022; Zarei, Alireza et al., 2022) erprobt. Mit ersten Experimenten, die das große Potenzial von Transformer-Architekturen in Kombination mit Kontext-Embeddings aufzeigen, hoffen wir bestehende Tool Studies einen Schritt weiter zu bringen. Wir planen weitere Experimente, bei denen wir zum einen das Korpus erweitern wollen, aber auch weitere Modelloptimierungen vornehmen wollen. U.a. soll künftig ein Klassifikationsschema nach dem Vorbild von TaDiRAH trainiert werden. Neben einer diachronen Vermessung von Tooltrends in den Digital Humanities, soll in letzter Instanz mit einem ausreichend generalisierten Klassifikator ein großes interdisziplinäres Korpus nach dem Vorbild von Luhmann &amp; Burghardt (2021) bezüglich der dort vorkommenden Tools analysiert werden. Ziel wird es sein aufzuzeigen, welche Tools ggf. von anderen Disziplinen in die DH importiert wurden, welche Tools aus den DH erfolgreich exportiert wurden, und welche Tools ggf. DH-spezifisch sind, und in keiner anderen Disziplin vorkommen.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                            
+                                <hi style="font-size:10pt">Epochen: 1.0; weitere Konfiguration: „train_batch_size”: 16, “eval_batch_size”: 64, “warmup_steps”: 500, “weight_decay”: 0.01.</hi>
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                             Tweet: 
+                                <ref target="https://twitter.com/tapordotca/status/1517564033519345664?s=21&amp;t=Mj6Hk76pigAxGtK8iaUuKA">https://twitter.com/tapordotca/status/1517564033519345664?s=21&amp;t=Mj6Hk76pigAxGtK8iaUuKA</ref>
+                            
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Barbot, L., F. Fischer, Y. Moranville &amp; I. Pozdniakov</hi>. 2019. “Which DH Tools Are Actually Used in Research?” In 
+                        <hi rend="italic">Weltliteratur.Net – A Black Market for the Digital Humanities</hi> (blog). https://weltliteratur.net/dh-tools-used-in-research/.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Borek, Luise, Quinn Dombrowski, Jody Perkins &amp; Christof Schöch.</hi> 2016. “TaDiRAH: A Case Study in Pragmatic Classification.” 
+                        <hi rend="italic" xml:space="preserve">Digital Humanities Quarterly </hi>10, No. 1.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Bradley, John.</hi> 2019. “Digital Tools in the Humanities: Some Fundamental Provocations?” 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 34, No. 1: 13–20. 
+                        <ref target="https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?error=login_required&amp;state=395478f1-3ea2-4078-8eb8-b5c3bf51d898redirecturl%3Dhttpszazjzjacademiczwoupzwcomzjdshzjarticlezj34zj1zj13zj5063425">https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?error=login_required&amp;state=395478f1-3ea2-4078-8eb8-b5c3bf51d898redirecturl%3Dhttpszazjzjacademiczwoupzwcomzjdshzjarticlezj34zj1zj13zj5063425</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Burghardt, Manuel, Jan Luhmann &amp; Andreas Niekler.</hi> 2022. “Tools as Epistemologies in DH? A Corpus-Based Exploration.” Book of Abstracts of the ADHO Digital Humanities Conference. Tokyo.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Burghardt, Manuel &amp; Christian Wolff.</hi> 2014. “Humanist-Computer Interaction: Herausforderungen Für Die Digital Humanities Aus Perspektive Der Medieninformatik.” Universität Regensburg. 
+                        <ref target="https://doi.org/10.5283/EPUB.35716">https://doi.org/10.5283/EPUB.35716</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold" xml:space="preserve">Bush, Vannevar. </hi>1945. “As We May Think.” 
+                        <hi rend="italic">The Atlantic</hi>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold" xml:space="preserve">Dalbello, Marija. </hi>2011. “A Genealogy of Digital Humanities.” 
+                        <hi rend="italic">Journal of Documentation</hi> 67, No. 3: 480–506. 
+                        <ref target="https://doi.org/10.1108/00220411111124550">https://doi.org/10.1108/00220411111124550</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Devlin, Jacob, Ming-Wei Chang, Kenton Lee &amp; Kristina Toutanova.</hi> 2019. “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding.” In 
+                        <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</hi>, 4171–86. Minneapolis, Minnesota: Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1423.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Fischer, F. &amp; Y. Moranville.</hi> 2020a. “DH Tools Mentioned in ‘The Programming Historian’?” In 
+                        <hi rend="italic">Weltliteratur.Net – A Black Market for the Digital Humanities</hi> (blog). https://weltliteratur.net/dh-tools-programming-  historian/.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Fischer, F. &amp; Y. Moranville.</hi> 2020b. “Tools Mentioned in DH2020 Abstracts.” In 
+                        <hi rend="italic">Weltliteratur.Net – A Black Market for the Digital Humanities</hi> (blog). https://weltliteratur.net/tools-mentioned-in-dh2020-abstracts/.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Henny-Krahmer, Ulrike &amp; Daniel Jettka.</hi> 2022. “Softwarezitation Als Technik Wissenschaftskultur: Vom Umgang Mit in Den Digital.” In 
+                        <hi rend="italic">DHd2022: Kulturen Des Digitalen Gedächtnisses. Konferenzabstracts</hi>, 203–6. Potsdam.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold" xml:space="preserve">Kaden, Ben. </hi>2016. “Zur Epistemologie Digitaler Methoden in Den Geisteswissenschaften”, In 
+                        <hi rend="italic">Berliner Beiträge zu Digital Humanities</hi>. 
+                        <ref target="https://doi.org/10.5281/ZENODO.50623">https://doi.org/10.5281/ZENODO.50623</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Kittler, Friedrich.</hi> 1993. “Es Gibt Keine Software.” In 
+                        <hi rend="italic">Draculas Vermächtnis: Technische Schriften</hi>, 1st ed., 225–42. Leipzig.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Koolen, Marijn, Jasmijn van Gorp &amp; Jacco van Ossenbruggen.</hi> 2019. “Toward a Model for Digital Tool Criticism: Reflection as Integrative Practice.” 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 34, No. 2: 368–85. 
+                        <ref target="https://doi.org/10.1093/llc/fqy048">https://doi.org/10.1093/llc/fqy048</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Licklider, J. C. R.</hi> 1960. “Man-Computer Symbiosis.” 
+                        <hi rend="italic">IRE Transactions on Human Factors in Electronics</hi> HFE-1, No. 1: 4–11. 
+                        <ref target="https://doi.org/10.1109/THFE2.1960.4503259">https://doi.org/10.1109/THFE2.1960.4503259</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Liu, Yinhan, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer &amp; Veselin Stoyanov.</hi> 2019. “RoBERTa: A Robustly Optimized BERT Pretraining Approach”. https://doi.org/10.48550/ARXIV.1907.11692.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Lopez, Patrice &amp; Laurent Romary.</hi> 2015. “GROBID - Information Extraction from Scientific Publications.” 
+                        <hi rend="italic">ERCIM News 100</hi>, no. 100.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Luhmann, Jan &amp; Manuel Burghardt.</hi> 2022. “Digital Humanities—A Discipline in Its Own Right? An Analysis of the Role and Position of Digital Humanities in the Academic Landscape.” 
+                        <hi rend="italic">Journal of the Association for Information Science and Technology</hi> 73, No. 2: 148–71. https://doi.org/10.1002/asi.24533.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Ramsay, Stephen &amp; Geoffrey Rockwell.</hi> 2012. “Developing Things: Notes toward an Epistemology of Building in the Digital Humanities.” In 
+                        <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis; London: University of Minnesota Press.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Schindler, David, Felix Bensmann, Stefan Dietze &amp; Frank Krüger.</hi> 2022. “The Role of Software in Science: A Knowledge Graph-Based Analysis of Software Mentions in PubMed Central.” 
+                        <hi rend="italic">PeerJ Computer Science</hi> 14, No. 8. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8771769/.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Traub, Myriam C. &amp; Jacco van Ossenbruggen.</hi> 2015. “Workshop on Tool Criticism in the Digital Humanities.” CWI Techreport.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Unsworth, John.</hi> 2003. “Tool-Time, or ‘Haven’t We Been Here Already?’: Ten Years in Humanities Computing”.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Van Es, Karin, Maranke Wieringa &amp; Mirko Tobias Schäfer.</hi> 2018. “Tool Criticism: From Digital Methods to Digital Methodology.” In 
+                        <hi rend="italic">Proceedings of the 2nd International Conference on Web Studies</hi>, 24–27. New York, NY, USA: Association for Computing Machinery, 2018. 
+                        <ref target="https://doi.org/10.1145/3240431.3240436">https://doi.org/10.1145/3240431.3240436</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold" xml:space="preserve">Wolff, Christian. </hi>2015. “The Case for Teaching ‘Tool Science’: Taking Software Engineering and Software Engineering Education beyond the Confinements of Traditional Software Development Contexts.” In 
+                        <hi rend="italic">2015 IEEE Global Engineering Education Conference (EDUCON)</hi>, 932–38. Tallinn, Estonia: IEEE. 
+                        <ref target="https://doi.org/10.1109/EDUCON.2015.7096085">https://doi.org/10.1109/EDUCON.2015.7096085</ref>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Zarei, Alireza, Yim Seung-Bin, Frank Fischer, Matej Ďurčo &amp; Philipp Wieder.</hi> 2022. “Measuring the Use of Tools and Software in the Digital Humanities: A Machine-Learning Approach for Extracting Software Mentions from Scholarly Articles.” In 
+                        <hi rend="italic">Book of Abstracts, ADHO DH Conference</hi>. Tokyo.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Zarei, Alireza, Yim Seung-Bin, Matej Ďurčo, Klaus Illmayer, Laure Barbot, Frank Fischer &amp; Edward Gray.</hi> 2022. “Der SSH Open Marketplace: Kontextualisiertes Praxiswissen Für Die Digital Humanities.” In 
+                        <hi rend="italic">DHd2022: Kulturen Des Digitalen Gedächtnisses. Konferenzabstracts</hi>. Potsdam. https://doi.org/10.5281/ZENODO.6327975.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

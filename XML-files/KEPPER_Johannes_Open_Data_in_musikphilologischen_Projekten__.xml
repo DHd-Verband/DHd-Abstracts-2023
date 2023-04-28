@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KEPPER_Johannes_Open_Data_in_musikphilologischen_Projekten__" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Open Data in musikphilologischen Projekten: Herausforderungen, Strategien, Potenziale</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Kepper</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>kepper@edirom.de</email>
+                    <idno type="ORCID">0000-0003-4891-260X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Münzmay</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>andreas.muenzmay@uni-paderborn.de</email>
+                    <idno type="ORCID">0000-0002-8373-4055</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T22:59:18.348346259</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Musikedition</term>
+                    <term>Data Management</term>
+                    <term>Edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Organisation</term>
+                    <term>Forschungsprozess</term>
+                    <term>Notenblätter</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-a1d3a565-7fff-3fda-669d-34c034074449"/>Abstract
+                </head>
+                <p>
+                    <hi rend="color(#000000)">Datenmanagement ist eine zentrale Fragestellung für sämtliche Projekte im Bereich der Digital Humanities (Altenhöner et al. 2020). Warum also ein gesonderter Blick auf DH-Projekte mit einem musikeditorischen Hintergrund? Die Publikationspraxis musikwissenschaftlicher Editionen unterscheidet sich im Kern deutlich von derjenigen in anderen Disziplinen. Hieraus ergeben sich fachspezifische Herausforderungen, die durchaus Einfluss auf die Konzeption bestehender digitaler Musikeditionsprojekte nehmen. Im Rahmen des Vortrags wollen wir versuchen, diese Besonderheiten herauszuarbeiten und anhand des von der Mainzer Akademie der Wissenschaften und der Literatur geförderten Projekts “Beethovens Werkstatt” Ansätze zur Umsetzung von Open Data auch im Bereich der Musikphilologie aufzuzeigen. Potenziale ergeben sich dabei sowohl auf inhaltlicher Seite, also in Bezug auf die erarbeiteten Daten, wie auf methodischer Seite, d.h. in Bezug auf die entwickelten Tools.</hi> 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Zur Ausgangslage: Publikationspraxis und Wertschöpfungsketten musikwissenschaftlicher Editionen</head>
+                <p>
+                    <hi rend="color(#000000)">W</hi>
+                    <hi rend="color(#000000)">ährend es etwa in der Literaturwissenschaft eine Fülle verschiedener Publikationsformen gibt – Studienausgaben, Leseausgaben, kritische Ausgaben usw. –, konnte sich in der Musikwissenschaft nie eine entsprechende Vielfalt wissenschaftlicher Ausgabentypen entwickeln. Schon die ersten musikalischen Gesamtausgaben formulierten in ihren Vorworten den Doppelanspruch als Ausgaben ‘für Wissenschaft und Praxis gleichermaßen’ (vgl. Fellerer 1980:185; Kepper 2011:180). Die Ursache waren schon damals finanzielle Erwägungen: Die manuelle Erstellung der Druckvorlagen für Notenstich bzw. -druck war schon immer ein sehr zeitintensiver Prozess. Breitkopf und Härtel etwa hatten 1869 insgesamt 14 Notenstecher in Dienst (Hase 1968:386), die in 1867 eine Jahresleistung von “über 5000 Platten” hatten (Hase 1968:394). Setzt man diese Zahlen ins Verhältnis, landet man bei etwa 357 Platten pro Notenstecher. Dieser Zeitbedarf von etwa einem Arbeitstag pro </hi>
+                    <hi rend="color(#000000)">Seite Notentext blieb im Notenstich bis zur Verbreitung des computerbasierten Notensatzes gegen Ende des 20. Jahrhunderts recht konstant (Popp 2017). Dem standen bereits im 19. Jahrhundert recht geringe Auflagenhöhen gegenüber, und auch heutige Gesamtausgaben haben oft Subskribentenzahlen im unteren dreistelligen Bereich. Die Bände dieser Gesamtausgaben sind i.d.R. sehr aufwendig ausgestattet und werden entsprechend teuer verkauft – oft genug ebenfalls im unteren dreistelligen Bereich. Die Inhalte für diese Bände werden zumeist durch öffentlich geförderte Projekte erstellt und den Verlagen kostenfrei, teils sogar mit einem zusätzlichen Druckkostenzuschuss zur Verfügung gestellt. Auf dieser Basis liegt die eigentliche Wertschöpfung für die Verlage dennoch an nochmals anderer Stelle: Erst mit sogenannten praktischen Ausgaben für den professionellen wie nichtprofessionellen musikalischen Gebrauch wird ein größerer Markt jenseits von Bibliotheken und Musik</hi>
+                    <hi rend="color(#000000)italic">wissenschaft</hi>
+                    <hi rend="color(#000000)"> adressiert. Außerdem eröffnen der Vertrieb von Leihmaterial und v.a. die Lizenzierung von Aufführungen bzw. Rundfunksendungen wichtige Einnahmequellen. Aufgrund der bereits erwähnten hohen Produktionskosten ist es üblich, diese praktischen Ausgaben mit möglichst geringem Aufwand aus den wissenschaftlich-kritischen Ausgaben zu destillieren und, beispielsweise mit dem schillernden Label “Urtext”, zu vertreiben. Dafür wird oft der bereits vorhandene Notentext mit einem neuen Vorwort versehen, der Kritische Bericht – wenn überhaupt berücksichtigt – auf wenige Seiten kondensiert, und so mit minimalem Aufwand eine Ausgabe erstellt, die immer noch den aus Marketingsicht günstigen Anspruch erhebt, auf neuesten wissenschaftlichen Erkenntnissen zu basieren. Dass diese Wissenschaftlichkeit gerade aus den entfallenden Teilen resultiert, ist aus dieser Perspektive unerheblich. Viel wichtiger ist es aus Verlagssicht, dass sich das Notenbild schon der wissenschaftlichen Ausgaben nicht durch ein (vermeintliches) Übermaß diakritischer Auszeichnung für eine praktische Nachnutzung disqualifiziert, sondern mit einem vertretbaren Aufwand an diese Zweitverwertung angepasst werden kann. Solche wissenschaftsfremden Prämissen sind prägend für Ausgaben, die dem Paradigma “für Wissenschaft und Praxis gleichermaßen” unterworfen sind.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Nicht</hi>
+                    <hi rend="color(#000000)"> erst angesichts der sich stark verändernden gesetzlichen Rahmenbedingungen (v. a. das im Juli 2021 in Kraft getretene </hi>
+                    <hi rend="color(#000000)italic">Zweite Open Data Gesetz</hi>
+                    <hi rend="color(#000000)"> der Bundesregierung verpflichtet ab 2024 zur Veröffentlichung aller mit Bundesfinanzierung erhobenen Forschungsdaten als Open Data) und der bereits entsprechend veränderten Vorgaben der Drittmittelgeber (vgl. z. B. die DFG-Information Nr. 25 “Konkretisierung der Anforderungen zum Umgang mit Forschungsdaten in Förderanträgen” vom 14.3.2021:</hi>
+                    <hi rend="color(#000000)"> </hi>
+                </p>
+                <p>
+                    <ptr target="https://www.dfg.de/foerderung/info_wissenschaft/2022/info_wissenschaft_22_25/index.html"/>
+                    <hi rend="color(#000000)">) für den Umgang mit Forschungsergebnissen erscheint diese Wertschöpfung fragwürdig. </hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Es </hi>
+                    <hi rend="color(#000000)">dürfte offensichtlich sein, dass Musikverlage bislang kaum als treibende Kraft für Open Data / Open Culture in Erscheinung getreten sind. Anders sieht es bei vielen DH-Projekten aus. Die freie Zugänglichkeit der Forschungsdaten spätestens zum Ende des Förderzeitraums ist inzwischen weitgehend obligatorisch. Auch Förderinstitutionen im Bereich Musikwissenschaft wie die Union der Akademien in Deutschland als Förderer der meisten musikphilologischen Langzeitprojekte in Deutschland legen insbesondere bei Neuvorhaben inzwischen verstärkt Wert auf Open Access – bei bestehenden Projekten stehen dem i.d.R. die bestehenden, langfristigen Verlagsverträge im Wege. Damit stehen die Geldgeber an der Seite der meisten Projekte im Umfeld der Digital Humanities. Im Sinne des </hi>
+                    <hi rend="color(#000000)italic">ratchet effect</hi>
+                    <hi rend="color(#000000)"> (Tomasello 2009) arbeiten diese Projekte oft in der Annahme, im Zuge ihrer Forschung Daten zu erstellen, die auch für nach– oder anders gelagerte Forschungsfragen hilfreich sein können. Hierfür ist es aber zwingend notwendig, nicht nur die abgeschlossenen Ergebnisse zu publizieren, sondern auch die ihnen zugrundeliegenden Rohdaten. Zum Wandel der förderpolitischen Rahmenbedingungen gesellt sich dabei ein arbeitskultureller, vor allem aber auch ein Wandel editionstheoretischer Herangehensweisen vor dem Hintergrund der Digitalität, die a) die Statik und Linearität von (musikalischem) Text zugunsten netzförmiger, aber auch dynamischer, prozessualer Darstellungsweisen erweitert (Droese/Münzmay 2015; Stadler 2019), b) editorische und historische Objekte in hybriden Textgebilden zusammenführt (die häufig komplette digitalisierte Re-Publikationen von Kulturobjekten einbinden, die digital ‚beschriftet‘ und vernetzt werden; Münzmay 2018) und c) Multimodalität editorisch handhabbar macht. Neben die herkömmliche Befassung mit dem Werktext treten neue musikphilologische Gegenstände, wie etwa phonographische Quellen (Orcalli 2017; Münzmay/Siegert 2019; Pasdzierny 2019) oder textgenetische bzw. Schreibprozesse (Kepper/Sänger 2017; Kepper/Cox 2021).</hi>
+                    <hi rend="color(#000000)"> </hi>
+                </p>
+            </div>
+            <div type="div1">
+                <head>Beethovens Werkstatt</head>
+                <p>
+                    <hi rend="color(#000000)">Das </hi>
+                    <hi rend="color(#000000)">etwa in der Mitte seiner auf 16 Jahre angelegten Laufzeit stehende Projekt Beethovens Werkstatt reiht sich ein in eine Riege musikeditorischer Projekte, die bewusst mit den Konventionen der Musikphilologie, d. h. mit Konzepten wie ‚Historisch-kritische Werkedition‘ und ‚Gesamtausgabe‘, brechen und so neue Perspektiven aufzuzeigen versuchen. Dies wird in der Projektkonzeption unmittelbar deutlich: Wie kein anderes musikwissenschaftliches Akademieprojekt versteht sich Beethovens Werkstatt als </hi>
+                    <hi rend="color(#000000)italic">methodisches</hi>
+                    <hi rend="color(#000000)"> Grundlagenforschungsprojekt, das ganz bewusst schon im Antrag auf eine Auflistung der zu behandelnden Werke verzichtet, sondern lediglich für bestimmte Fragestellungen mit Beispielen versieht. Ziel ist demnach die Untersuchung dieser philologischen Fragestellungen (Darstellung von Varianz, Schreibprozessen und Revisionsprozessen; Fassungsvergleiche; Skizzeneditionen), nicht das starre Abarbeiten von Werklisten. In vielen Fällen ist dafür die Betrachtung von teils stark begrenzten Auszügen vollkommen </hi>
+                    <hi rend="color(#000000)">ausreichend – die thematisierten Werke werden also nicht in Gänze thematisiert. Angesichts der eingangs geschilderten üblichen Verwertungsketten im Musikbereich ergibt sich daraus quasi zwangsläufig eine weitere Besonderheit des Projekts: Der bewusste Verzicht auf die Zusammenarbeit mit einem Musikverlag. Auch wenn in bestimmten Modulen des Projekts durchaus vollständige Werke im Sinne genetischer Textkritik erarbeitet werden, so dass eine musikpraktische Nutzung zumindest einiger Projektdaten nach entsprechender Aufbereitung durchaus vorstellbar wäre, ist dies gerade nicht die Zielsetzung – auch, weil das Projekt aller Voraussicht nach nicht in entsprechendem Maß an der Wertschöpfung beteiligt würde, um den damit verbundenen Aufwand zu kompensieren. Stattdessen werden sämtliche Projektdaten – XML-Daten nach dem Standard der Music Encoding Initiative MEI, SVG-Daten sowie die im Projekt entwickelte modulare Forschungs- und Visualisierungssoftware „VideApp“ – frei zur Verfügung gestellt. Damit steht es Verlagen offen, nun allerdings bei eigenem Aufwand entsprechende Ausgaben auf dieser Datengrundlage zu erstellen. Für das Projekt ergibt sich daraus kein echter Nachteil. Ein gründliches Verlagslektorat – was wohl der aus Projektsicht attraktivste Vorteil einer Zusammenarbeit wäre – ist ohnehin längst nicht mehr bei allen Musikverlagen bzw. Verlagsverträgen selbstverständlich.</hi>
+                    <hi rend="color(#000000)"> </hi>
+                </p>
+                <p>An 
+                    <hi rend="color(#000000)">die Stelle der Ausrichtung auf Verlagspublikationen tritt eine enge und wechselseitige Verzahnung von inhaltlicher Erschließung des Gegenstands, Datenerstellung, -aufbereitung und -pflege sowie Entwicklung der Software, die eine Darstellung und Interaktion mit diesen Daten erlaubt. Auch hier zeigt sich eine Eigenheit des Projekts, die es stärker in eine Reihe mit DH-Grundlagenforschungsprojekten als mit herkömmlichen Musikeditionen stellt: Die erstellten Daten sind für sich genommen nicht ausreichend, um die Editionsinhalte zu transportieren. Zumindest auf absehbare Zeit ist nicht davon auszugehen, dass Standardsoftware wie der „DFG-Viewer für musikalische Quellen“ oder die diesem zugrunde liegende Verovio-Rendering-Bibliothek für MEI die Projektdaten in Gänze sinnvoll auswerten können. Vielmehr bedarf es auch der im Projekt erstellten Software, da erst diese die spezifischen Datenmodelle und Konzepte zur genetischen Edition von Musik greifbar macht.</hi> 
+                </p>
+                <p>Beethovens 
+                    <hi rend="color(#000000)">Werkstatt verfolgt damit einen integralen Ansatz für eine verschränkte, Hand-in-Hand-gehende Daten-Erarbeitung und Toolentwicklung. Dieser Ansatz ist dabei inhaltlich notwendig – auch mit viel Fantasie und ohne äußere Vorgaben fällt es schwer, sich eine auch nur ansatzweise vergleichbare Umsetzung der Projektergebnisse außerhalb digitaler Medien vorzustellen. Es handelt sich also um eine genuin digitale Edition im von Patrick Sahle beschriebenen Sinne (Sahle 2017:239)</hi>. 
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Aus </hi>
+                    <hi rend="color(#000000)">diesem grundlegend digitalen Ansatz folgen aber andere Anforderungen, als sie in musikwissenschaftlichen Editionsprojekten sonst üblich sind. Neben Überlegungen zur Publikation der Daten bedarf es auch entsprechender Überlegungen zum Umgang mit der Forschungssoftware. Beethovens Werkstatt verfolgt von Beginn an die Strategie, sämtliche </hi>
+                    <hi rend="color(#000000)">Software als </hi>
+                    <hi rend="color(#000000)italic">Open Source</hi>
+                    <hi rend="color(#000000)"> in öffentlichen Repositorien auf GitHub zu entwickeln. Abgesehen von terminologischen Diskussionen, deren Zwischenschritte auf dem Weg zu einer ersten veröffentlichten Version im Glossar des Projekts zunächst in einem nur intern zugänglichen Wiki-System festgehalten werden, findet auch die gesamte inhaltliche Arbeit des Projekts als </hi>
+                    <hi rend="color(#000000)italic">Open Data</hi>
+                    <hi rend="color(#000000)"> öffentlich statt (</hi>
+                    <hi rend="color(#000000)italic">Open Access</hi>
+                    <hi rend="color(#000000)">). Über parallele </hi>
+                    <hi rend="color(#000000)italic">Continuous Integration-Pipelines</hi>
+                    <hi rend="color(#000000)"> werden stabile Zwischenstände dieser Arbeit öffentlich, tagesaktuelle Stände hingegen zunächst nur für den internen Gebrauch in leicht zugänglicher Form aufbereitet und zur Verfügung gestellt. Unabhängig davon kann die Arbeit des Projekts über die entsprechenden Repositorien jedoch jederzeit vollständig und frei zugänglich nachvollzogen werden. Ein völlig freier “Blick in die Werkstatt” ist damit jederzeit möglich. Auch in dieser Meta-Perspektive wird also das “deiktische Prinzip” des Projekts umgesetzt: Statt teils umständlicher Erläuterungen versucht die sog. VideApp, genetische Prozesse möglichst anschaulich zu visualisieren. Entsprechend direkt ist der Zugang zur Arbeit des Projekts (der freilich der gängigen Logik von Forschungsförderung folgend dennoch in regelmäßigen Berichten dokumentiert wird).</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Damit </hi>
+                    <hi rend="color(#000000)">bietet Beethovens Werkstatt ein ideales Anschauungsbeispiel zur Komplexität digitaler musikwissenschaftlicher Editionen, die sich u. a. aus nicht-linearen bzw. dynamischen Inhalten bzw. Visualisierungen historischer Objekte und darin manifester genetischer Prozesse sowie der Multimodalität der zur Umsetzung notwendigen Daten speist. Für einzelne der genannten Bereiche gibt es </hi>
+                    <hi rend="color(#000000)italic">best practices</hi>
+                    <hi rend="color(#000000)">, an denen sich Projekte orientieren können: Für den Bereich der Editionsdaten ist eine revisionssichere Publikation beispielsweise bei Zenodo gut möglich. Für den Bereich der Softwareentwicklung lassen sich </hi>
+                    <hi rend="color(#000000)italic">Continuous Integration</hi>
+                    <hi rend="color(#000000)"> / </hi>
+                    <hi rend="color(#000000)italic">Continuous Delivery</hi>
+                    <hi rend="color(#000000)">-Workflows mit Docker und GitHub Actions umsetzen. Was aber, wenn die genutzte Software sowohl integraler Bestandteil der Edition ist als auch zeitgleich unabhängig von diesen Daten zur Nachnutzung in anderen Kontexten nutzbar sein soll? Bislang gibt es keine etablierten Standards, die sich einfach für neue Projekte adaptieren ließen, und auch Beethovens Werkstatt hat in diesem Feld wiederholt neue Ansätze erprobt. Der Vortrag wird diese Erfahrungen dokumentieren und problematisieren, was für eine weitergehend standardisierte Lösung notwendig wäre.</hi>
+                    <hi rend="color(#000000)"> </hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Altenhöner, </hi>
+                        <hi rend="bold">Reinhard / Blümel, Ina / Boehm, Franziska / Bove, Jens / Bicher, Katrin / Bracht, Christian / Brand, Ortrun / Dieckmann, Lisa / Effinger, Maria / Hagener, Malte / Hammes, Andrea / Heller, Lambert / Kailus, Angela / Kohle, Hubertus / Ludwig, Jens / Münzmay, Andreas / Pitroff, Sarah / Razum, Matthias / Röwenstrunk, Daniel / Sack, </hi>
+                        <hi rend="bold">Harald / Simon, Holger / Schmidt, Dörte / Schrade, Torsten / Walzel, Annika-Valeska / Wiermann, Barbara</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2020</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „NFDI4Culture - Consortium for research data on material and immaterial cultural heritage“, in: </hi>
+                        <hi rend="color(#000000)italic">Research Ideas and Outcomes </hi>
+                        <hi rend="color(#000000)">6 (Juli 2020). </hi>
+                        <ptr target="https://doi.org/10.3897/rio.6.e57036"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Droese, Janine / Münzmay, Andreas</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2015</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „</hi>
+                        <hi rend="color(#000000)">Pfade im editorischen Netz. Überlegungen zur Pragmatik des editorischen Hyperlinks am Beispiel der Comédie en vaudevilles Annette et Lubin (1762)“</hi>
+                        <hi rend="color(#000000)">, in: </hi>
+                        <hi rend="color(#000000)italic">Editio. Internationales Jahrbuch für Editionswissenschaft</hi>
+                        <hi rend="color(#000000)"> 29: 85–102. </hi>
+                        <ptr target="https://doi.org/10.1515/editio-2015-007"/>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fellerer, Karl Gustav</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">1980</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „</hi>
+                        <hi rend="color(#000000)">Werk – Edition – Interpretation“</hi>
+                        <hi rend="color(#000000)">, in: Martin Bente (</hi>
+                        <hi rend="color(#000000)">ed</hi>
+                        <hi rend="color(#000000)">.): </hi>
+                        <hi rend="color(#000000)italic">Musik, Edition, Interpretation. Gedenkschrift Günter Henle</hi>
+                        <hi rend="color(#000000)">, München: </hi>
+                        <hi rend="color(#000000)">Henle </hi>
+                        <hi rend="color(#000000)">180–192.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hase, Oskar von </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">1968</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „</hi>
+                        <hi rend="color(#000000)">Breitkopf &amp; Härtel. Gedenkschrift und Arbeitsbericht. Zweiter Band: 1828 bis 1918“</hi>
+                        <hi rend="color(#000000)">, Wiesbaden: </hi>
+                        <hi rend="color(#000000)">Breitkopf und Härtel</hi>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kepper, Johannes</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2011</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „</hi>
+                        <hi rend="color(#000000)">Musikedition im Zeichen neuer Medien. Historische Entwicklung und gegenwärtige Perspektiven musikalischer Gesamtausgaben“</hi>
+                        <hi rend="color(#000000)">, Norderstedt: </hi>
+                        <hi rend="color(#000000)">BoD</hi>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kepper, Johannes / Pugin, Laurent</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2017</hi>
+                        <hi rend="color(#000000)">):</hi>
+                        <hi rend="color(#000000)"> „</hi>
+                        <hi rend="color(#000000)">Was ist eine Digitale Edition? Versuch einer Positionsbestimmung“</hi>
+                        <hi rend="color(#000000)">, in: Acquavella-Rauch, Stefanie / Münzmay, Andreas (</hi>
+                        <hi rend="color(#000000)">eds</hi>
+                        <hi rend="color(#000000)">.), </hi>
+                        <hi rend="color(#000000)italic">Digitalität in der Musikwissenschaft,</hi>
+                        <hi rend="color(#000000)"> Themenheft, </hi>
+                        <hi rend="color(#000000)italic">Musiktheorie. Zeitschrift für Musikwissenschaft</hi>
+                        <hi rend="color(#000000)"> 32/4: 347–363. </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kepper, Johannes / Sänger, Richard</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2017</hi>
+                        <hi rend="color(#000000)">): „</hi>
+                        <hi rend="color(#000000)">Encoding Genetical Processes“, in: Giuliano Di Bacco, Giuliano / Kepper, Johannes / Roland, Perry D. (eds.): </hi>
+                        <hi rend="color(#000000)italic">Music Encoding Conference Proceedings. 2015, 2016 and 2017: </hi>
+                        <hi rend="color(#000000)">37–44 </hi>
+                        <ptr target="https://bibdorm.bsb-muenchen.de/b/bv/BV045900855"/>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kepper, Johannes / Cox, </hi>
+                        <hi rend="bold">Susanne</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(</hi>
+                        <hi rend="color(#000000)">2021</hi>
+                        <hi rend="color(#000000)">): „</hi>
+                        <hi rend="color(#000000)">Encoding Genetic Processes II“, in: Münnich, Stefan / Rizo, David (eds.): </hi>
+                        <hi rend="color(#000000)italic">Music Encoding Conference Proceedings 2021. 19–22 July, 2021 University of Alicante (Spain): Onsite &amp; Online</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">85–95 </hi>
+                        <ptr target="https://hcommons.org/deposits/objects/hc:45962/datastreams/CONTENT/content"/>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Münzmay, </hi>
+                        <hi rend="bold">Andreas / Siegert, Christine</hi>
+                        <hi rend="color(#000000)">(2019): „</hi>
+                        <hi rend="color(#000000)">Phonographischer Text, Interpretation und Aufführungsmaterial als kritisch edierbarer Sachzusammenhang. Ein Beitrag zur Theorie der Edition von Klangdokumenten“</hi>
+                        <hi rend="color(#000000)">, in: </hi>
+                        <hi rend="color(#000000)italic">Editio. Internationales Jahrbuch für Editionswissenschaft</hi>
+                        <hi rend="color(#000000)">33: 10–30. </hi>
+                        <ptr target="https://doi.org/10.1515/editio-2019-0002"/>
+                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Orcalli, Angelo</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2017) „Recorded Music: from the Ethics of Preservation to the Critical Editing</hi>
+                        <hi rend="color(#000000)">“, </hi>
+                        <hi rend="color(#000000)">in: Orcalli, Angelo / Cossettini, Luca (eds.): </hi>
+                        <hi rend="color(#000000)italic">Sounds, Voices and Codes from the Twentieth Century. The critical editing of music at Mirage</hi>
+                        <hi rend="color(#000000)">. Udine: Mirage: 3–81 http://mirage.uniud.it/content/sounds-voices-and-codes-twentieth-century-critical-editing-music-mirage.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pasdzierny, Matthias</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2019): „Tonband, Partitur, Aufführung. Medien- und musikphilologische Überlegungen zur Edition von Bernd Alois Zimmermanns Requiem für einen jungen Dichter“, in: Betzwieser, Thomas / Schneider, Markus (eds.): </hi>
+                        <hi rend="color(#000000)italic">Aufführung und Edition.</hi>
+                        <hi rend="color(#000000)"> Editio Beihefte </hi>
+                        <hi rend="color(#000000)">46. Berlin: De Gruyter 219–233.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Popp, Susanne</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2017): „Musikdrucke</hi>
+                        <hi rend="color(#000000)">“, </hi>
+                        <hi rend="color(#000000)">in: Appel, Bernhard R. / Emans, Reinmar (eds.): </hi>
+                        <hi rend="color(#000000)italic">Musikphilologie. Grundlagen – Methoden – Praxis</hi>
+                        <hi rend="color(#000000)">, </hi>
+                        <hi rend="color(#000000)">Laaber: Laaber 70–87.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2017): „</hi>
+                        <hi rend="color(#000000)">Digitale Edition“</hi>
+                        <hi rend="color(#000000)"> in: Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.): </hi>
+                        <hi rend="color(#000000)italic">Digital Humanities. Eine Einführung</hi>
+                        <hi rend="color(#000000)">, Stuttgart: J. B. Metzler 223–249.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stadler, Peter</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2019): „Musikwissenschaft und Digital Humanities“</hi>
+                        <hi rend="color(#000000)">, </hi>
+                        <hi rend="color(#000000)">in: Hentschel, Frank (ed.): </hi>
+                        <hi rend="color(#000000)italic">Historische Musikwissenschaft. Gegenstand – Geschichte – Methodik</hi>
+                        <hi rend="color(#000000)">. Laaber: Laaber 330–339.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tennie, Claudio / Call, Josep / Tomasello, Michael</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)underline">(2009): „</hi>
+                        <hi rend="color(#000000)underline">Ratcheting up the ratchet: on the evolution of cumulative culture“, in: </hi>
+                        <hi rend="color(#000000)underline italic">Philosophical Transactions of the Royal Society B </hi>
+                        <hi rend="color(#000000)underline">364: 2405–2415 </hi>
+                        <ref target="https://doi.org/10.1098/rstb.2009.0052">10.1098/rstb.2009.0052</ref>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

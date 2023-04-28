@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="NEUBER_Frederike_Open_Jean_Paul" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Open Jean Paul.</title>
+                    <title type="sub">Funktionen und Potentiale offener Editionsdaten</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Neuber</surname>
+                        <forename>Frederike</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>neuber@bbaw.de</email>
+                    <idno type="ORCID">0000-0001-8279-9298</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lecroq</surname>
+                        <forename>Axelle</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>axelle.lecroq@bbaw.de</email>
+                    <idno type="ORCID">0000-0002-1562-9966</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-26T18:21:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digitale Edition</term>
+                    <term>Briefedition</term>
+                    <term>Open Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Transkription</term>
+                    <term>Kontextsetzung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Jean Paul (1763–1825) zählt zu den bedeutendsten Schriftstellern der deutschen Literatur um 1800 und war ein überaus produktiver und geistreicher Briefeschreiber, der mit bekannten Persönlichkeiten wie Heinrich Jacobi, Caroline und Johann Gottfried Herder, Charlotte von Kalb und Rahel Levin Varnhagen korrespondierte. Die Briefe Jean Pauls erschienen bereits Mitte des 20. Jahrhunderts in der Historisch-kritischen Ausgabe (Berend 1952–1964); Anfang des 21. Jahrhunderts folgten die Briefe an Jean Paul (Begemann et al. 2003–2017), ebenfalls im Druck. Seit 2018 ist Jean Pauls Briefkosmos auf dem Weg in die digitale Welt: Die 5562 Von-Briefe, die zunächst buchzentriert retrodigitalisiert<ref n="1" target="ftn1"/> und anschließend briefzentriert retrokonvertiert wurden,<ref n="2" target="ftn2"/> sind seitdem auf 
+                <hi rend="italic">Jean Paul – Sämtliche Briefe digital</hi> verfügbar (Miller et al. 2018–2022). Daneben sind derzeit (Dezember 2022) bereits 1479 Dokumente des sich noch im Aufbau befindenden ‚born digital‘-Korpus der Umfeldbriefe erschienen,<ref n="3" target="ftn3"/> das die Korrespondenz von Familie, Freundinnen und Kolleginnen des Schriftstellers umfasst.<ref n="4" target="ftn4"/>
+            </p>
+            <p style="text-align: left; ">Aus methodisch-technischer Perspektive, setzt die Edition mit der Verwendung von XML/TEI und dem Basisformat des Deutschen Textarchivs (DTA 2011–2020) sowie der Anreicherung mit Normdaten (GND, GeoNames) auf Standards. Im Zeichen von ‚Open Data‘ erscheinen die XML/TEI-Dokumente der Briefe unter Creative Commons-Lizenz (CC-BY-SA 4.0), und zwar in drei Publikationsmodi, die verschiedene Funktionen hinsichtlich ihrer Nutzung erfüllen:</p>
+            <p style="text-align: left; ">(1) Zur 
+                <hi rend="italic">Datenlektüre</hi> bzw. zum Abgleich zwischen einem Brieftext in HTML und den zugrundeliegenden Daten kann man jedes Dokument innerhalb der digitalen Edition einzeln als XML/TEI herunterladen. Die editorische Arbeit bzw. das ‚Wissen‘ in den Daten wird so transparent, nachvollziehbar und vollumfänglich zugänglich gemacht, da die Komplexität der Kodierung, wie in den meisten digitalen Editionen, nicht vollständig im User Interface abgebildet wird (Neuber 2023). 
+            </p>
+            <p style="text-align: left; ">(2) Zur 
+                <hi rend="italic">maschinellen Interaktion</hi> über technische Schnittstellen (Witt 2018) bietet die digitale Edition derzeit verschiedene BEACON-APIs und eine CMIF-API, wodurch u. a. die 
+                <hi rend="italic">Deutsche Biographie</hi> und 
+                <hi rend="italic">correspSearch</hi> (Dumont et al. 2021) Informationen der Edition aggregieren.<ref n="5" target="ftn5"/> Gleichzeitig bezieht die digitale Edition über die erfassten Normdaten auch selbst Informationen von Schnittstellen, beispielsweise Koordinaten von 
+                <hi rend="italic">GeoNames</hi> zur Generierung von Karten und Bild-URLs mit Portraits von 
+                <hi rend="italic">Wikimedia Commons</hi>.
+            </p>
+            <p style="text-align: left; ">(3) Zur 
+                <hi rend="italic" xml:space="preserve">Nachnutzung bzw. Re-kontextualisierung </hi>der Datensätze stellt die Edition die Brieftexte als Paket auf GitHub und Zenodo bereit (Neuber 2022a), wodurch die Daten archiviert und versioniert sowie mit einer DOI zitierbar sind. Durch diese Art der Datenpublikation wurde das Korpus der Briefe von Jean Paul bereits mehrfach jenseits der Edition in anderen Kontexten nachgenutzt: im 
+                <hi rend="italic">Digitalen Wörterbuch der Deutschen Sprache</hi> als historisches Korpus (2022), im 
+                <hi rend="italic">CorpusExplorer</hi> als korpuslinguistische Ressource<ref n="6" target="ftn6"/> (Oliver 2018) und auf Twitter als Bot @jeanpaultoday<ref n="7" target="ftn7"/> (Neuber 2022b). So wird durch die offene Bereitstellung der Daten Forschung jenseits der Edition gefördert und die Brieftexte einem gänzlich neuen Publikum zur Verfügung gestellt.
+            </p>
+            <p style="text-align: left; ">Der Beitrag, der die Publikationsmodi der Jean Paul Briefedition und ihre jeweilige Funktion illustriert, ist für die DHd-Konferenz höchst relevant, da ‚Open Data‘ im Editionskontext immer noch eher die Ausnahme als die Regel ist. Aus Greta Franzinis Editionenkatalog (2016–2022) geht hervor, dass von 320 digitalen Editionen lediglich ~27% CC-Lizenzen verwenden, ~23% TEI-Daten zum Download bereitstellen und ~5% APIs anbieten. Die Zahlen sind bedauerlich, da Daten das primäre Forschungsergebnis digitaler Editionen sind: </p>
+            <quote> [...] [I]n digital editions the encoded texts themselves are the most important long-term outcome of the project, while their initial presentation within a particular application should be considered only a single perspective on the data. Any given view will be far from unique or canonical, as different usage scenarios call for different presentations (Turska et al. 2017, §4).</quote>
+            <p style="text-align: left; ">Im Kontext der Jean Paul-Edition gelten die Daten den Herausgeberinnen als 
+                <hi rend="italic">Primärpublikation</hi>, die in der digitalen Edition im Web ihre Kernpräsentation, nicht aber ihre einzige (Re-)Präsentationsform finden müssen. Die Maßnahmen für offene Daten zielen daher auf ein Höchstmaß an Transparenz, Interoperabilität und Nachnutzbarkeit, um einer Nachnutzung durch Mensch und Maschine gerecht zu werden (Baillot und Busch 2021).<ref n="8" target="ftn8"/>
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     Siehe für Band 1 der Briefe von Jean Paul im Deutschen Textarchiv https://www.deutschestextarchiv.de/jeanpaul_briefe01_1956 (zugegriffen: 26. Juli 2022).
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                     Zum DFG-Projekt der Digitalisierung der Briefe von Jean Paul siehe 
+                        <ref target="https://www.jeanpaul-edition.de/von-briefe-digital.html">
+                            <hi rend="underline color(1155CC)">https://www.jeanpaul-edition.de/von-briefe-digital.html</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                     Zum DFG-Projekt der Erschließung der Umfeldbriefe siehe 
+                        <ref target="https://www.jeanpaul-edition.de/umfeldbriefe.html">
+                            <hi rend="underline color(1155CC)">https://www.jeanpaul-edition.de/umfeldbriefe.html</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                     Perspektivisch soll die digitale Edition um das noch zu retrokonvertierende Korpus der Briefe an Jean Paul ergänzt und damit vervollständigt werden.
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                     Für Informationen zu den Schnittstellen siehe 
+                        <ref target="https://www.jeanpaul-edition.de/daten.html">
+                            <hi rend="underline color(1155CC)">https://www.jeanpaul-edition.de/daten.html</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                     Siehe https://notes.jan-oliver-ruediger.de/korpora/ (zugegriffen: 26. Juli 2022).
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                     Siehe 
+                        <ref target="https://twitter.com/jeanpaultoday">
+                            <hi rend="underline color(1155CC)">https://twitter.com/jeanpaultoday</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                     Neben den genannten Aspekten wird das Poster die nächsten Schritte hinsichtlich der weiteren Pflege und Verbesserung der Daten und ihrer Publikation aufzeigen, die u.a. die XML-Schemata und die API betreffen.
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Baillot, Anne und Anna Busch.</hi> 2021. “Editing for Man and Machine. Digital Scholarly Editions and their Users” In 
+                        <hi rend="italic">Variants</hi> 15-16. 
+                        <ref target="https://doi.org/10.4000/variants.1220">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.4000/variants.1220</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Begemann, Christian, Markus Bernauer und Norbert Miller</hi>, Hg. 2003-2017
+                        <hi rend="italic">. Jean Pauls Sämtliche Werke. Vierte Abteilung: Briefe an Jean Paul.</hi> Berlin-Brandenburgischen Akademie der Wissenschaften.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Berend, Eduard</hi>, Hg. 1952–1964
+                        <hi rend="italic">. Jean Pauls Sämtliche Werke. Vierte Abteilung: Briefe an Jean Paul.</hi> Berlin-Brandenburgischen Akademie der Wissenschaften.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bernauer, Markus, Norbert Miller und Frederike Neuber</hi>, Hg. 2018–2022
+                        <hi rend="italic">. Jean Paul – Sämtliche Briefe digital.</hi> Berlin-Brandenburgischen Akademie der Wissenschaften. 
+                        <ref target="https://www.jeanpaul-edition.de">
+                            <hi rend="underline color(1155CC)">https://www.jeanpaul-edition.de</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Deutsches Textarchiv</hi>, Hg. 2011–2020
+                        <hi rend="italic" xml:space="preserve">. DTABf. Deutsches Textarchiv – Basisformat. </hi>Berlin-Brandenburgischen Akademie der Wissenschaften. 
+                        <ref target="http://deutschestextarchiv.de/doku/basisformat">
+                            <hi rend="underline color(1155CC)">http://deutschestextarchiv.de/doku/basisformat</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Digitales Wörterbuch der deutschen Sprache</hi>, Hg. 2022
+                        <hi rend="italic">. Jean Paul Briefe (Textkorpus).</hi>
+                        <ref target="https://www.dwds.de/d/korpora/jean_paul">https://www.dwds.de/d/korpora/jean_paul</ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dumont, Stefan, Sascha Grabsch und Jonas Müller-Laackman.</hi> 2021. correspSearch – Briefeditionen vernetzen (2.0.0). Berlin-Brandenburgische Akademie der Wissenschaften. 
+                        <ref target="https://correspsearch.net">
+                            <hi rend="underline color(1155CC)">https://correspSearch.net</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Franzini, Greta.</hi> 2012—2022. 
+                        <hi rend="italic">Catalogue of Digital Editions</hi>. 
+                        <ref target="https://dig-ed-cat.acdh.oeaw.ac.at/">https://dig-ed-cat.acdh.oeaw.ac.at/</ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neuber, Frederike</hi>, Hg. 2022a. 
+                        <hi rend="italic">telota/jean_paul_briefe: Daten der Briefe von Jean Paul und der Briefe aus seinem Umfeld (v.6.0)</hi> [Zenodo-Repositorium]. 
+                        <ref target="https://doi.org/10.5281/zenodo.6892400">https://doi.org/10.5281/zenodo.6892400</ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neuber, Frederike.</hi> 2022b. 
+                        <hi rend="italic">jeanpaultoday</hi> [GitHub-Repositorium]. 
+                        <ref target="https://github.com/FrederikeNeuber/jeanpaultoday">
+                            <hi rend="underline color(1155CC)">https://github.com/FrederikeNeuber/jeanpaultoday</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neuber, Frederike.</hi> 2023 [im Erscheinen]. “Der digitale Editionstext. Technologische Schichten, ‘editorischer Kerntext’ und Rezeption 2.0.” In 
+                        <hi rend="italic" xml:space="preserve">Der Text und seine (Re-)Produktion (editio Beihefte), </hi>hg. von Niklas Fröhlich, Bastian Politycki, Dirk Schäfer, Annkathrin Sonder. Berlin/Boston: De Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rüdiger, Jan Oliver.</hi> 2018. CorpusExplorer. Universität Kassel / Universität Siegen. http://www.CorpusExplorer.de (zugegriffen: 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Turska, Magdalena, James Cummings und Sebastian Rahtz. </hi>2017. “Challenging the Myth of Presentation in Digital Editions.” In 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 9. 
+                        <ref target="https://doi.org/10.4000/jtei.1453">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.4000/jtei.1453</hi>
+                        </ref> (zugegriffen: 26. Juli 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Witt, Jeffrey C.</hi> 2018. “Digital Scholarly Editions and API Consuming Applications.” In: 
+                        <hi rend="italic">Digital Scholarly Editions as Interfaces 12</hi>, Hg. von Roman Bleier, Martina Bürgermeister, Helmut W. Klug, Frederike Neuber und Gerlinde Schneider, 219—247. Norderstedt: Books on Demand.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

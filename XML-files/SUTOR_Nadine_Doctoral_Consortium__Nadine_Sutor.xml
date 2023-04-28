@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SUTOR_Nadine_Doctoral_Consortium__Nadine_Sutor" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                    <title>Diagramme edieren – zur kritischen Repräsentation visueller Narrative</title>
+                <author>
+                    <persName>
+                        <surname>Sutor</surname>
+                        <forename>Nadine</forename>
+                    </persName>
+                    <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                    <email>sutor@uni-wuppertal.de</email>
+                    <idno type="ORCID">0000-0003-0577-4470</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T12:29:02.850000000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Diagrammatik</term>
+                    <term>Editorik</term>
+                    <term>Repräsentation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading2">
+                <head>Einleitung und Problemstellung</head>
+                <p>Zu allen Zeiten haben sich Menschen ein Bild von der Welt gemacht und festgehalten, wie sie diese verstanden und interpretiert haben. Seit ihren skizzenhaften Anfängen ist bis heute eine Vielzahl von schematischen Bildern entstanden. “Praktiken visueller Welterzeugung” (Reudenbach 2011, Vorbemerkung) in Form von Zeichnungen lassen sich bereits in der Antike beobachten und haben sich bis heute als Mittel zur Konstruktion von Ordnungsvorstellungen bewährt. Anschaulichkeit als grundlegende Kategorie für das Verständnis von der Welt manifestiert sich auch im Diagramm. Das wissenschaftliche Interesse an der Diagrammatologie ist in den letzten Jahrzehnten stark gestiegen. In den digitalen geistes- und sozialwissenschaftlichen Fächern wurde die Darstellung abstrakter Daten und Zusammenhänge in graphisch-visuell erfassbarer Form immer stärker zu einer wichtigen Quelle bei der Generierung von Wissen (Lancaster, Schaal 2016, 5). Es wirkt der sogenannte 
+                    <hi rend="bold">„visual turn“</hi>, der sich abwendet von einer rein sprachlichen Wissensvermittlung und den Fokus stattdessen auf bildhafte Narrative legt: Die textuelle Ebene wird ergänzt durch die visuelle Dimension. Bisher ist die Editionswissenschaft eher unreflektiert mit der Frage umgegangen, wie man Diagramme als bildhafte Darstellungen kritisch wiedergeben kann, da es bis dato keine editorische Theorie der Diagramme gibt. Die Editorik versteht sich ursprünglich als Philologie mit dem Interesse an Sprache und Text, weniger mit deren Veräußerung in Bildern. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading2">
+                <head>Quellen</head>
+                <p>Das Thema der Promotion ist grundsätzlich 
+                    <hi rend="bold">transdisziplinär</hi> angelegt. Zwar handelt es sich bei den Fallstudien um früh- bzw. hochmittelalterliche Texte, allerdings spielen die philologische und die historische Dimension nur eine Nebenrolle. Stärker wird der Blick auf kulturwissenschaftliche und medientheoretische oder gar kunsthistorische Fragen zu richten sein. Letztlich geht es um editorische Fragen, die verschiedene Disziplinen betreffen. Zwei Quellen sollen für eine Analyse unter editionswissenschaftlichen Gesichtspunkten untersucht werden. Die in zahlreichen Handschriften durch das Mittelalter überlieferte Kosmologie 
+                    <hi rend="italic">De natura rerum</hi> des Isidor von Sevilla (560-636) und das bekannteste Werk des Petrus von Poitier (1125/1130-1205) 
+                    <hi rend="italic">Compendium historiae in genealogia christi</hi>. Sie markieren einerseits in dem die Antike tradierenden Frühmittelalter und andererseits in dem hier für Innovation stehenden Hochmittelalter das Entstehen der Diagrammatik im engeren, heutigen Sinne.
+                </p>
+                <p>Isidor von Sevilla behandelt naturkundliche Themen. Er nutzt seine Diagramme als Erklärung von mathematisch-physikalischen Konzepten, die inhaltlich logisch und schlüssig, jedoch zu komplex sind, als dass man sie textuell in Form eines Narrativs beschreiben könnte. Die diagrammatischen Darstellungen sollen diese Prozesse bildhaft darstellen und so ihr Verständnis legitimieren. Das „Compendium“ von Petrus von Poitiers ist wegen seiner Rezeption für die in den folgenden Jahrhunderten entstandenen graphischen Visualisierungen von Geschichte von großer Bedeutung. Er nutzt mehrere Diagrammformen, um die biblische Erzählung mit Erläuterungen zu versehen, bzw. durch bildhafte Darstellungen verständlicher zu machen. Seine Diagramme machen etwas, das verbal beschrieben wird als visuelle Struktur sichtbar und zeigen damit, dass die textliche Beschreibung und das damit gemeinte jeweils unterschiedlich interpretiert werden kann. Er wählt das Diagramm als eine Form der Wissensvermittlung, die über Sprache hinausgeht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading2">
+                <head>Forschungsfragen und Methode</head>
+                <p>Mit Blick auf die einleitend formulierte Problemstellung können zwei zentrale 
+                    <hi rend="bold">Forschungsfragen</hi> aufgezeigt werden:
+                </p>
+                <list type="ordered">
+                    <item>Editorische Herausforderung: Was ist aus der klassischen Textkritik auf die „Editorik der Diagramme“ übertragbar? Ziel der Dissertation ist keine Edition beider Werke, sondern die Entwicklung einer „Diagrammkritik“ und ein dafür aufgestelltes Regelwerk, welches explizit auf die beiden vorgestellten Quellen angewendet werden soll.</item>
+                    <item>
+                        <p>Re-medialisierung und Re-Codierung von Diagrammen: Gegenstand des praktischen Teils ist die Entwicklung von Formen einer kritischen Wiedergabe diagrammatischer Darstellungen. Das Konzept der Repräsentation als Skala geht mit der Frage einher, wie man ein Diagramm für heute „sprechend“ und verständlich machen kann. Beginnend bei einem quellennahen Abbild über eine fortschreitende Abstraktion, Normierung und Idealisierung zu immer mehr "Nutzer*innennähe." </p>
+                    </item>
+                </list>
+                <p>Mit SVG als Verfahren der digitalen Editorik ist die 
+                    <hi rend="bold">Methode</hi> zu benennen, die im Praxisteil der Promotion Anwendung finden soll. Für die digitale Bildrepräsentation soll unter Hinzunahme von 
+                    <hi rend="bold">SVG</hi> als XML-basierter Technologie die unter 2. formulierte Frage diskutiert werden, inwieweit eine editorisch naheliegende oder eine auf Ästhetik abzielende Mimetik durch eine systematisierende Wiedergabe ergänzt werden kann. Die Realisierung unterschiedlicher Abstraktionsstufen gibt einerseits Aufschluss über Entstehungskontexte des Diagramms, über Schreiberspezifika oder offenbart stemmatologische Nachbarschaften und Abfolgen. Sie ermöglicht andererseits die Produktion abstrahierender und idealisierender Abbilder und konfrontiert die Quelle mit einer gegenwartsbezogenen Perspektive: Was wäre eine zeitgemäße Form der Wiedergabe? 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading2">
+                <head>Bezug zu Themen aus den Digital Humanities</head>
+                <p>Das Thema dieser Arbeit bietet 
+                    <hi rend="bold">Anknüpfungspunkte</hi> zu weiteren, durchaus diskussionswürdigen Themen in den DH: Wie können Kulturartefakte codiert werden? Wie werden sie re-medialisiert? Wie können wir Relationen mentaler Denkstrukturen und medialen Ausdrucksformen systematischer aufdecken? Wie beeinflussen Technologien und Medien, die uns zur Verfügung stehen, wie wir unsere Welt sehen und mit ihr umgehen?
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Anderson, Benjamin.</hi> 2022. "Between Diagramm and Image On Yuval’s Harp." In 
+                        <hi rend="italic">The Diagram as Paradigm. Cross-Cultural Approaches</hi>, hg. von Jeffrey F. Hamburger, David J. Roxburgh und Linda Safran. 93-113. Cambridge: Harvard University Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Assmann, Jan.</hi> 2012. 
+                        <emph>"</emph>Schriftbildlichkeit. Etymographie und Ikonographie.
+                        <emph>"</emph>
+                        <hi rend="italic"> </hi>In 
+                        <hi rend="italic">Schriftbildlichkeit. Wahrnehmbarkeit, Materialität und Operationalität von Notationen</hi>, hg. von Sybille Krämer, Eva Cancik-Kirschbaum und Rainer Totzke, 139-149. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Bauer, Ernst.</hi> 2010. 
+                        <emph>"</emph>Grundzüge der Diagrammatik.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Einführung in ein kultur- und medienwissenschaftliches Forschungsfeld</hi>, hg. von Matthias Bauer und Christoph Ernst, 17-109. Bielefeld: transcript.
+                    </bibl>
+                    <bibl><hi rend="bold">Brandstetter, Gabriele.</hi> 2012. 
+                        <emph>"</emph>Schriftbilder des Tanzes. Zwischen Notation, Diagramm und Ornament.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Schriftbildlichkeit. Wahrnehmbarkeit, Materialität und Operativität von Notationen</hi>, hg. von Sybille Krämer, Eva Cancik-Kirschbaum und Rainer Totzke, 61-79. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Eastwood, Bruce S.</hi> 2001. 
+                        <emph>"</emph>The Diagram of the Four Elements in the Oldest Manuscript of Isidore’s 'De natura rerum'.
+                        <emph>"</emph>
+                        <hi rend="italic">Studi Medievali</hi> 42: 547-564.
+                    </bibl>
+                    <bibl><hi rend="bold">Ernst, Christoph.</hi> 2021. 
+                        <emph>"</emph>Ikonizität, Schema und Diagramm.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Diagramme zwischen Metapher und Explikation. Studien zur Medien- und Filmästhetik der Diagrammatik,</hi> hg. von Christoph Ernst. Präsenz und implizites Wissen 5: 153-164. 
+                    </bibl>
+                    <bibl><hi rend="bold">Frank, Ingo. </hi>2017. 
+                        <emph>"</emph>Diagrammatische Denkwerkzeuge in den Digital Humanities – Ansatz zur zeichentheoretischen Grundlegung.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Semiotik als Theorie der Digitalen Geisteswissenschaften</hi>, hg. von Martin Siefkes und Roland Posner. Zeitschrift für Semiotik (1-2) 39: 51-83.
+                    </bibl>
+                    <bibl><hi rend="bold">Giardino, Valeria und Gabriel Greenberg.</hi> 2015. 
+                        <emph>"</emph>Varieties of Iconicity.
+                        <emph>" Review of Philosophy and Psychology 6: 1-25. </emph>
+                    </bibl>
+                    <bibl><hi rend="bold">Krämer, Sybille.</hi> 2014. 
+                        <emph>"</emph>Zur Grammatik der Diagrammatik. Eine Annäherung an die Grundlagen des Diagrammgebrauchs.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Diagramm und Narration</hi>, hg. von Hartmut Bleumer. Zeitschrift für Literaturwissenschaft und Linguistik (176) 44: 11-28.
+                    </bibl>
+                    <bibl><hi rend="bold">>Krämer, Sybille.</hi> 2005. 
+                        <emph>"</emph>Operationsraum Schrift: Über einen Perspektivwechsel in der Betrachtung von Schrift.
+                        <emph>" </emph>In 
+                        <hi rend="italic">Schrift. Kulturtechnik zwischen Auge, Hand und Maschine</hi>, hg. von Gernot Grube, Werner Kogge und Sybille Krämer, 23-61. München: Wilhelm Fink Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Krämer, Sybille. </hi>2012. 
+                        <emph>"</emph>Punkt, Strich, Fläche. Von der Schriftbildlichkeit zur Diagrammatik.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Schriftbildlichkeit. Wahrnehmbarkeit, Materialität und Operativität von Notationen</hi>, hg. von Sybille Krämer, Eva Cancik-Kirschbaum und Rainer Totzke, 79-101. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Lancaster, Kelly und Schaal, Gary S.</hi> (2016). 
+                        <emph>"</emph>Ein Bild sagt mehr als 1000 Worte? Visualisierungen in den Digital Humanities.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Digital Classics Online</hi>, hg. von Roxana Kath, Michaela Rücker, Reinhild Scholl, Charlotte Schubert, (2, 3): 5-22. 
+                    </bibl>
+                    <bibl><hi rend="bold">Manolova, Divna.</hi> 2022. 
+                        <emph>"Space, Place, Diagramm. Cleomedes and the Visual Program of Munich, Bayerische Staatsbibliothek, Cod.gr. 482. " In The Diagram as Paradigm. Cross-Cultural Approaches, hg. von Jeffrey F. Hamburger, David J. Roxburgh und Linda Safran. 149-167. Cambridge: Harvard University Press. </emph>
+                    </bibl>
+                    <bibl><hi rend="bold">Mersch, Dieter.</hi> 2012. 
+                        <emph>"</emph>Schrift/Bild – Zeichnung/Graph – Linie/Markierung. Bildepisteme und Strukturen des ikonischen 'Als'.
+                        <emph>" </emph>In 
+                        <hi rend="italic">Schriftbildlichkeit. Wahrnehmbarkeit, Materialität und Operativität von Notationen</hi>, hg. von Sybille Krämer, Eva Cancik-Kirschbaum und Rainer Totzke, 305-329. Berlin: Akademie Verlag. 
+                    </bibl>
+                    <bibl><hi rend="bold">Müller, Kathrin.</hi> 2008. 
+                        <emph>"</emph>Visuelle Weltaneignung: astronomische und kosmologische Diagramme in Handschriften des Mittelalters.“ PhD diss., Universität Hamburg.
+                    </bibl>
+                    <bibl><hi rend="bold">Raible, Wolfgang. </hi>2012. 
+                        <emph>"</emph>Bildschriftlichkeit
+                        <emph>."</emph> In 
+                        <hi rend="italic">Schriftbildlichkeit. Wahrnehmbarkeit, Materialität und Operativität von Notationen</hi>, hg. von Sybille Krämer, Eva Cancik-Kirschbaum und Rainer Totzke, 201-217. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Reudenbach, Bruno. </hi>2011. 
+                        <emph>"</emph>Ein Weltbild im Diagramm – Ein Diagramm als Weltbild. Das Mikrokosmos-Makrokosmos-Schema des Isidor von Sevilla.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Atlas der Weltbilder</hi>, hg. von Christoph Marschkies, Ingeborg Reichle, Jochen Brüning und Peter Deuflhard, 33-40. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Smets, Alexis und Christoph Lüthy.</hi> 2009. 
+                        <emph>"</emph>Words, Lines, Diagrams, Images: Towards a History of Scientific Imagery
+                        <emph>"</emph>
+                        <hi rend="italic">. Early Science and Medicine</hi> 14: 398-439.
+                    </bibl>
+                    <bibl><hi rend="bold">Stetter, Christian.</hi> 2005. 
+                        <emph>"</emph>Bild, Diagramm, Schrift.
+                        <emph>"</emph> In 
+                        <hi rend="italic">Schrift. Kulturtechnik zwischen Auge, Hand und Maschine</hi>, hg. von Gernot Grube, Werner Kogge und Sybille Krämer, 115-137. München: Wilhelm Fink Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">Treude, Linda und Sascha Freyberg.</hi> 2012. 
+                        <emph>"</emph>Diagrammatik und Wissensorganisation.
+                        <emph>"</emph>
+                        <hi rend="italic">LIBREAS. Library Ideas </hi>21. 
+                    </bibl>
+                    <bibl><hi rend="bold">Wallis, Faith. </hi>2015. 
+                        <emph>"</emph>What a Medieval Diagram Shows: A Case Study of 'Computus'.
+                        <emph>"</emph>
+                        <hi rend="italic">Studies in Iconography </hi>36: 1-40. 
+                    </bibl>
+                    <bibl><hi rend="bold">Wallis, Faith und Calvin B. Kendall.</hi>2016. 
+                        <hi rend="italic">Isidore of Seville. On the Nature of Things</hi>. Translated Texts for Historians 66.
+                    </bibl>
+                    <bibl><hi rend="bold">W.J.T. Mitchell.</hi> 1987. 
+                        <hi rend="italic">Iconology. Image, Text, Ideology</hi>.
+                        <emph> </emph>Chicago: University of Chicago Press.
+                    </bibl>
+                    <bibl><hi rend="bold">Worm, Andrea.</hi> 2020. 
+                        <hi rend="italic">Geschichte und Weltordnung. Graphische Modelle von Zeit und Raum in Universalchroniken vor 1500</hi>. Berlin: Deutscher Verlag für Kunstwissenschaft.
+                    </bibl>
+                    <bibl><hi rend="bold">Worm, Andrea. </hi>2018. "Medium und Materialität: Petrus von Poitiers' Compendium historiae in genealogia. Christi in Rolle und Codex." In 
+                        <hi rend="italic">Codex und Material</hi>, hg. von Patrizia Carmassi und Gia Toussaint. Wolfenbütteler Mittelalter-Studien 34: 39-64, Wiesbaden: Harrassowitz Verlag. 
+                    </bibl>
+                    <bibl><hi rend="bold">Worm, Andrea. </hi>2013. "Visualising the Order of History: Hugh of Saint Victor’s Chronicon and Peter of Poitiers’ Compendium Historiae." In 
+                        <hi rend="italic">Romanesque and the Past: Retrospection in the Art and Architecture of Romanesque Europe</hi>, hg. von Richard Plant und John McNeill, 243-264. London: Cambridge University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HOPP_Meike_Provenienzforschung_und_ihre_Quellenbest_nde__Akt" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Provenienzforschung und ihre Quellenbestände. Aktuelle Nutzungsszenarien zwischen Open Access und Inaccessibility</title>
+                <author>
+                    <persName>
+                        <surname>Hopp</surname>
+                        <forename>Meike</forename>
+                    </persName>
+                    <affiliation>TU Berlin, Deutschland</affiliation>
+                    <email>meike.hopp@tu-berlin.de</email>
+                    <idno type="ORCID">0000-0001-9590-304X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>von dem Bussche</surname>
+                        <forename>Ruth</forename>
+                    </persName>
+                    <affiliation>Fotostoria</affiliation>
+                    <email>rbussche@fotostoria.de</email>
+                    <idno type="ORCID">0000-0002-3360-0104</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-20T12:08:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Provenienz</term>
+                    <term>Sammlung</term>
+                    <term>Kulturerbe</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Identifizierung</term>
+                    <term>Artefakte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Frage nach einer spezifisch deutschen Verantwortung für historisches Unrecht und die Kritik an der Realisierbarkeit und Verhältnismäßigkeit von „Wiedergutmachung“ an Opfern der Verfolgung, Entrechtung und Enteignung durch den nationalsozialistischen Unrechtsstaat in der Nachkriegszeit, beschäftigte in den vergangenen Jahrzehnten vor allem Forscher_innen aus den Bereichen der Zeitgeschichte, der Philosophie und der Rechtswissenschaften. In der kunsthistorischen Forschung haben die 
+                <hi rend="italic">Washington Principles on Nazi-Confiscated Art</hi> von 1998 ein Umdenken herbeigeführt. In der Folge hat sich die Provenienzforschung zunächst mit der Koordinierungsstelle für Kulturgutverluste in Magdeburg und der 2008 eingerichteten Arbeitsstelle für Provenienzrecherche/-forschung beim Institut für Museumsforschung, Stiftung Preußischer Kulturbesitz in Berlin – seit 2015 zusammengeschlossen zum Deutschen Zentrum für Kulturgutverluste (DZK) in Magdeburg – institutionalisiert. Die Provenienzforschung stellt inzwischen eines der virulentesten geisteswissenschaftlichen Forschungsfelder dar, welches von großem öffentlichem und medialem Interesse begleitet wird und inzwischen an einigen, v.a. kunsthistorischen Instituten zum Ausbildungs- bzw. zum Lehrangebot gehört. Seit 2015 wurden an fünf Universitäten in Bonn, Hamburg, München, Berlin und Lüneburg (Junior-)Professuren dieser Denomination eingerichtet, auch an anderen Universitäten werden Seminare oder spezialisierte Masterstudiengänge angeboten.
+            </p>
+            <p>Dabei produziert die Provenienzforschung in erheblichem Maße objekt- und personenbezogene Daten: Die seit 2020 vom DZK betriebene Forschungsdatenbank PROVEANA bündelt Entitäten aus 467 von der Stiftung geförderten Projekte, d.h. Daten zu Akteur_innen, Objekten, Archivbeständen und Sekundärquellen, die den Forschenden aber ebenso betroffenen Nachfahren von Verfolgten oder aber Interessierten zur Verfügung zu stehen, darin enthalten auch die Such- und Fundmeldungen der seit 2000 betriebenen Datenbank LostArt.<ref n="1" target="ftn1"/> Parallel entstanden in den vergangenen zwei Jahrzehnten weitere unabhängige Datenbankprojekte, etwa die am Deutschen Historischen Museum in Berlin angesiedelte Datenbank zum Central Collecting Point (CCP) in München, welcher unter der Leitung amerikanischen Militärbehörden in der in der unmittelbaren Nachkriegszeit Wesentliches für die Rückführung des im Nationalsozialismus enteigneten Kulturguts geleistet hat<ref n="2" target="ftn2"/>, oder die Datenbank zum Kulturgutraub in Frankreich durch den Einsatzstabs Reichsleiter Rosenberg (ERR).<ref n="3" target="ftn3"/>
+            </p>
+            <p>Auch innerhalb der vom DZK geförderten Projekte werden Provenienzdaten dokumentiert, dies in vielfältiger Form, seien es Excelsheets, kleinere selbstgestrickte Datenbanklösungen oder auch zusätzliche Provenienzfelder, die in bestehende Museumsdatenbanken integriert wurden. Diese hausintern erzeugten Daten bleiben aber in der Regel nicht projekt- oder länderübergreifend nutzbar (s. Hopp 2018). Die Frage der Langzeitarchivierung dieser lokal gehaltenen Projektdaten ist vielfach noch gar nicht angegangen worden. Das mag auch mit daran liegen, dass wir es mit einer föderalen Arbeitsstruktur, mangelnden personellen Kontinuitäten (bedingt durch Drittmittelförderungen und befristete Verträge) sowie Heterogenitäten von Datenmodellierungen auf der räumlichen wie auf der zeitlichen Achse zu tun haben, was die Koordination des Datenrückflusses an Datenzentren zeitaufwendig und schwierig macht. </p>
+            <p>Ein Blick auf die Provenienzforschung in Museen zeigt, wie vielfältig Provenienzdaten zu einem Objekt sein können. Es handelt sich um Metadaten zu Erwerbsumständen (Zugangsdaten, Rückseitenbefunde, etc.) aber auch um solche, die aus externen Quellen und Überlieferungen in privaten oder öffentlichen Archiven (Beschlagnahme-, Wiedergutmachungsakten, etc.) stammen. Hinzu kommen Daten aus Forschungseinrichtungen, die sich mit den Mechanismen der Verlagerung von Kulturgütern und Akteursnetzwerken sowie dem Kunstmarkt befassen.<ref n="4" target="ftn4"/> Die Herausforderung besteht darin, diese Erkenntnisse und Informationen zu bündeln, wobei die erhobenen Daten immer auch eine Rückbindung an die jeweiligen archivalischen Belege benötigen, die ähnlich vielfältig wie die durch sie beschriebenen Objekte sind.
+            </p>
+            <p>Wie ist es nun um die Zugänglichkeit zur Archivmaterialien bestellt? Die Archive selbst leisten seit Jahren wichtige Unterstützung für die Provenienzforschung. Die Zielvorgaben von Politik und Forschung waren dabei in der Regel bislang Quellen oder archivalische Bestände schnell und/oder unkompliziert als Digitalisate oder Datenbanken zur Verfügung zu stellen, um die direkte Zugänglichkeit für die Forschung zu gewährleisten, wobei auf spezielle bzw. individuelle Abfragemöglichkeiten weniger Wert gelegt wurde. Aufgrund der schieren Menge und Fülle des vorhandenen Materials können die bisherigen Online-Angebote bzw. oben genannte Datenbankprojekte zwar einen wichtigen aber eben auch nur sehr kleinen Ausschnitt der Informationen zum NS-Kunst- und Kulturgutraub wiedergeben. Zudem scheinen bei den digitalen Zugriffsmöglichkeiten auf die für die Provenienzforschung relevanten Archivbestände, große Unterschiede auf. </p>
+            <p>Das Transparenzgebot der Washingtoner Prinzipien von 1998 steht dabei noch immer im Widerspruch zu den archivrechtlichen Bestimmungen einzelner Einrichtungen, ganz gleich ob auf bundes-, landes- oder kommunaler Ebene. Während die Ende 2016 in Kraft getretene DGSVO mit dem in ihr enthaltenen Erwägungsgrund 158 einen transparenten Umgang mit Daten empfiehlt, die „im Zusammenhang mit dem politischen Verhalten unter ehemaligen totalitären Regimen, Völkermord, Verbrechen gegen die Menschlichkeit, insbesondere dem Holocaust, und Kriegsverbrechen“ stehen,<ref n="5" target="ftn5"/> bleibt sie bezogen auf die praktische Umsetzung der Verarbeitung und Publikation der Daten weiterhin auslegbar, bzw. wird in der Praxis in Archiven und Verwaltungen sehr viel enger gefasst. Dabei fehlt häufig einen saubere Trennung von Daten die DSGVO-relevant sind, von solchen, die in keinem Bezug zu lebenden Personen stehen.<ref n="6" target="ftn6"/>
+            </p>
+            <p>Kleinere, regionale Forschungsverbünde arbeiten inzwischen mit digitalen Repositorien oder Portalen zur Bereitstellung von Quellenmaterial speziell für die Provenienzrecherche, doch stehen diese in der Regel nur einem eingeschränkten Kreis an Nutzer_innen zur Verfügung, da neben der rechtlichen Lage auch viele moralisch-ethische Fragen im Umgang mit den erarbeiteten Informationen offen bleiben, so etwa privaten Informationen zu den Geschädigten (Familiendokumente, etc.). So erfüllen die existierenden Lösungsansätze bis heute kaum die Anforderungen an umfassende Transparenz im Umgang mit (Meta-)Daten zur Herkunft der in deutschen Einrichtungen verwahrten kulturellen Objekte, ein Problem, das auch auf die in jüngerer Zeit begründeten Netzwerke zum Umgang mit Objekten aus kolonialen Kontexten – hier sei exemplarisch auf das künftige CCC-Portal der Deutschen Digitalen Bibliothek verwiesen – übertragen werden kann.<ref n="7" target="ftn7"/>
+            </p>
+            <p>Allerdings gibt es aktuell verschiedene Ansätze zur Aufarbeitung von Archivbeständen stärker maschinell gestützten Verfahren einzusetzen, die über Volltexterschließung, Natural Language Processing (NLP) oder der Named Entity Recognition (NER) Dokumente zugänglich machen.<ref n="8" target="ftn8"/> Doch auch hier bliebt fraglich wie z.B. ein bundesweit angelegtes Projekt zur Digitalisierung der Wiedergutmachungsakten die zahlreichen archiv- und personenschutzrechtlichen Beschränkungen und Fristen umgehen wird bzw. wie transparent die Ergebnisse schließlich publiziert werden können, womit alle Digital-Projekte in diesem sensiblen Bereich in rechtlichen Grauzonen agieren. Bedarf es nicht sogar gerade in diesem Fall eines speziellen Schutzes von Daten zu Opfern der NS-Verfolgung? Die Akten, mit denen die Provenienzforschung arbeitet, sind Zeugnisse eines totalitären Unrechtsregimes. Neben den Akten der Finanzämter, die Auskunft über Vermögenswerte und fiskalische Verfolgung geben, erlauben Auflistungen des vor der Emigration in den Speditionen deponierten Hausrats unmittelbare Einblicke in Hausstand und Familienleben. Schließlich finden sich in Entschädigungsverfahren nicht selten Zeugnisse, die Foltermethoden benennen, die die Geschädigten über sich ergehen lassen mussten, ebenso sowie die davongetragenen medizinischen Spätfolgen. Dürfen wir heute über dieses Wissen, diese Daten frei verfügen?
+            </p>
+            <p>Doch gerade für Forschende ist der Ansatz z.B. über die maschinelle Erschließung von möglichst vielen Dokumententexten die für die Provenienzrecherche wichtige objekt- oder personenbezogenen Daten schnell herauszufiltern natürlich essentiell, da auf Basis der unüberblickbaren Menge der europaweit verstreuten Quellen zum Kunst- und Kulturgutraub der Nationalsozialisten einzelfallbezogene Prüfungen und Sondierungen oft nicht effizient und nachhaltig bearbeitet werden können. Zwar ist es denkbar, maschinelle Verfahren der Texterschließung anzuwenden, aber es braucht zusätzliche Methoden, sensible Inhalte zu filtern und Teile von Beständen – wie bislang auch analog gehandhabt – nur auf begründeten Antrag zur Verfügung zu stellen. </p>
+            <p>Gleichzeitig steht die digitale Provenienzforschung vor der Herausforderung eine Basis für die Etablierung effizienter Modelle zur standardisierten Erfassung von eindeutigen bzw. uneindeutigen Provenienzdaten zu schaffen und Datenkompetenzen auszubilden. Denn neben der Recherche von Objektbiografien, Eigentumsübergängen und -verlusten, </p>
+            <p>hat Provenienzforschung auch das Ziel den heutigen Anspruchsberechtigten und der interessierten Öffentlichkeit gerecht zu werden – ergo zu dokumentieren, aufzuklären, zu informieren und damit auch Daten – weltweit – auffindbar zu machen. Bereits im Sommersemester 2020 sind Studierende am Fachgebiet Digitale Provenienzforschung der TU Berlin in einem Seminar der Frage nachgegangen, ob und inwiefern sich Nachfahren der im NS-Regime rassisch oder anderweitig Verfolgten über laufende Projekte und bestehende Online-Datenangebote im Bereich der Provenienzforschung in Deutschland informieren können. Im Zentrum stand die Frage, ob die bereits bestehenden Datenbanken/-tools auch für ein nicht spezialisiertes Publikum zugänglich, ob sie auffindbar, transparent und verständlich sind, ob es Sprachhürden gibt und wie viel Vorwissen erforderlich ist, um die in ihnen enthaltenen Informationen richtig zu interpretieren. In Gesprächen mit heute international ansässigen Nachfahren, kristallisierte sich heraus, dass das Online-Angebot nicht nur unübersichtlich ist, sondern wesentlichen Adressat*innen bzw. Interessentengruppen weitestgehend verschlossen bleibt. Die aktuellen Angebote produzieren folglich nicht nur Expertenwissen, sondern auch Ausschlüsse der eigentlich Betroffenen. </p>
+            <p>Vor diesem Hintergrund haben wir uns seit Herbst 2020 intensiv mit Optimierungsprozessen im Umgang und bei der Erschließung von öffentlich verfügbaren Quellenbeständen zur Provenienzforschung befasst. Unsere Verfahren zielten dabei unter anderem auf den heute im Bundesarchiv Koblenz befindlichen, komplett digitalisierten aber bisher nicht effizient zu durchsuchenden Bestand B323 der in den Nachkriegsjahren agierenden ehem. Treuhandverwaltung von Kulturgut beim Oberfinanzpräsidium in München ab, der wesentliche Original-Quellen zum NS-Kunstraub sowie zu den alliierten Rückführungs-Bemühungen enthält und der in seiner sehr gemischten Zusammensetzung einen optimalen Testbestand lieferte. Ausgangspunkt des Pilotprojekts waren zunächst Metadaten aus der Archiverfassung,<ref n="9" target="ftn9"/> die wir als Graph aufbereitet haben (Bussche, Hopp 2022a und 2022b). Hierbei orientieren wir uns an bisherigen Bemühungen, den Nutzen von Linked-Data- und Semantic-Web-Technologien für archivarische Sammlungen zu untersuchen (Ferris 2014, Gracy 2015, Niu 2016). Um diese zu einer verlässlichen Ressource für die Provenienzforschung zu entwickeln, wurden alle über die Rechercheplattform des Bundesarchivs zur Verfügung stehenden Digitalisate mittlels OCR erfasst und die Daten in einer Suchmaschine zur Verfügung gestellt. Bereits auf dieser ersten Grundlage zeichnete sich ab, dass die Erschließung über Volltexte die Anforderungen der Provenienzforschung wesentlich besser abbilden kann, als das bisherige Online-Angebot mit Erschließungen zu Einzelakten über die Bestandbeschreibungen, denn der Praxis geht es häufig darum die Dokumente mit Erwähnungen bestimmter Personen, Werke oder Institutionen erst einmal aufzufinden.
+            </p>
+            <p>Die bisher in unserem experimentellen Projekt verwendeten Verfahren machine learning basierter Clouddienste, wie etwa 
+                <hi rend="italic">azure OCR</hi> oder 
+                <hi rend="italic">Google NER</hi> ermöglichten es uns auch mit geringen personellen Kapazitäten durchaus umfangreiche Aktenbestände zu verarbeiten, wenngleich die Nutzung der genannten Dienste in öffentlichen Einrichtungen problematisch wäre. Wesentliche Hindernisse für eine Zugänglichmachung von Provenienzdaten beginnen also nicht erst bei der Frage der Online-Stellung, sondern schon sehr viel früher bei der Verarbeitung der Daten. Die von verschiedenen Institutionen unterschiedlich strikt gehandhabten Regeln hierzu blieben ebenso uneinheitlich wie die Vorgaben zum Datenschutz selbst, wobei Empfehlungen für „rechtskonforme“ Ersatzprodukte fehlen. 
+            </p>
+            <p>Die Möglichkeiten der maschinellen Verarbeitung der bisher erzeugten Daten zum Bestand B323 gehen allerdings weiter (Stork 2021, Moss et al. 2018, Krenn 2019). Zum gegenwärtigen Zeitpunkt geht es uns darum, die Qualität der bislang eingesetzten Verfahren zu evaluieren und an einer künftigen verbesserten Verarbeitungspipeline zu arbeiten.</p>
+            <p>Welche qualitativen Vorteile bringt eine Vorverarbeitung der Scans (z.B. Ränder entfernen)?</p>
+            <p>Wo müssen Elemente eines Digitalisats segmentiert werden um die Auslesung der Daten bzw. Texte zu optimieren? Das betrifft vor allem kleine Notizen und Belege oder ausgeschnittene Bilder aus Mikrofilmen, die auf DinA4 Seiten montiert wurden.</p>
+            <p>Wo kann hingegen Layouterkennung eingesetzt werden (z.B. bei Listen, Karteikarten, Korrespondenzen)? </p>
+            <p>Welche Möglichkeiten haben wir Dokumente auch inhaltlich erkennen zu lassen, um z.B. eine Filterung nach Rechnungen oder Transportlisten vorzunehmen? Welche Algorithmen stehen für buchhalterische Dokumente wie Quittungen oder Rechnungen zur Verfügung, um deren Inhalte strukturiert erkennen zu lassen?</p>
+            <p>Wie können wir Texte über Entitäten erschließen?</p>
+            <p>Für die Erschließung von Dokumentenbeständen über Entitäten gibt es bereits Vorbilder: so wurden Dokumente aus der Zeit der deutschen Besatzung in den Niederlanden beispielsweise im Projekt Oorlogsbronnen aufbereitet (Borggräfe et al. 2020).<ref n="10" target="ftn10"/> Ein weiteres bemerkenswertes Beispiel aus dem Bereich der Provenienzforschung ist der Archivführer zur deutschen Kolonialgeschichte, der archivische Sammlungen katalogisiert und mit Wikidata-Elementen verknüpft und somit neben dem niedrigschwelligen Einstieg in die Recherchen auch die weitere Bearbeitung der Entitäten und den Einbezug von Expert_innenwissen erlaubt, um die Qualität der Erkennung und Disambiguierung zu verbessern (Jung 2019).<ref n="11" target="ftn11"/> Die beiden Beispiele liefern damit Entitäten, über die Texte mit der entsprechenden Qualität maschinell erschlossen werden können. 
+            </p>
+            <p>Das bedeutet im Folgeschluss, dass es immer wichtiger wird, dass strukturierte Daten auch als offene Daten zur Verfügung stehen. Plattformen wie PROVEANA haben die dazu notwendige Struktur und Qualität, bieten aber über Einzelrecherchen hinaus keinen Zugang zu den Rohdaten oder API an. </p>
+            <p>Die Anwendung von Semantic-Web-Technologien in der Provenienzforschung benötigt unserer Meinung nach: einen offenen Diskurs zum standardisiertn und FAIRen Umgang mit den Digitalisaten und Forschungsdaten an allen Provenienzforschung betreibenden Einrichtungen, Verfahren zur effizienteren Aufbereitung von Dokumenten, um die nötige Qualität der Dokumentenverarbeitung (OCR, Layouterkennung usw.) sicherstellen und Methoden um Unterscheidungen zwischen den für die Forschung offenzulegenden Daten von den sensiblen Informationen vorzunehmen.</p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve">Vgl. </hi>
+                        <ref target="https://www.proveana.de">
+                            <hi style="font-size:9pt">https://www.proveana.de</hi>
+                        </ref>
+                        <hi rend="Hyperlink"> (aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://www.dhm.de/datenbank/ccp/dhm_ccp.php?seite=9">
+                            <hi style="font-size:9pt">https://www.dhm.de/datenbank/ccp/dhm_ccp.php?seite=9</hi>
+                        </ref>
+                        <hi rend="Hyperlink">(aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://www.errproject.org">
+                            <hi style="font-size:9pt">https://www.errproject.org</hi>
+                        </ref>
+                        <hi rend="Hyperlink">(aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Forschungsschwerpunkte zum Kunstmarkt gibt unter anderem am Zentralinstitut für Kunstgeschichte (ZI) München, hier sogar mit ausgewiesenem Schwerpunkt im Bereich der Provenienzforschung: </hi>
+                        <ref target="https://www.zikg.eu/forschung/provenienzforschung-werte-von-kulturguetern">
+                            <hi style="font-size:9pt">https://www.zikg.eu/forschung/provenienzforschung-werte-von-kulturguetern</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve">, am Zentralarchiv für deutsche und internationale Kunstmarktforschung an der Uni Köln: </hi>
+                        <ref target="https://khi.phil-fak.uni-koeln.de/fachgebiete/kunstmarkt/forschungsschwerpunkte">
+                            <hi style="font-size:9pt">https://khi.phil-fak.uni-koeln.de/fachgebiete/kunstmarkt/forschungsschwerpunkte</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> oder am Forum Kunst und Markt der TU Berlin </hi>
+                        <ref target="https://www.kuk.tu-berlin.de/menue/forum_kunst_und_markt/">
+                            <hi style="font-size:9pt">https://www.kuk.tu-berlin.de/menue/forum_kunst_und_markt/</hi>
+                        </ref>
+                        <hi rend="Hyperlink">(alle aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Siehe: </hi>
+                        <ref target="https://dsgvo-gesetz.de/erwaegungsgruende/nr-158/">
+                            <hi style="font-size:9pt">https://dsgvo-gesetz.de/erwaegungsgruende/nr-158/</hi>
+                        </ref>
+                        <hi rend="Hyperlink">(aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Der rechtliche Rahmen findet sich skizziert in Schlagk 2019; Eisenberger et al. 2018.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://ccc.deutsche-digitale-bibliothek.de/">
+                            <hi style="font-size:9pt">https://ccc.deutsche-digitale-bibliothek.de/</hi>
+                        </ref>
+                        <hi rend="Hyperlink">(aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Wesentliche Projekte sind hier die Akten des Oberfinanzpräsidenten Brandenburg, s. </hi>
+                        <ref target="https://blha.brandenburg.de/index.php/projekte/ofp-projekt/">
+                            <hi style="font-size:9pt">https://blha.brandenburg.de/index.php/projekte/ofp-projekt/</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> und das Projekt zu den Wiedergutmachungsakten, s. </hi>
+                        <ref target="https://www.bundesarchiv.de/DE/Content/Pressemitteilungen/publikation-portal-wiedergutmachung.html">
+                            <hi style="font-size:9pt">https://www.bundesarchiv.de/DE/Content/Pressemitteilungen/publikation-portal-wiedergutmachung.html</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> und </hi>
+                        <ref target="https://www.fiz-karlsruhe.de/de/forschung/wiedergutmachung">
+                            <hi style="font-size:9pt">https://www.fiz-karlsruhe.de/de/forschung/wiedergutmachung</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (alle aufgerufen am 12.12.22).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve">Das Bundesarchiv stellt die Daten aus der Bestandserfassung als offene Daten zur Verfügung, vgl. </hi>
+                        <ref target="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">
+                            <hi style="font-size:9pt">https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve">. </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://www.oorlogsbronnen.nl">
+                            <hi style="font-size:9pt">https://www.oorlogsbronnen.nl</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (aufgerufen am 12.12.2022).</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                    
+                        <hi style="font-size:9pt" xml:space="preserve"> Vgl. </hi>
+                        <ref target="https://archivfuehrer-kolonialzeit.de">
+                            <hi style="font-size:9pt">https://archivfuehrer-kolonialzeit.de</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (aufgerufen am 12.12.2022).</hi>
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Borggräfe, Henning, et al., editors.</hi> “Linking and Enriching Archival Collections in the Digital Age: The Dutch War Collections Network.” Tracing and Documenting Nazi Victims Past and Present, De Gruyter Oldenbourg, 2020, pp. 315–38, 
+                        <ref target="https://www.degruyter.com/document/doi/10.1515/9783110665376-018/html">https://www.degruyter.com/document/doi/10.1515/9783110665376-018/html</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">“Digitale Provenienzforschung”</hi> Provenienz &amp; Forschung, edited by Deutsches Zentrum Kulturgutverluste, vol. 1, 2020</bibl>
+                    <bibl> <hi rend="bold">“EAC-CPF.”</hi> Encoded Archival Context for Corporate Bodies, Persons, and Families, 
+                        <ref target="https://eac.staatsbibliothek-berlin.de">https://eac.staatsbibliothek-berlin.de</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Eisenberg, Iris et al.</hi> “Zeitgeschichtliche Forschung im Spannungsfeld von Archiv- Datenschutz- und Urheberrecht.“ Wien, 2018.</bibl>
+                    <bibl><hi rend="bold">Ferris, Virginia L. Beyond</hi> “Showing What We Have”: Exploring Linked Data for Archival Description. University of North Carolina at Chapel Hill, 2014, 
+                        <ref target="https://doi.org/10.17615/6n9k-q582">https://doi.org/10.17615/6n9k-q582</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Gracy, Karen F.</hi> “Archival Description and Linked Data: A Preliminary Study of Opportunities and Implementation Challenges.” Archival Science, vol. 15, 2015, pp. 239–94, 
+                        <ref target="https://doi.org/10/gdcck6">https://doi.org/10/gdcck6</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Greenberg, Jane.</hi> “The Applicability of Natural Language Processing (NLP) to Archival Properties and Objectives.” The American Archivist, vol. 61, 1998, pp. 400–25, 
+                        <ref target="https://meridian.allenpress.com/american-archivist/article/61/2/400/23942/The-Applicability-of-Natural-Language-Processing">https://meridian.allenpress.com/american-archivist/article/61/2/400/23942/The-Applicability-of-Natural-Language-Processing</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Hopp, Meike.</hi> “Provenienzrecherche und digitale Forschungsinfrastrukturen in Deutschland: Tendenzen, Desiderate, Bedürfnisse” …(k)ein Ende in Sicht. 20 Jahre Kunstrückgabegesetz in Österreich, edited by Eva Blimlinger and Heinz Schödl, Wien, 2018, pp. 37–61.</bibl>
+                    <bibl><hi rend="bold">Jung, Uwe.</hi> “Archivfüher zur deutschen Kolonialgeschichte” Archivar, no. 4, 2019, pp. 325–327.</bibl>
+                    <bibl><hi rend="bold">Krenn, Brigitte.</hi> “Methoden der künstlichen Intelligenz und ihre Anwendung in der Erschließung von Textinhalten.“ Die Zukunft der Vergangenheit in der Gegenwart, Archive als Leuchtfeuer im Informtionszeitalter, edited by Elisabeth Schöggel-Ernst, Thomas Stockinger and Jakob Wührer, Wien, 2019, pp. 169-184.</bibl>
+                    <bibl><hi rend="bold">Marciano, R., et al.</hi> “Archival Records and Training in the Age of Big Data.” Re-Envisioning the MLS: Perspectives on the Future of Library and Information Science Education, vol. 44B, Emerald Publishing Limited, Bingley, 2018, pp. 179–99, 
+                        <ref target="https://doi.org/10/gndpbh">https://doi.org/10/gndpbh</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Moss, Michael, et al.</hi> “The Reconfiguration of the Archive as Data to Be Mined.” Archivaria, vol. 86, 2018, pp. 118–51, 
+                        <ref target="https://archivaria.ca/index.php/archivaria/article/view/13646">https://archivaria.ca/index.php/archivaria/article/view/13646</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Niu, Jinfang.</hi> “Linked Data for Archives” ARCHIVARIA, The Journal of the Association of Canadian Archivists, vol. 82, 2016, pp.83–110, 
+                        <ref target="https://archivaria.ca/index.php/archivaria/article/view/13582">https://archivaria.ca/index.php/archivaria/article/view/13582</ref>. 
+                    </bibl>
+                    <bibl><hi rend="bold">Nadeau, David, and Satoshi Sekine.</hi> “Linked Data for Archives.” ARCHIVARIA, The Journal of the Association of Canadian Archivists, vol. 82, 2016, pp. 83–0, 
+                        <ref target="https://archivaria.ca/index.php/archivaria/article/view/13582">https://archivaria.ca/index.php/archivaria/article/view/13582</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Schlagk, Particia.</hi> „Die datenschutzrechtlichen Privilegien von im öffentlichen Interesse liegenden Archivzwecken.“ Bachelorarbeit, Fachhochschule Potsdam 2019, 
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:kobv:525-24311">
+                            <hi rend="color(26517D)">urn:nbn:de:kobv:525-24311</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Stork, L.</hi> Knowledge Extraction from Archives of Natural History Collections. Leiden, July 2021, 
+                        <ref target="https://scholarlypublications.universiteitleiden.nl/handle/1887/3192382?solr_nav%5Bid%5D=dc5e9a7ed703338e5b78&amp;solr_nav%5Bpage%5D=0&amp;solr_nav%5Boffset%5D=0">https://scholarlypublications.universiteitleiden.nl/handle/1887/3192382?solr_nav%5Bid%5D=dc5e9a7ed703338e5b78&amp;solr_nav%5Bpage%5D=0&amp;solr_nav%5Boffset%5D=0</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">von dem Bussche, Ruth, and Meike Hopp.</hi> “Der ‚Bestand B323‘ als Knowledgegraph für die Provenienzforschung. Methodische Überlegungen zur Verarbeitung von Archivdaten als Linked Open Data.” Archivar, no. 1, 2022, 60-63, 
+                        <ref target="https://www.archive.nrw.de/sites/default/files/media/files/Archivar_2022-1_Internet-NEU-28032022_Mod.pdf">https://www.archive.nrw.de/sites/default/files/media/files/Archivar_2022-1_Internet-NEU-28032022_Mod.pdf</ref>. 
+                    </bibl>
+                    <bibl><hi rend="bold">von dem Bussche, Ruth, and Meike Hopp. </hi>“The Archive as a Graph – Provenance Research on Bundesarchiv B323” Graphs and Networks in the Humanities. Technologies, Models, Analyses, and Visualizations, 6th International Conference, 2022, 
+                        <ref target="https://graphentechnologien.hypotheses.org/files/2022/01/The_Archive_as_a_Graph_Provenance_Research_on_etc-Hopp.pdf">https://graphentechnologien.hypotheses.org/files/2022/01/The_Archive_as_a_Graph_Provenance_Research_on_etc-Hopp.pdf</ref>
+                        <hi rend="Hyperlink" xml:space="preserve"> </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

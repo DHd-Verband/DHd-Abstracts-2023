@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="ALTHAGE_Melanie_Digitale_Methoden_kritisch_reflektieren___Di" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Methoden kritisch reflektieren – Die Erweiterung des Werkzeugkastens der Historiker:innen</title>
+                <author>
+                    <persName>
+                        <surname>Althage</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                    <email>melanie.althage@hu-berlin.de</email>
+                    <idno type="ORCID">0000-0001-5233-1061</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T10:17:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital History</term>
+                    <term>Methodenkritik</term>
+                    <term>Topic Modeling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Daten</term>
+                    <term>Methoden</term>
+                    <term>Forschungsprozess</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Historiker:innen setzen sich zur Erforschung der Geschichte mit einer Vielzahl ganz unterschiedlicher Quellenarten auseinander. Um das historische Quellengut entsprechend der individuellen Fragestellungen angemessen und kritisch-reflektiert zu bearbeiten, wurden mit dem historischen Werkzeugkasten eine Reihe von Methoden etabliert, die dieser Vielfalt Rechnung tragen (Überblick: von Brandt 18. Aufl. 2012). Die konkreten Verfahren müssen dabei nicht spezifisch geschichtswissenschaftlich sein, sondern können zum Teil auch aus anderen Wissenschaften entstammen, etwa den Philologien oder Wirtschaftswissenschaften. Entscheidend für die Auswahl des jeweiligen methodischen Vorgehens ist die konkrete Fragestellung in Kombination mit dem Quellenkorpus sowie die Befolgung methodischer Grundsätze, die auf die Plausibilität der Darstellung historischer Wirklich- und Wahrscheinlichkeiten zielen. Insofern wir als Historiker:innen also abhängig von unseren Fragestellungen das Untersuchungsinstrumentarium immer neu bestimmen, ist die Kritik der jeweiligen Methodik unverzichtbar (Sellin 2008, 84-96). Sie zielt darauf, die der Methode impliziten Einschränkungen zu verdeutlichen und bewusst zu machen. Erst auf dieser Basis ist dann eine angemessene Interpretation der gewonnenen Ergebnisse möglich, die wiederum Grundlage historiographischer Erzählungen ist.</p>
+            <p style="text-align: left; ">Mit dem „digitalen Zeitalter“ und den Digital Humanities kamen vor allem seit den 2000er-Jahren durch die digitalen Methoden innovative Möglichkeiten zur Quellenlektüre und -auswertung für die Geschichtswissenschaften hinzu. Damit stehen nunmehr Werkzeuge zur Verfügung, die einerseits vormals analoge Tätigkeiten digital abbilden und unterstützen, wie Data Mining für die Historische Statistik, andererseits bieten quantitative Verfahren des Maschinellen Lernens wie etwa Topic Modeling mit ihrem explorativen Modellierungsansatz neuartige Ansätze, indem Texte als Daten verstanden und entsprechend flexibel skalierbar in Masse ausgewertet werden können. Für die Geschichtswissenschaften ist es entscheidend, sich mit den epistemologischen und methodologischen Konsequenzen dieser Digitalität in Bezug auf ihre Quellen und Methoden auseinanderzusetzen. Denn auch die digitalen Methoden wurden in anderen Disziplinen mit je eigenen theoretischen und methodologischen Annahmen respektive Erkenntnisinteressen entwickelt. Sie sind daher nicht ohne Weiteres auf historische Anwendungsfälle übertragbar. Um sie dennoch produktiv in den "Werkzeugkasten" der Historiker:innen zu integrieren, ist daher zunächst die "Kluft" zwischen historischer Fachdisziplin und fachfremder Methode zu identifizieren und durch geeignete Strategien zu überwinden. </p>
+            <p style="text-align: left; ">Diesem Anliegen widmet sich das diesem Poster zugrunde liegende Dissertationsprojekt “Mining the Historian’s Web – Methodenkritische Reflexion quantitativer Verfahren zur Analyse genuin digitaler Quellen am Beispiel der historischen Fachkommunikation”. Zwar wird in jüngerer Zeit zunehmend untersucht, welche Implikationen mit digitalen Methoden für die Arbeit mit historischen Quellen sowie für den Erkenntnisbildungsprozess einhergehen (u.a. Hiltmann et al. 2021; Fickers 2020; König 2017; Braake et al. 2016; Wettlaufer 2016), allerdings fehlt es weitestgehend noch an einer systematischen Werkzeug- und Methodenkritik, die den verantwortungsvollen Umgang mit digitalen Methoden in den Geschichtswissenschaften begleiten muss. In Anlehnung an Diskussionen rund um 
+                <hi rend="italic">Tool</hi>- und 
+                <hi rend="italic">Algorithmic Criticism</hi> (Es/Schäfer/Wieringa 2021; Dobson 2019; Ramsay 2011) ist es Ziel der Dissertation, diese Lücke zu schließen. Dazu werden vergleichend etablierte Methodenkomplexe zunächst theoretisch-konzeptionell unter Berücksichtigung ihrer Entwicklungsgeschichte erarbeitet und anhand exemplarischer historischer Fragestellungen praktisch angewendet. Anschließend werden vor dem Hintergrund der besonderen Charakteristika historischer Fragestellungen und Daten die Erkenntnispotenziale und -grenzen kritisch geprüft. Auf dieser Basis wird dann abstrahierend ein Kriterien- und Fragenkatalog für die methodenkritische Evaluation und Auswahl digitaler Methoden entwickelt sowie konkrete Anwendungsempfehlungen gegeben.
+            </p>
+            <p style="text-align: left; ">Das Poster wird erste anwendungsbezogene Erkenntnisse am Beispiel von Topic Modeling vorstellen. In den digitalen Geistes- und Geschichtswissenschaften ist die 2003 vorgestellte 
+                <hi rend="italic">Latent Dirichlet Allocation</hi> (LDA, Blei/Ng/Jordan 2003) hierfür am populärsten. Sie wird eingesetzt, um über die Identifikation statistisch signifikanter Sprachgebrauchsmuster in umfangreichen Textsammlungen beispielsweise die Entwicklung von Publikationstrends zu untersuchen (exemplarisch: Wehrheim 2019). Der frequente Einsatz von LDA scheint vor allem auf der hohen Verfügbarkeit zu basieren<ref n="1" target="ftn1"/> und weniger auf einer Evaluation der Eignung im Vergleich zu anderen Ansätzen. Für historische Fragestellungen etwa, die insbesondere die Temporalität und Kontextgebundenheit der Quellen fokussieren, weist LDA einige Limitierungen auf: Die Topic-Modellierung, deren vorrangiger Zweck die maschinelle Klassifikation umfangreicher und unstrukturierter Daten ist, berücksichtigt weder Relationen zwischen den Topics noch die Historizität der Daten. Diese im Algorithmus inhärenten Einschränkungen waren vielfach Anlass für technische Weiterentwicklungen (überblickshaft: Chauhan/Shah 2021; Vayansky/Kumar 2020); der Stand der Methodenentwicklung wird in den digitalen Geistes- und Geschichtswissenschaften allerdings bislang kaum rezipiert. Hier werden vor allem die grundsätzlichen Herausforderungen und Konsequenzen diskutiert, die mit LDA einhergehen und entsprechende Workflows zur nachhaltigen Integration in den Forschungsprozess vorgeschlagen (u.a. Hodel/Möbus/Serif 2022; Uglanova/Gius 2020; Maier et al. 2018; Fechner/Weiß 2017; Andorfer 2017). Da die Wahl des konkreten Modellierungsverfahrens aber darüber entscheidet, welche Aussagen sich über die sprachliche Struktur einer Dokumentensammlung treffen lassen, soll das Poster durch eine methodenkritische Bestandsaufnahme auch andere Topic-Modeling-Algorithmen für die historische Forschung präsentieren.
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     LDA ist in zahlreichen etablierten Programmbibliotheken und gebrauchsfertigen Werkzeugen implementiert, siehe etwa MALLET (
+                        <ref target="http://mallet.cs.umass.edu/topics.php">http://mallet.cs.umass.edu/topics.php</ref>), Gensim (
+                        <ref target="https://radimrehurek.com/gensim/">https://radimrehurek.com/gensim/</ref>) oder DARIAH-DE TopicsExplorer (
+                        <ref target="https://dariah-de.github.io/TopicsExplorer/">https://dariah-de.github.io/TopicsExplorer/</ref>).
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Andorfer, Peter</hi>. 2017. “Turing Test für das Topic Modeling. Von Menschen und Maschinen erstellte inhaltliche Analysen der Korrespondenz von Leo von Thun-Hohenstein im Vergleich.” 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> 2 10.17175/2017_002.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Braake, Serge ter, Antje Fokkens, Niels Ockeloen und Chantal van Son.</hi> 2016. “Digital History: Towards New Methodologies.” In 
+                        <hi rend="italic">Computational History and Data-Driven Humanities</hi>, hg. von Bojan Bozic, Gavin Mendel-Gleason, Christophe Debruyne und Declan O’Sullivan, 23–32. Cham: Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Brandt, Ahasver von.</hi> 2012. 
+                        <hi rend="italic">Werkzeug des Historikers. Eine Einführung in die historischen Hilfswissenschaften</hi>. Stuttgart: Kohlhammer 18. Aufl.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Blei, David M., Andrew Y. Ng und Michael I. Jordan.</hi> 2003. “Latent Dirichlet Allocation.” 
+                        <hi rend="italic" xml:space="preserve">Journal of Machine Learning Research </hi>3: 993–1022.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Chauhan, Uttam und Apurva Shah.</hi> 2021. “Topic Modeling Using Latent Dirichlet allocation: A Survey.” 
+                        <hi rend="italic">ACM Computing Surveys</hi> 54, 7 10.1145/3462478.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dobson, James E.</hi> 2019. 
+                        <hi rend="italic">Critical Digital Humanities. The Search for a Methodology</hi>. Urbana (Illinois): University of Illinois Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Es, Karin van, Mirko T. Schäfer und Maranke Wieringa.</hi> 2021. “Tool Criticism and the Computational Turn. A “Methodological Moment” in Media and Communication Studies.” 
+                        <hi rend="italic">Medien &amp; Kommunikationswissenschaft</hi> 69, 1: 46–64.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fechner, Martin und Andreas Weiß.</hi> 2017. “Einsatz von Topic Modeling in den Geschichtswissenschaften: Wissensbestände des 19. Jahrhunderts.” 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> 2 10.17175/2017_005.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fickers, Andreas.</hi> 2020. “Update für die Hermeneutik. Geschichtswissenschaft auf dem Weg zur digitalen Forensik?” 
+                        <hi rend="italic">Zeithistorische Forschungen/Studies in Contemporary History</hi> 17, 1: 157–168.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hiltmann, Torsten, Jan Keupp, Melanie Althage und Philipp Schneider.</hi> 2021. “Digital Methods in Practice. The Epistemological Implications of Applying Text Re-Use Analysis to the Bloody Accounts of the Conquest of Jerusalem (1099).” 
+                        <hi rend="italic">Geschichte und Gesellschaft</hi> 46, 1: 122–156 10.13109/gege.2021.47.1.122.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hodel, Tobias, Dennis Möbus und Ina Serif.</hi> 2022. “Von Inferenzen und Differenzen. Ein Vergleich von Topic-Modeling-Engines auf Grundlage historischer Korpora.” In 
+                        <hi rend="italic">Von Menschen und Maschinen: Mensch-Maschine-Interaktionen in digitalen Kulturen</hi>, hg. von Selin Gerlek, Sarah Kissler, Thorben Mämecke und Dennis Möbus, 181–205. Hagen: Hagen University Press. 10.57813/20220620-160005-0.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">König, Mareike.</hi> 2017. “Digitale Methoden in der Geschichtswissenschaft: Definitionen, Anwendungen, Herausforderungen.” 
+                        <hi rend="italic">BIOS – Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen</hi> 30, 1–2: 7–21. 
+                        <ref target="https://www.budrich-journals.de/index.php/bios/article/download/33241/28560">https://www.budrich-journals.de/index.php/bios/article/download/33241/28560</ref> (zugegriffen: 2. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Maier, Daniel, A. Waldherr, P. Miltner, G. Wiedemann, A. Niekler, A. Keinert, B. Pfetsch, G. Heyer, U. Reber, T. Häussler, H. Schmid-Petri und S. Adam.</hi> 2018. “Applying LDA Topic Modeling in Communication Research: Toward a Valid and Reliable Methodology.” 
+                        <hi rend="italic">Communication Methods and Measures</hi> 12, 2–3: 93–118 10.1080/19312458.2018.1430754.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ramsay, Stephen.</hi> 2011. 
+                        <hi rend="italic">Reading Machines. Toward an Algorithmic Criticism</hi>. Urbana (Illinois): University of Illinois Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sellin, Volker.</hi> 2008. 
+                        <hi rend="italic">Einführung in die Geschichtswissenschaft</hi>. Göttingen: Vandenhoeck &amp; Ruprecht 2. Aufl. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Uglanova, Inna und Evelyn Gius.</hi> 2020. “The Order of Things. A Study on Topic Modeling of Literary Texts.” 
+                        <hi rend="italic">CEUR Workshop Proceedings 2723</hi>: 57–76. 
+                        <ref target="http://ceur-ws.org/Vol-2723/long7.pdf">http://ceur-ws.org/Vol-2723/long7.pdf</ref> (zugegriffen: 2. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Vayansky, Ike und Sathish A. P. Kumar.</hi> 2020. “A review of topic modeling methods.” 
+                        <hi rend="italic">Information Systems</hi> 94 10.1016/j.is.2020.101582.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wehrheim, Lino.</hi> 2019. “Economic history goes digital: topic modeling the Journal of Economic History.” 
+                        <hi rend="italic">Cliometrica</hi> 13: 83–125.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wettlaufer, Jörg.</hi> 2016. “Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern.” 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> 1 10.17175/2016_011.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

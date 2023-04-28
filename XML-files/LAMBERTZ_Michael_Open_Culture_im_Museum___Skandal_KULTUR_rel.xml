@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="LAMBERTZ_Michael_Open_Culture_im_Museum___Skandal_KULTUR_rel" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Open Culture im Museum: „Skandal-KULTUR reloaded: Literarische Affären INTERAKTIV erkunden“ als digitales Ausstellungsexperiment</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bamberg</surname>
+                        <forename>Claudia</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Deutschland</affiliation>
+                    <email>bamberg@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lambertz</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Deutschland</affiliation>
+                    <email>lambertz@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Petkov</surname>
+                        <forename>Radoslav</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Deutschland</affiliation>
+                    <email>petkov@uni-trier.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T15:29:11.358000000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Open Culture</term>
+                    <term>virtuelles Museum</term>
+                    <term>Skandal</term>
+                    <term>Interaktion</term>
+                    <term>Partizipation</term>
+                    <term>kulturelle Bildung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Gestaltung</term>
+                    <term>Kommunikation</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                    <term>Visualisierung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__75abccpjl0qk"/>Zusammenfassung
+                </head>
+                <p>Die digitale Vermittlung von kulturellen Inhalten gewinnt für Museen und Gedenkstätten immer mehr an Bedeutung (u.a. Kohle 2021); sie hat durch die Pandemie, nicht zuletzt durch gesonderte Ausschreibungen etwa der Bundeskulturstiftung,<ref n="1" target="ftn1"/>
+                nochmals einen Aufschwung bekommen (Richard et al. 2022). Aber auch schon davor existierten Förderkonzepte, die ihren Fokus explizit auf experimentelle Formate digitaler Kulturvermittlung legten, so z.B. die Reihe „experimente#digital“ der Aventis Foundation, die gezielt experimentelle Digitalkonzepte in Museen fördert.
+                    <ref n="2" target="ftn2"/>
+                </p>
+                <p>Dabei geht es nicht nur darum, innovative Inszenierungen im Museum zu kreieren, sondern auch um die Entwicklung von Vermittlungsformen, die allein für den digitalen Raum bestimmt sind und sich auch abseits des analogen Museumsortes virtuell erfahren lassen – und die damit neue Möglichkeiten und Chancen sowohl der Aufbereitung als auch der Verbreitung von kulturellen und wissenschaftlichen Inhalten eröffnen (Franken-Wendelsdorf 2019). Die Frage nach ‚Open Culture‘ bildet dabei einen Dreh- und Angelpunkt: ist mit ihr im Museumskontext doch erstens ein freier und transparenter Zugriff auf die Daten sowie zweitens eine Usability gemeint, die verschiedene Zielgruppen adressiert. Drittens sollte es – zumindest im Idealfall – auch darum gehen, Open Culture als Sujet der virtuellen Inszenierung mitzureflektieren und neu zu verhandeln. </p>
+                <p>Wie dies umgesetzt werden kann, was hierbei zu beachten ist und wo die Herausforderungen liegen, möchte der geplante Vortrag am Beispiel des digitalen Museumsprojekts „Skandal-KULTUR reloaded – Literarische Affären INTERAKTIV erkunden“ vorstellen und zur Diskussion stellen. Das Projekt wurde am Freien Deutschen Hochstift – Frankfurter Goethe-Museum in Kooperation mit dem Trier Center for Digital Humanities durchgeführt und von der Aventis Foundation gefördert.<ref n="3" target="ftn3"/>
+                     Die inhaltliche und gestalterische Konzeption ist weitgehend abgeschlossen (s. Abbildung), die noch offenen Fragen der Umsetzung, die insbesondere das Thema „Interaktivität“ betreffen, möchte der Vortrag diskutieren. Die Plattform wird zur DHd 2023 freigeschaltet.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__8tq9udp36l63"/>Skandal und Open Culture
+                </head>
+                <p>Das Thema Skandal eignet sich für die Reflexion von Open Culture besonders. In Skandalen verdichten und konzentrieren sich Konflikte und Veränderungsprozesse einer Gesellschaft (z.B. im Umgang mit Minoritäten, Wertewandel etc.). Sie sind Indizien von offenen Gesellschaften und für deren Aushandlungsprozesse und Selbstverständnis unverzichtbar (Blasberg 2009). Anders gesagt: Dort, wo es keine Skandale gibt bzw. diese unterdrückt oder deren Auslöser:innen bestraft werden, kann es auch keine offenen Debatten geben – Modernisierungsprozesse bleiben notwendig aus. Dabei war und ist die Sensibilität für das, was als ‚Skandal‘ wahrgenommen und definiert wird, in von der Zensur betroffenen Gesellschaften meistens sehr hoch, in offenen Gesellschaften dagegen deutlich geringer.</p>
+                <p>Skandale gelten als zentrale Kommunikationsphänomene der Moderne: Sie vermessen das Spannungsfeld zwischen öffentlich Sagbarem und Unsagbarem, zwischen öffentlich Zeigbarem und Nicht-Zeigbarem stets neu und bewegen sich dabei auf der brisanten Grenze zwischen Herabwürdigung, Beschämung und Bloßstellung einerseits sowie satirischer Polemik und sprachlich-medialer Virtuosität andererseits (Friedrich 2011, Roßbach 2020). Neben kurzfristigen, heute allgegenwärtigen Medien‚skandalen‘, wie sie insbesondere in den Social Media mit allen fragwürdigen Grenzüberschreitungen (Hate Speech, Fake News etc.) inszeniert werden (Pörksen 2012), gibt es Skandale mit langfristiger Wirkung, die an gesellschaftlichen Grundfesten rütteln und die Grenzen des Sag- und Zeigbaren erweitern (Blasberg 2009).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__3cfaxescjykt"/>Skandal-KULTUR reloaded
+                </head>
+                <p>Der Rückblick auf historische Situationen kann somit Spiegel und Anstoß sein für eine vertiefende Auseinandersetzung mit auch heute noch brandaktuellen Themen und Problemen wie Ausgrenzung, Antisemitismus, Religions- und Moralfragen, neue Lebens- und Liebeskonzepte, Homophobie etc. Das digitale Museumsprojekt, das hier vorgestellt und in seiner Konzeption und Methodik zur Diskussion gestellt werden soll, widmet sich Literaturskandalen zwischen den beiden großen Revolutionen 1789 und 1848 (Gelz et al. 2014); dabei stehen die genannten Konflikte im Fokus, deren Themen bis heute von großer Aktualität sind: Um ‚verbotene‘ Liebe, Selbstmord und Jugendgefährdung wird in Goethes Briefroman „Die Leiden des jungen Werthers“ (1774) und den zeitgenössischen Reaktionen heftig gestritten. Einen Skandal um Fragen von Sexualität und Gender sowie von neuen, provokativen Ausdrucksmöglichkeiten in der Kunst entfachten Friedrich Schlegels romantischer Roman „Lucinde“ (1799) und die romantische Zeitschrift „Athenaeum“ (1798–1800). So konnte man z.B. in Friedrich Schlegels Roman „Lucinde“ die poetische Inszenierung des Rollentauschs von Mann und Frau beim Liebesspiel finden („
+                    <hi rend="background-color(#ffffff)">Eine unter allen [Situationen] ist die Witzigste und die Schönste: wenn wir die Rollen vertauschen und mit kindischer Lust wetteifern, wer den andern täuschender nachäffen kann, ob dir die schonende Heftigkeit des Mannes besser gelingt, oder mir die anziehende Hingebung des Weibes [...]</hi>“, Schlegel 2020, S. 19), und im 272. Athenaeumsfragment heißt es: „
+                    <hi rend="background-color(#ffffff)">Warum sollte es nicht auch unmoralische Menschen geben dürfen, so gut wie unphilosophische und unpoetische? Nur antipolitische oder unrechtliche Menschen können nicht geduldet werden</hi>“ – beides war für die Zeitgenossen eine unerhörte Provokation. Am Skandal um Karl Sessas Posse „Unser Verkehr“ (1812/1815) lassen sich antisemitische Angriffe bis hin zu den pogromartigen sog. „Hepp-Hepp-Krawallen“ (1819) verfolgen. Die Affäre um Heinrich Heines Judentum und Graf August von Platens Homosexualität (1826–1830) eignet sich für Analysen rhetorischer Strategien zur Ausgrenzung von Minoritäten. Schließlich ist ein Religionsskandal Thema: Karl Gutzkows Roman „Wally, die Zweiflerin“ (1835) wurde als heftiger Angriff auf Moral und Religion gewertet – der Autor musste sogar ins Gefängnis.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__580bziaexgoa"/>Konzeption
+                </head>
+                <p>Das Hauptziel der digitalen Wissensvermittlung im rein virtuellen Museum war es, die Skandale für ein breites Publikum möglichst verständlich und real zu machen, ohne dabei den wissenschaftlichen Fokus zu verlieren. Das umfasst zum einen die Themen der Skandale, die Akteure und den historischen Kontext, aber auch die Form der Kommunikation.</p>
+                <p>Die Akteure der Skandale, die im Projekt thematisiert werden – insbesondere die Frühromantiker:innen – galten bereits als Medienvirtuosen, die die Spielarten des Druckmediums voll ausreizten (z.B. im Billet und der Anzeige) und gegen ihre literarischen Gegner, insbesondere die ältere Generation, einsetzten (vgl. Oesterle 2017). Zugleich sind die von ihnen skandalisierten Themen damals wie heute aktuell, so dass es in der Konzeption des Projekts eine Zielsetzung war, ein gemischtes Publikum für ihre Aktualität zu sensibilisieren und diese erlebbar zu machen. Um das Erleben kreativ und innovativ zu gestalten, bieten sich zwei grundsätzlich Alternativen einer stilistisch tonalen Umsetzung an, sowohl vom Design her als auch von der User Experience insgesamt. Einerseits besteht die Möglichkeit, durch das Gestalten einer historisch anmutenden Umgebung eine Atmosphäre zu schaffen, ähnlich wie sie damals herrschte. Eine zweite Möglichkeit, das Szenariums in die heutige Zeit mit heutigen Formen der Medialität zu übertragen, erschien dem Projektteam reizvoller, weil dadurch die Parallelen zur Skandalkultur heute sehr deutlich werden können. Ein wesentlicher Unterschied zwischen damals und heute ist der Faktor Zeit und Beschleunigung medialer Kommunikation. Während früher zwischen den Botschaften der Parteien und der Gegenrede Tage, Wochen oder gar Monate vergingen, sind es heute oft nur noch wenige Minuten (s. zur Entwicklung der Massenmedien und zum zunehmenden Tempo der Kommunikation Jäckel 2011). Gleichwohl waren die Texte des Disputs nicht weniger emotional aufgeladen und impulsiv, wie es heute der Fall ist, was zusätzlich für eine Umsetzung der Plattform in heutigem Stil spricht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__s1zyhgi960eq"/>Technische Umsetzung
+                </head>
+                <p>Die Datenerfassung wurde mit der virtuellen Forschungsumgebung „Forschungsnetzwerk und Datenbanksystem“ FuD (
+                    <ref target="https://fud.uni-trier.de/">
+                        <hi rend="color(#800080)underline">https://fud.uni-trier.de</hi>
+                    </ref>) umgesetzt. Die Datenstruktur ist auf die konkreten Anforderungen des Projektes angelegt: Skandale als zentrale Objekte sind verknüpft mit zugehörigen Ereignissen, diese wiederum mit Akteuren, welche wiederum mit Personen bzw. Körperschaften verlinkt sind, die ihrerseits verschiedenen Skandalparteien angehören. Insbesondere werden eine Reihe an Informationen wie Quellen, Orte, Bilder etc. zu den jeweiligen Objekttypen erhoben. Das Modell wird in die FuD-Logik überführt und in einer relationalen Datenbank abgebildet. Durch die Flexibilität von FuD und das agile Datenmodell, das wir definiert haben (siehe Abbildung), sind wir in der Lage, jederzeit in dessen Komplexität einzugreifen und individuelle Anpassungen bzw. Erweiterungen vorzunehmen.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/96be6e10023663393a248ad9af489d30.png"/>
+                        <head>Datenmodell</head>
+                    </figure>
+                </p>
+                <p>Während das Design (Details s.u.) keineswegs typisch ist, sind die Ansichten der Weboberfläche eher konventionell aufgebaut. Bei der Online-Präsentation greifen wir auf bereits am TCDH etablierte Strukturen und Prozesse zurück und setzen auf neue, moderne und nachhaltige Technologien. Dabei bauen wir auf unsere Expertise aus der Arbeit mit Elasticsearch (
+                    <ref target="https://www.elastic.co/">https://www.elastic.co</ref>), NodeJS (
+                    <ref target="https://expressjs.com/">https://expressjs.com</ref>), PHP (
+                    <ref target="https://www.php.net/">https://www.php.net</ref>), Angular (
+                    <ref target="https://angular.io/">https://angular.io</ref>) und setzen auf JSON (
+                    <ref target="https://www.json.org/">https://www.json.org</ref>) als Austauschformat.
+                </p>
+                <p>Nachdem die Daten in der Forschungsumgebung erfasst und freigegeben sind, werden diese in deren logische Einheiten exportiert, in das vordefinierte JSON Objekt Modell überführt und in Elasticsearch importiert. Die Weboberfläche wird modular, generisch und projektspezifisch mit dem Front-End-Framework Angular umgesetzt. Der Einsatz von Angular gibt uns die Möglichkeit, auf bereits gut erprobte Methoden zu setzen. </p>
+                <p>Als Verbindungsgrundbaustein zwischen Front-End und Elasticsearch setzen wir einen NodeJS Express Server als Open API ein, mithilfe dessen über vordefinierte Suchanfragen die RESTful API von Elasticsearch abgefragt wird (siehe Abbildung).</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/fdc75d1c699a522e12bc1cc1f104b77f.png"/>
+                        <head>Infrastruktur</head>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__971uo8mev7jh"/>UX, Usability und Design
+                </head>
+                <p>Bezüglich der Usability gelten auf der Plattform alle Regeln, die es auch sonst beim Aufbau einer Webapplikation zu beachten gilt. Seitenbesucher:inner sollen sich schnell zurechtfinden und in Bezug auf ihre Navigationsgewohnheiten nicht gestört werden. Es wurde auf bekannte Gestaltungsregeln und -merkmale zurückgegriffen und es wurden keine exotischen oder gar neu erfundenen Gestaltungselemente genutzt (zu grundlegenden Usabilitygrundsätzen vgl. Jacobsen et al. 2019).</p>
+                <p>Hinsichtlich der User Experience hingegen wurde versucht, bestimmte für gewöhnlich erwünschte emotionale Reaktionen von v.a. wissenschaftlich traditionell geprägten Nutzer:inner bewusst nicht zu erfüllen. Im Gegenteil sollen diese eine gewisse Irritation in Bezug auf die ästhetische Ansprache der gesamten Applikation erfahren.<ref n="4" target="ftn4"/>
+                    Das ist notwendig, damit im Anschluss ein Reflexionsprozess in Gang gesetzt werden kann. Zum einen darüber, wie eine Variante dieses Schlagabtauschs in der heutigen Zeit mit den heutigen Medien ausgetragen werden könnte, zum anderen darüber, was heute in den (sozialen) Medien tagtäglich passiert und sich ebenso zu Skandalen steigern kann. Der Zielgruppe junger Menschen wird die Ästhetik vertrauter sein, wobei sich auch hier spätestens beim genaueren Lesen eine gewisse Diskrepanz 
+                    <hi rend="background-color(#ffffff)">zwischen Sprache, Sprachduktus und bestimmten Inhalten auf der einen und dem Darstellungsstil auf der anderen Seite zeigt</hi>.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/107db7d36e8962d33d211d20109c0b67.png"/>
+                        <head>Auszug aus einem Skandalverlauf</head>
+                    </figure>
+                </p>
+                <p>Die ästhetische Ansprache besteht hauptsächlich im Design und der grafischen Aufmachung der Seite. In allen Belangen wurden diese in Anlehnung an sensationsgierige Newsseiten, wie man sie etwa in der Boulevardpresse oder Yellow Press findet, sowie an Social-Media-Seiten gestaltet: Hierzu gehören eine schrille Farbgebung, übertrieben große fette Lettern, YouTube-Videos, Personendarstellungen in Form von Avatarbildchen, Ereignisse als Posts, ausgeschmückt mit vielen Emoticons usw. All dies soll auf heutige skandalträchtige Onlinemedien hinweisen. Inhaltlich wurde gleichfalls versucht, das Wortgefecht auf die Spitze zu treiben. Dafür haben die Mitarbeiter:innen des Projektes verbal drastische Zitate für die Überschriften und Textausschnitte der Skandalereignisse ausgewählt und als Schlagzeilen formuliert. Über Emoticons
+                    <ref n="5" target="ftn5"/>
+                    sollen die Stimmung des Beitrages sowie die emotionale Verfassung der Skandalakteure verdeutlicht werden.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/e901cd2ca6b4f6a54af0f9fccb5d0c33.png"/>
+                        <head>Startseite von „Skandal-KULTUR reloaded“</head>
+                    </figure>
+                </p>
+                <p>Vom Seitenaufbau her gibt es neben der Startseite eine Überblickseite der Skandale. Von dort aus gelangt man zur Einzelansicht des gewählten Skandals, die das Thema erläutert und die Skandalparteien mit den zugehörigen Akteuren sowie weiterführende Quellen auflistet. Diese Seite entspricht vom Design her einer Newsseite in einer Boulevard-Onlinezeitung. Von dort aus kann man dann über einen (unübersehbar großen) Button zum Skandalverlauf navigieren. Hier sind ähnlich einer vertikalen Infinite-Scroll<ref n="6" target="ftn6"/>
+                    Zeitleiste links und rechts die jeweiligen Beiträge (und Reaktionen) mit Akteuren, O-Ton und Kommentierung in chronologischer Reihenfolge gelistet. Zudem gibt es zu jeder Akteurin / jedem Akteur einen Steckbrief, der sich öffnet, sobald man den Avatar anklickt. Ferner präsentiert eine Seite alle Akteure mit den zugehörigen Skandalen. Eine zusätzliche Seite präsentiert darüber hinaus über YouTube eingebettete Videos, die im Rahmen eines Praxisseminars an der Goethe-Universität Frankfurt entstanden sind und in denen Studierende die historischen Skandale aktualisiert haben. Die Videos bieten gegenüber dem systematischen Einstieg der Skandalübersichtsseite einen thematisch emotional motivierten Zugang zum Skandal, zu dem man über einen Link navigieren kann.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__9dhkxvnw4ajg"/>Brisanz der Themen und Risiken der Interaktivität
+                </head>
+                <p>Die Gegenstände der historischen Skandale haben nicht im Geringsten an Aktualität und Brisanz verloren. Die gefährlichen Konsequenzen von systematischer ‚Hate Speech‘ und von ‚Fake News‘ als absichtlich emotionalisierende Formen der (unwahren) Kommunikation sind insbesondere bei öffentlicher antisemitischer Hassrede, aber auch homophober Hate Speech unumstritten. Bei der Darstellung dieser Themen in einem Museumskontext, bei dem es um einen neuen, aktualisierenden Blick auf historische Ereignisse geht, besteht indessen immer die Gefahr, auf der Ebene der Präsentation gesellschaftliche und persönliche Toleranzschwellen zu übertreten und die Distanzierung von den Inhalten zu schwach zu markieren – zumal wenn man sich im Design der Social Media bewegt – und dann auch selbst in der Kritik zu stehen.</p>
+                <p>Darum bedarf es hierfür eines wohl durchdachten und kritisch geprüften Konzepts. Das gilt auch für das Anliegen von „Skandal-KULTUR reloaded“, bei dem nach der Fertigstellung des Grundkonzepts nun auch eine interaktive Erkundung der thematisierten Literaturskandale entwickelt wurde. Die Nutzer:innen können sich beispielsweise Personensteckbriefe anschauen oder Ereignisse im zeitlichen Verlauf in den Fokus nehmen. Das Kommunikationsmodell ist dabei in historischer Betrachtung wechselseitig (zwischen den Skandalparteien) und es ist für uns von außen beobachtbar. Jedoch wird es den Besucher:innen der virtuellen Ausstellung nicht ermöglicht, auf der Plattform sozial zu interagieren, sie können sich also nicht in das Skandalgeschehen einmischen. Die Inhalte und somit der Zustand der Applikation erfahren keine Veränderung im Nachhinein, wie dies bei offenen sozialen Medien der Fall wäre.</p>
+                <p>Im Kontext von Social Media könnte dies zwar sehr spannende (und spannungserzeugende) Wirkungen zeigen. Man stelle sich vor, die/der Besucher:in könnte im Ereignisverlauf die Beiträge liken oder disliken, teilen sowie diese und ganze Skandale kommentieren. Andere würden diese Kommentare up- und downvoten, und es könnten durch algorithmische Auswertungen interessen- und meinungsbezogene Netzwerke (Stichwort Filterblase, vgl. u.a. Pariser 2011) und Hierarchien der Museumsbesucher:innen entstehen. Indem man sich beispielsweise über Google, Facebook oder E-Mail registriert, könnte man mit anderen (ähnlich gesinnten) Nutzer:innen und den Akteuren in Kontakt kommen und so Follower finden – die Möglichkeiten sind vielseitig.<ref n="7" target="ftn7"/>
+                    Bei einer solchen Erweiterung stünde jedoch neben rechtlichen Gründen und Regelungen im Internet der Aufwand der Moderation und nachhaltigen Pflege in keinem Verhältnis zum Umfang des Projektes. Auf inhaltlicher Ebene würde solch ein digitales historisches Social-Media-Museum mit ziemlicher Sicherheit einen Skandal in den realen heutigen Medien auslösen.
+                </p>
+                <p>Dennoch bleibt die Idee des digitalen Museums mit mehr sozialer Interaktion der Besucher:innen. So möchte der Vortrag nach einer Präsentation des Projekts danach fragen, wie interaktiv solche Unternehmen sein sollten, wo die inhaltlichen und gestalterischen Grenzen der medialen Aktualisierung liegen und welche Strategien für eine ‚kontrollierte‘ Interaktivität entwickelt werden können. ‚Open Culture‘ im Kontext des Ausstellungsmachens bedeutet immer auch, solche Fragen offen auszutragen, um Szenographien zu entwickeln, die möglichst viele Besucher:innen erreichen und dabei zugleich das Wertesystem einer offenen Kultur achten.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">So ist etwa die Ausschreibung „dive in – Programm für digitale Interaktionen“ im Rahmen der Pandemie entstanden, s. <ref target="https://www.kulturstiftung-des-bundes.de/de/projekte/erbe_und_vermittlung/detail/dive_in_programm_fuer_digitale_interaktionen.html">https://www.kulturstiftung-des-bundes.de/de/projekte/erbe_und_vermittlung/detail/dive_in_programm_fuer_digitale_interaktionen.html</ref>.
+                        </note>
+
+<note xml:id="ftn2" rend="footnote text" n="2">Vgl. 
+    <ref target="https://www.aventis-foundation.org/kultur/experimentedigital/">https://www.aventis-foundation.org/kultur/experimentedigital/</ref>
+                        </note>
+
+<note xml:id="ftn3" rend="footnote text" n="3">Projekthomepage: 
+    <ref target="https://tcdh.uni-trier.de/de/projekt/skandal-kultur-reloaded">https://tcdh.uni-trier.de/de/projekt/skandal-kultur-reloaded</ref>
+                        </note>
+
+<note xml:id="ftn4" rend="footnote text" n="4">Diese Irritation ist nicht zu verwechseln mit der durch unerwartetes Seitenverhalten (Usability).</note>
+
+<note xml:id="ftn5" rend="footnote text" n="5">Um als ‚Social Media‘ wahrgenommen zu werden, muss in gewissem Maße nach dessen Regeln gespielt werden. Die Auswahl der Emoticons wird somit nötig, auch wenn sie sich nicht in den historischen Medien befinden. Sie wurden auf der Grundlage einer Auswertung der Quellen hinzugefügt, wobei die Bestimmung des emotionalen Erregtheitslevels der Autoren natürlich immer eine subjektive Beurteilung aus heutiger Sicht bleibt.</note>
+
+<note xml:id="ftn6" rend="footnote text" n="6">Der Infinite-Scroll Mechanismus entspricht einer Art Endlosschleife im Design. Es muss vom User keine bewusste Entscheidung getroffen werden, um weitere Inhalte zu laden. Üblicherweise wird dies in Social-Media-Apps benutzt, was „eine längere Verweildauer bedeutet, dass mehr Werbung betrachtet wird“ (Yablonski 2020, 100). Diese Ähnlichkeit an gewohnte Mechanismen ist eine Entscheidung des Designkonzepts, da sie bei der Benutzung das Gefühl unterstützt, sich in entsprechendem Medium zu befinden.</note>
+
+<note xml:id="ftn7" rend="footnote text" n="7">Eine interessante Übersicht und kritische Auseinandersetzung von UX-Design-Möglichkeiten, wie sie heute in Apps umgesetzt werden, um letztlich finanziellen Gewinn zu generieren, wie deren psychologisch Funktionsweise ist und welche Risiken sie bergen, findet man bei Yablonski 2020: 97-109.</note></div>
+
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blasberg, Cornelia.</hi> 2009. „Skandal. Politische Pragmatik, rhetorische Inszenierung und poetische Ambiguität.“ In 
+                        <hi rend="italic">Amphibolie – Ambiguität – Ambivalenz</hi>, 269-290. Würzburg: Königshausen und Neumann.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Coquelin, Mathieu und Stephan Ruhmannseder.</hi> 2019. „Wir gegen die anderen? Zum Umgang mit Hate Speech in Zeiten von Fake News und Verschwörungsideologien.“ In 
+                        <hi rend="italic">Mythen, Ideologien, und Theorien. Verschwörungsglaube in Zeiten von Social Media</hi>, hg. von der Landesarbeitsgemeinschaft Mobile Jugendarbeit/Streetwork Baden-Württemberg e. V./Jugendstiftung Baden-Württemberg, 21
+                        <hi rend="italic">-</hi>31. Vaihingen an der Enz: Printmedien Karl-Heinz Sprenger.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Franken-Wendelsdorf, Regina.</hi> 2019. 
+                        <hi rend="italic">Das erweiterte Museum. Medien, Technologie und Internet</hi>. Berlin / Boston: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Friedrich, Hans-Edwin, Hg.</hi> 2011. 
+                        <hi rend="italic">Literaturskandale</hi>. Frankfurt am Main: Peter Lang.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gelz, Andreas, Dietmar Hüser und Sabine Ruß-Sattar, Hg.</hi> 2014. 
+                        <hi rend="italic">Skandale zwischen Moderne und Postmoderne. Interdisziplinäre Perspektiven auf Formen gesellschaftlicher Transgression</hi>. Berlin: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ilbrig, Cornelia.</hi> 2018-2020. „Die Geburt der Frühromantik aus dem Geiste des Skandals.“ In 
+                        <hi rend="italic">Internationales Jahrbuch der Bettine-von-Arnim-Gesellschaft. Forum für die Erforschung von Romantik und Vormärz</hi>: 131-158.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jäckel, Michael.</hi> 2011. „Die Entwicklung der (Massen-)Medien.“ In 
+                        <hi rend="italic">Medienwirkungen</hi>, 33-60. Wiesbaden: VS Verlag für Sozialwissenschaften.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jacobsen, Jens und Lorena Meyer.</hi> 2019. 
+                        <hi rend="italic">Praxisbuch Usability &amp; UX: was jeder wissen sollte, der Websites und Apps entwickelt.</hi> Bonn: Rheinwerk Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kohle, Hubertus.</hi> 2019. „Museen digital. Eine Modernisierungsperspektive für Gedächtnisinstitutionen.“ In 
+                        <hi rend="italic">Zeitschrift für Wissenschaft und Kunst in Bayern</hi> 3: 36-37.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krug, Steve.</hi> 2014. 
+                        <hi rend="italic">Don't make me think! : web &amp; mobile usability – das intuitive Web.</hi> Frechen: Mitp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Oesterle, Günter.</hi> 2017. „Romantische Satire und August Wilhelm Schlegels satirische Virtuosität.“ In 
+                        <hi rend="italic">Aufbruch ins romantische Universum: August Wilhelm Schlegel</hi>, hg. von Claudia Bamberg und Cormelia Ilbrig, 70-82. Göttingen: Göttinger Verlag der Kunst.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pariser, Eli.</hi> 2011. 
+                        <hi rend="italic">The Filter Bubble: What the Internet Is Hiding from You.</hi> New York: Penguin Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pörksen, Bernhard.</hi> 2012. 
+                        <hi rend="italic">Der entfesselte Skandal. Das Ende der Kontrolle im digitalen Zeitalter</hi>. Köln: Halem.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Richard, Birgit, Jana Müller und Niklas von Reischach, Niklas, Hg.</hi> 2022. 
+                        <hi rend="italic">Interaktion – Emotion – Desinfektion. Kunst und Museum in Zeiten von Corona</hi>. Frankfurt am Main: Campus Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Roßbach, Regina.</hi> 2020. 
+                        <hi rend="italic">Der Literaturskandal. Akteure, Verläufe und Gegenstände eines Kommunikationsphänomens</hi>. Berlin: Frank &amp; Timme.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schlegel, Friedrich.</hi> 2020. 
+                        <hi rend="italic">Lucinde. Studienausgabe</hi>, hg. von Stefan Knödler. Stuttgart: Reclam.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Yablonski, Jon.</hi> 2020. 
+                        <hi rend="italic">Laws of UX. 10 praktische Grundprinzipien für intuitives, menschenzentriertes UX-Design</hi>. Heidelberg: O'Reilly.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

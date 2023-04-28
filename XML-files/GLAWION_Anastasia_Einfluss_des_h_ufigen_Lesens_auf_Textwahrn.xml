@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GLAWION_Anastasia_Einfluss_des_h_ufigen_Lesens_auf_Textwahrn" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Einfluss des häufigen Lesens auf Textwahrnehmung: Ergebnisse eines Leseexperiments</title>
+                <author>
+                    <persName>
+                        <surname>Glawion</surname>
+                        <forename>Anastasia</forename>
+                    </persName>
+                    <affiliation>TU Darmstadt, Deutschland</affiliation>
+                    <email>anastasia.glawion@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0001-6140-1826</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Weitin</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>TU Darmstadt, Deutschland</affiliation>
+                    <email>thomas.weitin@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-9003-5746</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-09T14:47:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Literaturrezeption</term>
+                    <term>Leser:innenforschung</term>
+                    <term>Emotion</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Literatur</term>
+                    <term>Personen</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>In dem Vortrag werden Ergebnisse eines Leseexperiments vorgestellt, welches unter anderem darauf abzielte, die Lücke zwischen psychologisch orientierten Lesereaktionsstudien und literaturwissenschaftlich fundierten Rezeptionsstudien (Kavanagh, 2021) zu schließen. Die Stimuli umfassten Passagen aus der beliebten "Harry Potter"-Buchreihe in deutscher Sprache sowie Auszügen aus „Harry Potter“-Fanfictions. In dem Experiment sollten folgende Forschungsfragen beantwortet werden: </p>
+<list type="ordered">
+                <item>Wie beeinflusst der emotionale Gehalt der Texte die Reaktion der Lesenden? </item>
+                <item>Welche Wirkung hat der Hintergrund der Lesenden: gibt es Unterschiede in der Wahrnehmung, die durch Leseerfahrung und Fandom-Affinität bedingt sind? </item>
+            </list>
+            <p>In der Studie wurde eine Reihe von Messmethoden verwendet, darunter die Messung der Augenbewegungen (inklusive der Pupillengröße) und des Hautleitwerts (GSR) der Teilnehmer:innen. Diese beiden Messmethoden werden am häufigsten als Marker von emotionaler Reaktion in Betracht gezogen. </p>
+            <p>Die Originaltexte unter den Stimuli umfassten 40 “neutrale” Texte, 40 Texte, die als “furchteinflößend”, und 40 Texte, die als "fröhlich" gekennzeichnet waren (s. Tabelle 1). Diese Textstellen sowie ihre Sentimentmarkierungen wurden aus einer früheren Lesestudie von Hsu (2015) übernommen. Die Liste der Stimuli wurde um Fanfiction-Texte erweitert, die zuvor von 82 Fanfiction-Leser:innen in einer Umfrage ausgewählt wurden, weil sie besonders starke Emotionen bei ihnen ausgelöst hatten. </p>
+
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Stimulus</cell>
+                        <cell style="text-align: left;">Sentiment</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Als Hagrid Harrys Gesicht sah, strahlte er, ohne die verdutzten Blicke der vorübergehenden Muggel zu bemerken. "Harry!" dröhnte er, und kaum war Harry aus dem Wagen gestiegen, schloss Hagrid ihn auch schon in eine knochenbrechende Umarmung.</cell>
+                        <cell style="text-align: left;">Fröhlich</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Das Wetter draußen vor den Zugfenstern war so durchwachsen, wie es den ganzen Sommer über gewesen war; sie fuhren streckenweise durch kalten Nebel, dann wieder in schwaches klares Sonnenlicht.</cell>
+                        <cell style="text-align: left;">Neutral</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Mindestens hundert Dementoren, die vermummten Gesichter ihm zugewandt, standen dort unter ihm. Es war, als würde eiskaltes Wasser in seiner Brust aufsteigen und ihm die Eingeweide abtöten. Und dann hörte er es wieder... Jemand schrie, schrie im Innern seines Kopfes... eine Frau.</cell>
+                        <cell style="text-align: left;">Furchteinflößend</cell>
+                    </row>
+                
+                <head>Tabelle 1.</head></table>
+
+            <p>Die vielseitige Auswahl der Stimuli in der Studie von Hsu deckte unterschiedliche Aspekte auf, die mit Wirkung von Literatur verbunden sind. Einer davon war für unsere Analysen besonders anregend: es wurde ein Zusammenhang zwischen Immersion und emotionalen Inhalten, "especially negative, arousing and suspenseful ones" (Hsu, Conrad, Jacobs 2014; 1359) festgestellt. Daher interessierten wir uns zunächst dafür, ob die gemessenen Indikatoren für Erregung, Pupillengröße und Hautleitwert (Bradley et al. 2008) vergleichbare Ergebnisse wie andere Studien zur Fiction-Feeling-Hypothese aufzeigen, z. B. dass als "furchteinflößend" markierte Passagen stärkere Reaktionen hervorrufen als diejenigen, die das Label "fröhlich" oder "neutral" tragen (Hsu, Conrad, Jacobs 2014, Eekhof et al. 2021). Diese Reaktion würde in der Klassifikation der Leseemotionen von Miall und Kuiken (2002) in den Bereich der “narrative feelings” fallen, also Gefühlen, die gegenüber literarischen Figuren entwickelt werden bzw. auf eine Resonanz mit der Stimmung und dem Schauplatz eines literarischen Textes hindeuten. Von dieser Art der Emotionen erwartet man, dass sie den Emotionsgehalt des Textes “spiegeln” (Miall, Kuiken, 2002; 224). Dies ist das erste Experiment in einer Reihe von geplanten Studien am LitLab der TU Darmstadt, die als Ziel die Erforschung des Zusammenhangs zwischen Textsentiment und empirischen Untersuchungen von Leseprozessen haben. </p>
+            <p>Insgesamt haben im Rahmen des aktuellen Experiments 40 deutsche Muttersprachler:innen 150 Textpassagen gelesen (120 Originale, 15 Fanfictions und 15 Badfictions). Anschließend füllten die Teilnehmer:innen einen Fragebogen aus. Entgegen der Vorläuferstudie, wurden keine Fragen zur Immersion gestellt: Die Stimuli waren recht kurz (40-50 Wörter) und wurden in einer zufälligen Reihenfolge präsentiert, was die Immersion behindern würde. Wir erwarteten, dass andere Faktoren das Leseverhalten beeinflussen würden und befragten die 40 Teilnehmer auf drei verschiedene Arten zu ihren Lesegewohnheiten. Da bereits in Experimenten zur Verbindung zwischen Lesen und Theory of Mind die Unterteilung in Gruppen nach Leseerfahrung signifikante Unterschieden aufgedeckt hat (Kidd und Castano 2013, Panero et al., 2016), wollten wir den Einfluss auch bei der emotionalen Reaktion überprüfen.</p>
+            <p>Zunächst wurden Lesegewohnheiten der Teilnehmer:innen mit Hilfe des Reading Habits Questionnaire (Kuijpers et al., 2020) erfasst. Der Fragebogen nimmt die selbst angegebene Lesemenge im Laufe des letzten Jahres auf. Obwohl der Fragebogen vielseitig in seinen Auswertungsmöglichkeiten ist, kann er als Selbstauskunft nur bedingt als zuverlässig eingestuft werden. Intensive Lesephasen und Mehrfachnennungen sind hierbei nur schwer erfassbar. Für die Auswertung wurden Angaben über unterschiedliche Genres summiert und drei fast gleich große Gruppen gebildet: die Teilnehmenden wurden in Vielleser:innen (13 Teilnehmer, Summe der Punktzahlen: 24-80), Durchschnittsleser:innen (13 Teilnehmer, Summe der Punktzahlen: 13-22) und Selten-Leser:innen (14 Teilnehmer, Summe der Punktzahlen: 4-11) eingeteilt.</p>
+            <p>Außerdem haben Proband:innen die deutsche Version des Tests zur Autorenerkennung ausgefüllt (Grolig et al. 2020), ein bewährte Methode um die Kenntnis des Literatursystems oder die langfristige Auseinandersetzung mit Literatur zu erfassen (Panero et al. 2016; Stanovich et al. 1989). Auch hier teilten wir die Proband:innen in drei Gruppen auf: Literaturkenner:innen (14, erkannten 13-38 Autoren richtig), Literatureinsteiger:innen (12, erkannten 1-6 Autoren richtig) und Mittelfeld (14, erkannten 7-12 Autoren richtig). Wie erwartet, gab es einige Überschneidungen zwischen den Gruppierungen, doch die Rangkorrelation zwischen den beiden Angaben war schwach (tau = 0,21).</p>
+            <p>Der dritte Bereich, den wir in Hsus Originalexperiment als nicht ausreichend untersucht betrachteten, war die Einbeziehung des Fandom-Wissens: es wird lediglich erwähnt, dass alle Proband:innen mindestens ein Buch aus der „Harry Potter“-Reihe gelesen haben. Der Fragebogen der aktuellen Studie enthielt zwei Fragen zum Wissen über das Harry-Potter-Fandom, differenziert nach Filmen und Büchern. Wir erwarteten, dass Fans stärker auf die präsentierten Stimuli reagieren würden. Ein Wert von 0 stand für Teilnehmer, die keines der Bücher gelesen und keinen der Filme gesehen haben, während 5 bedeuten würde, dass alle Filme, alle Bücher und zusätzliches Material gelesen wurden. Insgesamt wurden Teilnehmer mit einer Punktzahl von 4 und 5 der Gruppe "Fans" (17) zugeordnet, Teilnehmer mit einer Punktzahl von 0 und 1 galten als "Nicht-Fans" (10) und Teilnehmer mit einer Punktzahl von 2 und 3 wurden dem "Fandom-Mittelfeld" (13) zugerechnet. Die Rangkorrelation zwischen dem Context Score und den beiden anderen Gruppeneinteilungen ist ebenfalls schwach (tau = 0,26 mit den Autorenerkennungsergebnissen; tau = 0,35 mit der selbstberichteten Lesehäufigkeit).</p>
+            <div type="div2" rend="DH-Heading2">
+            <head>Datenanalyse</head>
+            <p>Die Hautleitwertdaten wurden mit Brainvision Recorder aufgenommen und mit Hilfe von Ledalab (Benedek 2010) analysiert und exportiert. Ledalab ist eine Software, die die Segmentierung von Hautleitwertdaten sowie eine automatische Ermittlung von Hautleitwertreaktionen durchführt. Dafür werden zwei unterschiedlichen Methoden verwendet: die TTP-Analyse (trough-to-peak), die auf vorgegebenen zeitlichen Kriterien basiert (Bouscein et al. 2012), und die CDA (continuous decomposition analysis), die das Signal zunächst in seine kontinuierlichen (tonischen) und stimulusbezogenen (phasischen) Komponenten unterteilt und dann mit Hilfe eines 
+                <hi rend="ilfuvd">Algorithmus</hi> die Reaktionen identifiziert (für eine genaue Beschreibung und Auswertung der Methoden s. Kuhn et al. 2022). Anschließend wird eine Reihe von Statistiken ausgegeben: die Summe der Amplituden der signifikanten Hautleitwertreaktionen, der durchschnittliche stimulusbezogene Hautleitwert und der durchschnittliche Hautleitwert inklusive der tonischen Komponente. 
+            </p>
+            <p>Die Pupillometriedaten wurden aus der Eyetracking-Software SR Research Data Viewer exportiert und normalisiert: für jede Testperson wurde eine Baseline der Pupillengröße ermittelt, die auf der durchschnittlichen Pupillengröße basiert, die zwischen den Trials aufgenommen wurde. Um eine mittlere Veränderung der Pupillengröße zu bestimmen, wurde von der mittleren Pupillengröße pro Trial die Baseline subtrahiert.</p>
+            <p>Bei der Datenverarbeitung der Hautleitwertreaktion und der Pupillometrie-Daten wurde besonders darauf geachtet, ob die Daten die Voraussetzungen für einen ANOVA-Test erfüllten: Unabhängigkeit (die durch das Experimentdesign gegeben war), Normalverteilung und Homogenität der Varianz. Es zeigte sich, dass die Pupillengröße und die Daten zur Anzahl der Hautleitwertpeaks normalverteilt waren, die anderen Hautleitwertdaten jedoch nicht.</p>
+            <p>Die normalverteilten Daten wurden mit einem ANOVA-Test untersucht, während für die nicht normal verteilten Werte der Kruskal-Wallis-Test durchgeführt wurde. Nach den Berechnungen mit ANOVA und dem Kruskal-Wallis-Test wurde eine Auswertung der Effekte mit Epsilon-Quadrat durchgeführt, die zeigte, dass die signifikanten Ergebnisse starke Effekte aufweisen und die meisten Ergebnisse, die sich der Signifikanz näherten, mittlere Effekte zeigten.</p>
+        </div>
+        <div type="div2" rend="DH-Heading2">
+            <head>Ergebnisse</head>
+            <p>Unsere Ergebnissen zufolge gab es keinen signifikanten Einfluss von Textsentiment auf die Anzahl oder Stärke der Reaktionen, weder beim Hautleitwert noch bei der Pupillengröße. Doch wir konnten einen weiteren signifikanten Faktor ausfindig machen, der bei der Erforschung der Leser:innenreaktionen eine Rolle spielt. Sobald Proband:innen in Gruppen nach den Ergebnissen des Author Recognition Tests eingeteilt wurden, konnte man sehen, dass Literaturkenner:innen signifikant stärkere Reaktionen im Bereich des Hautleitwertes gezeigt haben im Vergleich zu Literatureinsteiger:innen und den Mittelfeld-Proband:innen.</p>
+            <figure>
+            <head>Tabelle 2: p-Werte des Kruskal-Wallis-Tests bei der Unterteilung in Gruppen nach den Lesegewohnheiten.</head>
+                <graphic n="1001" width="14.452322222222222cm" height="12.911419444444444cm" url="Pictures/0afa592186d21b2cb24a0fb4ca02a2c2.png" rend="inline"/>
+            </figure>
+            <p>Tabelle 2 zeigt die p-Werte des Kruskal-Wallis-Tests. Bei den fettgedruckten Werten wurde der Effekt der Gruppenaufteilung als “mittel” eingestuft, während bei unterstrichenen Werten der Effekt als “stark” bewertet wurde. Wir sehen, dass die durch den Autorenerkennungstest gebildeten Gruppen bei den meisten Werten signifikante Unterschiede in ihren Mittelwerten aufweisen.</p>
+            <figure>
+                <head>Tabelle 3: p-Werte der ANOVA bei der Unterteilung in Gruppen nach den Lesegewohnheiten.</head>
+                <graphic n="1002" width="14.452322222222222cm" height="12.911419444444444cm" url="Pictures/de53b764ee0d2bae77a702914c65d15d.png" rend="inline"/>
+            </figure>
+            <p>Tabelle 3 zeigt, dass eine ähnliche Tendenz in den normalverteilten Variablen auffindbar ist: während die Gruppen, die auf der Basis des Fandomscores und des Reading Habit Questionnaire gebildet wurden, keine signifikanten Unterschiede aufzeigen, zeigen die Gruppen der Autorerkennungstests mittlere bis starke Effekte. </p>
+            <p>Meistens manifestieren sich die signifikanten Effekte in Unterschieden zwischen dem Verhalten der Literaturkenner:innen auf der einen und Literatureinsteiger:innen und dem Mittelfeld auf der anderen Seite, wie in Abbildung 1. Es scheint, als würde die Kenntnis des literarischen Feldes Voraussetzung für häufigere Hautleitwertreaktionen sein.</p>
+            <figure>
+                <graphic n="1003" width="16.002cm" height="16.002cm" url="Pictures/cfd33fc8f1aa036ffff443d785917719.jpg" rend="inline"/>
+                <head>Abbildung 1. Durchschnittliche Anzahl der Hautleitwertreaktionen bei Literaturkenner:innen, Mittelfeld-Proband:innen und Literaturkenner:innen. </head>
+            </figure>
+            <p>Wird eine Unterteilung nach der Leistung im Autorenerkennungstest vorgenommen, so zeigt sich, dass Literaturkenner:innen bei den meisten Werten signifikant größere Reaktionen zeigten: Es gibt eine höhere Anzahl von Peaks, die Summe der Amplituden ist höher und die durchschnittliche Pupillengröße ist größer. Bei den Literaturkenner:innen sind die Reaktionen auf fröhliche Stimuli am höchsten und auf neutrale Stimuli fast immer am niedrigsten. Die Literatureinsteiger:innen hingegen zeigen meist minimale Werte bei fröhlichen Stimuli und am häufigsten höchste Werte bei neutralen Stimuli. Keiner dieser Werte wich signifikant vom Mittelwert ab.</p></div>
+            <div type="div2" rend="DH-Heading2">
+            <head>Diskussion</head>
+            <p>Unsere Ergebnisse zeigen, dass die nach unterschiedlichem Sentiment gelabelten Texte keine signifikanten Unterschiede in der Hautleitwertreaktion und in der Pupillengröße aufzeigen. Die Analysen der Lesegewohnheiten der Proband:innen lassen hingegen darauf schließen, dass diejenigen, die mehr lesen, auch stärkere Reaktionen auf Texte insgesamt aufweisen. </p>
+            <p>Vor allem die Kenntnis des Literatursystems – wie der Autorenerkennungstest oft interpretiert wird – beeinflusst die körperlichen Reaktionen auf das Lesen in erheblichem Maße. Leser:innen, die mehr Erfahrung mit Literatur haben, reagieren stärker auf literarische Werke und spiegeln dabei den Textsentiment wieder, die ein Text enthält (stärkere Reaktionen auf emotionale Inhalte, schwächere auf neutrale Passagen).</p>
+            <p>Leser mit geringerem Wissen über Literatur scheinen auch auf neutrale Stimuli stark zu reagieren, vielleicht weil sie einen emotionalen Stimulus erwarten und diesen nicht erhalten. Diesen Ergebnissen zufolge ist das Wissen über Literatur für eine andere Art der Reaktion auf Texte verantwortlich. </p>
+            <p>Entgegen unseren Erwartungen zeigte sich kein signifikanter Einfluss von höherer Kenntnis des Werks, obwohl der Gesamtmittelwert des Hautleitwerts bei fröhlichen Stimuli bei Fans höher war. Möglicherweise ist dies auf eine Kombination aus Nostalgie und narrativen Gefühlen zurückzuführen.</p>
+            <p>Schließlich hat die jüngste Leseaktivität, die mit dem RHQ ermittelt wurde, fast keinen Einfluss auf die physiologischen Reaktionen - nur als zusätzlicher Faktor bei der Berücksichtigung der Pupillengröße. Diese korrelativen Zusammenhänge bieten allerdings noch keine Antwort auf die Frage nach der Kausalität – die Frage, ob Lektüre die emotionale Reaktion trainiert oder ob empfindsame Menschen sich mehr zu Literatur hingezogen fühlen, bleibt offen.</p>
+            <p>Die Aussagekraft der Ergebnisse ist durch einige Schwachstellen eingeschränkt: beispielsweise sind die Proband:innen überwiegend Studierende und können daher nur schwer als absolute Wenigleser:innen bezeichnet werden. Vielleicht ist das der Grund, warum die Daten so selten Unterschiede zwischen Literatureinsteiger:innen und Mittelfeld-Proband:innen aufzeigen.</p>
+            <p>Darüber hinaus hat die Anzahl der Proband:innen eine eher geringe statistische Aussagekraft (40 Teilnehmer), wovon allerdings nur die Analyse der Proband:innengruppen betroffen ist: Für die Analyse des Sentimenteinflusses auf die Leser:innenreaktion wird die statistische Signifikanz durch die große Anzahl an Trials derselben Sentimentklasse wieder angehoben. Die Ergebnisse dienen zum Anlass, über mehrere Studien hinweg den Einfluss der Lesekompetenz zu berücksichtigen.</p>
+            <p>Zuletzt wären Vergleichsstudien mit anderen literarischen Gegenständen interessant, um die Zusammenhänge der hier vorgestellten Variablen über „Harry Potter“ hinaus zu beobachten und weitere Aspekte von literarischen Texten wie Stil und Epoche ebenfalls in ihrer Wirkung zu untersuchen. </p></div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Benedek, Mathias, und Christian Kaernbach</hi>. 2010. 
+                        <hi rend="italic">"</hi>A Continuous Measure of Phasic Electrodermal Activity.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Journal of Neuroscience Methods</hi> 190, Nr. 1: 80–91. 
+                        <ref target="https://doi.org/10.1016/j.jneumeth.2010.04.028">https://doi.org/10.1016/j.jneumeth.2010.04.028</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Boucsein Wolfram, Don C. Fowles, Sverre Grimnes, Gershon Ben-Shakhar, Walton T. Roth, Michael E. Dawson, Diane L. Filion</hi>. 2012. 
+                        <hi rend="italic">"</hi>Publication recommendations for electrodermal measurements.“ 
+                        <hi rend="italic">Psychophysiology</hi> 49. Nr 8: 1017-34. 
+                        <ref target="https://doi.org/10.1111/j.1469-8986.2012.01384">https://doi.org/10.1111/j.1469-8986.2012.01384</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bradley, Margaret M., Laura Miccoli, Miguel A. Escrig, und Peter J. Lang</hi>. 2008. 
+                        <hi rend="italic">"</hi>The Pupil as a Measure of Emotional Arousal and Autonomic Activation.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Psychophysiology</hi> 45, Nr. 4: 602–7. 
+                        <ref target="https://doi.org/10.1111/j.1469-8986.2008.00654.x">https://doi.org/10.1111/j.1469-8986.2008.00654.x</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eekhof, Lynn S., Kobie van Krieken, José Sanders, und Roel M. Willems</hi>. 2021. 
+                        <hi rend="italic">"</hi>Reading Minds, Reading Stories: Social-Cognitive Abilities Affect the Linguistic Processing of Narrative Viewpoint.
+                        <hi rend="italic">" </hi>
+                        <hi rend="italic">Frontiers in Psychology</hi> 12: 698986. 
+                        <ref target="https://doi.org/10.3389/fpsyg.2021.698986">https://doi.org/10.3389/fpsyg.2021.698986</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grolig, Lorenz, Simon P. Tiffin-Richards, und Sascha Schroeder</hi>. 2020. 
+                        <hi rend="italic">"</hi>Print Exposure across the Reading Life Span.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Reading and Writing</hi> 33, Nr. 6: 1423–41. 
+                        <ref target="https://doi.org/10.1007/s11145-019-10014-3">https://doi.org/10.1007/s11145-019-10014-3</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting</hi>. 2015. 
+                        <hi rend="italic">"</hi>Textual Emotion Potential, Fiction Feelings, and Immersion: An FMRI Study Testing the Neurocognitive Poetics Model of Literary Reading.
+                        <hi rend="italic">"</hi> FU Berlin, 
+                        <ref target="http://dx.doi.org/10.17169/refubium-14086">http://dx.doi.org/10.17169/refubium-14086</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting, Markus Conrad, und Arthur M. Jacobs</hi>. 2014. 
+                        <hi rend="italic">"</hi>Fiction Feelings in Harry Potter: Haemodynamic Response in the Mid-Cingulate Cortex Correlates with Immersive Reading Experience.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">NeuroReport</hi> 25, Nr. 17: 1356–61. 
+                        <ref target="https://doi.org/10.1097/WNR.0000000000000272">https://doi.org/10.1097/WNR.0000000000000272</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting, Arthur M. Jacobs, Ulrike Altmann, und Markus Conrad</hi>. 2015. 
+                        <hi rend="italic">"</hi>The Magical Activation of Left Amygdala When Reading Harry Potter: An FMRI Study on How Descriptions of Supra-Natural Events Entertain and Enchant.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">PLOS ONE</hi> 10, Nr. 2: e0118179. 
+                        <ref target="https://doi.org/10.1371/journal.pone.0118179">https://doi.org/10.1371/journal.pone.0118179</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting, Arthur M. Jacobs, und Markus Conrad</hi>. 2015. 
+                        <hi rend="italic">"</hi>Can Harry Potter Still Put a Spell on Us in a Second Language? An FMRI Study on Reading Emotion-Laden Literature in Late Bilinguals.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Cortex</hi> 63: 282–95. 
+                        <ref target="https://doi.org/10.1016/j.cortex.2014.09.002">https://doi.org/10.1016/j.cortex.2014.09.002</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting, Arthur M. Jacobs, Francesca M.M. Citron, und Markus Conrad</hi>. 2015. 
+                        <hi rend="italic">"</hi>The Emotion Potential of Words and Passages in Reading Harry Potter – An FMRI Study.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Brain and Language</hi> 142: 96–114. 
+                        <ref target="https://doi.org/10.1016/j.bandl.2015.01.011">https://doi.org/10.1016/j.bandl.2015.01.011</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hsu, Chun-Ting, Markus Conrad, und Arthur M. Jacobs</hi>. 2014. 
+                        <hi rend="italic">"</hi>Fiction Feelings in Harry Potter: Haemodynamic Response in the Mid-Cingulate Cortex Correlates with Immersive Reading Experience.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">NeuroReport</hi> 25, Nr. 17: 1356–61. 
+                        <ref target="https://doi.org/10.1097/WNR.0000000000000272">https://doi.org/10.1097/WNR.0000000000000272</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kavanagh, Ciarán.</hi> 2021. 
+                        <hi rend="italic">"</hi>Refiguring Reader-Response: Experience and Interpretation in J.G. Ballard’s Crash.
+                        <hi rend="italic">"</hi> In 
+                        <hi rend="italic">Powerful Prose</hi>, hg. von R. L. Victoria Pöhls und Mariane Utudji. Bielefeld, Germany: transcript Verlag, 77–96. 
+                        <ref target="https://doi.org/10.14361/9783839458808-006">https://doi.org/10.14361/9783839458808-006</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kidd, David Comer, und Emanuele Castano</hi>. 2013. 
+                        <hi rend="italic">"</hi>Reading Literary Fiction Improves Theory of Mind.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Science</hi> 342, Nr. 6156: 377–80. 
+                        <ref target="https://doi.org/10.1126/science.1239918">https://doi.org/10.1126/science.1239918</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kuijpers, Moniek, Shawn Douglas, und Don Kuiken</hi>. 2020. 
+                        <hi rend="italic">"C</hi>apturing the Ways We Read.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Anglistik</hi> 31, Nr. 1: 53–69. 
+                        <ref target="https://doi.org/10.33675/ANGL/2020/1/6">https://doi.org/10.33675/ANGL/2020/1/6</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Kuhn, Manuel, Anna M. V. Gerlicher, und Tina B. Lonsdorf. </hi>2022. „Navigating the Manyverse of Skin Conductance Response Quantification Approaches – A Direct Comparison of Trough-to-Peak, Baseline Correction, and Model
+                        <hi style="font-family:Cambria Math">-</hi>based Approaches in Ledalab and PSPM“. 
+                        <hi rend="italic">Psychophysiology</hi> 59, Nr. 9. 
+                        <ref target="https://doi.org/10.1111/psyp.14058">https://doi.org/10.1111/psyp.14058</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Miall, David S., und Don Kuiken</hi>. 2002. 
+                        <hi rend="italic">"</hi>A Feeling for Fiction: Becoming What We Behold.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Poetics</hi> 30, Nr. 4: 221–41. 
+                        <ref target="https://doi.org/10.1016/S0304-422X(02)00011-6">https://doi.org/10.1016/S0304-422X(02)00011-6</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Panero, Maria Eugenia, Deena Skolnick Weisberg, Jessica Black, Thalia R. Goldstein, Jennifer L. Barnes, Hiram Brownell, und Ellen Winner</hi>. 2016. 
+                        <hi rend="italic">"</hi>Does Reading a Single Passage of Literary Fiction Really Improve Theory of Mind? An Attempt at Replication.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Journal of Personality and Social Psychology</hi> 111, Nr. 5: e46–54. 
+                        <ref target="https://doi.org/10.1037/pspa0000064">https://doi.org/10.1037/pspa0000064</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Raffaelli, Quentin, Caitlin Mills, und Kalina Christoff.</hi> 2018.
+                        <hi rend="italic"> "</hi>The Knowns and Unknowns of Boredom: A Review of the Literature.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Experimental Brain Research</hi> 236, Nr. 9: 2451–62. 
+                        <ref target="https://doi.org/10.1007/s00221-017-4922-7">https://doi.org/10.1007/s00221-017-4922-7</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stanovich, Keith E., und Richard F. West</hi>. 1989. 
+                        <hi rend="italic">"</hi>Exposure to Print and Orthographic Processing.
+                        <hi rend="italic">"</hi>
+                        <hi rend="italic">Reading Research Quarterly</hi> 24, Nr. 4: 402. 
+                        <ref target="https://doi.org/10.2307/747605">https://doi.org/10.2307/747605</ref>. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

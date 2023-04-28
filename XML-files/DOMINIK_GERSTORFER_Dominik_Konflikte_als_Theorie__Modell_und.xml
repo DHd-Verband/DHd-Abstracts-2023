@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="DOMINIK_GERSTORFER_Dominik_Konflikte_als_Theorie__Modell_und" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Konflikte als Theorie, Modell und Text – Ein kategorientheoretischer Zugang zur Operationalisierung von Konflikten</title>
+                <author>
+                    <persName>
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>TU-Darmstadt, Deutschland</affiliation>
+                    <email>dominik.gerstorfer@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-8095-2540</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName>
+                    <affiliation>TU-Darmstadt, Deutschland</affiliation>
+                    <email>evelyn.gius@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0001-8888-8419</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Kategorientheorie</term>
+                    <term>Modellierung</term>
+                    <term>Operationalisierung</term>
+                    <term>Theoriebildung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="einleitung" type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Für eine theoriegeleitete Analyse von Texten muss man eine Operationalisierung finden, die die theoretischen Konzepte im Text identifizierbar und damit messbar macht. Dies gilt in nicht-digitalen Forschungskontexten gleichermaßen wie in den Digital Humanities, allerdings ist in letzteren das Problem virulenter. Dies hat Moretti (2013) bereits prominent festgestellt. Jenseits von konkreten Fragestellungen (wie etwa von Moretti selbst oder in Fischer &amp; Trilcke 2016) fehlen allerdings generell umsetzbare Vorschläge.</p>
+                <p style="text-align: left; ">In diesem Beitrag wollen wir an einem literaturwissenschaftlichen Anwendungsfall zeigen, wie die angewandte Kategorientheorie Operationalisierung als einen deutlich(er) definierten Workflow ermöglicht, mit dem man von einer theoretischen Grundlage über ein Modell zur Textanalyse – und zurück – kommen kann. Durch den theorieorientierten Fokus der operationalisierten Konzepte, ihre höhere Granularität sowie ihre Kompositionalität bietet der Workflow zudem eine Reihe von Vorteilen, die computationelle Analysen zugleich besser und einfacher machen können.</p>
+            </div>
+            <div xml:id="angewandte-kategorientheorie" type="div1" rend="DH-Heading1">
+                <head>Angewandte Kategorientheorie</head>
+                <p style="text-align: left; ">Um den Anforderungen sowohl der geisteswissenschaftlichen als auch der informatischen Komponenten der Digital Humanities gerecht zu werden, ist es nötig, einen möglichst flexible und abstrakte – d.h. inhaltsagnostische – Grundlage zu finden. Wir greifen bei unserem Unterfangen auf die angewandte mathematische Kategorientheorie zurück, da sie die Möglichkeit bietet, sowohl die Explikation und Modellierung geisteswissenschaftlicher Fragestellungen zu unterstützen als auch, die Anschlussfähigkeit an informatische Methoden zu gewährleisten (Ehrig 2001).</p>
+                <p style="text-align: left; ">Die Kernidee der mathematischen Kategorientheorie ist es, beliebige Strukturen als Sammlungen von Objekten und ihren wechselseitigen Beziehungen zueinander zu charakterisieren. Im einfachsten Fall besteht eine Kategorie 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">C</mi>
+                        </mml:math>
+                    </formula> aus einer Klasse von Objekten 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>b</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>C</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula> und einer Menge von Beziehungen, oder Morphismen, 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">M</mi>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>r</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>C</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula> zwischen je zwei Objekten 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML" rend="symbol">∈</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>b</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>C</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula>. Des Weiteren wird eine individuelle Beziehung als Morphismus 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">f</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">M</mi>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>r</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>C</mi>
+                                </mrow>
+                            </msub>
+                            <mfenced separators="|" xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>A</mi>
+                                    <mo>,</mo>
+                                    <mi>B</mi>
+                                </mrow>
+                            </mfenced>
+                        </mml:math>
+                    </formula> bezeichnet und das Objekt 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                        </mml:math>
+                    </formula> Quelle (oder 
+                    <hi rend="italic">domain</hi>) und 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                        </mml:math>
+                    </formula> Ziel (oder 
+                    <hi rend="italic">codomain</hi>) genannt. Objekte und Morphismen lassen sich nun mithilfe von Pfeilen darstellen 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">f</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                        </mml:math>
+                    </formula>. Die Darstellung komplexer Strukturen wird durch Komposition von Morphismen erreichen, d.h. durch Anfügen weiterer Objekte und Pfeile 
+                    <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">C</mi>
+                        </mml:math>
+                    </formula>. Die so konstruierten Verknüpfungen lassen sich diagrammatisch als gerichtete Graphen darstellen.
+                </p>
+                <p style="text-align: left; ">Durch wechselseitiges Ersetzen – markiert durch einen Asterisk (*) – von Morphismen oder Objekten durch Strukturen können Abstraktionsebenen integriert oder Modellierungen mit mehr Details angereichert werden:</p>
+<list type="unordered">
+                    <item>Mehr Details: Ein Objekt oder ein Pfeil wird rekursiv durch weitere Pfeile und Objekte ersetzt:
+<list type="unordered">
+                            <item>Ersetzung des Objekts 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                    </mml:math>
+                                </formula>: 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">⇒</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">[</mo>
+                                        <mi mathvariant="normal" xmlns="http://www.w3.org/1998/Math/MathML">*</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mi mathvariant="normal" xmlns="http://www.w3.org/1998/Math/MathML">*</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">]</mo>
+                                    </mml:math>
+                                </formula>
+                            </item>
+                            <item>Ersetzung des Pfeils zwischen 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                    </mml:math>
+                                </formula> und 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                    </mml:math>
+                                </formula>: 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">⇒</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">[</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mi mathvariant="normal" xmlns="http://www.w3.org/1998/Math/MathML">*</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">]</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                    </mml:math>
+                                </formula>
+                            </item>
+                        </list>
+                    </item>
+                    <item>Mehr Abstraktion: Ganze Teilstrukturen durch Objekten oder Pfeile ersetzt werden:
+<list type="unordered">
+                            <item>Ersetzung durch Objekt: 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">⇒</mo>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                        <mi mathvariant="normal" xmlns="http://www.w3.org/1998/Math/MathML">*</mi>
+                                    </mml:math>
+                                </formula>
+                            </item>
+                            <item>Ersetzung durch Pfeil: 
+                                <formula>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">C</mi>
+                                        <mo xmlns="http://www.w3.org/1998/Math/MathML">⇒</mo>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                        <mover xmlns="http://www.w3.org/1998/Math/MathML">
+                                            <mrow>
+                                                <mo>→</mo>
+                                            </mrow>
+                                            <mrow>
+                                                <mi mathvariant="normal">*</mi>
+                                            </mrow>
+                                        </mover>
+                                        <mi xmlns="http://www.w3.org/1998/Math/MathML">C</mi>
+                                    </mml:math>
+                                </formula>
+                            </item>
+                        </list>
+                    </item>
+                </list>
+                <p style="text-align: left; ">Der ursprüngliche Zweck der mathematischen Kategorientheorie war der Vergleich mathematischer Theorien (Mac Lane 2010), um so strukturelle Ähnlichkeiten zwischen unterschiedlichen mathematischen Disziplinen zu entdecken und sie zu vereinheitlichen. Um dies zu ermöglichen, werden Objekte rein formal, d.h. unter Absehung des konkreten Inhalts, betrachtet, was es uns erlaubt, auch nicht-mathematische Gegenstände zu modellieren. Hinzu kommt, dass dieser hohe Abstraktionsgrad die Abbildbarkeit verschiedener Theorien – oder in unserem Fall: Konzepte – aufeinander und damit auch ihren Vergleich ermöglicht.</p>
+                <p style="text-align: left; ">Wir verwenden Elemente der angewandten Kategorientheorie als Gerüst, um klar und präzise darzustellen, worüber wir sprechen. Diese Darstellung ist nicht reduktionistisch in dem Sinne, dass wir behaupten, Literaturtheorie könne letztlich durch mathematische Strukturen ersetzt werden. Vielmehr zielen wir darauf ab, literarische Konzepte zu explizieren (vgl. Carnap 1945; Dutilh Novaes 2017) und zu operationalisieren. Mit Operationalisierung ist hier lediglich der Prozess oder Workflow gemeint, um Konflikte in literarischen Texten zu identifizieren und zu analysieren (vgl. Pichler &amp; Reiter 2021). Diese Form der Operationalisieren soll nicht mit Operationalismus verwechselt werden, d. h. der streng positivistischen Vorstellung von Operationalisierung, die Bedeutung mit empirischen Operationen gleichsetzt.</p>
+            </div>
+            <div xml:id="X0d3434cb0574270eb027259e1920c82077c6976" type="div1" rend="DH-Heading1">
+                <head>Ein Framework für die Operationalisierung von Analysekonzepten</head>
+                <p style="text-align: left; ">Ziel dieses Beitrags ist es, ein Framework zur Operationalisierung von Analysekonzepten am Beispiel von literarischen Konflikten zu skizzieren. Dieses Framework besteht im wesentlichen aus drei Formalisierungs- bzw. Abbildungsschritten. Hierzu entwickeln wir einen der mathematischen Kategorientheorie entlehnten Formalismus, der es erlaubt drei Ebenen zu integrieren: 1. Theorie, 2. Modell und 3. Text. Wir zeigen die Schritte im Folgenden am Beispiel einer Analyse von Konflikten in literarischen Texten.</p>
+                <div xml:id="theorie" type="div2" rend="DH-Heading2">
+                    <head>Theorie</head>
+                    <p style="text-align: left; ">Die Aufgabe einer Theorie literarischer Konflikte ist es, festzulegen, unter welchen Bedingungen ein Konflikt vorliegt. Nun gibt es zahlreiche Möglichkeiten, Konfliktkonzepte in der literaturwissenschaftlichen Textanalyse zu nutzen. Für diesen Beitrag fokussieren wir uns auf eine Analyse von Konflikten zwischen Figuren und nutzen ein Konzept aus den Sozialwissenschaften, welches bereits in Gius (2015) im Rahmen einer narratologischen Analyse erprobt wurde. Im Sinne des 
+                        <hi rend="italic">Principle of Minimal Departure</hi> gehen wir davon aus, dass das Konzept des realen sozialen Konflikts auch in fiktionalen Welten eine gewisse Gültigkeit hat. Entsprechend halten wir uns an die Definition von Glasl (2011):
+                    </p>
+                    <quote>Sozialer Konflikt ist eine Interaktion
+                        <lb/> - zwischen Aktoren (Individuen, Gruppen, Organisationen usw.),
+                        <lb/> - wobei wenigstens ein Aktor
+                        <lb/> - eine Differenz bzw. Unvereinbarkeiten
+                        <lb/> im Wahrnehmen
+                        <lb/> und im Denken bzw. Vorstellen
+                        <lb/> und im Fühlen
+                        <lb/> und im Wollen
+                        <lb/> - mit dem anderen Aktor (den anderen Aktoren) in der Art erlebt,
+                        <lb/> - dass beim Verwirklichen dessen, was der Aktor denkt,
+                        <lb/> fühlt oder will eine Beeinträchtigung
+                        <lb/> - durch einen anderen Aktor (die anderen Aktoren) erfolge. (Glasl 2011, 17)
+                    </quote>
+                    <p style="text-align: left; ">Um diese informelle Definition zu operationalisieren und einen Konflikt 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">K</mi>
+                            </mml:math>
+                        </formula> formell zu definieren, betrachten wir die darin verwendeten Entitäten und die Beziehungen zwischen ihnen. Glasl definiert die Klasse Aktor, die aus Individuen, Gruppen, Organisationen oder anderen Objekten bestehen kann, und legt fest, dass es mindestens zwei Aktoren gibt. Wir definieren folglich die Objekte eines Konflikts 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> als die Menge der Aktoren: 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">{</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">x</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">|</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">x</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">I</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">d</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">v</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">d</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">m</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∨</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">x</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">G</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">p</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">p</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∨</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">x</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">t</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∨</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">}</mo>
+                            </mml:math>
+                        </formula> und 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mfenced open="|" close="|" separators="|" xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                </mfenced>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">≥</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">2</mn>
+                            </mml:math>
+                        </formula>.
+                    </p>
+                    <p style="text-align: left; ">Glasl charakterisiert zwei Beziehungen zwischen den Aktoren, erlebte Unvereinbarkeit 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                            </mml:math>
+                        </formula> und Beeinträchtigung 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                            </mml:math>
+                        </formula>, sodass 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">M</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>r</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>. Zwischen zwei Aktoren 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> gibt es dabei eine mindestens eine erlebte Unvereinbarkeit 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>, wobei:
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mfenced open="{" close="" separators="|" xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mtable>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>W</mi>
+                                                    <mi>a</mi>
+                                                    <mi>h</mi>
+                                                    <mi>r</mi>
+                                                    <mi>n</mi>
+                                                    <mi>e</mi>
+                                                    <mi>h</mi>
+                                                    <mi>m</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>D</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                    <mi>k</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                    <mo> </mo>
+                                                    <mi>b</mi>
+                                                    <mi>z</mi>
+                                                    <mi>w</mi>
+                                                    <mo>.</mo>
+                                                    <mo> </mo>
+                                                    <mi>V</mi>
+                                                    <mi>o</mi>
+                                                    <mi>r</mi>
+                                                    <mi>s</mi>
+                                                    <mi>t</mi>
+                                                    <mi>e</mi>
+                                                    <mi>l</mi>
+                                                    <mi>l</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>F</mi>
+                                                    <mi>ü</mi>
+                                                    <mi>h</mi>
+                                                    <mi>l</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>W</mi>
+                                                    <mi>o</mi>
+                                                    <mi>l</mi>
+                                                    <mi>l</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                        </mtable>
+                                    </mrow>
+                                </mfenced>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">Zwischen den zwei Aktoren gibt es mindestens eine Beeinträchtigung des Verwirklichens 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>, wobei:
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mfenced open="{" close="" separators="|" xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mtable>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>D</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                    <mi>k</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>F</mi>
+                                                    <mi>ü</mi>
+                                                    <mi>h</mi>
+                                                    <mi>l</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                            <mtr>
+                                                <mtd>
+                                                    <mi>W</mi>
+                                                    <mi>o</mi>
+                                                    <mi>l</mi>
+                                                    <mi>l</mi>
+                                                    <mi>e</mi>
+                                                    <mi>n</mi>
+                                                </mtd>
+                                            </mtr>
+                                        </mtable>
+                                    </mrow>
+                                </mfenced>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">Des Weiteren soll sich die Unvereinbarkeit 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                            </mml:math>
+                        </formula> auf die Beeinträchtigung 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                            </mml:math>
+                        </formula> beziehen, sodass 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">⇒</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                            </mml:math>
+                        </formula>.
+                    </p>
+                    <p style="text-align: left; ">Ein Konflikt 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">K</mi>
+                            </mml:math>
+                        </formula> kann nun diagrammatisch wie in Abb. 1 dargestellt werden.
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="12.139330555555556cm" height="8.002272222222222cm" url="Pictures/92eaa1e1812314b7371bb04feaf6ac24.png" rend="inline"/>
+                    <head>Abb. 1: Minimaler einseitiger Konflikt</head>
+                </figure>
+                    <p style="text-align: left; ">An diesem Diagramm ist eine für die literaturwissenschaftliche Analyse schwerwiegende Einschränkung der Theorie Glasls zu sehen: Die Beobachtung des Konflikts ist in der Beziehung zwischen den Aktoren versteckt, d.h. Erzähl- bzw. Beobachtungsinstanzen kommen nicht explizit vor. Dies ist dem Umstand geschuldet, dass Glasl Konfliktbegriff aus den Sozialwissenschaften stammt und entsprechend, anders als in literarischen Texten, die Konfliktparteien zu ihrer Einschätzung befragt werden können. Da es das Ziel unserer Operationalisierung ist, den Konfliktbegriff so zu explizieren, dass auch komplexe Erzählsituationen erfasst werden können, erweitern wir 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> um Beobachtungsinstanz 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                            </mml:math>
+                        </formula>, die in einer Wahrnehmungsbeziehung 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">w</mi>
+                            </mml:math>
+                        </formula> zu 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> und 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> steht und die Geschehnisse erzählerisch vermittelt (s. Abb. 2):
+                    </p>
+                    <figure>
+                        <graphic n="1002" width="11.53618611111111cm" height="8.52896111111111cm" url="Pictures/46ae5be519c3d2a9c1a644ffe9138754.png" rend="inline"/>
+                    <head>Abb. 2: Minimaler, um Beobachter erweiterter, Konflikt</head>
+                </figure>
+                    <p style="text-align: left; ">Im paradigmatischen Fall des von 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> wahrgenommen Konflikts sind 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> und 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                            </mml:math>
+                        </formula> identisch. Die Erweiterung der Theorie um beliebig viele weitere Beobachter:innen (als erzählte Figuren, Erzählinstanzen) erlaubt es, auch komplexe Narrationen zu erfassen bzw. die Darstellung der Konflikthaftigkeit durch andere Erzählinstanzen als die Konfliktbeteiligten zu berücksichtigen.
+                    </p>
+                    <p style="text-align: left; ">Der erweiterte Konfliktbegriff umfasst nunmehr als Objekte 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> die Klasse der Aktoren 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> und die Klasse der Beobachter 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>B</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>B</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> sowie die Beziehungen 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>, 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> und 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">w</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">A</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">∈</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">O</mi>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>. Zusammen mit der Möglichkeit, dass Aktoren auch Vermittler sein können, ergeben sich vielfältige Modellierungsmöglichkeiten.
+                    </p>
+                </div>
+                <div xml:id="modell" type="div2" rend="DH-Heading2">
+                    <head>Modell</head>
+                    <p style="text-align: left; ">Ein Modell eines Konflikts liegt dann vor, wenn sich in literarischen Texten Kandidaten für Objekte und Morphismen finden, sodass es eine strukturerhaltende Abbildung auf den oben explizierten, erweiterten Konfliktbegriff 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">K</mi>
+                            </mml:math>
+                        </formula> gibt. Eine naheliegende Modellierung ist die Abbildung von Elementen der fiktiven Welt, etwa durch das Einsetzen von Figurenkonstellationen (
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>F</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>F</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>) als Aktoren und von Erzählinstanzen (
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>B</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>I</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula>) als Beobachtungsinstanzen. Eine Figurenkonstellation kann wieder als Tripel aus zwei Figuren und einer Relation konstruiert werden. So stehen in Kleists 
+                        <hi rend="italic">Der Zweikampf</hi> Herzog Wilhelm von Breysach und sein Bruder, Graf Jakob, in der Beziehung Erbfolgestreit zueinander. Dieser Erbfolgestreit weist alle Merkmale nach der Definition von Glasl auf und wird primär durch eine unbeteiligte Erzählinstanz wiedergegeben (es gibt auch Passagen, in denen die Konfliktbeteiligten selbst über den Konflikt erzählen, insgesamt überwiegt jedoch eindeutig die Darstellung durch die Erzählinstanz). Eine Analyse dieses Verhältnisses besteht in der inhaltlichen Zuordnung der Teile der Figurenkonstellation und der Vermittlungsinstanz zu den Objekten und Morphismen der Theorie:
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">J</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">k</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">y</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">c</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">h</mi>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">B</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">U</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">t</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">l</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">t</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">E</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">z</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">ä</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">h</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">l</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">t</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">z</mi>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">U</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">v</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">H</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">c</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">h</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">f</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">t</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">p</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">c</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">h</mi>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <p style="text-align: left; ">
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">→</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">V</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">l</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">s</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">d</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">Ä</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">d</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">d</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML"> </mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">E</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">b</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">f</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">o</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">l</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">r</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">e</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">l</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">u</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">n</mi>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">g</mi>
+                            </mml:math>
+                        </formula>
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="14.816666666666666cm" height="13.345147222222222cm" url="Pictures/fef31217693a00504c71f5ac8f2908ca.png" rend="inline"/>
+                    <head>Abb. 3: Diagramm Erbfolgestreit in Kleists “Der Kampf”</head>
+                </figure>
+                    <p style="text-align: left; ">Figurenkonstellationen und Beobachtungs- bzw. Erzählinstanzen können aufgrund ihrer Kombinierbarkeit sehr flexibel modelliert werden; ebenso lassen sich weitere Konflikttheorien integrieren, die auf andere Aspekte abstellen, und weitere Objekte, wie gesellschaftlichen Wandel, oder andere Relationstypen zwischen den Objekten einführen. So könnte man Dahrendorfs (1972) Unterscheidung zwischen latenten und manifesten Konflikten durch zusätzliche Bedingungen integrieren, u.a. dadurch, dass beide oder keine der Konfliktparteien den Konflikt wahrnehmen. Oder man kann Definitionen psychischer Konflikte integrieren, indem man u.a. die Identität 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>A</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> annimmt. Man könnte auch das Modell auf extratextuelle Beobachtungsinstanzen erweitern und etwa die Einschätzung der Konflikthaftigkeit nicht anhand von deren Vermittlung, sondern anhand der Einschätzung von Leser:innen modellieren.
+                    </p>
+                </div>
+                <div xml:id="text" type="div2" rend="DH-Heading2">
+                    <head>Text</head>
+                    <p style="text-align: left; ">Auf der Textebene gilt es jene Textphänomene zu bestimmen, welche auf die Figurenkonstellationen und Erzählinstanzen abgebildet werden können. Diese sollen schließlich in der Analyse manuell oder automatisch identifiziert werden. Es geht also um die Bestimmungen von am Konflikt beteiligten Figuren und ihn wahrnehmenden Instanzen und die weiteren, zu Unvereinbarkeiten bzw. wahrgenommener Einschränkung führenden Aspekte. Für jeden Aspekt muss in einer Analyse festgelegt werden, wie er im Text realisiert werden kann. Die Operationalisierung auf der Textebene hängt auch vom anvisierten Untersuchungsmodus ab und kann auf sehr unterschiedliche Weisen erfolgen. So kann es sinnvoll sein, die Figuren als per NER-Analyse erkennbare Personen-Entitäten zu fassen – oder diese entsprechend zu erweitern –, wenn man eine automatisierte Analyse anstrebt. In einer manuellen Analyse ist es vermutlich eher möglich, Figuren als komplexere Phänomene zu fassen und auch Charakterzüge u.ä. zu annotieren. Bei der wahrgenommenen Unvereinbarkeit könnte der Fokus auf repräsentierte Prozesse des Denkens und Fühlens etc. liegen, die zumindest teilweise automatisch erkannt werden können. Oder es könnte eine Sentimentanalyse in Abhängigkeit von den Erzählinstanzen und den beteiligten Figuren durchgeführt werden, bei welcher automatische und manuelle Verfahren kombiniert werden können. Eventuell bietet es sich auch an, Indikatoren für Konflikthaftigkeit herauszuarbeiten.</p>
+                    <p style="text-align: left; ">Unabhängig von den gewählten Phänomenen und ihrer Bestimmung im Text gilt: Durch Gruppierung von Textphänomenen in hierarchischen Tagsets und Kategoriensystemen können Texteigenschaften der Modellebene zugeordnet werden (vgl. Abb. 2, in der 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>T</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> die Textphänomene, 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>F</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">…</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">,</mo>
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>F</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> die Elemente der fiktiven Welt und 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>B</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>I</mi>
+                                    </mrow>
+                                </msub>
+                            </mml:math>
+                        </formula> die Beobachtungs- oder Erzählinstanz bezeichnen):
+                    </p>
+                    <figure>
+                        <graphic n="1004" width="14.816666666666666cm" height="18.191280555555554cm" url="Pictures/fb65decb3c5e1c2977b718dc0caf7cba.png" rend="inline"/>
+                    <head>Abb. 4: Diagramm Zuordnung zwischen theoretischem Konzept, Modell und Textphänomenen</head>
+                </figure>
+                </div>
+            </div>
+            <div xml:id="integration-der-ebenen" type="div1" rend="DH-Heading1">
+                <head>Integration der Ebenen</head>
+                <p style="text-align: left; ">Das hier vorgeschlagene Framework erlaubt es, den Workflow für die Operationalisierung auf jeder der drei Ebenen zu beginnen und bei Bedarf auf eine der anderen Ebenen zu wechseln. Es gibt keine starre Beschränkung des Workflows auf top-down, middle-out oder bottom-up. Vielmehr ist es je nach Fragestellung möglich, in die Tiefe zu gehen und mehr Daten und Details einzuarbeiten oder zu abstrahieren, um größere Strukturen sichtbar zu machen. Das bedeutet, dass die genutzte Konfliktdefinition ebenso verändert werden kann wie die Umsetzung der Objekte und Relationen für literarische Texte (wie wäre es etwa, wenn man die Definition auf eine Analyse von poetologischen “Konflikten” zwischen Autor:innen ausweiten wollte?) oder deren Realisierung auf der Textebene. Dabei kann die Änderung auf einer der Ebenen jeweils Anpassungen auf den anderen Ebenen nötig machen.</p>
+            </div>
+            <div xml:id="abschließende-bemerkungen" type="div1" rend="DH-Heading1">
+                <head>Abschließende Bemerkungen</head>
+                <p style="text-align: left; ">Mit dieser Formalisierung eines Konfliktbegriffs für die Literaturwissenschaft und seiner skizzierten Überführung in ein Modell, welches in der Textanalyse genutzt werden kann, haben wir gezeigt, wie man ausgehend von einer Theorie zu ihrer Anwendung auf Texte gelangen kann. Der Prozess ist – wie die angewandte Kategorientheorie selbst auch – ein allgemein anwendbarer Workflow für die Operationalisierung von Analysekonzepten für eine quantifizierende und/oder computationell-algorithmische Analyse. Die angewandte Kategorientheorie ermöglicht dabei die in den Digital Humanities im Bereich von computationellen Analysen zwingend notwendige Formalisierung mit Fokus auf die Theorie. Insgesamt sehen wir vier substanzielle Vorteile in diesem Workflow: </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Erstens</hi> spielen in der ausschließlichen Beschäftigung mit der Theorie im ersten Schritt Fragen wie “Was ist überhaupt realistisch computationell umsetzbar?” vorerst keine Rolle. Man kann also vermeiden, dass die genutzte Theorie aus pragmatischen Gründen vorschnell unterkomplex formalisiert wird, indem aus pragmatischen Gründen auf bereits etablierte, relativ gute Analyseverfahren zurückgegriffen wird.
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Zweitens</hi> erfolgt durch die angewandte Kategorientheorie und die in ihren Prinzipien festgelegte Kompositionalität immer eine feingranulare(re) und entsprechend genauere Formalisierung der zugrundeliegenden Theorie. In dieser sind die entsprechenden Unterkonzepte in Form von Objekten und Morphismen weniger komplex als das Gesamtkonzept. Die Bestimmung dieser einzelnen Elemente ist vergleichsweise einfacher, wobei das sowohl für manuelle als auch für maschinelle Zugänge gilt. Mit auf Kompositionalität beruhenden Operationalisierungen von Teilphänomenen kann man mehr und bessere Daten erzeugen, die zur Analyse genutzt werden, als wenn man versucht, die gesamte Theorie auf einmal anzuwenden. So ist es deutlich einfacher, jeweils zu bestimmen, welche Figur was fühlt und welche Handlungen Figuren vollziehen, und erst anschließend zu sehen, ob dort Konflikthaftigkeit erkennbar ist, als direkt Konflikte im Text zu annotieren.
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Drittens</hi> ermöglicht die Kompositionalität es, verschiedene Theorien zusammen zu formalisieren. Durch die Identifikation von Objekten und Morphismen auf einer möglichst abstrakten Ebene wird leichter erkennbar, an welchen Stellen weitere Elemente ergänzt oder Elemente ersetzt werden können, um eine andere, ähnliche Theorie mitzuerfassen. In unserem Fall wurde dies etwa beim Wahrnehmungsmorphismus offensichtlich: Während dieser nach Glasl nur zwischen den beteiligten Aktoren besteht, ermöglichte die Einführung weiterer Objekte eine Verknüpfung mit einem literarischen Kommunikationsmodell, welches auch Erzählinstanzen enthält. Dies ist für die Analyse von Texten genauso hilfreich wie für ihre Auswertung, die nun ohne großen Mehraufwand für mehrere Theorien durchgeführt werden kann.
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">Viertens</hi> ist die Form, die eine nach der angewandte Kategorientheorie formalisierte Theorie hat, geeignet, bestehende Tripel-basierte Datenmodellierungen wie etwa RDF und darauf aufbauende Linked Open Data nachzunutzen.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Carnap, Rudolf. </hi>1945. „The Two Concepts of Probability: The Problem of Probability“. Philosophy and Phenomenological Research 5, Nr. 4 (Juni 1945): 513. https://doi.org/10.2307/2102817.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Dahrendorf, Ralf. </hi>1972. 
+                        <hi rend="italic">Konflikt und Freiheit: auf dem Weg zur Dienstklassengesellschaft</hi>. Gesammelte Abhandlungen 2. München: R. Piper.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dutilh Novaes, Catarina und Erich Reck.</hi> „Carnapian Explication, Formalisms as Cognitive Tools, and the Paradox of Adequate Formalization“. Synthese 194, Nr. 1 (Januar 2017): 195–215. https://doi.org/10.1007/s11229-015-0816-z.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Ehrig, Hartmut, </hi>Hrsg
+                        <hi rend="bold">.</hi> 2001. 
+                        <hi rend="italic">Mathematisch-strukturelle Grundlagen der Informatik; 71 Tabellen</hi>. 2. Aufl. Springer-Lehrbuch. Berlin Heidelberg: Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gius, Evelyn.</hi> 2015. 
+                        <hi rend="italic">Erzählen über Konflikte: ein Beitrag zur digitalen Narratologie</hi>. Narratologia, Band 46. Berlin; Boston: De Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Glasl, Friedrich.</hi> 2011. 
+                        <hi rend="italic">Konfliktmanagement: ein Handbuch für Führungskräfte, Beraterinnen und Berater</hi>. Bern: Haupt.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mac Lane, Saunders.</hi> 2010. 
+                        <hi rend="italic">Categories for the Working Mathematician</hi>. 2nd. ed., Softcover version of original hardcover edition 1998. Graduate Texts in Mathematics 5. New York, NY: Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Moretti, Franco</hi>. 2013. „‘Operationalizing’: Or, the Function of Measurement in Literary Theory“. 
+                        <hi rend="italic">New Left Review 84</hi> (Dezember): 103–19.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pichler, Axel und Nils Reiter. 2021.</hi> „Zur Operationalisierung Literaturwissenschaftlicher Begriffe in der Algorithmischen Textanalyse. Eine Annäherung über Norbert Altenhofers Hermeneutische Modellinterpretation von Kleists Das Erdbeben in Chili“. Journal of Literary Theory 15, Nr. 1–2 (31. Dezember 2021): 1–29. https://doi.org/10.1515/jlt-2021-2008.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Trilcke, Peer und Frank Fischer</hi>. 2016. „Fernlesen mit Foucault? Überlegungen zur Praxis des distant reading und zur Operationalisierung von Foucaults Diskursanalyse“. 
+                        <hi rend="italic">Le foucaldien</hi> 2 (1): 6. https://doi.org/10.16995/lefou.15.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

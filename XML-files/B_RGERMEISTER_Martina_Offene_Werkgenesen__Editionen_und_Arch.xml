@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="B_RGERMEISTER_Martina_Offene_Werkgenesen__Editionen_und_Arch" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Offene Werkgenesen, Editionen und Archive. Versuch einer generischen Datenmodellierung</title>
+                <author>
+                    <persName>
+                        <surname>Bürgermeister</surname>
+                        <forename>Martina</forename>
+                    </persName>
+                    <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+                    <email>martina.buergermeister@onb.ac.at</email>
+                    <idno type="ORCID">0000-0003-0594-1902</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pektor</surname>
+                        <forename>Katharina</forename>
+                    </persName>
+                    <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+                    <email>katharina.pektor@onb.ac.at</email>
+                    <idno type="ORCID">0000-0002-1726-3187</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Steindl</surname>
+                        <forename>Christoph</forename>
+                    </persName>
+                    <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+                    <email>christoph.steindl@onb.ac.at</email>
+                    <idno type="ORCID">0000-0002-3651-8114</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Eigner</surname>
+                        <forename>Johanna</forename>
+                    </persName>
+                    <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+                    <email>johanna.eigner@onb.ac.at</email>
+                    <idno type="ORCID">0000-0002-1672-9555</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Werkgenese</term>
+                    <term>Datenmodellierung</term>
+                    <term>Migration</term>
+                    <term>Nachnutzung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Modellierung</term>
+                    <term>Kommunikation</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p rend="paragraph" style="text-align: left; text-align: justify;">
+                    <hi rend="normaltextrun">Unser Beitrag zur Tagung 
+                        <hi rend="italic" style="font-size:11pt" xml:space="preserve">Open </hi>
+                        <hi rend="italic" style="font-size:11pt">Humanities</hi>
+                        <hi rend="italic" style="font-size:11pt">, Open Culture</hi> präsentiert eine innovativen Vorschlag für die Datenmodellierung zukünftiger digitaler Werkeditionen. Das Modell ist hochgradig flexibel, indem es eine Diversität und komplexe Relationalität der Werkdaten zulässt, und zugleich stabil, wodurch es maximale Offenheit der Rezeption und Nachnutzbarkeit gewährleistet.
+                    </hi>
+                </p>
+                <p rend="paragraph" style="text-align: left; text-align: justify;">
+                    <hi rend="normaltextrun">Entwickelt und erprobt wurde das Datenmodell im Zuge der Daten-Migration der Forschungsplattform 
+                        <hi rend="italic" style="font-size:11pt">Handke</hi>online (
+                    </hi>
+                    <ref target="https://handkeonline.onb.ac.at/">
+                        <hi rend="normaltextrun">
+                            <hi rend="color(0000FF)" style="font-size:11pt">https://handkeonline.onb.ac.at/</hi>
+                        </hi>
+                    </ref>
+                    <hi rend="normaltextrun">), bei der eine vorerst “geschlossene” Modellierung von präbibliographischen Daten der verschiedenen, genetisch interpretierten Werkmaterialien aus dem Vorlass zusammen mit bibliographischen Daten der veröffentlichten Werke des Literaturnobelpreisträgers Peter Handke in eine “offene” umgebaut werden musste – wir nennen diese Modellierung eine “offene Werkgenese”. </hi>
+                </p>
+                <p rend="paragraph" style="text-align: left; text-align: justify;">
+                    <hi rend="normaltextrun">In unserer Präsentation werden wir zuerst kurz in die Voraussetzungen der Plattform 
+                        <hi rend="italic" style="font-size:11pt">Handke</hi>online (Punkt 2) und in den aktuellen Forschungsstand der semantischen Modellierung von bibliographischen und präbibliographischen Daten (Punkt 3) einführen. Danach wird anhand von zwei Beispielen der generische Modellierungsansatz für „offene Werkgenesen“ präsentiert (Punkt 4).
+                    </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsplattform 
+                    <hi rend="italic">Handke</hi>online
+                </head>
+                <p>Die Forschungsplattform 
+                    <hi rend="italic">Handke</hi>online wurde im Zuge eines FWF-Forschungsprojekts am Literaturarchiv der Österreichischen Nationalbibliothek Wien 2011-2015 entwickelt. Sie versteht sich als virtuelles Archiv, das sämtliche auf öffentliche und private Archive in Österreich, Deutschland und der Schweiz verstreute Vorlass-Materialien (wie Notizbücher, Bleistiftmanuskripte und Typoskripte unterschiedlicher Textfassungen sowie Druckfahnen, aber auch annotierte Bücher, Fotos, Landkarten oder sogar Wanderstöcke) zum veröffentlichten Werk Peter Handkes zusammenführt. Die Materialen werden tabellarisch und in Form von Texten beschrieben und in eine entstehungschronologische Beziehung gesetzt, die in Paratexten kommentiert wird. Die werkgenetische Interpretation und Beschreibung erweitern das virtuelle Archiv zu einer Edition. Ergänzt wurde diese durch eine umfangreiche Bibliographie zur Primär- und Sekundärliteratur des über 140 Bücher sämtlicher Genres umfassenden Werks Handkes. Inhaltliche und formale Vielfalt öffnen die Plattform für ein breites Publikum. Sie wird nicht nur für die universitäre Forschung intensiv genutzt, sondern bietet Schüler*innen Unterstützung für Hausarbeiten, wird von Theatern für die Erarbeitung von Stückinszenierungen oder Begleitheften herangezogen und, wie die Aufregungen um den Nobelpreis gezeigt haben, auch von Journalist*innen konsultiert. (Der faktischen Materialdokumentation der Plattform kam etwa innerhalb der kontroversen Debatte um Handkes “Serbien-Bücher” ein wichtige Rolle zu.)
+                </p>
+                <p>Zentrales Anliegen des 
+                    <hi rend="italic">Handke</hi>online-Projekts war die Präsentation und Weitergabe des erarbeiteten biographischen, literaturwissenschaftlichen und archivalischen Wissens über Handke, die Entstehung seiner Werke, und damit zusammenhängend über die Beschaffenheit und Bedeutung der einzelnen Vorlass-Materialien. Die nachhaltige Modellierung dieser Forschungsdaten, welche erst eine langfristige Verfügbarkeit sowie Ausbau- und Anschlussfähigkeit des Wissens garantiert, wurde dabei vorderhand aus zeitökonomischen und budgetären Gründen vernachlässigt. Vor allem aber fehlte noch das geeignete konzeptuelle Modell das von Literatur-, Editions- oder Archiv- und Informationswissenschaft gemeinsam gedacht wird, und damit auch eine praktische Vorlage. Die Daten von 
+                    <hi rend="italic">Handke</hi>online wurden im Altsystem flach strukturiert und in einem proprietären Format vorgehalten. Die Folgen wurden bereits nach Projektende deutlich: die innovative Darstellung der Werkgenese war zwar Vorbild für andere Projekte, aber diese wurde weder in den Daten repräsentiert noch nachhaltig strukturiert. Deutlich zeigte sich das Problem in dem 2021, also nur sechs Jahre später begonnenen digitalen Editionsprojekt 
+                    <hi rend="italic">Peter Handke Notizbücher</hi> der Österreichischen Nationalbibliothek Wien und des Deutschen Literaturarchivs Marbach (
+                    <ref target="https://edition.onb.ac.at/handke-notizbuecher">
+                        <hi rend="underline color(0563C1)">https://edition.onb.ac.at/handke-notizbuecher</hi>
+                    </ref>): auf die wertvollen Daten über die Notizbücher konnte sogar intern nur mehr kompliziert über die dem Content-Management-System (Drupal) zugrunde liegende relationale Datenbank zugegriffen werden. Die damals getroffenen Zuordnungen der einzelnen Datenfelder konnten wegen des geschlossenen Datenformats teilweise nicht mehr vollständig rekonstruiert werden.
+                </p>
+                <p>Aufgrund der Bedeutung von 
+                    <hi rend="italic">Handke</hi>online beschloss die Österreichische Nationalbibliothek die Daten-Migration in die erst später eingerichtete 
+                    <hi rend="italic" xml:space="preserve">Nachhaltige Infrastruktur für digitale Editionsprojekte an der Österreichischen Nationalbibliothek </hi>(ÖNB-DE) und nützt diese Gelegenheit zum vollständigen Re-Design der Daten und Datenstruktur. Ziel ist die Transformation sämtlicher für 
+                    <hi rend="italic">Handke</hi>online generierte Beschreibungsdaten zum Werk Peter Handkes nach TEI/XML und die Bereitstellung eines werkgenetischen Katalogs als 
+                    <hi rend="italic">Linked Open Data</hi>-Datensatz. Diese Umsetzung liefert einen wesentlichen Beitrag zu einer Forschungskultur, die Vernetzung und Dynamik von Forschungsprozessen ins Zentrum rückt. Folgende Herausforderungen galt es dabei zu bewältigen:
+                </p>
+<list type="unordered">
+                    <item>Einen Modellierungsansatz zu finden, mit dem präbibliographische und bibliographische Daten gemeinsam repräsentiert und in Beziehung gesetzt werden können.</item>
+                    <item>Die geschlossene in eine offene Werkgenese umzuwandeln und den Datenkatalog entsprechend den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reuseable) zur Verfügung zu stellen.</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Modelle für präbibliographische und bibliographische Daten</head>
+                <p>Zur Erschließung und Verbreitung von bibliographischen Daten haben sich im wissenschaftlichen Bereich verschiedene bibliographische Datenbanken (
+                    <hi rend="italic">Initiative for Open Citation</hi> (i4oc.org)) etabliert, wie z.B. 
+                    <hi rend="italic">OpenCitation</hi> oder 
+                    <hi rend="italic">GoogleScholar</hi>, die sich allerdings auf die Erfassung bereits veröffentlichter Werke konzentrieren. Das gilt auch für eine Reihe weitverbreiteter Standardvokabulare für die grundlegenden Begriffe zur Dokumentation und Beschreibung bibliographischer Daten wie etwa 
+                    <hi rend="italic">Dublin Core Element Set</hi> und 
+                    <hi rend="italic">Metadata Terms</hi> (
+                    <ref target="https://www.dublincore.org/">
+                        <hi rend="underline color(0563C1)">https://www.dublincore.org/</hi>
+                    </ref>) und 
+                    <hi rend="italic" xml:space="preserve">Schema.org. </hi>Das 
+                    <hi rend="italic">BIBFRAME</hi>-Vokabular (
+                    <ref target="https://www.loc.gov/bibframe/docs/index.html">
+                        <hi rend="underline color(0563C1)">https://www.loc.gov/bibframe/docs/index.html</hi>
+                    </ref>) wiederum ist ein vor allem im wissenschaftlichen Bereich gängiges (Austausch-)Format und man kann MARC- und RDA-Daten im Linked-Data-Standard RDF abbilden – dieses Vokabular ist jedoch ebenfalls ungeeignet für die Repräsentation präbibliographischer Werkmaterialien. Für das Projekt 
+                    <hi rend="italic">Handke</hi>online sind diese gängigen Vokabulare somit zu limitiert, da hier unveröffentlichte Werke und unterschiedlichste Werkvorstufen (Werkmaterialien) weder erfasst noch in ihrer teilweise komplexen Relationalität zu den publizierten Werken abgebildet werden können.
+                </p>
+                <p>Eine differenzierte bibliographische Basiskodierung, wie sie Martina Gödel und Sebastian Zimmer (2017) auf der Basis der 
+                    <hi rend="italic">Functional Requirements for Bibliographic Records</hi> (FRBR) (Coyle 2016) für die Werke und vor allem den Zettelkasten von Niklas Luhmann gemacht haben (
+                    <ref target="https://niklas-luhmann-archiv.de/">
+                        <hi rend="underline color(0563C1)">https://niklas-luhmann-archiv.de/</hi>
+                    </ref>), ist die Voraussetzung für weitere Forschungen zur Werkgenese. In dem von uns gewählten Ansatz spielt gerade dieser Aspekt deshalb von Beginn an eine Schlüsselrolle. Auch unsere Modellierung bibliographischer Daten basiert wie zuvor schon bei Stefanie Gehrke et al. (2016), Frederike Neuber (2016), Gödel und Zimmer (2017) oder Andreas Lüschow (2020) auf den Grundkonzepten von FRBR, doch wir gehen für unsere Anforderungen noch einen Schritt weiter:
+                </p>
+                <p>Wir greifen, um die für unsere Abbildung der Werkgenesen notwendige Flexibilität (Werkdatendiversität und -referenzierbarkeit) bei gleichzeitiger Stabilität zu erreichen, die für eine Anschluss- und Ausbaufähigkeit der Daten notwendig ist, auf das im Museumsbereich gebräuchliche Format FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> zurück. FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> ist eine Harmonisierung des FRBR-
+                    <hi rend="italic">Entity-Relationship-Models</hi> und des 
+                    <hi rend="italic" xml:space="preserve">Conceptual Reference Models </hi>des 
+                    <hi rend="italic">International Council of Museums</hi> CIDOC CRM (
+                    <ref target="https://www.cidoc-crm.org/">
+                        <hi rend="underline">https://www.cidoc-crm.org/</hi>
+                    </ref>). Letzteres wurde entwickelt, um die in der Museumsdokumentation relevanten Objekte und Konzepte (Ereignisse) zu beschreiben und institutionsübergreifend Daten austauschen zu können (Doerr, Crofts 2004, 15). FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> führt diese ereigniszentrierte Sichtweise nun auf Werke aller Art ein. Die Anwendung von FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> für die Modellierung von komplexen Werkgenesen ist, soweit wir die digitalen Editionen der letzten Jahre überblicken, neu; sie bringt viele Vorteile. FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> ermöglicht eine exakte Darstellung der komplexen Genese von Handkes Werken: Erstens, weil das Modell differenzierte Werkbegriffe bereitstellt, die uns erlauben, nicht nur die zahlreichen literarischen Genres, die Handke bedient (Prosa, Theater, Hörspiel, Film, Briefe, Interviews, Essays, Gedichte, Journale), sondern auch seine bislang unveröffentlichten, aber Werken entsprechenden Notizbücher zu formalisieren. Zweitens, weil FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> auf CIDOC-CRM basiert, ist es möglich auch individuelle, nichtbibliographische Materialien zu beschrieben. Drittens können mit FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> die Vorstufen eines Buches (
+                    <hi rend="italic" xml:space="preserve">Manifestation Singleton) </hi>von einer veröffentlichten Ausgabe
+                    <hi rend="italic" xml:space="preserve"> (Manifestation Product Type</hi>) in den Daten klar unterschieden werden. Viertens schließlich erlaubt uns FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi>, über das Ereignis 
+                    <hi rend="italic">Expression Creation</hi> die für eine Darstellung von Werkgenesen wichtige zeitliche und materielle Einordnung der einzelnen Fassungen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenmodellierung von 
+                    <hi rend="italic">Handke</hi>online mit FRBRoo
+                </head>
+                <p>Für die Modellierung von 
+                    <hi rend="italic">Handke</hi>online gilt es die vielfältigen Werkmaterialien aus dem Vorlass mit den publizierten Werken in Zusammenhang zu bringen. Peter Handkes Notizbüchern kommt dabei für die Genese seiner Werke ein besonderer Stellenwert zu: sie sind Materialsammlung oder Skizze für mehrere publizierte Werke; sie sind erste Textfassung für die gedruckte Notizauswahl in Journalen und darüber hinaus in ihrer Gesamtheit noch unveröffentlichtes Werk, das im Zuge des digitalen Editionsprojektes 
+                    <hi rend="italic">Peter Handke Notizbücher</hi> erstmals publiziert wird. Wir gehen deshalb von zwei unterschiedlichen Werkbegriffen aus: einmal von dem von Handke autorisierten veröffentlichten Werk mit seinen verschiedenen Vorstufen und einmal von einem von Handke verfassten, aber nicht als Werk autorisierten vorerst noch unveröffentlichten, fortlaufenden Werk – den Notizbüchern, die für sich stehen und zugleich Vorstufe sein können. Dabei geht es in der Reflexion des Werkbegriffs bei der Datenmodellierung immer um das Ausloten von Grenzen, hier zwischen Flexibilität (Diversität und Relationalität oder Referenzialität) und Stabilität.
+                </p>
+                <p>Im Folgenden wird das neue Modellierungskonzept von 
+                    <hi rend="italic">Handke</hi>online erstens für veröffentlichte Werke und zweitens für Notizbücher exemplarisch skizziert. Die kursiven Ausdrücke und in eckigen Klammern angegebene Informationen beziehen sich auf die Spezifikationen laut dem FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi>–Modell (Bekiari et al. 2015). Die Begriffe 
+                    <hi rend="italic" xml:space="preserve">Manifestation </hi>und 
+                    <hi rend="italic" xml:space="preserve">Expression </hi>bleiben unübersetzt (Arbeitsstelle für Standardisierung 2006).
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Modellierung veröffentlichter Werke</head>
+                    <p>Handkes Werke werden grundsätzlich über die Entität 
+                        <hi rend="italic">Work [1]</hi> erfasst. Die zugleich als Buch und Theaterstück oder Film publizierten Werke werden jedoch als 
+                        <hi rend="italic">Complex Work [F15]</hi> beschrieben, dessen Werkkomponenten (
+                        <hi rend="italic">Performance Work, Recording Work, Work</hi>) über 
+                        <hi rend="italic">has member [R10]</hi> zueinander in Beziehung gesetzt werden. Zur Rekonstruktion der Werkgenesen wird jede Textfassungsversion (z.B. Vorfassung, Druckfahnen, Druckfassung etc.) der Buchpublikation als Entität vom Typ 
+                        <hi rend="italic">Expression [F2]</hi> angesehen. Die Erstausgabe wird als 
+                        <hi rend="italic">Publication Expression [F24]</hi> mit 
+                        <hi rend="italic">Manifestation Product Type [F3]</hi> modelliert. 
+                    </p>
+                    <p>Die anderen Textfassungsversionen ordnen sich relativ zu dieser chronologisch ein. Um die zeitliche Abfolge dieser einzelnen 
+                        <hi rend="italic">Expression-</hi>Entitäten in FRBR
+                        <hi rend="subscript" style="font-size:8.5pt">OO</hi> beschreiben zu können, wird jeweils ein Ereignis 
+                        <hi rend="italic">Expression Creation [F28]</hi> definiert, das Angaben zum Entstehungszeitraum über die Entität 
+                        <hi rend="italic">Time-Span [E52]</hi> beinhaltet. Auf diese Art lässt sich die Werkhistorie als Abfolge von Ereignissen logisch rekonstruieren. Im Ereignis können auch Personen und Werke, die den Herstellungsprozess beeinflusst haben, repräsentieren werden. Es kann daher ein Unterschied zwischen Textfassungsversion und Notizbuch als selbständiges Werk in die Werkgenese integriert werden (
+                        <hi rend="italic">was influenced by [P15]</hi>).
+                    </p>
+                    <p>Alle 
+                        <hi rend="italic">Expressions,</hi> die das präbibliographische Werkmaterial repräsentieren, erzeugen (
+                        <hi rend="italic">created [18]</hi>) Entitäten des Typs 
+                        <hi rend="italic">Manifestation Singleton [F4].</hi> Bei Bedarf kann die 
+                        <hi rend="italic" xml:space="preserve">Expression </hi>auch in einzelne 
+                        <hi rend="italic">Expression Fragments [F23]</hi> unterteilt werden, um die Textstadien in einer feineren Granularität abbilden zu können. Abbildung 1 veranschaulicht die eben besprochene werkgenetische Modellierung am Beispiel des 1981 als Buch erschienenen und 1982 bei den Salzburger Festspielen uraufgeführten Theaterstücks 
+                        <hi rend="italic">Über die Dörfer</hi> von Peter Handke.
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="11.077222222222222cm" url="Pictures/7449b6a2472b7bff9cf22796eb69483e.png" rend="inline"/>
+                        <head>Abbildung 1: Beispielhafter Graph der werkgenetischen Beschreibung zum Werk Über die Dörfer von Peter Handke.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Modellierung Notizbücher und digitale Edition</head>
+                    <p>Nicht veröffentlichte Notizbücher von Peter Handke werden im Modell durch die Entität 
+                        <hi rend="italic">Individual Work [F14]</hi> repräsentiert; die daraus realisierte 
+                        <hi rend="italic">Self-Contained Expression [F22]</hi> kann wiederum als Ereignis (
+                        <hi rend="italic">Expression Creation [F28]</hi>) detailliert beschrieben werden. Schließlich wird das Notizbuch als 
+                        <hi rend="italic">Manifestation Singleton [F4]</hi> im Datensatz erfasst. Auf Werkebene werden die Notizbücher über 
+                        <hi rend="italic" xml:space="preserve">is logical successor [R1] </hi>in Beziehung gesetzt
+                        <hi rend="color(E36C0A)" xml:space="preserve">. </hi>Für alle Notizbücher, die in der digitalen Edition 
+                        <hi rend="italic" xml:space="preserve">Handke Notizbücher </hi>erstmals publiziert werden, werden Beziehungen auf Expression-Ebene (
+                        <hi rend="italic">is component of [P148]</hi>) zur digitalen Edition hergestellt. Die digitale Edition wird als fortlaufendes Werk (
+                        <hi rend="italic">Serial Work [F18]</hi>) repräsentiert, das kontinuierlich aktualisiert wird.
+                    </p>
+                    <p>Vergleich zu 
+                        <hi rend="italic">Handke</hi>online
+                    </p>
+                    <p>Im Vergleich zum Datenmodell von 
+                        <hi rend="italic">Handke</hi>online können mit dem vorgestellten System die Entitäten qualitativ miteinander in Beziehung gesetzt werden, was u.a. auch die erwähnte zeitliche Relation zulässt. Die ursprüngliche flache Struktur wird im neuen Modell durch ein Netzwerk repräsentiert, wodurch sich eine Bandbreite von neuen Auswertungsmöglichkeiten ergibt. Damit wird die Grundlage für ein durchsuchbares, interoperables Netzwerk geschaffen, welches das Auffinden von Ressourcen erleichtert und neue Forschungsfragen ermöglicht.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Das von uns entwickelte generische Datenmodell ist für spezifische Beschreibungen erweiterbar, die darin gefassten Daten frei nachnutzbar. Was mit 
+                    <hi rend="italic">Handke</hi>online begonnen wurde, kann in der Tiefenerschließung durch andere Forschungsprojekte erstmals umfassend nachgenutzt werden. Davon profitiert vor allem auch das Editionsprojekt 
+                    <hi rend="italic">Peter Handke Notizbücher.</hi>
+                </p>
+                <p>Die hier präsentierte Modellierung unterstützt nicht nur das Verständnis der Werkgenesen von Peter Handkes Werken, sondern ist Vorbild für zukünftige DH-Projekte, die präbibliographische Daten zusammen mit bibliographischen Daten semantisch differenziert erfassen wollen.</p>
+                <p>Erst durch die hier besprochene Öffnung der Daten entsteht die Affordanz zur Repräsentation in vollem Umfang. Die Effekte sind vielfältig: Die Migration der isolierten Daten und deren Re-Modellierung nach anerkannten Standards machen das Material langzeitarchivfähig und schaffen die Grundlage für LOD. Durch den Einsatz von FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> wird die Interoperabilität der vernetzten Informationen sichergestellt. Insgesamt werden durch die Öffnung neue Wege der Analyse geschaffen. Abfragen zu werkhistorisch relevanten Aspekten werden möglich: Wie die differenzierte Abfrage der Werkkomponenten oder zu aufführungsspezifischem Material oder sogar zu parallelen Entwicklungsprozessen; gleichzeitig wird auch eine Visualisierung von Stammbäumen zur Entstehung der Werke möglich. Wir erwarten mit Spannung, wie sich unsere Anwendung der formalen Semantik von FRBR
+                    <hi rend="subscript" style="font-size:8.5pt">OO</hi> in Zukunft auf die Reflexion über Werk und Werkgenesen auswirken wird.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Arbeitsstelle für Standardisierung.</hi> 2006. 
+                        <hi rend="italic">Funktionale Anforderungen an Bibliografische Datensätze. Abschlussbericht der IFLA Study Group on the Functional Requirements for Bibliographic Records</hi>. Leipzig/Frankfurt a.M./Berlin: DNB. 
+                        <ref target="https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr-deutsch.pdf">
+                            <hi rend="underline color(0563C1)">https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr/frbr-deutsch.pdf</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Bekiari, Chryssoula et al.</hi> 2015. 
+                        <hi rend="italic">FRBR object-oriented definition and mapping from FRBR</hi>
+                        <hi rend="italic subscript" style="font-size:8.5pt">ER</hi>
+                        <hi rend="italic">, FRAD and FRSAD</hi> (version 2.4). 
+                        <ref target="https://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo_V2.4.pdf">
+                            <hi rend="underline color(0563C1)">https://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo_V2.4.pdf</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Coyle, Karen.</hi> 2015. 
+                        <hi rend="italic">FRBR Before and After. A Look at Our Bibliographic Models</hi>. Chicago: Ala Editions 2016. ISBN 978-0-8389-1364-2 (PDF). 
+                        <ref target="http://192.248.73.38/bitstream/handle/94ousl/926/RDA%20FRBR%20book%20for%20reading%20%20978-0-8389-1364-2.pdf">
+                            <hi rend="underline color(0563C1)">http://192.248.73.38/bitstream/handle/94ousl/926/RDA%20FRBR%20book%20for%20reading%20%20978-0-8389-1364-2.pdf</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Doerr, Martin und Patrick LeBoeuf.</hi> 2006. 
+                        <hi rend="italic">FRBR object-oriented definition and mapping to FRBR</hi>
+                        <hi rend="italic subscript" style="font-size:8.5pt">ER</hi>
+                        <hi rend="italic" xml:space="preserve"> (version 0.8.1). International Working Group on FRBR and CIDOC CRM Harmonisation.</hi>
+                        <ref target="https://archive.ifla.org/VII/s13/wgfrbr/FRBR_oo_V.0.8.1c.pdf">
+                            <hi rend="underline color(0563C1)">https://archive.ifla.org/VII/s13/wgfrbr/FRBR_oo_V.0.8.1c.pdf</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Gehrke, Stefanie, Pauline Charbonnier und Frunzeanu Eduard.</hi> 2016. „Biblissima - Semantic Web Application für Handschriften, Inkunabeln und historische Sammlungen – Zwischenbericht“ In 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung – Visualisierung: Die Digital Humanities als fächerübergreifendes Forschungsparadigma</hi>. 
+                        <ref target="https://zenodo.org/record/4645060#.YuefAhzP2Uk">
+                            <hi rend="underline color(0563C1)">https://zenodo.org/record/4645060#.YuefAhzP2Uk</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Goedel, Martina und Sebastian Zimmer.</hi> 2017. „Niklas Luhmanns Werk- und Lesekosmos - DH in der bibliographischen Dimension“ In 
+                        <hi rend="italic">DHd 2017: Digitale Nachhaltigkeit</hi>. 
+                        <ref target="https://dh-abstracts.library.cmu.edu/works/10641">
+                            <hi rend="underline color(0563C1)">https://dh-abstracts.library.cmu.edu/works/10641</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Lüschow, Andreas.</hi> 2020. „Automatische Extraktion und semantische Modellierung der Einträge einer Bibliographie französischsprachiger Romane“ In 
+                        <hi rend="italic">DHd 2020: Spielräume: Digital Humanities zwischen Modellierung und Interpretation.</hi>
+                        <ref target="https://zenodo.org/record/4621704#.YuedhRzP2Uk">
+                            <hi rend="underline color(0563C1)">https://zenodo.org/record/4621704#.YuedhRzP2Uk</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Neuber, Frederike.</hi> 2016. „Stefan George Digital“ In 
+                        <hi rend="italic">DHd 2016: Modellierung - Vernetzung – Visualisierung: Die Digital Humanities als fächerübergreifendes Forschungsparadigma</hi>. 
+                        <ref target="https://zenodo.org/record/4645060#.YuefAhzP2Uk">
+                            <hi rend="underline color(0563C1)">https://zenodo.org/record/4645060#.YuefAhzP2Uk</hi>
+                        </ref> (zugegriffen: 01.08.2022). 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

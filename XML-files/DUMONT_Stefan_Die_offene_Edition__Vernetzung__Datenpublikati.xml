@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="DUMONT_Stefan_Die_offene_Edition__Vernetzung__Datenpublikati" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die offene Edition. Vernetzung, Datenpublikation und Transparenz in der edition humboldt digital</title>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>dumont@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>kraft@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Seifert</surname>
+                        <forename>Sabine</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>sabine.seifert@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>thomas@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wierzoch</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>jan.wierzoch@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T17:42:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Daten</term>
+                    <term>API</term>
+                    <term>Nachnutzung</term>
+                    <term>Open Access</term>
+                    <term>Open Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW) angesiedelte Akademienvorhaben 
+                <hi rend="italic" xml:space="preserve">Alexander von Humboldt auf Reisen – Wissenschaft aus der Bewegung </hi>erschließt und ediert die amerikanischen, russisch-sibirischen und europäischen Reisetagebücher des preußischen Naturforschers und Entdeckers Alexander von Humboldt.<ref n="1" target="ftn1"/> Begleitet werden die Tagebücher von thematisch zugehörigen Briefen aus seinem weltumspannenden Korrespondentennetz sowie von Manuskripten aus seinem umfangreichen Nachlass, von denen viele bis dato nie veröffentlicht wurden. Ergänzt werden diese edierten Texte durch Forschungsbeiträge, eine Chronologie zu Humboldts Leben und umfangreiche Register. Die Publikationsstrategie ist “digital first”, d. h. die veröffentlichten Dokumente erscheinen zuerst online ohne Verzögerung durch ‘Moving Walls’ oder sonstige verlagsseitige Einschränkungen, und die gesamte Ausgabe ist unter einer Creative-Commons-Lizenz<ref n="2" target="ftn2"/> vollständig frei zugänglich. Mit der Veröffentlichung der ersten Bände der Print-Edition im Verlag Springer Nature/J. B. Metzler<ref n="3" target="ftn3"/> wurde die Hybridstrategie des Projekts umgesetzt. Realisiert wird die digitale Edition mit ediarum<ref n="4" target="ftn4"/>, das u. a. auf X-Technologien, der freien XML-Datenbank eXistdb und der Software Oxygen XML Author aufsetzt.
+            </p>
+            <p>Fünf Jahre nach dem Launch der 
+                <hi rend="italic">edition humboldt digital</hi> (
+                <hi rend="italic">ehd</hi>) haben wir acht Versionen dieser digitalen, textkritisch-dokumentarischen Edition<ref n="5" target="ftn5"/> vorgelegt. Mit der aktuellen Version 8 der 
+                <hi rend="italic">ehd</hi> (veröffentlicht im Mai 2022)<ref n="6" target="ftn6"/> lösen wir nun das Versprechen ein, Humboldts komplexe handschriftliche und schwer zu entziffernde Texte auch 
+                <hi rend="italic">als Daten</hi> bereitzustellen, indem wir (1) die kommentierten Texttranskriptionen von mehr als 500 Dokumenten (ca. 2.800 Seiten), (2) die umfassende Alexander von Humboldt-Chronologie mit ca. 1.600 datierten Ereignissen aus Humboldts fast 90-jährigem Leben und (3) ca. 18.000 Indexeinträge (z. B. Personen, Orte, Institutionen, bibliographische Einträge) auf GitHub (Ette et al. 2022) und (ab Winter 2022/23) auf Zenodo zur Verfügung stellen. Alle Datensätze liegen im TEI-XML-Format vor. Dem Single-Source-Prinzip folgend, basieren sowohl die digitale als auch die gedruckte Komponente (Buch, PDF und eBook-Derivate) vollständig auf denselben TEI-XML-kodierten Daten. Das TEI-XML-Subset der 
+                <hi rend="italic">ehd</hi> wurde durch Übernahme etablierter TEI-Spezifikationen, v. a. des Basisformats für Manuskripte des Deutschen Textarchivs (DTABf-M<ref n="7" target="ftn7"/>; Thomas/Haaf 2016-2019), entwickelt, um ein Höchstmaß an Standardisierung, Nachnutzbarkeit und Interoperabilität der Daten zu gewährleisten (Dumont/Haaf/Kraft/Czmiel/Thomas/Boenig 2016). Eine umfassende Dokumentation der Transkriptions- und Kodierungsrichtlinien steht zur Verfügung<ref n="8" target="ftn8"/> und kann von anderen, ähnlich gelagerten Projekten nachgenutzt werden<ref n="9" target="ftn9"/>. Gleichzeitig bringen sich die Projektmitarbeiter:innen aktiv in die Verbesserung von bestehenden Richtlinien ein<ref n="10" target="ftn10"/>. Dadurch fließen auf zweierlei Wegen Erfahrungen aus der editorischen Praxis in die Community zurück. 
+            </p>
+            <p>Seit Abschluss der Betaphase im Mai 2017 wird die 
+                <hi rend="italic">edition humboldt digital</hi> versioniert publiziert, d. h. die Daten werden nicht einfach aktualisiert und überschrieben, sondern durch jedes Update (mittlerweile einmal im Jahr) wird eine neue, zusätzliche Datenschicht hinzugefügt. Gleichzeitig werden alle vorangehenden Versionen weiterhin bereitgehalten und lassen sich über die Web-Oberfläche aufrufen – bis hin zu den Registereinträgen mit ihren dynamischen Verlinkungen. Die Datensätze werden in Zukunft immer als neue, zusätzliche Version publiziert. Ergänzt wird diese Versionierung seit 2022 durch die Einführung von “Editionsstufen”, die die unterschiedlichen Bearbeitungszustände systematisch abbilden.<ref n="11" target="ftn11"/> Zusammen mit der umfangreichen Dokumentation wird damit der gesamte Forschungs- und Editionsprozess offen gelegt und analysierbar. Einen ersten summarischen Überblick über den Fortschritt der 
+                <hi rend="italic">ehd</hi> gibt die mit Version 8 neu hinzugekommene “Versionsgeschichte”, die die acht publizierten Versionen auch quantitativ auswertet.<ref n="12" target="ftn12"/>
+            </p>
+            <p>Das nun zur Verfügung gestellte Datenset wird nicht direkt aus der eXistdb-Datenbank exportiert, sondern über die öffentlich zugängliche API abgerufen.<ref n="13" target="ftn13"/> Das ermöglicht diverse Optimierungen am Datenbestand für die externe Nachnutzung. So werden z. B. alle projektinternen IDs durch URIs aus Normdateien ersetzt – sofern eine solche in den einschlägigen Normdaten-Beständen vorhanden ist. Ist dies nicht der Fall, werden die projektinternen IDs als vollständige URIs ausgegeben und so immerhin technische Interoperabilität gewährleistet.
+            </p>
+            <p>Die Registereinträge werden, wo immer verfügbar, mit URIs aus Normdateien versehen. Insbesondere das Personenregister weist dabei großes Potenzial für die unmittelbare Nachnutzung auf, da zahlreiche historische Personen in Humboldts Texten noch nicht in der wichtigsten Normdatei für die deutschsprachige Forschungsgemeinschaft, der GND<ref n="14" target="ftn14"/> der Deutschen Nationalbibliothek, dokumentiert sind.<ref n="15" target="ftn15"/> Diese ergänzenden Daten können dazu beitragen, die Normdateien der Community, wie GND, Wikidata etc. zu verbessern. Dabei stellen sich unterschiedlich große Hürden für die Zuarbeit: während Wikidata von Prinzip her ein offenes Communityprojekt ist, ist die GND institutionell angesiedelt und wird redaktionell betreut. Die Zuarbeit zur GND wurde im Projekt GND4C grundsätzlich für nicht-bibliothekarische Bereiche geöffnet, in naher Zukunft sollen die Ergänzungsmöglichkeiten seitens des Editionsvorhaben ausgelotet werden. Leider stehen solche Zuarbeiten immer unter dem Vorbehalt der Projektkapazitäten, da sie bei der 
+                <hi rend="italic">ehd</hi> – ebenso wie in den meisten anderen Projekten – eigentlich nicht vorgesehen sind.
+            </p>
+            <p>Die API selbst bietet nicht ‘nur’ den Volltext an, sondern ebenfalls diverse Metadaten, um eine umfassende Vernetzung der Edition zu gewährleisten. So bietet eine Schnittstelle die Metadaten zu den edierten Texten und Forschungsbeiträgen unter anderem im Dublin Core-Format via OAI-PMH an. Dadurch werden alle diese Texte in der Open Access-Suchmaschine BASE nachgewiesen. Daneben werden eine BEACON-Schnittstelle und eine CMIF-Schnittstelle für correspSearch (Dumont, Grabsch und Müller-Laackman 2021) angeboten, die mittlerweile zu den ‘klassischen’ Ausstattungen einer digitalen Edition zählen dürfen. Eine Schnittstelle ins Semantic Web gibt es derzeit noch nicht.<ref n="16" target="ftn16"/> Grund dafür ist v.a., dass andere Schnittstellen und vor allem Funktionen der 
+                <hi rend="italic">ehd</hi> bisher im Fokus der Entwicklungsarbeit standen. Das Vorhaben läuft bis 2032 und lässt es daher grundsätzlich zu, in Zukunft auch diesen Bereich anzugehen. Denkbar wäre es, z.B. die Einträge der Chronologie oder der Register noch stärker zu schematisieren und tiefer zu kodieren, um dieses Wissen als Linked Open Data bereitzustellen. Das würde aber nicht nur Entwicklungsaufwand bedeuten, sondern auch erhebliche redaktionelle Arbeit, für die entsprechende Ressourcen geschaffen werden müssten. Die edierten Texte an sich werden für solch eine zusätzliche Aufbereitung - im Sinne einer “assertive edition” (Vogeler 2019) - wohl leider nicht in Frage kommen, dafür wäre der Aufwand (gegenüber dem Projektplan) zu hoch.
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="14.989527777777777cm" url="Pictures/f8956df225a9aa9851d2a83b0d78ee80.jpg" rend="inline"/>
+                <head>Abb. 1: Screenshot der Alexander von Humboldt-Chronologie in der 
+                <hi rend="italic">edition humboldt digital</hi> mit eingeblendeten Daten aus dem Hofkalendarium 1848.</head>
+            </figure>
+            <p>Die 
+                <hi rend="italic">edition humboldt digital</hi> stellt nicht nur ihre eigenen Daten zur Verfügung, sondern nutzt auch andere Daten nach und verwendet externe Webservices zur Anreicherung oder zur Vergrößerung des eigenen Funktionsumfangs. So werden die TEI-XML-Dateien zur Lemmatisierung an den Webservice DTA::CAB<ref n="17" target="ftn17"/> (Jurish 2011) geschickt, dort analysiert und angereichert und wieder zurück in die Datenbank gespeichert. Dadurch wird eine lemmabasierte Suche ermöglicht, die die unterschiedlichen Schreibweisen und Flektionsformen bei der Suche abfangen kann.<ref n="18" target="ftn18"/>
+            </p>
+            <p>Abgesehen von der Suche ist vor allem die Chronologie zu Alexander von Humboldts Leben ein zentraler Vernetzungs- und Integrationspunkt externer Ressourcen. Diese Chronologie wurde bereits in den 1960er Jahren an der damaligen Deutschen Akademie der Wissenschaften zu Berlin begonnen, in den 2000ern überarbeitet als HTML-Version im Web veröffentlicht und 2015/16 schließlich in TEI-XML überführt und in die 
+                <hi rend="italic">edition humboldt digital</hi> integriert. Dort wird sie fortlaufend gepflegt, erweitert, mit externen Quellen sowie mit den edierten Texten und Registereinträgen verlinkt. Darüber hinaus integriert sie automatisiert verschiedene externe Angebote und Dienste in die Edition, wie z. B. die Metadaten der publizierten Korrespondenz Alexander von Humboldts aus correspSearch<ref n="19" target="ftn19"/>, Schriften Humboldts aus dem Deutschen Textarchiv<ref n="20" target="ftn20"/> und Einträge aus dem Hofkalendarium der preußischen Monarchie<ref n="21" target="ftn21"/> mit Bezug zu Humboldts Leben (siehe Abb. 1). Dadurch öffnet die Chronologie die 
+                <hi rend="italic">edition humboldt digital</hi> nach außen hin zu zahlreichen extern vorliegenden Materialien und Informationen.
+            </p>
+            <p>Auch in den Registern werden externe Daten nachgenutzt. Zum einen werden die BEACON-Schnittstellen anderer ausgewählter digitaler Publikationen, wie die Kosmos-Vorlesungen Alexander von Humboldts im Deutschen Textarchiv, abgerufen und automatisiert verknüpft.<ref n="22" target="ftn22"/> Darüber hinaus werden ganze Datensätze der GND (also nicht nur die bloßen URIs) nachgenutzt. Mit ihrer Hilfe werden die Registereinträge der 
+                <hi rend="italic">ehd</hi> automatisiert 
+                <hi rend="italic">untereinander</hi> verlinkt – nämlich anhand der in der GND notierten familiären und freundschaftlichen Beziehungen. Außerdem können so Porträts von Wikimedia eingebunden werden. Ein Register, das in besonders großem Maße auf externe Dienste zurückgreift, ist das Pflanzenregister. Hier liegt in der Edition die Besonderheit vor, dass die Pflanzen nicht mit eigenen Registereinträgen versehen werden, sondern dieses Register ausschließlich automatisch über die taxonomischen Namen generiert wird. Dazu werden alle Pflanzennamen in den Transkriptionen von den Editor:innen auf ihren regulären Namen ergänzt oder korrigiert (natürlich nachverfolgbar). Anhand der taxonomischen Namen werden dann verschiedene Webservices abgefragt und automatisiert verknüpft. Damit öffnet die Edition v. a. die Tagebücher Humboldts für verschiedene Disziplinen wie die Biodiversitätsforschung.
+            </p>
+            <p>Mit der intensiven Nachnutzung externer Webservices und Daten erhöht sich der Nutzen einer digitalen Edition signifikant. Gleichzeitig stellt diese Nachnutzung neue Probleme und Herausforderungen an die Entwicklung und den Betrieb digitaler Editionen, da externe Dienste sich grundsätzlich ändern können (aktualisierte Schnittstellen, Änderungen im Format etc.). Das - und Fragen der Performance - führt dazu, dass diese externen Daten auch in der 
+                <hi rend="italic">edition humboldt digital</hi> vorgehalten werden müssen. Fraglich ist dann aber weiter, ob und in welchem Rahmen diese externen Daten auch in der Datenpublikation mitveröffentlicht werden können und müssen. Darüber hinaus kann man nicht garantieren, dass ein externer Dienst auch in Zukunft verfügbar sein wird. Das ist insbesondere ein Problem vor dem Hintergrund der relativ langen Laufzeit des Projekts: Werden die externen Services zur Anreicherung von Texten und Daten, die erst in den nächsten Jahren hinzukommen, noch vorhanden sein? Der Vortrag möchte am Beispiel der 
+                <hi rend="italic">edition humboldt digital</hi> diese und weitere Herausforderungen und Chancen einer ‘offenen Edition’ vorstellen und die damit zusammenhängenden, skizzierten Themenfelder Datenpublikation, Bereitstellung und Nachnutzung von APIs und externen Daten sowie Transparenz im Editions- und Forschungsprozess diskutieren.
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Projektbeschreibung auf den Seiten der BBAW: </hi>
+                        <ref target="http://www.bbaw.de/forschung/avh-r/uebersicht">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">http://www.bbaw.de/forschung/avh-r/uebersicht</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve"> (Zugriff für alle im Abstract angegebenen Links: 03. August 2022); </hi>
+                        <hi rend="italic" style="font-size:10pt">edition humboldt digital</hi>
+                        <hi style="font-size:10pt">:</hi>
+                        <ref target="https://edition-humboldt.de/" xml:space="preserve"> </ref>
+                        <ref target="https://edition-humboldt.de/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">. Vgl. dazu Kraft/Dumont 2020; zu dem auch im vorliegenden Abstract zentralen Aspekt der Vernetzung siehe die Zusammenfassung und Illustration dieses Ansatzes in Kraft/Dumont 2017.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> CC-BY-SA 4.0 (</hi>
+                        <ref target="https://creativecommons.org/licenses/by-sa/4.0/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://creativecommons.org/licenses/by-sa/4.0/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">) für die TEI-XML-Daten; CC-0 für die Register-Einträge und Metadaten zu den Dokumenten.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve">  Buchreihe </hi>
+                        <hi rend="italic" style="font-size:10pt">edition humboldt print</hi>
+                        <hi style="font-size:10pt">,</hi>
+                        <ref target="https://www.springer.com/series/16345" xml:space="preserve"> </ref>
+                        <ref target="https://www.springer.com/series/16345">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.springer.com/series/16345</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">. 2020 erschien der erste Band über die </hi>
+                        <hi rend="italic" style="font-size:10pt">Geographie der Pflanzen</hi>
+                        <hi style="font-size:10pt">, herausgegeben von Ulrich Päßler. 2022 wurde Band 1 der Amerikanischen Reisetagebücher von Carmen Götz 2022 herausgegeben, gefolgt von Band 1 der Russisch-Sibirischen Reisetagebücher, herausgegeben von Tobias Kraft und Florian Schnee, in 2023.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                    
+                        <ref target="https://www.ediarum.org/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.ediarum.org/</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">; zur Erfassungssoftware siehe Dumont et. al 2021. </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Siehe für eine Orientierung zum Editionsmodell der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt">Sahle 2016 sowie insbesondere zum Konzept der ‘documentary edition’ beispielsweise Pierazzo 2011.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Vgl. den Überblick zur Version 8 sowie den vorhergehenden Versionen der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">unter </hi>
+                        <ref target="https://edition-humboldt.de/H0020382">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/H0020382</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">; API: </hi>
+                        <ref target="https://edition-humboldt.de/about/index.xql?id=api">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/about/index.xql?id=api</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">; TEI-XML (der jeweils aktuellen Version der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt">)</hi>
+                        <ref target="https://edition-humboldt.de/api/v1.1/tei-xml.xql" xml:space="preserve"> </ref>
+                        <ref target="https://edition-humboldt.de/api/v1.1/tei-xml.xql">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/api/v1.1/tei-xml.xql</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                    
+                        <ref target="https://www.deutschestextarchiv.de/doku/basisformat/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.deutschestextarchiv.de/doku/basisformat/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Editionsrichtlinien der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">, v. 1.1.2 (9.5.2022), </hi>
+                        <ref target="https://edition-humboldt.de/richtlinien/index.html">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/richtlinien/index.html</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> So orientiert sich beispielsweise das Akademienvorhaben</hi>
+                        <hi rend="italic" style="font-size:10pt">Propyläen: Goethes Biographica</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (</hi>
+                        <ref target="https://goethe-biographica.de/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://goethe-biographica.de/</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">) im Zuge seiner Entwicklung eines TEI-XML-Datenmodells für diese Hybrid-Edition v. a. für die Briefe von und an Goethe sowie dessen Tagebücher an den Richtlinien der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Z. B. das TEIC/TEI Issue #2028 “@calendar should allow multiple values”,</hi>
+                        <ref target="https://github.com/TEIC/TEI/issues/2028" xml:space="preserve"> </ref>
+                        <ref target="https://github.com/TEIC/TEI/issues/2028">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://github.com/TEIC/TEI/issues/2028</hi>
+                        </ref>
+                        <hi style="font-size:10pt">, das aufgrund der Diskussion auf der TEI-Mailingliste (August 2020) entstand und zur Implementierung in die TEI P5 Guidelines v. 4.3.0 (2021-08-31) führte.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Mit Version 8 wurde dieses Feature erstmals umgesetzt, zunächst nur bei den Tagebüchern. Zu den Editionsstufen siehe </hi>
+                        <ref target="https://edition-humboldt.de/richtlinien/ediarum.AVHR/editionsstufen.html">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/richtlinien/ediarum.AVHR/editionsstufen.html</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn12" n="12">
+                    
+                        <ref target="https://edition-humboldt.de/H0020382">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/H0020382</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">. </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn13" n="13">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Von Axelle Lecroq wurde dafür die bereits seit Version 1 vorhandene API optimiert und ein entsprechendes Skript zum Abruf der Daten entwickelt. </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn14" n="14">
+                    
+                        <ref target="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn15" n="15">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Von derzeit 9022 vorliegenden Personenregistereinträgen sind 5581 mit einer GND-URI versehen, das entspricht rund 61% aller Personen. 663 Datensätze verfügen nur über eine VIAF-URI. Damit verfügen rund 40% über gar keine Norm-ID – i. d. R., weil kein Normdatensatz vorhanden ist.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn16" n="16">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Ein sehr kleiner Anfang konnte dennoch schon gemacht werden: In Wikidata wurden seitens der Freiwilligen dort bei den entsprechenden Personen die Perma-IDs der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> eingetragen, siehe z.B. </hi>
+                        <ref target="https://www.wikidata.org/wiki/Q132197">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.wikidata.org/wiki/Q132197</hi>
+                        </ref>
+                        <hi style="font-size:10pt">. Das war möglich, weil die ehd konsequent GND-IDs zu den Personen einträgt, falls vorhanden.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn17" n="17">
+                    
+                        <ref target="https://www.deutschestextarchiv.de/demo/cab/">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://www.deutschestextarchiv.de/cab/</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn18" n="18">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Die Suchfunktionalität auf der </hi>
+                        <hi rend="italic" style="font-size:10pt">ehd</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">-Seite wurde im Zuge der Version 8 (2022) grundlegend überarbeitet; siehe zur Einführung “ehd – explained. Kapitel 4: Die Suche” von Tobias Kraft, aufgenommen beim Humboldt-Tag am 16. September 2022 in der BBAW, verfügbar unter </hi>
+                        <ref target="https://youtu.be/l1D0zGd7osA">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://youtu.be/l1D0zGd7osA</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn19" n="19">
+                    
+                        <ref target="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn20" n="20">
+                    
+                        <ref target="https://edition-humboldt.de/chronologie/index.xql?jahr=1827&amp;dta=on">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/chronologie/index.xql?jahr=1827&amp;dta=on</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">. </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn21" n="21">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Vgl. Einleitung Hofkalendarium, </hi>
+                        <ref target="https://actaborussica.bbaw.de/v5/P0006298">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://actaborussica.bbaw.de/v5/P0006298</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve">, in Akademienvorhaben 2021.  </hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn22" n="22">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Siehe z. B. den Registereintrag zu August Böckh: </hi>
+                        <ref target="https://edition-humboldt.de/H0003413">
+                            <hi rend="underline color(1155CC)" style="font-size:10pt">https://edition-humboldt.de/H0003413</hi>
+                        </ref>
+                        <hi style="font-size:10pt">.</hi>
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Akademienvorhaben Anpassungsstrategien der späten mitteleuropäischen Monarchie am preußischen Beispiel (1786-1918) (Hg.).</hi> 2021
+                        <hi rend="italic">. Die Sprache der Monarchie (Version 5)</hi>. Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. URL:
+                        <ref target="https://actaborussica.bbaw.de/v5/P0006298" xml:space="preserve"> </ref>
+                        <ref target="https://actaborussica.bbaw.de/v5/P0006298">
+                            <hi rend="underline color(1155CC)">https://actaborussica.bbaw.de/</hi>
+                        </ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Dumont, Stefan und Susanne Haaf, Tobias Kraft, Alexander Czmiel, Christian Thomas, Matthias Boenig.</hi> 2016. “Applying Standard Formats and Tools: ‘Alexander von Humboldt auf Reisen’ as an Example for the Collective Subsequent Use of DTABf and ediarum”. Vortrag, 
+                        <hi rend="italic">TEI Conference and Members’ Meeting</hi>, Vienna. Abstract (PDF):
+                        <ref target="https://www.tei-c.org/Vault/MembersMeetings/2016/sites/default/files/TEIconf2016_BookOfAbstracts.pdf" xml:space="preserve"> </ref>
+                        <ref target="https://www.tei-c.org/Vault/MembersMeetings/2016/sites/default/files/TEIconf2016_BookOfAbstracts.pdf">
+                            <hi rend="underline color(1155CC)">https://www.tei-c.org/Vault/MembersMeetings/2016/sites/default/files/TEIconf2016_BookOfAbstracts.pdf</hi>
+                        </ref>, 69–70 (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Dumont, Stefan und Nadine Arndt, Sascha Grabsch, Lou Klappenbach.</hi> 2021. 
+                        <hi rend="italic">ediarum.BASE.edit (Version 2.0.0)</hi> [Computer software]. 
+                        <ref target="https://doi.org/10.5281/zenodo.5897100">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.5281/zenodo.5897100</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Stefan Dumont, Sascha Grabsch und Jonas Müller-Laackman (Hg.).</hi> 2021. 
+                        <hi rend="italic">correspSearch – Briefeditionen vernetzen (2.0.0)</hi> [Webservice]. Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. 
+                        <ref target="https://correspsearch.net">
+                            <hi rend="underline color(1155CC)">https://correspSearch.net</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Ette, Ottmar (Hg.).</hi> 2022. 
+                        <hi rend="italic">edition humboldt digital</hi> (Version 8). Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. 
+                        <ref target="https://edition-humboldt.de/">
+                            <hi rend="underline color(1155CC)">https://edition-humboldt.de/</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Ette, Ottmar und Stefan Dumont, Annika Geiser, Carmen Götz, Tobias Kraft, Ulrike Leitner, Ulrich Päßler, Florian Schnee, Christian Thomas (Hg.).</hi> 2022. 
+                        <hi rend="italic">TEI-XML-Datenset der Tagebücher, Briefe, Dokumente, Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt digital (Version 8)</hi>. Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. URL: 
+                        <ref target="https://github.com/telota/edition-humboldt-digital">https://github.com/telota/edition-humboldt-digital</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Jurish, Bryan.</hi> 2011. 
+                        <hi rend="italic">Finite-State Canonicalization Techniques for Historical German</hi>. Potsdam: Universität Potsdam.
+                        <ref target="https://doi.org/urn:nbn:de:kobv:517-opus-55789" xml:space="preserve"> </ref>
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:kobv:517-opus-55789">
+                            <hi rend="underline color(1155CC)">urn:nbn:de:kobv:517-opus-55789</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Kraft, Tobias und Stefan Dumont.</hi> 2017. 
+                        <hi rend="italic">Edition humboldt digital vernetzt</hi>, Poster. Zenodo. 
+                        <ref target="http://doi.org/10.5281/zenodo.1035134">
+                            <hi rend="underline color(1155CC)">http://doi.org/10.5281/zenodo.1035134</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Kraft, Tobias und Stefan Dumont.</hi> 2020. “The Humboldt Code. On creating a hybrid digital scholarly edition of a 19
+                        <hi rend="superscript">th</hi> century globetrotter.” In 
+                        <hi rend="italic">Wiener Digitale Revue</hi> 1. 
+                        <ref target="https://doi.org/10.25365/wdr-01-03-02">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.25365/wdr-01-03-02</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Pierazzo, Elena. </hi>2011. “A Rationale of Digital Documentary editions”. In 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>, 26,4, 463-477. 
+                        <ref target="https://doi.org/10.1093/llc/fqr033">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.1093/llc/fqr033</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Sahle, Patrick.</hi> 2016. “What is a Scholarly Digital Edition?” In 
+                        <hi rend="italic">Digital Scholarly Editing: Theories and Practices</hi>, hg. von Matthew James Driscoll und Elena Pierazzo, 19-39. Cambridge, UK: Open Book Publishers. 
+                        <ref target="https://books.openedition.org/obp/3397">
+                            <hi rend="underline color(1155CC)">https://books.openedition.org/obp/3397</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Thomas, Christian und Susanne Haaf. </hi>2016-2019. “Enabling the Encoding of Manuscripts within the DTABf: Extension and Modularization of the Format”. In 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> [Online], Issue 10 | December 2016 - July 2019.
+                        <ref target="https://doi.org/10.4000/jtei.1650" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.4000/jtei.1650">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.4000/jtei.1650</hi>
+                        </ref> (zugegriffen: 03. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Vogeler, Georg.</hi> 2019. „The ‘Assertive Edition’. On the Consequences of Digital Methods in Scholarly Editing for Historians“. 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1 (2): 309–22.
+                        <ref target="https://doi.org/10.1007/s42803-019-00025-5" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1007/s42803-019-00025-5">
+                            <hi rend="underline color(1155CC)">https://doi.org/10.1007/s42803-019-00025-5</hi>
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

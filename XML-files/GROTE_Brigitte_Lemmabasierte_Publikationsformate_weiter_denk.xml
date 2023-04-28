@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GROTE_Brigitte_Lemmabasierte_Publikationsformate_weiter_denk" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lemmabasierte Publikationsformate weiter denken mit dem "Open Encyclopedia System"</title>
+                <author>
+                    <persName>
+                        <surname>Grote</surname>
+                        <forename>Brigitte</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>brigitte.grote@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Strobl</surname>
+                        <forename>Maren</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>maren.strobl@fu-berlin.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T13:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digitales Publizieren</term>
+                    <term>open access</term>
+                    <term>Online-Referenzwerke</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Veröffentlichung</term>
+                    <term>Kollaboration</term>
+                    <term>Webentwicklung</term>
+                    <term>Daten</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung </head>
+                <p style="text-align: left; ">Eine zentrale Anforderung an die „Offenheit“ in der Wissenschaft, für die Geisteswissenschaften unter dem Label „Open Humanities“ eingeführt, ist die Publikation in offenen Formaten (Kleineberg, Kaden 2017; CfP Dhd 2023<ref n="1" target="ftn1"/>). Bisher orientieren sich geisteswissenschaftliche digitale Publikationen meist an den etablierten Printformaten Monographie, Zeitschriftenartikel und Sammelwerk<ref n="2" target="ftn2"/>; mit 
+                    <hi rend="italic">Open Monograph Press</hi> und 
+                    <hi rend="italic">Open Journal System</hi><ref n="3" target="ftn3"/> liegen erprobte Open-Access-Publikationsinfrastrukturen für Buchpublikationen und Zeitschriften vor. „Offenheit“ erfordert jedoch mehr als die freie Zugänglichkeit, sondern betrifft weiterhin die Offenheit der der Publikation zugrundeliegenden Daten (Open Data), des Quellcodes der Publikationsinfrastruktur (Open Source) und eine strukturelle Offenheit der Veröffentlichungen (u.a. Kleineberg, Kaden 2017; CfP Dhd 2023). Angesichts einer sich verändernden Publikationskultur in den Geisteswissenschaften ist es daher nicht mit der Schaffung digitaler Äquivalente zu Printformaten getan, vielmehr sollten Online-Publikationslösungen der Diskussion um alternative Veröffentlichungsformen Rechnung tragen: Zu nennen sind hier kollaborative Autorschaft (Kaden 2016, 4) und diskursive Schreibprozesse mit einer Bewegung „von der Ergebnis- zur Prozesspublikation“ (AG Digitales Publizieren 2021, 13), kleinformatige Veröffentlichungsformen und eine „strukturelle Ausdifferenzierung des Publikationsobjektes“ (Kaden 2016, 19), die semantisch annotiert sind. Entsprechend fordert der Wissenschaftsrat (2022, 54) dass „Voraussetzungen dafür zu schaffen [seien], dass auch neue, innovative Publikationsorte entstehen“ können.
+                </p>
+                <p style="text-align: left; ">Mit dem 
+                    <hi rend="italic">Open Encyclopedia System</hi> (OES)<ref n="4" target="ftn4"/> existiert eine webbasierte Plattform zur Erstellung, Publikation und Pflege von lemmabasierten Online-Publikationen. Darunter verstehen wir eine Sammlung von wissenschaftlichen Beiträgen zu einem bestimmten Themen- und/oder Methodenbereich, die von unterschiedlichen Autor:innen namentlich gekennzeichnet erstellt werden und deren Publikation durch ein Redaktionsteam betreut wird. OES unterstützt für diese Publikationsform die inkrementelle Erstellung und Verwaltung von Inhalten und Metadaten bis hin zur Einbettung von multimedialen Inhalten, Normdaten und bibliographischen Informationen, die Registererstellung, die Veröffentlichung mehrsprachiger zitierfähiger Artikel sowie vielfältige Formen der Navigation und Suche in und Interaktion mit den publizierten Inhalten, möglichst unter Berücksichtigung der o.g. Facetten von „Offenheit“. OES stellt so zum einen eine Open-Source-Anwendung für eine weitere zentrale Publikationsform der Geisteswissenschaften dar, und bietet zum anderen Lösungsansätze für offene und innovative Formate. Damit grenzt sich OES von bestehenden Publikationsinfrastrukturen für wissenschaftliche Online-Referenzwerke ab, die entweder proprietäre Lösungen oder an Verlagen angesiedelt sind, nicht primär für den wissenschaftlichen Gebrauch (Wikimedia) gedacht oder noch in Entwicklung (OAPEnz) sind.<ref n="5" target="ftn5"/>
+                </p>
+                <p style="text-align: left; ">OES wurde im Rahmen einer DFG-Förderung (LIS)<ref n="6" target="ftn6"/> am Center für Digitale Systeme der Freien Universität Berlin als Open Source Software entwickelt.<ref n="7" target="ftn7"/> Seit 2019 werden mit fachwissenschaftlichen Partner:innen Online-Publikationen mit OES realisiert:<ref n="8" target="ftn8"/>
+                    <anchor xml:id="ftnref2"/>wissenschaftliche Online-Enzyklopädien, Online-Compendien und -Lexika, sowie aktuell „Living Handbooks“ zur (kollaborativen) Verschriftlichung, Diskussion und Präsentation der Leitbegriffe interdisziplinärer Forschungsgruppen
+                    <hi rend="bold">.</hi> OES wird kontinuierlich weiterentwickelt; Betrieb und Pflege der Software werden durch die Freie Universität Berlin gesichert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>OES-Systemarchitektur und -Komponenten</head>
+                <p style="text-align: left; ">Die OES-Software basiert auf dem Open-Source Content-Management-System WordPress<ref n="9" target="ftn9"/>mit übernimmt dessen Systemarchitektur mit der Unterscheidung in Publikations- und Redaktionsumgebung, und ist als WordPress-Plugins mit zugehörigem Themes umgesetzt (vgl. Abb. 1). OES erweitert WordPress um vielfältige Funktionen zur Erstellung, Publikation und Pflege lemmabasierter Publikationen. 
+                </p>
+                <figure>
+                    <graphic n="1001" width="11.164991666666667cm" height="8.624869444444444cm" url="Pictures/d4b5046f15c32598531722ef0d09ea7a.png" rend="inline"/>
+                    <head>Abb.1: Aufbau der OES-Software </head>
+                </figure>
+                <p style="text-align: left; ">Über die interaktive 
+                    <hi rend="background(white)">Präsentationsschicht</hi> („frontend“) ist das Sammelwerk online zugänglich. Für die Präsentation der digitalen Inhalte entsprechend der definierten Datenstrukturen wurde ein WordPress-Theme entwickelt.<ref n="10" target="ftn10"/> Das OES-Theme erfüllt die gängigen Webstandards und ermöglicht eine barrierefreie und responsive Darstellung. Im 
+                    <hi rend="background(white)">Redaktionssystem (</hi>„editorial layer“) werden die redaktionellen Prozesse der Inhaltserstellung und Datenpflege sowie die Administration der Präsentationsschicht standordübergreifend und kollaborativ organisiert. Der OES Core-Plugin („OES Core“) enthält die OES-spezifischen WordPress-Erweiterungen und kann mit weiteren WordPress-Plugins kombiniert werden. OES nutzt für das Arbeiten mit strukturierten Daten das Open-Source Plugin Advanced Custom Fields (ACF).<ref n="11" target="ftn11"/> Die erstellten Inhalte werden in einer relationalen mySQL-
+                    <hi rend="background(white)">Datenbank</hi> („database“) verwaltet und können über eine csv-Schnittstelle strukturiert importiert und exportiert werden. WordPress selbst ermöglicht den Export der Datenbank als SQL-Datensatz und über eine REST API in XML/RDF-Formate. Weitere Exportformate können projektabhängig festgelegt und implementiert werden.
+                </p>
+                <p style="text-align: left; ">OES unterscheidet standardisierte Datenstrukturen und Funktionalitäten, die im OES-Core und OES-Theme zusammengefasst werden, von projektspezifischen Erweiterungen, die die zusätzlichen Bedarfe einzelner OES-Anwendungen abdecken. 
+                    <hi rend="background(white)">Jede OES-Instanz implementiert über einen OES Projekt-Plugin („</hi>OES Project“
+                    <hi rend="background(white)">) ein projektabhängiges Datenmodell, über welches projektspezifische Datenstrukturen, Präsentationen und Interaktionen der digitalen Inhalte definiert werden.</hi> Über Konfigurationsoptionen in der Redaktionsumgebung („OES-Settings“) lassen sich zahlreiche Aspekte der Präsentation administrieren; für weitere projektspezifische Anpassungen kann in Ergänzung zum OES-Theme ein Child-Theme („OES Project Theme“) erstellt werden. 
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="9.704916666666668cm" url="Pictures/36a33493d716378fd41d2f1ae067ff1b.jpg" rend="inline"/>
+                    <head>Abb. 2: Exemplarisches Datenmodell für OES</head>
+                </figure>
+                <p style="text-align: left; ">
+                    <hi rend="docdata">A</hi>bb. 2 illustriert anhand der für lemmabasierte Publikationen charakteristischen Inhaltstypen die Struktur eines OES-Datenmodells mit Datenobjekten wie Lemma, Verfasser:in und bibliographischer Eintrag, die mit Attributen angereichert werden können, und die über Relationen in Beziehung zu anderen Datenobjekten stehen. Schnittstellen zu externen Datenbeständen wie Normdatenbanken und Zotero<ref n="12" target="ftn12"/> erlauben eine dynamische Verknüpfung mit diesen strukturierten Informationssammlungen und die Übernahme von Daten. Attribute und Relationen werden bei der Darstellung in der Publikationsumgebung ausgewertet und unterstützen eine dynamische Anzeige der Daten. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mit OES im Open Access publizieren </head>
+                <p style="text-align: left; ">OES unterstützt die Open-Access-Publikation von lemmabasierten Werken und reagiert dabei auf die Anforderungen, die an zeitgemäße digitale Publikationen formuliert werden:<ref n="13" target="ftn13"/> Über die Redaktionsumgebung kann jedes Lemma separat lizensiert werden; OES unterstützt dabei die Auswahl unterschiedlicher CC-Lizenzen. Ebenso können für multimediale Elemente die spezifischen Lizenzierungen und Rechte einzeln ausgewiesen werden. Referenzierbarkeit und Zitierfähigkeit sind durch Angabe einer DOI gegeben; dieses gilt jeweils für die Fassung (Version oder Sprachfassung) eines Artikels, sodass die Persistenz der Referenz garantiert ist. Autor:innen und andere Beitragende können einzeln ausgewiesen und mit ORCID/GND-IDs aufgeführt (vgl. AG Digitales Publizieren 2021, 41) und „verschiedene Autorschafts- und Beiträger*innenrollen“ (ebd., 18) sichtbar gemacht werden. Eine standardisierte Zitierweise als obligatorische Angabe wird durch eine automatische Generierung nach einem durch die Redaktion definierten Muster<ref n="14" target="ftn14"/> garantiert (vgl. Abb. 4). Neben offener Zugänglichkeit und stabilem Nachweis ist die menschliche und maschinelle Weiternutzung der Inhalte eine zentrale Anforderung an offene Publikationen Die Bereitstellung der XML/TEI-Kodierung der generischen Textstruktur und der typischen Entitäten im Frontend ist in Vorbereitung. Ein PDF-Download kann über das Frontend bereitgestellt werden (vgl. Abb. 3).
+                </p>
+                <figure>
+                    <graphic n="1003" width="14.38cm" height="7.07cm" url="Pictures/6eb90337d3fc7273dcd987feb2b5d882.png" rend="inline"/>
+                    <head>Abb. 3: Ansicht eines Artikelheaders am Beispiel des Compendium Heroicum des SFB 948<ref n="15" target="ftn15"/>
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Offene Inhalte und Daten erstellen und pflegen</head>
+                <p style="text-align: left; ">Die OES-Redaktionsumgebung umfasst Funktionen zur Inhaltserstellung und Datenpflege, die kollaborativ von einem Redaktionsteam wahrgenommen werden. Zentrales Datenobjekt ist das Lemma („article“, Abb. 2), welches mit Inhaltsverzeichnis, Verfasser:in, Querverweisen und externen Verlinkungen, Einzelnachweisen in Form von Endnoten, bibliographischen Angaben, Zitiervorschlag und inhaltlichen und strukturellen Metadaten erstellt und publiziert werden kann (vgl. Abb. 3 und 4). OES unterstützt den Schreibprozess durch den um OES-spezifische Funktionalitäten erweiterten Gutenberg-Editor<ref n="16" target="ftn16"/> und durch an die OES-Inhaltstypen angepassten WordPress-Formulare für die Erstellung und Pflege der Vokabulare. Neben Textblöcken können multimediale Elemente einfach eingebunden und Querverweise innerhalb des Sammelwerks und zu externen Datenbeständen integriert werden. Für bibliographische Daten ist ein Import aus dem Literaturverwaltungsprogramm Zotero oder eine dynamische Anbindung über das Zotpress-Plugin<ref n="17" target="ftn17"/> möglich. Die Qualitätssicherung der Inhalte erfolgt in den aktuellen Anwendungen durch die Redaktion; die Review-Prozesse werden i.d.R. außerhalb von OES organisiert.<ref n="18" target="ftn18"/>
+                </p>
+                <p style="text-align: left; ">OES geht über das an Printformaten orientierte Konstrukt einer „Ergebnispublikation“ hinaus und ermöglich die Umsetzung dynamischer und kollaborativer Inhaltserstellung im Sinne einer Prozesspublikation (u.a. AG Digitales Publizieren 2021): Lemmata sind in OES veränderbar und können nach Erstveröffentlichung weitergeschrieben werden. Sie existieren in verschiedenen Text- und Sprachfassungen, den sog. Versionen, die über ein „Stammlemma“ miteinander in Beziehung stehen, und die Inhalte und strukturierte Daten teilen können. Dieser Abkehr einer reinen Ergebnispublikation geht mit der Herausforderung einher, Zitierfähigkeit und Referenzierbarkeit zu erhalten. OES sieht deshalb vor, dass alle Versionen mit einer eigenen DOI versehen werden können. Die aktuellste Version kann wie in Abb. 3 als Volltext, weitere als Liste angezeigt werden.</p>
+                <p style="text-align: left; ">Inkrementelles und dynamisches Publizieren kann noch weitergedacht werden als eine „strukturelle Ausdifferenzierung des Publikationsobjektes in unterschiedlich verarbeitbare und aktualisierbare Teile“ (Kaden 2016, 19). OES bietet erste Lösungen, indem es den modularen Aufbau von Lemmata ermöglicht,<ref n="19" target="ftn19"/> und so eine dynamische Bündelung und Ausgabe von Inhalten im Frontend unterstützt. Im Rahmen verschiedener Anwendungen<ref n="20" target="ftn20"/> werden aktuell strukturierte Formate und modulare Ansätze ausgearbeitet, um das „Dokument selbst als Einheit zu öffnen und zu verflüssigen“ (Kaden 2016, 19). Zu betrachten ist hierbei die Ausweitung des Autor:innenbegriffs, da diese Form der Publikation i.d.R. mit geteilter Autorschaft einhergeht, die neue Zitationspraktiken erfordern.
+                </p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="13.253861111111112cm" url="Pictures/ddbf3b2beb206a87eb00ed32befb8452.png" rend="inline"/>
+                    <head>Anzeige von Zitierweise und Metadaten am Beispiel des Compendium Heroicum des SFB 948<ref n="21" target="ftn21"/>
+                    </head>
+                </figure>
+                <p style="text-align: left; ">Auf der Präsentationsebene werden den Nutzenden vielfältige Optionen zur Erschließung der erstellten Inhalte angeboten: Die Inhalte können neben der für Referenzwerke typischen alphabetischen Listenansicht über thematische Rubriken, Register sowie über eine Volltextsuche mit Filteroptionen (facettierte Suche) aufgerufen werden. Für einzelne OES-Anwendungen wurden Visualisierungen wie Karten und Zeitstrahl zur Exploration der Inhalte entwickelt.<ref n="22" target="ftn22"/> Die Unterschiede zwischen den Anwendungen manifestieren sich aufgrund spezifischer Anforderungen der Zielgruppe und der Daten vor allem im Frontend, und erfordern projektspezifische Anpassungen (über OES-Konfigurationsoptionen) bzw. Erweiterungen (projektspezifische OES-Plugins und Themes).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenbestände verknüpfen und verfügbar machen </head>
+                <p style="text-align: left; ">Wie oben beschrieben werden die in OES gemäß dem Datenmodell erstellten Forschungsdaten über normierte Schnittstellen bereitgestellt. Gleichzeitig greift OES aber auch zum Zwecke der strukturierten Beschreibung, der eindeutigen Referenzierung, der Vernetzung der Inhalte sowie einer verbesserten Auffindbarkeit (u.a. Wissenschaftsrat 2022, 9; AG Digitales Publizieren 2021, 14) der OES-Datenbestände auf Normdateien und Verbundkataloge zu. OES unterstützt die Suche in und Datenübernahme aus ausgewählten Normdateien: Über die von lobid bereitgestellte API<ref n="23" target="ftn23"/> werden GND-Daten abgefragt, ortsgebundene Normdaten werden direkt vom Ortsnamensdienst Geonames<ref n="24" target="ftn24"/> abgerufen und die Subject Headings von der Library of Congress<ref n="25" target="ftn25"/>. Eine Anbindung von Wikidata und der Schlagwortnormdatei Rameau befindet sich in Umsetzung. Eine in die Redaktionsumgebung integrierte Auswahlmaske ermöglicht die Auswahl von GND- bzw. LCSH-Schlagworten und deren Zuweisung zu Lemmata sowie die Generierung von „shortlinks“ zu GND- und Geonames-Kennungen, mit denen Named Entities in den Volltexten verknüpft werden können. Diese Verweise ermöglichen im Frontend die dynamische Anzeige von ausgewählten Informationen aus dem verknüpften Normdatensatz. Weiterhin können über die LOD-Auswahlmaske für strukturierte Datenobjekte semi-automatisch Angaben aus den Normdatenbanken in den OES-Datenbestand übernommen werden. Weitere Verknüpfungsmöglichkeiten ergeben sich durch die bereits erwähnte persistente Identifizierung der Autor:innen mit ORCID und GND-ID sowie die dynamische Verknüpfung mit bibliographischen Einträgen in Zotero-Bibliotheken.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion und Ausblick </head>
+                <p style="text-align: left; ">Das 
+                    <hi rend="italic">Open Encyclopedia System</hi> fügt den Angeboten für wissenschaftliches digitales Publizieren eine weitere Open-Access-Lösung hinzu. Dabei bildet OES nicht primär bestehende Printformate nach, sondern strebt innovative und offene Publikationsformen an. Während hinsichtlich Open-Access-Veröffentlichungen und offene Daten tragfähige Lösungen entstanden sind, sind im Kontext offener Formate, sowohl inhaltlich als auch strukturell, zwar erste Lösungsansätze benannt, zu deren weiterer Ausgestaltung bedarf es jedoch noch konzeptioneller Überlegungen: Wie definiert sich Autorschaft bei modularen Publikationen? Wie kann in modularen und „fluiden“ Formaten punktgenau zitiert werden? Bis auf welche Strukturebene soll verschlagwortet werden? Welche Rollen und Beitragsmodi müssen ausgewiesen werden? Über welche Verfahren kann die Qualitätssicherung erfolgen? Diese Diskussion wird im OES-Kontext verstärkt im Rahmen der in interdisziplinären Forschungsverbünden verorteten OES-Anwendungen wie dem LHTC und dem Organon-Lexikon fortgeführt, die mit „lebhaften“ und modularen Publikationsformen experimentieren. Durch solche Diskussionen und die praktische Ausgestaltung weiterer OES-Anwendungen wird die Entwicklung des OES-Frameworks bzw. -Plugins auch in generischer Sicht vorangetrieben.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                        
+                            <ref target="https://tcdh.uni-trier.de/de/newsbeitrag/call-papers-dhd2023">https://tcdh.uni-trier.de/de/newsbeitrag/call-papers-dhd2023</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Alternativ werden „Sammelbandbeiträge“ (Kleineberg, Kaden 2017; Flüh 2019), „Sammelwerke“ (Projekt AuROA 2022) oder „“Enzyklopädie“ (Kohle 2017) genannt.
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                        
+                            <ref target="https://pkp.sfu.ca/omp/">https://pkp.sfu.ca/omp/</ref>, 
+                            <ref target="https://pkp.sfu.ca/ojs/">https://pkp.sfu.ca/ojs/</ref>
+                            <hi rend="docdata" xml:space="preserve"> </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                        
+                            <ref target="https://www.open-encyclopedia-system.org/">https://www.open-encyclopedia-system.org/</ref>; Apostolopoulos et al. (2017)
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                         OAPEnz wird als Erweiterung des Open-Access-Publikationsportal PUBLISSO entwickelt 
+                            <ref target="https://www.publisso.de/">https://www.publisso.de/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                         Im Rahmen des DFG- Projekts "Von 1914-1918-online zum Open Encyclopedia System" (2016-2020). Die Arbeiten bauen auf das Vorgängerprojekt „1914-1918 online: An International Encyclopedia of the First World War“ (DFG, 2012-2015) und dessen konzeptionellen Überlegungen zu Erstellung und Publikation wissenschaftlicher Online-Enzyklopädien auf.
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                         Der Quellcode ist unter einer GPLv2-Lizenz auf GitHub publiziert: 
+                            <ref target="https://github.com/open-encyclopedia-system/">https://github.com/open-encyclopedia-system/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                         Für Zusammenstellung aktueller OES-Anwendungen: 
+                            <ref target="https://www.open-encyclopedia-system.org/use-cases/">https://www.open-encyclopedia-system.org/use-cases/</ref>. Weitere sind in Vorbereitung bzw. Antragsstellung. 
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                        
+                            <ref target="https://wordpress.com/de/">https://wordpress.com/de/</ref> WordPress wird als Open-Source-Software von einer weltweiten Community permanent weiterentwickelt:
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                         Mit GPLv2-Lizenz auf GitHub publiziert 
+                            <ref target="https://github.com/open-encyclopedia-system/oes-theme">https://github.com/open-encyclopedia-system/oes-theme</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                        
+                            <ref target="https://www.advancedcustomfields.com/">https://www.advancedcustomfields.com/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn12" n="12">
+                        
+                            <ref target="https://www.zotero.org/">https://www.zotero.org/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn13" n="13">
+                         Die Ausführungen nehmen Bezug auf die in AG Digitales Publizieren (2021), Projekt AuROA (2022), Wissenschaftsrat (2022) genannten Anforderungen.
+                    </note>
+<note rend="footnote text" xml:id="ftn14" n="14">
+                         Neben den bibliographischen Angaben sind dieses i.d.R. Publikationsdatum, Versionsnummer und der Persistent Identifier (AG Digitales Publizieren 2021, 71). 
+                    </note>
+<note rend="footnote text" xml:id="ftn15" n="15">
+                            
+                                <ref target="https://www.compendium-heroicum.de/lemma/erinnerung-gedaechtnis-1-3/">https://www.compendium-heroicum.de/lemma/erinnerung-gedaechtnis-1-3/</ref>
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn16" n="16">
+                         Einen in WordPress integrierten blockbasierten WYSIWYG-Editor, der die Umsetzung modular aufgebauter Lemmata ermöglicht: 
+                            <ref target="https://de.wordpress.org/gutenberg/">https://de.wordpress.org/gutenberg/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn17" n="17">
+                        
+                            <ref target="https://de.wordpress.org/plugins/zotpress/">https://de.wordpress.org/plugins/zotpress/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn18" n="18">
+                         Z.B. unter Verwendung von Trello oder JIRA. Mit dem Artikel-Management-System ist eine OES-spezifische Lösung in Arbeit. 
+                    </note>
+<note rend="footnote text" xml:id="ftn19" n="19">
+                         Technisch wird dieses über spezifische Custom post types und deren Bündelung in sog. Containern bzw. der Verwendung von (OES-spezifischen) Blöcken im Gutenberg-Editor realisiert. 
+                    </note>
+<note rend="footnote text" xml:id="ftn20" n="20">
+                         CeMoG-Wissensbasis im Online-Compendium der deutsch-griechischen Verflechtungen (
+                            <ref target="https://comdeg.eu/wissensbasis/">https://comdeg.eu/wissensbasis/</ref>), Living Handbook of Temporal Communities (
+                            <ref target="https://www.temporal-communities.de/research/digital-communities/projects/lhtc/">https://www.temporal-communities.de/research/digital-communities/projects/lhtc/</ref>), Organon-Lexikon (
+                            <ref target="https://organon-lexicon.org">https://organon-lexicon.org</ref>)
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn21" n="21">
+                            
+                                <ref target="https://www.compendium-heroicum.de/lemma/heldennarrative/">https://www.compendium-heroicum.de/lemma/heldennarrative/</ref>
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn22" n="22">
+                         Eiserner Vorhang: 
+                            <ref target="https://todesopfer.eiserner-vorhang.de/">https://todesopfer.eiserner-vorhang.de/</ref>, B.forscht! 
+                            <ref target="https://projektbrowser.berliner-antike-kolleg.org/">https://projektbrowser.berliner-antike-kolleg.org/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn23" n="23">
+                         Lobid ist ein Dienst des Hochschulbibliothekszentrums NRW und bietet u.a. Zugriff auf die GND: 
+                            <ref target="https://lobid.org/gnd">https://lobid.org/gnd</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn24" n="24">
+                        
+                            <ref target="https://www.geonames.org/">https://www.geonames.org/</ref>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn25" n="25">
+                        
+                            <ref target="https://id.loc.gov/authorities/subjects.html">https://id.loc.gov/authorities/subjects.html</ref>
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">AG Digitales Publizieren (Hg). </hi>2021. „Digitales Publizieren in den Geisteswissenschaften: Begriffe, Standards, Empfehlungen.“ In 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> / Working Papers, 1. Wolfenbüttel. text/html Format. DOI: 
+                        <ref target="https://doi.org/10.17175/wp_2021_001">10.17175/wp_2021_001</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Apostolopoulos, N., I. Egilmez und C. Schimmel. </hi>2017. “Open Encyclopedia System. Open Source Software for Open Access Encyclopedias”. In 
+                        <hi rend="italic">Everything Changes, Everything Stays the Same? Understanding Information Spaces. Proceedings of the 15th International Symposium for Information Science (ISI 2017)</hi>, hg. von M. Gäde, V. Trkulja, und V. Petras,. Berlin, Glückstadt: 380-385. 
+                        <ref target="http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf">http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Flüh, M. </hi>2019. „Digitales Präsentieren und Publizieren“. In 
+                        <hi rend="italic">forTEXT. Literatur digital erforschen</hi>. 
+                        <ref target="https://fortext.net/routinen/methoden/digitales-praesentieren-und-publizieren">
+                            <hi rend="color(0066CC)">https://fortext.net/routinen/methoden/digitales-praesentieren-und-publizieren</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Kaden, B. </hi>2016. Zur Epistemologie digitaler Methoden in den Geisteswissenschaften. Zenodo. 
+                        <ref target="https://doi.org/10.5281/zenodo.50623">https://doi.org/10.5281/zenodo.50623</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Kleineberg, M. und B. Kaden. </hi>2017 „Open Humanities? Expertenmeinungen über Open Access in den Geisteswissenschaften“. In 
+                        <hi rend="italic">LIBREAS: Library Ideas</hi>, 32. 
+                    </bibl>
+                    <bibl><hi rend="bold">Kohle, H. </hi>2017. „Digitales Publizieren“. In 
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>, hg. Von F-Jannidis, H. Kohle und M. Rehbein, 199–205. Stuttgart: J.B. Metzler.
+                    </bibl>
+                    <bibl><hi rend="bold">Offen-Definition, Version 2.1. </hi>2022. “Open Knowledge Foundation: Open Definition. Defining Open in Open Data, Open Content and Open Knowledge”. 
+                        <ref target="https://opendefinition.org/od/2.1/de/">https://opendefinition.org/od/2.1/de/</ref> (zugegriffen: 1. August 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Projekt AuROA. </hi>2022. 
+                        <hi rend="italic">Publizieren und Open Access in den Geisteswissenschaften: Erkenntnisse aus dem Projekt AuROA zu den Stakeholdern im Publikationsprozess</hi>. Essen. 
+                        <ref target="https://projekt-auroa.de/wp-content/uploads/2022/03/AuROA-Publizieren-und-Open-Access-in-den-Geisteswissenschaften.pdf">
+                            <hi rend="color(0066CC)">https://projekt-auroa.de/wp-content/uploads/2022/03/AuROA-Publizieren-und-Open-Access-in-den-Geisteswissenschaften.pdf</hi>
+                        </ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Wissenschaftsrat (Hg.) </hi>2022. 
+                        <hi rend="italic">Empfehlungen zur Transformation des wissenschaftlichen Publizierens zu Open Access</hi>. 
+                        <ref target="https://doi.org/10.57674/fyrc-vb61">https://doi.org/10.57674/fyrc-vb61</ref> (zugegriffen: 25. Juli 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

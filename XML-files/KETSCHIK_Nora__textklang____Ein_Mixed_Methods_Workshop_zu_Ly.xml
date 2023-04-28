@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="KETSCHIK_Nora__textklang____Ein_Mixed_Methods_Workshop_zu_Ly" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>»textklang« – Ein Mixed-Methods-Workshop zu Lyrik in Text und Ton</title>
+                <author>
+                    <persName>
+                        <surname>Ketschik</surname>
+                        <forename>Nora</forename>
+                    </persName>
+                    <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+                    <email>nora.ketschik@ims.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0001-8758-5432</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bernhart</surname>
+                        <forename>Toni</forename>
+                    </persName>
+                    <affiliation>Institut für Literaturwissenschaft, Universität Stuttgart, Deutschland</affiliation>
+                    <email>toni.bernhart@ilw.uni-stuttgart.de</email>
+                    <idno type="ORCID">0000-0002-7255-2504</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gärtner</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+                    <email>markus.gaertner@ims.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Koch</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+                    <email>julia.koch@ims.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schauffler</surname>
+                        <forename>Nadja</forename>
+                    </persName>
+                    <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+                    <email>nadja.schauffler@ims.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kuhn</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart, Deutschland</affiliation>
+                    <email>jonas.kuhn@ims.uni-stuttgart.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T20:32:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Lyrik der Romantik</term>
+                    <term>Korpusexploration</term>
+                    <term>Sprachsynthese</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Kollaboration</term>
+                    <term>Sprache</term>
+                    <term>Methoden</term>
+                    <term>Ton</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Überlieferung von Texten ist vorwiegend an die schriftliche Form gebunden, die bis zur Erfindung von Tonaufnahmetechniken in der zweiten Hälfte des 19. Jahrhunderts die einzige Möglichkeit war, von Sprachbeiträgen nicht nur den Inhalt, sondern weitgehend auch die Darbietung festzuhalten. So haben sich literarische Traditionen und die wissenschaftliche Auseinandersetzung mit Literatur überwiegend entlang der schriftlichen Überlieferung entwickelt. Selbst bei Gattungen wie der Lyrik, in der Klang eine wichtige inhaltliche und ästhetische Rolle spielt (vgl. Richter et al. 2022), steht die Textform im Zentrum der kanonischen Überlieferung. Erst am Ende des 20. Jahrhunderts (u.a. angeregt durch die Sound Studies) haben sich in der Literaturwissenschaft Forschungsfelder zu Stimme, Klang, Akustik, Auditivität und Audioliteralität etabliert (Göttert 1998, Meyer-Kalkus 2001, Schulz 2018, Meyer-Kalkus 2020, Meyer-Sickendiek 2020). Bis auf wenige Ausnahmen (z.B. Rhythmicalizer, vgl. Meyer-Sieckendiek et al. 2017) folgen die Digital Humanities bislang recht stark dieser eingespielten Zugangsweise – obgleich seit etwa 1900 unzählige Tonaufnahmen von Rezitationen vorliegen. Auch in der linguistischen Prosodieforschung und in der Sprachtechnologie wurde über die letzten Jahrzehnte ein Methodeninventar entwickelt, das eine sehr differenzierte Formulierung von Hypothesen zur Beziehung zwischen Text und lautlicher Realisierung erlaubt. Unser Workshop führt empirische Methoden aus der Phonetik mit aktuellen Technologien der Sprachsynthese und literaturwissenschaftlicher Forschung zur Lyrik der Romantik in einem Mixed-Methods-Workflow zusammen und bietet den Teilnehmenden auf diese Weise die Möglichkeit, das Wechselspiel von Textlichkeit und lautlicher Realisierung im Gedichtekorpus explorativ zu erkunden.<ref n="1" target="ftn1"/>
+                </p>
+                <p>Der Workshop knüpft an Arbeiten aus dem BMBF-geförderten Projekt »textklang«<ref n="2" target="ftn2"/> an. In »textklang« kooperieren das Deutsche Literaturarchiv (DLA) Marbach sowie das Institut für Maschinelle Sprachverarbeitung und das Institut für Literaturwissenschaft der Universität Stuttgart, die Expertise in unterschiedlichen relevanten Fachgebieten vereinen. Der Fokus des Projekts liegt auf der Erschließung und Analyse lyrischer Texte der Romantik, wobei der Zusammenhang zwischen dem geschriebenen Text und seiner lautlichen Realisierung in Rezitationen und Vertonungen in den Blick genommen wird. 
+                </p>
+                <p>Das beim Workshop verwendete Forschungskorpus zur Lyrik der Romantik speist sich aus der Mediendokumentation des DLA Marbach, die etwa 2700 Audioaufzeichnungen verschiedener Sprecher*innen seit den 1920ern beherbergt. Diese werden im Zuge des Projekts digitalisiert und um die dazugehörigen Metadaten und Transkripte ergänzt; darüber hinaus werden Texte und Rezitationen mit automatisch erzeugten Annotationen angereichert (siehe Schauffler et al. 2022b für eine Übersicht). Aktuell umfasst das »textklang«-Korpus 1261 Audioaufnahmen zu 786 Gedichten. Metadaten, Textdateien und lizenzfreie Audiodaten werden kontinuierlich über eine interaktive Webseite veröffentlicht.<ref n="3" target="ftn3"/>
+                </p>
+                <p>In unserem Workshop kommen alle Bereiche des Mixed-Methods-Workflows zum Einsatz, indem Ansätze aus traditionell sehr unterschiedlich arbeitenden Disziplinen zusammengeführt werden. Das Analysetool ICARUS (Gärtner et al. 2015) unterstützt den korpus- und textorientierten Zugang, bildet dabei aber neben morphosyntaktischen Annotationen der Texte auch die phonetischen Annotationen der Rezitationen ab. Hierfür kommen Verfahren aus der Phonetik zum Einsatz, die die Eigenschaften des Sprachsignals systematisch erfassen. Sprachtechnologische Verfahren der Signalanalyse und -manipulation ermöglichen es sodann, bestimmte Annahmen über ein Re-Synthese-Tool kontrolliert zu testen. Der Bedarf für ein so weit gefasstes Methodenspektrum folgt aus den Grundeigenschaften des Untersuchungsgegenstands selbst. Der Workshop leistet einen Beitrag, die fachspezifischen Ansätze methodologisch zusammenzuführen und auf diese Weise den insbesondere für Lyrik zentralen Zusammenhang von Text und Klang in den Blick zu rücken.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Use-Cases</head>
+                <p>Idee des Workshops ist, dass die Teilnehmenden ihre eigenen Fragestellungen an Rezitationen von Lyrik der Romantik mitbringen können und darauf aufbauend während der Datenexploration Hypothesen entwickeln. Alternativ können die von uns vorgeschlagenen Fragestellungen aufgegriffen werden. Im Workshop thematisieren wir mehrere Use-Cases aus dem Projektkontext, darunter die Realisierung paralleler Strukturen (z.B. Reim, Satzbau), die unter strukturellen, semantischen und melodischen Aspekten von Interesse sind. Eine andere Fallstudie untersucht unterschiedliche Realisierungen von Enjambements (Schauffler et al. 2022a), die im Spannungsfeld von Vers- und Satzstruktur stehen. In Rezitationen können Sprecher*innen die syntaktische Einheit betonen, die Versgrenze markieren oder einen Mittelweg wählen (vgl. Tsur und Gafni 2019).</p>
+                <p>Ein weiterer Anwendungsfall, der exemplarisch etwas näher erläutert werden soll, beschäftigt sich mit Interjektionen. Interjektionen bezeichnen Ausrufe- oder Empfindungsworte (z. B. “ach”, “oh”, “juchhe”) und stehen im Grenzbereich von Schriftlichkeit und Mündlichkeit (Wharton 2003, Liedtke 2019). Sie nehmen eine syntaktische Sonderrolle ein und werden in der Linguistik als eigenständige Klasse behandelt, den Partikeln zugeordnet oder als Satzäquivalente angesehen (Liedtke 2019). Sie tragen einerseits denotativ keine Bedeutung, bringen andererseits Emotionen verschiedenster Art und in unterschiedlichen Intensitätsgraden zum Ausdruck (Schwarz-Friesel 2013, 155-157). Mit dem hier vorgestellten Mixed-Methods-Ansatz soll der Spielraum und der besondere textlich-klangliche (Zwischen-)Status von Interjektionen untersucht werden. Dabei interessiert zum einen die syntaktische Stellung von Interjektionen, zum anderen ihr Bedeutungsspektrum sowie, als dritter Aspekt, ihre lautliche Ausprägung. Die “Offenheit” dieser Wortart legt die Hypothese nahe, dass die verschiedenen Ebenen sich gegenseitig beeinflussen können, beispielsweise das syntaktische Umfeld die lautlichen Realisierungen in der Rezitation prägt oder bestimmte klangliche Merkmale die Bedeutung von Interjektionen ausmachen. </p>
+                    <figure>
+                        <graphic n="1001" width="13.052777777777777cm" height="4.780138888888889cm" url="Pictures/a3fb2433f94d8f68617765a4e0defb6c.jpeg" rend="inline"/>
+                        <head>Abb.1</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1002" width="13.070416666666667cm" height="4.780138888888889cm" url="Pictures/989ca8d48852bf70ec3f86555ecff410.jpeg" rend="inline"/>
+                        <head>Abb.2</head>
+                    </figure>
+                <p>Die abgedruckten Beispiele deuten die syntaktisch-lautlichen Spielräume der Interjektion “Ach” im Gedichtekorpus an: Während sie im ersten Beispiel syntaktisch isoliert steht (markiert durch den Tonhöhenverlauf und die Sprechpause), wird sie im zweiten Beispiel syntaktisch und lautlich in den Satz integriert. Auch die mit dem “Ach” ausgedrückten Emotionen (im ersten Beispiel Schwermut, im zweiten Freude) changieren und werden – neben dem semantischen Kontext des Wortes – von der jeweiligen sprachlichen Realisierung beeinflusst. Mögliche Leitfragen für weitere Untersuchungen könnten sein: Welche syntaktischen Merkmale von Interjektionen gehen mit welchen lautlichen Merkmalen einher? Werden Interjektionen in gleicher (syntaktischer) Position lautlich parallel realisiert? Welche Varianz ist zwischen unterschiedlichen Sprecher*innen zu beobachten? Inwiefern beeinflusst die lautliche Realisierung die Bedeutung oder Wahrnehmung von Interjektionen? </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Tools</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Icarus</head>
+                    <p>Für die Exploration und Visualisierung des Korpus mit allen Annotationsebenen verwenden wir ICARUS (Gärtner 2015) als Anfrageschnittstelle. ICARUS erlaubt eine gemeinsame Visualisierung von prosodischen Informationen und klassischen morphosyntaktischen Annotationen. Darüber hinaus können gezielt Anfragen unter Einbeziehung aller im Korpus verfügbaren Annotationsebenen gestellt werden, um Instanzen bestimmter Phänomene zu finden. An Annotationen stehen sämtliche für das GRAIN Korpus (Schweitzer et al. 2018) beschriebenen morphosyntaktischen und prosodischen Ebenen zur Verfügung. Darüber hinaus sind die Gedichte auch mit Markierungen zu Vers- und Strophenenden versehen, welche ebenfalls in Abfragen benutzt werden können. Je nach Entwicklungsfortschritt wird ICARUS als Desktop-Applikation<ref n="4" target="ftn4"/> eingesetzt oder in der Variante einer auf das »textklang«-Korpus zugeschnittenen Web-Oberfläche bereitgestellt. 
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>IMS Speech Synthesis Toolkit Toucan</head>
+                    <p>Die durch die Datenexploration entwickelten Hypothesen über Zusammenhänge zwischen Text und lautsprachlicher Realisierung sollen in Perzeptionsexperimenten untersucht werden. Mittels Sprachsynthese erstellen wir zu diesem Zweck eine prosodische Replikation der Originalaufnahmen, wobei phonetische Details (z.B. Lautdauer, Tonhöhe) gezielt manipuliert werden können (Koch et al. 2022). Unser Synthesemodell basiert auf der Modellarchitektur von FastSpeech 2 (vgl. Ren 2021), für die Implementierung nutzen wir das open-source Toolkit IMS Toucan<ref n="5" target="ftn5"/> (Lux et al. 2021, Lux und Vu 2022). Die Workshopteilnehmer*innen können über eine Bedienoberfläche mit dem Modell interagieren, indem sie spezifische, mit einem Phänomen verbundene Merkmale verändern und anschließend die Effekte der veränderten Parameter in der Perzeption testen. Beispielsweise kann die Längung, mit der ein Sprecher etwa das Versende markiert, verkürzt werden, die Tonhöhe an einer bestimmten Stelle angepasst oder die Dauer von Pausen verändert werden.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ablauf und Ziele</head>
+                <p>Wir beginnen den Workshop mit einer Einführung in den multimodalen Ansatz und adressieren die methodologisch wie wissenschaftstheoretisch relevante Frage, wie die Spezialisierungen der Fachgebiete innerhalb der DH sinnvoll zusammengeführt werden können. Anschließend präsentieren wir mögliche Forschungsbeispiele und führen in die verwendeten Tools ein.</p>
+                <p>In zwei Praxisrunden haben die Teilnehmenden die Möglichkeit, das Lyrikkorpus zu erforschen, eigene Forschungsfragen zu entwickeln sowie diese exemplarisch zu untersuchen. Dies kann individuell oder in Kleingruppen geschehen. Die erste Praxisrunde dient der Exploration des Korpus und der Entwicklung möglicher Hypothesen. Hierfür kommt das Tool ICARUS zum Einsatz, über das die Teilnehmer*innen die verschiedenen Annotationsebenen (u.a. morphosyntaktisch, phonetisch) sichten und komplexe Suchanfragen an die Texte modellieren können. Auf Grundlage der Annotationen zur Text- und Lautgestalt können Forschungsfragen entwickelt oder eine der vorgestellten Fragestellungen aus der theoretischen Einführung exploriert werden. Nach einer Zusammenschau der Hypothesen dient die zweite Praxisrunde dazu, ausgewählte Fragestellungen probeweise zu validieren, indem die Annahmen in das Sprachsynthesemodell überführt werden. Wenn beispielsweise die Annahme besteht, dass die Längung und die Tonhöhe einen Einfluss darauf haben, ob die “bedeutungsfreie” Interjektion “Ach” negativ oder positiv konnotiert ist, können ebendiese Merkmale in der Sprachsynthese gezielt modifiziert und die Effekte dieser Veränderungen getestet werden.</p>
+                <p>Die Ziele des Workshops bestehen folglich darin, die Möglichkeiten des Mixed-Methods-Ansatzes auszuschöpfen und Lyrik in ihrer Multimodalität erforschbar zu machen. Dabei liegt ein besonderer Schwerpunkt darauf, zu zeigen, wie fruchtbar das Zusammenspiel von textlicher und klanglicher Ebene sein kann. Zwar können die zu behandelnden Fragestellungen im Rahmen des Workshops nur ansatzweise durchgespielt werden, sie können dabei aber die Potenziale des interdisziplinären Ansatzes offenlegen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anhang</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Zeitplan</head>
+<list type="ordered">
+                        <item>Einführung und Ablauf (15 Min) </item>
+                        <item>Theoretischer Teil (30 Min)
+<list type="ordered">
+                                <item>Vorstellung der Projektidee</item>
+                                <item>Einführung in die Use-Cases</item>
+                                <item>Einführung in die verwendeten Tools 
+                                    (anschließende Pause, 15 Min)
+                                </item>
+                            </list>
+                        </item>
+                        <item>Praktischer Teil
+<list type="ordered">
+                                <item>Erste Praxisrunde: Exploration der Daten, Entwicklung von Hypothesen (45 Min)</item>
+                                <item>Sammeln der Ergebnisse, Vorstellung möglicher Fragestellungen (15 Min) 
+                                    (anschließende Pause, 30 Min)
+                                </item>
+                                <item>Zweite Praxisrunde: Bearbeitung der Fragestellungen, Syntheseexperimente (45 Min)</item>
+                                <item>Sammeln der Ergebnisse (15 Min)</item>
+                            </list>
+                        </item>
+                        <item>Abschlussdiskussion (30 Min)</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Teilnehmer*innen</head>
+                    <p>Unser Workshop ist für ca. 20 Teilnehmer*innen geeignet und richtet sich an Interessierte aus den digitalen Geisteswissenschaften. Bestimmte technische Vorkenntnisse sind nicht erforderlich. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Technische Ausstattung</head>
+                    <p>Die Teilnehmenden arbeiten an ihren eigenen Laptops. Ausreichend Steckdosen, stabiles Wifi und ein Beamer sollten vorhanden sein. Installationshinweise werden im Vorfeld an die Teilnehmer*innen verschickt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Beitragende</head>
+                    <p>Nora Ketschik (Institut für Maschinelle Sprachverarbeitung (IMS), Universität Stuttgart, 
+                        <ref target="mailto:nora.ketschik@ims.uni-stuttgart.de">nora.ketschik@ims.uni-stuttgart.de</ref>) ist wissenschaftliche Mitarbeiterin an der Universität Stuttgart. Sie promoviert zu Netzwerkanalysen von mittelhochdeutschen Romanen und setzt sich kritisch mit der Verwendung computergestützter Methoden für literaturwissenschaftliche Analysezwecke auseinander. 
+                    </p>
+                    <p>Toni Bernhart (Institut für Literaturwissenschaft, Universität Stuttgart, 
+                        <ref target="mailto:toni.bernhart@ilw.uni-stuttgart.de">
+                            <hi rend="underline color(1155CC)">toni.bernhart@ilw.uni-stuttgart.de</hi>
+                        </ref>) ist Privatdozent für Neuere deutsche Literatur und wissenschaftlicher Mitarbeiter der Abteilung Digital Humanities an der Universität Stuttgart. Seine Forschungsschwerpunkte sind die Imaginationsgeschichte von ‘Volkspoesie’, Auditivität und Literatur, Quantitative Literaturwissenschaft und Wissenschaftsgeschichte der Digital Humanities.
+                    </p>
+                    <p>Markus Gärtner (IMS, Universität Stuttgart, 
+                        <ref target="mailto:markus.gaertner@ims.uni-stuggart.de">
+                            <hi rend="underline color(1155CC)">markus.gaertner@ims.uni-stuggart.de</hi>
+                        </ref>) ist wissenschaftlicher Mitarbeiter und Doktorand an der Universität Stuttgart und regelmäßig in der technischen Konzeption und Umsetzung von infrastrukturell fokussierten Projekten tätig. 
+                    </p>
+                    <p>Julia Koch (IMS, Universität Stuttgart, 
+                        <ref target="mailto:julia.koch@ims.uni-stuttgart.de">
+                            <hi rend="underline color(1155CC)">julia.koch@ims.uni-stuttgart.de</hi>
+                        </ref>) ist wissenschaftliche Mitarbeiterin und Doktorandin an der Universität Stuttgart. In ihrer Promotion arbeitet sie an Deep Learning Modellen für Sprachsynthese mit besonderem Fokus auf Kontrollierbarkeit.
+                    </p>
+                    <p>Nadja Schauffler (IMS, Universität Stuttgart, 
+                        <ref target="mailto:nadja.schauffler@ims.uni-stuttgart.de">
+                            <hi rend="underline color(1155CC)">nadja.schauffler@ims.uni-stuttgart.de</hi>
+                        </ref>) ist wissenschaftliche Mitarbeiterin an den Instituten für Maschinelle Sprachverarbeitung und Linguistik an der Universität Stuttgart und Postdoc im Projekt »textklang«, wo sie sich vor allem mit prosodischer Varianz beschäftigt. 
+                    </p>
+                    <p>Jonas Kuhn (IMS, Universität Stuttgart, 
+                        <ref target="mailto:jonas.kuhn@ims.uni-stuttgart.de">
+                            <hi rend="underline color(1155CC)">jonas.kuhn@ims.uni-stuttgart.de</hi>
+                        </ref>) ist Professor für Computerlinguistik am Institut für Maschinelle Sprachverarbeitung und seit vielen Jahren an interdisziplinären Projekten zur Methodenentwicklung für die Digital Humanities beteiligt. Er ist federführender Projektleiter des BMBF-Projekts »textklang«.
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Rollen der Beitragenden: Nora Ketschik (Writing - original draft, Investigation, Methodology), Toni Bernhart (Writing - review and editing), Markus Gärtner (Software), Julia Koch (Software), Nadja Schauffler (Writing - original draft, Investigation, Methodology), Jonas Kuhn (Conceptualization, Methodology, Supervision).
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                        
+                            <ref target="https://textklang.org/">https://textklang.org/</ref> (19.07.2022).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                         Interaktive Übersicht des »textklang«-Korpus: 
+                            <ref target="https://clarin03.ims.uni-stuttgart.de/keshif/demo/textklang.html">https://clarin03.ims.uni-stuttgart.de/keshif/demo/textklang.html</ref> (19.07.2022). Die Übersicht ist auch unter “Data” auf der Projektseite (
+                            <ref target="https://textklang.org/">https://textklang.org/</ref>) abrufbar.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                             ICARUS ist unter 
+                                <ref target="https://github.com/ICARUS-tooling/icarus1-platform">
+                                    <hi rend="color(1155CC)">https://github.com/ICARUS-tooling/icarus1-platform</hi>
+                                </ref> (19.07.2022) bereits open source verfügbar und kann im Voraus von Teilnehmer*innen heruntergeladen werden.
+                            
+                        </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                            
+                                <ref target="https://github.com/DigitalPhonetics/IMS-Toucan">https://github.com/DigitalPhonetics/IMS-Toucan</ref> (19.07.2022).
+                            
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Gärtner, Markus, Katrin Schweitzer, Kerstin Eckart und Jonas Kuhn.</hi> 2015. “Multi-modal Visualization and Search for Text and Prosody Annotations.” In 
+                        <hi rend="italic">Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing: System Demonstrations</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Göttert, Karl-Heinz.</hi> 1998. 
+                        <hi rend="italic">Geschichte der Stimme</hi>. München: Fink.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Koch, Julia, Florian Lux, Nadja Schauffler, Toni Bernhart, Felix Dieterle, Jonas Kuhn, Sandra Richter, Gabriel Viehhauser und Ngoc Thang Vu.</hi> 2022. “PoeticTTS – Controllable Poetry Reading for Literary Studies.” In 
+                        <hi rend="italic">Proceedings of Interspeech 2022.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Liedtke, Frank und Lena Rosenbaum.</hi> 2019. “Interjektionen und Kontextbezug. Pragmatische Templates als Analysemodell.” In 
+                        <hi rend="italic">Expressivität im Deutschen</hi>, hg. von Franz d’Avis und Rita Finkbeiner, 129–148. Berlin/Boston: De Gruyter. 
+                        <ref target="https://doi.org/10.1515/9783110630190">
+                            <hi rend="underline color(1155CC)">10.1515/9783110630190</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lux, Florian, Julia Koch, Antje Schweitzer und Ngoc Thang Vu.</hi> 2021. “The IMS Toucan system for the Blizzard Challenge 2021.” In 
+                        <hi rend="italic">Proceedings of the Blizzard Challenge Workshop</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lux, Florian und Thang Vu.</hi> 2022. “Language-Agnostic Meta-Learning for Low-Resource Text-to-Speech with Articulatory Features.” In 
+                        <hi rend="italic">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meyer-Kalkus, Reinhart.</hi> 2001. 
+                        <hi rend="italic">Stimme und Sprechkünste im 20. Jahrhundert</hi>. Berlin: Akademie Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meyer-Kalkus, Reinhart.</hi> 2020. 
+                        <hi rend="italic">Geschichte der literarischen Vortragskunst</hi>. Berlin: Metzler. 
+                        <ref target="https://doi.org/10.1007/978-3-476-04802-8">https://doi.org/10.1007/978-3-476-04802-8</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meyer-Sickendiek, Burkhard.</hi> 2020. 
+                        <hi rend="italic">Hörlyrik. Eine interaktive Gattungstheorie</hi>. Paderborn: Fink.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Meyer-Sickendiek, Burkhard, Hussein Hussein und Timo Baumann. </hi>2017. „Rhythmicalizer. Data Analysis for the Identification of Rhythmic Patterns in Readout Poetry.” In 
+                        <hi rend="italic">INFORMATIK 2017. Lecture Notes in Informatics (LNI) - Proceedings</hi>, hg. von Maximilian Eibl und Martin Gaedke, 2189–2200. Bonn: Köllen Druck + Verlag GmbH (Series of the Gesellschaft für Informatik 275). 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Ren, Yi, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao und Tie-Yan Liu. </hi>2021. “FastSpeech 2: Fast and High-Quality End-to-End Text to Speech.” In 
+                        <hi rend="italic">International Conference on Learning Representations</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Richter, Sandra, Toni Bernhart, Felix Dieterle, Gabriel Viehhauser, Gunilla Eschenbach, Jonas Kuhn, Nadja Schauffler, André Blessing, Markus Gärtner, Kerstin Jung, Nora Ketschik, Anna Kinder, Julia Koch, Thang Vu und Andreas Kozlik.</hi> 2022. “Der Klang der Lyrik. Zur Konzeptualisierung von Sprecher und Stimme, auch für die computationelle Analyse.” 
+                        <hi rend="italic">Poema. Jahrbuch für Lyrikforschung / Annual for the Study of Lyrical Poetry / La recherche annuelle en poésie lyrique</hi> 1 (im Erscheinen).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schauffler, Nadja, Fabian Schubö, Toni Bernhart, Gunilla Eschenbach, Julia Koch, Sandra Richter, Gabriel Viehhauser, Thang Vu, Lorenz Wesemann und Jonas Kuhn. 2022a</hi>. “Prosodic realisation of enjambment in recitations of German poetry.” In 
+                        <hi rend="italic">Proceedings of the 11th international Conference on Speech Prosody</hi>, 530-534. 
+                        <ref target="https://www.isca-speech.org/archive/speechprosody_2022/schauffler22_speechprosody.html">
+                            <hi rend="underline color(1155CC)">10.21437/SpeechProsody.2022-108</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schauffler, Nadja, Toni Bernhart, André Blessing, Gunilla Eschenbach, Markus Gärtner, Kerstin Jung, Anna Kinder, Julia Koch, Sandra Richter, Gabriel Viehhauser, Thang Vu, Lorenz Wesemann und Jonas Kuhn.</hi> 2022b. “»textklang« – Towards a Multi-Modal Exploration Platform for German Poetry.” In 
+                        <hi rend="italic">Proceedings of the 13th edition of the Language Resources and Evaluation Conference (LREC)</hi>, 5345-5355.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schulz, Miklas.</hi> 2018. 
+                        <hi rend="italic">Hören als Praxis. Sinnliche Wahrnehmungsweisen technisch 
+                            <lb/>(re-)produzierter Sprache.
+                        </hi> Wiesbaden: Springer (Auditive Vergesellschaftungen Hörsinn - Audiotechnik - Musikerleben). 
+                        <ref target="https://doi.org/10.1007/978-3-658-19654-7">https://doi.org/10.1007/978-3-658-19654-7</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Schwarz-Friesel, Monika. </hi>2013. 
+                        <hi rend="italic">Sprache und Emotion.</hi> 2. Aufl. Tübingen: Narr Francke Attempto Verlag. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schweitzer, Katrin, Kerstin Eckart, Markus Gärtner, Agnieszka Falenska, Arndt Riester, Ina Rösiger, Antje Schweitzer, Sabrina Stehwien und Jonas Kuhn.</hi> 2018. “German Radio Interviews: The GRAIN Release of the SFB732 Silver Standard Collection.” In
+                        <hi rend="italic" xml:space="preserve"> Proceedings of the 11th edition of the Language Resources and Evaluation Conference (LREC)</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tsur, Reuven und Chen Gafni.</hi> 2019. “Enjambment - irony, wit, emotion. A case study suggesting wider principles.” 
+                        <hi rend="italic">Studia Metrica et Poetica</hi> (5): 7–28.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Wharton, Tim. </hi>2003. “Interjections, Language, and the 'Showing/Saying' Continuum.” 
+                        <hi rend="italic">Pragmatics and Cognition</hi> 11(1): 39–91. 
+                        <ref target="http://dx.doi.org/10.1075/pc.11.1.04wha">
+                            <hi rend="underline">10.1075/pc.11.1.04wha</hi>
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

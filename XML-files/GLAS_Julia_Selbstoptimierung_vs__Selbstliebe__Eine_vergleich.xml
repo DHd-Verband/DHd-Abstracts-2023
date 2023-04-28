@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GLAS_Julia_Selbstoptimierung_vs__Selbstliebe__Eine_vergleich" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Selbstoptimierung vs. Selbstliebe? Eine vergleichende Inhaltsanalyse von Fitspiration- und Bodypositivity-Bildern auf Instagram mit Methoden der automatischen Bildklassifikation</title>
+                <author>
+                    <persName>
+                        <surname>Glas</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Ludwig Maximilians Universität München, Deutschland</affiliation>
+                    <email>Julia.Glas@psy.lmu.de</email>
+                    <idno type="ORCID">0000-0002-0532-2653</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wolff</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Deutschland</affiliation>
+                    <email>Christian.Wolff@informatik.uni-regensburg.de</email>
+                    <idno type="ORCID">0000-0001-7278-8595</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Bernd</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Deutschland</affiliation>
+                    <email>Bernd.Ludwig@ur.de</email>
+                    <idno type="ORCID">0000-0003-3599-2081</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Achmann</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Deutschland</affiliation>
+                    <email>Michael.Achmann@informatik.uni-regensburg.de</email>
+                    <idno type="ORCID">0000-0002-4754-7842</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-14T11:00:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Instagram</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Bildklassifikation</term>
+                    <term>Transferlernen</term>
+                    <term>Körperbild</term>
+                    <term>Fitspiration</term>
+                    <term>Bodypositivity</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Bilder</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; text-align: justify;">Negative Auswirkungen schlankheitsidealisierender Medieninhalte auf Körperbild und -zufriedenheit sind hinreichend belegt (z.B. Frederick et al. 2019, 193, 195; Grabe, Ward und Hyde 2008, 469-470). Inhalte, die Untergewicht oder Essstörungen glorifizieren (z.B #thinspiration), sind mittlerweile auf Instagram verboten. Die 
+                    <hi rend="italic">Fitspiration</hi>-Bewegung („fitness“ + „inspiration“) stellt sich selbst als Alternative dar, die Unterstützung auf dem Weg zu einem gesünderen Lebensstil bieten will (Boepple et al. 2016, 133; Holland und Tiggemann 2017, 76). Empirische Untersuchungen belegen zwar ihr Potential, Follower:innen zu mehr Bewegung und gesunder Ernährung zu motivieren (Santarossa et al. 2019, 381; Tiggemann und Zaccardo 2015, 66), weisen aber zugleich negative Auswirkungen auf Körperbild, Selbstzufriedenheit und Stimmung nach (Prichard et al. 2020, 4; Tiggemann und Zaccardo 2015, 64-65). Inhaltsanalysen von #fitspiration-Posts auf Instagram stellen fest, dass diese den Körpertyp „dünn und muskulös“ idealisieren und durch bestimmte Posen oder Kleidung bewusst in Szene setzen – die beworbene Sport- und Ernährungsweise dient also nicht der Förderung von Gesundheit und Wohlbefinden, sondern der „Optimierung“ des eigenen Körpers (Pilgrim und Bohnet-Joschko 2022, 117; Santarossa et al. 2019, 380; Tiggemann und Zaccardo 2018, 1007).
+                </p>
+                <p style="text-align: left; text-align: justify;">
+                    <anchor xml:id="Hlk109244937"/>Bewusst als Gegenströmung bezeichnet sich die 
+                    <hi rend="italic">Bodypositivity</hi>-Bewegung und stellt es als ihr Ziel dar, gegen unrealistische Gewichts- und Körperideale einzutreten und so insbesondere Frauen zu mehr Körperakzeptanz und Selbstliebe zu verhelfen (Cwynar-Horta 2016, 40).
+                    <anchor xml:id="Hlk109245853"/> Studien belegen teilweise positive Auswirkungen von Bodypositivty-Inhalten auf die Körperwertschätzung und -zufriedenheit (Cohen et al. 2019a, 1554-1556; Fioravanti et al. 2021, 13-14), stellen aber auch eine erhöhte Selbst-Objektifizierung fest (Cohen et al. 2019a, 1556-1557). Inhaltsanalysen belegen, dass #bodypositivity-Posts zwar Frauen unterschiedlichen Körperbaus repräsentieren, gleichzeitig aber häufig objektifizierende Merkmale (z.B. freizügige Kleidung, aufreizende Posen) enthalten (Cohen et al. 2019b, 51-52; Lazuka et al. 2020, 89). Außerdem mangele es Bodypositivity in anderen Dimensionen jenseits des Körpergewichts (z.B. Geschlecht, Ethnie, klassische Schönheitsideale) an Variabilität und Vielfalt (Cohen et al. 2019b, 51-52; Cwynar-Horta 2016, 40; Lazuka et al. 2020, 87).
+                </p>
+                <p style="text-align: left; text-align: justify;">Es ist daher die Frage zu stellen, ob die Selbstinszenierung von Bodypositivity als Gegenströmung zu Fitspiration (im Sinne von „Selbstliebe“ statt „Selbstoptimierung“) gerechtfertigt ist oder ob beide Bewegungen doch mehr Gemeinsamkeiten als Unterschiede aufweisen. Bisherige Inhaltsanalysen zu Instagram-Bildern betrachten immer entweder nur Fitspiration- oder nur Bodypositivity-Posts, was einen inhaltlichen Vergleich beider Bewegungen erschwert. Ansatz des hier vorgestellten Projekts ist es daher, Bilder beider Hashtags hinsichtlich derselben inhaltlichen Kategorien zu analysieren. Während in früheren Studien Bilder ausschließlich per Hand kodiert wurden, finden zudem erstmals Methoden der automatischen Bildklassifikation Anwendung, um statistische Gegenüberstellungen von Fitspiration und Bodypositivity an einem großen Bilddatensatz vornehmen zu können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpus und händische Annotation</head>
+                <p style="text-align: left; text-align: justify;">Das Korpus umfasst 10000 Bilder, die im Zeitraum März bis April 2022 mit einem der Hashtags #fitspiration oder #bodypositivity auf Instagram gepostet wurden. Eine zufällig gezogene Stichprobe von je 500 Bildern pro Hashtag wurde manuell hinsichtlich verschiedener für einen Vergleich der beiden Bewegungen relevanter inhaltlicher Kategorien kodiert. Betrachtet wurden allgemeine Kategorien zur Art des Beitrags (Bild, Text) und des Abbildungsgegenstands (Person, Lebensmittel) sowie spezifischere Kategorien zur Analyse abgebildeter Personen aus den Bereichen Demographie, körperbezogene Eigenschaften, Kleidung, Freizügigkeit, Art der Pose und Anzeichen einer Objektifizierung. Diese sind in Tabelle 1 mit den Häufigkeiten der einzelnen Ausprägungen unter den Bilddaten aufgeführt. Zur Absicherung der Objektivität der Kodierung wurde ein Teil der Bilder von zwei Personen unabhängig kodiert und die Inter-Koder-Reliabilität bestimmt. Für die einzelnen inhaltlichen Kategorien wurden zwischen 200 und 800 Bilder doppelt kodiert, sodass Cohen’s Kappa Werte über 0.7 für alle Kategorien erzielt werden konnten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Automatische Bildklassifikation</head>
+                <p style="text-align: left; text-align: justify;">Um den Vergleich von Fitspiration- und Bodypositivity-Bildern auf Instagram auf einer möglichst großen Datenbasis durchführen zu können, wurde versucht, die verbleibenden 9000 Bilder mit an den händisch kodierten Daten trainierten Modellen automatisch zu klassifizieren. Der manuell kodierte Bilddatensatz (N = 1000) wurde dazu im Verhältnis 4:1 in Trainings- und Testdaten aufgeteilt. Implementiert wurden neben Modellen aus dem Bereich des traditionellen 
+                    <hi rend="italic">Machine Learning</hi> (
+                    <hi rend="italic">Support Vector Machine</hi> SVM, 
+                    <hi rend="italic">Decision Tree</hi> DT) als aktuelles Beispiel für 
+                    <hi rend="italic">Deep Learning</hi>-Verfahren auch 
+                    <hi rend="italic">Convolutional Neural Networks</hi> (CNN), die relevante Bildmerkmale selbst extrahieren können (Guo et al. 2017, 721). 
+                </p>
+                <p style="text-align: left; text-align: justify;">Da der Trainingsprozess von CNN-Modellen eigentlich einen weitaus größeren Trainingsdatensatz erfordert (Sheykhmousa et al. 2020, 6309), wurde versucht, die Performanz der Modelle durch Transferlernen zu verbessern. Dabei werden an großen Datensätzen vortrainierte Modelle an wenige annotierte Daten einer neuen Domäne angepasst (
+                    <hi rend="italic">Fine Tuning</hi>, vgl. Boumaraf et al. 2021, 3). Im vorliegenden Projekt wurde das am umfassenden Bilddatensatz 
+                    <hi rend="italic">ImageNet</hi> trainierte Modell VGG16 (Swasono, Tjandrasa und Fathicah 2019, 178) als Grundlage verwendet, da auf diesem Modlel basierende Transferlernprozesse in der Vergangenheit in verschiedenen Domänen die Klassifikationsergebnisse verbessern konnten (Boumaraf et al. 2021, 23; Dubey und Jain 2020, 5; Swasono, Tjandrasa und Fathicah 2019, 179-181). Für das hier vorgestellte Projekt wurden die letzten vier 
+                    <hi rend="italic">Dense Layers</hi> aus der Netzwerkarchitektur entfernt und durch ein weiteres 
+                    <hi rend="italic">Pooling Layer</hi>, ein 
+                    <hi rend="italic">Dense Layer</hi>, ein 
+                    <hi rend="italic">Dropout Layer</hi> (Dropout-Rate 50%) und ein abschließendes 
+                    <hi rend="italic">Dense Layer</hi> zur finalen Klassenvorhersage (Aktivierungsfunktion Sigmoid) ersetzt. Nur die Gewichte dieser äußeren Schichten wurden während des 
+                    <hi rend="italic">Fine Tunings</hi> (Adaption an den Instagram-Bilddatensatz) neu trainiert, die vortrainierten Gewichte der tieferen Schichten werden beibehalten. 
+                </p>
+                <p style="text-align: left; text-align: justify;">Da für einige inhaltliche Kategorien ein starkes Klassenungleichgewicht im Trainingsdatensatz bestand (z.B. bei der Kategorie „nackte Haut“: Nur 20% der untersuchten Bilder zeigten keine nackten Hautstellen), wurde mit 
+                    <hi rend="italic">Upsampling</hi> gearbeitet: Mithilfe von SMOTE wurden zusätzliche Daten der unterrepräsentierten Klasse(n) synthetisch erzeugt, um ein Klassengleichgewicht herzustellen (Chawla et al. 2002, 328).
+                </p>
+                <p style="text-align: left; text-align: justify;">Tabelle 1 zeigt für die verschiedenen Inhaltskategorien, welche Anteile der Daten pro Klasse durch das für diese Kategorie am besten funktionierende Modell korrekt klassifiziert werden konnten. Teilweise erzielten implementierte SVM-Modelle die besten Ergebnisse, die meisten Kategorien ließen sich aber mit einem der CNN-Modelle am besten klassifizieren. Die auf Transferlernen basierenden CNN-Modelle zeigten in allen Fällen bessere Resultate als die CNNs ohne Transferlernen. Auch das Upsampling der unterrepräsentierte(n) Klasse(n) wirkte sich in einigen Fällen positiv auf die Performanz aus.</p>
+                <p style="text-align: left; text-align: justify;">Wie Tabelle 1 zu entnehmen ist, gelang dennoch nicht für alle Kategorien mit einem der implementierten Modelle die Klassifikation mit zufriedenstellenden Ergebnissen. Probleme zeigten sich insbesondere bei multinominalen Klassifikationsproblemen, also Kategorien, die mehr als zwei Ausprägungen unterscheiden. In solchen Fällen, wie etwa dem Körperbau, der beim händischen Kodieren auf einer 9-stufigen Skala (Pulvers et al. 2014, 1643) eingeordnet worden war, wurden für die automatische Klassifikation mehrere Klassen zusammengelegt; dennoch wurden nur unzureichende Klassifikationsergebnisse erzielt. Auch die automatische Klassifikation von Kategorien mit starkem Klassenungleichgewicht führte zu Schwierigkeiten, etwa bei der Kategorie „Entsprechung klassischer Schönheitsideale“: Bilder von Personen, die klassischen Schönheitsidealen überhaupt nicht entsprechen, waren im händisch annotierten Datensatz selten und wurden von dem implementierten Klassifikator nur unzuverlässig erkannt, wohingegen Bilder der häufigeren Klasse „normale/extreme Entsprechung“ meistens korrekt klassifiziert wurden.</p>
+                <p style="text-align: left; text-align: justify;">Für die Kategorien, die im Testdatensatz mit einem der implementierten Modelle gut klassifiziert werden konnten, wurde das jeweilige Modell auf den Gesamtdatensatz angewandt. Das war insgesamt nur für acht Kategorien der Fall, fünfmal wurde dabei ein CNN-Modell mit Transferlernen eingesetzt, dreimal wurde ein traditionelles 
+                    <hi rend="italic">Machine Learning-</hi>Modell angewandt. Die statistischen Vergleiche zwischen #fitspiration und #bodypositivity konnten in diesen Fällen anhand des automatisch klassifizierten Gesamtdatensatzes (N = 10000) erfolgen, für die übrigen Kategorien wurden die statistischen Tests nur mit den 1000 händisch annotierten Daten durchgeführt.
+                </p>
+                    <table rend="rules">
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Inhaltliche Kategorie </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">
+                                    <hi rend="bold" style="font-size:10pt">Modell mit den besten Klassifikations-ergebnissen</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi rend="bold" style="font-size:10pt">Anteil richtig klassifizierter Daten pro Klasse (Testdatensatz)</hi><ref n="1" target="ftn1"/>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi rend="bold" style="font-size:10pt">Klassenverteilung händisch annotierter Datensatz (</hi>
+                                <hi rend="italic bold" style="font-size:10pt">N</hi>
+                                <hi rend="bold" style="font-size:10pt" xml:space="preserve"> = 1000)</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi rend="bold" style="font-size:10pt">Klassenverteilung Gesamtdatensatz (</hi>
+                                <hi rend="italic bold" style="font-size:10pt" xml:space="preserve">N </hi>
+                                <hi rend="bold" style="font-size:10pt">= 10000)</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">
+                                    <hi rend="italic bold" style="font-size:10pt" xml:space="preserve">Beitrag enthält ein Bild </hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">CNN mit Transferlernen, mit Upsampling der Klasse „Nein, kein Bild“</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Ja, Bild enthalten: 97%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nein, kein Bild enthalten, Beitrag ist rein textbasiert: 93%</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 93,0%</p>
+                                <p style="text-align: left; ">Nein: 7,0%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 92,2%</p>
+                                <p style="text-align: left; ">Nein: 7,8%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 83,8%</p>
+                                <p style="text-align: left; ">Nein: 6,2%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 81,9%</p>
+                                <p style="text-align: left; ">Nein: 8,1%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Abbildung einer Person </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, ohne Upsampling</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 84%</p>
+                                <p style="text-align: left; ">Nein: 54%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 60,0%</p>
+                                <p style="text-align: left; ">Nein: 40,0%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 65,4%</p>
+                                <p style="text-align: left; ">Nein: 34,6%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 63,5%</p>
+                                <p style="text-align: left; ">Nein: 36,5%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 63,7%</p>
+                                <p style="text-align: left; ">Nein: 36,3%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Abbildung eines Lebensmittels </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, ohne Upsampling</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 55%</p>
+                                <p style="text-align: left; ">Nein: 100%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 4,9%</p>
+                                <p style="text-align: left; ">Nein: 95,1%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 6,9%</p>
+                                <p style="text-align: left; ">Nein: 93,1%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 2,1%</p>
+                                <p style="text-align: left; ">Nein: 97,9%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 2,2%</p>
+                                <p style="text-align: left; ">Nein: 97,8%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Geschlecht </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM mit Upsampling der Klasse „männlich“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Männlich: 74%</p>
+                                <p style="text-align: left; ">Weiblich: 71%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Männlich: 48,0%</p>
+                                <p style="text-align: left; ">Weiblich: 53,0%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Männlich: 19,0%</p>
+                                <p style="text-align: left; ">Weiblich: 81,0%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Männlich: 46,9%</p>
+                                <p style="text-align: left; ">Weiblich: 53,1%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Männlich: 38,1%</p>
+                                <p style="text-align: left; ">Weiblich: 61,9%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi rend="italic bold" style="font-size:10pt">Ethnie</hi><ref n="2" target="ftn2"/>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM ohne Upsampling</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Weiß: 79%</hi>
+                                </p>
+                                <p style="text-align: left; ">Andere: 29%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Weiß: 81,0%</hi>
+                                </p>
+                                <p style="text-align: left; ">Andere: 19,0%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Weiß: 82,9%</hi>
+                                </p>
+                                <p style="text-align: left; ">Andere: 17,1%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Körperbau </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM ohne Upsampling</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Nicht beurteilbar: 42%</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Skalawert 1-3: 23%</hi>
+                                    <lb/>
+                                    <hi style="font-size:10pt">Skalawert 4: 31%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Skalawert 5: 15%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Skalawert 6-9: 35%</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">1-3: 23,9%</p>
+                                <p style="text-align: left; ">4: 39%</p>
+                                <p style="text-align: left; ">5: 19,7%</p>
+                                <p style="text-align: left; ">6-9: 6,7%</p>
+                                <p style="text-align: left; ">Nicht beurteilbar: 10,7%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">1-3: 12,5%</p>
+                                <p style="text-align: left; ">4: 20,2%</p>
+                                <p style="text-align: left; ">5: 20,8%</p>
+                                <p style="text-align: left; ">6-9: 24,1%</p>
+                                <p style="text-align: left; ">Nicht beurteilbar: 22,3%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Muskulosität </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM mit Upsampling der Klasse „nicht muskulös“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Nicht muskulös: 0%</p>
+                                <p style="text-align: left; ">Sichtbar muskulös: 38%</p>
+                                <p style="text-align: left; ">Sehr/extrem muskulös: 28%</p>
+                                <p style="text-align: left; ">Nicht beurteilbar: 54%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht muskulös: 1,3%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sichtbar muskulös: 44,3%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sehr/extrem muskulös: 39,3%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht beurteilbar: 17,0%</hi>
+                                </p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht muskulös: 13,7%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sichtbar muskulös: 30,6%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sehr/extrem muskulös: 15,5%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht beurteilbar: 40,1%</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Entsprechung klassischer Schönheitsideale</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, mit Upsampling der Klasse „überhaupt nicht“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Überhaupt nicht: 16%</p>
+                                <p style="text-align: left; ">Normal / extrem: 81%</p>
+                                <p style="text-align: left; ">Nicht beurteilbar: 44%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Gar nicht: 1,7%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Normal: 52,7%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Extrem: 15,7%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht beurteilbar: 30,0%</hi>
+                                </p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Gar nicht: 5,2%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Normal: 47,1%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Extrem: 23,5%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nicht beurteilbar: 23,5%</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Art der Kleidung</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, mit Upsampling der Klasse „Sportkleidung“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Sportkleidung: 54%</p>
+                                <p style="text-align: left; ">Sonstige Kleidung: 78%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Unterwäsche: 11,3%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sportkleidung: 61,5%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">eng: 11,7%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">normal: 10,1%</hi>
+                                </p>
+                                <p style="text-align: left; ">weit: 4,1%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Unterwäsche: 23,2%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Sportkleidung: 20,5%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">eng: 20,2%</hi>
+                                </p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">normal: 24,2%</hi>
+                                </p>
+                                <p style="text-align: left; ">weit: 6,4%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Sportkleidung: 52,7%</p>
+                                <p style="text-align: left; ">Sonstige Kleidung: 47,3%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Sportkleidung: 30,7%</p>
+                                <p style="text-align: left; ">Sonstige Kleidung: 69,3%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Abbildung nackter Haut</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM mit Upsampling der Klasse „Nein“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 79%</p>
+                                <p style="text-align: left; ">
+                                    <hi style="font-size:10pt">Nein: 50%</hi>
+                                </p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 85,7%</p>
+                                <p style="text-align: left; ">Nein: 14,3%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 74,6%</p>
+                                <p style="text-align: left; ">Nein: 25,4%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 63,3%</p>
+                                <p style="text-align: left; ">Nein: 36,7%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 64,3%</p>
+                                <p style="text-align: left; ">Nein: 35,7%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Abbildung nackter Bauch</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt" xml:space="preserve">DT mit Upsampling der Klasse „Ja“ </hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 58%</p>
+                                <p style="text-align: left; ">Nein: 63%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 44,4%</p>
+                                <p style="text-align: left; ">Nein: 55,6%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 41,0%</p>
+                                <p style="text-align: left; ">Nein: 59,0%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 38,8%</p>
+                                <p style="text-align: left; ">Nein: 61,2%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 38,3%</p>
+                                <p style="text-align: left; ">Nein: 61,7%</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Person in Bewegung</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, mit Upsampling der Klasse „Ja“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 36%</p>
+                                <p style="text-align: left; ">Nein: 91%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 31,3%</p>
+                                <p style="text-align: left; ">Nein: 68,7%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 13,1%</p>
+                                <p style="text-align: left; ">Nein: 86,9%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Objektifizierung: Fokus auf bestimmtes Körperteil</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt" xml:space="preserve">SVM mit Upsampling der Klasse „Ja“ </hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 44%</p>
+                                <p style="text-align: left; ">Nein: 82%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 24,3%</p>
+                                <p style="text-align: left; ">Nein: 75,7%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 25,7%</p>
+                                <p style="text-align: left; ">Nein: 74,3%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Objektifizierung: Aufreizende Pose</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, mit Upsampling der Klasse „Ja“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 23%</p>
+                                <p style="text-align: left; ">Nein: 95%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 9,0%</p>
+                                <p style="text-align: left; ">Nein: 91,0%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 25,4%</p>
+                                <p style="text-align: left; ">Nein: 74,6%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Objektifizierung: Gesicht nicht erkenntlich</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">SVM mit Upsampling der Klasse „Ja“</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 41%</p>
+                                <p style="text-align: left; ">Nein: 72%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 32,7%</p>
+                                <p style="text-align: left; ">Nein: 67,3%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 30,0%</p>
+                                <p style="text-align: left; ">Nein: 70,0%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">/ (keine Modell-anwendung auf Gesamtdatensatz)</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;" rend="DH-Default">Vorher-Nachher-Vergleich</cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <hi style="font-size:10pt">CNN mit Transferlernen, ohne Upsampling</hi>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Ja: 90%</p>
+                                <p style="text-align: left; ">Nein: 99%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 8,1%</p>
+                                <p style="text-align: left; ">Nein: 91,9%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 4,0%</p>
+                                <p style="text-align: left; ">Nein: 96,0%</p>
+                            </cell>
+                            <cell style="text-align: left;" rend="DH-Default">
+                                <p style="text-align: left; ">Fitspiration:</p>
+                                <p style="text-align: left; ">Ja: 2,1%</p>
+                                <p style="text-align: left; ">Nein: 97,9%</p>
+                                <p style="text-align: left; ">Bodypositivity:</p>
+                                <p style="text-align: left; ">Ja: 1,1%</p>
+                                <p style="text-align: left; ">Nein: 98,9%</p>
+                            </cell>
+                        </row>
+                        <head>Tabelle 1: Übersicht der inhaltlichen Kategorien mit jeweils am besten klassifizierenden Modell sowie der Häufigkeitsverteilungen in händisch annotiertem und Gesamtdatensatz</head>
+                    </table>
+                    
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Befunde zum Vergleich der Fitspiration- und Bodypositivity-Bilder</head>
+                <p style="text-align: left; text-align: justify;">Statistische Vergleiche der Fitspiration- und Bodypositivity-Bilder bezüglich der untersuchten Kategorien konnten sowohl Unterschiede als auch Gemeinsamkeiten in der Häufigkeit bestimmter Merkmale nachweisen (siehe auch Tabelle 1). Bilder beider Hashtags zeigen zumeist mindestens eine nackte Körperstelle: Die abgebildeten Personen tragen häufig sehr freizügige Kleidung (bei Fitspiration meist knappe Sportkleidung, bei Bodypositivity eher Unterwäsche/Badebekleidung oder enge Alltagskleidung). Auch weitere Anzeichen einer Objektifizierung (Bildfokus auf ein Körperteil gerichtet, anzügliches Posieren, Gesicht nicht erkenntlich) und die Tatsache, dass Personen hauptsächlich in statischer Pose statt in Bewegung abgebildet sind, belegen für beide Hashtags die eindeutige Fokuslegung auf das äußere Erscheinungsbild. Unterschiede zwischen den Hashtags zeigen sich hinsichtlich körperbezogener Merkmale: Frauen haben auf Fitspiration-Bildern einen signifikant schlankeren Körperbau und mehr Muskelmasse als auf Bodypositivity-Bildern, wo mehr unterschiedliche Körperformen repräsentiert sind. Die Betonung klassischer Schönheitsideale (z.B. reine Haut, glänzende Haare) sowie die Überrepräsentation weißer Personen lässt sich hingegen beiden Bewegungen vorwerfen: Personen mit äußeren „Makeln“ wie Cellulite oder Hautunreinheiten sind unter beiden Hashtags deutlich unterrepräsentiert, ebenso wie nicht-weiße Personen. </p>
+                <p style="text-align: left; text-align: justify;">Zusammenfassend lässt sich festhalten, dass unter dem Hashtag #fitspiration hauptsächlich schlanke und muskulöse Frauen und Männer in Sportkleidung so posieren, dass ihr durchtrainierter Körper möglichst gut zur Geltung kommt. Bodypositivity hingegen repräsentiert zwar mehr unterschiedliche Körpertypen – ist dafür aber größtenteils auf Bilder von Frauen beschränkt, die klassischen Schönheitsidealen entsprechen. Beide Bewegungen setzen durch freizügige Kleidung, Nacktheit und Objektifizierungen einen starken Fokus auf das äußere Erscheinungsbild. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Ausblick</head>
+                <p style="text-align: left; text-align: justify;">Die durchgeführte Analyse von #fitspiration- und #bodypositivity-Bildern auf Instagram mit einheitlichen inhaltlichen Kategorien ermöglichte erstmals eine konkrete Gegenüberstellung beider Bewegungen hinsichtlich relevanter inhaltlicher Bildmerkmale. Durch die implementierten Modelle zur automatischen Bildklassifikation konnten die Analysen sich zudem zumindest teilweise auf einen großen Bilddatensatz (N = 10000) stützen. Zwar zeigen sich hinsichtlich Körperbau und Muskulosität die erwarteten Unterschiede zwischen den beiden Hashtags, in den meisten anderen Dimensionen unterschieden sich Bilder beider Bewegungen aber nicht signifikant. Die Selbstinszenierung der Bodypositivity-Bewegung als Gegenströmung zu Fitspiration lässt sich daher nicht belegen: Statt für Selbstliebe unabhängig von Äußerlichkeiten einzutreten, ist an Bodypositivity ebenso wie an Fitspiration die Unterrepräsentation bestimmter Personengruppen, die Objektifizierung von insbesondere Frauen, sowie der starke Fokus auf ein makelloses äußeres Erscheinungsbild im Zuge einer (äußerlichen) Selbstoptimierung kritisch hervorzuheben.</p>
+                <p style="text-align: left; text-align: justify;">Die automatische Bildklassifikation gelang nicht für alle betrachteten inhaltlichen Kategorien, weitere Forschung scheint hier notwendig. Besonderes Augenmerk sollte auf den Umgang mit multinominalen Klassifikationsproblemen sowie unbalancierten Klassen gelegt werden. Der erfolgsversprechenden Methodik des Transferlernens mit CNN-Modellen sollte in Zukunft weiter nachgegangen werden, dabei könnte als Grundlage für den Transferlernprozess spezifischer Modelle, die bereits auf konkrete Klassifikationsaufgaben wie das Erkennen von Gesichtern oder Körperteilen hin vortrainiert sind, hilfreich sein. Ein anderer Ansatz könnte sein, neben den Bildern selbst auch weitere Daten andere Modalitäten miteinzubeziehen, um die beiden Hashtags noch umfassender vergleichen zu können. In Frage kämen hier etwa die sprachlichen Informationen aus Beitragstexten, Kommentare anderer User:innen unter dem Beitrag oder Metadaten zur:m Verfasser:in (z.B. Follower:innenzahl).</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                                     Wie viel Prozent der Daten aller Klassen der inhaltlichen Kategorie jeweils korrekt klassifiziert wurden. Z.B. für die Kategorie „Beitrag enthält ein Bild“: Von den Beiträgen, die ein Bild zeigen, wurden 97% korrekterweise dieser Klasse zugeordnet (3% wurden fälschlicherweise als kein Bild enthaltend klassifiziert). Von den rein textbasierten Beiträgen wurden 93% korrekterweise dieser Klasse zugeordnet, 7% wurden falsch klassifiziert. 
+                                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                                     Die automatische Klassifikation von Ethnien ist grundsätzlich kritisch zu betrachten: Sie birgt verschiedene Risiken, etwa die Diskriminierung von Personen oder im medizinischen Bereich das Stellen einer falschen Diagnose. Da im vorliegenden Projekt aber nur Instagram-Bilder ohne die Möglichkeit der Zuordnung zu realen Personen betrachtet wurden und daher auch keinerlei negative Konsequenzen für Personen zu befürchten sind, wurde dennoch eine automatische Klassifikation der Ethnie vorgenommen.
+                                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Boepple, Leah, Rheanna N. Ata, Ruba Rum und J. Kevin Thompson. </hi>2016. „Strong Is the New Skinny: A Content Analysis of Fitspiration Websites.“ 
+                        <hi rend="italic">Body image</hi> 17: 132–135. 
+                        <ref target="https://doi.org/10.1016/j.bodyim.2016.03.001">https://doi.org/10.1016/j.bodyim.2016.03.001</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Boumaraf, Said, Xiabi Liu, Yuchai Wan, Zhongshu Zheng, Chokri Ferkous, Xiaohong Ma, Zhuo Li und Dalal Bardou.</hi> 2021. „Conventional Machine Learning Versus Deep Learning for Magnification Dependent Histopathological Breast Cancer Image Classification: A Comparative Study with Visual Explanation.“ 
+                        <hi rend="italic">Diagnostics</hi> 11 (3): 528. 
+                        <ref target="https://doi.org/10.3390/diagnostics11030528">https://doi.org/10.3390/diagnostics11030528</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Chawla, N. V., K. W. Bowyer, L. O. Hall und W. P. Kegelmeyer.</hi> 2002. „SMOTE: Synthetic Minority Over-sampling Technique.“ 
+                        <hi rend="italic">jair</hi> 16: 321–357. 
+                        <ref target="https://doi.org/10.1613/jair.953">https://doi.org/10.1613/jair.953</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Cohen, Rachel, Jasmine Fardouly, Toby Newton-John und Amy Slater.</hi> 2019a. „#BoPo on Instagram: An experimental investigation of the effects of viewing body positive content on young women’s mood and body image.“ 
+                        <hi rend="italic">New Media &amp; Society</hi> 21 (7): 1546–1564. 
+                        <ref target="https://doi.org/10.1177/1461444819826530">https://doi.org/10.1177/1461444819826530</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Cohen, Rachel, L. Irwin, Toby Newton-John und Amy Slater. </hi>2019b. „# bodypositivity: A content analysis of body positive accounts on Instagram.“ 
+                        <hi rend="italic">Body image</hi> 29: 47–57. 
+                        <ref target="https://www.sciencedirect.com/science/article/pii/s1740144518304595">https://www.sciencedirect.com/science/article/pii/s1740144518304595</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Cwynar-Horta, Jessica.</hi> 2016. „The Commodification of the Body Positive Movement on Instagram.“ 
+                        <hi rend="italic">Stream</hi> 8 (2): 36–56. 
+                        <ref target="https://doi.org/10.21810/strm.v8i2.203">https://doi.org/10.21810/strm.v8i2.203</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Dubey, Arun Kumar und Vanita Jain.</hi> 2020. „Automatic facial recognition using VGG16 based transfer learning model.“ 
+                        <hi rend="italic">Journal of Information and Optimization Sciences</hi> 41 (7): 1589–1596. 
+                        <ref target="https://doi.org/10.1080/02522667.2020.1809126">https://doi.org/10.1080/02522667.2020.1809126</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Fioravanti, Giulia, Andrea Svicher, Giulia Ceragioli, Viola Bruni und Silvia Casale.</hi> 2021. „Examining the impact of daily exposure to body-positive and fitspiration Instagram content on young women’s mood and body image: An intensive longitudinal study.“ 
+                        <hi rend="italic">New Media &amp; Society</hi>: 1-23. 
+                        <ref target="https://doi.org/10.1177/14614448211038904">https://doi.org/10.1177/14614448211038904</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Frederick, David A., Elizabeth A. Daniels, Morgan E. Bates und Tracy L. Tylka.</hi> 2017. „Exposure to Thin-Ideal Media Affect Most, but Not All, Women: Results from the Perceived Effects of Media Exposure Scale and Open-Ended Responses.“ 
+                        <hi rend="italic">Body image</hi> 23: 188–205. 
+                        <ref target="https://doi.org/10.1016/j.bodyim.2017.10.006">https://doi.org/10.1016/j.bodyim.2017.10.006</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Grabe, Shelly, L. Monique Ward und Janet Shibley Hyde.</hi> 2008. „The Role of the Media in Body Image Concerns Among Women: A Meta-Analysis of Experimental and Correlational Studies.“ 
+                        <hi rend="italic">Psychological bulletin</hi> 134 (3): 460–476. 
+                        <ref target="https://doi.org/10.1037/0033-2909.134.3.460">https://doi.org/10.1037/0033-2909.134.3.460</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Guo, Tianmei, Jiwen Dong, Henjian Li und Yunxing Gao. </hi>2017. „Simple convolutional neural network on image classification.“ In 
+                        <hi rend="italic">2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA)</hi>: 721-724. (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Holland, Grace und Marika Tiggemann. </hi>2017. „’Strong Beats Skinny Every Time’: Disordered Eating and Compulsive Exercise in Women Who Post Fitspiration on Instagram.“ 
+                        <hi rend="italic">The International journal of eating disorders</hi> 50 (1): 76–79. 
+                        <ref target="https://doi.org/10.1002/eat.22559">https://doi.org/10.1002/eat.22559</ref> (Zugegriffen: 16 November 2022). 
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Lazuka, Rebecca F., Madeline R. Wick, Pamela K. Keel und Jennifer A. Harriger.</hi> 2020. „Are We There yet? Progress in Depicting Diverse Images of Beauty in Instagram's Body Positivity Movement.“ 
+                        <hi rend="italic">Body image</hi> 34: 85–93. 
+                        <ref target="https://doi.org/10.1016/j.bodyim.2020.05.001">https://doi.org/10.1016/j.bodyim.2020.05.001</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Pilgrim, Katharina und Sabine Bohnet-Joschko.</hi> 2022. „Influencer und das Problem mit dem Sixpack.“ 
+                        <hi rend="italic">Prävention Gesundheitsforschung</hi> 17 (1): 113–118. 
+                        <ref target="https://doi.org/10.1007/s11553-021-00845-w">https://doi.org/10.1007/s11553-021-00845-w</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Prichard, Ivanka, Eliza Kavanagh, Kate E. Mulgrew, Megan S. C. Lim und Marika Tiggemann.</hi> 2020. „The Effect of Instagram #fitspiration Images on Young Women's Mood, Body Image, and Exercise Behaviour.“ 
+                        <hi rend="italic">Body image</hi> 33: 1–6. 
+                        <ref target="https://doi.org/10.1016/j.bodyim.2020.02.002">https://doi.org/10.1016/j.bodyim.2020.02.002</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Pulvers, Kim M., Rebecca E. Lee, Harsohena Kaur, Matthew S. Mayo, Marian L. Fitzgibbon, Shawn K. Jeffries, James Butler, Qingjiang Hou und Jasjit S. Ahluwalia.</hi> 2004. „Development of a Culturally Relevant Body Image Instrument Among Urban African Americans.“ 
+                        <hi rend="italic">Obesity research</hi> 12 (10): 1641–1651. 
+                        <ref target="https://doi.org/10.1038/oby.2004.204">https://doi.org/10.1038/oby.2004.204</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Santarossa, S., P. Coyne, C. Lisinski und S. J Woodruff.</hi> 2019. „#fitspo on Instagram: A mixed-methods approach using Netlytic and photo analysis, uncovering the online discussion and author/image characteristics.“ 
+                        <hi rend="italic">Journal of health psychology</hi> 24 (3): 376–385. 
+                        <ref target="https://doi.org/10.1177/1359105316676334">https://doi.org/10.1177/1359105316676334</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Sheykhmousa, Mohammadreza, Masoud Mahdianpari, Hamid Ghanbari, Fariba Mohammadimanesh, Pedram Ghamisi und Saeid Homayouni.</hi> 2020. „Support Vector Machine Versus Random Forest for Remote Sensing Image Classification: A Meta-Analysis and Systematic Review.“ 
+                        <hi rend="italic">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</hi> 13: 6308–6325. 
+                        <ref target="https://doi.org/10.1109/jstars.2020.3026724">https://doi.org/10.1109/jstars.2020.3026724</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Swasono, Dwiretno Istiyadi, Handayani Tjandrasa und Chastine Fathicah.</hi> 2019. „Classification of Tobacco Leaf Pests Using VGG16 Transfer Learning.“ In 
+                        <hi rend="italic">2019 12th International Conference on Information &amp; Communication Technology and System (ICTS)</hi>: 176-181. (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Tiggemann, Marika und Mia Zaccardo.</hi> 2015. „’Exercise to Be Fit, Not Skinny’: The Effect of Fitspiration Imagery on Women's Body Image.“ 
+                        <hi rend="italic">Body image</hi> 15: 61–67. 
+                        <ref target="https://doi.org/10.1016/j.bodyim.2015.06.003">https://doi.org/10.1016/j.bodyim.2015.06.003</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis"><hi rend="bold">Tiggemann, Marika und Mia Zaccardo.</hi> 2018. „'Strong Is the New Skinny': A Content Analysis of #fitspiration Images on Instagram.“ 
+                        <hi rend="italic">Journal of health psychology</hi> 23 (8): 1003–1011. 
+                        <ref target="https://doi.org/10.1177/1359105316639436">https://doi.org/10.1177/1359105316639436</ref> (Zugegriffen: 16 November 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

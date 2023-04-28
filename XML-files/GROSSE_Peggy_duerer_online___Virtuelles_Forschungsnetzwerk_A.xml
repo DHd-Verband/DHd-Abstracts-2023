@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GROSSE_Peggy_duerer_online___Virtuelles_Forschungsnetzwerk_A" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>duerer.online - Virtuelles Forschungsnetzwerk Albrecht Dürer</title>
+                <author>
+                    <persName>
+                        <surname>Große</surname>
+                        <forename>Peggy</forename>
+                    </persName>
+                    <affiliation>Universität Heidelberg, Deutschland</affiliation>
+                    <email>grosse@ub.uni-heidelberg.de</email>
+                    <idno type="ORCID">0000-0003-1181-6219</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T23:31:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>CIDOC CRM</term>
+                    <term>Digitales Werkverzeichnis</term>
+                    <term>WissKI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Sammlung</term>
+                    <term>Modellierung</term>
+                    <term>Bilder</term>
+                    <term>Metadaten</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="Hlk110459625"/>Das seit 2020 von der DFG geförderte Projekt “duerer.online - Virtuelles Forschungsnetzwerk Albrecht Dürer”<ref n="1" target="ftn1"/> baut eine Forschungsumgebung mit vollständigem Werkverzeichnis der Druckgraphik, Gemälde und Zeichnungen des bedeutenden Renaissance-Künstlers sowie dessen Nachlebens auf. In der bis 2023 laufenden ersten Projektphase steht die Erfassung von Werken im Fokus, die im schriftlichen Nachlass explizit genannt sind. Die Bestände der kooperierenden Sammlungen (Kunstsammlungen der Stadt Nürnberg, Albrecht-Dürer-Haus-Stiftung e.V., Nürnberg, Germanischen Nationalmuseum und Albertina, Wien) dienen als Erschließungsgrundlage. Grundsätzlich können und werden bereits Informationen zu Beständen weiterer Sammlungen erfasst. Ziel ist es nach Projektende der Fachcommunity zu ermöglichen, neue Forschungsergebnisse zu den in der Datenbank aufgenommenen Werken zu ergänzen und Werke bzw. Exemplare hinzuzufügen. Nach Projektende soll es der Fachcommunity ermöglicht werden, neue Forschungsergebnisse zu den in der Datenbank aufgenommenen Werken zu ergänzen und Werke bzw. Exemplare hinzuzufügen. Die Fortführung, Pflege und Sichtbarkeit für die Fachcommunity über die Laufzeit des Projektes hinaus wird durch die Integration in das Angebot des Fachinformationsdienstes Kunst, Fotografie, Design - arthistoricum.net an der UB Heidelberg<ref n="2" target="ftn2"/> gesichert.
+            </p>
+            <p>Im Unterschied zu den bereits im Druck vorliegenden Werkverzeichnissen des Künstlers (wie z.B. Schoch/Mende/Scherbaum 2001-2004 für das graphische Werk, Anzelewsky 1991 für Gemälde und Winkler 1936-1939 für Zeichnungen) werden in der Forschungsumgebung Dürers Werke gattungsübergreifend nach einheitlichen Kriterien erschlossen, ebenso Werke der bis in die heutige Zeit andauernden Rezeption. Dabei versteht sich das Projekt nicht als ein weiteres autoritatives Werkverzeichnis, d.h. es werden keine Werke zu- oder abgeschrieben, sondern offen und transparent historische und aktuelle Diskussionen bezüglich der Autorschaft abgebildet und somit eine Grundlage für weitere Forschungen rund um das Werk Dürers und seiner Nachfolge geschaffen.</p>
+            <p>
+                <anchor xml:id="Hlk110459707"/>Neben der Erschließung der Werke werden ausgewählte Quellen des schriftlichen Nachlasses transkribiert und ediert. Durch die Auszeichnung mittels TEI<ref n="3" target="ftn3"/> und der Anreicherung der ausgezeichneten Werke, Personen und Orte mit Normdaten der Gemeinsamen Normdatei (GND) ist eine Durchsuch- und Recherchierbarkeit dieses Materials möglich, die für Forschende eine Neuheit darstellt. Über eine programmierte Pipeline werden zudem Registerdateien erzeugt, die zusätzlich mit Informationen zu Kunstwerken und Personen aus der Datenbank angereichert werden. Ebenso wird im Datensatz zum jeweiligen Werk/Person automatisch die Verlinkung auf den entsprechenden Registereintrag abgelegt, sodass sich in „duerer.online“ Nennungen der Entitäten in Quellen nachvollziehen lassen.
+            </p>
+            <p>
+                <anchor xml:id="Hlk110459756"/>Für das Portal wird die “Wissenschaftliche Kommunikationsinfrastruktur (WissKI)”<ref n="4" target="ftn4"/> eingesetzt, eine virtuelle Forschungsumgebung, die den Aufbau von Anwendungen im Bereich der Digital Humanities unter Nutzung von semantic web-Standards ermöglicht. Die Einordnung und Speicherung der erhobenen Daten erfolgt ontologiebasiert mittels einer auf CIDOC CRM<ref n="5" target="ftn5"/> (ISO-Standard 21127) basierenden Anwendungsontologie und unter Nutzung der Gemeinsamen Normdatei (GND), des Getty AAT<ref n="6" target="ftn6"/> und Iconclass<ref n="7" target="ftn7"/>. Das Projekt nutzt die “Heidelberger Anwendungsontologie für Werkverzeichnisse” (Sobriel 2022) nach, die um Klassen und Eigenschaften erweitert wurde, die zur Dokumentation eines Kunstwerkes und dessen Werkbiographie benötigt werden. So wurden vor allem Properties aufgenommen, die Beziehungen zwischen Werken beschreiben. Die Relationen (z.B. has copy/ is copy after) wurden nach dem Lightweight Information Describing Objects (LIDO) Schema modelliert (Sobriel 2022, 43).
+            </p>
+            <p>
+                <anchor xml:id="Hlk110459794"/>Das mit der Anwendungsontologie umgesetzte Datenmodell berücksichtigt die Erfassung von Unikaten und Werken in mehreren Ausführungen. Das Werkkonzept beschreibt die inhaltliche Entstehung und nimmt alle Informationen auf, die jede Ausführung betreffen und konzeptioneller Natur sind. In der Ebene Ausführung/Exemplar werden spezifische Angaben zu einer Ausführung bzw. einem Exemplar dokumentiert. Das Datenmodell kann somit semantisch korrekt die Rezeption von Originalen darstellen, da diese immer vom Inhalt/Konzept ausgeht.
+                <anchor xml:id="Hlk110459828"/> Außerdem müssen keine Informationen mehrfach erfasst werden und zukünftig können graphische Sammlungen Inhalte zu ihrer speziellen Ausführung dem entsprechenden Werk-Datensatz hinzufügen. Das beschriebene Datenmodell und die darauf beruhende konsequente Erschließung von Werk- und Ausführungs-/Exemplarebene ist in ihrer Durchsuchbarkeit in sammlungsübergreifenden Graphik-Portalen derzeit singulär.
+            </p>
+            <p>
+                <anchor xml:id="Hlk110459864"/>Neben Beziehungen von Werken untereinander werden u.a. Informationen zu Verkaufsereignissen und Ausstellungen erfasst. Durch Verknüpfung mit den jeweils verkauften oder ausgestellten Werken bzw. Ausführungen können historische nicht mehr existierende Sammlungen bzw. die Ausstellungshistorie eines Exemplars/Ausführung sichtbar gemacht werden. Zudem wird, wenn möglich, seitengenau auf die zur Verfügung stehenden Digitalisate von Auktions- und Ausstellungskatalogen verlinkt, sodass der Forschende schnell an die jeweiligen Nachweise gelangt.
+            </p>
+            <p>Die Projekte zum Werk von Lucas Cranach d. Ä.<ref n="8" target="ftn8"/> und Rembrandt van Rijn<ref n="9" target="ftn9"/> sind dem beschriebenen Portal vergleichbar in ihrer Ausrichtung, doch für das Werk Albrecht Dürers besteht bisher kein Angebot, das gattungs- und sammlungsübergreifend Informationen zur Verfügung stellt und dabei auf anschlussfähige offene Formate gemäß der FAIR-Prinzipien unter Verwendung von Semantic-Web-Standards setzt. Damit steht der Dürer-Forschung ein Instrument zur Verfügung, das nicht nur zukünftige Forschungsergebnisse aufnehmen und sichtbar machen kann, sondern auch alle Informationen über Schnittstellen (SPARQL Endpoint) verfügbar macht, sodass es Forschenden möglich ist, mit eigenen Anwendungen Forschungsfragen weiter zu verfolgen.
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                    
+                        <hi style="font-size:10pt">duerer.online [https://sempub.ub.uni-heidelberg.de/duerer.online/] ist seit März 2022 als First View veröffentlicht, https://blog.arthistoricum.net/beitrag/2022/03/22/first-view-erste-werke-auf-duereronline. Dr. Franziska Ehrl ist für die wissenschaftliche Erschließung und Dokumentation der Werke verantwortlich.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> https://www.arthistoricum.net/themen/wvz/albrecht-duerer.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> https://tei-c.org/.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                    
+                        <hi style="font-size:10pt">https://wiss-ki.eu/.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                    
+                        <hi style="font-size:10pt">CIDOC CRM Conceptual Reference Model wird von der Special Interest Group des International Council for Museums entwickelt, https://www.cidoc-crm.org/.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                     Getty Art and Architecture Thesaurus des Getty Research Institute [https://www.getty.edu/research/tools/vocabularies/aat/
+                        <hi rend="Hyperlink">].</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                    
+                        <hi rend="Hyperlink">Iconclass der Henri van de Waal Foundation [</hi>
+                        <hi style="font-size:10pt">https://iconclass.org/].</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> Das seit 2009 von der Mellon Foundation “Cranach Digital Archive” konzentriert sich überwiegend auf die Gemälde des Künstlers [https://lucascranach.org/].</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                    
+                        <hi style="font-size:10pt" xml:space="preserve"> The Rembrandt Database ist eine vom RKD - Netherlands Institute for Art History bereitgestellte Forschungsplattform zu den Gemälden Rembrandts [https://rembrandtdatabase.org/].</hi>
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="Hlk110459914"/><hi rend="bold">Anzelewsky, Fedja.</hi> 1991. Albrecht Dürer. Das malerische Werk. 2. neu bearbeitete Auflage Berlin: Deutscher Verlag für Kunstwissenschaft.
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="Hlk110459930"/><hi rend="bold">Schoch, Rainer, Matthias Mende, Anna Scherbaum, Anna.</hi> 2001-2004. Albrecht Dürer. Das druckgraphische Werk. 3 Bde., München u.a. : Prestel.
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="Hlk110459948"/><hi rend="bold">Sobriel, Nicole.</hi> 2022. Semantische Datenmodellierung für Werkverzeichnisse (Universitätsbibliothek Heidelberg). https://doi.org/10.11588/data/64KP3N, heiDATA, V1 (zugegriffen: 3. August 2022).
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="Hlk110459980"/><hi rend="bold">Winkler, Friedrich.</hi> 1936-1939. Die Zeichnungen Albrecht Dürers. 4 Bde., Berlin: Deutscher Verein für Kunstwissenschaft.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

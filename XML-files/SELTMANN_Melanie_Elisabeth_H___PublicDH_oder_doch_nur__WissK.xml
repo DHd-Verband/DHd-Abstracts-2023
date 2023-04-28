@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SELTMANN_Melanie_Elisabeth_H___PublicDH_oder_doch_nur__WissK" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>#PublicDH oder doch nur #WissKomm?</title>
+                <author>
+                    <persName>
+                        <surname>Seltmann</surname>
+                        <forename>Melanie Elisabeth-H.</forename>
+                    </persName>
+                    <affiliation>Universitäts- und Landesbibliothek Darmstadt</affiliation>
+                    <email>melanie.seltmann@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-7588-4395</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-11-23T11:18:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wissenschaftskommunikation</term>
+                    <term>Citizen Science</term>
+                    <term>Public Humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Crowdsourcing</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung und Methode</head>
+                <p style="text-align: left; ">Digitale Wissenschaftskommunikation und die Möglichketen der sozialen Medien werfen in den letzten Jahren vermehrt wieder Fragen der klassischen Forschung zu Wissenschaftskommunikation auf (vgl. Franzen 2019, 616). Der vorliegende Beitrag schließt hier für das Konzept der 
+                    <hi rend="italic">Public Humanities</hi> an. Damit ist auch klar, dass nicht jegliche Form der Wissenschaftskommunikation betrachtet werden kann. Im Laufe des Beitrages wird herausgearbeitet, dass es sich bei 
+                    <hi rend="italic">Public Humanities</hi> nicht um eine traditionelle Form der Wissenschaftskommunikation handelt, wie etwa die Veröffentlichung eines (populär-)wissenschaftlichen Beitrages oder das Halten eines (populär-)wissenschaftlichen Vortrages, sondern um eine moderne, digitale, in der durch moderne Medienformen die 
+                    <hi rend="italic">One-to-Many-Communication</hi> zu einer 
+                    <hi rend="italic">Many-to-Many-Communication</hi> wird und der Diskurs damit interaktiv und rekursiv wird (vgl. Bucher 2019, 64). Damit einhergehend wird die Wissenschaftskommunikation von einem öffentlichen Bewusstsein für Wissenschaft zu einem bürgerlichen Engagement verschoben, die Kommunikation wird zum Dialog (vgl. Bucchi and Trench 2014, 4).
+                </p>
+                <p style="text-align: left; ">Nach einer Definition der Konzepte 
+                    <hi rend="italic">Public Humanities</hi> sowie 
+                    <hi rend="italic">Public Digital Humanities</hi> folgt eine Betrachtung verschiedener Arten und Dimensionen von Wissenschaftskommunikation. Hierbei fokussiere ich mich in diesem Beitrag auf den europäischen Raum. In den USA findet das Thema 
+                    <hi rend="italic">Public Humanities</hi> schon länger Betrachtung als in Europa, ebenso wie die Forschung zu Wissenschaftskommunikation allgemein ausgeprägter ist (vgl. Schäfer et al. 2019, 79), dieser Aspekt soll hier jedoch ausgeklammert werden und für die weitere Forschung aufgehoben werden. In einem dritten Schritt soll das Konzept der 
+                    <hi rend="italic">Public Humanities</hi> in die Wissenschaftskommunikationsmatrix nach Frick et al. (2021) eingebettet werden und damit herausgearbeitet werden, wer in den 
+                    <hi rend="italic">Public Humanities</hi> agiert und zu welcher Form von Wissenschaftskommunikation sie gehören. An diese theoretischen Betrachtungen schließt sich ein Kapitel zum Mehrwert von 
+                    <hi rend="italic">Public Humanities</hi> für verschiedene Zielgruppen und in Hinblick auf verschiedene Aktivitäten an. Daraufhin werden Handlungsempfehlungen für möglichst erfolgreiche 
+                    <hi rend="italic">Public Humanities</hi> gegeben. Der Beitrag schließt mit einem Resümee.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Definitionsversuche #PublicDH</head>
+                <p style="text-align: left; ">Zu Beginn möchte ich den Terminus 
+                    <hi rend="italic">#PublicDH</hi> versuchen zu definieren. Wie bei so ziemlich jedem Terminus gibt es auch hier reichlich Möglichkeiten der Definition. Heinisch (2021) gibt einen umfassenden Überblick über den Unterschied zwischen 
+                    <hi rend="italic">Public Humanities</hi>, 
+                    <hi rend="italic">Public Digital Humanities</hi> und 
+                    <hi rend="italic">Citizen Humanities</hi>. Aus ihren Ausführungen zu den 
+                    <hi rend="italic">Public Humanities</hi> kann man zusammenfassen, dass ein wesentlicher Bestandteil ist, die Geisteswissenschaften aus ihrem universitären Elfenbeinturm herauszuheben und zum einen der Öffentlichkeit näher zu bringen, sie aber gleichermaßen auch in die Forschung einzubinden. Damit einher geht das Schaffen von neuen Formaten der Wissenschaftskommunikation sowie die Bidirektionalität selbiger. Es ist nicht mehr allein der:die Wissenschaftler:in, der:die kulturelle Artefakte untersucht, sondern sie werden in Gemeinsamkeit mit Bürger:innen reflektiert und interpretiert. Jacobson (2020) führt hierfür beispielsweise die Form des Story-Tellings an (vgl. Jacobson 2020, 165–169).
+                </p>
+                <p style="text-align: left; ">Anfangs gingen die 
+                    <hi rend="italic">Public Humanities</hi> beinahe missionarisch vor, wenn sie die Bevölkerung belehrten und ihre eigenen Aktivitäten rechtfertigten (vgl. Gibbs 2016, 1). Heutzutage steht jedoch viel mehr der Wunsch, durch Zusammenarbeit etwas zu verändern und in der Gesellschaft zu bewirken (vgl. Miller et al. 2017). Zudem werden Disziplingrenzen überwunden und interdisziplinär etwas Größeres vermittelt und erarbeitet. Es handelt sich also um bidirektionale und disziplinübergreifende Wissenschaftskommunikation.
+                </p>
+                <p style="text-align: left; ">Im Unterschied dazu erweitern die 
+                    <hi rend="italic" xml:space="preserve">Public Digital Humanities </hi>(oder kurz 
+                    <hi rend="italic">#PublicDH</hi>) die 
+                    <hi rend="italic">Public Humanities</hi> durch eine digitale Komponente: die vermittelte Wissenschaft wird mit Hilfe von digitalen Methoden durchgeführt. Dies betrifft sowohl die originär von Wissenschaflter:innen durchgeführte Forschung als auch dialogisch mit Bürger:innern erzeugte Forschung. Zudem kann auch die gemeinsame (Weiter-)Entwicklung dieser digitalen Methoden Teil der 
+                    <hi rend="italic">#PublicDH</hi> sein (vgl. Heinisch 2021). Damit sind die 
+                    <hi rend="italic" xml:space="preserve">#PublicDH </hi>die Art der 
+                    <hi rend="italic">Public Humanities</hi>, die eine spezielle Form der #WissKomm für die Disziplin(en) der 
+                    <hi rend="italic">Digital Humanities</hi> aufbereiten. An der Grenze der 
+                    <hi rend="italic">#PublicDH</hi> liegen Wissenschaftskommunikationsformate, in denen nicht-digitale Wissenschaft durch digitale Formate für die Vermittlung aufbereitet wird. Genau genommen handelt es sich bei dieser Form der #WissKomm eher um 
+                    <hi rend="italic">Digital Public Humanities</hi> denn um 
+                    <hi rend="italic">#PublicDH</hi>.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Arten und Dimensionen der Wissenschaftskommunikation</head>
+                <p style="text-align: left; ">Wissenschaftskommunikation ist jedoch nicht gleich Wissenschaftskommunikation. Dafür möchte ich im Folgenden genauer betrachten, welche Formen von Wissenschaftskommunikation oder kurz #WissKomm es gibt. </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Kommunikationsmatrix</head>
+                    <p style="text-align: left; ">Meistens wird hier vor allem zwischen interner und externer #WissKomm unterschieden. Die interne #WissKomm, auch 
+                        <hi rend="italic">Scholarly Communication</hi> genannt, richtet sich an die wissenschaftliche Community, häufig der eigenen Disziplin. Die externe #WissKomm adressiert dahingegen Nicht-Spezialist:innen (vgl. Könneker 2017, 454). Die Definition greift hier jedoch zu kurz. Für eine Spezifizierung verschiedener Wissenschaftskommunikationsformen sollte nicht nur der:die Adressat:in betrachtet werden, sondern auch der:die Sender:in. Folglich spannt sich hier eine Matrix auf (vgl. Figure 1).
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="2.968386111111111cm" url="Pictures/9d80c80811dd5fe45897d8dea2a836df.png" rend="inline"/>
+                        <head>
+                            <hi style="font-size:8pt">Figure 1: Matrix Wissenschaftskommunikation (Verkürzung von Frick et al. 2021)</hi>
+                        </head>
+                    </figure>
+                    <p style="text-align: left; ">Das orange hinterlegte Feld (
+                        <hi rend="italic">Science-to-Science</hi>) repräsentiert die interne, die blau hinterlegten Felder (
+                        <hi rend="italic">Science-to-Public</hi>, 
+                        <hi rend="italic">Public-to-Science</hi>, 
+                        <hi rend="italic">Public-to-Public</hi>) die externe #WissKomm. Externe #WissKomm kann folglich viel mehr als Kommunikation, die nicht intern innerhalb einer Wissenschaftsdisziplin oder allgemein innerhalb der Wissenschaft erfolgt, verstanden werden. Frick et al. (2021) bestimmen externe #WissKomm genauer in drei Bereiche und setzen sie in den Kontext von traditionellen Veröffentlichungsformen und 
+                        <hi rend="italic">Citizen Science</hi>. 
+                        <hi rend="italic">Science-to-Public-Communication</hi> ist die „normale“ externe Wissenschaftskommunikation oder auch 
+                        <hi rend="italic">Science Communication</hi>, obgleich sie nicht nur in den STEM-Fächern (Naturwissenschaften, Technik, Ingenieurswissenschaften, Mathematik) vorhanden ist, sondern auch in den SSH (Sozialwissenschaften, Geisteswissenschaften). Die Bereiche 
+                        <hi rend="italic">Public-to-Science</hi> und 
+                        <hi rend="italic">Public-to-Public</hi> betreffen den Bereich 
+                        <hi rend="italic">Citizen Science</hi>. In der 
+                        <hi rend="italic">Public-to-Science-Communication</hi> liefern Bürger:innen Erkenntnisse an die Wissenschaft. Zudem gehört in diesen Bereich auch das Einbringen von Forschungsfragen durch Bürger:innen. Hierdurch wird für die Allgemeinheit relevante Forschung besonders sichtbar. Den Bereich der 
+                        <hi rend="italic">Public-to-Public-Communication</hi> bezeichnen Frick et al. (2021) als 
+                        <hi rend="italic">Citizen-Science-Communication</hi>. Hier wird dem Rechnung getragen, dass Bürger:innen sich in 
+                        <hi rend="italic">Citizen-Science</hi>-Projekten nicht nur der Forschung beteiligen, sondern selbst als Multiplikator:innen fungieren und von ihrer Forschung und ihren Ergebnissen, seien sie positiv oder negativ, erzählen. Damit umfassen Frick et al. (2021) mit ihrem Begriff von 
+                        <hi rend="italic">Citizen-Science-Communication</hi> nur einen Teil der Kommunikationsformen, die anderswo inhärent wären. Häufig werden auch die 
+                        <hi rend="italic">Science-to-Public-Communication</hi> sowie die 
+                        <hi rend="italic">Public-to-Science-Communication</hi> mit in den Bereich Citizen Science gezählt.
+                    </p>
+                    <p style="text-align: left; ">Schumacher (2021) spricht sogar von mindestens fünf kommunikativen Schnittstellen in den digitalen Geisteswissenschaften: 
+                        <hi rend="italic">Humanities-to-Public</hi> (Wissenschafts-PR), 
+                        <hi rend="italic">Humanities-to-Media</hi> (Wissenschaftsjournalismus), 
+                        <hi rend="italic">Public-to-Humanities</hi> (Citizen Science), 
+                        <hi rend="italic">(Digital-)Humanities-to-(Digital-)Humanities</hi> (Kommunikation in der eigenen Community) sowie 
+                        <hi rend="italic">Digital-Humanities-to-non-Digital-Humanities</hi>. Wobei die Zuordnung zu Frick et al. (2021) nicht eins zu eins gelingt. Schumacher (2021) lässt die 
+                        <hi rend="italic">Public-to-Public-Communication</hi> außen vor, ergänzt dafür jedoch die 
+                        <hi rend="italic">Humanities-(oder Science-)to-Media-Communication</hi> sowie die 
+                        <hi rend="italic">Digital-Humanities-to-non-Digital-Humanities-Communication</hi>, also die disziplinenübergreifende #WissKomm bzw. die #WissKomm zwischen Wissenschaftler:innen verschiedener Methoden. Möchte man Schumachers kommunikative Schnittstellen in die Wissenschaftskommunikationsmatrix nach Frick et al. (2021) einordnen, so wäre die 
+                        <hi rend="italic">Humanities-to-Media-Communication</hi> eine Sonderform der 
+                        <hi rend="italic">Science-to-Public-Communication</hi>. Bucher (2019) führt aus, dass es bei der Wissenschaftskommunikation, die über Wege des Journalismus vermittelt wird, um die traditionelle Form der 
+                        <hi rend="italic">Science-to-Public-Communication</hi> handelt, die digitalen Medien jedoch Möglichkeiten für eine direkte 
+                        <hi rend="italic">Science-to-Public-Communication</hi> schaffen (vgl. Bucher 2019, 64). Bei der 
+                        <hi rend="italic">Digital-Humanities-to-non-Digital-Humanities-Communication</hi> handelt es sich um eine Sonderform der 
+                        <hi rend="italic">Science-to-Science-Communication</hi>.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Dimensionen</head>
+                    <p style="text-align: left; ">Alle Bereiche der #WissKomm haben ihre ganz eigenen Herausforderungen und je nach Form müssen fünf der sechs Dimensionen der Wissenschaftskommunikation (Frick et al. 2021) anders bedacht werden. Die erste Dimension (
+                        <hi rend="italic">Inhalt</hi>) ist in allen Formen der #WissKomm gleich (für einen spezifischen Kommunikationsanlass). Im nächsten Schritt entscheidet man, welche 
+                        <hi rend="italic">Zielgruppe</hi> man ansprechen möchte (Dimension 2). Hier unterscheidet sich die folgende #WissKomm in die verschiedenen Formen. Die weiteren Dimensionen passen sich an die getroffene Entscheidung an und stehen auch untereinander in enger Beziehung. Ändert sich eine der Dimensionen, so müssen auch die anderen angepasst werden. Mit der dritten Dimension wird der verwendete 
+                        <hi rend="italic">Stil</hi> betrachtet, in der vierten Dimension wird sich für ein adäquates 
+                        <hi rend="italic">Format</hi> entschieden. Wichtig ist auch zu betrachten, welche 
+                        <hi rend="italic">Motivation</hi> man bei der #WissKomm hat, also warum man etwas vermitteln möchte (Dimension 5) und schließlich sollte man sich vor dem Kommunikationsakt klar werden, welche 
+                        <hi rend="italic">Rolle</hi> man selbst spielen möchte (Dimension 6). 
+                    </p>
+                    <p style="text-align: left; ">Auch das NaWik gibt mit ihrem NaWik-Pfeil (vgl. Könneker 2017, 468) Hilfestellung für die Planung von Wissenschaftskommunikation und rät dazu, fünf Dimension im Vornhinein zu beachten. Vier davon decken sich mit den eben beschriebenen sechs Dimensionen. Als erstes ist die Dimension 
+                        <hi rend="italic">Thema</hi> zu beachten, die der Dimension 
+                        <hi rend="italic">Inhalt</hi> entspricht. Daraufhin soll über den 
+                        <hi rend="italic">Stil</hi> (Dimension 2) nachgedacht werden, der bei Frick et al. (2021) erst im dritten Schritt betrachtet wird. Als dritte Dimension wird hier nun das 
+                        <hi rend="italic">Medium</hi> reflektiert, was dem 
+                        <hi rend="italic">Format</hi> entspricht. Erst im vierten Schritt wird bei NaWik über die 
+                        <hi rend="italic">Zielgruppe</hi> nachgedacht. Schließlich führt NaWik als fünfte Dimension das 
+                        <hi rend="italic">Ziel</hi> selbst an, was ähnlich wie die 
+                        <hi rend="italic">Motivation</hi> bei Frick et al. (2021) zu verorten ist. Der Unterschied ist also abgesehen von der Reihenfolge einiger Dimensionen, dass Frick et al. (2021) die Frage nach der Rolle, die die kommunizierende Person einnimmt, aufwirft.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einbettung des Konzepts #PublicDH in die Kommunikationsmatrix</head>
+                <p style="text-align: left; ">Doch wie lässt sich das zuvor definierte Konzept 
+                    <hi rend="italic">#PublicDH</hi> in die eben aufgestellte Kommunikationsmatrix einbetten? Da ich als einen zentralen Punkt die Einbindung der Öffentlichkeit definiert habe, gehören die Bereiche 
+                    <hi rend="italic">Science-to-Public</hi> und 
+                    <hi rend="italic">Public-to-Science</hi> zu den 
+                    <hi rend="italic">#PublicDH</hi>. Sowohl die verständliche Vermittlung der Forschung als auch der Dialog darüber sind wesentlicher Bestandteil der 
+                    <hi rend="italic">#PublicDH</hi>. Auch ist es relativ selbstverstehend, dass der Bereich 
+                    <hi rend="italic">Science-to-Science</hi> nicht eingeschlossen ist in die 
+                    <hi rend="italic">#PublicDH</hi>. Problematischer ist die Bestimmung, ob der Bereich 
+                    <hi rend="italic">Public-to-Public-Communication</hi> Teil der 
+                    <hi rend="italic">#PublicDH</hi> ist oder nicht. Zwar könnte man argumentieren, dass ebenso wie bei 
+                    <hi rend="italic">Citizen-Science</hi>-Projekten auch in den 
+                    <hi rend="italic">#PublicDH</hi> die Multiplikator:innenrolle der Bürger:innen wichtiger Bestandteil ist, jedoch plädiere ich dafür, den Bereich aus den 
+                    <hi rend="italic">#PublicDH</hi> auszuklammern. Nach der oben aufgestellten Definition sind 
+                    <hi rend="italic">#PublicDH</hi> die Kommunikation von Wissenschaft und Öffentlichkeit über Forschungsinhalte und -methoden der digitalen Geisteswissenschaften. Die Wissenschaft ist also den 
+                    <hi rend="italic">#PublicDH</hi> inhärent. Folglich kann die 
+                    <hi rend="italic">Public-to-Public-Communication</hi> nicht Teil der 
+                    <hi rend="italic">#PublicDH</hi> (zumindest im engen Sinne) sein (vgl. Figure 2). Hierin liegt auch die Unterscheidung zur externen #WissKomm. Die Wissenschaft muss ein Agens sein und bleiben, das ist bei der #WissKomm nicht der Fall. 
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="5.834416666666667cm" url="Pictures/5bd368b7759a3d1c30ec656c91ffb42a.png" rend="inline"/>
+                    <head>
+                        <hi style="font-size:8pt">Figure 2: Matrix #WissKomm und #PublicDH (Erweiterung von Frick et al. 2021)</hi>
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mehrwert #PublicDH</head>
+                <p style="text-align: left; ">Nachdem ich definiert habe, was 
+                    <hi rend="italic">#PublicDH</hi> sind und wie sie sich in die Wissenschaftskommunikationsmatrix einbetten lassen, betrachte ich in diesem Abschnitt, welchen Mehrwert 
+                    <hi rend="italic" xml:space="preserve">#PublicDH </hi>eigentlich bringen. Betrachtet werden dafür unterschiedliche Gruppen: zum einen der Mehrwert für die Wissenschaftler:innen, zum anderen für die Öffentlichkeit.
+                </p>
+                <p style="text-align: left; ">Hierzu sei erst einmal allgemein die Frage nach dem Mehrwert von #WissKomm gestellt. Fröhlich (1994) führen drei potentielle Mehrwerte auf, die jedoch vor allem auf interne #WissKomm zutreffen: Zum einen fördert #WissKomm die Motivation und lässt neue Ideen aufkommen, Mehrfacherfindungen werden vermieden, aber dafür Synergieeffekte erzeugt und schließlich führt die #WissKomm zu einer Form der Qualitätskontrolle und damit auch zur Selektion von Forschung (vgl. Fröhlich 1994, 7). Zudem bezeichnet Fröhlich als Mehrwert von #WissKomm den „errungene[n] Kredit auf wissenschaftliche Glaubwürdigkeit“ (Fröhlich 1994, 8) von Individuen, Gruppen und Institutionen im Bourdieuschen Sinne. </p>
+                <p style="text-align: left; ">Auch für die 
+                    <hi rend="italic">#PublicDH</hi> ist die Qualitätskontrolle sicherlich ein großer Mehrwert. Hinzu kommt die Anwendbarkeit der eigenen Forschung(sergebnisse) auch in alltäglichen Situationen. Durch die Kommunikation über Forschung, Methoden und Ergebnisse wird Wissenschaft nicht nur aus dem Elfenbeinturm gehoben und erfahrbar gemacht, sondern es kommt zu einer Responsion, die die Wissenschaft wiederum bestärken und zu relevanter Forschung von Bedeutung lenken kann. Dadurch kann wiederum Motivation geschaffen und neue Ideen und Ansätze gefunden und ausprobiert werden.
+                </p>
+                <p style="text-align: left; ">So 
+                    <hi rend="italic">#PublicDH</hi> innerhalb der sozialen Medien betrieben werden, können zudem Mehrwerte aus dem speziellen Medium erzeugt werden. "Für Wissenschaftler stehen hier die Vernetzungsmöglichkeiten im Vordergrund. Wissenschaftsjournalisten nutzen sie primär als Rechercheinstrument, Laien zur Informationsbeschaffung." (Weitze und Heckl 2016, 191) Diese Verknüpfung verschiedener Benutzungsgründe eines Mediums können in Verbindung der kommunikativen Interaktionsmöglichkeiten hervorragend für #WissKomm und auch 
+                    <hi rend="italic">#PublicDH</hi> verwendet werden. Für den speziellen Fall von Twitter führen Geyer und Gottschling (2019) an, dass die Wissenschaftskommunikation hier „den fachinternen Dialog befördern und zugleich Erkenntnisse des Fachs der Öffentlichkeit zugänglich machen, über Methoden oder über aktuelle fachwissenschaftliche Diskussionen und Projekte informieren und auf vielfältige Weise den unmittelbaren Austausch mit zumindest Teilen der Gesellschaft erleichtern [kann].“ (Geier und Gottschling, 2019, 284) An wenig anderen Orten als in den sozialen Medien kommen die verschiedenen Akteur:innen zusammen, um ihre jeweiligen Bedürfnisse der Informationsbeschaffung und des Informationsaustauschs zu stillen. 
+                </p>
+                <p style="text-align: left; ">Zusätzlich kann als Mehrwert gesehen werden, dass die eigene Person bekannter wird und dass Wissenschaftskommunikation Spaß macht (vgl. Ziegler/Fischer 2020, 7).</p>
+                <p style="text-align: left; ">All diese Mehrwerte beziehen sich jedoch auf die Wissenschaftler:innen selbst. Es stellt sich jedoch die Frage, ob es 
+                    <hi rend="italic">#PublicDH</hi> auch einen Mehrwert für die Öffentlichkeit erzeugt. Der gesellschaftliche Mehrwert von Wissenschaftskommunikation findet bisher wenig Beachtung in der Forschung (vgl. Siegel/Dunkel/ Terstriep (2021). Eine der raren Untersuchungen, die auch den gesellschaftlichen Mehrwert adressiert, ist die Umfrage von Ziegler/Fischer (2020) zu Zielen von Wissenschaftskommunikation. Als gesellschaftliche Mehrwerte werden eine Steigerung der Demokratiefähigkeit sowie die Stärkung der Wissensgesellschaft genannt (vgl. Ziegler/Fischer 2020, 7). Ziegler/Fischer (2020) führen zudem an, dass ihre Untersuchungen ergeben haben, „dass Politik und Öffentlichkeit in ihren Entscheidungen stärker auf wissenschaftliche Erkenntnisse zurückgreifen“ (Ziegler/Fischer 2020, 15). Sie zeigen, dass „Forschung klar als Triebkraft gesellschaftlicher Weiterentwicklung und Innovation gesehen [wird]“ (Ziegler/Fischer 2020, 16). Des weiteren wird eine Ausbildung der 
+                    <hi rend="italic">scientific literacy</hi> sowie die eigene Mündigkeit durch die Möglichkeit auf wissenschaftliches Wissen zuzugreifen als Mehrwert herausgearbeitet. Nichtsdestotrotz ist hier noch ein weites Feld für weitere Untersuchungen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Konsequenzen und Handlungsempfehlungen</head>
+                <p style="text-align: left; ">Was für Konsequenzen können nun aus den Mehrwerten der 
+                    <hi rend="italic">#PublicDH</hi> gezogen werden und welche Handlungsempfehlungen für digitale Geisteswissenschaftler:innen ergeben sich daraus? Zum einen sollte erkannt werden, welches Potential in den 
+                    <hi rend="italic">#PublicDH</hi> liegt, und überlegt werden, wie dieses Potential für die eigene Forschung genutzt werden kann.
+                </p>
+                <p style="text-align: left; ">Der Dialog mit anderen Wissenschaftler:innen, aber auch mit der Öffentlichkeit kann das Weiterkommen in der eigenen Arbeit bestärken. Durch Diskussionen und Fragen können sich über die relevanten Säulen ihrer Forschung bewusster werden und den Kern ihrer Forschung genau durchdenken. Insofern kann die Forschung von 
+                    <hi rend="italic">#PublicDH</hi> nur profitieren.
+                </p>
+                <p style="text-align: left; ">Wichtig ist jedoch, die verschiedenen Dimensionen (s. Kapitel 2.2) zu beachten und entsprechend anzuwenden, damit #WissKomm gelingen kann. Es ist keine Schande, sich für einzelne (oder auch alle) Dimensionen Hilfe zu holen und diesbezüglich weiterzubilden. Unterstützung kann hier beispielsweise der Referenzrahmen Wissenschaftskommunikation (Frick und Seltmann, in Vorbereitung) bieten. Es lohnt auch über den wissenschaftlichen Rahmen hinauszublicken und sich in den Bereichen Marketing und Journalismus Hilfestellungen zu holen. Zwar kann es auch mit gut ausgearbeiteten Dimensionen dazu kommen, dass der Dialog nicht funktioniert, aber dies sollte nur selten der Fall sein, insofern ein echtes Interesse des Austauschs besteht. Wichtig ist zudem zu beachten, dass #WissKomm im Allgemeinen und 
+                    <hi rend="italic">#PublicDH</hi> im Besonderen Zeit benötigen. Allerdings ist diese Zeit sinnvoll investiert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Resümee</head>
+                <p style="text-align: left; ">Der Titel des Beitrags stellt die Frage, ob 
+                    <hi rend="italic">#PublicDH</hi> mehr ist als „nur“ #WissKomm. Hierfür habe ich zuerst definiert, was 
+                    <hi rend="italic">#PublicDH</hi> ist (Kapitel 2). Daraufhin habe ich die Kommunikationsmatrix nach Frick et al. (2021) beschrieben und mit den kommunikativen Schnittstellen von Schumacher (2021) verglichen (Kapitel 3). Einen wesentlichen Beitrag zur Beantwortung der aufgestellten Frage liefert die Einbettung des Konzepts 
+                    <hi rend="italic">#PublicDH</hi> in die Fricksche Kommunikationsmatrix (Kapitel 4). Hierdurch wurde klar, wie der Zusammenhang zwischen #WissKomm und 
+                    <hi rend="italic">#PublicDH</hi> ist und dass beide nicht identisch sind. Das Konzept der 
+                    <hi rend="italic">#PublicDH</hi> ist präziser als nur #WissKomm für digitale Geisteswissenschaften, auch als externe #WissKomm für digitale Geisteswissenschaften. Denn es beinhaltet als wesentlichen Bestandteil den Diskurs zwischen Wissenschaft und Öffentlichkeit. Damit sind beide Seiten Agens und Patiens im Diskurs gleichermaßen. Nach dieser Feststellung habe ich den Mehrwert von 
+                    <hi rend="italic">#PublicDH</hi> beschrieben (Kapitel 5) und schließlich Handlungsempfehlungen daraus abgeleitet (Kapitel 6). Mit diesem Beitrag ist die Forschung zu den 
+                    <hi rend="italic" xml:space="preserve">#PublicDH </hi>natürlich keinesfalls abgeschlossen. Zu betrachten ist einerseits, inwiefern die 
+                    <hi rend="italic">#PublicDH</hi> überhaupt anders funktionieren als Wissenschaftskommunikation anderer Disziplinen und was Abgrenzungskriterien sind. Des weiteren wäre interessant zu untersuchen, inwiefern in den 
+                    <hi rend="italic">#PublicDH</hi> spezifisches (methodologisches) Wissen der DH Anwendung findet. Viele weitere Fragestellungen können sich anschließen.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Bucchi, Massimo und Brian Trench. </hi>2014. Science communication research: Themes and challenges. In: 
+                        <hi rend="italic">Routledge handbook of public communication of science and technology</hi>, hg. von Massimo Bucchi und Brian Trench, 1–14. New York: Routledge 
+                        <ref target="https://doi.org/10.4324/9780203483794">10.4324/9780203483794</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Bucher, Hans-Jürgen. </hi>2019. The contribution of media studies to the understanding of science communication. In: 
+                        <hi rend="italic">Science Communication</hi>, hg. von Annette Leßmöllmann, Marcelo Dascal, und Thomas Gloning, 51–76. Berlin, Boston: De Gruyter Mouton 
+                        <ref target="https://doi.org/10.1515/9783110255522-003">10.1515/9783110255522-003</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Franzen, Martina. </hi>2019. Reconfigurations of science communication research in the digital age. In: 
+                        <hi rend="italic">Science Communication</hi>, hg. von Annette Leßmöllmann, Marcelo Dascal und Thomas Gloning, 603–624. Berlin, Boston: De Gruyter Mouton 
+                        <ref target="https://doi.org/10.1515/9783110255522-028">10.1515/9783110255522-028</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Frick, Claudia, Lambert Heller, Sabrina Ramünke und Florian Strauß</hi>. 2021. „Bibliotheken als Dienstleisterinnen und Labore der Wissenschaftskommunikation“. 
+                        <hi rend="italic">Zenodo</hi>
+                        <ref target="https://doi.org/10.5281/zenodo.5752401">10.5281/zenodo.5752401</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Frick, Claudia und Melanie Seltmann</hi>. In Vorbereitung. Referenzrahmen selbständige digitale Wissenschaftskommunikation.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fröhlich, Gerhard</hi>. 1994. „Der (Mehr-)Wert der Wissenschaftskommunikation“. In: 
+                        <hi rend="italic">Mehrwert von Information - Professionalisierung der Informationsarbeit</hi>, hg. von Wolf Rauch, 84–95. Universitätsverlag Konstanz. 
+                        <ref target="http://eprints.rclis.org/15101/">http://eprints.rclis.org/15101/</ref> (zugegriffen: 2. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Geier, Andrea und Markus Gottschling.</hi> 2019. Wissenschaftskommunikation auf Twitter? Eine Chance für die Geisteswissenschaften! 
+                        <hi rend="italic">Mitteilungen des Deutschen Germanistenverbandes</hi> 66, Nr. 3: 282–291. 
+                        <ref target="https://doi.org/10.14220/mdge.2019.66.3.282">10.14220/mdge.2019.66.3.282</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gibbs, Robert</hi>. 2016. „Meeting Our Publics: A Search for the Right Questions in Public Humanities“. 
+                        <hi rend="italic">University of Toronto Quarterly</hi> 85, Nr. 4: 1–5 
+                        <ref target="file:///Users/mese/Documents/Wissenschaft/GuK/konferenzen/DHd2023/Einreichung/10.3138/utq.85.4.1">10.3138/utq.85.4.1</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heinisch, Barbara</hi>. 2021. „Ein Pfad durch den Begriffsdschungel der Public Humanities“. 
+                        <hi rend="italic">Public Humanities</hi>, hg. von Lisa Kolodzie, Mareike Schumacher, Melanie Seltmann und Daniel Brenn, 
+                        <ref target="https://publicdh.hypotheses.org/136">https://publicdh.hypotheses.org/136</ref> (zugegriffen: 1. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jacobson, Matthew Frye</hi>. 2020. „Afterword: The “Doing” of Doing Public Humanities“. In: 
+                        <hi rend="italic">Doing Public Humanities</hi>, hg. von Susan Smulyan. New York: Routledge.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Könneker, Carsten</hi>. 2017. „Wissenschaftskommunikation in vernetzten Öffentlichkeiten“. In: 
+                        <hi rend="italic">Forschungsfeld Wissenschaftskommunikation</hi>, hg. von Heinz Bonfadelli, Birte Fähnrich, Corinna Lüthje, Jutta Milde, Markus Rhomberg, und Mike S. Schäfer, 453–476. Wiesbaden: Springer Fachmedien 
+                        <ref target="https://doi.org/10.1007/978-3-658-12898-2_24">10.1007/978-3-658-12898-2_24</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Miller, Elizabeth, Edward Little und Steven High</hi>. 2017. 
+                        <hi rend="italic">Going Public: The Art of Participatory Practice</hi>. Toronto: University of British Columbia Press. 
+                        <ref target="https://press.uchicago.edu/ucp/books/book/distributed/G/bo69987452.html">https://press.uchicago.edu/ucp/books/book/distributed/G/bo69987452.html</ref> (zugegriffen: 1. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schäfer, Mike S., Sabrina H. Kessler und Birte Fähnrich.</hi> 2019. Analyzing science communication through the lens of communication science: Reviewing the empirical evidence. In: 
+                        <hi rend="italic">Science Communication</hi>, hg. von Annette Leßmöllmann, Marcelo Dascal, und Thomas Gloning, 77–104. Berlin, Boston: De Gruyter Mouton 
+                        <ref target="https://doi.org/10.1515/9783110255522-004">10.1515/9783110255522-004</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schumacher, Mareike</hi>. 2021. „What’s in it for us? Public Humanities als Herausforderung und Chance für die Digital Humanities“. 
+                        <hi rend="italic">Public Humanities</hi>, hg. von Lisa Kolodzie, Mareike Schumacher, Melanie Seltmann und Daniel Brenn, 
+                        <ref target="https://publicdh.hypotheses.org/314">https://publicdh.hypotheses.org/314</ref> (zugegriffen: 1. August 2022).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Siegel, Jessica, Kolja Dunkel und Judith Terstriep. </hi>2021. Hochschulen als Kommunikatoren der Wissenschaft? Eine exemplarische Bestandsaufnahme. 
+                        <hi rend="italic" xml:space="preserve">Forschung Aktuell </hi>06/2021. Institut Arbeit und Technik (IAT), Gelsenkirchen. 
+                        <ref target="http://hdl.handle.net/10419/235877">http://hdl.handle.net/10419/235877</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Weitze, Marc-Denis und Wolfgang M. Heckl</hi>. 2016. „Wissenschaftskommunikation in sozialen Netzwerken“. In: 
+                        <hi rend="italic">Wissenschaftskommunikation - Schlüsselideen, Akteure, Fallbeispiele</hi>, hg. von Marc-Denis Weitze und Wolfgang M. Heckl, 189–195. Berlin, Heidelberg: Springer 
+                        <ref target="https://doi.org/10.1007/978-3-662-47843-1_18">10.1007/978-3-662-47843-1_18</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ziegler, Ricarda und Liliann Fischer.</hi> 2020. 
+                        <hi rend="italic">Ziele von Wissenschaftskommunikation – Eine Analyse der strategischen Ziele relevanter Akteure für die institutionelle Wissenschaftskommunikation in Deutschland, 2014-2020</hi>. Berlin: Wissenschaft im Dialog. 
+                        <ref target="https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/210701_Ergebnisbericht_Strategische_Ziele_der_Wissenschaftskommunikation.pdf">https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Projekte/Impact_Unit/Dokumente/210701_Ergebnisbericht_Strategische_Ziele_der_Wissenschaftskommunikation.pdf</ref> (zugegriffen: 9. Dezember 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

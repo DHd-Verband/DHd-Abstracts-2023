@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SOETHAERT_Bart_Offenheit_durch_Dokumentation__Lose_Forschung" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Offenheit durch Dokumentation: Lose Forschungsfäden im "Online-Compendium der deutsch-griechischen Verflechtungen" zusammenführen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Soethaert</surname>
+                        <forename>Bart</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>bart.soethaert@fu-berlin.de</email>
+                    <idno type="ORCID">0000-0002-3845-605X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pechlivanos</surname>
+                        <forename>Miltos</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                    <email>m.pechlivanos@fu-berlin.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-03T14:10:24.483940609</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Publikationsumgebung</term>
+                    <term>Forschungsinstrument</term>
+                    <term>Open Encyclopedia System</term>
+                    <term>ComDeG</term>
+                    <term>Wissensbasis</term>
+                    <term>Bibliographische Datensammlungen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Veröffentlichung</term>
+                    <term>Bibliographie</term>
+                    <term>Infrastruktur</term>
+                    <term>Personen</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das 
+                <hi rend="italic">Online-Compendium der deutsch-griechischen Verflechtungen</hi> (ComDeG) ist ein laufendes Forschungs- und Publikationsprojekt im Open Access, initiiert und konzeptualisiert durch das Centrum Modernes Griechenland (CeMoG) unter Federführung der Professur Neogräzistik (FU Berlin).<ref n="1" target="ftn1"/> Das ComDeG umfasst zum einen, in Kooperation mit dem Institut für griechisch-deutsche Beziehungen (EMES) der Nationalen und Kapodistrias-Universität Athen, wissenschaftliche Essays und Fallanalysen (Mikrogeschichten, Makrovorgänge, Metanarrative und Präsentationen)<ref n="2" target="ftn2"/> sowie enzyklopädische Artikel und tabellarische Biogramme zu Akteuren der deutsch-griechischen Verflechtungen,<ref n="3" target="ftn3"/> die die deutsch-griechische Geschichte seit dem ausgehenden 18. Jahrhundert als europäisches Aktionsfeld transnationaler Interaktionen, Interpretationen, Übersetzungen und Transfers ausloten und erschließen. Zum anderen beinhaltet das dynamisch verknüpfte Informationsangebot die CeMoG-Wissensbasis mit angereicherten Indexeinträgen zu Personen und Institutionen, Wirkungsorten, Kontaktzonen und Vermittlungspraktiken<ref n="4" target="ftn4"/> sowie bibliographische Sammlungen mit u.a. Forschungsliteratur zu den deutsch-griechischen Verflechtungen, zu deutsch-griechischen und griechisch-deutschen Übersetzungen,<ref n="5" target="ftn5"/> die ebenfalls mit allen Inhaltsbereichen des ComDeG verknüpft wurden.
+            </p>
+            <p>Am kollaborativen Aufbau der Inhalte dieses multiperspektivischen Online-Sammelwerks ist ein breitgefächertes Netzwerk von Forscher:innen, primär aus Deutschland und Griechenland, beteiligt. Die Inhaltserstellung für das Compendium erfolgt auf der Grundlage einschlägiger Workshops, wozu Forscher:innen eingeladen werden, ihre Fachexpertise einzubringen, Fallgeschichten mit weiteren Expert:innen zu diskutieren und die wissenschaftlichen Erträge zur Veröffentlichung in das ComDeG aufzubereiten.<ref n="6" target="ftn6"/> Weitere Beiträge stammen von Forschenden an deutsch- bzw. griechischsprachigen Universitäten oder Forschungsinstitutionen mit einschlägiger Fachkompetenz wie etwa Instituten der Germanistik, der Neogräzistik und der Südosteuropa-Geschichte.<ref n="7" target="ftn7"/> Darüber hinaus bietet sich das ComDeG als geeignetes Repositorium für die (Teil-)Veröffentlichung von Forschungsergebnissen (etwa in der Form von Bibliographien, biographischen Profilen, enzyklopädischen Lemmata oder Mikropublikationen), die eine ähnliche thematische und methodische Perspektivierung vornehmen.<ref n="8" target="ftn8"/>
+            </p>
+            <p>Ein internationaler wissenschaftlicher Beirat steuert gemeinsam mit den beiden Herausgebern des Compendiums, Prof. Dr. Miltos Pechlivanos (Freie Universität Berlin) und Prof. Dr. Alexandros-Andreas Kyrtsis (Nationale und Kapodistrias-Universität Athen) die inhaltliche Entfaltung und prüft die Qualität aller wissenschaftlichen Beiträge.<ref n="9" target="ftn9"/> Das ComDeG-Redaktionsteam ist hauptverantwortlich für die redaktionelle Aufbereitung und Vernetzung aller Inhalte, kuratiert und ergänzt die Datensammlungen (Bibliographie und CeMoG-Wissensbasis) und koordiniert die Übersetzung aller Compendium-Inhalte, die sowohl in deutscher als auch in griechischer Sprache veröffentlicht werden.<ref n="10" target="ftn10"/> Neue Inhalte werden laufend hinzugefügt.
+            </p>
+            <div type="div1" rend="DH-Heading">
+                <head>Ein freizugängliches Informationsangebot und Recherchetool</head>
+                <p>Das ComDeG versteht sich als eine Brücke der Informationsvermittlung, der Zusammenarbeit und der Vernetzung, die darauf abzielt, eine gemeinsame deutsch-griechische Geschichtskultur zu ermöglichen. Seine Inhalte richten sich an eine möglichst breite deutsche und griechische Öffentlichkeit, die daran interessiert ist, ihr Wissen über die politischen, gesellschaftlichen und wirtschaftlichen bis hin zu wissenschaftlichen und kulturellen Verflechtungen vom ausgehenden 18. Jahrhundert bis in die jüngste Vergangenheit zu erweitern. Seit September 2020 steht der deutsch-griechischen Fachcommunity und der interessierten Öffentlichkeit auf comdeg.eu ein qualitätsgesichertes Informationsnetzwerk mit wissenschaftlichen Beiträgen zu deutsch-griechischen Verflechtungen und (bibliographischen und prosopographischen) Forschungsdaten zu deren historischen Akteuren im Open Access zur Verfügung. Die Register der CeMoG-Wissensbasis sowie die erweiterten Suchfunktionen in den bibliographischen Sammlungen unterstützen das Auffinden von passenden Inhalten im gesamten ComDeG<ref n="11" target="ftn11"/> und ermöglichen eine personenbezogene bzw. thematisch eingegrenzte Recherche in den bereitgestellten Publikationen.
+                </p>
+                <p>Das ComDeG verknüpft disparates Wissen, stellt überblickende Zusammenstellungen bereit und macht fokussierte Fallstudien für neue Fragestellungen anschlussfähig. Es bildet nicht nur ein breitgefächertes Forschungsnetzwerk, das Wissenschaftler:innen aus unterschiedlichen Disziplinen in ein Gemeinschaftsprojekt zusammenbringt, sondern generiert zugleich eine öffentlichkeitswirksame Sichtbarkeit für seine Forschungserträge. Es trägt wesentlich dazu bei, das Forschungsfeld der deutsch-griechischen Verflechtungen in seiner Größe und Vielfalt zu vermessen und seinen Untersuchungsstand zu dokumentieren. Avisierte Publikums- und Nutzer:innengruppen sind nicht nur Forscher:innen, denen das ComDeG als heuristisches Forschungsinstrument und domänenspezifische Publikationsplattform dient, sondern auch Lehrende und Studierende, Jounalist:innen, Kulturarbeiter:innen und sonstige Interessierte (Soethaert 2020).</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Offenheit als konzeptionelle Anforderung an die Entwicklung des ComDeG</head>
+                <p>Der öffentliche Angebotscharakter einer geisteswissenschaftlichen Online-Publikation im Open Access, wie das ComDeG, wird meistens unter vier Gesichtspunkten thematisiert bzw. konkretisiert (vgl. AG Digitales Publizieren 2021, §§ 58-68 und §§ 79-81; Kleineberg und Kaden 2017; Open Knowledge Foundation 2015; Wissenschaftsrat 2022, 38-47): Zugänglichkeit und Nachnutzbarkeit (die Online-Veröffentlichung der Compendium-Inhalte unter der Open Access-Lizenz CC BY-NC-ND 4.0),<ref n="12" target="ftn12"/> Auffindbarkeit (die Zitierbarkeit aller Inhaltsbereiche, der Einsatz von URIs und normierten Deskriptoren für alle interne Links, die Berücksichtigung von Suchmaschinenoptimierungs-Faktoren für wissenschaftliche Inhalte, vgl. Putnings 2017; Schilhan 2020; Schilhan, Kaier und Lackner 2021) und Gebrauchstauglichkeit (etwa durch die Bereitstellung von erweiterten Such- und Filteroptionen in allen Registern sowie die Einrichtung einer Zeitleiste als Facettensuche für die Compendium-Inhalte, vgl. Russell-Rose und Tate 2013; Tunkelang 2009).
+                </p>
+                <p>Dem öffentlichen Start des ComDeG ging ein mehrjähriger Design- und Entwicklungsprozess voraus, in dem Offenheit als konzeptionelle Anforderung auch alle Aspekte in der informationstechnischen Konzeption des ComDeG als lebhaftes Publikationsprojekt anbelangte, sei es im Bereich der inkrementellen Inhaltserstellung und -publikation, in der Verwaltung, Anwendung und Ergänzung der Verschlagwortungsvokabulare (in der Regel mit GND-ID), oder in der Integration von fortwährend mit Zotero verwalteten bibliographischen Daten.<ref n="13" target="ftn13"/> Angesichts der angestrebten netzartigen Fortschreibung des Publikationsprojekts wurde schnell deutlich, dass das ComDeG sich nicht auf die Implementierung eines digitalen Äquivalents zu einer herkömmlichen Printpublikation mit vorstrukturierten Inhaltsanordnungen und festgeschriebenen Bezugnahmen einschränken ließe; vielmehr sollten in der digitalen Mediatisierung der lebhafte Charakter des ComDeG sowie die Bildung und die fortschreitende Ansammlung seiner inneren Verbindungen Rechnung getragen werden.
+                </p>
+                <p>Der konzeptionelle und funktionelle Designprozess des ComDeG sah sich in diesem Kontext mit einer praktischen Herausforderung konfrontiert: Wie kann die Offenheit vor dem Hintergrund eines stetigen Inhaltszuwachs als konzeptionelle Anforderung längerfristig und ressourcenschonend ausgetragen werden, ohne dass neu hinzukommende Inhalte die redaktionelle Überarbeitung bestehender Informationsarrangements verursachen würden? Anders gesagt: Wie kann man im Verlauf dieses ‚Work-in-Progress‘ die Möglichkeit bereithalten, den einzelnen Beiträgen graduell mehr Kontext hinzuzufügen, ohne jeden einzelnen Beitrag neu editieren bzw. immer wieder weiter verknüpfen zu müssen? Wie können Verbindungen zu fokussierten Beiträgen angelegt werden, die (noch) nicht existieren? Und, nicht zuletzt, wie ermöglicht das ComDeG, dass lose Forschungsfäden in den dokumentierten Informationen an Komplexität und Kontext gewinnen können, indem der interessengeleitete Spürsinn anderer Forscher:innen auf anderweitige Informationscluster gelenkt wird (vgl. Krämer 1998, 79; 2007, 18-19)?</p>
+                <p>Mit dem Open Encyclopedia System (OES), das 2016-2020 parallel zum ComDeG am Center für Digitale Systeme der Freien Universität Berlin als standardisierte Plattform zur Erstellung, Publikation und Pflege von lemmabasierten Sammelwerken konzipiert und erstentwickelt wurde,<ref n="14" target="ftn14"/> bot sich die besondere Chance an, die Leitprinzipien der OES-Systemarchitektur (Modularität, Offenheit, Datenintegrität und Schnittstellen; vgl. Apostolopoulos, Schimmel und Egilmez 2017, 382) auch im Hinblick auf ein wissens- und erkenntnisorientiertes Datendesign für das ComDeG zu prüfen und produktiv zu machen. Denn durch die Beteiligung des Centrum Modernes Griechenland am Projektkonsortium für die Entwicklung des OES ergab sich die Gelegenheit, einige Module (wie etwa die Bibliographie und die Verschlagwortung) neu zu überdenken und dabei die Offenheit, anders als primär auf Open Access, Open Content, Open Licenses und Open Data ausgerichtet, auch als tragfähiges Design- und Verknüpfungsprinzip aufzugreifen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Funktionale Leistungseigenschaften der CeMoG-Wissensbasis</head>
+                <p>Die Funktionalisierung und Implementierung der Offenheit macht das besondere informationstechnische Merkmal des ComDeG aus und versetzt die Plattform in die Lage, ihr Potenzial nicht nur als Medium einer domänenspezifischen Wissenskommunikation sondern vor allem auch als heuristisches Forschungsinstrument für neue kontextbezogene Wissensgenerierung zu entfalten. Denn, im Vergleich zu anderen, bereits veröffentlichten OES-Anwendungen, in denen die jeweiligen Artikel 
+                    <hi rend="italic">indexiert</hi> werden,<ref n="15" target="ftn15"/> zeichnet sich das ComDeG durch die Verknüpfung 
+                    <hi rend="italic">aller</hi> Segmente der Plattform untereinander (Bibliographie, Wissensbasis, Compendium) aus. Die CeMoG-Wissensbasis bildet das strukturelle Rückgrat des ComDeG: ihre Einträge stellen nicht nur ein offenes aber kuratiertes Verschlagwortungsvokabular zu Personen und Institutionen für die bibliographischen Sammlungen sowie für die Essays und Artikel des Compendiums bereit, sondern werden durch neu hinzukommende Inhalte stetig um 
+                    <hi rend="italic">neue</hi> Einträge ergänzt. Darüber hinaus verstehen die Einträge der CeMoG-Wissensbasis sich als Datenverknüpfungsobjekte, die diverse Verweise auf ComDeG-Inhalte an einer Stelle darstellen und Lesepfade zwischen ihren verschiedenen Kontexten etablieren. Sie sind mit anderen Worten eigenständige Datenobjekte, die mit Attributen angereichert werden und über Relationen in Beziehung zu anderen Datenobjekten (wie etwa Artikel, Essays, Biogramme, bibliographische Datensätze) stehen.
+                </p>
+                <p>Die Vorteile der Einrichtung solcher stabil adressierbaren und dennoch offen in ihren Verknüpfungen OES-Objekte machen sich leicht bemerkbar. Kommt ein neuer Essay oder Artikel hinzu, bildet deren Verschlagwortung 
+                    <hi rend="italic">mit bestehenden Einträgen</hi> eine implikative und kontextuelle Beziehung zu 
+                    <hi rend="italic">anderen</hi>, bereits damit verknüpften ComDeG-Inhalten, ohne dass an der Stelle umgekehrt ein expliziter Verweis angelegt werden muss. Das Datenverknüpfungsobjekt dokumentiert und bündelt in einer übersichtlichen Darstellung alle angelegten 
+                    <hi rend="italic">und</hi> neu hinzukommenden Verbindungen. Es erfüllt die wichtige Voraussetzung, dass Informationen zusammenkommen bzw. miteinander kombiniert werden können, um neue Erkenntnisse zu generieren. Kommt durch die Aufnahme eines neuen Essays oder Artikels auch ein 
+                    <hi rend="italic">neuer Eintrag</hi> zu einer Person oder Institution zu Stande, wird dieser ebenfalls mit biographischen Kurzinformationen (und womöglich mit einer GND-Referenzierung) sowie mit relevanten Verweisen auf (bestehende oder neue) Einträge in den bibliographischen Sammlungen ausgestattet.
+                </p>
+                <p>Die Einträge der CeMoG-Wissensbasis stellen folglich durch die Verschlagwortung in den jeweiligen Segmenten immer schon vernetzte Datenobjekte dar, die explizit gemachte Beziehungen abbilden und/oder lose Forschungsfäden aus den jeweiligen ComDeG-Segmenten festhalten. Gerade weil sie aus mehreren Kontexten heraus erreichbar sind und die verfügbaren Verweise jeweils an einer Stelle akkumulieren, können sie andererseits auch auf diverse Zusammenhänge hinweisen. Das ist ihre Kernleistung. Infolgedessen (und anders als in gängigen Indexierungsverfahren) verfügen diese eigenständigen OES-Objekte über die Kapazität, auf etwaige Informationslücken im Compendium hinzuweisen, z.B. wenn in den einzelnen Darstellungen zu der betroffenen Person oder Institution (noch) kein Verweis auf einen entsprechenden Artikel bzw. weiterführenden Essay vorliegt.</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/9c4319cbf9e73ed8bd952e634e2eb537.png"/>
+                        <head><hi rend="italic">Abb. 1 Der Eintrag zu Alexander Steinmetz in der CeMoG-Wissensbasis</hi><ref n="16" target="ftn16"/></head>
+                    </figure>
+                    
+                </p>
+                <p>Die zuverlässigen und beständigen Identifizierungen der CeMoG-Wissensbasis sichern dem ComDeG seinen nachhaltigen Ausbau aus redaktionstechnischer Sicht zu, ermöglichen die sukzessive Netzwerkbildung affiner Inhalte und eröffnen nicht zuletzt im Frontend nicht-lineare Navigationswege bzw. Lesepfade durch die Segmente des ComDeG. Die Einträge der CeMoG-Wissensbasis signalisieren nicht zuletzt über ihre noch ausstehenden Nachweise, dass wir nicht über ein (alles umfassendes) 
+                    <hi rend="italic">Online-Compendium der deutsch-griechischen Verflechtungen</hi> verfügen, sondern immer daran arbeiten. Es handelt sich um ein kollaboratives Unterfangen, das ein solches Compendium als Möglichkeit verhandelt, als Perspektive weiterentwickelt und als Projekt fortschreibt, ohne den synthetisierenden Punkt jeweils erreichen oder alle Erwartungen vollumfänglich erfüllen zu können.
+                </p>
+                <p>Das narrative Vorgehen des ComDeG orientiert sich an einem Modus fragmentarischer Geschichtsschreibung, der nach einem Montageprinzip Momente und Konstellationen der deutsch-griechischen Verflechtungen aufschließt, bestimmte Navigationspunkte (wie etwa Personen, Institutionen, Medien, Objekte, Orte, Kontaktzonen und Vermittlungspraktiken) dichteren Beschreibungen unterzieht, ohne mit den Narrativisierungen von Mikrogeschichten, Makrovorgängen und Metanarrativen ein einheitliches oder erschöpfendes Bild anzustreben (vgl. Pechlivanos 1995; Büttner und Kim 2022). Die Essays des ComDeG erzählen Geschichten (
+                    <hi rend="italic">stories</hi>) über Geschichte (
+                    <hi rend="italic">history</hi>); sie stellen als Textkorpus eine Ansammlung von einzelnen Geschichten oder Zusammenführungen dar, die keinesfalls einen abgeschlossenen Sinn ergeben.
+                </p>
+                <p>Den originellen Beitrag, den das Centrum Modernes Griechenland mit der Integration der CeMoG-Wissensbasis in das ComDeG für die Indexierung von dynamischen Artikelbeständen mit dem Open Encyclopedia System geleistet hat, liegt einerseits in der „strukturellen Ausdifferenzierung des Publikationsobjektes in unterschiedlich verarbeitbare und aktualisierbare Teile“ (vgl. Kaden 2016, 19), andererseits in der Ausarbeitung und Implementierung eines tragfähigen Konzepts für die fortwährende Informationsorganisation und die praktische Ausgestaltung jener Leistungseigenschaften solcher Online-Sammelwerken, die sie als Werkzeug für die Forschung nutzbar machen. Das ComDeG ist weniger ein Compendium (im Sinne eines Handbuchs) als ein Vektor, ein vorwärts gerichtetes Publikationsprojekt, das Änderungen und Ergänzungen offen gegenübersteht, nicht abgeschlossen ist und nie einen fertigen, in sich abgeschlossenen Zustand erreichen wird.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1">
+                    <ref target="https://comdeg.eu/">https://comdeg.eu/</ref>. Rollen der Beiträger zu diesem Vortrag (nach der CRediT-Taxonomie): Prof. Dr. Miltos Pechlivanos (Conceptualization), Dr. Bart Soethaert (Conceptualization, Writing – original draft, review &amp; editing). Alle in den Fußnoten angegebenen Links wurden am 14. Dezember 2022 abgerufen.
+                </note>
+<note xml:id="ftn2" rend="footnote text" n="2">
+    <ref target="https://comdeg.eu/compendium/essays/">https://comdeg.eu/compendium/essays/</ref>
+                </note>
+<note xml:id="ftn3" rend="footnote text" n="3">
+    <ref target="https://comdeg.eu/compendium/artikel/">https://comdeg.eu/compendium/artikel/</ref>
+                </note>
+<note xml:id="ftn4" rend="footnote text" n="4">
+    <ref target="https://comdeg.eu/wissensbasis/">https://comdeg.eu/wissensbasis/</ref>
+                </note>
+<note xml:id="ftn5" rend="footnote text" n="5">
+    <ref target="https://comdeg.eu/bibliographie/">https://comdeg.eu/bibliographie/</ref>
+                </note>
+<note xml:id="ftn6" rend="footnote text" n="6">
+    <ref target="https://www.cemog.fu-berlin.de/compendium/aktivitaeten/">https://www.cemog.fu-berlin.de/compendium/aktivitaeten/</ref>
+                </note>
+<note xml:id="ftn7" rend="footnote text" n="7">
+    <ref target="https://comdeg.eu/compendium/autorinnen/">https://comdeg.eu/compendium/autorinnen/</ref>
+                </note>
+<note xml:id="ftn8" rend="footnote text" n="8">
+    <ref target="https://www.cemog.fu-berlin.de/compendium/mitmachen/">https://www.cemog.fu-berlin.de/compendium/mitmachen/</ref>und <ref target="https://comdeg.eu/projekt/mitmachen/">https://comdeg.eu/projekt/mitmachen/</ref>. In diesem Zusammenhang ist insbesondere auf den signifikanten Informationszuwachs hinzuweisen, der bisher im Compendium durch Kooperationen mit thematisch affinen Projekten erreicht wurde. Hierzu zählen mitunter das Projekt von Prof. Dr. Ulrich Moennig (Universität Hamburg) zu „Griechischen Doktorand(inn)en an der Universität Hamburg von der Gründung der Universität 1919 bis 1941“ (<ref target="https://comdeg.eu/compendium/essay/101014/">https://comdeg.eu/compendium/essay/101014/</ref>) und das Projekt „Akteure deutsch-griechischer Übersetzungskulturen: eine Standortbestimmung aus kollektiv-biographischer Perspektive“, das am Centrum Modernes Griechenland der Freien Universität Berlin in Zusammenarbeit mit dem Institut für Griechisch-Deutsche Beziehungen der Nationalen und Kapodistrias-Universität Athen erarbeitet wurde: 
+                    <ref target="https://comdeg.eu/compendium/essay/103006/">https://comdeg.eu/compendium/essay/103006/</ref>.
+                </note>
+<note xml:id="ftn9" rend="footnote text" n="9">
+    <ref target="https://www.cemog.fu-berlin.de/compendium/beteiligte/">https://www.cemog.fu-berlin.de/compendium/beteiligte/</ref>
+                </note>
+<note xml:id="ftn10" rend="footnote text" n="10">
+    <ref target="https://www.cemog.fu-berlin.de/compendium/koordination/">https://www.cemog.fu-berlin.de/compendium/koordination/</ref>
+                </note>
+<note xml:id="ftn11" rend="footnote text" n="11">Um eine optimale Durchsuchbarkeit aller Segmente des ComDeG zu gewährleisten, wurde die frei verfügbare Suchtechnologie Apache Solr (<ref target="https://solr.apache.org/">https://solr.apache.org/</ref>) integriert.
+                    </note>
+
+<note xml:id="ftn12" rend="footnote text" n="12">Vgl. die „Open-Access-Grundlagen“ auf der Plattform 
+                        <ref target="https://open-access.network/informieren/open-access-grundlagen">open-access.network</ref> sowie die Open-Access-Definition in der BOAI-Grundsatzerklärung: „There are many degrees and kinds of wider and easier access to [research] literature. By ‚open access‘ to this literature, we mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles, crawl them for indexing, pass them as data to software, or use them for any other lawful purpose, without financial, legal, or technical barriers other than those inseparable from gaining access to the internet itself.“ (Budapest Open Access Initiative 2002)
+                    </note>
+<note xml:id="ftn13" rend="footnote text" n="13">Als Werkzeug für die strukturierte Erfassung bibliographischer Daten wird das freie, quelloffene Literaturverwaltungsprogramm Zotero (<ref target="https://www.zotero.org/">https://www.zotero.org/</ref>) eingesetzt. Für die Einbindung der Zotero-Sammlungen in das OES-Redaktionsystem wurde eine Programmierschnittstelle (API) mit lesendem und schreibendem Zugriff auf die bibliographischen Datensammlungen eingerichtet sowie ein User-Interface, das, auf dieser Schnittstelle aufbauend, den Datenaustausch zwischen den Bibliographien und dem Redaktionssystem dokumentiert. Die bibliographischen Daten, die mit Normeinträgen zu Personen und Institutionen verknüpft werden können und über Relationen in Beziehung zu Compendium-Inhalten stehen, werden in einem eigens dafür konzipierten Bereich „Bibliographie“ ausgeliefert und verfügen über umfassende Such- und Filterfunktionen.
+                    </note>
+<note xml:id="ftn14" rend="footnote text" n="14">Die OES-Systemarchitektur und -Komponenten basieren auf dem Open Source Content Management System WordPress (<ref target="https://wordpress.com/de/">https://wordpress.com/de/</ref>) und wurden als WordPress-Plugin mit zugehörigem Theme und einem projektspezifischen Datenmodell, über welches die Beitragstypen, weitere OES-Datenobjekte sowie die Relationen zwischen den Datenfeldern definiert werden, umgesetzt. Für die Implementierung von benutzerdefinierten Eingabemasken und Beziehungsfeldern nutzt OES das Open Source Plugin Advanced Custom Fields (ACF, <ref target="https://www.advancedcustomfields.com/">https://www.advancedcustomfields.com/</ref>). Der Quellcode von OES steht zur akademischen Verwendung und Erweiterung durch Dritte unter einer GPLv2-Lizenz auf GitHub zur Verfügung: 
+                        . Die Erstentwicklung von OES erfolgte im Rahmen des von der DFG geförderten Projekts „Von 1914-1918-online zum Open Encyclopedia System“ (2016-2020): 
+                        . OES wird kontinuierlich weiterentwickelt, nicht zuletzt in enger Kooperation mit dem Exzellenzcluster „Temporal Communities. Doing Literature in a Global Perspective“. Betrieb und Pflege der Redaktions- und Publikationsumgebung für das ComDeG wird durch die Freie Universität Berlin gesichert.
+                    </note>
+<note xml:id="ftn15" rend="footnote text" n="15">
+    <ref target="https://www.open-encyclopedia-system.org/use-cases/">https://www.open-encyclopedia-system.org/use-cases/</ref>
+                    </note>
+<note xml:id="ftn16" rend="footnote text" n="16">
+    <ref target="https://comdeg.eu/namennormdatei/nnd-alexandersteinmetz-2/">https://comdeg.eu/namennormdatei/nnd-alexandersteinmetz-2/</ref>
+                    </note></div>
+                    
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">AG Digitales Publizieren, Hg</hi>. 2021. "Digitales Publizieren in den Geisteswissenschaften: Begriffe, Standards, Empfehlungen." In 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften / Working Papers, 1</hi>. Wolfenbüttel. 
+                        <ptr target="https://doi.org/10.17175/wp_2021_001"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Apostolopoulos, </hi>
+                        <hi rend="bold">Nicolas</hi>
+                        <hi rend="bold">, </hi>
+                        <hi rend="bold">Christoph Schimmel und </hi>
+                        <hi rend="bold">Ilk</hi>
+                        <hi rend="bold">er</hi>
+                        <hi rend="bold"> Egilmez</hi>. 2017. "Open Encyclopedia System. Open Source Software for Open Access Encyclopedias." In 
+                        <hi rend="italic">Everything Changes, Everything Stays the Same? Understanding Information Spaces. Proceedings of the 15th International Symposium for Information Science (ISI 2017)</hi>, hg. von Maria Gäde, Violeta Trkulja und Vivien Petras, 380-385. Berlin: Werner Hülsbusch. 
+                        <ptr target="http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bardi, Alessia und Paolo Manghi</hi>. 2014. "Enhanced Publications: Data Models and Information Systems." 
+                        <hi rend="italic">Liber Quarterly</hi> 23(4), 240-273. 
+                        <ptr target="https://doi.org/10.18352/lq.8445"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Budapest Open Access Initiative</hi>. 2002. "Declaration." 14. Februar 2002. 
+                        <ptr target="https://www.budapestopenaccessinitiative.org/read/"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Büttner, </hi>
+                        <hi rend="bold">Urs </hi>
+                        <hi rend="bold">und David D.</hi>
+                        <hi rend="bold"> Kim</hi>. 2022. "Globalgeschichten der Literaturen. Ein Methodenprogramm." In 
+                        <hi rend="italic">Globalgeschichten der deutschen Literatur. </hi>
+                        <hi rend="italic">Methoden – Ansätze – Probleme</hi>, hg. von Urs Büttner und David D. Kim, 1-32. Stuttgart: J.B. Metzler. 
+                        <ptr target="https://doi.org/10.1007/978-3-476-05786-0_1"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kaden, Ben</hi>. 2016. "Zur Epistemologie digitaler Methoden in den Geisteswissenschaften." In 
+                        <hi rend="italic">Berliner Beiträge zu Digital Humanities</hi>. 
+                        <ptr target="https://doi.org/10.5281/zenodo.50623"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kleineberg, Michael und Ben Kaden</hi>. 2017. "Open Humanities? ExpertInnenmeinungen über Open Access in den Geisteswissenschaften." 
+                        <hi rend="italic">LIBREAS. Library Ideas</hi> 32: 1-31. 
+                        <ptr target="https://doi.org/10.18452/19096"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krämer</hi>
+                        <hi rend="bold">, Sibylle</hi>. 1998. "Das Medium als Spur und als Apparat." In 
+                        <hi rend="italic">Medien, Computer, Realität. Wirklichkeitsvorstellungen und Neue Medien</hi>, hg. von Sibylle Krämer, 73-94. Frankfurt am Main: Suhrkamp. 
+                        <ptr target="https://www.geisteswissenschaften.fu-berlin.de/we01/institut/mitarbeiter/emeriti/kraemer/PDFs/Aufsaetze/Das-Medium-als-Spur-und-Apparat-1998-_50_.pdf"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krämer</hi>
+                        <hi rend="bold">, Sibylle</hi>. 2007. "Was also ist eine Spur? Und worin besteht ihre epistemologische Rolle? Eine Bestandsaufnahme." In 
+                        <hi rend="italic">Spur. Spurenlesen als Orientierungstechnik und Wissenskunst</hi>, hg. von Sibylle Krämer, Werner Kogge und Gernot Grube, 11-33. Frankfurt am Main: Suhrkamp. 
+                        <ptr target="https://www.geisteswissenschaften.fu-berlin.de/we01/institut/mitarbeiter/emeriti/kraemer/PDFs/Aufsaetze/Was-also-ist-eine-Spur-2007-_113_.pdf"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kyrtsis, Alexandros-Andreas und Miltos Pechlivanos, </hi>
+                        <hi rend="bold">Hgg</hi>. 2020-. 
+                        <hi rend="italic">Compendium der deutsch-griechischen Verflechtungen</hi>. 
+                        <ptr target="https://comdeg.eu/compendium/"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Open Knowledge Foundation</hi>. 2015. "Open Definition 2.1." In 
+                        <hi rend="italic">The Open Definition. Defining Open in Open Data, Open Content and Open Knowledge</hi>. 
+                        <ptr target="https://opendefinition.org/od/2.1/en/"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pechlivanos, Miltos</hi>. 1995. "Literaturgeschichte(n)." In 
+                        <hi rend="italic">Einführung in die Literaturwissenschaft</hi>, hg. von Miltos Pechlivanos, Stefan Rieger, Wolfgang Struck und Michael Weitz, 170-181. Stuttgart: J.B. Metzler. 
+                        <ptr target="https://doi.org/10.1007/978-3-476-03544-8_15"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>Putnings, Markus. 2017. "6g. Die Rolle der Metadaten – Indexierung und Sicherung der Auffindbarkeit." In 
+                        <hi rend="italic">Praxishandbuch Open Access</hi>, hg. von Konstanze Söllner und Bernhard Mittermaier, 311-320. Berlin: De Gruyter. 
+                        <ptr target="https://doi.org/10.1515/9783110494068-036"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>Russel-Rose, Tony und Tyler Tate. 2013. "Chapter 7 - Faceted Search." In 
+                        <hi rend="italic">Designing the Search Experience. The Information Architecture of Discovery</hi>, 167-218. Waltham, MA: Morgan Kaufmann. 
+                        <ptr target="https://doi.org/10.1016/B978-0-12-396981-1.00007-0"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>Schilhan, Lisa. 2020. "Sichtbarkeit und Auffindbarkeit wissenschaftlicher Publikationen." In 
+                        <hi rend="italic">Publikationsberatung an Universitäten: Ein Praxisleitfaden zum Aufbau publikationsunterstützender Services</hi>, hg. von Karin Lackner, Lisa Schilhan und Christian Kaier, 237-258. Bielefeld: transcript Verlag. 
+                        <ptr target="https://doi.org/10.1515/9783839450727-013"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>Schilhan, Lisa, Christian Kaier und Karin Lackner. 2021. "Increasing Visibility and Discoverability of Scholarly Publications with Academic Search Engine Optimization." 
+                        <hi rend="italic">Insights</hi> 34(6), 1-16. 
+                        <ptr target="http://doi.org/10.1629/uksg.534"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Soethaert, Bart</hi>. 2020. "Neue Recherche- und Publikationsplattform für die historische Erforschung der deutsch-griechischen Beziehungen. Launch der digitalen Plattform für das 
+                        <hi rend="italic">Online-Compendium der deutsch-griechischen Verflechtungen</hi> (ComDeG)." In 
+                        <hi rend="italic">L.I.S.A. Wissenschaftsportal der Gerda Henkel Stiftung</hi>. 2. Oktober 2020. 
+                        <ptr target="https://lisa.gerda-henkel-stiftung.de/?nav_id=9436"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>Tunkelang, Daniel. 2009. 
+                        <hi rend="italic">Faceted Search</hi>. San Rafael, CA: Morgan &amp; Claypool. 
+                        <ptr target="https://doi.org/10.1007/978-3-031-02262-3"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wissenschaftsrat, Hg</hi>. 2022. 
+                        <hi rend="italic">Empfehlungen zur Transformation des wissenschaftlichen Publizierens zu Open Access</hi>. Köln. 
+                        <ptr target="https://doi.org/10.57674/fyrc-vb61"/> (zugegriffen: 14. Dezember 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="TRILCKE_Peer_Open_Archives_VR__Ein_3D_Modell_des_Theodor_Fon" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Open Archives VR. Ein 3D-Modell des Theodor-Fontane-Archivs als interaktiver Erlebnis- und Kommunikationsraum</title>
+                <author>
+                    <persName>
+                        <surname>Brandes</surname>
+                        <forename>Vanessa</forename>
+                    </persName>
+                    <affiliation>Theodor Fontane Gesellschaft e.V.</affiliation>
+                    <email>vanessa.brandes@fontane-gesellschaft.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Busch</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv | Universität Potsdam</affiliation>
+                    <email>annabusch@uni-potsdam.de</email>
+                    <idno type="ORCID">0000-0001-5584-4807</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv | Universität Potsdam</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                    <idno type="ORCID">0000-0002-1421-4320</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zimmermann</surname>
+                        <forename>Ronny</forename>
+                    </persName>
+                    <affiliation>Theodor Fontane Gesellschaft e.V.; Theodor-Fontane-Archiv | Universität Potsdam</affiliation>
+                    <email>ronny.zimmermann@uni-potsdam.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-07T13:11:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>3D-Modell</term>
+                    <term>Vermittlung</term>
+                    <term>Kulturdaten</term>
+                    <term>Open Archives</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Gestaltung</term>
+                    <term>Kommunikation</term>
+                    <term>3D-Bilder</term>
+                    <term>Interaktion</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Offene Archive in virtuellen Räumen</head>
+                <p>Literaturarchive – wie literarische Gedächtniseinrichtungen im Allgemeinen – stehen heute mehr denn je vor der Herausforderung, ihre gesellschaftlichen Aufgaben der partizipativen Vermittlung von und der diskursiven Verständigung über Literatur, Kultur und Geschichte und also ihr Selbstverständnis als gegenwartsorientierte Akteure des kulturellen Gedächtnisses vor dem Hintergrund des medialen Wandels neu zu bestimmen (Wettmann 2018), z.B. im Kontext aktueller Konzeptualisierungen von „Virtual Heritage“ (Champion 2021). Auf die erste Phase der digitalen Öffnung von Literaturarchiven – die Transformation zu offenen Datenräumen – folgt derzeit eine zweite, in der sich die Gedächtniseinrichtungen selbst in den virtuellen Raum übersetzen, um weitere Möglichkeiten der Zugänglichkeit zu eröffnen (Bekele und Champion 2019). </p>
+                <p>Forciert durch die Pandemie bedeutet dies zunehmend auch, translokale Formen der Präsenz im Archiv zu erproben und damit das Archiv als Ort (Cunningham 2017) neu zu denken. Gepaart mit den Digitalisierungs- und Bereitstellungsbestrebungen von offenen Kulturdaten und -objekten im digitalen Raum, bieten sich so neue Experimentierräume für digitale Interaktionen (vgl. museum4punkt0 2022). Dabei sind die Akteure auf Technologien angewiesen, die Forschungs- und Vermittlungsziele offenlegen und derart kommunizieren, dass über eine museale Präsentation hinaus eine Interaktion mit Kulturobjekten und -praktiken im digitalen Raum möglich wird. Das kann durch virtuelle Lern- oder Spielumgebungen geschehen, die interaktive Erzählräume schaffen. Datenvisualisierung und Datendesign erfolgen beispielsweise durch virtuelle und räumliche Darstellungen (vgl. Glinka u.a. 2020) sowie zunehmend durch simulierte Umgebungen und virtuelle Welten, etwa 3D-Rundgänge (vgl. z.B. Österreichisches Staatsarchiv o.J.). </p>
+                <p>Das Kooperationsprojekt „FontaneVR“ der Theodor Fontane Gesellschaft e.V. und des Theodor-Fontane-Archivs der Universität Potsdam hat auf diese Überlegungen aufbauend im Jahr 2022 einen Prototyp einer digitalen 3D-Ausstellungs- und Interaktionsumgebung konzipiert und entwickelt. Dafür ist eine VR-basierte Begegnungsstätte gestaltet worden, die der Villa Quandt, dem Sitz des Theodor-Fontane-Archivs, nachempfunden ist, diese aber auch erweitert und hybridisiert. Für diesen virtuellen Ort werden begleitend digitale Vermittlungsformate (Literatur- und Bildungsevents) sowie interaktive Ausstellungsformate entwickelt, die sich an ein diverses Publikum richten und, erreichbar über Webbrowser, individuell oder kollektiv besucht werden können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>„FontaneVR“: Umsetzung und Konzept</head>
+                <p>Das Projekt „FontaneVR“<ref n="1" target="ftn1"/> verfolgt zwei Schwerpunkte: Zum einen den 
+                    <hi rend="italic">Bau eines 3D-Modells</hi> der Villa Quandt, samt realistischer Nachbildung der Umgebung, photogrammetrischer Erfassung der Architektur und maßstabsgetreuer, realistischer, grafischer 3D-Darstellung der Räumlichkeiten und Ausstellungsobjekte. Zum anderen die Konzeption verschiedener 
+                    <hi rend="italic">Vermittlungsformate</hi>, die im Rahmen des 3D-Modells virtuelle Begehung, Exploration und Begegnung erlauben.
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>3D-Modell</head>
+                    <p>Der detailgetreuen Modellierung der Villa Quandt (siehe Abb.1), ihrer Innenräume und ausgewählter Objekte (siehe Abb. 2) liegt ein objekt- und materialangemessener 3D-Digitalisierungsprozess nach dem Prinzip der Photogrammetrie (siehe Abb. 3.) sowie eine webbasierte 3D-Präsentation über Mozilla Hubs zugrunde. Während ein fotorealistisches Modell des Archiv-Gebäudes die Grundlage bildet, werden einzelne Räume zugleich gezielt ›fiktionalisiert‹, d.h. mit Möglichkeiten etwa zur musealen Präsentation und Kontextualisierung von Archivobjekten ausgestattet, die in der realen Villa Quandt nicht gegeben sind (Abb. 3). Damit ist das 3D-Modell nicht nur eine Abbildung des Archivortes, sondern eine Erweiterung, die VR bewusst zum Aufbau zusätzlicher archivarischer Funktionen nutzt.<ref n="2" target="ftn2"/>
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="8.812388888888888cm" url="Pictures/36d03be0080cc7a367b62a3b611aeade.png" rend="inline"/>
+                        <head>Abb. 1: prototypische Außenansicht des 3D-Modells der Villa Quandt</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="10.668cm" url="Pictures/5964d2327273c37844c885d72d9a284c.png" rend="inline"/>
+                        <head>Abb. 2: Innenraum der Villa Quandt (3D-Referenzmodell)</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1003" width="15.92cm" height="8.184444444444445cm" url="Pictures/afed0d270f0329108dc4b1bdcc663242.png" rend="inline"/>
+                        <head>Abb. 3: Verschiedene photogrammetrische Erfassungen von Außen- und Innenräumen der Villa Quandt</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1004" width="15.945555555555556cm" height="8.360833333333334cm" url="Pictures/0ecbf0a47b8e4d7464fd82a1fe4fb743.png" rend="inline"/>
+                        <head>Abb. 4: ›Fiktionalisierte‹ Innenräume für museale Inszenierungen mit 3D-Ausstellungsobjekten</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Vermittlungsformate</head>
+                    <p>Als konkrete Vermittlungsformate sind eine Reihe von Implementierungen und eventbasierte Nutzungen der virtuellen Begegnungsstätte geplant, die zuvor kuratorisch konzipiert und entwickelt wurden.</p>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Ästhetische Erfahrung</head>
+                        <p>Die 
+                            <hi rend="italic">literarische Ausstellung</hi>: In den virtuellen Räumen werden verschiedene Ausstellungen konzipiert, die es ermöglichen, die Materialität des Fontane-Nachlasses (z.B. Handschriften-Digitalisate) zu erfahren, die Aktualität Fontanes zu entdecken (z.B. durch Tafeln zu neuen Forschungspositionen) oder die Geschichte der Fontane Gesellschaft und des Archivs kennenzulernen. Die Ausstellungen können dabei zeitungebunden durch interessierte Nutzer*innen besucht werden; darüber hinaus werden von professionellen Guides durchgeführte Führungen durch die Ausstellung angeboten.
+                        </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Information und Unterhaltung</head>
+                        <p>Die 
+                            <hi rend="italic">literarische Veranstaltung</hi>: In Form von Vorträgen, Lesungen, Vorträgen, Werkstattgespräche oder Diskussionen werden diskursive Formen der Vermittlung von Literatur und Geschichte angeboten, zu denen Interessierte sich ortsungebunden in der virtuellen Begegnungsstätte versammeln können.
+                        </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Gamification</head>
+                        <p>Das 
+                            <hi rend="italic">literarische Spiel</hi>: Insbesondere – aber keineswegs nur – für die jüngere Generation (etwa Schülerinnen und Schüler) wird die virtuelle Begegnungsstätte zur Spielstätte transformiert, in der sich Such- und Erkundungsspiele rund um das literarische Werk und den handschriftlichen Nachlass Fontanes durchführen lassen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         „FontaneVR“ wird im Rahmen von „dive in. Programm für digitale Interaktion“ der Kulturstiftung des Bundes entwickelt und durch die Beauftragte der Bundesregierung für Kultur und Medien (BKM) im Programm NEUSTART KULTUR gefördert. Weitere Informationen zum Projekt finden sich hier: 
+                            <ref target="https://www.fontanearchiv.de/fontanevr">https://www.fontanearchiv.de/fontanevr</ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                             Direkt zur Anwendung gelangt man hier: 
+                                <ref target="https://www.fontanearchiv.de/fontanevr/vr">https://www.fontanearchiv.de/fontanevr/vr</ref>. 
+                            
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Bekele, Mafkereseb Kassahun und Erik Champion.</hi> 2019 „A Comparison of Immersive Realities and Interaction Methods: Cultural Learning in Virtual Heritage“. 
+                        <hi rend="italic">Frontiers in Robotics and AI</hi> 6. https://doi.org/10.3389/frobt.2019.00091 
+                    </bibl>
+                    <bibl><hi rend="bold">Champion, Erik (Hg).</hi> 2021. 
+                        <hi rend="italic">Virtual Heritage. A Guide</hi>. London: Ubiquity Press. https://doi.org/10.5334/bck 
+                    </bibl>
+                    <bibl><hi rend="bold">Cunningham, Adrian.</hi> „Archives as a Place“. In 
+                        <hi rend="italic">Currents of Archival Thinking</hi>, hg. von Heather MacNeil, Terry Eastwood, Second edition, 53–79. Santa Barbara, California: Libraries Unlimited, 2017. 
+                    </bibl>
+                    <bibl><hi rend="bold">Glinka, Katrin, Patrick Tobias Fischer, Claudia Müller-Birn, Silke Krohn.</hi> (2020): “Investigating Modes of Activity and Guidance for Mediating Museum Exhibits in Mixed Reality”. In 
+                        <hi rend="italic">Kultur und Informatik: Extended Reality</hi>, hg. von Johann Habakuk Israel, Christian Kassung, Jürgen Sieck. Berlin: vwh. https://doi.org/10.48550/arXiv.2106.13494 
+                    </bibl>
+                    <bibl><hi rend="bold">museum4punkt0.</hi> 2022. [Website]. https://www.museum4punkt0.de/ (zugegriffen: 1. August 2022).</bibl>
+                    <bibl><hi rend="bold">Österreichisches Staatsarchiv.</hi> o.J. 99 Dokumente [3D-Rundgang]. https://oe99.staatsarchiv.at/tour-durch-das-archiv/ (zugegriffen: 1. August 2022).</bibl>
+                    <bibl><hi rend="bold">Wettmann, Andrea. </hi>2018. “Die Archive und der ‘Digital Turn’. Eine Standortbestimmung”. In 
+                        <hi rend="italic">Kooperative Informationsinfrastrukturen als Chance und Herausforderung</hi>, hg. von Achim Bonte, Juliane Rehnolt, 361–371. Berlin: De Gruyter. https://doi.org/10.1515/9783110587524-038
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

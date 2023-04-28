@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="MAYER_Desiree_Der_NFDI4Culture_Helpdesk___ein_Beratungsangeb" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Der NFDI4Culture Helpdesk – ein Beratungsangebot für die Kulturwissenschaften</title>
+                <author>
+                    <persName>
+                        <surname>Mayer</surname>
+                        <forename>Desiree</forename>
+                    </persName>
+                    <affiliation>Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Deutschland</affiliation>
+                    <email>desiree.mayer@slub-dresden.de</email>
+                    <idno type="ORCID">0000-0003-0958-886X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kailus</surname>
+                        <forename>Angela</forename>
+                    </persName>
+                    <affiliation>Philipps-Universität Marburg</affiliation>
+                    <email>kailus@fotomarburg.de</email>
+                    <idno type="ORCID">0000-0003-1514-2258</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-05T11:48:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Beratung</term>
+                    <term>Service</term>
+                    <term>Hilfestellung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Daten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt">NFDI4Culture</hi><ref n="1" target="ftn1"/>
+                <hi style="font-size:12pt">ist das Konsortium in der Nationalen ForschungsdatenInfrastruktur (NFDI<ref n="2" target="ftn2"/>), das eine bedarfsgerechte Infrastruktur für Forschungsdaten zu materiellen und immateriellen Kulturgütern schafft.</hi>
+            </p>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt">Die in den Blick genommene Forschungslandschaft von Architektur-, Kunst-, Musik- bis hin zur Theater-, Tanz-, Film- und Medienwissenschaften ist durch starke Diversität gekennzeichnet. Sie umfasst Universitätsinstitute, Kunst- und Musikhochschulen, Akademien, Galerien, Bibliotheken, Archive, Museen und einzelne Forscher:innen ebenso Anbieter von Services und Infrastrukturen für diese Bereiche. Das Konsortium will ein Netzwerk etablieren, das an den FAIR-Prinzipien orientierte Angebote für alle Phasen des Forschungsdatenlebenszyklus von der Datengenerierung und -anreicherung über Datenanalyse und -archivierung bis hin zur Datendistribution und -nachnutzung sicherstellt. Eine Herausforderung sind dabei die sehr unterschiedlichen Anwendungsgebiete, Nutzungszwecke und Softwarelösungen, die in digital gestützten Prozessen berücksichtigt werden müssen, aber auch die häufig sehr unterschiedlichen Vorkenntnisse über einschlägige Verfahren des Forschungsdatenmanagements, Standards und nachnutzbare Angebote in einer bislang wenig vernetzt agierenden Fachgemeinschaft.</hi>
+            </p>
+            <div type="div1" rend="DH-Heading">
+            <head>Profil des Helpdesks</head>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt">Der NFDI4Culture-Helpdesk ist ein Beratungsangebot</hi><ref n="3" target="ftn3"/>
+                <hi style="font-size:12pt">, das eine individuelle, direkte Konsultation zu konkreten Fragestellungen ermöglicht und die Projektkontexte, institutionellen Gegebenheiten und Vorkenntnisse der Nutzenden berücksichtigt. Es ergänzt das Portfolio der Veranstaltungs- und Publikationsformate, mit denen NFDI4Culture Kenntnisse vermitteln und die Integration der Community voranbringen möchte. Der Helpdesk steht allen Akteuren der oben genannten Domänen zur Verfügung, unabhängig von Qualifikationsstufe oder institutioneller Zugehörigkeit. Die Beratung erfolgt gemäß den Schwerpunktthemen von NFDI4Culture:</hi>
+            </p>
+<list type="unordered">
+                <item>Organisatorische und technische Aspekte der Digitalisierung von Kulturgütern (2D, 3D, Audio, Video, AR/VR)</item>
+                <item>
+                    <hi style="font-size:12pt">Datenqualität, Standards, Datenkuratierung</hi>
+                </item>
+                <item>Umsetzung der FAIR-Prinzipien</item>
+                <item>Entwicklung, Konsolidierung, Betrieb und Zertifizierung von nachhaltigen, interoperablen Forschungswerkzeugen und Datendiensten</item>
+                <item>Publikationsprozesse, insbesondere für multimodale Publikationen und deren Archivierung in Repositorien</item>
+                <item>
+                    <hi rend="color(111111)" style="font-size:12pt">datenrechtliche und ethische Fragen, etwa zum Urheberrecht, zu Eigentums- und Persönlichkeitsrechten</hi>
+                    <hi style="font-size:12pt" xml:space="preserve">, </hi>
+                    <hi rend="color(111111)" style="font-size:12pt">zum Umgang mit Open Science oder mit kulturell sensiblen Objekten</hi>
+                </item>
+                <item>
+                    <hi rend="color(111111)" style="font-size:12pt">Inhalte, Organisation und Gestaltung von Schulungen, Workshops, Lehrmodulen etc. zu Data und Code Literacy</hi>
+                </item>
+                <item>Informationen zu in Frage kommenden Förderprogrammen und Voraussetzungen für die Projektantragstellung </item>
+                <item>
+                    <hi rend="color(111111)" style="font-size:12pt">Planung des Forschungsdatenmanagements für Projekte und institutionelle Workflows</hi>
+                    <lb/> 
+                </item>
+            </list>
+            <p style="text-align: left;">Für die Beratung steht ein Team bereit, dessen Mitglieder durchweg selbst über Expertise in einem oder mehreren der Schwerpunktthemen verfügen. Eine Rechtsberatung im juristischen Sinne kann allerdings nicht durchgeführt werden.</p></div>
+
+            <div type="div1" rend="DH-Heading">
+                <head>Ablauf der Beratung</head>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt" xml:space="preserve">Der Helpdesk ist über das Kontaktformular auf der NFDI4Culture-Website erreichbar. Die oder der Ratsuchende beschreibt dort die Fragestellung und kann sie bereits einem Schwerpunktthema zuordnen. Die eingegangene Anfrage wird einem Mitglied des Helpdesk-Teams mit einschlägigen Kenntnissen zugeordnet, die oder der als „Datenlotsin“ oder „Datenlotse“ bearbeitet und über den gesamten Beratungsprozess steuernd begleitet. Bei komplexeren Anfragen zieht sie oder er weitere Expertise aus anderen Bereichen des Konsortiums oder auch von anderen vernetzten Forschungsdatenmanagement-Initiativen, Serviceeinrichtungen oder Fachleuten hinzu. Gleichzeitig ist sie oder er Ansprechpartner:in für die oder den Ratsuchenden und ist immer informiert über die Aktivitäten rund um die Beratung. </hi>
+            </p>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt" xml:space="preserve">Meist beginnt die Beratung mit einem Gesprächstermin, in dem das Problemfeld näher geschildert wird. Die Informationen werden auf Wunsch vertraulich behandelt. Die Bandbreite der Beratungen reicht von einmaliger Beantwortung einer konkreten Frage bis zur längerfristigen Begleitung eines Projekts von der Antragsphase an. </hi>
+                <hi rend="color(111111)" style="font-size:12pt">Anfragen dürfen sich in alle Richtungen weiter entwickeln: Was beispielsweise als konkrete Frage zur Lizenzvergabe beginnt, kann in die Vermittlung einer Kooperation mit anderen Projekten münden.</hi>
+            </p>
+            <p style="text-align: left;">
+                <hi rend="color(111111)" style="font-size:12pt">Oft steht hinter einer Anfrage der Wunsch nach Vernetzung. Daher sieht der Helpdesk seine Aufgabe auch darin, Akteure, Projekte und Institutionen miteinander in Verbindung zu bringen, um so die Entwicklung der gesamte Domäne von NFDI4Culture zu unterstützen. </hi> 
+            </p>
+            </div>
+
+            <div type="div1" rend="DH-Heading">
+                <head>Bedarfsgerechte Ausrichtung</head>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt">Die Beratungsergebnisse werden protokolliert, denn sie dienen auch dazu, die Community und die Herausforderungen besser kennenzulernen. So können weitere Angebote von NFDI4Culture bedarfsgerechter ausrichtet werden. In regelmäßigen Treffen arbeitet das Team Helpdesk an der Optimierung seiner Services gemäß den Erfordernissen einer guten klientenzentrierten Beratung.</hi>
+            </p>
+            </div>
+
+            <div type="div1" rend="DH-Heading">
+                <head>Akzeptanz des Angebots</head>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt" xml:space="preserve">Der Helpdesk-Service stößt auf gute Resonanz. Seit dem Projektstart von NFDI4Culture zu Jahresbeginn 2021 gingen 230 Anfragen ein (Stand 1.8.2022). Häufig beziehen sich Anfragen auf Aspekte der Projekt- und Workflowplanung bei der Digitalisierung, Erschließung und Sicherung von Beständen, auf rechtliche Themen, den Einsatz von Normdaten oder auf Softwaretools für bestimmte Anwendungskontexte der digital gestützten Forschung. Die überwiegende Anzahl der Anfragen stammte bis jetzt von Forscher:innen, die im institutionellen Kontext Projekte planen oder durchführen. Beachtlich ist aber auch das Interesse aus bestandshaltenden Institutionen und von Service- und Infrastruktureinrichtungen. Auch Anfragen aus Kontexten, die an den Schnittstellen zu anderen geisteswissenschaftlichen Disziplinen liegen, werden gern entgegen genommen. </hi>
+            </p>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt" xml:space="preserve">Zunehmend entsteht auch eine Zusammenarbeit mit anderen NFDI-Konsortien, den </hi>
+                <hi rend="color(111111)" style="font-size:12pt" xml:space="preserve">Landesinitiativen zum Forschungsdatenmanagement und ähnlichen Angeboten zum Aufbau </hi>
+                <hi style="font-size:12pt">effektiver und aufeinander abgestimmter Beratungsservices, so dass der Helpdesk hier einen wertvollen Beitrag zur Vernetzung dieser Initiativen leistet. </hi>
+            </p>
+            <p style="text-align: left;">
+                <hi style="font-size:12pt" xml:space="preserve">Benötigen Sie Unterstützung zu Fragen rund um Forschungsdaten und –software? Kontaktieren Sie den NFDI4Culture-Helpdesk unter </hi>
+                <ref target="https://nfdi4culture.de/de/kontakt.html">https://nfdi4culture.de/de/kontakt.html</ref>
+            </p>
+            </div>
+           
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1"> https://nfdi4culture.de/
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2"> https://www.nfdi.de/
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3"> https://nfdi4culture.de/go/helpdesk
+                    
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="footnote_reference">
+                            <hi rend="bold">Altenhöner, Reinhard, Ina Blümel, Franziska Boehm, Jens Bove, Katrin Bicher, Christian Bracht, Ortrun Brand. 2020.</hi> NFDI4Culture -
+                            <hi rend="baseline color(1F1F1F)">Consortium</hi>
+                            <hi rend="baseline color(1F1F1F)">for</hi>
+                            <hi rend="baseline color(1F1F1F)">research</hi>
+                            <hi rend="baseline color(1F1F1F)">data</hi>
+                            <hi rend="baseline color(1F1F1F)" xml:space="preserve"> on material </hi>
+                            <hi rend="baseline color(1F1F1F)">and</hi>
+                            <hi rend="baseline color(1F1F1F)">immaterial</hi>
+                            <hi rend="baseline color(1F1F1F)">cultural</hi>
+                            <hi rend="baseline color(1F1F1F)">heritage</hi>
+                            <hi rend="baseline color(1F1F1F)" xml:space="preserve">. Research </hi>
+                            <hi rend="baseline color(1F1F1F)">Ideas</hi>
+                            <hi rend="baseline color(1F1F1F)">and</hi>
+                            <hi rend="baseline color(1F1F1F)" xml:space="preserve"> Outcomes. </hi>
+                            <hi rend="baseline">https://doi.org/10.3897/rio.6.e57036</hi>
+                        </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

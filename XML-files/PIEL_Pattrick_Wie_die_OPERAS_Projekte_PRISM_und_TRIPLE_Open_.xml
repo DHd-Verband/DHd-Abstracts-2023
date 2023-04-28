@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="PIEL_Pattrick_Wie_die_OPERAS_Projekte_PRISM_und_TRIPLE_Open_" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wie die OPERAS-Projekte PRISM und TRIPLE Open Humanities unterstützen können</title>
+                <author>
+                    <persName>
+                        <surname>Piel</surname>
+                        <forename>Pattrick</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung, Deutschland</affiliation>
+                    <email>piel@maxweberstiftung.de</email>
+                    <idno type="ORCID">0000-0001-5809-2815</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Töpfer</surname>
+                        <forename>Marlene</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung, Deutschland</affiliation>
+                    <email>toepfer@maxweberstiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Günther</surname>
+                        <forename>Johanna</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung, Deutschland</affiliation>
+                    <email>Guenther@MaxWeberStiftung.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-13T09:48:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Open Science</term>
+                    <term>Open Access</term>
+                    <term>Wissenschaftsinfrastruktur</term>
+                    <term>Research Infrastructure</term>
+                    <term>Open-Access-Transformation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Kollaboration</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>OPERAS<ref n="1" target="ftn1"/>, Open Scholarly Communication in the European Research Area for Social Sciences and Humanities, ist eine verteilte europäische Forschungsinfrastruktur für die offene wissenschaftliche Kommunikation in den Sozial- und Geisteswissenschaften und arbeitet an innovativen, auf Nutzer:innen oder Institutionen zugeschnittenen Services. (Maryl et al. 2020) Als solche begleitet OPERAS die Entwicklung dieser Angebote sowohl auf den nationalen Ebenen der sogenannten Core-Mitglieder in Gestalt der National Nodes, die den Kontakt zum eigenen nationalen Bezugsrahmen herstellen, als auch auf der europäischen Ebene über die OPERAS eingegliederten Special Interest Groups (SIGs)<ref n="2" target="ftn2"/>, in denen sich die OPERAS-Community über zentrale Aspekte wie Best Practices im Bereich Open Access und Fragen von Multilingualism für OPERAS austauschen kann. Das BMBF-Projekt OPERAS-GER hat unter dem Dach der Max Weber Stiftung die Rolle eines National Node für Deutschland inne und trägt somit als nationales Projekt zur Vernetzung von OPERAS mit der deutschen Wissenschaftslandschaft bei. Durch den Aufbau der nationalen Kontaktstelle wird ein Beitrag zur nachhaltigen Verknüpfung europäischer und nationaler Forschungsinfrastrukturen geleistet. Als europäische Infrastruktur ist OPERAS als Ganzes seit 2021 Teil der ESFRI Roadmap.<ref n="3" target="ftn3"/> (Hrušák et al. 2021, 189)
+            </p>
+            <p>Die Services und der Aufbau von OPERAS richten sich zum einen nach den Bedarfen des akademischen Umfeldes, zum anderen nach den Problemen und Hindernissen bei der Umsetzung einer offenen Wissenschaftskultur in den Sozial- und Geisteswissenschaften. Zwei wesentliche Probleme sind dabei die Fragen nach der Qualitätssicherung von Publikationen, die Open Access publiziert werden und die Problematik der Auffindbarkeit bzw. des Zugriffs auf Open-Access-Publikationen über disziplinäre und sprachliche Grenzen hinweg (Bennett, 2013, 169; Guédon 2019, 30-33). Diese Herausforderungen werden von OPERAS angenommen und durch die Entwicklung der Services GoTriple<ref n="4" target="ftn4"/>, im Projekt TRIPLE, Transforming Research through Innovative Practices for Linked Interdisciplinary Exploration und PRISM<ref n="5" target="ftn5"/>, Peer Review Information Service for Monographs, beide von OPERAS entwickelt, zugleich als Chance zur Innovation begriffen (Balula and Leão 2021, 96). PRISM, basierend auf DOAB<ref n="6" target="ftn6"/>, Directory of Open Access Books, bietet Zugang zu Peer-Reviews von Open-Access-Publikationen. GoTriple, der innovative Discovery-Service von OPERAS, soll die Sichtbarkeit von Forschenden und Open-Access-Literatur verbessern. Außerdem entwickelt OPERAS drei weitere Services, wie den Metrik-Service, der Statistiken über die Nutzung von Publikationen aus dem Open Access, zunächst basierend auf DOAB, bietet<ref n="7" target="ftn7"/>. Das Publikationsservice-Portal wiederum soll zukünftig unterschiedliche Publikationsmodelle von OPERAS-Partnern für User übersichtlich aufführen. Schließlich unterstützt COESO<ref n="8" target="ftn8"/>, Collaborative Engagement on Societal Issues, die Etablierung von Citizen Science in den Sozial- und Geisteswissenschaften mit der Entwicklung von 10 Pilotprojekten und der VERA-Plattform<ref n="9" target="ftn9"/>, Virtual Ecosystem for Research Activation. 
+            </p>
+            <p>Die OPERAS-Services PRISM und GoTriple nehmen das Problem der Qualitätssicherung und der Auffindbarkeit ins Visier. Für die Wissenschaft ist insbesondere das Vertrauen in die Zertifizierung von Forschungen von zentraler Bedeutung, Open-Access-Publikationen haben in diesem Zusammenhang den Nachteil, dass manchen Forschenden die Hürden zur Publikation zu niedrig erscheinen und zugleich die Peer-Review-Verfahren bei Open-Access-Publikationen nicht transparent erschienen. Zudem werden Open-Access-Formate noch immer nicht als Standard von manchen Herausgebern und Verlagen begriffen.</p>
+            <p>Zur Sicherstellung von Peer-Review-Standards für Open-Access-Monographien wird daher PRISM entwickelt und über DOAB bereitgestellt. Der Release einer ersten Vollversion ist für Herbst 2022 vorgesehen und wird zukünftig über DOAB und die European Open Science Cloud verfügbar werden. Damit werden Peer-Reviews von Open-Access-Monographien für Nutzer zentral zugänglich gemacht werden, um so die notwendige Transparenz über die Ergebnisse der Evaluation von Publikationen herzustellen, wobei Einsicht in die durchlaufenen Peer-Reviews gewährt werden kann. PRISM bietet eine leichte Integration in Bibliothekskataloge und unterstützt Metadatenformate wie MARC21, MARCXML, CSV, RIS und ONIX XML mit OAI-PMH Harvesting. Die Peer-Reviews sind dabei direkt Teil der Metadaten und frei verfügbar.</p>
+            <p>GoTriple als ein weiterer Service bietet eine ganze Reihe nützlicher Features zur Arbeit mit Open-Access-Publikationen an und stellt sich dabei dem Problem, dass die Auffindbarkeit von Open-Access-Veröffentlichungen durch die institutionellen und sprachlichen Grenzen und durch die Pluralität von Plattformen negativ beeinflusst werden kann. Daher wird die Plattform GoTriple als gebündelter Zugriffspunkt auf Publikationen und Daten zu Forschungen entwickelt. Als Discovery Service verfügt GoTriple über eine gleichzeitige mehrsprachige Suchfunktion in 11 europäischen Sprachen - Englisch, Französisch, Spanisch, Portugiesisch, Deutsch, Italienisch, Polnisch, Griechisch und Kroatisch, sowie Slowenisch und Ukrainisch. Auf diese wird bei einer Suchanfrage zu einem Thema direkt der gesamte unterstützte Raum, über die unterschiedlichen Sprachen hinweg, erfasst. Die Plattform wird von Huma-Num<ref n="10" target="ftn10"/> bereitgestellt, eine Vollversion soll 2023 erscheinen. Neben der multilingualen Suche bietet GoTriple weitere integrierte Features an, die den Discovery Service ergänzen: So können auch Daten, die Profile von Forschenden (es gibt hier die Möglichkeit eigene Nutzerprofile anzulegen, sowie über das Trustbuilding System zu vernetzen) und Projekte gesucht werden. Diese Möglichkeiten der Vernetzung mit anderen Forscher:innen und Projekten über GoTriple werden durch das Annotationstool Pundit zur gemeinsamen Ergebnissicherung und ein Crowdfunding-Angebot über die Webseite WeMakeIt ergänzt. Zum aktuellen Zeitpunkt speist sich GoTriple aus den folgenden Repositorien und Datenquellen: DOAJ (Directory of Open Access Journals), EKT (Greek National Documentation Centre), OpenAire (Open Access Infrastructure for Research in Europe)<ref n="11" target="ftn11"/>, Isidore und CORDIS (Operational Potential of Ecosystem Research Applications). 
+            </p>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                     OPERAS - Open Scholarly Communication in the European Research Area for Social Sciences and Humanities: Eine der bedeutenden europäischen Forschungsinfrastrukturen für die Geistes- und Sozialwissenschaften, denn auf europäischer Ebene sind, auf Geistes- und Sozialwissenschaften spezialisierte Infrastrukturen noch immer eine Seltenheit und zugleich auch eine besondere Herausforderung, wegen der institutionellen und sprachlichen Fragmentierung der vielen eigenen Forschungstraditionen, Institutionen und Kommunikationswege. Die 
+                        <ref target="https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/european-research-infrastructures_en#:~:text=What%20are%20Research%20Infrastructures%3F%201%20major%20scientific%20equipment,unique%20nature%20which%20is%20open%20to%20external%20users">Europäische Kommission definiert Forschungsinfrastrukturen als Einrichtungen</ref>, die Dienste und Instrumente anbieten, die der Community der Forschenden für ihre wissenschaftliche Arbeit zur Verfügung gestellt werden können. Diese Einrichtungen können dabei virtuell, alleinstehend oder verteilt aufgebaut sein. Die 
+                        <ref target="https://www.esfri.eu/esfri-roadmap">ESFRI Roadmap (2021)</ref>
+                        <hi rend="Hyperlink" xml:space="preserve"> weist unter Anderem OPERAS als eine der wenigen wichtigen Forschungs-infrastrukturen in diesem Bereich aus.</hi>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                     OPERAS Mitglieder sind in diesen Special Interest Groups aktiv und wirken dabei an der Umsetzung und dem Konzept von OPERAS und den entwickelten Services mit. Die 
+                        <ref target="https://www.operas-eu.org/special-interest-groups/">Special Interest Groups</ref> in OPERAS sind: Advocacy, Best Practices, Common Standards and FAIR Principles, Multilingualism, Open Access Business Models, Open Access Books Network und Tools and Platforms. 
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                     Die regelmäßig aktualisierte 
+                        <ref target="https://www.esfri.eu/esfri-roadmap">ESFRI Roadmap</ref> dient dem Ausbau bzw. der Umsetzung europäischer Forschungsinfrastrukturen und soll so den Forschungsstandort Europa stärken.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                     Die Plattform, 
+                        <ref target="https://www.gotriple.eu/">https://www.gotriple.eu/</ref>, des Projektes Triple - Transforming Research through Innovative Practices for Linked Interdisciplinary Exploration, bietet Forschenden und Nutzer:innen die Möglichkeit wissenschaftliche Open-Access-Publikationen zu suchen und zu finden. Ferner bietet es Einrichtungen 
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                    
+                        <ref target="https://www.doabooks.org/en/librarians/prism">Peer Review Information Service for Monographs</ref>: Dient der Qualitätssicherung von Open-Access-Monographien, indem Informationen zu dem Peer Reviews der Bücher sichtbar und zusammen mit den Metadaten über 
+                        <ref target="https://www.doabooks.org/">DOAB</ref>, das Directory of Open Access Books, weltweit abrufbar gemacht werden.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                     Das 
+                        <ref target="https://www.doabooks.org/">Directory of Open Access Books</ref> bietet einen indexierten Zugang zu Open-Access-Büchern.
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                     Dieser Metrics Service ist, wie auch PRISM, ein Angebot das auch jenseits von DOAB nutzbar und integrierbar ist. Es richtet sich zugleich an bibliothekarische Einrichtungen, sowie Verlage und implizit auch an Forschende.
+                </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                    
+                        <ref target="https://coeso.hypotheses.org/">Collaborative Engagement on Societal Issues</ref> ist ein Teilprojekt von OPERAS und konzentriert sich auf die Unterstützung von Citizen Science in den Geistes- und Sozialwissenschaften. 
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                    
+                        <ref target="https://coeso.hypotheses.org/2673">Virtual Ecosystem for Research Activation</ref> ist eine von COESO entwickelte Plattform, die den Austauscht zwischen Forschenden und Bürger:innen für partizipative Wissenschaft in den Geistes- und Sozialwissenschaften ermöglichen soll, so können Nichtwissenschaftler:innen hier beispielsweise nach möglichen akademischen Partnern für die Realisierung von Projekten suchen. 
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                     Huma-num, bietet Lösungen für Daten in den Geistes- und Sozialwissenschaften an. Es ist ein wichtiger Akteur im Bereich der Infrastrukturen in Europa und an den französischen Anteilen der beiden ERICs DARIAH und CLARIN beteiligt. Huma-num ist wie OPERAS ebenfalls in die Landschaft der europäischen Forschungsinfrastrukturen über die ESFRI Roadmap eingebunden: 
+                        <ref target="https://www.huma-num.fr/">https://www.huma-num.fr/</ref>
+                    
+                </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                     Ein europäisches Forschungsinformationssystem für die Verknüpfung von Forschungsergebnissen (Metadaten aus Repositorien, Journals und Infrastrukturen). 
+                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Balula, Ana und Delfim Leão.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 2021. „Multilingualism within Scholarly Communication in SSH – a literature review.” In </hi>
+                        <hi rend="italic" style="font-size:10pt">JLIS.it.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 12(2): 88-98. https://jlis.it/index.php/jlis/article/view/6 (zugegriffen: 03. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Bennett, Karen.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">2013. „English as a Lingua Franca in Academia Combating Epistemicide through Translator Training.” In </hi>
+                        <hi rend="italic" style="font-size:10pt">Interpreter and Translator Trainer</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 7: 169–93.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Guédon, Jean-Claude, Michael Jubb, Bianca Kramer, Mikael Laakso, Birgit Schmidt, Elena Šimukovič, Jennifer Hansen, Robert Kiley, Anne Kitson, Wim van der Stelt, Kamilla Markram, und Mark Patterson. European Commission, Directorate-General for Research and Innovation. </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">2019. “Future of Scholarly Publishing and Scholarly Communication. Report of the Expert Group to the European Commission.” </hi>
+                        <ref target="https://data.europa.eu/doi/10.2777/836532">
+                            <hi style="font-size:10pt">https://data.europa.eu/doi/10.2777/836532</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve"> (zugegriffen: 03. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Hrušák, Jan, Maddalena Donzelli, Marina Carpineti und Petra Dell’Arme. </hi>
+                        <hi style="font-size:10pt">2021. “Roadmap 2021. Strategy Report on Research Infrastructures.” https://roadmap2021.esfri.eu/media/1295/esfri-roadmap-2021.pdf (zugegriffen: 03. August 2022).</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Maryl, Maciej, Marta Błaszczyńska, Agnieszka Szulińska und Paweł Rams.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 2020. “The case for an inclusive scholarly communication infrastructure for social sciences and humanities” In </hi>
+                        <hi rend="italic" style="font-size:10pt">F1000Research</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">9:1265. </hi>
+                        <ref target="https://f1000research.com/articles/9-1265/v1">
+                            <hi style="font-size:10pt">https://f1000research.com/articles/9-1265/v1#</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve"> (zugegriffen: 03. August 2022)</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

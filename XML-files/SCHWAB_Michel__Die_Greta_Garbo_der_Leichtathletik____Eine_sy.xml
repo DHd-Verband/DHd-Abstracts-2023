@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="SCHWAB_Michel__Die_Greta_Garbo_der_Leichtathletik____Eine_sy" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">»Die Greta Garbo der Leichtathletik« – Eine systematische Analyse der Modifier vossianischer Antonomasien mithilfe von Word Embeddings</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schwab</surname>
+                        <forename>Michel</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin</affiliation>
+                    <email>michel.schwab@hu-berlin.de</email>
+                    <idno type="ORCID">0000-0001-5569-6568</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin</affiliation>
+                    <email>fr.fischer@fu-berlin.de</email>
+                    <idno type="ORCID">0000-0003-2419-6629</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T22:28:38.320673057</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Vossianische Antonomasie</term>
+                    <term>Clustering</term>
+                    <term>Visualisierung</term>
+                    <term>k-means</term>
+                    <term>Dimensionsreduktion</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Visualisierung</term>
+                    <term>Daten</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-2d0ea1ff-7fff-c282-baa1-90c981f92d5e"/>Einführung und Forschungsstand
+                </head>
+                <p>Die vossianische Antonomasie (VA) ist ein rhetorisches Stilmittel aus der Familie der Antonomasien, eng verwandt mit Metonymie und Metapher. Während bei der klassischen Antonomasie ein Eigenname durch eine typische Eigenschaft ersetzt wird (wenn etwa Michael Schumacher als »der Kerpener« bezeichnet wird), funktioniert die vossianische Antonomasie genau umgekehrt. Hier wird ein typisches Merkmal einer Person durch den Eigennamen einer anderen Person evoziert.</p>
+                <p>
+                    <hi rend="color(#000000)">Wenn ein Journalist zum Beispiel Wilson Kipketer, den dänischen Mittelstreckenläufer kenianischer Herkunft, als »Greta Garbo der Leichtathletik« bezeichnet, wird eine typische Eigenschaften der Filmschauspielerin aufgerufen, in diesem Fall ihre distanzierte, zurückhaltende Art, wie dieses Zitat aus der </hi>
+                    <hi rend="color(#000000)italic">New York Times</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">zeigt: »Kipketer is as guarded [zurückhaltend] as he is fast; some reporters have labeled him the Greta Garbo of track and field.« (NYT, 8. August 1997).</hi>
+                </p>
+                <p>Eine vossianische Antonomasie setzt sich im Normalfall aus drei Teilen zusammen: dem Target (Wilson Kipketer), der Source (Greta Garbo) und dem Modifier (Leichtathletik) (vgl. Bergien 2013). Der Modifier verschiebt eines oder mehrere Merkmale der Source in das Umfeld des Targets. In dieser Arbeit konzentrieren wir uns auf die systematische Analyse des Modifiers.</p>
+                <p>Die automatisierte Erkennung und Extraktion vossianischer Antonomasien hat sich in den letzten fünf Jahren rasch ausdifferenziert. Während Jäschke et al. 2017 und Fischer et al. 2019 semi-automatisierte Verfahren nutzten, um VA-Ausdrücke in großen Zeitungskorpora ausfindig zu machen, setzten Schwab et al. (2019, 2022) automatisierte Verfahren ein, die meist auf neuronalen Netzen basierten.</p>
+                <p>
+                    <hi rend="color(#000000)">Da wir mit einem großen Korpus und Word Embeddings arbeiten, ist unser Forschungsbeitrag der erste, der eine quantitative Untersuchung dieses Phänomens mit einer thematischen Gruppierung der verschiedenen Modifier verbinden kann. </hi>
+                    <hi rend="color(#000000)">Unsere Forschungsergebnisse stellen wir auch über eine interaktive Visualisierung bereit (</hi>
+                    <ptr target="https://vossanto.weltliteratur.net/dhd2023/modifier.html"/>
+                    <hi rend="color(#000000)">).</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datensatz</head>
+                <p>
+                    <hi rend="color(#000000)">Wir nutzen den VA-Datensatz aus Schwab et al. 2019, welcher mittels eines semi-automatisierten Verfahrens aus dem </hi>
+                    <hi rend="color(#000000)italic">New York Times</hi>
+                    <hi rend="color(#000000)">-Korpus (Sandhaus 2008) generiert wurde. Das NYT-Korpus besteht aus mehr als 1,8 Mio. Zeitungsartikeln der NYT aus den Jahren 1987–2007. Mit Hilfe des regulären Ausdrucks </hi>
+                </p>
+                <p>
+                    <hi rend="code">\\ b(the|an?)\\s+([\w.,’-]+\\s+){1,5}?(of|for|among)\\b</hi>
+                </p>
+                <!-- <p>
+                    <figure>
+                        <formula>
+                            <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+                                <semantics>
+                                    <mtext>\\ b(the|an?)\\s+([\w.,’-]+\\s+){1,5}?(of|for|among)\\b</mtext>
+                                    <annotation encoding="StarMath 5.0">"\\ b(the|an?)\\s+([\w.,’-]+\\s+){1,5}?(of|for|among)\\b </annotation>
+                                </semantics>
+                            </math>
+                        </formula>
+                    </figure>
+                </p> -->
+                <p>wurden Kandidatensätze ermittelt, d.h. alle Sätze, die Phrasen enthalten, welche mit »the«, »a« oder »an« anfangen und mit »of«, »for« oder »among« enden, wobei zwischen diesen beiden Polen ein bis fünf Wörter platziert sein können. Die Wörter zwischen Anfangs- und Endsignal stellten die potenzielle Source-Phrase dar und wurden mit einer Wikidata-Liste abgeglichen, die alle Entitätennamen aus Wikidata (inkl. Aliasse) enthielten, die die Eigenschaft ›instanceOf‹ ›human‹ aufweisen. Die Source-Kandidaten wurden also auf Menschen beschränkt, die in Wikidata verzeichnet sind (dabei handelt es sich um eine bewusste Beschränkung bei der Untersuchung des Phänomens – VA können auch mit Orten, Markennamen, Comicfiguren usw. operieren). Anschließend wurden diese Kandidaten mit einer manuell erstellten Sperrliste abgeglichen, um falsche Kandidaten auszuschließen.</p>
+                <p>Dieser Datensatz wurde in Schwab et al. 2022 verfeinert. Alle VA-Phrasen (Target, Source, Modifier) wurden auf Wortebene innerhalb der Sätze annotiert. Insgesamt enthält der Datensatz 5.995 Sätze, davon enthalten 3.066 einen VA-Ausdruck und 2.929 enthalten keinen, sind aber syntaktisch ähnlich aufgrund des genutzten regulären Ausdrucks.</p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-ab39d1d0-7fff-ef3f-f45b-446f7943c0db"/>In Tabelle 1 sind die zehn häufigsten Modifier des Datensatzes aufgelistet. Die häufigsten Ausdrücke sind temporale Ausdrücke (»his day«, »his time«, »the 90s«), geografische Angaben (»Japan«,» China«) und Sportarten (»tennis«, »baseball«, »ballet«).
+                </p>
+                
+                <table rend="frame" xml:id="Table1">
+                
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-fadd8363-7fff-23fe-ea3a-605a8309717e"/>
+                            <hi rend="color(#000000)bold">Modifier</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-0fe605da-7fff-afc5-4ecb-3212bd2c5336"/>
+                            <hi rend="color(#000000)bold">Anzahl</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-73f40c18-7fff-369e-909a-0f8ba3298806"/>
+                            <hi rend="color(#000000)">his day</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-dacc0f81-7fff-c56f-1609-7ba62a457479"/>
+                            <hi rend="color(#000000)">56</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-37c89e35-7fff-3fbb-5ab9-38656fd12266"/>
+                            <hi rend="color(#000000)">his time </hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-7ff7beff-7fff-cd0d-db8c-db448e606dcf"/>
+                            <hi rend="color(#000000)">35</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-bc7d0840-7fff-48ca-1039-f4732c9ed6dd"/>
+                            <hi rend="color(#000000)">Japan</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-04f2da8a-7fff-d429-95f0-57583f2d3437"/>
+                            <hi rend="color(#000000)">32</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-08effe41-7fff-5633-b107-87a2a8afc807"/>
+                            <hi rend="color(#000000)">the 90s</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-94e66d73-7fff-db45-c658-eaf9c3fcac8e"/>
+                            <hi rend="color(#000000)">21</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-8caa0575-7fff-5f4c-3a13-877ba7569c1d"/>
+                            <hi rend="color(#000000)">China</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-7c595431-7fff-e4a6-fa5c-56b37f6aaa27"/>
+                            <hi rend="color(#000000)">17</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="start">
+                            <hi rend="color(#000000)">our time</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-3f547092-7fff-ec77-a63c-a50b23e83ee0"/>
+                            <hi rend="color(#000000)">17</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-ce4bb1a2-7fff-7644-a16e-7ece23c8af20"/>
+                            <hi rend="color(#000000)">tennis</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-2ddd9f37-7fff-f31f-c17c-6bb5c6788739"/>
+                            <hi rend="color(#000000)">16</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="start">
+                            <hi rend="color(#000000)">his generation</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-baa9369b-7fff-f9fa-cbcf-e35c084b1c19"/>
+                            <hi rend="color(#000000)">16</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-86420d95-7fff-89d5-2eb8-756a4ab9cb4d"/>
+                            <hi rend="color(#000000)">baseba</hi>
+                            <hi rend="color(#000000)">ll</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-13cea127-7fff-0195-5c69-b915d40459c6"/>
+                            <hi rend="color(#000000)">16</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="start">
+                            <hi rend="color(#000000)">her time</hi>
+                        </cell>
+                        <cell>
+                            <anchor xml:id="id_docs-internal-guid-35184aa0-7fff-08ea-def1-dd9bf161e3e7"/>
+                            <hi rend="color(#000000)">14</hi>
+                        </cell>
+                    </row>
+                    <head><p>Tabelle 1: Die zehn häufigsten Modifier im Datensatz inklusive ihrer Häufigkeit.</p></head>
+                </table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methode</head>
+                <p>Wir nutzen kontextabhängige Word Embeddings, um die Modifier-Phrasen in hochdimensionale Vektoren zu transformieren, die die Semantik des Textes wiedergeben sollen.</p>
+                <p>Mit Hilfe von Word Embeddings wurden in den letzten Jahren viele Benchmarks im Bereich Natural Language Processing erstellt. Insbesondere kontextabhängige Word Embeddings, d.h. die numerische Repräsentation von Wörtern und Tokens in Abhängigkeit ihres Kontexts, haben viel Aufmerksamkeit auf sich gezogen. Der Vorteil dieser Word Embeddings im Gegensatz zu kontextunabhängigen Word Embeddings ist die Möglichkeit, Homonyme korrekt darzustellen. Wir benötigen die numerische Repräsentation der Phrasen, um anschließend ein Clustering-Verfahren durchführen zu können, welches die Modifier in Themenbereiche gruppieren soll.</p>
+                <p>
+                    <hi rend="color(#000000)">Wir greifen auf Sentence-Transformers zurück, welches aus Sentence-BERT (Reimers et al. 2019) hervorgegangen ist. Das Modell basiert auf transformerbasierten Sprachmodellen wie BERT (Devlin et al. 2019). Im Gegensatz zu BERT wird S-BERT allerdings mittels einer siamesischen Netzwerkstruktur trainiert, der Output wird durch eine Pooling Operation in einen hochdimensionalen Vektor transformiert. Dadurch kann das trainierte Modell effizient semantische Ähnlichkeiten zwischen Texten errechnen. Wir nutzen das Modell »all-mpnet-base-v2«, welches die besten Resultate in der Anwendung auf verschiedene Datensätze zeigte (siehe </hi>
+                    <ptr target="https://www.sbert.net/docs/pretrained_models.html"/>
+                    <hi rend="color(#000000)">).</hi>
+                </p>
+                <p>Dies wenden wir auf die einzelnen Modifier an. Das Netzwerk liefert für jeden Modifier einen 768-dimensionalen Vektor. Diese numerischen Vektoren lassen sich nun durch ein Clustering-Verfahren gruppieren.</p>
+                <p>
+                    <hi rend="color(#000000)">Wir entscheiden uns für den k-means-Algorithmus (MacQueen 1967), um die Vektoren in Cluster einzuteilen. Wir nutzen k-means aufgrund verschiedener Annahmen. Einmal gehen wir davon aus, dass es relativ wenige Ausreißer gibt, da die VA-Ausdrücke aus dem Datensatz häufig in ähnlichen Themengebieten in der </hi>
+                    <hi rend="color(#000000)italic">New York Times</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">vorkommen (vgl. Fischer et al. 2019). Außerdem können wir die Anzahl der Cluster angeben und diese während der Analyse variieren, um zu beobachten, wie sich die Gruppierungen in Abhängigkeit davon verhalten. Dies funktioniert mit dichtebasierten Clustering-Algorithmen nicht so einfach. Da k-means in der Berechnung der Cluster die quadrierte euklidische Distanz nutzt, normalisieren wir die Output-Vektoren, da die normalisierte quadratische euklidische Distanz proportional zur Kosinus-Distanz ist, welche in Reimers et al. 2019 genutzt wird, um die Ähnlichkeit zwischen zwei Vektoren zu berechnen.</hi>
+                </p>
+                <p>Im Anschluss an das Clustering möchten wir den einzelnen Clustern Themen zuordnen, durch ein an das »Topic Modeling« angelehntes Verfahren. Stark vereinfacht basieren klassische Topic-Modeling-Modelle auf der Annahme, dass Wörter, die besonders häufig gemeinsam in Sequenzen vorkommen, ein abstraktes Thema bilden. Meist wird Topic Modeling auf längere Dokumente angewandt, bei denen von signifikanten Wort-Überschneidungen ausgegangen werden kann. 97 Prozent der Modifier-Phrasen bestehen jedoch aus einem bis vier Wörtern und weisen dadurch kaum Überschneidungen auf. Somit sind sie für klassisches Topic Modeling ungeeignet. Selbst beim sogenannten Short Text Topic Modeling wird mit Textsorten wie Tweets oder Rezensionen trainiert, welche immer noch bedeutend länger sind als unsere Phrasen.
+                    <lb/>Wir nutzen stattdessen den Vorteil, dass viele der Formulierungen Nominalphrasen oder Nomen sind. Dadurch sind sie unter anderem im WordNet (Fellbaum 1998) zu finden, einer lexikalischen Datenbank, die Wortbedeutungen, Synonyme und viele andere Features bereitstellt. Das Projekt WordNet Domains (Bentivogli et al. 2004) hat zusätzlich jedem Wort bzw. jedem Synset (Gruppe ähnlicher Wörter) in WordNet semi-automatisch ein oder mehrere Domains zugeordnet, die für uns als Themengebiete genutzt werden können. Diese Domains sind hierarchisch gegliedert. Dies nutzen wir aus und weisen jeder Modifier-Phrase, soweit vorhanden, ihre Domains zu. Vorher nutzen wir noch das NLTK Toolkit (Bird et al. 2009), um alle Stoppwörter zu entfernen und die Ausdrücke dadurch auf die Nomen zu reduzieren, zum Beispiel »her time« zu »time« oder »the harmonica” zu »harmonica«. Sollte die übrigbleibende Phrase im WordNet nicht vorhanden sein, teilen wir sie in ihre einzelnen Wörter auf und verfahren wie oben beschrieben für jedes Wort der Phrase. Zum Schluss weisen wir die am häufigsten vorkommende Domain der Phrasen je Cluster dem jeweiligen Cluster als Themengebiet zu. In der Web-App kann man sich zusätzlich die zehn hochfrequentesten Domains anschauen.
+                </p>
+                <p>Anschließend können wir die Cluster visualisieren. Da die Vektoren hochdimensional sind, nutzen wir verschiedene Dimensionsreduktionsalgorithmen, um sie auf zwei Dimensionen zu reduzieren. Wir vergleichen mehrere Algorithmen – PCA (Hauptkomponentenanalyse, Pearson 1901), t-SNE (t-distributed stochastic neighbor embedding Methode, van der Maaten 2008), UMAP (Uniform Manifold Approximation and Projection, McInnes et al. 2018), IVIS (Szubert et al. 2019) –, welche in der Web-App ausgewählt werden können. Nach einigen Durchläufen hat sich die Kombination von PCA und t-SNE als bestes Verfahren herausgestellt, welches wir kurz vorstellen. Wir wenden zuerst PCA an und reduzieren die Vektoren auf eine Länge von 50. Die Hauptkomponentenanalyse vereinfacht Daten, indem die Einträge der Vektoren durch eine geringere Zahl möglichst aussagekräftiger Linearkombinationen (die Hauptkomponenten) genähert werden. Zusätzlich nutzen wir t-SNE, um die 50-dimensionalen Vektoren auf zweidimensionale Vektoren zu reduzieren. Der Vorteil von t-SNE im Gegensatz zu PCA liegt in der Möglichkeit, nichtlineare Abhängigkeiten darzustellen. t-SNE reduziert die Vektoren außerdem so, dass Vektoren, die in der höheren Dimension eine kurze Distanz haben, auch in der reduzierten Dimension eine kurze Distanz zueinander haben. Dadurch wird die lokale wie auch globale Struktur bewahrt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erkenntnisse</head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-361ca19e-7fff-12f4-ca86-46dc5e18942a"/>
+                    <hi rend="color(#000000)">Die Modifier für vossianische Antonomasien fallen im </hi>
+                    <hi rend="color(#000000)italic">New York Times</hi>
+                    <hi rend="color(#000000)">-Korpus sehr vielgestaltig aus und sind nicht auf bestimmte Phrasen oder Wortgruppen limitiert. Abbildung 1 zeigt beispielhaft die Visualisierung mit neun Clustern, wobei die Themen von uns zunächst manuell zugeordnet wurden. Einige der Cluster lassen sich bis auf wenige Ausnahmen eindeutig bestimmten Themen zuordnen, wie Sport, Musik und Tanz, Kunst, Film und Literatur, Geografie, Politik, Wirtschaft oder temporale Ausdrücke.</hi>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/544d9a6c9a4a5fa016ab78b95f78a3af.png"/>
+                        <head>Abbildung 1: Die Abbildung zeigt die Visualisierung des Clusterings nach Dimensionreduktion mit neun Clustern. Den Clustern wurde manuell ein Themengebiet zugeordnet.</head>
+                    </figure>Die automatisch gefundenen Themen durch WordNet Domains stimmen mit den von uns manuell zugewiesenen Themen fast vollständig überein, wie Abbildung 1 zeigt. Den von uns manuell annotierten Themen sind in Klammern die automatisch gefundenen Themen beigesellt.
+                </p>
+                <p>Der blaue Cluster in der Mitte ist allerdings sehr divers und lässt sich nicht genau einer Kategorie zuordnen. Hier tauchen Flora und Fauna auf (»the pumpkins, »Rottweilers«), was zu dem automatisch gefundenen Themengebiet Biologie passen würde. Allerdings kommen auch »space wear«, »Buddhism« sowie »soft drinks« und »the physics world« vor. Wir haben uns für das Rubrum Naturwissenschaft entschieden, welches auf einen Großteil der Phrasen zutrifft.</p>
+                <p>Einer der Gründe für die Zusammensetzung dieses diversen Clusters ist der Umstand, dass k-means keine Ausreißer zulässt und daher jeder Punkt genau einem Cluster zugeordnet wird. Dadurch finden sich auch Phrasen, die eigentlich nicht in ein bestimmtes Themengebiet gehören oder für die es eigentlich zu wenige ähnliche Phrasen gibt, in einem Cluster wieder.</p>
+                <p>Ein anderer Grund ist die Diversität der Modifier. Viele Modifier bestehen nicht nur aus einem, sondern aus mehreren Wörtern. Diese Phrasen könnte man verschiedenen Themengebieten oder Subgenres zuordnen, z.B. »ancient Alexandria« (Temporal, Geografie), »Korean radio« (Geografie, Technologie) oder »food writing« (Speisen und Getränke, Literatur). Dies sind auch häufig Phrasen, die durch die Dimensionsreduktion nicht in der Nähe der anderen Phrasen des Clusters liegen, weil zum Beispiel »food writing« in die Nähe von anderen kulinarischen Phrasen verortet wurde, obwohl es ein Subgenre der Literatur ist. An diesem Beispiel sieht man, dass das Clustering-Verfahren das Wort richtig zugeordnet hat (»food writing« gehört zum kulturellen Cluster), aber falsch visualisiert wurde.</p>
+                <p>Abhängig von der Anzahl der Cluster unterteilt sich zum Beispiel die Kultur nach und nach in Subgenres wie Literatur, Musik, Tanz, Film/TV oder Kunst. Dies kann man in Abbildung 2 gut beobachten. Der linke Teil von Abbildung 2 zeigt einen Ausschnitt der Visualisierung, in der sechs Cluster gebildet wurden. Hier sind die meisten kulturbezogenen Phrasen in einem einzigen Cluster (grün) gruppiert. Im rechten Teil ist der gleiche Ausschnitt zu sehen, allerdings mit zwölf Clustern. Man kann gut erkennen, dass sich der kulturelle Cluster fast vollständig in drei neue Cluster (grau, orange, blau) aufgeteilt hat, nämlich »Kunst«, »Literatur und Film/TV« und »Musik und Tanz«. Auch hier gibt es Grenzfälle wie zum Beispiel »musicals«. Das Clustering hat die Phrase zu »Musik und Tanz« gruppiert, wohingegen in der Visualisierung das Wort in die Nähe des Film-Clusters gerückt wurde, in dem auch theaterbezogene Themen auftauchen.</p>
+                <p>Auch die Geografie teilt sich mit wachsender Anzahl an Clustern in zwei Hälften, wobei in der einen ein Großteil der US-amerikanischen Geografika angesiedelt sind, allerdings nicht ausschließlich.</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/92ca4d818670429bcf2fc7261400272f.png"/>
+                        <head>Abbildung 2: Die Abbildung zeigt einen Ausschnitt der Visualisierung mit sechs Clustern auf der linken Seite und zwölf Clustern auf der rechten Seite. Der Ausschnitt zeigt den Großteil der kulturellen Phrasen.</head>
+                    </figure>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-bc17c0da-7fff-2b7c-db4a-4af389194fa1"/>
+                    <hi rend="color(#000000)">Wie oben bereits angemerkt, stellen wir eine interaktive Visualisierung zur Datenexploration zur Verfügung, in der die oben beschriebenen Fälle nachvollzogen werden können. Die verschiedenen Dimensionsreduktionsverfahren können selbst ausprobiert und die Anzahl der Cluster variiert werden (1–15). Außerdem werden die zehn am häufigsten vorkommenden Domains je Cluster gezeigt, um einen Überblick über die Themen zu bekommen. Die Größe der Labels spiegelt die Anzahl der Vorkommen im Datensatz wider. Zudem kann durch eine Bereichsauswahl gezoomt werden (</hi>
+                    <ptr target="https://vossanto.weltliteratur.net/dhd2023/modifier.html"/>
+                    <hi rend="color(#000000)">).</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Ausblick</head>
+                <p>Unser Ansatz lenkt den Blick von den Eigennamen in Source und Target einer vossianischen Antonomasie auf den Modifier. Wir konnten zeigen, dass bestimmte Themenfelder besonders häufig sind, also eine besondere Neigung aufweisen, in einer vossianischen Antonomasie Verwendung zu finden. Die Themen wurden in Clustern gruppiert und zweidimensional projiziert. Durch verschiedene Verfahren kann das Modell noch verfeinert werden, z.B. durch den Einsatz anderer Cluster- oder Reduktionsverfahren. </p>
+                <p>Mit Hilfe von Entity Embeddings kann man in Zukunft ähnliche Analysen der Source und des Targets durchführen, um etwa auf Zusammenhänge zwischen den einzelnen Teilen einer vossianischen Antonomasie zu fokussieren. So würde sich zum Beispiel erforschen lassen, in welchen semantischen Abhängigkeiten Source, Target und Modifier eines VA-Ausdrucks zueinander stehen und welche Entitäten signifikant häufig mit welchen Modifier-Gruppen genutzt werden.</p>
+                <p>Mit Hilfe der Web-App kann man die Daten und Ergebnisse interaktiv explorieren und somit weitere Erkenntnisse erlangen, welche für die automatische Erkennung, aber auch für die automatische Generierung sinnvoller vossianischer Antonomasien eine wichtige Rolle spielen können. Beide Aufgaben verfolgen wir in Zukunft.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-5045e2ea-7fff-23d8-0ad5-36bb4b1c5fc0"/>
+                        <hi rend="bold">Bentivogli, Luisa, Pamela Forner, Bernardo Magnini und Emanuele Pianta. </hi>2004. "Revising WordNet Domains Hierarchy: Semantics, Coverage, and Balancing." In: 
+                        <hi rend="color(#000000)italic">COLING 2004 Workshop on "Multilingual Linguistic Resources"</hi>
+                        <hi rend="color(#000000)">, Geneva, Switzerland, S. 101–108.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bergien, Angelika.</hi> 2013. "Names as frames in current-day media discourse." In: 
+                        <hi rend="color(#000000)italic">Name and Naming. Proceedings of the Second International Conference on Onomastics.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">Cluj-Napoca: Editura Mega. S. 19–27.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bird, Steven, Edward Loper und Ewan Klein.</hi> 2009.
+                        <hi rend="color(#000000)italic">Natural Language Processing with Python.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">O’Reilly Media Inc.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Devlin, Jacob, Ming-Wei Chang, Kenton Lee und Kristina Toutanova. </hi>2019. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." In: 
+                        <hi rend="color(#000000)italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers),</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">Minneapolis, Minnesota. </hi>
+                        <ptr target="https://doi.org/10.48550/arXiv.1810.04805"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fellbaum, Christiane (ed.).</hi> 1998.
+                        <hi rend="color(#000000)italic">WordNet: An Electronic Lexical Database.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">Cambridge, MA: MIT Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer, Frank und Robert Jäschke.</hi> 2019. "‘The Michael Jordan of greatness’ – Extracting Vossian antonomasia from two decades of The New York Times, 1987–2007." In:
+                        <hi rend="color(#000000)italic">Digital Scholarship in the Humanities 35, no. 1</hi>
+                        <hi rend="color(#000000)">. S. 34–42. </hi>
+                        <ptr target="https://doi.org/10.1093/llc/fqy087"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jäschke, Robert, Jannik Strötgen, Elena Krotova und Frank Fischer.</hi> 2017. "'Der Helmut Kohl unter den Brotaufstrichen'. Zur Extraktion vossianischer Antonomasien aus großen Zeitungskorpora." In: 
+                        <hi rend="color(#000000)italic">Proceedings of DHd 2017</hi>
+                        <hi rend="color(#000000)">. Universität Bern. </hi>
+                        <ptr target="https://doi.org/10.5281/zenodo.4646126"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">MacQueen, J. </hi>1967. "Classification and analysis of multivariate observations." In:
+                        <hi rend="color(#000000)italic">5th Berkeley Symp. Math. Statist. Probability</hi>
+                        <hi rend="color(#000000)">. S. 281–297.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McInnes, Leland, John Healy und James Melville. </hi>2018. "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction." 
+                        <hi rend="color(#000000)italic">arXiv preprint arXiv:1802.03426</hi>
+                        <hi rend="color(#000000)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pearson, Karl. </hi>"LIII. 1901. On lines and planes of closest fit to systems of points in space." In: 
+                        <hi rend="color(#000000)italic">The London, Edinburgh, and Dublin philosophical magazine and journal of science</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">2, no. 11. S. 559–572. </hi>
+                        <ptr target="https://doi.org/10.1080/14786440109462720"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reimers, Nils und Iryna Gurevych. </hi>2019. "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks." In: 
+                        <hi rend="color(#000000)italic">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)</hi>
+                        <hi rend="color(#000000)">, Hong Kong, China. 
+                            <lb/>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sandhaus, Evan. </hi>2008. "The New York Times Annotated Corpus." LDC2008T19. Philadelphia: Linguistic Data Consortium. 
+                        <ptr target="https://doi.org/10.35111/77ba-9x74"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schwab, Michel, Robert Jäschke, Frank Fischer und Jannik Strötgen. 2019.</hi> "'A Buster Keaton of Linguistics': First Automated Approaches for the Extraction of Vossian Antonomasia." In: 
+                        <hi rend="color(#000000)italic">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)</hi>
+                        <hi rend="color(#000000)">, Hong Kong, China.
+                            <lb/>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schwab, Michel, Robert Jäschke und Frank Fischer. </hi>2022. "'The Rodney Dangerfield of Stylistic Devices' – End-to-End Detection and Extraction of Vossian Antonomasia Using Neural Networks." In: 
+                        <hi rend="color(#000000)italic">Frontiers in Artificial Intelligence </hi>
+                        <hi rend="color(#000000)">5. </hi>
+                        <ptr target="https://doi.org/10.3389/frai.2022.868249"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Szubert, Benjamin, Jennifer E. Cole, Claudia Monaco und Ignat Drozdov. </hi>2019. "Structure-preserving visualisation of high dimensional single-cell datasets." In: 
+                        <hi rend="color(#000000)italic">Scientific reports</hi>
+                        <hi rend="color(#000000)">, </hi>
+                        <hi rend="color(#000000)italic">9</hi>
+                        <hi rend="color(#000000)">(1), 1–10. </hi>
+                        <ptr target="https://doi.org/10.1038/s41598-019-45301-0"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">
+                            <lb/>van der Maaten, Laurens und Geoffrey Hinton.</hi> 2008. "Visualizing Data using t-SNE." In:
+                        
+                        <hi rend="color(#000000)italic">Journal of Machine Learning Research</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">9: 2579–2605. </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="MEIER_VIERACKER_Simon_Was_hei_t_eigentlich__offen___Eine_kor" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Was heißt eigentlich ‚offen‘? Eine korpuslinguistische Untersuchung am Beispiel des bibliothekarischen Diskurses der SLUB Dresden</title>
+                <author>
+                    <persName>
+                        <surname>Meier-Vieracker</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>simon.meier-vieracker@tu-dresden.de</email>
+                    <idno type="ORCID">0000-0002-0141-9327</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Weigelt</surname>
+                        <forename>Lucie</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>lucie.weigelt@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dutschke</surname>
+                        <forename>René</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>rene.dutschke@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lasch</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>alexander.lasch@tu-dresden.de</email>
+                    <idno type="ORCID">0000-0003-4046-3993</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Scherbaum</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>stefan.scherbaum@tu-dresden.de</email>
+                    <idno type="ORCID">0000-0002-4408-6016</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Seemann</surname>
+                        <forename>Sophia</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>sophia_marie.seemann@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pfeifer</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>ulrike_marie.pfeifer1@tu-dresden.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-13T14:51:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Openness</term>
+                    <term>Korpuslinguistik</term>
+                    <term>Framesemantik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Visualisierung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hintergrund</head>
+                <p style="text-align: left; ">Forschung zum Thema Open Science fokussiert typischerweise technische oder auch regulatorische und wissenschaftspolitische Aspekte (Vicente-Saez und Martinez-Fuentes 2018). Der Begriff der Openness bzw. der Offenheit selbst, der im Diskurs um digitale Forschung als zentrales Schlagwort fungiert, wird dabei eher selten in seiner Semantik reflektiert. Dabei führt der Begriff der Offenheit reichhaltige, auch alltagssprachlich verankerte Assoziationspotenziale mit sich, aus denen sich die ausgesprochen optimistische, vielleicht sogar utopisch-überhöhende Rahmung von Open Science (Dickel und Franzen 2015; Tkacz 2012) und Open Humanities maßgeblich speist.</p>
+                <p style="text-align: left; ">Im interdisziplinären Projekt „Digitalisierung als Disruption von Wissenssystemen – Opening Knowledge“ (DiaDisK; Laufzeit 10/2021 – 03/2025) im Rahmen des EXU-Verbundes „Disruption and Societal Change“ an der TU Dresden fragen wir nach den disruptiven Auswirkungen der Digitalisierung in den für die Wissensgesellschaft zentralen Institutionen Universität, Bibliothek und Schule. Wir gehen davon aus, dass sich gerade im Prinzip der Offenheit und seiner diskursiven Verhandlungen Deutungsmuster manifestieren, welche die Disruptionen, die digitale Technologien für die traditionellen Routinen in Bildung und Wissenschaft mit sich bringen, positiv als Chancen, Transformationen usw. rahmen (Koch, Nanz, und Pause 2016, 19). Diese Deutungsmuster nehmen wir in einem der linguistischen Arbeitspakete des Projektes, das sich den Open-Science-Aktivitäten der Sächsischen Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB) widmet, aus einer korpuslinguistischen Perspektive in den Blick. Wir untersuchen, welche komplexen diskurssemantischen Profilierungen des Begriffs der Offenheit sich in diesem konkreten Diskurs nachweisen lassen, die seinen Schlagwortcharakter (Schröter 2011) grundieren. Damit soll eine Schärfung des Begriffs ermöglicht werden, die es erlaubt, die oft strikt nach Pro und Kontra geführten Debatten über Openness differenzierter zu führen, nicht zuletzt in wissenschaftspolitischen Kontexten. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Daten und Methoden</head>
+                <p style="text-align: left; ">Grundlage unserer Analysen bilden verschiedene Publikationen (Forschungsbeiträge, Geschäftsberichte, aber auch Blogbeiträge und Tweets) sowie Dokumente (Drittmittelanträge und Strategiepapiere) aus dem Umfeld der SLUB, die dezidiert aus der Perspektive der Institution formuliert sind. Wie prominent im Strategiepapier SLUB 2025 festgehalten ist, positioniert sich die SLUB proaktiv in der deutschsprachigen Bibliotheks- und Wissenschaftslandschaft als „Motor für offene Wissenschaft und Gesellschaft“ (Bonte und Muschalek 2019). Sie nutzt in ihren Selbstdarstellungen strategisch die vielfältigen, zumeist positiven Konnotationen des Begriffs(feldes) der Offenheit, weshalb sich diese für unsere Fragestellung besonders gut eignen.</p>
+                <p style="text-align: left; ">Das laufend zu erweiternde Korpus (1,59 Millionen Tokens, Stand Juli 2022) stellen wir im Projekt in morphosyntaktisch annotierter Form über verschiedene digitale Analyseumgebungen wie die Korpusanalyseplattform CQPweb (Hardie 2012) und die kollaborative Annotationsumgebung INCEpTION (Castilho u. a. 2018) zur Verfügung. Für die Analyse nutzen wir zum einen korpuslinguistische Verfahren der datengeleiteten diskurssemantischen Analyse wie Kollokations- und Ngram-Analysen (Bubenhofer 2017), aber auch Word Embeddings als Verfahren der distributionellen Semantik mit der Software word2vec (Mikolov u. a. 2013; Kozlowski, Taddy, und Evans 2019), um die Gebrauchsprofile einschlägiger Lexeme zu erschließen. Zum anderen wählen wir mit der Frame-Semantik (Ziem 2020) einen stärker theoriegeleiteten Ansatz. Dabei handelt es sich um eine semantische Theorie, die die Bedeutung von sprachlichen Ausdrücken in Bezug auf das in untereinander vernetzten Frames organisierte Weltwissen der Sprechenden beschreibt. Frames sind dabei schematische Repräsentationen von Situationen oder Konstellationen, vor deren Hintergrund dann sprachliche Ausdrücke verstanden werden (Busse 2012). Ausgehend von der lexikographischen Ressource FrameNet (
+                    <ref target="https://framenet.icsi.berkeley.edu/">https://framenet.icsi.berkeley.edu/</ref>) annotieren wir im Textmaterial die semantischen Valenzen einschlägiger Ausdrücke und der durch sie evozierten Frames, so dass die unterschiedlichen Lesarten etwa von 
+                    <hi rend="italic">offen</hi> und die assoziierten Formulierungsmuster präzise erfasst werden können.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erste Ergebnisse</head>
+                <p style="text-align: left; ">Erste Ergebnisse zeigen, dass im untersuchten Diskurs das Begriffsfeld der Offenheit systematisch zwischen einer eher technisch auf digitale Daten und ihre Zugänglichkeit bezogenen Lesart, einer auch politisch aufgeladenen, auf Partizipation und Inklusion abzielenden Lesart sowie einer auf Offenheit als epistemische Tugend abzielenden Lesart changiert. Typische Kollokate (Assoziationsmaß Log Dice) von 
+                    <hi rend="italic">offen</hi> sind etwa 
+                    <hi rend="italic">Daten</hi>, 
+                    <hi rend="italic">Schnittstelle</hi> und 
+                    <hi rend="italic">Standards</hi> im Sinne der technischen Lesart, 
+                    <hi rend="italic">Kreativraum</hi> und 
+                    <hi rend="italic">Austausch</hi> im Sinne der partizipativen Lesart, aber auch Abstrakta wie 
+                    <hi rend="italic">Wissen</hi> und 
+                    <hi rend="italic">Neugier</hi>. Paarformeln und Aufzählungen wie 
+                    <hi rend="italic">offene und freie Wissensgesellschaft</hi> oder 
+                    <hi rend="italic">Offenheit, intellektuelle Freiheit und Redlichkeit</hi> zeigen, dass das Begriffsfeld der Offenheit mit anderen Schlagwörtern in Interaktion gebracht und so zusätzlich semantisch als ethisch gehaltvolle Zielnorm aufgeladen wird. Auch die Berechnung von Word Embeddings weist in diese Richtung. Als sog. Nearest Neighbors von 
+                    <hi rend="italic">offen</hi>, die im untersuchten Diskurs also semantische Ähnlichkeit aufweisen, werden 
+                    <hi rend="italic">nachhaltig</hi>, 
+                    <hi rend="italic">transparent</hi>, 
+                    <hi rend="italic">interdisziplinär</hi>, 
+                    <hi rend="italic">nachnutzbar</hi>, aber auch 
+                    <hi rend="italic">kreativ</hi>, 
+                    <hi rend="italic">vernetzt</hi>, 
+                    <hi rend="italic">modern</hi> und 
+                    <hi rend="italic">innovativ</hi> ausgegeben (Abb. 1); zu 
+                    <hi rend="italic">Offenheit</hi> werden 
+                    <hi rend="italic">Transparenz</hi>, 
+                    <hi rend="italic">Verbreitung</hi>, 
+                    <hi rend="italic">barrierefrei</hi>, aber auch 
+                    <hi rend="italic">demokratisch</hi> ausgegeben (die Visualisierung des Modells ist unter 
+                    <ref target="https://kurzelinks.de/diadisk">https://kurzelinks.de/diadisk</ref> öffentlich zugänglich; auch auf Teile der Korpora kann auf Anfrage Zugriff gewährt werden).
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="11.68576388888889cm" url="Pictures/63f55039232a0f1699573e6719411237.png" rend="inline"/>
+                    <head>Abb. 1</head>
+                </figure>
+                <p style="text-align: left; ">Für die framesemantische Annotation bietet sich u.a. der Frame Openness an, der auf das Moment der Zugänglichkeit abzielt und sowohl wörtliche als auch metaphorische Verwendungen zulässt. Dabei zeigt sich in einer Pilotierung am Beispiel der Forschungsbeiträge im Korpus (51 Texte), dass die Frame-Elemente THEME (für wen ist etwas offen?) und BARRIER (was verhindert potentiell den Zugang?) nur in 11% bzw. 3% der insgesamt 72 Fälle explizit besetzt werden, so dass der Begriff der Offenheit vage gehalten und so seine freien Assoziationspotenziale besonders gut entfalten kann (Abb. 2).</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="3.891138888888889cm" url="Pictures/5030e8b0b2f37d0e6b251cf7aa816e33.png" rend="inline"/>
+                    <head>Abb. 2</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left; ">Unsere Ergebnisse versprechen einen detaillierten und empirisch gestützten Blick auf das für die Digital Humanities so bedeutsame Prinzip der Offenheit weniger in seinen technischen als in seinen diskursiven Aspekten. Im Projekt werden unsere linguistischen Analysen ergänzt werden durch psychologische, experimentelle Erhebungen individueller Konstruktsysteme (Kelly 2005) von Akteur:innen im Feld der Open Science, die wir mit unseren Befunden zu diskursiven Deutungsmustern triangulieren werden. Zudem werden wir die Korpusgrundlage auf Publikationen anderer Akteur:innen im bibliothekarischen Diskurs ausweiten.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Bonte, Achim und Antonie Muschalek</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, Hrsg. 2019. </hi>
+                        <hi rend="italic" style="font-size:11pt">SLUB 2025. Wissen teilen - Menschen verbinden. Strategie der Sächsischen Landesbibliothek – Staats- und Universitätsbibliothek Dresden</hi>
+                        <hi style="font-size:11pt">. Dresden: SLUB. https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-357501.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Bubenhofer, Noah</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2017. „Kollokationen, n-Gramme, Mehrworteinheiten“. In </hi>
+                        <hi rend="italic" style="font-size:11pt">Handbuch Sprache in Politik und Gesellschaft</hi>
+                        <hi style="font-size:11pt">, hg. von Kersten Sven Roth, Martin Wengeler und Alexander Ziem, 69–93. Berlin, Boston: De Gruyter. https://doi.org/10.1515/9783110296310-004.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Busse, Dietrich. </hi>
+                        <hi style="font-size:11pt">2012. „Frame-Semantik. Ein Kompendium“, Berlin u.a.: De Gruyter.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Castilho, Richard Eckart de, Jan-Christoph Klie, Naveen Kumar, Beto Boullosa und Iryna Gurevych</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2018. „INCEpTION - Corpus-based Data Science from Scratch“. In </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Infrastructures for Research (DI4R)</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2018. http://tubiblio.ulb.tu-darmstadt.de/106982/.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Dickel, Sascha und Martina Franzen</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2015. „Digitale Inklusion: Zur Sozialen Öffnung Des Wissenschaftssystems“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Zeitschrift für Soziologie</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 44 (5): 330–47. https://doi.org/10.1515/zfsoz-2015-0503.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Hardie, Andrew</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2012. „CQPweb — Combining Power, Flexibility and Usability in a Corpus Analysis Tool“. </hi>
+                        <hi rend="italic" style="font-size:11pt">International Journal of Corpus Linguistics</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 17 (3): 380–409. https://doi.org/10.1075/ijcl.17.3.04har.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Kelly, George A.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2005. „A Brief Introduction to Personal Construct Theory“. In </hi>
+                        <hi rend="italic" style="font-size:11pt">International Handbook of Personal Construct Psychology</hi>
+                        <hi style="font-size:11pt">, herausgegeben von Fay Fransella, 3–20. Chichester, UK: Wiley. https://doi.org/10.1002/0470013370.ch1.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Koch, Lars, Tobias Nanz und Johannes Pause</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2016. „Imaginationen der Störung: ein Konzept“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Behemot</hi>
+                        <hi style="font-size:11pt">9 (1): 6–23. https://doi.org/10.6094/BEHEMOTH.2016.9.1.885.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Kozlowski, Austin C., Matt Taddy und James A. Evans</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2019. „The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings“. </hi>
+                        <hi rend="italic" style="font-size:11pt">American Sociological Review</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 84 (5): 905–49. https://doi.org/10.1177/0003122419877135.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Mikolov, Tomas, Kai Chen, Greg Corrado und Jeffrey Dean</hi>
+                        <hi style="font-size:11pt">. 2013. „Efficient Estimation of Word Representations in Vector Space“. arXiv:1301.3781 [cs], Januar. http://arxiv.org/abs/1301.3781.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Schröter, Melani</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2011. „Schlagwörter im politischen Diskurs“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Mitteilungen des Deutschen Germanistenverbandes</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 58 (3): 249–57. https://doi.org/10.14220/mdge.2011.58.3.249.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Tkacz, Nathaniel. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2012. „From Open Source to Open Government: A Critique of Open Politics“. In </hi>
+                        <hi rend="italic" style="font-size:11pt">ephemera</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 12(4): 386–405. </hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Vicente-Saez, Ruben und Clara Martinez-Fuentes</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2018. „Open Science Now: A Systematic Literature Review for an Integrated Definition“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal of Business Research</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 88 (Juli): 428–36. https://doi.org/10.1016/j.jbusres.2017.12.043.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis1" style="text-align: left; ">
+                        <hi rend="bold" style="font-size:11pt">Ziem, Alexander</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 2020. „Wortbedeutungen als Frames: ein Rahmenmodell zur Analyse lexikalischer Bedeutungen“. In </hi>
+                        <hi rend="italic" style="font-size:11pt">Semantiktheorien II: Analysen von Wort- und Satzbedeutungen im Vergleich</hi>
+                        <hi style="font-size:11pt">, hg. von Jörg Hagemann und Sven Staffeldt, 27–56. Tübingen: Stauffenburg.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

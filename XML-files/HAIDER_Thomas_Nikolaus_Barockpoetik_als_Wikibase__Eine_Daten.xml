@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HAIDER_Thomas_Nikolaus_Barockpoetik_als_Wikibase__Eine_Daten" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Barockpoetik als Wikibase: Eine Datenbank zu konfessions-<br/>geschichtlichen Aspekten in deutschen Barockpoetiken</title>
+                <author>
+                    <persName>
+                        <surname>Haider</surname>
+                        <forename>Thomas Nikolaus</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Deutschland</affiliation>
+                    <email>thomas.haider@uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schennach</surname>
+                        <forename>Stephanie</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Deutschland</affiliation>
+                    <email>stephanie.schennach@uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Thelen</surname>
+                        <forename>Julius</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Deutschland</affiliation>
+                    <email>julius.thelen@uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wesche</surname>
+                        <forename>Jörg</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Deutschland</affiliation>
+                    <email>joerg.wesche@uni-goettingen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-17T03:14:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wikibase</term>
+                    <term>Poetik</term>
+                    <term>Barock</term>
+                    <term>Konfession</term>
+                    <term>Religion</term>
+                    <term>Linked Open Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Organisation</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Motivation</head>
+                <p style="text-align: justify;">Dieses Poster stellt eine Datenbank vor, die sich  auf die thesaurierende Erschließung sämtlicher Konfessionsaspekte in den deutschen Poesielehrbüchern der Barockzeit richtet. Das barocke Poetikparadigma, das sich zeitlich von Opitz’ 
+                    <hi rend="italic">Buch von der Poeterey</hi> (1624) bis zu Gottscheds 
+                    <hi rend="italic" xml:space="preserve">Critischer Dichtkunst </hi>(1730) erstreckt (Wesche 2004, 164), wird damit erstmals systematisch im Hinblick auf Fragen der Konfessionalität beforscht, die gerade für das 17. und 18. Jahrhundert von zentraler historischer Bedeutung sind. Das Projekt hat sich zum Ziel gesetzt, die konfessionsgeschichtlichen Inhalte von insgesamt 54 historisch einschlägigen Poetiken offen zugänglich und durchsuchbar zu machen. Damit fällt es unter das Konferenzthema ‚Open Data‘.
+                </p>
+                <p style="text-align: justify;">Die Datenbank entsteht im Rahmen des Teilprojekts “Uneindeutige Barockdichtung. Poetische und konfessionelle Ambiguität in Schlesien als kulturdynamische Faktoren einer neuen deutschen Dichtkunst (1620 bis 1742)” der DFG-Forschungsgruppe “Ambiguität und Unterscheidung. Historisch-kulturelle Dynamiken”, das Prof. Wesche gegenwärtig an der Universität Göttingen leitet. Die Wikibase ist zu finden unter 
+                    <ref target="http://barockpoetik.de">
+                        <hi rend="color(1155CC)">http://barockpoetik.de</hi>
+                    </ref>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenmodellierung</head>
+                <p style="text-align: justify;">Im Fokus steht, die Modellierung der Daten so vorzunehmen, dass die Inhalte dynamisch abrufbar sind. Dies wurde umgesetzt durch eine dedizierte Wikibase, die unsere spezifischen Inhalte im Stil von Wikidata darstellt und per Volltextsuche und einem SPARQL Query Interface zugänglich macht. Die Daten sind dabei als ‚Items‘ und ‚Properties‘ organisiert, wobei Items als Knoten und Properties als Kanten in einem Graph verstanden werden können, was es uns erlaubt beliebige Beziehungen im Graphen darzustellen und zu suchen.</p>
+                <p style="text-align: justify;">Zentrale Elemente der Datenbank sind Autoren und ihre Werke, welche als Items gespeichert wurden. Siehe etwa das Item:Q29 (
+                    <ref target="http://barockpoetik.de/mediawiki/index.php/Item:Q29">
+                        <hi rend="color(1155CC)">http://barockpoetik.de/mediawiki/index.php/Item:Q29</hi>
+                    </ref>), welches den Eintrag für den Autor Martin Opitz festlegt, und dabei diverse Statements definiert, die für die Autoren relevant sind (wie etwa das verfasste Werk, seinen Vor- und Nachnamen, das Geburts- und Todesjahr) und auf einen Eintrag in der GND verweist (Deutsche Nationalbibliothek). Autoren, die in der Wikipedia geführt sind, werden ebenfalls mit einem Link dorthin ausgestattet.
+                </p>
+                <p style="text-align: justify;">Das assoziierte Werk von Opitz, 
+                    <hi rend="italic">Das Buch von der Deutschen Poeterey</hi>, ist hingegen unter Item:Q82 abgelegt (
+                    <ref target="http://barockpoetik.de/mediawiki/index.php/Item:Q82">
+                        <hi rend="color(1155CC)">http://barockpoetik.de/mediawiki/index.php/Item:Q82</hi>
+                    </ref>). Neben relevanten Metadaten (Publikationsjahr und -ort, Autor, Digitalisat), enthalten Einträge zu Werken Informationen zu bibliographischen Angaben, zur Sekundärliteratur sowie die werkeigenen Kapitelüberschriften. Hinzu kommen als Kernstück der Arbeit Textstellen, die konfessionsgeschichtlich relevant sind. Die Verschlagwortung folgt hier innerhalb der im Projekt entwickelten Systematik ‚Dichtung/Theologie‘, ‚Inspiration‘, ‚Sprachgenealogien‘, ‚Themen/Gattungen‘, ‚Autoritäten‘, ‚Widmungen/Adressaten‘ und ‚Exempelpolitik‘.
+                </p>
+                <p style="text-align: justify;">Einzelne Textstellen sind dabei als Items angelegt, um sie mehrfach verschlagworten zu können (wobei eine Textstelle unter verschiedenen Schlagworten geführt werden kann). Zudem besitzt jede Textstelle eine Angabe zu ihrer Fundstelle, um sie im Digitalisat ausfindig zu machen.</p>
+                <p style="text-align: justify;"> Die Volltextsuche erlaubt es, nach bestimmten Inhalten zu suchen. Etwa ergibt eine Suche nach dem Wort ‘Mensch’ alle Textstellen, in denen dieses Wort vorkommt, oder eine Suche nach ‘[aq]’ liefert alle Textstellen mit einer Auszeichnung für die Schriftart ‘Antiqua’, welche in frühneuzeitlichen Drucken konventionell für fremdsprachliches Material verwendet wird. Diese Textstellen können wiederum durch eine ‘Inverse Suche’ dem jeweiligen Werk zugeordnet werden.</p>
+                <p style="text-align: justify;">Der SPARQL Endpoint erlaubt es uns, beliebige Daten zu extrahieren, wie etwa eine Übersicht der Autoren mit ihren Werken, oder zum Beispiel alle Werke, die ‘Exempelpolitik’ enthalten, mit ihren Autoren, und den entsprechenden Textstellen, sortiert (oder gefiltert) nach Publikationsjahr. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: justify;">Die Datenbank leistet im Bereich der Geschichte der Poetik als einem zentralen Forschungsgebiet der germanistischen Literaturwissenschaft einen substantiellen Beitrag zur Exploration aktueller Methoden der Linked Open Data (Chiarcos et al., 2022; Sturgeon, 2022) und der Nutzung von Wikidata in den Digital Humanities (Zhao, 2022) in einem (frühneuzeit-)historischen Forschungsgebiet, indem es nicht nur um die Digitalisierung und (forschungs-)öffentliche Bereitstellung von Textdaten geht, sondern diese zugleich mit einem auf Fragen der Konfessionalität gerichteten Erkenntnisinteresse digital aufbereitet und empirisch ausgewertet werden. Übergeordnetes Forschungsziel ist es dabei, von der Universität Göttingen aus ein erweiterbares Portal „Barockpoetik digital“ zu etablieren, in dem die Forschungsdaten zum Thema zentral gebündelt und verfügbar gehalten werden. Als konkrete Erweiterungsperspektive erschließt das Team derzeit im Rahmen des DFG-Schwerpunkprogramms „Übersetzungskulturen der Frühen Neuzeit“ sämtliche Aspekte, die im Poetikkorpus translationsgeschichtlich relevant sind.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Chiarcos, Christian, Ionov, Maxim, Fäth, Christian.</hi> 2022. “
+                        <hi rend="italic">Linked Open Dictionaries (2015-2022): Achievements, Experiences and Challenges with respect to LOD Technology in Linguistics and the Philologies</hi>”.  In: Book of Abstracts. International Digital Humanities Conference, Tokyo (online).
+                    </bibl>
+                    <bibl><hi rend="bold">Sturgeon, Donald.</hi> 2022. “
+                        <hi rend="italic">Towards a crowdsourced linked open knowledge base of East Asian historical sources</hi>”.  In: Book of Abstracts. International Digital Humanities Conference, Tokyo (online).
+                    </bibl>
+                    <bibl><hi rend="bold">Wesche, Jörg.</hi> 2004. “
+                        <hi rend="italic">Literarische Diversität: Abweichungen, Lizenzen und Spielräume in der deutschen Poesie und Poetik der Barockzeit”</hi>, Tübingen
+                    </bibl>
+                    <bibl><hi rend="bold">Zhao, Fudie,</hi> 2022. “
+                        <hi rend="italic">How to Critically Utilise Wikidata –A Systematic Review of Wikidata in DH Projects</hi>”. In: Book of Abstracts. International Digital Humanities Conference, Tokyo (online).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

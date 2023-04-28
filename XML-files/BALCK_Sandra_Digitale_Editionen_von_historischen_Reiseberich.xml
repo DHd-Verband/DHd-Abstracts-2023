@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="BALCK_Sandra_Digitale_Editionen_von_historischen_Reiseberich" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Editionen von historischen Reiseberichten öffnen: Open Text und Open Data mit einheitlicher Textauszeichnung, semantischer Annotation und ontologiebasierter Datenmodellierung</title>
+                <author>
+                    <persName>
+                        <surname>Balck</surname>
+                        <forename>Sandra</forename>
+                    </persName>
+                    <affiliation>IOS Regensburg, Deutschland</affiliation>
+                    <email>balck@ios-regensburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Frank</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <affiliation>IOS Regensburg, Deutschland</affiliation>
+                    <email>frank@ios-regensburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Edition</term>
+                    <term>Historische Reiseberichte</term>
+                    <term>Ontologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>
+                    <hi style="font-size:11pt">Innerhalb der Literatur- und Kulturwissenschaften ist die historische Reiseforschung ein beliebtes Forschungsfeld, dennoch gibt es innerhalb der Digital Humanities wenige nennenswerte Fortschritte bei der Erschließung, Verarbeitung und Visualisierung von Reiseberichten. Konventionellen digitalen Editionen fehlt bisher die notwendige Ausdruckskraft und Flexibilität, um die diversen Anwendungsfälle und Forschungsfragen der historischen Reiseforschung zu erschließen. Anstatt einer starren Auszeichnung mit TEI zu folgen, müssen Informationen in digitalen Editionen erkannt, identifiziert, mit zusätzlichen Daten angereichert und Narrationen der Ereignisse explizit modelliert werden.</hi><ref n="1" target="ftn1"/>
+                    <hi style="font-size:11pt"> </hi>
+                </p>
+                <p style="text-align: left;">Dieser Beitrag beschäftigt sich mit der Frage der Öffnung digitaler Reiseberichte für die wissenschaftliche Analyse und Visualisierung (von Zeit, Raum, Ereignissen u.a.) durch Textauszeichnung, semantische Annotation und ontologiebasierte Modellierung. Hierbei verfolgen wir einen disziplinübergreifenden, iterativen Ansatz, welcher sowohl geistes- als auch informationswissenschaftliche Perspektiven einbezieht.<ref n="2" target="ftn2"/> Erprobt wird dieser Ansatz an der digitalen Edition des Reiseberichts Franz Xaver Bronners (1758–1850), der 1810 als Professor für theoretische Physik von Aarau in der Schweiz an die russische Universität Kasan an der Wolga ging und 1817 in die Schweiz zurückkehrte. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Problemstellung</head>
+                <p>
+                    <hi style="font-size:11pt">Datenmodellierung kann laut Flanders und Jannidis (vgl. 2015) in zwei Gruppen unterschieden werden: Curation-Driven und Research-Driven. Curation-driven beschreibt die Praktiken von Bibliotheken und Archiven, Objekte mit Hilfe von Standards einheitlich zu erfassen, um so die Auffindbarkeit und Transparenz zu gewährleisten. Die dafür notwendige Reduktion führt jedoch zu Ungenauigkeiten und Lücken im Datenmaterial. Research-Driven hingegen zielt auf die Beantwortung spezifischer Forschungsfragen ab und die Datenerfassung/Modellierung folgt einem konkreten Forschungsinteresse. Dabei werden nur selten Standards berücksichtigt. Dieser Gegensatz zwischen Forschungs- und Kuratierungspraxis erschwert die Kompatibilität und damit die Vergleichbarkeit der Daten. Um digitale Reiseberichte für wissenschaftliche Analysen verwertbar zu machen, müssen sie beiden Ansprüchen gerecht werden. </hi>
+                </p>
+                <p>
+                    <hi style="font-size:11pt">Im Bereich der digitalen Editionen haben sich die TEI-Guidelines zum De-facto-Standard entwickelt. “[TEI] is the most systematic effort so far to create standards for scholarly memory in an evolving digital culture.” (tei-c.org 2019) Die Guidelines beinhalten aktuell 585 Elemente und sind flexibel gestaltet, um für ein breites Spektrum von Forschungsfragen anwendbar zu sein. Ein Problem ist jedoch, dass dieselbe Information unterschiedlich kodiert und interpretiert werden kann (z. B. &lt;rs&gt;, &lt;persName&gt;) und der „Standard” damit nicht zwingend interoperabel ist (siehe Unsworth 2011; Burrows et al. 2021; Giovannetti und Tomasi 2022). Die TEI versucht die Brücke zwischen Standardisierung und Granularität zu schlagen, verliert damit aber ihre Eindeutigkeit (vgl. Kudella und Jefferies 2019). </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Textauszeichnung und Ontologie-Entwurfsmuster</head>
+                <p>
+                    <hi style="font-size:11pt">Einen Lösungsansatz für das Interoperabilitätsproblem auf Textseite bietet das DTA-Basisformat (Haaf et al. 2015), welches sich zum Ziel gesetzt hat: “[...] eine umfassende Textaufbereitung [zu] ermöglichen und dabei gleichzeitig Variationsspielräume bei der Annotation so ein[zu]schränken, dass die Kohärenz [...] untereinander gewährleistet wird.” (DTABf 2011-2020) Das DTABf richtet sich dabei nach den P5-Richtlinien der TEI. Um darüber hinaus auch spezifische Forschungsinteressen der historischen Reiseforschung zu adressieren, entwickeln wir auf Datenseite einen ontologiebasierten Textanreicherungs- und Bearbeitungsworkflow: Ontologie-Entwurfsmuster werden iterativ aufgebaut und für die Klassifizierung von Reise(teil)ereignissen (Abreise, Ankunft usw.) und Reisebeobachtungen (z. B. besuchte öffentliche Orte, Gewohnheiten von Personen) angewandt. </hi>
+                </p>
+                <p>
+                    <hi style="font-size:11pt">Während TEI für die Textauszeichnung verwendet wird, dient CRM zur Anreicherung des Textes mit explizitem Wissen, welches in einer Datenbank gespeichert wird. Wir modellieren mit den Ontologie-Entwurfsmustern nicht die Erzählung als solche</hi><ref n="3" target="ftn3"/>
+                    <hi style="font-size:11pt">, sondern den rekonstruierten und stellenweise interpretierten Reiseverlauf als Repräsentation der Realität. Aus narratologischer Sicht machen wir mit dem ereigniszentrierten Modellierungsansatz von CRM also nur die Fabula (chronologische Reihenfolge der Ereignisse) eines Reiseberichts explizit. Das Sujet (Erzählreihenfolge) kann allerdings bei Bedarf anhand der annotierten Textstellen abgefragt und rekonstruiert werden.</hi><ref n="4" target="ftn4"/>
+                </p>
+                <p>
+                    <hi style="font-size:11pt">Zur Erstellung des Annotationsschemas und der damit verbundenen Ontologie-Entwurfsmuster wenden wir die Frame-Semantik als theoretischen Rahmen an. Frames können als n-äre Relationen</hi><ref n="5" target="ftn5"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> repräsentiert und daher zur Entwicklung von Ontologie-Entwurfsmustern für Reiseereignisse und -beobachtungen verwendet und darüber hinaus als "knowledge patterns" zur Validierung der Entwurfsmuster herangezogen werden (vgl. Presutti et al. 2012).</hi><ref n="6" target="ftn6"/>
+                    <hi style="font-size:11pt">Die Ontology Design Patterns dienen uns als „Schablonen” zum Anlegen an den Text – wobei deren Orientierung an den Frames sehr hilfreich ist – um Reisedaten, Beobachtungen und Tätigkeiten unterwegs und während Zwischenstopps zu erfassen. Im ständigen Austausch mit der Bearbeitung von Forschungsfragen am Text werden die Frames und Design Patterns laufend überprüft und angepasst. Diese Form der forschungsgeleiteten Standardisierung (mittels expliziter und einheitlicher Modellierung) macht digitale historische Reiseberichte interoperabel und öffnet sie damit für vergleichende Analysen. Die möglichen Ansätze zur Verknüpfung von TEI-kodiertem Text und RDF-Daten mittels semantischer Annotation evaluieren wir (vgl. Eide 2015 und Borriello et al. 2016) und stellen im Poster Lösungswege mit EARMARK (Barabucci et al. 2013) und NIF (Hellmann et al. 2013) vor.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Verwandte Arbeiten und Schlussfolgerung</head>
+                <p>
+                    <hi style="font-size:11pt">Es gibt einige Beispiele wie das Hellespont-Projekt (Mambrini 2016) oder die Semantic Blumenbach-Edition (Wettlaufer 2015), die TEI-kodierten Text und CRM-modellierte Daten miteinander verknüpfen. Unser Ansatz geht jedoch über die bestehenden Projekte hinaus, da wir Ontologie-Entwurfsmuster für eine explizitere Datenmodellierung entwickeln und anwenden.</hi><ref n="7" target="ftn7"/>
+                    <hi style="font-size:11pt" xml:space="preserve"> Kurz gesagt, wir lösen die Interoperabilitäts- und Ausdrucksprobleme von TEI und CRM mit Hilfe von DTABf und Frame-basierten Ontologie-Entwurfsmustern, was wiederum die Kategorien von Reiseereignissen und Reisebeobachtungen in historischen Reiseberichten für die weitere Analyse und Visualisierung explizit macht.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                        
+                            <hi style="font-size:10pt">  Bei der Erstellung der digitalen Edition folgen wir dem Historical Information Life Cycle (Meroño-Peñuela et al. 2014), wobei wir Ontologien nicht nur in der Anreicherungs-, Bearbeitungs- und Retrieval-Phase des Lebenszyklus, sondern auch in der Analyse- und Visualisierungsphase einsetzen.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                        
+                            <hi style="font-size:10pt"> Unser Ontologie-Entwurfsansatz orientiert sich an der eXtreme Design-Vorgehensweise (Presutti et al. 2009), bei der sog. Competeny Questions aus anfänglichen User Stories abgeleitet werden, um die Anforderungen an die Datenmodellierung und das Information Retrieval zu definieren.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                        
+                            <hi style="font-size:10pt"> siehe hierzu den Modellierungsansatz von Bartalesi et al. 2017</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                        
+                            <hi style="font-size:10pt"> Das kann interessant für Analyse und Visualisierung sein, weil, wie Maurer (2015, S. 391 f.) anmerkt, Reiseberichte von wissenschaftlichen Forschern oft einer thematischen Organisation folgen, um „Reiseergebnisse” zu präsentieren, anstatt einfach einer chronologischen Reihenfolge zu folgen.</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                        
+                            <hi style="font-size:10pt"> Annotationswerkzeuge wie brat (Stenetorp et al. 2012) oder INCEpTION (Klie et al. 2018) bieten Annotations- und Visualisierungskomponenten für n-äre Relationen (Frames oder Ereignisse inkl. der Rollen von Akteuren). </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                        
+                            <hi style="font-size:10pt" xml:space="preserve"> Siehe dazu etwa das allgemeine Frame </hi>
+                            <hi rend="italic" style="font-size:10pt">Travel</hi>
+                            <hi style="font-size:10pt" xml:space="preserve"> mit Frame-spezifischen Eigenschaften zur Beschreibung von reisender Person, Reiseziel, Verkehrsmittel usw. in FrameNet: http://framenet.lexicalsemantics.org/frameIndex.xml?frame=Travel</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                        
+                            <hi style="font-size:10pt"> Die Datenmodelle GeoJSON-T, Linked Places und Linked Traces (siehe Grossner et al. 2017) sind bereits gut etabliert, aber es handelt sich dabei nur um Formate für den Datenaustausch und kommen daher in unserem Projekt nicht für den Aufbau der Datenbank in Frage.</hi>
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Barabucci, Gioele, Angelo Di Iorio, Silvio Peroni, Francesco Poggi, and Fabio Vitali. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2013. “Annotations with Earmark in Practice: A Fairy Tale.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the 1st International Workshop on Collaborative Annotations in Shared Environment: Metadata, Vocabularies and Techniques in the Digital Humanities</hi>
+                        <hi style="font-size:11pt">. DH-Case ’13. Association for Computing Machinery, 10.1145/2517978.2517990</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Bartalesi, Valentina, Carlo Meghini, and Daniele Metilli. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2017. “A Conceptualisation of Narratives and Its Expression in the Crm.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">International Journal of Metadata, Semantics and Ontologies</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 12 (1): 35–46.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Burrows, Toby, Matthew Holford, David Lewis, Andrew Morrison, Kevin Page, and Athanasios Velios.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2021. “Transforming Tei Manuscript Descriptions into Rdf Graphs.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing</hi>
+                        <hi style="font-size:11pt">, 143–54. Norderstedt: BoD, http://www.digitalhumanities.org/dhq/vol/16/2/000605/000605.html</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Eide, Øyvind.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2015. “Ontologies, Data Modeling, and TEI.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal of the Text Encoding Initiative</hi>
+                        <hi style="font-size:11pt">, no. 8 (December), https://doi.org/10.4000/jtei.1191</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Füssel, Marian, Tim Neu.</hi> 2021. “Akteur-Netzwerk-Theorie und Geschichtswissenschaft”. Paderborn: Brill; Ferdinand Schöningh.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Giovannetti, Francesca; Tomasi, Francesca.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2022. “Linked data from TEI (LIFT): A Teaching Tool for TEI to Linked Data Transformation” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Humanities Quarterly</hi>
+                        <hi style="font-size:11pt">16 (2). http://www.digitalhumanities.org/dhq/vol/16/2/000605/000605.html.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Grossner, Karl, Merrick Lex Berman, and Rainer Simon.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2017. “Linked Places: A Modeling Pattern and Software for Representing Historical Movement.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Humanities 2017: Conference Abstracts</hi>
+                        <hi style="font-size:11pt">, 463–65, https://dh2017.adho.org/abstracts/204/204.pdf</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Haaf, Susanne, Alexander Geyken, and Frank Wiegand.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2015. “The Dta ‘Base Format’: A Tei Subset for the Compilation of a Large Reference Corpus of Printed Text from Multiple Sources.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal of the Text Encoding Initiative</hi>
+                        <hi style="font-size:11pt">, no. 8, doi:10.4000/jtei.1114</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hellmann, Sebastian, Jens Lehmann, Sören Auer, and Martin Brümmer</hi>. 2013. “Integrating NLP using Linked Data”. In: 12th International Semantic Web Conference, 21–25 October 2013, Sydney, Australia.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klie, Jan-Christoph, Michael Bugert, Beto Boullosa, Richard Eckart de Castilho, and Iryna Gurevych.</hi> 2018. “The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation”. In 
+                        <hi rend="italic">Proceedings of System Demonstrations of the 27th International Conference on Computational Linguistics (COLING 2018),</hi> Santa Fe, New Mexico, USA. https://aclanthology.org/C18-2002
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Kudella, Christoph, and Neil Jefferies.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2019. “How Do We Model the Republic of Letters?” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Reassembling the Republic of Letters in the Digital Age</hi>
+                        <hi style="font-size:11pt">, edited by Howard Hotson and Thomas Wallnig, 41–53. Göttingen: Göttingen University Press, 10.17875/gup2019-1146</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Mambrini, Francesco.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2016. “Treebanking in the World of Thucydides. Linguistic Annotation for the Hellespont Project.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Humanities Quarterly</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 10 (2), http://www.digitalhumanities.org/dhq/vol/10/2/000251/000251.html</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Maurer, Michael.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2015. “Reiseberichte als Wissensspeicher.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Wissensspeicher Der Frühen Neuzeit: Formen und Funktionen</hi>
+                        <hi style="font-size:11pt">, edited by Frank Grunert and Anette Syndikus, 391–412. Berlin, Boston: De Gruyter, 10.1515/9783050086637-015</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Meroño-Peñuela, Albert, Ashkan Ashkpour, Marieke van Erp, Kees Mandemakers, Leene Breure, Andrea Scharnhorst, Stefan Schlobach, and Frank van Harmelen.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2015. “Semantic Technologies for Historical Research: A Survey.” </hi>
+                        <hi rend="italic" style="font-size:11pt">Semantic Web</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 6 (6). IOS Press: 539–64, 10.3233/SW-140158</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Presutti, Valentina, Enrico Daga, Aldo Gangemi, and Eva Blomqvist.</hi> 2009. “eXtreme Design with Content Ontology Design Patterns.” WOP.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Presutti, Valentina, Eva Blomqvist, Enrico Daga, and Aldo Gangemi.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2012. “Pattern-Based Ontology Design.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Ontology Engineering in a Networked World</hi>
+                        <hi style="font-size:11pt">, edited by Mari Carmen Suárez-Figueroa, Asunción Gómez-Pérez, Enrico Motta, and Aldo Gangemi, 35–64. Berlin: Springer.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stenetorp, Pontus, Sampo Pyysalo, Goran Topić, Tomoko Ohta, Sophia Ananiadou, and Jun’ichi Tsujii.</hi> 2012. “Brat: a Web-based Tool for NLP-Assisted Text Annotation”. In 
+                        <hi rend="italic">Proceedings of the Demonstrations at the 13th Conference of the European Chapter of the Association for Computational Linguistics</hi>, 102–107.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">tei-c.org.</hi> 2019. “A very gentle introduction to the TEI markup language.” https://tei-c.org/Vault/Tutorials/mueller-index.htm.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Unsworth, John.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2011. “Computational Work with Very Large Text Collections. Interoperability, Sustainability, and the Tei.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal of the Text Encoding Initiative</hi>
+                        <hi style="font-size:11pt">, no. 1 (June), 10.4000/jtei.215</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Wettlaufer, Jörg, Christopher Johnson, Martin Scholz, Mark Fichtner, and Sree Ganesh Thotempudi. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2015. “Semantic Blumenbach: Exploration of Text–Object Relationships with Semantic Web Technology in the History of Science.” In </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Scholarship in the Humanities</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 30 (suppl_1): i187–i198, 10.1093/llc/fqv047</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

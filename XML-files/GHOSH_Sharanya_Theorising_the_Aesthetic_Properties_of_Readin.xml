@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GHOSH_Sharanya_Theorising_the_Aesthetic_Properties_of_Readin" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Theorising the Aesthetic Properties of Reading in a Digital Social Reading (DSR) Environment: Exploring DSR Practices in India</title>
+                <author>
+                    <persName>
+                        <surname>Ghosh</surname>
+                        <forename>Sharanya</forename>
+                    </persName>
+                    <affiliation>Indian Institute of Technology, Jodhpur, Indien</affiliation>
+                    <email>ghosh.5@iitj.ac.in</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-09T14:10:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Social Reading</term>
+                    <term>Aesthetic Properties</term>
+                    <term>Indian readers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="normal">
+                <hi rend="color(0E101A)" xml:space="preserve">Digital Social Reading, a term proposed by Rebora et al. (2021), is described as "a wide variety of practices related to the activity of reading and using digital technologies and platforms… to share with other people, thoughts and impressions about texts" (Pianzola, forthcoming). This study will dive deep into the world of Indian Digital Social Reading practices, thus filling the gap in current global discourse. Aesthetic experience, central to reading as an </hi>
+                <hi rend="italic color(0E101A)">activity</hi>
+                <hi rend="color(0E101A)" xml:space="preserve">, forms the basis of aesthetic judgement of a literary text. Therefore, it is essential that our understanding of </hi>
+                <hi rend="italic color(0E101A)">how</hi>
+                <hi rend="color(0E101A)" xml:space="preserve"> reading happens also includes some empirical analysis of its </hi>
+                <hi rend="italic color(0E101A)">aesthetic properties</hi>
+                <hi rend="color(0E101A)" xml:space="preserve">- the foundational "units" of aesthetic judgement. Combining these two strands, this study aims </hi>
+                <hi rend="underline color(0E101A)">to conceptualise a theoretical framework of aesthetic properties (AP) of reading fiction in the context of Indian Digital Social Readers by employing an embedded mixed-method approach</hi>
+                <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+            </p>
+            <p rend="normal">Literature:</p>
+            <p rend="normal">
+                <hi rend="color(0E101A)" xml:space="preserve">While most scholarship in DSR is global north-centric, Pianzola et al. (2020) offer a more global perspective in their study of Wattpad as a literary resource. Pianzola's upcoming book is the only textbook-like work organising the different DSR studies in a historical timeline and taxonomies; DSR's role in cognitive, aesthetic, and educational aspects of reading, and its pedagogical properties. The democratising agency of DSR (Sedo 2011; Kellner 2016); statistical interpretation of data on gender biases, gender and genre fixation, authorship and gender identity etc., (Thelwall and Kousha 2017); the impact of tweaking reviews for book sales (Nan Hu and colleagues 2012)- are some of the most prominent works. Holur et al. (2021) reflected upon the manners of reading novels that readers engage in, making a significant contribution to "infinite vocabulary networks". Koolen, Neugarten, and Boot (2022) identified impact categories in English book reviews. </hi>
+            </p>
+            <p rend="normal">
+                <hi rend="italic color(0E101A)">The Oxford Handbook of Cognitive Literary Studies</hi>
+                <hi rend="color(0E101A)" xml:space="preserve"> (2015) discusses intersections between the literary and cognitive, reflecting on imagination, brain imaging, and its neural networks; imagery as the key element of aesthetic experience; the delicate balance between internal and external cognition giving rise to an intense aesthetic response etc. </hi>
+                <hi rend="italic color(0E101A)">The Oxford Handbook of Aesthetics</hi>
+                <hi rend="color(0E101A)" xml:space="preserve"> (2005) is a comprehensive work on philosophical ideas of aesthetics and its properties; arts and their relationship with aesthetics; notions of interpretation etc. In a self-reflexive essay, Matravers and Levinson (2005) defend Levinson's ontology of aesthetic properties while also questioning issues like aesthetic autonomy. More empirical works, such as by Larson et al. (2007), measured the aesthetics of reading based on typographic alterations and textual optimisation that affected the reader's cognitive functions and frowning while reading. DeClerq (2002) observed that existing definitions of aesthetic properties pertain mostly to visual objects, leaving enough scope for inquiry into the other forms of aesthetic expressions, such as music and literature. </hi>
+            </p>
+            <p rend="normal">Hypotheses and research questions:</p>
+            <p rend="normal">
+                <hi rend="color(0E101A)">Based on the hypotheses that digital space and digital technologies redefine the social reading experience and that the reading experience as a whole can be best understood through an analysis of the aesthetic properties of reading, this project attempts to answer the following questions:</hi>
+            </p>
+<list type="ordered">
+                <item>
+                    <hi rend="color(0E101A)" xml:space="preserve">What parameters determine the aesthetic properties that govern a reader's </hi>
+                    <hi rend="underline color(0E101A)">aesthetic judgement of fiction</hi>
+                    <hi rend="color(0E101A)">? (the underlying assumption here is that aesthetic properties differ for fiction and non-fiction)</hi>
+<list type="ordered">
+                        <item>How are these parameters of AP affected by the affordances created by the digital?</item>
+                    </list>
+                </item>
+                <item>Is it possible to formulate a framework of aesthetic properties of reading fiction from DSR user data?</item>
+            </list>
+            <p rend="normal">Parameters of AP can be explained better through their dimensions, categorised according to their epistemological qualities, such as cultural, affective, semantic, and communal.</p>
+            <p rend="normal">Methodology: </p>
+            <p rend="normal">
+                <hi rend="color(0E101A)">Owing to the complex and abstract nature of the concepts, I propose an embedded mixed methodology. As the main crux of the study, subjective data will be gathered through semi-structured interviews of Indian digital social readers. Codes generated from the transcripts (using NVivo) will help identify the parameters of AP, which will then be used in the supplementary survey involving bilingual adult Indian readers. This data should help reinforce the proposed framework. Cluster sampling will be used for this purpose. R will be used for data collation and final analysis.</hi>
+                <hi rend="underline color(0E101A)">The project does not concentrate on a fixed corpus given the generic nature of the questions it asks and India's multilingual readership.</hi>
+                <hi rend="color(0E101A)" xml:space="preserve"> Data collection begins in mid-January 2023, following the completion of basic theorising. </hi>
+            </p>
+            <p rend="normal">Limitations:</p>
+<list type="unordered">
+                <item>Does not consider non-fiction works</item>
+                <item>survey method is not the most reliable of all quantitative methods</item>
+                <item>
+                    <hi rend="color(0E101A)">difficulty justifying abstract concepts through empirical approach.</hi>
+                </item>
+            </list>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl rend="normal">
+                        <hi rend="bold">Allington, Daniel</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2016. ‘Power to the reader’ or ‘degradation of literary taste’? Professional critics and Amazon customers as reviewers of </hi>
+                        <hi rend="italic color(0E101A)">The Inheritance of Loss</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                        <hi rend="italic color(0E101A)">Language and Literature: International Journal of Stylistics,</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve"> 25(3): 254–278. Accessed April 17, 2022, </hi>
+                        <ref target="https://doi.org/10.1177/0963947016652789">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1177/0963947016652789</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold ">Bourrier, Karen, and Thelwall, Mike</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2020. The Social Lives of Books: Reading Victorian Literature on Goodreads. </hi>
+                        <hi rend="italic color(0E101A)">Journal of Cultural Analytics,</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve"> 5(1). Accessed April 10, 2022, </hi>
+                        <ref target="https://doi.org/10.22148/001c.12049">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.22148/001c.12049</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal" style="text-align: justify;">
+                        <hi rend="bold">Creswell, John W., and Clark, Vicky, L. Plano</hi>. 2010. Choosing a mixed method design. In 
+                        <hi rend="italic">Designing and conducting mixed methods research</hi>: 58–88. SAGE. Accessed October 21, 2022, 
+                        <ref target="https://www.sagepub.com/sites/default/files/upm-binaries/10982_Chapter_4.pdf">
+                            <hi rend="underline">https://www.sagepub.com/sites/default/files/upm-binaries/10982_Chapter_4.pdf</hi>
+                        </ref>. 
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">De Clercq, Rafael</hi>
+                        <hi rend="color(05103E) background(white)" xml:space="preserve">. 2002.  The Concept of an Aesthetic Property. </hi>
+                        <hi rend="italic color(05103E) background(white)">The Journal of Aesthetics and Art Criticism,</hi>
+                        <hi rend="color(05103E) background(white)" xml:space="preserve">60(2): 167–76. Accessed November 10, 0222, </hi>
+                        <ref target="http://www.jstor.org/stable/1520014">
+                            <hi rend="underline background(white)">http://www.jstor.org/stable/1520014</hi>
+                        </ref>
+                        <hi rend="color(05103E) background(white)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">De Clercq
+                        ,
+                        Rafael</hi>
+                        <hi rend="color(05103E) background(white)" xml:space="preserve">. 2008. The Structure of Aesthetic Properties. </hi>
+                        <hi rend="italic color(05103E)">Philosophy Compass</hi>
+                        <hi rend="color(05103E) background(white)" xml:space="preserve">, </hi>
+                        <hi rend="italic color(05103E)">3</hi>
+                        <hi rend="color(05103E) background(white)" xml:space="preserve">(5): 894–909. </hi>
+                        <hi rend="color(0E101A)">Accessed November 10, 2022,</hi>
+                        <ref target="https://doi.org/10.1111/j.1747-9991.2008.00165.x">
+                            <hi rend="underline">https://doi.org/10.1111/j.1747-9991.2008.00165.x</hi>
+                        </ref>. 
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Driscoll, Beth, and DeNel, Sedo R.</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve"> 2018. Faraway, So Close: Seeing the Intimacy in</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold" xml:space="preserve">Goodreads Reviews. </hi>
+                        <hi rend="italic color(0E101A)">Qualitative Inquiry</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 25(3): 248–259. Accessed April 17, 2022, </hi>
+                        <ref target="https://doi.org/10.1177/1077800418801375">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1177/1077800418801375</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Hajibayova, Lala</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2019. Investigation of Goodreads’ reviews: Kakutanied, deceived or simply honest?. </hi>
+                        <hi rend="italic color(0E101A)">Journal of Documentation</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 75(3): 612–626. Accessed April 10, 2022, </hi>
+                        <ref target="https://doi.org/10.1108/jd-07-2018-0104">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1108/jd-07-2018-0104</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Holur, Pavan, Shahsavari, Shadi, Ebrahimzadeh, Ehsan, Tangherlini, Timothy R., and Roychowdhury, Vwani</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2021. Modeling Social Readers: Novel Tools for Addressing Reception from Online Book Reviews. London, UK; Royal Society Open Science. Accessed April 10, 2022, </hi>
+                        <ref target="https://arxiv.org/pdf/2105.01150.pdf">
+                            <hi rend="underline color(0E101A)">https://arxiv.org/pdf/2105.01150.pdf</hi>
+                        </ref>
+                        <hi rend="bold color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Hu, Nan, Bose, Indranil, Koh, Noi Koh S., and Liu, Ling</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2012. Manipulation of online reviews: An analysis of ratings, readability, and sentiments. </hi>
+                        <hi rend="italic color(0E101A)">Decision Support Systems</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 52(3): 674–684. Accessed May 5, 2022, </hi>
+                        <ref target="https://doi.org/10.1016/j.dss.2011.11.002">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1016/j.dss.2011.11.002</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Hu, Nan, Pavlou, Paul, A., and Zhang, Jie</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2017. On Self-Selection Biases in Online Product Reviews. </hi>
+                        <hi rend="italic color(0E101A)">MIS Quarterly</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 41(2), 449–471. Accessed June 12, 2022, </hi>
+                        <ref target="https://doi.org/10.25300/MISQ/2017/41.2.06">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.25300/MISQ/2017/41.2.06</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Kellner, Douglas</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2001. Critical Pedagogy, Cultural Studies, and Radical Democracy at the Turn of the Millennium: Reflections on the Work of Henry Giroux. </hi>
+                        <hi rend="italic color(0E101A)">Cultural Studies ↔</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Critical Methodologies</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 1(2): 220–239. Accessed April 10, 2022, </hi>
+                        <ref target="https://doi.org/10.1177/153270860100100205">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1177/153270860100100205</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Koolen, Marijn, Neugarten, Julia, and Boot, Peter</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2022. ‘This book makes me happy and sad and I love it’: A Rule-based Model for Extracting Reading Impact from English Book Reviews. In </hi>
+                        <hi rend="italic color(0E101A)">Conference Reader of the 1st Annual Conference of Computational Literary Studies</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. Accessed May 5, 2022, </hi>
+                        <ref target="https://jcls.io/media/journals/12/CCLS2022_Conference-Reader_2022-05-16v2.pdf">
+                            <hi rend="underline color(0E101A)">https://jcls.io/media/journals/12/CCLS2022_Conference-Reader_2022-05-16v2.pdf</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Kousha, Kayvan, Thelwall, Mike, and Abdoli, Mahshid</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2017. Goodreads reviews to assess the wider impacts of books. </hi>
+                        <hi rend="italic color(0E101A)">Journal of the Association for Information Science and Technology</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 68(8). Accessed June 12, 2022, </hi>
+                        <ref target="https://doi.org/10.1002/asi.23805">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1002/asi.23805</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Larson, Kevin, Hazlett, Richard L., Chaparro, Barbara, S., and Picard, Rosalind, W</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. Measuring the aesthetics of reading. </hi>
+                        <hi rend="italic color(0E101A)">People and Computers XX — Engage</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 41–56. Accessed June 20, 2022, </hi>
+                        <ref target="https://doi.org/10.1007/978-1-84628-664-3_4">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1007/978-1-84628-664-3_4</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Levinson, Jerrold</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2005. The Domain of Aesthetics. </hi>
+                        <hi rend="italic color(0E101A)">The Oxford Handbook of Aesthetics</hi>
+                        <hi rend="color(0E101A)">. England: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Matravers, Derek, and Levinson, Jerrold</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2005. Aesthetic Properties. </hi>
+                        <hi rend="italic color(0E101A)">Proceedings of the Aristotelian Society, Supplementary Volumes</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 79: 191–227. Accessed April 17, 2022, </hi>
+                        <ref target="http://www.jstor.org/stable/4106940">
+                            <hi rend="underline color(0E101A)">http://www.jstor.org/stable/4106940</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Pianzola, Federico</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2021. </hi>
+                        <hi rend="italic color(0E101A)">Digital Social Reading: Sharing Fiction in the 21st Century</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve"> (Forthcoming). MIT Press. Accessed April 10, 2022, </hi>
+                        <ref target="https://wip.mitpress.mit.edu/digital-social-reading">
+                            <hi rend="underline">https://wip.mitpress.mit.edu/digital-social-reading</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold" xml:space="preserve">Pianzola, Federico, Rebora, Simone, and Lauer, Gerhard. </hi>2020. 
+                        <hi rend="color(202020)" xml:space="preserve">Wattpad as a resource for literary studies. Quantitative and qualitative examples of the importance of digital social reading and readers’ comments in the margin. </hi>
+                        <hi rend="italic color(202020)">PLOS One</hi>
+                        <hi rend="color(202020)" xml:space="preserve">, </hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">Accessed April 10, 2022, </hi>
+                        <ref target="https://doi.org/10.1371/journal.pone.0226708">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1371/journal.pone.0226708</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold ">Rebora, Simone, Boot, Peter, Pianzola, Federico, Gasser, Brigitte, Herrmann, J Berenike, Kraxenberger, Maria, Kuijpers, Moniek M, Lauer, Gerhard, Lendvai, Piroska, Messerli, Thomas C, and Sorrentino, Pasqualina</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2021. </hi>
+                        <hi rend="color(2A2A2A) background(white)" xml:space="preserve">Digital humanities and digital social reading. </hi>
+                        <hi rend="italic color(2A2A2A) background(white)">Digital Scholarship in the Humanities</hi>
+                        <hi rend="color(2A2A2A) background(white)" xml:space="preserve">, 36(2). </hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">Accessed April 17, 2022, </hi>
+                        <ref target="https://doi.org/10.1093/llc/fqab020">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1093/llc/fqab020</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold ">Robson, Jon</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2018. Is Perception the Canonical Route to Aesthetic Judgment?. </hi>
+                        <hi rend="italic color(0E101A)">Australasian Journal of Philosophy</hi>
+                        <hi rend="color(0E101A)">, 96 (4): 1–12. Accessed May 5, 2022,</hi>
+                        <ref target="https://doi.org/10.1080/00048402.2017.1389964">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1080/00048402.2017.1389964</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Rowberry, Simon, P</hi>
+                        <hi rend="color(0E101A)">. 2016. Commonplacing the public domain: Reading the classics socially on the Kindle.</hi>
+                        <hi rend="italic color(0E101A)" xml:space="preserve"> Language and Literature: International Journal of Stylistics</hi>
+                        <hi rend="color(0E101A)">, 25(3):</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="color(0E101A)" xml:space="preserve">211–225. Accessed May 5, 2022, </hi>
+                        <ref target="https://doi.org/10.1177/0963947016652782">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1177/0963947016652782</hi>
+                        </ref>
+                        <hi rend="bold color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Swann, Joan, and Allington, Daniel</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2009. Reading groups and the language of Literary texts: A case study in social reading. </hi>
+                        <hi rend="italic color(0E101A)">Language and Literature: International Journal of Stylistics</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 18(3): 247–264. Accessed June 12, 2022,  </hi>
+                        <ref target="https://doi.org/10.1177/0963947009105852">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1177/096394700910585</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Thelwall, Mike, and Kousha, Kayvan</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2016. Goodreads: A social network site for book readers. </hi>
+                        <hi rend="italic color(0E101A)">Journal of the Association for Information Science and Technology</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">, 68(4): 972–983. Accessed April 17, 2022, </hi>
+                        <ref target="https://doi.org/10.1002/asi.23733">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1002/asi.23733</hi>
+                        </ref>
+                        <hi rend="color(0E101A)">.</hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Thelwall, Mike, and Bourrier, Karen</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2019. The reading background of Goodreads book club members: a female fiction canon? </hi>
+                        <hi rend="italic color(0E101A)">Journal of Documentatio</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">n, 75(5): 1139–1161. Accessed May 5, 2022, </hi>
+                        <ref target="https://doi.org/10.1108/jd-10-2018-0172">
+                            <hi rend="underline color(0E101A)">https://doi.org/10.1108/jd-10-2018-0172</hi>
+                        </ref>
+                        <hi rend="color(0E101A)" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl rend="normal">
+                        <hi rend="bold">Zunshine, Lisa</hi>
+                        <hi rend="color(0E101A)" xml:space="preserve">. 2015. </hi>
+                        <hi rend="italic color(0E101A)">The Oxford Handbook of Cognitive Literary Studies</hi>
+                        <hi rend="color(0E101A)">. England: Oxford University Press.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

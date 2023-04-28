@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GALKA_Selina_Wei_buch_Digitale_Edition" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weißbuch Digitale Edition</title>
+                <author>
+                    <persName>
+                        <surname>Galka</surname>
+                        <forename>Selina</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                    <email>selina.galka@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klug</surname>
+                        <forename>Helmut W.</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                    <email>helmutwklug@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-15T13:56:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Weißbuch</term>
+                    <term>Digitale Edition</term>
+                    <term>Editionswissenschaft</term>
+                    <term>Digitale Editionswissenschaft</term>
+                    <term>Nachschlagewerk</term>
+                    <term>Zotero</term>
+                    <term>Wissensressource</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Theoretisierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Lehre</term>
+                    <term>Methoden</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Die Digitale Edition stellt ein äußerst wichtiges Forschungsfeld innerhalb der Digital Humanities dar. Es gibt eine Reihe an Publikationen und Ressourcen, die sich sowohl einführend als auch theoriebildend diesem Thema widmen. So verfasste z.B. Patrick Sahle ein umfangreiches Standardwerk dazu (2013: 
+                <hi rend="italic">Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels.</hi>), bzw. 2019 den einschlägigen Artikel “What is a scholarly digital edition?” (2019). Ein weiteres Standardwerk, 
+                <hi rend="italic">Digital scholarly editing: theories, models and methods</hi>, wurde 2015 von Elena Pierazzo publiziert; von ihr und James Driscoll wurde 2016 der Sammelband 
+                <hi rend="italic">Digital Scholarly Editing. Theory, Practice and Future Perspectives</hi> herausgegeben. Daneben erschienen unzählige Artikel in einschlägigen Zeitschriften, wie z. B. zum Aspekt der Zukunft von Digitalen Editionen von Elena Pierazzo aus dem Jahr 2019, Digitale Edition im Zusammenhang mit rechtlichen Aspekten von Wout Dillen und Vincent Neyt 2016 oder zum Thema Kommentar in Digitalen Editionen (Bleier/Klug 2020) oder bestimmten Textsorten wie Briefen oder Tagebüchern (Dumont 2019). In diesem Zusammenhang müssen natürlich auch die Leistungen des Instituts für Dokumentologie und Editorik (
+                <ref target="https://www.i-d-e.de/">
+                    <hi rend="color(1155CC)">https://www.i-d-e.de/</hi>
+                </ref>) genannt werden, die mit dem Rezensionsorgan R.I.D.E. und den dafür geschaffenen Rezensionskriterien (Sahle 2014), wie auch einer mittlerweile umfangreichen Buchreihe (SIDE) federführend an der Theoriebildung und Weiterentwicklung Digitaler Edition arbeiten. Unterschiedliche Ausbildungsangebote wie das bereits 2017 ausgelaufene Digital Scholarly Editions Initial Training Network DiXiT (
+                <ref target="https://dixit.uni-koeln.de/">
+                    <hi rend="color(1155CC)">https://dixit.uni-koeln.de/</hi>
+                </ref>) runden dieses Bild ab.
+            </p>
+            <p style="text-align: left; ">Anfang 2021 wurde als Abschluss des vom österreichischen Bundesministerium für Bildung, Wissenschaft und Forschung geförderten Projekts "KONDE - Kompetenznetzwerk Digitale Edition" eine als Nachschlagewerk konzipierte Publikation, das sogenannte 
+                <hi rend="italic">Weißbuch</hi> zum Thema Digitale Edition veröffentlicht: 
+                <ref target="https://www.digitale-edition.at/">
+                    <hi rend="color(1155CC)">https://www.digitale-edition.at</hi>
+                </ref>. Im HRSM-Projekt wurde im Rahmen von thematisch einschlägigen Arbeitsgruppen (z.B. Transkription und Textauszeichnung, Netzwerkanalyse und Datamining, Archivierung oder Quellendigitalisierung) Inhalte und Lemmata des 
+                <hi rend="italic">Weißbuchs</hi> erarbeitet. Die Weißbucheinträge wurden von den Autorinnen und Autoren mithilfe eines vorgefertigten Google-Doc-Template, das eine überschaubare Menge an relevanten Formatierungen enthielt, erstellt. Nach der Redaktion durch das Projektteam wurden die Dokumente nach einem Export aus Google Drive mittels XSLT in das für das Projekt erarbeitete TEI/XML-Datenmodell transformiert und in das Geisteswissenschaftliche Asset Management System (GAMS) eingespeist, welches am Institut Zentrum für Informationsmodellierung in Graz entwickelt wurde (und wird). Die TEI-Dokumente stehen unter einem PID (Persistent Identifier) langzeitarchiviert und stabil referenzierbar zur Verfügung und wurden mit umfassenden Metadaten versehen. Die HTML-Ansicht des 
+                <hi rend="italic">Weißbuchs</hi> wird direkt aus den Daten mittels XSLT generiert.
+            </p>
+            <p style="text-align: left; ">Das 
+                <hi rend="italic">Weißbuch</hi> enthält neben 25 Portraits von Editionsprojekten über 200 Beiträge, verfasst von 50 Autorinnen und Autoren aus 10 österreichischen Forschungseinrichtungen, die Begriffe aus 12 Themenbereichen primär für Einsteiger in diese Thematik aufbereiten:
+            </p>
+<list type="ordered">
+                <item>Editionswissenschaft im Allgemeinen: Erklärung allgemeiner Begriffe und Konzepte (Analysemethoden, Digitale Edition, Editionstext usw.), Editionstypen, Darstellung allgemeiner Themen wie Interpretation, Kollationierung, Normalisierung, Paläographie</item>
+                <item>
+                    <hi rend="Bullets">Digitale Editionswissenschaft: Erklärung allgemeiner Begriffe und Konzepte (Ontologie, XML, Usability usw.), Analysemethoden, Apparat, diverse Editionstypen, Benutzerinnen und Benutzer Digitaler Editionen, Diplomatische Transkription, Editionstypographie, Elemente digitaler Editionen, FAIR-Prinzipien, Informationsarchitektur, Kataloge Digitaler Editionen, Kommentar, Lagenvisualisierung, Linked (Open) Data, Persistent Identifier, Social Edition, Textkritik in digitalen Editionen, Zielgruppen digitaler Editionen, Zitierbarkeit digitaler Ressourcen</hi>
+                </item>
+                <item>Digitalisierung: Digitalisierungsdienste, Checkliste Digitalisierung, Transkriptionswerkzeuge, Kosten, Crowdsourcing, HTR, OCR</item>
+                <item>
+                    <hi rend="Bullets">Metadaten: Metadatenformate (CIDOC CRM, METS, PREMIS), Metadaten Harvesting </hi>
+                </item>
+                <item>
+                    <hi rend="Bullets">Annotation und Modellierung: Datenmodellierung und -modelle, Modellierungsstandards, Schemata, Normdaten, Semantic Web, Markup und Markup Sprachen</hi>
+                </item>
+                <item>
+                    <hi rend="Bullets">NLP: Artikel über computergestützte natürliche Sprachverarbeitung (Distant Reading, Historische Korpora, Lemmatisierung, Named Entity Recognition, Tagger, Tagsets)</hi>
+                </item>
+                <item>
+                    <hi rend="Bullets">Schnittstellen: Design und Komponenten (Barrierefreies Webdesign, Benutzerinnen und Benutzer Digitaler Editionen, Editor-testing, Informationsarchitektur, Interface, Usability, Zitiervorschlag)</hi>
+                </item>
+                <item>Datenanalyse: Analysemethoden, Datamining, Datenvisualisierung, Dramennetzwerkanalyse, Visualisierungstools</item>
+                <item>Archivierung: Archivierungsstrategien, digitale Nachhaltigkeit, österreichische Archivanbieter, Metadaten, Versionierung</item>
+                <item>Software und Softwareentwicklung: Software zur Erstellung digitaler Editionen und theoretische Aspekte der Softwareentwicklung</item>
+                <item>Rechtliche Aspekte in Bezug auf Digitalisierung, Bereitstellung von Digitalen Editionen, Urheberrecht, Lizenzierung und Lizenzmodelle</item>
+                <item>Institutionen: einschlägige Beschreibungen der am Projekt beteiligten Institutionen mit einer Darstellung der digital-editorischen Schwerpunkte.</item>
+            </list>
+            <p style="text-align: left; ">Als Begleitmaterialien stehen unter anderem eine umfangreiche, öffentlich verfügbare Zoterobibliothek zur Verfügung, die weit mehr Literatur zum Thema beinhaltet, als in den Artikeln zitiert ist. Außerdem gibt es eine nach Anwendungsbereich systematisierte Sammlung von Tools, Ressourcen und Standards, die für das digitale Edieren relevant sein können. </p>
+            <p style="text-align: left; ">Die einzelnen Einträge des 
+                <hi rend="italic">Weißbuchs</hi> bieten neben der Erläuterung des jeweiligen Begriffes in der Regel Links zu verwandten Lemmata innerhalb des 
+                <hi rend="italic">Weißbuchs</hi> bzw. zu Einträgen in den relevanten digitalen Lexika zum Thema Digitale Edition (
+                <hi rend="italic">Edlex: Editionslexikon</hi>, 
+                <hi rend="italic">Lexicon of Scholarly Editing</hi>, 
+                <hi rend="italic">Parvum Lexicon Stemmatologicum</hi>), einschlägiger Software oder prototypischen Projekten. Zusätzlich werden Literaturhinweise angeboten, die mit einer umfangreichen Zotero-Bibliothek verlinkt sind, die Literatur zur Digitalen Edition auflistet. Die Artikel werden sowohl über eine thematische Gliederung als auch über einen Index erschlossen; eine Volltextsuche ist ebenfalls implementiert.
+            </p>
+            <p style="text-align: left; ">Neben der Darstellung auf der Website als HTML werden die Weißbucheinträge auch als TEI/XML- bzw. als PDF-Download zur Verfügung gestellt. Ein Netzdiagramm veranschaulicht die Beziehungen zwischen den einzelnen Artikeln und die Häufigkeit, mit der ein Stichwort genannt wird. Inhaltlich sind die Artikel breit angelegt; sie richten sich primär an interessierte Laien, sie können aber auch für Fachleute aus der Forschung als Einstieg in die Thematik oder pointierte Zusammenfassung dienen. </p>
+            <p style="text-align: left; ">Das 
+                <hi rend="italic">Weißbuch Digitale Edition</hi> dient als Einstiegswerk in unterschiedlichste Aspekte des Forschungsfeldes, wobei bei jedem Weißbuchartikel weiterführende Literatur angegeben wird, damit sich Benutzerinnen und Benutzer selbstständig vertiefend in die Materie einlesen können. Es zeichnet sich außerdem durch eine starke hypertextuelle Vernetzung der Artikel untereinander aus, die einen explorativen Zugang für alle Nutzerinnen und Nutzer ermöglicht. 
+            </p>
+            <p style="text-align: left; ">Nach der Publikation des 
+                <hi rend="italic">Weißbuchs</hi> Anfang 2021 konnten die Herausgeber im Sommer 2022 eine Förderung für eine Aktualisierung (Überarbeitung und Ergänzung bestehender Artikel) bzw. für die Erweiterung (Verfassen neuer Artikel, Vorstellung weiterer einschlägiger Projekte) des 
+                <hi rend="italic">Weißbuchs Digitale Edition</hi> einwerben: Ein 
+                <hi rend="italic">Call for Contribution</hi> erging an die deutschsprachige Community digital Edierender, der ca. 60 Einreichungen erbracht hat. Nach einem Redaktionsworkflow, der auch ein 
+                <hi rend="italic">peer-review</hi> der neuen Artikel beinhaltet, ist die Aktualisierung der bestehenden Ressource für Frühjahr 2024 geplant. Die Umsetzung dieses Kleinprojekts wird zeigen, ob ein derartiges Update-System in regelmäßigen Abständen durchgeführt werden kann, sodass der möglicherweise schnellen Überalterung der Inhalte entgegengewirkt wird.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bleier, Roman und Helmut W. Klug.</hi> 2020. “Funktion und Umfang des Kommentars in Digitalen Editionen mittelalterlicher Texte: Eine Bestandsaufnahme.” In 
+                        <hi rend="italic">Annotieren, Kommentieren, Erläutern. Aspekte des Medienwandels</hi>, hg. von Lukas Wolfgang von Elke Richter. Berlin/Boston: de Gruyter, 97–112.
+                        <hi rend="underline color(1155CC)"> </hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Digital Scholarly Editing. Theory, Practice and Future Perspectives.</hi> Ed. by Matthew James Driscoll and Elena Pierazzo. Open Book Publishers: 2016. 
+                        <ref target="https://doi.org/10.11647/OBP.009">
+                            <hi rend="color(1155CC)">https://doi.org/10.11647/OBP.009</hi>
+                        </ref> (zugegriffen am 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dillen, Wout und Vincent Neyt.</hi> 2016. “Digital Scholarly Editing within the Boundaries of Copyright Restrictions.” 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31.4: 785–96. 
+                        <ref target="https://doi.org/10.1093/llc/fqw011">
+                            <hi rend="color(1155CC)">https://doi.org/10.1093/llc/fqw011</hi>
+                        </ref> (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dumont, Stefan.</hi> 2020. “Kommentieren in digitalen Brief- und Tagebuch-Editionen.” In 
+                        <hi rend="italic">Annotieren, Kommentieren, Erläutern. Aspekte des Medienwandels</hi>, hg. von Lukas Wolfgang von Elke Richter. Berlin/Boston: de Gruyter 2020, 175–193.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Edlex: Editionslexikon. </hi>
+                        <ref target="https://edlex.de/">
+                            <hi rend="color(1155CC)">https://edlex.de</hi>
+                        </ref> (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">European Society for Textual Scholarship. Lexicon of Scholarly Editing. </hi>
+                        <ref target="https://lexiconse.uantwerpen.be/">
+                            <hi rend="color(1155CC)">https://lexiconse.uantwerpen.be</hi>
+                        </ref> (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Parvum Lexicon Stemmatologicum. </hi>
+                        <ref target="https://wiki.helsinki.fi/display/stemmatology/Parvum+lexicon+stemmatologicum">
+                            <hi rend="color(1155CC)">https://wiki.helsinki.fi/display/stemmatology/Parvum+lexicon+stemmatologicum</hi>
+                        </ref> (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Pierazzo, Elena.</hi> 2015. 
+                        <hi rend="italic">Digital scholarly editing: theories, models and methods</hi>. Farnham. 
+                        <ref target="http://hal.univ-grenoble-alpes.fr/hal-01182162">
+                            <hi rend="color(1155CC)">http://hal.univ-grenoble-alpes.fr/hal-01182162</hi>
+                        </ref> (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Pierazzo, Elena.</hi> 2019. “What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter.” 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1.2: 209–20. https://doi.org/10.1007/s42803-019-00019-3 (zugegriffen 26. Juli 2022). 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sahle, Patrick.</hi> 2013. 
+                        <hi rend="italic">Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels</hi>. 3 Bände. Norderstedt: Books on demand.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sahle, Patrick.</hi> 2014. „Criteria for Reviewing Scholarly Digital Editions, version 1.1 | Institut für Dokumentologie und Editorik“, 2014. 
+                        <ref target="http://www.i-d-e.de/publikationen/weitereschriften/criteria-for-reviewing-scholarly-digital-editions-version-1-1/">
+                            <hi rend="color(1155CC)">http://www.i-d-e.de/publikationen/weitereschriften/criteria-for-reviewing-scholarly-digital-editions-version-1-1/</hi>
+                        </ref> (zugegriffen am 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sahle, Patrick.</hi> 2016. “What Is a Scholarly Digital Edition?” In 
+                        <hi rend="italic">Digital Scholarly Editing. Theory, Practice and Future Perspectives</hi>, ed. by Matthew Driscoll and Elena Pierazzo. Cambridge: Open Book Publishers, 19–39.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sahle, Patrick.</hi> 2017. “Digitale Edition.” In 
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>. Hg. von Fotis Jannidis, Hubertus Kohle und Malte Rehbein. Stuttgart: Metzler 2017, 234–254.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Weißbuch Digitale Edition. </hi> Hg. von Helmut W. Klug unter Mitarbeit von Selina Galka und Elisabeth Steiner im HRSM Projekt "Kompetenznetzwerk Digitale Edition". 
+                        <ref target="https://hdl.handle.net/11471/562.50">
+                            <hi rend="color(1155CC)">https://hdl.handle.net/11471/562.50</hi>
+                        </ref> (zugegriffen am 14. Dezember 2022).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Zotero Bibliografie Kompetenznetzwerk Digitale Edition.</hi> 
+                        <ref target="https://www.zotero.org/groups/konde">
+                            <hi rend="color(1155CC)">https://www.zotero.org/groups/konde</hi>
+                        </ref> (zugegriffen am 14. Dezember 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

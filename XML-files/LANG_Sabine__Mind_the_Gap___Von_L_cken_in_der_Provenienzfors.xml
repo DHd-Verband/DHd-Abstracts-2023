@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="LANG_Sabine__Mind_the_Gap___Von_L_cken_in_der_Provenienzfors" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"Mind the Gap": Von Lücken in der Provenienzforschung und ihrer Präsenz im digitalen Raum</title>
+                <author>
+                    <persName>
+                        <surname>Lang</surname>
+                        <forename>Sabine</forename>
+                    </persName>
+                    <affiliation>Friedrich-Alexander-Universität Erlangen-Nürnberg, Deutschland</affiliation>
+                    <email>sab.lang@fau.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Provenienzforschung</term>
+                    <term>Provenienzangaben</term>
+                    <term>Datenstandards</term>
+                    <term>Online-Sammlungen</term>
+                    <term>Visualisierung</term>
+                    <term>Lücken</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bewertung</term>
+                    <term>Visualisierung</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                    <term>Forschung</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ein Plädoyer für mehr Offenheit </head>
+                <p>Das Tagungsmotto 
+                    <hi rend="italic">Offenheit</hi> hat für die Provenienzforschung<ref n="1" target="ftn1"/> eine große Relevanz und bezieht sich unter anderem auf den offenen Umgang mit Lücken in Provenienzangaben, die z.B. auf eine:n unbekannte:n Besitzer:in hinweisen. Damit Angaben den bekannten Informationsstand widerspiegeln und korrekt bewertet werden, müssen Lücken deutlich gekennzeichnet sein – auch im digitalen Raum. Aufgrund dieser gesteigerten Bedeutung widmet sich der Vortrag der Lücke
+                    <hi rend="italic">:</hi> Wie werden Provenienzlücken<ref n="2" target="ftn2"/> im digitalen Raum abgebildet und welche weiteren provenienzbezogenen Lücken lassen sich identifizieren? Warum müssen Lücken vor allem im Digitalen thematisiert und gekennzeichnet werden? Dazu werden verschiedene museale Online-Kataloge untersucht, wobei die Provenienzangaben auf Basis des 
+                    <hi rend="italic">Leitfadens zur Standardisierung von Provenienzangaben</hi> (fortan:
+                    <hi rend="italic" xml:space="preserve"> Leitfaden Standardisierung)</hi>, herausgegeben vom 
+                    <hi rend="italic">Arbeitskreis Provenienzforschung e.V.</hi>, bewertet werden. 
+                </p>
+                <p>Die Auswahl der Kataloge erfolgte anhand folgender Kriterien: eine umfassende und gut aufbereitete Online-Sammlung, (sichtbare) Provenienzforschung am Museum, Beispiele aus verschiedenen deutschen Bundesländern.<ref n="3" target="ftn3"/> Die ausgewählten Werke zeigen eine Bandbreite, wie Lücken in Provenienzketten abgebildet werden, und stammen von Künstler:innen, die häufig Gegenstand der Provenienzforschung sind. Die Bewertung der Objekteinträge erfolgte anhand folgender Fragestellungen: Sind Provenienzinformationen vorhanden? Folgen sie dem im 
+                    <hi rend="italic">Leitfaden Standardisierung</hi> veröffentlichten Standard? Wurden Lücken explizit gekennzeichnet? Sind sie verständlich? Spiegelt der Objekteintrag den Informationsstand wider und verlinkt auf interne und externe Quellen?<ref n="4" target="ftn4"/>
+                </p>
+                <p>Lücken sind ein Bestandteil vieler Wissenschaften: Im Kontext von Archiven und Sammlungen beschäftigen sich Forschende intensiv mit Lücken (Farrenkopf et al. 2021); in der Kunstgeschichte wird das fragmentarische Objekt thematisiert (Schädler-Saub/Weyer 2021) und gefragt, wie man über Objekte schreibt, die abwesend sind (Fricke/Kumler 2022). In der Provenienzforschung wird auch der Umgang mit und die Bewertung von (Informations-)Lücken im Rahmen von Provenienzrecherchen diskutiert (Geldmacher/Kulbe 2022). Die Aufgabe der Vermittlung von Forschungsergebnissen und Provenienzen – auch im digitalen Raum – wird zudem einschlägig besprochen (Türnich 2019). Hierbei findet auch eine Beschäftigung mit musealen Webseiten, im Besonderen mit Online-Sammlungen, und der Darstellung von Provenienzangaben statt (Haffner 2020; Haffner 2019).<ref n="5" target="ftn5"/> Grundsätzlich ist die digitale Erfassung und online Veröffentlichung von musealen oder universitären Beständen ein wichtiger Forschungsgegenstand, der zudem Fragen nach Zugang und Verhältnis von Original und Digitalisat miteinbezieht (Andraschke/Wagner 2020). Vorhandene Forschungsbeiträge liefern eine wichtige Grundlage für den vorliegenden Beitrag. Eine dezidierte Auseinandersetzung mit Lücken in Online-Katalogen und ihrer Problematik im Digitalen erfolgte bisher aber nicht in ausreichendem Maß. Derzeit widmen sich zudem mehrere Initiativen historischen Forschungsdatenstandards (z.B. 
+                    <hi rend="italic">NFDI4Memory</hi>). Damit Lücken in diese Überlegungen mit einbezogen werden, muss eine Auseinandersetzung zu diesem Zeitpunkt stattfinden. Indem der Beitrag Defizite aufzeigt, sollen Bestrebungen hinsichtlich der Entwicklung und Etablierung notwendiger Standards für Provenienzangaben unterstützt werden
+                    <hi style="font-family:Helvetica" xml:space="preserve">. Schließlich fordert der Beitrag zu einer Zusammenarbeit der mit Daten arbeitenden Akteur:innen auf. Der im Oktober 2020 gegründete Verein </hi>
+                    <hi rend="italic" style="font-family:Helvetica" xml:space="preserve">Nationale Forschungsdateninfrastruktur (NFDI e.V.) </hi>
+                    <hi style="font-family:Helvetica">und die darin agierenden themenübergreifenden Konsortien könnten die dafür notwendigen Plattformen bieten (NFDI).</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Visualisierung von Lücken</head>
+                <p>Der 
+                    <hi rend="italic">Leitfaden Standardisierung</hi> bietet Richtlinien für die Erstellung von Provenienzangaben, einschließlich Lücken (vgl. Abb. 1).<ref n="6" target="ftn6"/> Demnach sollen unbekannte Besitzstationen entweder mit 
+                    <hi rend="italic">[…]</hi> oder dem Hinweis 
+                    <hi rend="italic">Verbleib unbekannt</hi> gekennzeichnet werden. Hingegen sind einzelne unbekannte Informationen innerhalb einer Besitzstation wie Zeitraum oder Besitzer:in folgendermaßen zu kennzeichnen: Die Abkürzungen 
+                    <hi rend="italic">o.D.</hi> (= ohne Datum) oder 
+                    <hi rend="italic" xml:space="preserve">o.J. </hi>(= ohne Jahr) markieren eine unbekannte Zeitangabe, 
+                    <hi rend="italic">unbekannter Besitzer/Käufer</hi> entsprechend einen unbekannte:n Besitzer:in (Arbeitskreis Provenienzforschung 2018, 11-12, 15-18).<ref n="7" target="ftn7"/> Wurden diese Empfehlungen von Museen umgesetzt?
+                </p>
+                <p>
+                <figure>
+                    <graphic n="1001" width="8.335975cm" height="5.714438888888889cm" url="Pictures/e8a76b45b461c97f0305135ee9bb7875.png" rend="inline"/>
+                    <lb/><head>Abb. 1: Screenshot der Provenienzangabe für Lyonel Feiningers 
+                    <hi rend="italic">Kirche von Niedergrunstedt</hi> (1919) (Arbeitskreis Provenienzforschung 2018, 29).</head>
+                </figure>
+                </p>
+                <p>Der Online-Objektkatalog des 
+                    <hi rend="italic">Germanischen Nationalmuseums (GNM)</hi> in Nürnberg umfasst derzeit über 168,000 Einträge (GNM a). Eine erste Durchsicht zeigt, dass der Katalog keine Provenienzangaben für die Objekte bereithält – eine erste signifikante Informationslücke. Ein:e interessierte:r Nutzer:in mag bald auf die Seite des Provenienzforschungsprojekts stoßen, das rund 1,300 Objekte umfasst (GNM b). Die Rechercheergebnisse werden allerdings nicht im Objektkatalog, sondern in einer dazu separaten Datenbank präsentiert, wo für jedes Objekt ein Eintrag mit umfassenden Provenienzinformationen einschließlich Abbildungen angelegt wurde (GNM c). Abb. 2 zeigt beispielhaft die Provenienzangabe für 
+                    <hi rend="italic">Die Muttergottes mit der Meerkatze</hi> (spätes 16. Jhr.) eines Augsburger Dürernachahmers (GNM d). Erkennbar ist, dass das Museum weitestgehend den Empfehlungen des 
+                    <hi rend="italic" xml:space="preserve">Leitfadens Standardisierung </hi>folgt und unbekannte Elemente mit 
+                    <hi rend="italic">Unbekannte(r) Vorbesitzer</hi> (anstatt 
+                    <hi rend="italic">Unbekannter Besitzer</hi>) und fehlende Besitzstationen mit 
+                    <hi rend="italic">Verbleib unbekannt</hi> kennzeichnet (Arbeitskreis Provenienzforschung 2018, 15,18). Das 
+                    <hi rend="italic">Städel Museum</hi> in Frankfurt visualisiert letzteres mit 
+                    <hi rend="italic">…</hi> und weicht dadurch etwas von den im 
+                    <hi rend="italic">Leitfaden Standardisierung</hi> alternativ vorgeschlagenen Auslassungspunkten in eckigen Klammern ab (Arbeitskreis Provenienzforschung 2018, 15): Der Eintrag für Max Liebermanns (1847-1935) 
+                    <hi rend="italic">Freistunde im Amsterdamer Waisenhaus</hi> (1881-1882) zeigt dies exemplarisch (vgl. Abb. 3) (Städel Museum). Der Eintrag für 
+                    <hi rend="italic" xml:space="preserve">Die Muttergottes </hi>enthält zudem einen Link zur entsprechenden Seite im Objektkatalog (GNM d). Dort findet man keine Provenienzangaben und auch ein Link zur Seite in der Datenbank des Provenienzforschungsprojekts fehlt. Obwohl umfassende Informationen zur Herkunft bekannt sind, zeigt der Objektkatalog eine erhebliche Informationslücke (GNM f).
+                </p>
+                <figure>
+                    <graphic n="1002" width="9.0148cm" height="5.751511111111111cm" url="Pictures/f50677bd30da740facb03f0c339f103d.png" rend="inline"/>
+                    <head><p>Abb. 2: Screenshot der Provenienzangabe für 
+                    <hi rend="italic">Die Muttergottes mit der Meerkatze</hi> (spätes 16. Jhr.), Augsburger Dürernachahmer (GNM b; GNM d).
+                </p></head>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="7.6540944444444445cm" height="4.933144444444444cm" url="Pictures/e85bf2c3a9f527c63d5ee9fe4818ee2b.png" rend="inline"/>
+                    <head><p>Abb. 3: Screenshot der Provenienzangabe für Max Liebermanns 
+                    <hi rend="italic" xml:space="preserve">Freistunde im Amsterdamer Waisenhaus </hi>(1881-1882) (Städel Museum).
+                </p></head>
+                </figure>
+                <p>Die Sammlung Online des 
+                    <hi rend="italic">Sprengel Museums</hi> in Hannover hält mehr als 19,000 Einträge bereit, darunter auch Max Beckmanns (1884-1950) 
+                    <hi rend="italic">Stilleben [sic.] mit schiefer Schnapsflasche und Buddha</hi> (1939) (Sprengel Museum). Im Vergleich zu anderen Beispielen ist die Provenienzangabe für Beckmanns Stillleben sehr unübersichtlich und schwer verständlich (vgl. Abb. 4). Auffällig ist die Abwesenheit von Lücken; ob für das Werk tatsächlich eine vollständige Biografie vorliegt oder ob fehlende Informationen nur nicht abgebildet werden, ist schwer zu sagen. Sowohl Format als auch bereitgestellte Informationen entsprechen allerdings nicht dem Standard, der im 
+                    <hi rend="italic">Leitfaden Standardisierung</hi> vorgeschlagen wird (vgl. Abb. 1). 
+                </p>
+                <p>Weitaus transparenter ist das 
+                    <hi rend="italic">Museum Folkwang</hi> in Essen, das neben genauen Angaben zur Provenienz einzelner Objekte auch Lücken deutlich kennzeichnet (Haffner 2019, 93). Die Sammlung Online hält aktuell über 93,000 Werke bereit, darunter auch Lyonel Feiningers (1871-1956) 
+                    <hi rend="italic">Leuchtbarke I</hi> (um 1913) (Museum Folkwang a; Museum Folkwang b). Abb. 5 zeigt die Provenienzangabe für das Ölgemälde, deutlich erkennbar sind Lücken vor 1930 und zwischen 1930 und 1951, visualisiert durch einen Platzhalter in Form von eckigen Klammern und Auslassungspunkten. Die Darstellung weicht damit auch von den Empfehlungen des 
+                    <hi rend="italic">Leitfadens Standardisierung</hi> ab. Hierin werden die beschriebenen Platzhalter für unbekannte Besitzstationen und die Abkürzungen 
+                    <hi rend="italic">o.D.</hi> oder 
+                    <hi rend="italic">o.J.</hi> (anstatt 
+                    <hi rend="italic">[…]–[…]</hi> und 
+                    <hi rend="italic">[…]–04.1951</hi>) für unbekannte Zeitangaben vorgeschlagen (Arbeitskreis Provenienzforschung 2018, 15-17). Es sei zudem auf die zusätzlichen Vermerke und das Ampelsymbol hingewiesen.<ref n="8" target="ftn8"/>
+                </p>
+                <figure>
+                    <graphic n="1004" width="7.653513888888889cm" height="4.708361111111111cm" url="Pictures/9d64cd69fd8bbb81f13efda91695f855.png" rend="inline"/>
+                    <head><p>Abb. 4: Screenshot der Provenienzangabe für Max Beckmanns 
+                    <hi rend="italic">Stilleben [sic.] mit schiefer Schnapsflasche und Buddha</hi> (1939) (Sprengel Museum).
+                </p></head>
+                </figure>
+                <figure>
+                    <graphic n="1005" width="8.676913888888889cm" height="5.092144444444444cm" url="Pictures/a69096e16919f2ad80d0333d39cff2ff.png" rend="inline"/>
+                    <head><p>Abb. 5: Screenshot der Provenienzangabe für Lyonel Feiningers 
+                    <hi rend="italic">Leuchtbarke I</hi> (um 1913) (Museum Folkwang).
+                </p></head>
+                </figure>
+                <p>Seit September 2022 enthält die Online-Sammlung der 
+                    <hi rend="italic">Bayerischen Staatsgemäldesammlungen (BStGS)</hi> ausführliche Provenienzinformationen für über 1,200 Werke, weitere Einstellungen sollen folgen (BStGS a; BStGS b). Davor waren die Angaben zur Herkunft der Werke nur sehr rudimentär. Am Beispiel des Gemäldes 
+                    <hi rend="italic" xml:space="preserve">Die Falknerin </hi>(um 1880) von Hans Makart (1840-1884) wird dies deutlich. Abb. 6 zeigt den Eintrag in der Online-Sammlung vor der Aktualisierung: Er enthält eine Beschreibung des Werkes und weitere Objektinformationen. Ein Provenienzfeld fehlt, einzig ein Herkunftsvermerk informiert, dass das Werk „1962 als Überweisung aus Staatsbesitz erworben [wurde].“ Dass tatsächlich sehr viel mehr über die Provenienz des Werkes bekannt ist, war nicht ersichtlich. Darüber erfuhr man zum Beispiel in der 
+                    <hi rend="italic">Lost Art</hi><ref n="9" target="ftn9"/> Datenbank, in welcher das Gemälde seit 2007 als Fundmeldung gelistet ist (vgl. Abb. 7) (Lost Art b). Diese Information sowie ein Link zu 
+                    <hi rend="italic">Lost Art</hi> fehlte in der Online-Sammlung der 
+                    <hi rend="italic">BStGS</hi>. Der neue Eintrag zeigt diese Lücken nicht mehr: Nutzer:innen finden nun umfangreiche Provenienzinformationen und einen Link zu 
+                    <hi rend="italic">Lost Art</hi> (vgl. Abb. 8 und 9) (BStGS c). Entsprechend der im Leitfaden formulierten Standards werden unbekannte Zeitangaben mit 
+                    <hi rend="italic">o.D.</hi> gekennzeichnet (Arbeitskreis Provenienzforschung 2018, 16-17). Problematisch ist, dass obwohl einige Übergänge als unsicher einzustufen sind, mögliche Lücken zwischen den Besitzstationen nicht explizit sichtbar sind.
+                </p>
+                <figure>
+                    <graphic n="1006" width="9.512213888888889cm" height="5.242622222222222cm" url="Pictures/0cd5589a063d09c285eba247daceccca.png" rend="inline"/>
+                    <head><p>Abb. 6: Screenshot des Eintrags für Hans Makarts 
+                    <hi rend="italic">Die Falknerin</hi> (um 1880). Alte Version. Online nicht mehr verfügbar. Vgl. (BStGS c).
+                </p></head>
+                </figure>
+                <figure>
+                    <graphic n="1007" width="9.580402777777778cm" height="3.1195444444444442cm" url="Pictures/57b0d3cbfe08913e4e32f307c420cc7f.png" rend="inline"/>
+                    <head><p>Abb. 7: Screenshot der Provenienz für Hans Makarts 
+                    <hi rend="italic">Die Falknerin</hi> in 
+                    <hi rend="italic" xml:space="preserve">Lost Art </hi>(Lost Art b).
+                </p></head>
+                </figure>
+                <p>Die Beispiele zeigen, dass deutsche Museen teilweise Provenienzangaben zu den Objekten bereitstellen (Haffner 2019, 93), Umfang und Darstellungsform aber stark variieren, letzteres spiegelt sich auch in der Kennzeichnung von Lücken wider. Mögliche Gründe sind die Heterogenität der Sammlungen oder technische Limitationen der Museumsmanagement-Systeme. Diese sind für eine allgemeine Bestandsinventarisierung ausgelegt und nicht für die umfassende und strukturierte Erfassung von Provenienzangaben (Haffner 2019, 95-96). Auch rechtliche Restriktionen und eine allgemeine Besorgnis der Museen sind weitere mögliche Gründe (Haffner 2020, 38). Viele Museen verwenden noch Freitextfelder für Provenienzangaben, was zwar die Eingabe von unsicheren oder fehlenden Infos vereinfacht, aber eine Maschinenlesbarkeit erschwert. Letzteres wird im Moment z.B. durch das 
+                    <hi rend="italic">Provenance Lab</hi> an der Leuphana Universität durch die computergestützte Produktion von 
+                    <hi rend="italic">Provenance Linked Open Data</hi> adressiert, wobei u.a. die Dokumentation von Unvollständigkeit berücksichtigt wird (Libeskind 2022, 23-25). Auch die Entwicklung von Normdaten für die Provenienzforschung ist in diesem Zusammenhang zu nennen: Ein Projekt innerhalb des Konsortiums 
+                    <hi rend="italic">NFDI4Objects</hi> soll sich der Erstellung von provenienzbezogenen Personen-Normdaten (NFDI4Objects) widmen. Dies lässt hoffen, dass die Etablierung eines Standards für Provenienzen in Online-Sammlungen in nicht allzu ferner Zukunft liegt. Standards würden nicht nur zur Sichtbarkeit von Lücken beitragen, sondern auch eine maschinelle Verarbeitung und Verknüpfung der Datensätze ermöglichen und damit auch neue Forschungsfragen generieren, z.B. ob es Muster hinsichtlich der Provenienzlücken gibt.
+                </p>
+                <p>Die angeführten Beispiele haben weitere provenienzbezogene Lücken aufgezeigt, die über die Provenienzangaben selbst hinausgehen: Zum einen gibt es eine Diskrepanz zwischen den Angaben in den Objekteinträgen und den tatsächlich bekannten Provenienzinformationen, die oft auf separaten Seiten abgelegt sind. Auch einfache Verknüpfungen der Seiten fehlen in den digitalen Sammlungen der Museen. Bei der Analyse verschiedener musealer Online-Kataloge wurde zudem sichtbar, dass in der englischen Version die Provenienzangaben oder Teile der Objektinformationen weiterhin auf Deutsch erscheinen.<ref n="10" target="ftn10"/> Die Datenbank des Provenienzforschungsprojekts am 
+                    <hi rend="italic">GNM</hi> fehlt in der englischen Version sogar völlig (GNM e). Dies ist für internationale Provenienzforschende und die ursprünglichen Eigentümer:innen der Werke und deren Nachkommen äußerst problematisch, da sie oftmals kein Deutsch sprechen. 
+                </p>
+                <figure>
+                    <graphic n="1008" width="8.608725cm" height="6.840861111111111cm" url="Pictures/9d745c356f6637be1e01749f028bc9f6.jpg" rend="inline"/>
+                    <head><p>Abb. 8: Screenshot des Eintrags für Hans Makarts 
+                    <hi rend="italic">Die Falknerin</hi> (um 1880). Aktualisierte Version (BStGS c).
+                </p></head>
+                </figure>
+                
+                <figure>
+                    <graphic n="1009" width="8.563122222222223cm" height="8.871777777777778cm" url="Pictures/dbc8f28a6970336ea12a1e24e208df71.jpg" rend="inline"/>
+                    <head><p>Abb. 9: Screenshot der Provenienz für Hans Makarts 
+                    <hi rend="italic">Die Falknerin</hi> (um 1880), Auszug. Aktualisierte Version (BStGS c). 
+                </p></head>
+                </figure>
+                
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schlussbemerkung: “Mind the Gap
+                    <hi rend="footnote_reference">“</hi>
+                </head>
+                <p>Warum müssen Lücken vor allem im Kontext des Digitalen besprochen und gekennzeichnet werden? Die Auseinandersetzung mit Lücken ist auch im Analogen unerlässlich, da es auch hier zu Fehlinterpretationen kommen kann. Im digitalen Raum scheint dieser Anspruch und die damit verbundene Sichtbarmachung von Lücken aber noch gesteigert: Aufgrund der Informationsmenge kann der Eindruck von Vollständigkeit geweckt werden. Etwaige Lücken können einfach durch Verknüpfungen mit externen Datensätzen geschlossen werden. Die konstante Datenproduktion erzeugt zudem eine hohe Dynamik und betont den Aspekt der Flüchtigkeit im digitalen Raum: Vorhandene Bild- oder Textdaten werden ständig durch neue oder ergänzende Daten überlagert; bestehende Lücken werden damit verwischt oder treten erst gar nicht in Erscheinung. Nutzende können zudem schnell zwischen einzelnen Seiten wechseln, was die Gefahr birgt, dass Inhalte nur selektiv wahrgenommen und Lücken deshalb schlichtweg übersehen werden. Aufgrund der Menge an Daten und der Flüchtigkeit des digitalen Raumes gilt “
+                    <hi rend="italic">Mind the Gap“</hi><ref n="11" target="ftn11"/>. 
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Provenienzforschung will die Herkunft und Besitzverhältnisse von Objekten klären und prüft, unter welchen Bedingungen ein Besitzwechsel stattgefunden hat. Sie überprüft unter anderem NS-verfolgungsbedingt entzogenes Kulturgut, Kulturgutentziehungen in Sowjetischer Besatzungszone (SBZ) und DDR oder Sammlungsgut aus kolonialen Kontexten (Haase/Hopp 2022, 6; Deutsches Zentrum Kulturgutverluste et al. 2019, 6). 
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Der Begriff 
+                            <hi rend="italic">Provenienz</hi> bezieht sich hier auf die Herkunft des realen Objekts. Im Kontext des digitalen Raumes kann er sich auch auf die Provenienz digitaler Daten beziehen, die z.B. Informationen über den Ersteller:in der Datei und weitere Nutzer:innen bereithält.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                         Aus Platzgründen konnten einige wichtige Museen wie die Staatlichen Kunstsammlungen Dresden nicht berücksichtigt werden. 
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                         Obwohl eine stichprobenartige Analyse keine Evidenz generiert, kann sie Tendenzen sichtbar machen und aufzeigen, dass fehlende Standards für die Darstellung von Provenienzlücken und andere digitale Lücken problematisch für die “richtige“ Bewertung der Objekte sind.
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                        
+                            <hi rend="Footnote_Characters">Die Provenienzforschung beschäftigt sich zudem mit den Möglichkeiten des Digitalen und insbesondere mit digitalen Methoden (Fuhrmeister/Hopp 2019) und benennt konkrete Tendenzen, Desiderate und Bedürfnisse (Hopp 2018). Eine gesteigerte Auseinandersetzung mit digitalen Möglichkeiten zeigt sich unter anderem in der Zeitschrift 
+                                <hi rend="italic">Archivar</hi> mit dem Themenschwerpunkt Provenienzforschung (Landesarchiv Nordrhein-Westfalen 2022) und dem der Digitalen Provenienzforschung gewidmeten Heft 
+                                <hi rend="italic" xml:space="preserve">Provenienz &amp; Forschung </hi>(Deutsches Zentrum Kulturgutverluste 2020).
+                            </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                         Für die Erfassung und Publikation von Provenienzen siehe auch das 
+                            <hi rend="Footnote_Characters">
+                                <hi rend="italic" xml:space="preserve">LIDO-Handbuch </hi>(Knaus et al. 2022).
+                            </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                        
+                            <hi rend="Footnote_Characters">Für einen vollständigen Überblick über die Kennzeichnung von Lücken in Provenienzangaben vgl. (Arbeitskreis Provenienzforschung 2018, 15-27).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn8" n="8">
+                         Für eine ausführliche Erklärung des Ampelsymbols vgl. (
+                            <hi rend="Footnote_Characters">Deutsches Zentrum Kulturgutverluste et al. 2019, 35, 89-90).</hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn9" n="9">
+                        
+                            <hi rend="Footnote_Characters">Die 
+                                <hi rend="italic">Lost Art</hi> Datenbank beinhaltet Such- und Fundmeldungen zu Kulturgütern, die im Zuge des Nationalsozialismus oder Zweiten Weltkriegs verlagert oder ihren Eigentümer:innen entzogen wurden (Lost Art a).
+                            </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn10" n="10">
+                         Beispielhaft sind 
+                            <hi rend="Footnote_Characters">die 
+                                <hi rend="italic">BStGS</hi> oder das 
+                                <hi rend="italic">Städel Museum</hi> (BStGS c; Städel Museum).
+                            </hi>
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn11" n="11">
+                         Der Titel wurde 
+                            <hi rend="Footnote_Characters">in Anlehnung an die Online-Ausstellung 
+                                <hi rend="italic">Mind</hi>
+                                <hi rend="italic">the</hi>
+                                <hi rend="italic">gap</hi>
+                                <hi rend="italic">. Von geraubten Büchern, fairen Lösungen … und Lücken</hi> der 
+                                <hi rend="italic">Sächsischen Landesbibliothek – Staats-und Universitätsbibliothek Dresden</hi>
+                                <hi rend="italic" xml:space="preserve"> (SLUB) </hi>gewählt, vgl. (SLUB).
+                            </hi>
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Andraschke, Udo und Sarah Wagner, Hg.</hi> 2020. Objekte im Netz. Wissenschaftliche Sammlungen im digitalen Wandel. Bielefeld: transcript Verlag. DOI: 10.14361/9783839455715. </bibl>
+                    <bibl><hi rend="bold">Arbeitskreis Provenienzforschung e.V., Hg.</hi> 2018. 
+                        <hi rend="italic">Leitfaden zur Standardisierung von Provenienzangaben</hi>. Erarbeitet von Claudia Andratschke, Jasmin Hartmann, Johanna Poltermann, Birgitte Reuter, Iris Schmeisser, Wolfang Schöddert. Hamburg. https://wissenschaftliche-sammlungen.de/files/4515/2585/6130/Leitfaden_APFeV_online.pdf (zugegriffen: 26. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">BStGS a,</hi> Bayerische Staatsgemäldesammlungen, München, Provenienzforschung, https://www.pinakothek.de/forschung/provenienzforschung (zugegriffen: 20. November 2022).</bibl>
+                    <bibl><hi rend="bold">BStGS b,</hi> Bayerische Staatsgemäldesammlungen, München, Provenienzforschung, Objektkatalog, https://www.sammlung.pinakothek.de/de/provenience-online (zugegriffen: 20. November 2022). </bibl>
+                    <bibl><hi rend="bold">BStGS c,</hi> Bayerische Staatsgemäldesammlungen, München, Online-Sammlung, Objekt, http://www.sammlung.pinakothek.de/de/artwork/jpxegrVGJ7 (zugegriffen: 24. November 2022). </bibl>
+                    <bibl><hi rend="bold">Deutsches Zentrum Kulturgutverluste, Hg. 2020.</hi> 
+                        <hi rend="italic" xml:space="preserve">Provenienz &amp; Forschung. Digitale Provenienzforschung. </hi>Dresden: Sandstein Verlag. https://www.sandstein.de/verlag/provenienz_1-2020.php (zugegriffen: 28. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Deutsches Zentrum Kulturgutverluste et al., Hg.</hi> 2019. 
+                        <hi rend="italic">Leitfaden Provenienzforschung</hi>. Berlin: Königsdruck Printmedien und digitale Dienste GmbH. https://www.kulturgutverluste.de/Content/03_Recherche/DE/Leitfaden-Download.pdf (zugegriffen: 23. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Farrenkopf, Michael, Andreas Ludwig und Achim Saupe, Hg.</hi> 2021. 
+                        <hi rend="italic">Logik und Lücke: Die Konstruktion des Authentischen in Archiven und Sammlungen (Wert der Vergangenheit).</hi> Göttingen: Wallstein Verlag. 
+                    </bibl>
+                    <bibl><hi rend="bold">Fricke, Beate und Aden Kumler, Hg.</hi> 2022. 
+                        <hi rend="italic">Destroyed - Disappeared - Lost - Never Were.</hi> University Park: Pennsylvania: Penn State University Press. 
+                    </bibl>
+                    <bibl><hi rend="bold">Fuhrmeister, Christian und Meike Hopp.</hi> 2019. “Rethinking Provenance Research.“ 
+                        <hi rend="italic">Getty Research Journal</hi> 11: 213-231. https://doi.org/10.1086/702755 (zugegriffen: 13. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Geldmacher, Elisabeth und Nadine Kulbe. </hi>2022. “Unvermeidbar! Über Lücken in der NS-Raubgut-Forschung und Möglichkeiten, mit ihnen umzugehen.“ 
+                        <hi rend="italic" xml:space="preserve">Archivar </hi>1: 31-34. https://www.archive.nrw.de/sites/default/files/media/files/Archivar_2022-1_Internet-NEU-28032022_Mod.pdf (zugegriffen: 23. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">GNM a, Germanisches Nationalmuseum,</hi> Nürnberg, Objektkatalog, https://objektkatalog.gnm.de (zugegriffen: 28. November 2022). </bibl>
+                    <bibl><hi rend="bold">GNM b, Germanisches Nationalmuseum,</hi> Nürnberg, Provenienzforschungsprojekt, https://provenienz.gnm.de (zugegriffen: 26. November 2022). </bibl>
+                    <bibl><hi rend="bold">GNM c, Germanisches Nationalmuseum,</hi> Nürnberg, Provenienzforschungsprojekt, Objektkatalog, https://provenienz.gnm.de/wisski_views/b661085ac1552c83ff3c2b8c56b693fc (zugegriffen: 26. November 2022). </bibl>
+                    <bibl><hi rend="bold">GNM d, Germanisches Nationalmuseum,</hi> Nürnberg, Provenienzforschungsprojekt, Objektkatalog, Objekt: Gm1625, https://provenienz.gnm.de/objekt/Gm1625 (zugegriffen: 26. November 2022). </bibl>
+                    <bibl><hi rend="bold">GNM e, Germanisches Nationalmuseum, </hi>Nürnberg, englische Version, https://www.gnm.de/your-museum-in-nuremberg/museum/ (zugegriffen: 26. November 2022).</bibl>
+                    <bibl><hi rend="bold">GNM f, Germanisches Nationalmuseum,</hi> Nürnberg, Objektkatalog, Objekt: Gm1625, http://objektkatalog.gnm.de/objekt/Gm1625 (zugegriffen: 28. November 2022).</bibl>
+                    <bibl><hi rend="bold">Haase, Sven und Maike Hopp.</hi> 2022. “Einführung in den Themenschwerpunkt.“ 
+                        <hi rend="italic" xml:space="preserve">Archivar </hi>1: 6-10. https://www.archive.nrw.de/sites/default/files/media/files/Archivar_2022-1_Internet-NEU-28032022_Mod.pdf (zugegriffen: 23. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Haffner, Dorothee.</hi> 2020. “Provenienzen in Sammlungsdatenbanken. Digitale und virtuelle Chancen für die Vermittlung.“ In 
+                        <hi rend="italic" xml:space="preserve">Provenienz &amp; Forschung. Digitale Provenienzforschung, </hi>hg. vom Deutschen Zentrum Kulturgutverluste, 36-42. Dresden: Sandstein Verlag. 
+                    </bibl>
+                    <bibl><hi rend="bold">Haffner, Dorothee.</hi> 2019. ”Provenienzforschung digital vernetzt. Ergebnisse sichtbar machen.“ 
+                        <hi rend="italic">Museumskunde</hi> 84: 90-97. https://www.museumsbund.de/wp-content/uploads/2022/07/museumskunde-2019-1-online.pdf (zugegriffen: 12. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Hopp, Meike. </hi>2018. “Provenienzrecherche und digitale Forschungsinfrastrukturen in Deutschland: Tendenzen, Desiderate, Bedürfnisse.“ In
+                        <hi rend="italic" xml:space="preserve"> …(k)ein Ende in Sicht. 20 Jahre Kunstrückgabegesetz in Österreich, Schriftenreihe der Kommission für Provenienzforschung Band 8, </hi>hg. von Eva Blimlinger und Heinz Schödl, 35-59. Wien, Köln: Böhlau Verlag. https://doi.org/10.7767/9783205201274.37 (zugegriffen: 12. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Knaus, Gudrun, Regine Stein und Angela Kailus.</hi> 2022. 
+                        <hi rend="italic">LIDO-Handbuch für die Erfassung und Publikation von Metadaten zu kulturellen Objekten: Band 2: Malerei und Skulptur</hi>, hg. vom Deutschen Dokumentationszentrum für Kunstgeschichte – Bildarchiv Foto Marburg und Christian Bracht. Heidelberg: arthistoricum.net. https://doi.org/10.11588/arthistoricum.1026 (zugegriffen: 26. Juli 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Landesarchiv Nordrhein-Westfalen und Verband deutscher Archivarinnen und Archivare e.V., Hg.</hi> 2022. 
+                        <hi rend="italic">Archivar</hi>, 
+                        <hi rend="italic">Provenienzforschung</hi>. Siegburg: Verlag Franz Schmitt. https://www.archive.nrw.de/sites/default/files/media/files/Archivar_2022-1_Internet-NEU-28032022_Mod.pdf (zugegriffen: 28. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Libeskind, Daniel.</hi> 2022. “A New Approach to Provenance: The ‘Provenance Studies’ Program at Leuphana University Lüneburg.” 
+                        <hi rend="italic" xml:space="preserve">Newsletter of the Network European Restitution Committees on Nazi-looted Art </hi>13: 23-25. https://www.restitutiecommissie.nl/wp-content/uploads/2022/05/Network-Newsletter-no.13-May2022.pdf (zugegriffen: 19. November 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Lost Art a,</hi> Startseite, https://www.lostart.de/de/start (zugegriffen: 26. November 2022). </bibl>
+                    <bibl><hi rend="bold">Lost Art b,</hi> Fundmeldung, Einzelobjekt, 
+                        <hi rend="Footnote_Characters">https://www.lostart.de/de/Fund/391081 (zugegriffen: 26. November 2022)</hi>. 
+                    </bibl>
+                    <bibl><hi rend="bold">Museum Folkwang a,</hi> Essen, Sammlung Online, https://www.museum-folkwang.de/de/sammlung-online (zugegriffen: 28. November 2022). </bibl>
+                    <bibl><hi rend="bold">Museum Folkwang b,</hi> Sammlung Online, Objekt, http://sammlung-online.museum-folkwang.de/eMP/eMuseumPlus?service=ExternalInterface&amp;module=collection&amp;objectId=3278&amp;viewType=detailView (zugegriffen: 26. November 2022). </bibl>
+                    <bibl><hi rend="bold">NFDI, Verein,</hi> https://www.nfdi.de/verein/#historie (zugegriffen: 28. November 2022). </bibl>
+                    <bibl><hi rend="bold">NFDI4Objects,</hi> TRAILS, https://www.nfdi4objects.net/index.php/arbeitsprogramm/trails (zugegriffen: 24. November 2022).</bibl>
+                    <bibl><hi rend="bold">Schädler-Saub, Ursula und Angela Weyer.</hi> 2021. 
+                        <hi rend="italic">Das Fragment im digitalen Zeitalter: Möglichkeiten und Grenzen neuer Techniken on der Restaurierung.</hi> Berlin: Hendrik Bäßler Verlag.
+                    </bibl>
+                    <bibl><hi rend="bold">SLUB, Sächsische Landesbibliothek – Staats-und Universitätsbibliothek Dresden,</hi> Online-Ausstellung, 
+                        <hi rend="italic">Mind the gap. Von geraubten Büchern, fairen Lösungen … und Lücken</hi>, https://ausstellungen.deutsche-digitale-bibliothek.de/mind-the-gap/ (zugegriffen: 26. November 2022). 
+                    </bibl>
+                    <bibl><hi rend="bold">Sprengel Museum,</hi> Hannover, Sammlung online, Objekt ID: 2328, https://sprengel.hannover-stadt.de/home (zugegriffen: 26. November 2022). </bibl>
+                    <bibl>Städel Museum, Frankfurt, Digitale Sammlung, Objekt
+                        <lb/>https://www.staedelmuseum.de/go/ds/1351 (zugegriffen: 28. November 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Türnich, Ruth.</hi> 2019. “Provenienzforschung weiterdenken. Vermittlung von Provenienzrecherchen und Forschungsergebnissen.“ In 
+                        <hi rend="italic">rhein-form. Information für die rheinischen Museen 2</hi>, hg. vom LVR-Dezernat Kultur und Landschaftliche Kulturpflege, 19-25. Köln: LVR-Druckerei. https://rheinform.lvr.de/media/medienrheinform/archiv/rheinform_2-2019.pdf (zugegriffen: 14. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Washingtoner Prinzipien.</hi> 1998. “Grundsätze der Washingtoner Konferenz in Bezug auf Kunstwerke, die von den Nationalsozialisten beschlagnahmt wurden (Washingtoner Principles).“ https://www.kulturgutverluste.de/Webs/DE/Stiftung/Grundlagen/Washingtoner-Prinzipien/Index.html (zugegriffen: 10. Juli 2022).</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

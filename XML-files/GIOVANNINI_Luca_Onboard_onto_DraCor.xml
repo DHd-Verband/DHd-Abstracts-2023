@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="GIOVANNINI_Luca_Onboard_onto_DraCor" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Onboard onto DraCor.</title>
+                    <title type="sub">Prototyping Workflows to Homogenize Drama Corpora for an Open Infrastructure</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Börner</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>ingo.boerner@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin</affiliation>
+                    <email>fr.fischer@fu-berlin.de</email>
+                    <idno type="ORCID">0000-0003-2419-6629</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Giovannini</surname>
+                        <forename>Luca</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>giovannini@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lu</surname>
+                        <forename>Christopher</forename>
+                    </persName>
+                    <affiliation>University of Oxford</affiliation>
+                    <email>christopher.lu@balliol.ox.ac.uk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Milling</surname>
+                        <forename>Carsten</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>milling@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Skorinkin</surname>
+                        <forename>Daniil</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>daniil.skorinkin@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sluyter-Gäthje</surname>
+                        <forename>Henny</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>henny.sluyter-gaethje@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                    <idno type="ORCID">0000-0002-1421-4320</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-02T12:49:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>corpus</term>
+                    <term>drama</term>
+                    <term>onboarding</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Approaches to Corpus Homogenization</head>
+                <p style="text-align: left; text-align: justify;">Comparative endeavors in Computational Literary Studies typically require corpora which are both diverse, i.e., including texts in different languages and from different sources, and homogenized, i.e., formal and structural consistent. One way to tackle this issue is to establish upstream internal guidelines, such as the ones developed within the ELTeC initiative (Schöch et al. 2021). <ref n="1" target="ftn1"/> In the following, we report on our approach to homogenizing corpora for DraCor. <ref n="2" target="ftn2"/>
+                </p>
+                <p style="text-align: left; text-align: justify;">DraCor, based on the concept of Programmable Corpora (Fischer et al. 2019), is an open platform as well as a growing network for hosting, accessing, and analyzing theater plays. DraCor relies on the general TEI model for dramatic texts, with minimal enhancements, and thus facilitates contributions by external scholars who want to onboard their corpora onto its ecosystem. Once integrated, corpora can benefit from the platform’s APIs and services, ranging from the computation of network metrics via various extraction functions to SPARQL queries. </p>
+                <p style="text-align: left; text-align: justify;">Typically, corpora for DraCor are not built from scratch, but are created either by aggregating formally heterogeneous texts from different sources or by transforming existing corpora. Unlike in ELTeC, the homogenization of texts for DraCor usually does not stand at the beginning of the corpus creation process, but is rather an intervention in existing corpora which are sometimes subject to amendment and growth, hence ›living‹. This approach poses a number of challenges, for which we are currently prototyping several workflows. Here, we present the pipelines for mounting to DraCor two new corpora: the English-language 
+                    <hi rend="italic">EarlyPrint Drama Corpus</hi> (EPDraCor) and the 
+                    <hi rend="italic">Ukrainian Drama Corpus</hi> (UDraCor). <ref n="3" target="ftn3"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Corpus Onboarding</head>
+                <p style="text-align: left; text-align: justify;">From a technical point of view, onboarding corpora onto DraCor is a series of automated and manual transformations of the source data, which depend crucially on the format and markup of the files. Texts from a single, homogeneous collection with pre-existing markup and metadata will require different workflows and pipelines than those coming, for example, from a variety of raw text sources.</p>
+                <p style="text-align: left; text-align: justify;">This heterogeneous point of departure is what shapes our onboarding approach. Consequently, we are developing a modular workflow made up of a set of demand-dependent components. In addition to guideline-based manual revisions (e.g. pre-structuring texts with Markdown), we use XSLT scripts for automated transformations. Edits specific to theater plays, such as the task of speaker identification, are supported by an Oxygen framework; <ref n="4" target="ftn4"/> we are furthermore experimenting with task-specific GUI applications based on react.js. <ref n="5" target="ftn5"/> The correction and enrichment of metadata, such as the addition of Wikidata ID, is organized semi-automatically via OpenRefine.
+                </p>
+                <p style="text-align: left; text-align: justify;">A particular challenge is posed by living corpora. Here, the manual transformations performed during onboarding should be reapplicable in case of edits to the source data. Accordingly, we implemented routines for a ›backward compatibility‹ of the markup: the changes made by us during onboarding can later be applied again to a newer version of the source files. <ref n="6" target="ftn6"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>EPDraCor and UDraCor</head>
+                <p style="text-align: left; text-align: justify;">To develop our workflows and pipelines, two corpora with very different requirements are currently in the process of onboarding. While UDraCor originates from a growing collection of heterogeneous sources, EPDraCor is based on semantically rich TEI files from the Early Print project. <ref n="7" target="ftn7"/> The onboarding of EPDraCor starts with enhancing and correcting the original markup in our copy of the source corpus, accompanied by collecting LOD metadata from additional sources. Then, we combine the enhanced sources with their metadata and use XSLT to transform them, so that the TEI fulfills the requirements of the DraCor platform.
+                </p>
+                <p style="text-align: left; text-align: justify;">Due to the heterogeneity of the sources, a more case-specific solution must be found for UDraCor in this initial step. Here, the conversion is a semi-automatic procedure with heavy use of string patterns and regex. At the same time, UDraCor takes a community-based corpus-building approach by inviting scholars specializing in Ukrainian studies to work on both technical and content-related tasks. This work on UDraCor once again shows how the technical task of corpus building and community activities are crucially intertwined.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         See 
+                            <ref target="https://distantreading.github.io/ELTeC">https://distantreading.github.io/ELTeC</ref> and 
+                            <ref target="https://distantreading.github.io/Schema/eltec-1.html">https://distantreading.github.io/Schema/eltec-1.html</ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                        
+                            <ref target="https://dracor.org">https://dracor.org</ref>. In the context of CLS INFRA (
+                            <ref target="https://clsinfra.io">https://clsinfra.io</ref>), DraCor has received funding from the European Union's Horizon 2020 program (grant agreement No. 101004984).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn3" n="3">
+                         Both corpora are still a work in progress. For review, the two corpora can (as public alpha) be accessed in the corresponding GitHub repositories 
+                            <ref target="https://github.com/dracor-org/epdracor">https://github.com/dracor-org/epdracor</ref> and 
+                            <ref target="https://github.com/dracor-org/udracor">https://github.com/dracor-org/udracor</ref>. Both corpora will be published as public beta in the context of DHd2023.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn4" n="4">
+                        
+                            <ref target="https://github.com/dracor-org/dracor-oxygen-framework">https://github.com/dracor-org/dracor-oxygen-framework</ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn5" n="5">
+                         See e.g. our prototype of a Who-Is-Identification-Tool 
+                            <ref target="https://github.com/dracor-org/epdracor-whois">https://github.com/dracor-org/epdracor-whois</ref> and its interface 
+                            <ref target="https://dracor-org.github.io/epdracor-whois">https://dracor-org.github.io/epdracor-whois</ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn6" n="6">
+                         For this, see our prototype script in the EPDraCor repository: 
+                            <ref target="https://github.com/dracor-org/epdracor">https://github.com/dracor-org/epdracor</ref>.
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn7" n="7">
+                        
+                            <ref target="https://earlyprint.org">https://earlyprint.org</ref>.
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Fischer, Frank, Ingo Börner, Mathias Göbel, Angelika Hechtl, Christopher Kittel, Carsten Milling, and Peer Trilcke</hi>. 2019. “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama”. In 
+                        <hi rend="italic">Proceedings of DH2019: "Complexities"</hi>. Utrecht: Utrecht University. 
+                        <ref target="https://doi.org/10.5281/zenodo.4284002">https://doi.org/10.5281/zenodo.4284002</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Mueller, Martin, and Joseph Loewenstein</hi> (eds.). n.d. “Early Print Library”. Accessed August 3, 2022. 
+                        <ref target="https://earlyprint.org">https://earlyprint.org</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Schöch, Christof, Roxana Patraș, Diana Santos, and Tomaž Erjavec</hi>. 2021. "Creating the European Literary Text Collection (ELTeC): Challenges and Perspectives". 
+                        <hi rend="italic">Modern Languages Open</hi> 1: 25. 
+                        <ref target="https://doi.org/10.3828/mlo.v0i0.364">https://doi.org/10.3828/mlo.v0i0.364</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

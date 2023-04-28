@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="FL_H_Marie_Analyse__Produktion__Reflexion__Nachnutzungsszena" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Analyse, Produktion, Reflexion: Nachnutzungsszenarien für Forschungsdaten am Beispiel der Daten des Projekts Dehmel digital</title>
+                <author>
+                    <persName>
+                        <surname>Bläß</surname>
+                        <forename>Sandra</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>sandra.blaess@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Flüh</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>marie.flueh@uni-hamburg.de</email>
+                    <idno type="ORCID">0000-0002-1707-284X</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Nantke</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>julia.nantke@uni-hamburg.de</email>
+                    <idno type="ORCID">0000-0002-8037-1009</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Reul</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>christian.reul@uni-wuerzburg.de</email>
+                    <idno type="ORCID">0000-0002-1776-1469</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-01T06:56:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Edition</term>
+                    <term>HTR</term>
+                    <term>Named Entity Recognition</term>
+                    <term>Briefanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Datenerkennung</term>
+                    <term>Sammlung</term>
+                    <term>Bilderfassung</term>
+                    <term>Bearbeitung</term>
+                    <term>Daten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das Ziel wissenschaftlicher Editionen besteht seit jeher in der Nachnutzung durch die (wissenschaftliche) Community. Unter den Vorzeichen von Open Data und Open Science ändern sich allerdings die Möglichkeiten der Bereitstellung und Nachnutzung des erschlossenen Materials. Gleichzeitig haben Wissenschaftler:innen, die mit Methoden der Digital Humanities arbeiten, andere Anforderungen und Bedarfe an bereitgestellte Daten z.B. im Hinblick auf den Umfang der Korpora und die spezifischen Datentypen. Ziel unseres Beitrags ist es, anhand der unterschiedlichen, von uns im digitalen Editions- und Forschungsprojekt 
+                <hi rend="italic">Dehmel digital</hi> (Nantke 2022) produzierten Datentypen systematisch Szenarien der digitalen Nachnutzung durchzuspielen und anhand von Beispielen zu präsentieren. Die Darstellung ist projektbezogen und nicht erschöpfend in Bezug auf alle denkbaren Datentypen und Nutzungsmöglichkeiten. Dennoch sollen die dargestellten Szenarien in ihrer Bandbreite exemplarisch auch für andere Projektkontexte fungieren können.
+            </p>
+            <p>Wir beziehen uns auf folgende Datentypen: 1) Metadaten von Briefen unterschiedlicher Schreibender aus dem Korrespondenznetz von Ida und Richard Dehmel, 2) digitale Bilder der Dokumente, 3) maschinenlesbarer Text der Briefe, 4) Annotationen von Entitäten sowie 5) algorithmische Modelle.</p>
+            <p style="text-align: left;">In Abhängigkeit vom jeweiligen Datentyp ergeben sich unterschiedliche Nachnutzungsszenarien. Diese reichen von dem aus editorischer Sicht klassischen Szenario der Nutzung der bereitgestellten Daten in (literatur)wissenschaftlichen Analysen über die Nutzung zur Produktion eigener Korpora und Modelle, die dann wiederum Gegenstand der Nachnutzung werden können, bis hin zur Algorithmen-gestützten Reflexion der konzeptuellen Grundlagen einer solchen Datensammlung.</p>
+            <figure>
+                <graphic n="1001" width="11.557cm" height="11.60286111111111cm" url="Pictures/849bfe8e28ab1a4efc30a8acdc174554.png" rend="inline"/>
+            <head>Abb.1: Datentypen und Nachnutzungsszenarien im Überblick</head></figure>
+            <p>Szenario 1: Analyse von Briefinhalten auf der Basis von Datentyp 3</p>
+            <p style="text-align: left;">Briefe stellen relevante Quellen für die Rekonstruktion historischer Diskurse dar (Baillot 2011). Diese in einem Gesamtüberblick und nicht nur in Einzelbeispielen zu erfassen, ist mittels Close Reading-Verfahren kaum zu bewältigen. Ein zentrales computergestütztes Nachnutzungsszenario für unsere Daten sind daher Analysen mittels Distant Reading-Verfahren. Auf der Basis der erzeugten Transkripte kann u.a. eine automatisierte Exploration der zentralen Briefinhalte über Topic Modeling umgesetzt werden (Andorfer 2017; Henny-Kramer/Neuber 2023). Ergänzend hierzu lassen sich z.B. stimmungsmäßige Gewichtungen in den Briefen durch Sentiment Analysis ermitteln und zu den Topics ins Verhältnis setzen.</p>
+            <p>Szenario 2: Korrespondenznetze sichtbar machen auf der Basis von Datentyp 4</p>
+            <p style="text-align: left;">In den im Projekt 
+                <hi rend="italic">Dehmel digital</hi> produzierten Daten sind Entitäten (Personen, Orte, Institutionen, Werke) annotiert. Netzwerkanalysen auf der Basis dieser Annotationen bieten die Möglichkeit, Dynamiken innerhalb der vernetzten Kommunikationspraxis offenzulegen und genauere Einblicke in personelle Kontakte, organisatorische Strukturen und räumliche Bewegungen zu erlangen (Nantke/Bläß/Flüh 2022).
+            </p>
+            <p>Szenario 3: Vernetzung mit anderen Briefeditionen auf Basis von Datentyp 1 und 3</p>
+            <p style="text-align: left;">Die von uns erzeugten Briefmetadaten können über die Plattform 
+                <hi rend="italic">correspSearch</hi> abgerufen werden. Dadurch können Nachnutzende unsere Daten im Rahmen individueller Suchanfragen in Kombination mit den Daten anderer Briefeditionen nutzen.
+            </p>
+            <p>Szenario 4: Texte erschließen auf der Basis von Datentyp 5</p>
+            <p style="text-align: left;">Neben den erschlossenen Dokumenten stellen wir auch die im Projekt von uns trainierten HTR- und NER-Modelle zur Nachnutzung zur Verfügung. Auf Basis dieses Datentyps können weitere Dokumente, die nicht Teil des Projekts sind, erschlossen und somit neue Daten für die weitere Nachnutzung produziert werden. Dies gilt zum einen für handschriftliche Dokumente der Schreibenden, für die wir HTR-Modelle trainiert haben (z.B. Stefan Zweig, Detlev v. Liliencron, Julie Wolfthorn). Zum anderen können die Named Entity-Classifier für die Erschließung weiterer deutschsprachiger Briefe aus einem ähnlichen Zeitraum genutzt werden. Es besteht auch die Möglichkeit, auf der Basis unserer Trainingsdaten spezifische Modelle für andere Anwendungsfälle nachzutrainieren (Flüh/Lemke 2022).</p>
+            <p>Szenario 5: gemischte HTR-Modelle trainieren auf Basis von Datentyp 2 und 3</p>
+            <p style="text-align: left;">Die in 
+                <hi rend="italic">Dehmel digital</hi> teilautomatisiert generierten, qualitativ hochwertigen Transkripte zahlreicher unterschiedlicher Schreibender bieten in Kombination mit den zugehörigen Bilddigitalisaten den idealen Ausgangspunkt für das Training sog. ‘gemischter Modelle’, mit deren Hilfe sich deutlich mehr unterschiedliche Handschriften aus dem Zeitraum um 1900 transkribieren lassen.
+            </p>
+            <p>Szenario 6: Reflexion der theoretischen Fundierung von Datensammlungen auf Basis von Datentyp 5</p>
+            <p style="text-align: left;">Unsere NER-Classifier wurden auf den Dokumententyp ‘Brief um 1900’ trainiert. Eine experimentelle Anwendung z.B. des Orte-Classifiers auf ein Korpus mit Texten eines deutlich abweichenden Dokumententyps (z.B. fiktionale Texte) kann insbesondere in Kombination mit einem auf den Dokumententyp zugeschnittenen Classifier dazu beitragen, die theoretisch-konzeptuelle Fundierung offenzulegen, welche in die Modellierung des Classifiers eingegangen ist, indem die Ergebnisse der Classifier vergleichend betrachtet werden (vgl. dazu die Fallstudie von Flüh/Schumacher/Nantke im Erscheinen).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Andorfer, Peter.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2017.: </hi>
+                        <hi style="font-size:10pt">"</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">Turing Test für das Topic Modeling. Von Menschen und Maschinen erstellte inhaltliche Analysen der Korrespondenz von Leo von Thun-Hohenstein im Vergleich“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Zeitschrift für digitale Geisteswissenschaften</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2017. </hi>
+                        <ref target="https://doi.org/10.17175/2017_002">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.17175/2017_002</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Baillot, Anne. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2011. </hi>
+                        <hi rend="italic" style="font-size:11pt">Netzwerke des Wissens. Das intellektuelle Berlin um 1800</hi>
+                        <hi style="font-size:11pt">. Berliner Wissenschafts-Verlag.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Flüh, Marie, Mareike Schumacher und Julia Nantke.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> Im Erscheinen. </hi>
+                        <hi style="font-size:10pt">"</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">Place and Space in Literature. Named Entity Recognition as a Possibility for Spatial Modelling in Computational Literary Studies“. In: </hi>
+                        <hi rend="italic" style="font-size:11pt">Geography Meets Digital Humanities</hi>
+                        <hi style="font-size:11pt">, hg. von Finn Dammann und Dominik Kremer. Bielefeld: transcript.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Flüh, Marie, und Marc Lemke.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2022. </hi>
+                        <hi rend="italic" style="font-size:10pt">"</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">An Experimental Attempt to Use Transfer Learning for Named Entity Recognition in Letters from the 19th and 20th Century“. </hi>
+                        <hi rend="italic" style="font-size:11pt">DH2022</hi>
+                        <hi style="font-size:11pt">, 2022.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Henny-Krahmer, Ulrike und Frederike Neuber. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">2023. </hi>
+                        <hi style="font-size:10pt">"</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">Topic Modeling in Digital Scholarly Editions“. </hi>
+                        <hi rend="italic" style="font-size:11pt">Machine Learning and Data Mining for Digital Scholarly Editions</hi>
+                        <hi style="font-size:11pt">, hg. von Bernhard Geiger u. a., Bd. 18, Books on Demand.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Nantke, Julia. 2022. </hi>
+                        <hi rend="italic" style="font-size:11pt">Dehmel digital.</hi>
+                        <hi style="font-size:11pt">hg von ders. unter Mitarbeit von Sandra Bläß und Marie Flüh. https://dehmel-digital.de [zugegriffen: 21. Juli 2022].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Nantke, Julia, Sandra Bläß, Marie Flüh und David Maus.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 2022. </hi>
+                        <hi style="font-size:10pt">"</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">Best of Both Worlds. Zur Kombination algorithmischer und manueller Verfahren bei der Erschließung großer Handschriftenkorpora“. </hi>
+                        <hi rend="italic" style="font-size:11pt">DHd 2022. Konferenzabstracts</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">, 2022, </hi>
+                        <ref target="https://doi.org/10.5281/zenodo.6328113">
+                            <hi rend="color(1155CC)" style="font-size:11pt">https://doi.org/10.5281/zenodo.6328113</hi>
+                        </ref>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

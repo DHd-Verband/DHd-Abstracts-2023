@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HORSTMANN_Jan_Textliche_Relationen_maschinenlesbar_formalisi" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Textliche Relationen maschinenlesbar formalisieren: Systeme der Intertextualität</title>
+                <author>
+                    <persName>
+                        <surname>Horstmann</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Westfälische Wilhelms-Universität Münster, Deutschland</affiliation>
+                    <email>jan.horstmann@uni-muenster.de</email>
+                    <idno type="ORCID">0000-0001-8047-2232</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lück</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Westfälische Wilhelms-Universität Münster, Deutschland</affiliation>
+                    <email>christian.lueck@uni-muenster.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Normann</surname>
+                        <forename>Immanuel</forename>
+                    </persName>
+                    <affiliation>Westfälische Wilhelms-Universität Münster, Deutschland</affiliation>
+                    <email>immanuel.normann@uni-muenster.de</email>
+                    <idno type="ORCID">0000-0003-4702-1282</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-15T10:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Intertextualität</term>
+                    <term>Kategoriensystem</term>
+                    <term>Formale Methoden</term>
+                    <term>Beschreibungslogik</term>
+                    <term>Semantic Web</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Literatur</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Intertextualität als theoretisches Konzept in der (digitalen) Forschung</head>
+                <p>Wie können intertextuelle Beziehungen formalisiert und annotiert werden? Was wäre ein kohärentes Kategoriensystem der Intertextualität und welche Formalisierung ist geeignet, um es computergestützt berechenbar zu machen, ohne seine Aussagekraft zu verlieren. Intertextualität ist eine komplexe und zugleich sehr zentrale Kategorie in der Literaturanalyse. Per Definition betrifft sie nicht nur 
+                    <hi rend="italic" xml:space="preserve">ein </hi>(literarisches) Artefakt, sondern mindestens zwei und beschreibt die Beziehung zwischen ihnen (vgl. Pfister 1985, 11). Diese Beziehungen können auf zahlreichen Ebenen zu finden sein und je nach persönlichem Verständnis von „Intertextualität“ können entweder Grenzen gezogen werden oder Beziehungen überall zu finden sein. Etliche literarische Gattungen konstituieren sich durch ihren inhärenten Verweischarakter: Persiflage, Parodie, Pastiche, Cento (Flickengedicht), Travestie, Stilkopien usw. Unterhalb der Ebene der Konstitution von Gattungen lässt sich Intertextualität als feingranulares Geflecht von Bezugnahmen in den meisten, wenn nicht gar allen Texten feststellen. Auf dieser Ebene wird Intertextualität mit Begriffen wie Hypolepse (textuelle Reaktionen auf andere Texte durch z.B. Zustimmung, Ablehnung, Weiterführung, Korrektur usw.) oder Anspielung beschrieben. Zudem können hier Bezugnahmen in Form von z.B. nicht-gattungskonstituierenden Stilkopien oder im parodistischen Modus einer Textpassage vorkommen. Generell unterscheidet man dabei Einzeltextreferenzen von sog. Systemreferenzen, d.h. Referenzen auf ganze „Systeme“ wie etwa Gattungen.
+                </p>
+                <p>In der Forschung finden sich daher zahlreiche Ansätze, das von Julia Kristeva (1967) benannte theoretische Konzept Intertextualität als einen Beschreibungsbegriff für die Beziehung zwischen Texten zu systematisieren. Zu nennen sind in diesem Zusammenhang insbesondere Barthes (1984), Genette (1982), Pfister (1985), oder in digitaler Hinsicht Scheirer et al. (2016), Schlupkothen und Nantke (2019) und Burghardt und Liebl (2020). Die einzelnen Ansätze und Systematisierungen haben in der Regel verschiedene theoretische oder praxeologische Hintergründe (z.B. Strukturalismus, Poststrukturalismus oder Digital Humanities) und damit verbunden verschiedene Fokusse. Für Kristeva (1967) etwa bildet das Konzept Intertextualität einen theoretischen Zugang zur Dialogizität literarischer Texte. Mit Bezug auf Michail Bachtin entwickelt sie ein Verständnis von Text als „Mosaik von Zitaten“ (Kristeva 1967, 348). Genette (1982) beschreibt – ebenfalls mit dem Ziel einer Gattungstypologie – textuelle Bezugnahmen als Transformation oder Nachahmung hypertextueller Textgattungen. Er differenziert fünf Formen: 1. Intertextualität durch Zitate, Plagiate oder Anspielungen, 2. Paratextualität, womit er Rahmungen wie Titel, Genreklassifikationen, Autorname etc. meint, 3. Metatextualität (d.h. kritische Kommentare), 4. Architextualität (d.h. externe, z.B. durch Kritiker zugewiesene Rahmungen) sowie 5. Hypertextualität, bei der ein späterer Text (Hypertext) ohne einen vorherigen Bezugstext (Hypotext) nicht denkbar ist. Hypertextualität unterteilt er schließlich in Transformation (James Joyce transformiert in 
+                    <hi rend="italic" xml:space="preserve">Ulysses </hi>die 
+                    <hi rend="italic" xml:space="preserve">Odyssee </hi>Homers – „dasselbe anders sagen“) und Nachahmung (Vergil ahmt in der 
+                    <hi rend="italic" xml:space="preserve">Aeneis </hi>die 
+                    <hi rend="italic" xml:space="preserve">Odyssee </hi>nach – „etwas anderes auf dieselbe Weise sagen“; Genette 1982, 17). Pfister (1985) schließlich bietet ein graduelles System an, um die beiden Pole der sehr weiten und sehr engen (Inter)textualitätskonzeption miteinander zu verbinden.
+                </p>
+                <p>In Operationalisierungsansätzen der Digital Humanities wird Intertextualität als 
+                    <hi rend="italic">text reuse</hi> (vgl. Burghardt und Liebl 2020) oder im Sinne von 
+                    <hi rend="italic">event alignments</hi> (vgl. Reiter und Frank 2015) verstanden. Scheirer et al. (2016) versuchen mithilfe des 
+                    <hi rend="italic">Latent Semantic Indexing</hi> (LSI) darüber hinausgehend semantisch-thematische intertextuelle Bezüge zwischen Ausgangs- und Bezugstexten zu modellieren. Diese Ansätze zielen darauf ab, den Weg für die Entwicklung eines automatischen Detektors für intertextuelle Beziehungen zu ebnen. Dies ist nicht unser Ziel. Die Wiederverwendung von Texten, das automatisierte Auffinden von Zitaten oder ähnlichen Textpassagen in einem Textkorpus – an sich schon anspruchsvoll aus Sicht der Informatik – erscheint aus der Perspektive der Literaturwissenschaft, die sich traditionell mit semantisch viel komplexeren Formen intertextueller Beziehungen beschäftigt, häufig unterkomplex.
+                </p>
+                <p>Ziel des Beitrags ist – statt von bestimmten digitalen Verfahren auszugehen – die theoriegeleitete Modellierung eines maschinenlesbaren Schemas, eines Kategoriensystems, das strukturell und grundlegend Analysen von Intertextualität, wie sie in literaturwissenschaftlichen und -theoretischen Abhandlungen zu finden sind, repräsentieren kann. Schlupkothen und Nantke (2019) verfolgen ein ähnliches Ziel. Bei ihnen ist aber nicht weiter ausgearbeitet, wie sich das Vorhaben, analytisch-interpretatorische Lektürepraktiken zu repräsentieren, zur eingesetzten Technologie X-Link verhält und welche Beziehung diese zu der von den Autoren ins Spiel gebrachten Situationslogik hat.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Formale Methoden und maschinelle Interpretierbarkeit</head>
+                <p>Ob ein logisches System (Prädikatenlogik, Beschreibungslogik, Situationslogik etc.) für die Formalisierung eines Forschungsgegenstandes geeignet ist, hängt von den Zielen ab, die mit der formalen Repräsentation des Gegenstandes erreicht werden sollen. Ist der Gegenstand formal repräsentiert, lassen sich durch ein formalen Kalkül Entscheidungfragen hinsichtlich ihres Wahrheitswertes auswerten und (neue) Aussagen aus dem Formalisierten ableiten, worunter auch das Abfragen der 'Fakten'-Basis zählt. Ganz allgemein sind bei der Wahl eines logischen Systems folgende Aspekte ausschlaggebend: Es sollte so ausdrucksmächtig sein, dass es für die formale Repräsentation des Gegenstandes geeignet ist (Ausdrucksmächtigkeit). Und für die DH ist es wünschenswert, dass der formale Kalkül von einem Computer ausgeführt werden kann (Implementierung), und zwar zudem effizient (Komplexität).</p>
+                <p>Ziel unserer Formalisierung der Domäne Intertextualität ist die Repräsentation von Intertextualitätsanalysen. Eine Einschränkung auf eine bestimmte Intertextualitätstheorie oder auf eine bestimmtes Teilphänomen, etwa werkästhetisch manifeste Intertextualität, soll zunächst nicht erfolgen. Stattdessen versuchen wir, einen gemeinsamen Kern von Intertextualitätskonzepten freizulegen, und zwar so, dass er für spezielle Theorien erweiterbar ist. Ziel ist also, intertextuelle Relationen zu annotieren, abzufragen und ggf. Aussagen abzuleiten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Formalisierung des Kerns</head>
+                <p>Die Formalisierung wird zunächst mit halbformalen Mitteln durchgeführt: mit einer Liste dessen (der Aspekte oder Merkmale), was repräsentiert werden soll. Einen ersten Zugang zum gemeinsamen Kern der verschiedenen kursierenden Intertextualitätstheorien bietet eine Analyse des Wortes Intertextualität. Es besteht aus den lexikalischen Morphemen 
+                    <hi rend="italic">inter</hi> und 
+                    <hi rend="italic">text</hi> sowie dem Derivationsmorphem 
+                    <hi rend="italic">-alität</hi>, fr. 
+                    <hi rend="italic">-alité</hi>, lat. 
+                    <hi rend="italic">-alitas</hi>. Während 
+                    <hi rend="italic">text</hi> gegenständlich ist, ist 
+                    <hi rend="italic">inter</hi> präpositional. Also einfach zwischen Text bzw. zwischen Texten? Ganz so „durchsichtig und selbsterklärend“ (Adamzik 2004, 96) ist das Wort jedoch nicht, denn die Präposition 
+                    <hi rend="italic" xml:space="preserve">inter </hi>setzt nicht nur zwei (oder mehrere) Entitäten miteinander in Beziehung, sondern gibt dem Zwischenraum auch ein eigenes Sein; siehe z.B. '
+                    <hi rend="italic">inter</hi>lineare Annotationen'. Möglicherweise liegt genau hier der Designfehler des Neologismus, denn Theorien des globalen Intertexts, von dem im Singular gesprochen wird, rücken anscheinend diesen Zwischenraum ins Zentrum ihres Sprachspiels, ohne weiter zu bestimmen, was dort ist. Hinzu kommt, dass die Präposition 
+                    <hi rend="italic">inter</hi>, anders als z.B. 
+                    <hi rend="italic">trans</hi> ungerichtet ist. Das steht im Gegensatz dazu, dass das theoretische Konzept auch entwickelt worden ist, um Texten eine historische Dimension zu geben, nämlich auf ihre Avant-Texte hin, so schon bei Kristeva und insbesondere in Genettes Palimpsest-Metapher und seinem Transtextualitätskonzept (vgl. Dosse 1997, II, 446f.). In der historischen Dimension gibt es aber Gerichtetheit; und ein Bezug auf zukünfitge Texte kann unschwer als gegenwärtige Vorstellung zukünftiger Texte angesehen werden. Im Kern, so scheint uns, rückt die Untersuchung von Intertextualität immer einen späteren Text ins Zentrum und untersucht seine Bezüge zu früheren Texten; andersherum handelt es sich um Wirkungs- und Rezeptionsforschung. Im Kern, so halten wir fest, zielt Intertextualität auf die Beziehung (1a) 
+                    <hi rend="italic">zwischen Texten</hi>, und zwar derart, dass eine intertextuelle Beziehung (1b) 
+                    <hi rend="italic" xml:space="preserve">anti-chronologisch gerichtet </hi>ist. Auch wenn Beschreibungen von Intertextualität mitunter Komplexe von vielen Texten in den Blick nehmen, so können solche Komplexe doch als eine Menge (1c) 
+                    <hi rend="italic">binärer</hi> intertextueller Beziehungen repräsentiert werden, sofern die Möglichkeit gegeben ist, Vermittlung durch ein Drittes sowie transitive Relationen zu modellieren. Der Formalismus muss also erlauben, dass (2) Vermittlungsinstanzen notiert werden können. Solche können wiederum binäre intertextuelle Relationen sein, jedoch muss die Kategorie der Vermittlungsinstanz auf eine Vielzahl von Phänomenen hin erweiterbar sein. Selbstredend muss eine intertextuelle Relation zudem auch mit den (3) 
+                    <hi rend="italic">speziellen Kategorien der verschiedenen Theorien</hi> bestimmt- bzw. beschreibbar sein, wobei diese Bestimmung nach Kategorien auch Grade (vgl. Pfister 1985) umfassen können muss. Das Textkonzept als solches, bis hin zu der Frage, ob Text manifeste Schrift in einem Zeichensystem ist oder ein weiteres Verständnis vorliegt, gehört aber nicht zum Kern von Intertextualität, sondern zur theoretischen Ausprägung, also aus unserer Perspektive zur Peripherie. Der Aspekt der Markiertheit auf der Textoberfläche, den Pfister und insbesondere die Textlinguistik interessieren, könnte sich nicht zuletzt im Hinblick auf Weiternutzung durch Textmining als fruchtbar erweisen und ist allgemeiner Art. Wir halten folgende Form intertextueller Relationen fest und notieren dabei zugleich die Anzahl der genannten Aspekte, wobei n eine natürliche Zahl ist und n
+                    <hi rend="subscript">0</hi> eine natürliche Zahl oder Null: TextHier/1, TextDort/1, Vermittlungsinstanz/n
+                    <hi rend="subscript">0</hi>, Bestimmung/n, Marker/n
+                    <hi rend="subscript">0</hi>.
+                </p>
+                <p>Der auf diese halb-formale Art entworfene Kern von Intertextualität lässt sich nicht mit allen formalen Methoden repräsentieren. 
+                    <hi rend="inline-comment-marker" xml:space="preserve"> Zur Formalisierung von Intertextualität ist ein Ausdrucksmittel von Relationalität erforderlich. Damit scheidet die Aussagenlogik aus und es muss auf eine Prädikatenlogik zurückgegriffen werden. Die allgemeine Prädikatenlogik erster Stufe ist wiederum ausdrucksstärker als für unser Vorhaben nötig. Als ausreichend ausdrucksstark erweist sich die Beschreibungslogik, die in einfacher Ausprägung im Wesentlichen der Prädikatenlogik entspricht mit der Einschränkung auf ein- und zweistellige Prädikate (vgl. Baader at al., Hg. 2010, Harmelen et al., Hg. 2008).</hi> Für sie steht in RDF eine Implementierung zur Verfügung. Wir geben hier nur ein Beispiel für eine in RDF notierte intertextuelle Relation (für ihre Form) und verweisen für die Ontologie in RDFS/OWL auf unser Github-Repository.<ref n="1" target="ftn1"/>
+                </p>
+                <code>
+                <!-- <p style="text-align: left;">-->
+                    <lb/>@prefix :
+                    <ref target="https://intertextuality.org/abstract">https://intertextuality.org/abstract#</ref>&gt; .
+                <!-- </p> -->
+                <!-- <p style="text-align: left;"> -->
+                    <lb/>@prefix ex:
+                    <ref target="https://example.org/my-intertextual-findings/">https://example.org/my-intertextual-findings/</ref>&gt; .
+                    <lb/>ex:i a :IntertextualRelation;
+                    <lb/>:here ex:t1 [a :Reference]; # TextHier/1
+                    <lb/>:there ex:t2 [a :Reference]; # TextDort/1
+                    <lb/>:mediatedBy ex:md [a :Mediator]; # Vermittlungsinstanz/n
+                    <hi rend="subscript">0</hi>
+                    <lb/>:specifiedBy ex:s [a :IntertextualSpecification]; # Bestimmung/n
+                    <lb/>:markedBy ex:mrk [a :Marker ]. # Marker/n
+                    <hi rend="subscript">0</hi>
+                <!-- </p> -->
+                </code>
+                <p>In der Ontologie ist ausgedrückt, dass intertextuelle Relationenen Mediatoren sein können: 
+                    <hi rend="code">:IntertextualRelation rdfs:subClassOf :Mediator.</hi> Auf diese Weise wird die Struktur rekursiv bzw. können vermittelte, transitive Relationen repräsentiert werden. Die Klasse 
+                    <hi rend="code">Reference</hi>, welche für die Texte verwendet wird, zwischen denen die intertextuelle Relationen beschrieben wird, wird mit der Onotologie von Web Annotations modelliert.<ref n="2" target="ftn2"/> Dies gilt potentiell auch für die Klasse 
+                    <hi rend="code">Marker</hi>, jedoch sind auch andere Marker, z.B. Typen aus einem System von Markierungen, realisierbar. Die Metadaten der Referenzen, insbesondere das Datum der Ersterscheinung, ermöglichen, die derart formalisierten Aussagen hinsichtlich ihrer anti-chronologischen Gerichtetheit auf Konsistenz zu prüfen (Reasoning).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erweiterungen: Genette</head>
+                <p>Der Kern ist erweiterbar, indem die Klassen 
+                    <hi rend="code">Mediator</hi>, 
+                    <hi rend="code">IntertextualSpecification</hi> und 
+                    <hi rend="code">Marker</hi> durch Bildung von Subklassen differenziert und spezifiziert werden. Beispielhaft soll dies hier für Genettes Beschreibungskategorie Hypertextualität durchgeführt werden. Verglichen mit Kristevas Intertextualitätsbegriff bezeichnet sie ein sehr enges Feld, das durch eine 1-zu-1-Beziehung zweier Texte, des Hypertextes B zu einem vorhergehenden Hypotext A, gekennzeichnet ist. Die 1-zu-1-Beziehung wird dabei weniger durch Einzelstellen der Texte gestiftet. Vielmehr setzen paratextuelle Signale (z.B. der Titel des Hypertextes) die Texte als Ganzes in hypertextuelle Beziehung. Dennoch manifestiert sie sich auch im Verhältnis einzelner Textstellen. Eine Formalisierung dieser auf einer Relation beruhenden Relationen, die bislang ein Desiderat der DH geblieben ist, wird auf Grundlage des vorgeschlagenen Kerns möglich. Wir schlagen vor, das paratextuelle Signal des Titels als Vermittlungsinstanz der vielen intertextuellen Relationen zwischen Einzelstellen aufzufassen.
+                </p>
+                <code>
+                    <!-- <p style="text-align: left;"> -->
+                        <lb/>@prefix g:<ref target="https://intertextuality.org/extensions/genette/hypertextuality">https://intertextuality.org/extensions/genette/hypertextuality#</ref>&gt; .
+                        <lb/>@prefix pt:<ref target="https://intertextuality.org/extensions/genette/paratext">https://intertextuality.org/extensions/genette/paratext#</ref>&gt; .
+                        <lb/>@prefix :<ref target="https://intertextuality.org/abstract">https://intertextuality.org/abstract#</ref>&gt; .
+                        <lb/>@prefix rdfs:<ref target="http://www.w3.org/2000/01/rdf-schema">http://www.w3.org/2000/01/rdf-schema#</ref>&gt; .
+                        <lb/>@prefix owl:<ref target="http://www.w3.org/2002/07/owl">http://www.w3.org/2002/07/owl#</ref>&gt; .
+                    <!-- </p> -->
+                    <!-- <p style="text-align: left;"> -->
+                    <lb/>&lt;<ref target="https://intertextuality.org/extensions/genette/hypertextuality">https://intertextuality.org/extensions/genette/hypertextuality</ref>&gt; a owl:Ontology .
+                    <lb/>&lt;<ref target="https://intertextuality.org/extensions/genette/paratext">https://intertextuality.org/extensions/genette/paratext</ref>&gt; a owl:Ontology .
+                    <!-- </p> -->
+                    <!-- <p style="text-align: left;"> -->
+                        <lb/>pt:ParatextualSignal rdfs:subClassOf :Mediator .
+                        <lb/>pt:title a pt:ParatextualSignal .
+                    <!-- </p> -->
+                </code>
+                <p>Vor allem aber gewinnt Genette aus der Analyse der Hypertextualität eine Gattungstypologie. Dazu unterteilt er diese Beziehung nach zwei Gesichtspunkten: Es kann sich entweder im Hinblick auf den Relationstyp um eine Imitation oder um eine Transformation handeln, und sie kann im Hinblick auf die Art und Weise entweder spielerisch, satirisch oder ernst sein. Daraus gewinnt er durch Kombination sechs Gattungen. In RDFS/OWL formalisiert heißt das:</p>
+                <code>
+                    <!-- <p style="text-align: left;"> -->
+                        <lb/>g: <hi rend="inline-comment-marker">HypertextualRelation</hi> rdfs:subClassOf :IntertextualSpecification ;
+                        <lb/>owl:disjointUnionOf (g:RelationalType g:ModalType) .
+                        <lb/>g:RelationalType owl:ObjectOneOf (g:transformation g:imitation) .
+                        <lb/>g:ModalType owl:ObjectOneOf (g:playfully g:satirically g:
+                        <hi rend="inline-comment-marker">seriously</hi>) .
+                    <!-- </p> -->
+                </code>
+                <p>Die Formalisierung wäre dadurch zu ergänzen, dass eine solche hypertextuelle Relation auch über eine Vermittlungsinstanz verfügen muss.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und mögliche Anschlussforschung</head>
+                <p>Die hier vorgeschlagene Formalisierung auf Grundlage der Beschreibungslogik kommt an bestimmten Stellen an ihre Grenzen. Eine davon steckt im Begriff Situation: Eine der fundamentalen Unterscheidungen intertextueller Relationen ist die zwischen solchen, die werkästhetisch manifest sind (etwa durch paratextuelle Signale oder andere Marker), und solchen, die rezeptionsästhetisch gefunden worden und damit unklarer sind (vgl. Pfister 1985, 23f.). Mit einem rezeptionstheoretischen Hintergrund schlagen Schlupkothen und Nantke (2019) die Situtationslogik nach Barry und Parwise als angemessene formale Methode vor. Die hier vorgeschlagene auf der Beschreibungslogik bzw. OWL basierende Formalisierung bietet die Möglichkeit, die Situation durch Metadaten (Name, Datum) zu kodieren und einem Datensatz anzuhängen. Allerdings ist das keine Implementierung der Situationslogik, bei dem es insbesondere um eine Fromalisierung des Zusammenhangs von Situation und Konsistenz geht. Denselben Einwand wird man auch gegenüber dem Beitrag von Schlupkothen und Nantke einwenden können, denn die von ihnen eingesetzt Technologie X-Link ist ebenfalls keine Implementierung der Situtationslogik.</p>
+                <p>Unser Beitrag hat das Ziel, in der Pluralität unterschiedlicher Konzeptionen von Intertextualität einen Kern von Intertextualität herauszuschälen und so zu formalisieren, dass er durch Theorien erweiterbar ist. Er bahnt damit einen Weg zur Repräsentation intertextueller Beziehungen, welche einerseits der Komplexität der literaturtheoretischen Konzepte gerecht wird und die andererseits Berechenbarkeit gewährleistet.</p>
+                <p>Der Beitrag richtet sich damit einerseits an Intertextualitätstheoretiker*innen und -praktiker*innen. Erstere können durch unsere Formalisierung ihren Intertextualitätsbegriff schärfen: durch eine weitere Verfeinerung des von uns vorgeschlagenen Modells oder durch eine klare Abgrenzung des eigenen Intertextualitätsbegriffs. Intertextualitätspraktiker*innen wird ein (erweiterbares) Modell an die Hand gegeben, um Intertextualität zu identifizieren/zu annotieren und zu analysieren (z.B. mittels Netzwerkvisualisierung, Netzwerkanalyse oder durch eine synoptische Gegenüberstellung von Textpassagen mit intertextuellem Bezug). Andererseits kann unsere theoretische Konzeption die Grundlage für die Architektur einer möglichen Forschungsumgebung bilden, die den Intertextualitätsforschenden sowohl eine Weiterentwicklung oder Anpassung des vorgeschlagenen Intertextualitätsmodells als auch die Erforschung der Intertextualität eines annotierten Textkorpus auf Basis dieses Modells erlaubt.</p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note rend="footnote text" xml:id="ftn1" n="1">
+                         Vgl. 
+                            <ref target="https://github.com/janhorstmannn/intertextuality">https://github.com/janhorstmannn/intertextuality</ref> (Zugriff: 12.12.2022).
+                        
+                    </note>
+<note rend="footnote text" xml:id="ftn2" n="2">
+                         Vgl. 
+                            <ref target="https://w3c.github.io/web-annotation/model/wd/">https://w3c.github.io/web-annotation/model/wd/</ref> (Zugriff: 12.12.2022).
+                        
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Adamzik, Kirsten.</hi> 2004. 
+                        <hi rend="italic">Textlinguistik. Eine einführende Darstellung</hi>. Tübingen: Niemeyer.
+                    </bibl>
+                    <bibl><hi rend="bold">Baader, Franz et al. (Hg.).</hi> 2010. 
+                        <hi rend="italic">The Description Logic Handbook. Theory, Implementation, Applications</hi>, 2. ed., New York: Cambridge UP.
+                    </bibl>
+                    <bibl><hi rend="bold">Barthes, Roland. </hi>1984. "La mort de l’auteur." In Roland Barthes: 
+                        <hi rend="italic">Le bruissement de la langue</hi>. Paris: Seuil.
+                    </bibl>
+                    <bibl><hi rend="bold">Burghardt, Manuel und Bernhard Liebl. </hi>2020. "'The Vectorian' – Eine parametrisierbare Suchmaschine für intertextuelle Referenzen." In 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. 7. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2020).</hi> Paderborn. 
+                        <ref target="https://doi.org/10.5281/zenodo.4621836">https://doi.org/10.5281/zenodo.4621836</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Dosse, François. </hi>1997. Geschichte des Strukturalismus. 2 Bde. Frankfurt/M: Fischer.</bibl>
+                    <bibl>Genette, Gérard. 1982. 
+                        <hi rend="italic">Palimpsestes: la littérature au second degré</hi>. Collection Poétique. Paris: Seuil.
+                    </bibl>
+                    <bibl><hi rend="bold">Harmelen, Frank van et al. (Hg.).</hi> 2008. 
+                        <hi rend="italic">Handbook of Knowledge Representation</hi>. Amsterdam: Elsevier.
+                    </bibl>
+                    <bibl><hi rend="bold">Kristeva, Julia.</hi> 1967. "Bakhtine, le mot, le dialogue et le roman." 
+                        <hi rend="italic">Critique</hi> 23: 438–465.
+                    </bibl>
+                    <bibl><hi rend="bold">Pfister, Manfred.</hi> 1985. "Konzepte der Intertextualität." In 
+                        <hi rend="italic">Intertextualität. Formen, Funktionen, anglistische Fallstudien</hi>, hg. von Ulrich Broich und Manfred Pfister, 1–30. Tübingen: Niemeyer.
+                    </bibl>
+                    <bibl><hi rend="bold">Reiter, Nils und Anette Frank.</hi> 2015. "Computerlinguistische Verfahren zur Aufdeckung struktureller Ähnlichkeiten in Narrativen." In 
+                        <hi rend="italic">DHd 2015 Von Daten zu Erkenntnissen: Digitale Geisteswissenschaften als Mittler zwischen Information und Interpretation. 2. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2015).</hi> Graz. 
+                        <ref target="https://doi.org/10.5281/zenodo.4623234">https://doi.org/10.5281/zenodo.4623234</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Scheirer, Walter, Christopher W. Forstall und Neil Coffee.</hi> 2016. "The sense of a connection: Automatic tracing of intertextuality by meaning.“ 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31/1: 204–217. 
+                        <ref target="https://doi.org/10.1093/llc/fqu058">https://doi.org/10.1093/llc/fqu058</ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Schlupkothen, Frederik und Julia Nantke.</hi> 2019. "FormIt: Eine multimodale Arbeitsumgebung zur systematischen Erfassung literarischer Intertextualität." In 
+                        <hi rend="italic">DHd 2019 Digital Humanities multimedial und multimodal. 6. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2019).</hi> Frankfurt am Main, Mainz. 
+                        <ref target="https://doi.org/10.5281/zenodo.4622106">https://doi.org/10.5281/zenodo.4622106</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

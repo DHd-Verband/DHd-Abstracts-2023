@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="TU_Ngoc_Duyen_Tanja_Projektvorstellung___Sprachanfragen__Emp" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektvorstellung – Sprachanfragen. Empirisch gestützte Erforschung von Zweifelsfällen</title>
+                <author>
+                    <persName>
+                        <surname>Lang</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+                    <email>lang@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tu</surname>
+                        <forename>Ngoc Duyen Tanja</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+                    <email>tu@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schneider</surname>
+                        <forename>Roman</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+                    <email>schneider@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Volodina</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+                    <email>volodina@ids-mannheim.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-12T10:09:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Korpusaufbereitung</term>
+                    <term>Anonymisierung</term>
+                    <term>Terminologie</term>
+                    <term>Chatbot</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Bereinigung</term>
+                    <term>Archivierung</term>
+                    <term>Sprache</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung</head>
+                <p style="text-align: left; text-align: justify;">Das im Januar 2022 gestartete Projekt „Sprachanfragen“ (https://www.ids-mannheim.de/gra/projekte2/sprachanfragen/) verfolgt das Ziel, Sprachanfragedaten – also Daten, die im Rahmen von verschiedenen Sprachberatungsszenarien entstehen, wie beispielsweise (1) – zu erfassen, aufzubereiten und ein wissenschaftsöffentliches Monitorkorpus aus ihnen zu erstellen. Dazukommend wird eine Rechercheschnittstelle entwickelt, mit der die Sprachanfragen systematisch wissenschaftlich analysierbar gemacht werden. </p>
+                <p style="text-align: left; text-align: justify;">(1) „[Frage:] Heißt es "Dramaform" oder "Dramenform" […]?</p>
+                <p style="text-align: left; text-align: justify;">[Antwort:] In allgemeinsprachlichen Wörterbüchern ist diese Zusammensetzung nicht erfasst. Im allgemeinen Schreibgebrauch wird - wie eine Internetrecherche ergab - die Form mit Fugen-en vorgezogen.“ </p>
+                <p style="text-align: left; text-align: justify;">Sprachanfragen bieten einen authentischen Einblick in Probleme und Themen, die Sprecher:innen außerhalb der linguistisch-fachwissenschaftlichen Gemeinschaft beschäftigen. Wie Breindl (2016, 86f.) ausführt, bietet eine systematische Auswertung der Sprachberatungspraxis eine wertvolle Grundlage für die Erforschung einer großen Bandbreite verschiedener Fragestellungen. So können diese Daten u. a. dazu benutzt werden, um (i) Zweifelsfälle zu analysieren, wodurch Normierungslücken aufgedeckt werden können, und um (ii) Sprachwandelphänomene nachzuvollziehen. Ebenfalls können Sprachanfragen herangezogen werden, um (iii) Strategien zu erforschen, wie fachspezifische Inhalte von Nicht-Fachpersonen erfragt werden. Dadurch können bspw. die Zugangswege zu grammatischen und orthographischen Inhalten in einem webbasierten Informationssystem optimiert werden. Eine mögliche Optimierung wäre, Sprachanfragen automatisch in Form eines Chatbots zu beantworten.</p>
+                <p style="text-align: left; text-align: justify;">Das Poster gibt einen Überblick über das Projekt, zeigt erste Ergebnisse und bietet einen Ausblick auf Überlegungen zur Konzeption eines Chatbots zur automatisierten Beantwortung von Sprachanfragen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datengrundlage</head>
+                <p style="text-align: left; text-align: justify;">Das Monitorkorpus wird zum einen aus ~50.000 Sprachanfragen, die an den Sprachberatungsservice des WAHRIG-Verlags per E-Mail geschickt wurden, aufgebaut. Diese decken einen Zeitraum von 1999 bis 2018 ab. Die zugehörigen Antworten werden ebenfalls in das Korpus aufgenommen. Zum anderen wird das Korpus kontinuierlich mit Sprachanfragen erweitert, die im Leibniz-Institut für Deutsche Sprache eingehen. Um mehr Daten für das Trainieren eines Chatbots zu generieren, werden darüber hinaus Sprachanfragen aus Online-Quellen, wie z.B. gutefrage.net, extrahiert.</p>
+                <p style="text-align: left; text-align: justify;">In einem ersten Schritt werden die Daten aufwendig vorverarbeitet. Dabei werden sie anonymisiert, um den Datenschutz zu gewährleisten und das Korpus wissenschaftsöffentlich zur Verfügung stellen zu können. Für die Anonymisierung ist die Nutzung eines NamedEntity-Erkenners, wie in anderen Arbeiten geschehen (vgl. u.a. Bleicken et al., 2016; Kleinberg et al., 2017), nicht optimal, da u. a. Namen ebenfalls Teil der Fragestellung sein können (vgl. (2)). Somit müssen automatisierte Lösungswege gefunden werden, um primär tatsächlich personenbezogene Daten zu ersetzen und die anschließende manuelle Nachkorrektur maßgeblich zu erleichtern. </p>
+                <p style="text-align: left; ">(2) "[...] Der Genitiv des Wortes "Paulus" […] sollte wie lauten: "Pauli" oder "Paulus'"? [...]"</p>
+                <p style="text-align: left; ">Darüber hinaus werden die Sprachanfragen nach orthographischen und terminologischen Kriterien strukturiert, indem sie mit grammatischen Termini (z. B. „Dativ“, „Fugen-s“, „Getrenntschreibung“) annotiert werden. Basis dafür ist die terminologische Ressource der Abteilung Grammatik des Leibniz-Instituts für Deutsche Sprache, die sogenannte Wissenschaftliche Terminologie (WT, https://grammis.ids-mannheim.de/terminologie). Diese beinhaltet ~6.000 Termini aus der Domäne Deutsche Grammatik (vgl. u.a. Suchowolec et al., 2019). Berücksichtigt werden Uni- (z.B. „Substantivierung“), Bi- (z.B. „indirekte Rede“) und Trigramme (z.B. „negationsinduzierend additive Konnektoren“). Mit Hilfe eines Pattern Matchings werden vorkommende Termini in den lemmatisierten Sprachanfragen automatisiert detektiert. Über exakte Treffer hinaus werden bei der Annotation von Unigrammen auch Teiltreffer am Anfang oder am Ende eines Lemmas aufgenommen, bspw. „
+                    <hi rend="bold">Genitiv</hi>bezug", „
+                    <hi rend="bold">Dativ</hi>form“, „Muss-
+                    <hi rend="bold">Komma</hi>“. Somit werden auch Ausdrücke erfasst, die einen Terminus als Erst- oder Zweitglied beinhalten, als Ganzes jedoch nicht als Termini in der WT auftreten.
+                </p>
+                <p style="text-align: left; text-align: justify;">Um zu evaluieren, wie gut die Automatisierung der beiden Vorverarbeitungsschritte funktioniert, wird ein Subkorpus aus 1.000 zufällig extrahierten Sprachanfragen erstellt. Dieses wird manuell anonymisiert sowie terminologisch annotiert und als Goldstandard bei der Auswertung der automatischen Methoden herangezogen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick: automatisierte Beantwortung von Sprachanfragen</head>
+                <p style="text-align: left; text-align: justify;">Eine weiterführende, zukünftige Zielsetzung ist zudem, bei ausreichender Größe des Monitorkorpus, einen Chatbot zur automatischen Beantwortung von Sprachanfragen zu entwickeln. Dafür werden die Sprachanfragen nach den zugeordneten Termini gruppiert und ein Modell je Gruppe trainiert. Als Baseline wird ebenfalls ein regelbasierter Chatbot implementiert. Denkbar wäre auch eine Kombination aus regelbasiertem und trainiertem Chatbot. Das Ziel ist es, mit einem solchen System eine nicht-kommerzielle und offene (im Sinne von Veröffentlichung des Quellcodes) Alternative zu anderen Online-Grammatik- und Rechtschreibhilfetools (z. B. Deepkomma, Duden-Mentor, LanguageTool oder StudiKompass) zu schaffen, die durch nahtlose Anknüpfung an die umfassenden sprachwissenschaftlichen Ressourcen des hauseigenen wissenschaftlichen Informationssystem zur deutschen Grammatik grammis (https://grammis.ids-mannheim.de/) umfangreiche Materialien zum weiterführenden Selbststudium auf verschiedenen Komplexitätsstufen bietet.</p>
+                <p style="text-align: left; text-align: justify;">Im Fokus der automatischen Beantwortung soll also nicht nur die Korrektur, sondern es sollen auch die sprachwissenschaftlichen Hintergründe einer Frage stehen. Zum Beispiel sollen im Fall der folgenden authentischen Sprachanfrage: „Was ist korrekt: „Haushalthilfe“ oder „Haushaltshilfe“, „Haushaltpflege“ oder „Haushaltspflege“?“ über die Angabe der korrekten Variante hinaus das zugrundeliegende Phänomen (Fugenelemente) benannt und entsprechende Artikel aus grammis verlinkt werden.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Bibliography">
+                        <?biblio ADDIN ZOTERO_BIBL {"uncited":[],"omitted":[],"custom":[]} CSL_BIBLIOGRAPHY?>
+                        <hi rend="bold">Bibliographisches Institut GmbH.</hi> 2022.
+                        <hi rend="italic" xml:space="preserve"> „Duden Mentor.“</hi> https://mentor.duden.de/.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Bleicken, Julian, Thomas Hanke, Ute Salden, und Sven Wagner.</hi> 2016. “Using a Language Technology Infrastructure for German in order to Anonymize German Sign Language Corpus Data.“ In 
+                        <hi rend="italic">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 16)</hi>, 3303-3306. Portorož, Slovenia.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Breindl, Eva.</hi> 2016. “Sprachberatung im interaktiven Web“. In
+                        <hi rend="italic" xml:space="preserve"> Die Kodifizierung der Sprache</hi>. 
+                        <hi rend="italic">Strukturen, Funktionen, Konsequenzen</hi>”, herausgegeben von Wolf-Peter Klein und Sven Staffeldt, 85–109. WespA – Würzburger elektronische sprachwissenschaftliche Arbeiten 17. Würzburg.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">gutefrage.net GmbH</hi>. o.J. 
+                        <hi rend="italic">“guteFrage.”</hi> https://www.gutefrage.net/
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Kleinberg, Bennett, Maximilian Mozes, Yaloe van der Toolen, und Bruno Verschuere.</hi> 2017. 
+                        <hi rend="italic">“NETANOS - Named entity-based Text Anonymization for Open Science.“</hi> Preprint. Open Science Framework. 
+                        <ref target="https://doi.org/10.31219/osf.io/w9nhb">https://doi.org/10.31219/osf.io/w9nhb</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">LanguageTooler GmbH.</hi> o. J. 
+                        <hi rend="italic">“LanguageTool.“</hi>
+                        <ref target="https://languagetool.org/de">https://languagetool.org/de</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Mannheim: Leibniz-Institut für Deutsche Sprache.</hi> o. J. 
+                        <hi rend="italic">“Grammatisches Informationssystem ‚grammis‘.“</hi> http://grammis.ids-mannheim.de.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Suchowolec, Karolina, Christian Lang, und Roman Schneider.</hi> 2019. “An empirically validated, onomasiologically structured, and linguistically motivated online terminology. Re-designing scientific resources on German grammar.“ 
+                        <hi rend="italic">International Journal on Digital Libraries</hi> 20: 253-268.
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Uniprof LLP.</hi> 2016-2022. 
+                        <hi rend="italic">“Studi-Kompass.”</hi>
+                        <ref target="https://studi-kompass.com/generatoren/online-rechtschreibpruefung">https://studi-kompass.com/generatoren/online-rechtschreibpruefung</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wefelscheid, Cornelius.</hi> o. J. 
+                        <hi rend="italic">“DeepKomma.“</hi> https://deepkomma.de.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

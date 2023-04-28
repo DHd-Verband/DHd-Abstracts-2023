@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="HALL_Mark_Schlendern_im_Digitalen_Museum" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Schlendern im Digitalen Museum</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Hall</surname>
+                        <forename>Mark</forename>
+                    </persName>
+                    <affiliation>The Open University, Vereinigtes Königreich</affiliation>
+                    <email>mark.hall@work.room3b.eu</email>
+                    <idno type="ORCID">0000-0003-0081-4277</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Walsh</surname>
+                        <forename>David</forename>
+                    </persName>
+                    <affiliation>Edge Hill University, Vereinigtes Königreich</affiliation>
+                    <email>david.walsh@edgehill.ac.uk</email>
+                    <idno type="ORCID">0000-0003-2972-8233</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-07-22T22:00:00.094086008</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digitales museum</term>
+                    <term>generous interface</term>
+                    <term>open-source software</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Entdeckung</term>
+                    <term>Sammlung</term>
+                    <term>Webentwicklung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Digitalisierung unseres Kulturguts hat zu riesigen Sammlungen geführt, welche über Suchsysteme öffentlich verfügbar sind. Im Sinne der “Open Culture” ist Verfügbarkeit aber nicht genug (Walker 2022), da die weiße Suchmaske für nicht-Expert:inn:en eine signifikante Hürde für den Zugriff darstellt (Belkin, Oddy, and Brooks 1982; Whitelaw 2015). Nicht-Expert:inn:en fehlt oft das notwendige Wissen und das spezifisches Suchziel (Mayr et al. 2016), um erfolgreich Suchschlüsselwörter für die Suche zu entwickeln. Für digitale Sammlungen ist daher eine Bounce-rate von über 50% normal (Hall et al. 2012; Walsh et al. 2020).</p>
+            <p>Rich Prospect Browsing (Ruecker, Radzikowska, and Sinclair 2011) und Generous Interfaces (Whitelaw 2015) bieten den weniger erfahrenen Nutzer:inne:n Interfaces an, die einen sanfteren Einstieg in digitale Sammlungen ermöglichen. Beide Ansätze versuchen einen Überblick über die Sammlung zu geben, bevor sie zu einzelnen Objekten hineinzoomen (Shneiderman et al. 1998).</p>
+            <p>Bestehende Ansätze wie das Coins interface (Gortana et al. 2018), Curator Table interface (Google Arts &amp; Culture 2022), oder das Museum of the World (The British Museum and Google Cultural Institute 2022) nutzen Visualisierungen um einen Überblick über die gesamte Sammlung zu geben, die dann erforscht werden kann. Die Visualisierung bieten jedoch wenig bis keine Hinweise darauf gibt, welche Themen die Sammlung abdeckt und wo in der Visualisierung diese zu finden sind. Wegen der Größe der Sammlungen sind die einzelnen Objekte in der Visualisierung am Anfang auch oft wenig größer als ein paar farbige Pixel.</p>
+            <p>In einem physischen Museum gibt die Gebäude- und Raumstruktur einen Rahmen um das Museum zu erforschen. Eine derartige Struktur ist auch im digitalen Museum notwendig, fehlt aber in den meisten digitalen Sammlungen und den Kulturorganisationen fehlt die Kapazität um eine zu entwickeln. In Hall and Walsh (2021) haben wir mit der Digital Museum Map einen automatischen Kuratierungsalgorithmus entwickelt, der, basierende auf den Objektmetadaten und einer Reihe von Heuristiken, eine navigierbare Struktur entwirft, die aus hierarchisch strukturierten Gruppen von zwischen 25 und 100 Objekten besteht. Die Qualität der Struktur ist niedriger als bei einer händischen Kuratierung, erlaubt es aber große Sammlungen schnell zu kuratieren. Der Algorithmus arrangiert die navigierbare Struktur dann in Räume, welche in Stockwerken organisiert sind. Dazu wird eine greedy Heuristik genutzt, um die automatisch kuratierte Struktur, basierend auf thematischen Ähnlichkeiten, koherent im Stockwerksgrundriss zu positionieren. Der Grundriss wird vom Museum bereitgestellt und erlaubt es das Layout den Museumsinteressen anzupassen.</p>
+            <div type="div1" rend="DH-Heading">
+                <head>Das Digitale Museum</head>
+                <p>Das Digitale Museum nutzt auf der Landeseite (Abb. 1) keine Visualisierung um die gesamte Sammlung anzuzeigen, sondern bietet vier verschiedene Einstiegspunkte in die Sammlung an: ein Objekt des Tages, eine Auswahl der größten Teilsammlungen, eine zufällige Auswahl an Objekten, und ein Link in die gesamte Sammlung. Folgt der/die Nutzer:in dem Link zu einer Teilsammlung oder in die gesamte Sammlung, dann wird das Navigationsinterface in Abbildung 2 angezeigt. Links können die einzelnen Stockwerke ausgewählt werden und rechts werden die Räume auf dem Museumsgrundriss angezeigt. Nach der Auswahl eines Raumes, werden die Objekte des Raumes angezeigt (Abb. 3). Auf diese Weise kann das gesamte Museum durch Browsing erkundet werden.</p>
+
+                    <figure>
+                        <graphic url="Pictures/6b90523d0435cfd6906c91ec3a722d67.png"/>
+                        <head>Abbildung 1: Die Landeseite bietet Einstiegspunkte in das Digitale Museum: auf der Objektebene, auf der Teilsammlungsebene, und auf der Ebene der gesammten Sammlung. Alle Bilder © Victoria &amp; Albert Museum, 2022.</head>
+                    </figure>
+
+                    <figure>
+                        <graphic url="Pictures/86d04987ec8c98721cd92afd1107b064.png"/>
+                        <head>Abbildung 2: Das Stockwerksinterface erlaubt freies Entdecken im Digitalen Museum und kann mit anderen Informationen überlagert werden, wie hier mit Suchergebnissen.</head>
+                    </figure>
+                <p>Ein Vorteil des digitalen Mediums ist, dass zusätzliche Informationen über die Stockwerksvisualisierung gelegt werden können. Browsing wird zwar bevorzugt, aber eine Suchfunktion ist auch vorhanden. Sucht der/die Nutzer:in nach etwas, werden die Stockwerke und Räume, die passende Objekte beinhalten, visuell hervorgehoben. Ebenso werden in der Raumansicht die passenden Objekte hervorgehoben. Dadurch kann gezielt gesucht werden, ohne den Kontext, in dem die Objekte stehen, zu verlieren.</p>
+
+                    <figure>
+                        <graphic url="Pictures/afac1ebfdcec9c698228f195a053a0d2.png"/>
+                        <head>Abbildung 3: Ein Raum im Museum, links in der Desktopansicht, rechts die mobile Version.</head>
+                    </figure>
+
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Software und Ausblick</head>
+                <p>Die Digital Museum Map bietet einen einfachen Einstieg, um Sammlungen der interessierten Öffentlichkeit in einem Digitalen Museum zugänglich zu machen. Daher ist sie konfigurierbar und als Open-Source Software verfügbar (https://github.com/scmmmh/museum-map/). Zur Zeit bestehen Demoversionen der Digital Museum Map für einen Teil der 
+                    <hi rend="italic">Victoria &amp; Albert</hi> Sammlung (https://va.museum-map.research.room3b.eu/) und für die 
+                    <hi rend="italic">People Past and Present</hi> Sammlung der Stadt Durham (https://ppp.museum-map.research.room3b.eu/).
+                </p>
+                <p>Weiterentwicklungen werden sich auf zwei Bereiche konzentrieren. Empfehlungen für ähnliche Objekte, um eine horizontale Navigation zwischen Objekten zu ermöglichen. Eine offene Frage ist was für Empfehlungen Nutzer:innen wollen: mehr ähnliche Objekte oder eine diversere Empfehlung. Der zweite Bereich ist die Integration digitaler Museumsführer, die von Kurator:inn:en und auch Nutzer:inne:n erstellt werden und einen alternativen Zugang bieten.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Belkin, Nicholas J, Robert N Oddy, and Helen M Brooks.</hi> 1982. “ASK for Information Retrieval: Part I. Background and Theory.” Journal of Documentation 38 (2): 61–71.</bibl>
+                    <bibl><hi rend="bold">Google Arts &amp; Culture. </hi>2022. “Experiments: Curator Table.” July 22, 2022. https://artsexperiments.withgoogle.com/curatortable/.</bibl>
+                    <bibl><hi rend="bold">Gortana, Flavio, Franziska von Tenspolde, Daniela Guhlmann, and Marian Dörk.</hi> 2018. “Off the Grid: Visualizing a Numismatic Collection as Dynamic Piles and Streams.” Open Library of Humanities 4 (2): 1–25.</bibl>
+                    <bibl><hi rend="bold">Hall, Mark Michael, Oier Lopez de Lacalle, Aitor Soroa, Paul D Clough, and Eneko Agirre.</hi> 2012. “Enabling the Discovery of Digital Cultural Heritage Objects through Wikipedia.” In Proceedings of the LaTeCH Workshop Held at EACL 2012.</bibl>
+                    <bibl><hi rend="bold">Hall, Mark Michael, and David Walsh.</hi> 2021. “Exploring Digital Cultural Heritage through Browsing.” In Information Organization in Digital Humanities: A Global Perspective, edited by Koraljka Golub and Ying-Hsang Liu. Taylor &amp; Francis.</bibl>
+                    <bibl><hi rend="bold">Mayr, Eva, Paolo Federico, Silvia Miksch, Günther Schreder, Michael Smuc, and Florian Windhager.</hi> 2016. “Visualization of Cultural Heritage Data for Casual Users.” In IEEE VIS Workshop on Visualization for the Digital Humanities. Vol. 1.</bibl>
+                    <bibl><hi rend="bold">Ruecker, Stan, Milena Radzikowska, and Stéfan Sinclair.</hi> 2011. Visual Interface Design for Digital Cultural Heritage: A Guide to Rich-Prospect Browsing. Routledge.</bibl>
+                    <bibl><hi rend="bold">Shneiderman, Ben, Catherine Plaisant, Maxine S Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholas Diakopoulos.</hi> 1998. Designing the User Interface: Strategies for Effective Human-Computer Interaction. Pearson.</bibl>
+                    <bibl><hi rend="bold">The British Museum and Google Cultural Institute. </hi>2022. “The Museum of the World.” July 22, 2022. https://britishmuseum. withgoogle.com/.</bibl>
+                    <bibl><hi rend="bold">Walsh, David, Mark Michael Hall, Paul Clough, and Jonathan Foster.</hi> 2020. “Characterising Online Museum Users: A Study of the National Museums Liverpool Museum Website.” International Journal on Digital Libraries 21 (1): 75–87. https://doi.org/10.1007/s00799-018-0248-8.</bibl>
+                    <bibl><hi rend="bold">Walker, William S. 2022. </hi>"History Museums: Enhancing Audience Engagement through Digital Technologies." Handbook of Digital Public History: 165.</bibl>
+                    <bibl><hi rend="bold">Whitelaw, Mitchell. 2015. </hi> “Generous Interfaces for Digital Cultural Collections.” Digital Humanities Quarterly 9 (1). http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

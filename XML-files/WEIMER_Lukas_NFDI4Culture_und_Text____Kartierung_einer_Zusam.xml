@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="WEIMER_Lukas_NFDI4Culture_und_Text____Kartierung_einer_Zusam" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NFDI4Culture und Text+ – Kartierung einer Zusammenarbeit</title>
+                <author>
+                    <persName>
+                        <surname>Schrade</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>Torsten.Schrade@adwmainz.de</email>
+                    <idno type="ORCID">0000-0002-0953-2818</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Stein</surname>
+                        <forename>Regine</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+                    <email>regine.stein@sub.uni-goettingen.de</email>
+                    <idno type="ORCID">0000-0003-3406-5104</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tolksdorf</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>Julia.Tolksdorf@adwmainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vater</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>Christian.Vater@adwmainz.de</email>
+                    <idno type="ORCID">0000-0003-1367-8489</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Weimer</surname>
+                        <forename>Lukas</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen</affiliation>
+                    <email>weimer@sub.uni-goettingen.de</email>
+                    <idno type="ORCID">0000-0001-6919-3646</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-14T07:47:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Name, Institution</publisher>
+                <address>
+                    <addrLine>Street</addrLine>
+                    <addrLine>City</addrLine>
+                    <addrLine>Country</addrLine>
+                    <addrLine>Name</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NFDI</term>
+                    <term>NFDI4Culture</term>
+                    <term>Text+</term>
+                    <term>Community</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Graphesis</term>
+                    <term>Kartierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Kollaboration</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung</head>
+                <p style="text-align: left; ">Werden kulturelle Daten nachhaltig gespeichert, sind sie die Basis nicht nur der heutigen, sondern auch zukünftiger Wissenschaftsgenerationen. In der Gegenwart geschieht dies typischerweise digital und auch – in Hinblick auf kulturelle Teilhabe und kollaborative Partizipation – offen (Schöch 2017).</p>
+                <p style="text-align: left; ">Diesem Grundsatz der Offenheit haben sich die beiden Konsortien der Nationalen Forschungsdateninfrastruktur NFDI4Culture und Text+ – wie auch die gesamte NFDI – verschrieben. Vor dem Hintergrund des gemeinsamen Wissenschaftsbereiches und ihrem Fokus auf Sprach-, Text- und Kulturdaten wird diese Offenheit auch in der intensiven Zusammenarbeit der beiden Konsortien gelebt. Die Zusammenarbeit erfolgt hierbei in einem communitygestützten dynamischen Prozess, in den auch verwandte weitere Konsortien und Konsortialinitiativen eingebettet werden. So können Bedarfe innerhalb der gesamten NFDI mit einer Stimme artikuliert werden. Umso wichtiger ist es, einen Überblick über beteiligte Akteursgruppen zu erhalten und in die (Fach-)Öffentlichkeit kommunizierbar zu machen. Dazu bedürfen die vorhandenen Datenpunkte nicht nur der Vernetzung, sondern auch der Visualisierung. Dieser zweiteiligen ganz praxisorientierten Fragestellung – (1) Wie sammele ich meine Akteursdaten und (2) wie werte ich diese graphisch passend aus? – widmet sich das hier vorgeschlagene Posterprojekt. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hintergrund: NFDI und das Memorandum of Understanding</head>
+                <p style="text-align: left; ">Basierend auf einem Bund-Länder-Beschluss 2018 (Bundesanzeiger 2018) hat die Nationale Forschungsdateninfrastruktur (NFDI) zum Ziel, Datenbestände entlang der FAIR-Prinzipien (Wilkinson et al. 2016) zu erschließen und langfristig zu sichern. Sie wird dabei “in einem aus der Wissenschaft getriebenen Prozess als vernetzte Struktur eigeninitiativ agierender Konsortien aufgebaut” (DFG 2020). Zwei dieser bislang 19 geförderten Konsortien sind NFDI4Culture und Text+. Mit den beiden NFDI-Initiativen NFDI4Memory und NFDI4Objects haben sie sich 2019 in einem Memorandum of Understanding (Brünger-Weilandt 2020) zusammengeschlossen, um die Bedarfe der Geistes- und Kulturwissenschaften gemeinsam zu bearbeiten und organisatorische und technische Lösungen für deren Fragestellungen zu finden. Diese Interdisziplinarität bietet die Chance, übergreifende Angebote zu entwickeln und die Vision von Open Humanities voranzutreiben – für die Wissenschaft, GLAM-Einrichtungen und die breite Öffentlichkeit.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenarbeit von NFDI4Culture und Text+</head>
+                <p style="text-align: left; ">NFDI4Culture und Text+ vertreten äußerst vielfältige und disziplinär diverse (Fach-) Communities. Gleichzeitig gibt es mit Blick auf die an den beiden Konsortien beteiligten Institutionen und Einzelpersonen interessante Schnittmengen.</p>
+                <p style="text-align: left; ">Eine genauere Untersuchung von Verbindungen, Rollen und gemeinsamen aber auch unterschiedlichen Handlungsebenen der an den beiden geistes- und kulturwissenschaftlichen NFDI-Konsortien beteiligten Fachcommunities, Institutionen und Einzelpersonen steht bislang noch aus. Gleichzeitig existiert mit der strukturierten Erfassung der NFDI im Rahmen eines Wikidata-Projektes (vgl. 
+                    <ref target="https://www.wikidata.org/wiki/Wikidata:WikiProject_NFDI">
+                        <hi rend="color(1155CC)">https://www.wikidata.org/wiki/Wikidata:WikiProject_NFDI</hi>
+                    </ref>) in Zusammenarbeit zwischen NFDI-Direktorat und -Konsortien eine erste Datenbasis für die Analyse. Hinzu kommen verfügbare Daten aus den beiden Internetportalen von NFDI4Culture und Text+, die zusätzliche Strukturfacetten liefern.
+                </p>
+                <p style="text-align: left; ">Die Daten von NFDI4Culture können über eine API und einen SPARQL-Endpoint, den Culture Knowledge Graph, abgefragt werden. Die Informationen zu Personen, Institutionen, Projekten, Nachrichten, Veranstaltungen, Forschungsprodukten und Services liegen als Linked Data in den Formaten Turtle, JSON-LD und RDF/XML vor. Text+-seitig liegen entsprechende Daten in tabellarischer Form vor, die dann mit den Daten von NFDI4Culture verschnitten werden. Ein konkretes Beispiel für unsere Datenauswertung ist die Identifikation von Akteuren in der NFDI, die (a) gleichzeitig Mitglieder in Text+ und NFDI4Culture sind oder (b) in Sektionen/AGs/Task Forces der NFDI gleichzeitig präsent sind. Zusätzlich sollen auch Zugangspunkte für die Communities visualisiert werden sowie deren Möglichkeiten zur Beteiligung.</p>
+                <p style="text-align: left; ">Das gemeinsame Poster stellt die grafische Auswertung des gemeinsamen Akteurs-Netzwerkes der beiden Konsortien NFDI4Culture und Text+ vor. Hierbei werden die diagrammatischen Möglichkeiten der sozialen Netzwerkanalyse durchgespielt (vgl. Drucker 2014), die über die tabellierten und ‘graphierten’ Daten der Akteursmatrix gelegt werden. Dabei werden – wo möglich und praktikabel – Daten aus den jeweiligen konsortialen Wissensgraphen und den Wikidata-Identifikatoren (http://www.wikidata.org/entity/Q98276929, http://www.wikidata.org/entity/Q98271443) verwendet. Der Arbeitsprozess ist aufgrund der dynamischen Entwicklungen in beiden Konsortien explorativ und dient auch dem Versuch zu fassen, was mit datengetriebenen diagrammatischen Methoden ‘neu’ erkannt werden kann (vgl. Gold 2012).</p>
+                <p style="text-align: left; ">Berücksichtigt werden auch gemeinsame Veranstaltungen, gemeinsam genutzte Dienste und/oder Repositorien, gemeinsame Arbeit in NFDI-Sektionen etc.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+<head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Brünger-Weilandt, Sabine, Kai-Christian Bruhn, Alexandra W. Busch, Erhard Hinrichs, Gerald Maier, Johannes Paulmann, Andrea Rapp, Philipp von Rummel, Eva Schlotheuber, Dörte Schmidt, Torsten Schrade, Holger Simon, Regine Stein und Elke Teich.</hi> 2020. “Memorandum of Understanding by NFDI Initiatives from the Humanities and Cultural Studies.” 
+                        <hi rend="italic">Zenodo</hi>. https://doi.org/10.5281/zenodo.4045000.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bundesanzeiger.</hi> 2018. 
+                        <hi rend="italic">Bund-Länder-Vereinbarung zu Aufbau und Förderung einer Nationalen Forschungsdateninfrastruktur (NFDI) vom 26. November 2018</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft DFG.</hi> 2020. 
+                        <hi rend="italic">Nationale Forschungsdateninfrastruktur – Ausschreibung 2020 für die Förderung von Konsortien (2. Ausschreibungsrunde)</hi>. https://www.dfg.de/foerderung/info_wissenschaft/2020/info_wissenschaft_20_29/index.html.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Drucker, Johanna.</hi> 2014. 
+                        <hi rend="italic">Graphesis. Visual Forms of Knowledge Production.</hi> Cambridge (MA): Harvard University Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gold, Matthew K. (Hg.).</hi> 2012. 
+                        <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schöch, Christof.</hi> 2017. “Aufbau von Datensammlungen.” In 
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>, hg. von Fotis Jannidis, Hubertus Kohle und Malte Rehbein, 223–233. Stuttgart: Metzler.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <lb/>
+                        <hi rend="bold color(222222)">Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al.</hi>
+                        <hi rend="color(222222)" xml:space="preserve"> 2016. “The FAIR Guiding Principles for scientific data management and stewardship.” </hi>
+                        <hi rend="italic color(222222)">Sci Data</hi>
+                        <hi rend="color(222222)" xml:space="preserve"> 3: 160018. https://doi.org/10.1038/sdata.2016.18.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

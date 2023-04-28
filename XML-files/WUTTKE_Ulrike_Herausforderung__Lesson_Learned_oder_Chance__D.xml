@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="WUTTKE_Ulrike_Herausforderung__Lesson_Learned_oder_Chance__D" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Herausforderung, Lesson Learned oder Chance? Der Zusammenhang zwischen Kulturen des Scheiterns und Open-Bewegungen in den Digital Humanities</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Wuttke</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>Fachhochschule Potsdam, Deutschland</affiliation>
+                    <email>ulrike.wuttke@gmx.net</email>
+                    <idno type="ORCID">0000-0002-8217-4025</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kampkaspar</surname>
+                        <forename>Dario</forename>
+                    </persName>
+                    <affiliation>Universitäts- und Landesbibliothek, Technische Universität Darmstadt</affiliation>
+                    <email>dario.kampkaspar@tu-darmstadt.de</email>
+                    <idno type="ORCID">0000-0002-0118-0811</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Müller-Laackman</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</affiliation>
+                    <email>jonas.mueller-laackman@sub.uni-hamburg.de</email>
+                    <idno type="ORCID">0000-0003-2279-6751</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gengnagel</surname>
+                        <forename>Tessa</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>tessa.gengnagel@uni-koeln.de</email>
+                    <idno type="ORCID">0000-0001-8820-5112</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lang</surname>
+                        <forename>Sarah</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz</affiliation>
+                    <email>sarah.lang@uni-graz.at</email>
+                    <idno type="ORCID">0000-0002-4618-9481</idno>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Karcher</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>DFG</affiliation>
+                    <email>stefan.karcher@dfg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schrade</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Akademie der Wissenschaften und der Literatur | Mainz</affiliation>
+                    <email>Torsten.Schrade@adwmainz.de</email>
+                    <idno type="ORCID">0000-0002-0953-2818</idno>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-08-02T16:01:28.837325566</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                    <publisher>Culture and Computation Lab</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                    <address>
+                        <addrLine>Université du Luxembourg</addrLine>
+                        <addrLine>2, Avenue de l'Université</addrLine>
+                        <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                        <addrLine>Luxembourg</addrLine>
+                    </address>
+                    <publisher>Trier Center for Digital Humanities</publisher>
+                    <address>
+                        <addrLine>Universität Trier</addrLine>  
+                        <addrLine>Universitätsring 15</addrLine>
+                        <addrLine>54296 Trier</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Fehlerkultur</term>
+                    <term>Scheitern</term>
+                    <term>Projektmanagement</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<!--             <p>(Anmerkung: Da Conftool bei den Panels weder Autor*innen noch Tadirah-Kategorien angezeigt hat, haben wir diese auf Bitte der Organisator*innen in den Body eingefügt)</p>
+            <p>Autor*innen: </p>
+            <p>Wuttke, Ulrike (Einreichung)</p>
+            <p>ulrike.wuttke@fh-potsdam.de</p>
+            <p>Fachbereich Informationswissenschaften, Fachhochschule Potsdam </p>
+            <p>Conceptualization, Writing - original draft, Writing - review &amp; editing)</p>
+            <p>Kampkaspar, Dario </p>
+            <p>dario.kampkaspar@tu-darmstadt.de</p>
+            <p>Universitäts- und Landesbibliothek, Technische Universität Darmstadt</p>
+            <p>(Conceptualization, Writing - original draft, Writing - review &amp; editing)</p>
+            <p>Müller-Laackman, Jonas</p>
+            <p>jonas.mueller-laackman@sub.uni-hamburg.de</p>
+            <p>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky </p>
+            <p>(Conceptualization)</p>
+            <p>
+                <anchor xml:id="id_docs-internal-guid-5515cd05-7fff-dab6-a961-d7ed851f35f3"/>Tadirah-Kategorien: Communicating, Publishing, Assessing, Project Management
+            </p> -->
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-7d78a00d-7fff-c0bc-98da-22533e4f3efc"/>Hintergrund und Beschreibung des Themas
+                </head>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-4d8578a1-7fff-675c-1973-3d3128baaf97"/>‘Scheitern’ und ‘Misserfolg’ sind von Haus aus negativ konnotierte Ausdrücke, die oft den Eindruck eines Scherbenhaufens oder zumindest von vergeudeter Zeit und verschwendetem Geld hervorrufen. Die wenigsten Vorhaben in den Digital Humanities (DH) enden vollständig ohne Ergebnisse.Dennoch sind Projekte, die eines von mehreren Deliverables nicht oder nicht vollständig erbringen konnten, in denen Tools nicht die gedachten Ergebnisse lieferten oder eine versprochene Entwicklung nicht vollständig erbracht werden konnte, durchaus häufiger anzutreffen. Während sich die meisten Akteur*innen der Digital Humanities jetzt – etwas verstohlen – an solche Fälle erinnern werden, spiegelt sich dieser Umstand kaum in (projektbezogenen) Konferenzbeiträgen, Veröffentlichungen oder Projektberichten wider.
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-8a67bc1d-7fff-cdc5-f8f7-7dfab6103e31"/>So vielfältig wie die Ursachen für das Scheitern sind auch die Ursachen für die verhaltene – in den meisten Fällen eher abwesende – Kommunikation. Dass über das Scheitern und seine vielfältigen Ursachen aber so wenig gesprochen wird, ist ein nicht zu unterschätzendes Problem. Negative Ergebnisse – um gleich die Erkenntnis, dass ein bestimmter Weg nicht zum gewünschten Ziel geführt hat, von der vollständigen Ergebnislosigkeit abzugrenzen – sind für die Forschung relevant: sie führen zu alternativen Ansätzen und schließen unfruchtbare Wege aus der Suche aus.
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-4bb952c1-7fff-b186-8f88-21eb8814da10"/>Erst die offene Kommunikation über ‘Sackgassen’ verhindert, daß Andere die gleichen Pfade erneut beschreiten. Überspitzt ausgedrückt: Das Verstecken von sogenannten Misserfolgen beraubt die Forschung eines Ergebnisses und führt unweigerlich dazu, dass Fehler wiederholt werden – und damit weitere Projekte scheitern können. Nicht das einzelne negative Ergebnis kostet Geld, sondern die fehlende Fehlerkultur. Deshalb bedarf es unter anderem einer offenen Kommunikation über positive wie negative Projektergebnisse und nicht zuletzt auch eines guten Projektmanagements, das mögliche Fehlermodi rechtzeitig erkennt und diesen gegensteuert sowie aktuelle Diskussionen und relevante Veröffentlichungen auswertet und in das Projekt einbringt. Negative Ergebnisse müssen mehr Akzeptanz erfahren, um den Nimbus des (vielleicht gar persönlichen) Scheiterns (mit entsprechenden, befürchteten wie tatsächlichen, Konsequenzen für die eigene Zukunft) zu verlieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Motivation und Leitfragen bzw. Themencluster</head>
+                <p>Verständlicherweise ist in den Digital Humanities das Phänomen des Scheiterns nicht unbekannt. Problematisiert wurde das Scheitern von Projekten im DHd-Kontext zuletzt in einigen projektspezifischen sowie projektübergreifenden Kontexten (z. B. Frank 2022, Gengnagel 2021-2022, RaDiHum20 2022, Schuhmacher 2022, Zarei et al. 2022). Auch darüber hinaus gibt es neben dem wegweisenden Artikel von Dombrowski (2014) weitere interessante Beispiele des Umgangs mit diesem Diskurs, wie z. B. Drucker 2014, Graham 2019. Diese Beispiele nehmen jedoch nicht weg, dass der Diskurs über das Scheitern noch spärlich und angstbehaftet ist (siehe FuReSH 1-2 2022) und relativ wenig Eingang in die Publikationskultur findet, wobei Ausnahmen hier die Regel zu bestätigen scheinen, wie die Rezension von Dombrowski (2019) von Failing Gloriously and Other Essays (Graham 2019) zu denken gibt: “Graham acknowledges upfront the privilege that underpins his ability to talk so openly about failure. He’s a white man with tenure, which counts for a lot [...].”</p>
+                <p>Es stellt sich die Frage, welche unterschiedlichen Fehlerkulturen aus den Ursprungsdomänen in den DH zusammenkommen und ob z. B. stärker technisch geprägte Felder (und damit auch Publikationsoutlets wie z. B. die 
+                    <hi rend="italic">Proceedings der Computational Humanities Tagung</hi><ref n="1" target="ftn1"/>) von vornherein und aus wissenschaftlichen Notwendigkeiten eine andere Fehlerkultur haben. Während in diesen Bereichen das Scheitern bzw. der Umstand, unterschiedliche Lösungswege ausprobiert zu haben, von technischer Kompetenz zeugen und ihnen somit auch für Early Career Researcher ein Potential innezuwohnen scheint, die eigene Technik- und Methodenkompetenz unter Beweis zu stellen, scheint es in den sogenannten Buchwissenschaften selbst für etablierte Wissenschaftler*innen weniger Raum zu geben, um über Scheitern zu sprechen. Dabei gibt es mittlerweile sogar Open-Access-Journals, wie JOTE (Journal of Trial and Error)<ref n="2" target="ftn2"/>, die auch für Digital-Humanities-Forschung die Möglichkeit bieten, für alle Beteiligten nutzbringend ihre 
+                    <hi rend="italic">Errores</hi> zu publizieren.
+                </p>
+                <p>Vor diesem Hintergrund will das Panel Bezüge zwischen Kulturen des Scheiterns und Open-Bewegungen in den Digital Humanities Praktiken sondieren und relevante Positionen kartieren. Das geplante Panel will nicht nur einfach die eben skizzierten Probleme beschreiben, sondern den Austausch über diese Themen speziell im Kontext der Digital Humanities durch einen strukturierten thematischen Impuls forcieren, bei dem insbesondere folgende Themenbereiche bzw. Leitfragen adressiert werden: </p>
+                <list type="unordered">
+                    <item>Was bedeutet es eigentlich, dass ein Projekt gescheitert ist? </item>
+                    <item>Warum ist eine gute Fehlerkultur für Open Humanities wichtig bzw. ist die Offenlegung des Forschungsprozesses eine Gefahr für die Karriere?</item>
+                    <item>Ist in den technischeren Feldern der DH das Beschreiben von verschiedenen Lösungswegen inklusive Irrwegen bereits stärker etabliert als in den sogenannten Buchwissenschaften? </item>
+                    <item>Welche Rolle spielen wissenschaftssoziologische Faktoren, wie die Forschungshierarchie und Leistungsdruck, für die Möglichkeiten, um über Scheitern zu sprechen?</item>
+                    <item>Welche Verantwortung haben Forschungsförderer beim Etablieren einer besseren Fehlerkultur? Was können wir aus anderen Disziplinen lernen?</item>
+                    <item>Inwieweit ist Scheitern ein inhärenter Bestandteil des wissenschaftlichen Prozesses und inwieweit brauchen wir deshalb eine andere Fehlerkultur?</item>
+                    <item>Welche Chancen und Herausforderungen bestehen bezüglich der Verbesserung bestehender Kulturen und Strukturen?</item>
+                </list>
+                <p>Primäres Ziel des Panels ist neben der Herausarbeitung momentaner Schmerzpunkte die Sichtbarmachung der Vielschichtigkeit des Diskurses und die Entwicklung von multiperspektivischen Handlungsoptionen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ablauf und Organisation des Panels</head>
+                <p>Um eine lebendige Diskussion anzuregen, verzichtet das Panel auf die sonst üblichen Kurzreferate der Teilnehmer*innen. Nach einer kurzen Einführung in die Thematik des Panels durch die Moderator*innen werden die Panelist*innen in pointierten Statements ihren Bezug zum Panelthema vorstellen (15 Minuten). Dabei stellt jede Teilnehmer*in eine spezifische Perspektive vor. Dann soll ein multiperspektivischer Austausch über bestehende Kulturen des Scheiterns sowie die Frage nach Veränderungsbedarfen und möglichen Lösungsansätzen anhand der oben skizzierten und im Vorfeld des Panels (u. a. anhand der im Vorfeld eingehenden Stellungnahmen bzw. Problematisierungen, siehe unten) ggf. weiter zu konkretisierenden Leitfragen, die den Teilnehmer*innen des Panels im Vorfeld zur Verfügung gestellt werden, im Mittelpunkt stehen (45 Minuten). An diesem Punkt wird bereits frühzeitig der Diskurs in Richtung Publikum geöffnet und dieses interaktiv für direkte Erwiderungen in die Diskussion einbezogen. Die letzten 30 Minuten sind explizit für die Diskussion zwischen dem Panel und dem Publikum vorgesehen.</p>
+                <p>Während des gesamten Panels wird die Moderation auf eine sachliche und gewaltfreie Kommunikation achten. Das Panel wird unterstützt durch die Möglichkeit der Beteiligung via Twitter oder anderer Social-Media-Kanäle, vor, während und nach der Diskussion. Insbesondere soll auch im Vorfeld bzw. während des Panels eine niedrigschwellige Beteiligung ermöglicht werden, z. B. durch das Einbringen anonymer kürzerer Stellungnahmen und Problematisierungen (ggf. mittels digitaler Feedbacklösungen), wobei sich die Organisator*innen und Moderator*innen die Freiheit der Auswahl erlauben. Auf diese Weise kann schon im Vorfeld des Panels die Diskussion gebündelt und um weitere Perspektiven erweitert werden. Es wird angestrebt, die Ergebnisse des Panels der Fachöffentlichkeit zur Verfügung zu stellen (als Blogbeitrag, White Paper, Thesenpapier, Fachartikel o. ä.).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Teilnehmende (Vorstellung der Panelist*innen und Moderation)</head>
+                <p>Teilnehmende:</p>
+                <p>
+                    <hi rend="bold">Tessa Gengnagel</hi> (internationale Perspektive) ist als Postdoc am CCeH (Universität zu Köln) in der Geschäftsführung tätig. Für das Panel wird sie zu Failure als Topos einer konstituierenden Kraft in DH-Narrativen beitragen (siehe Gengnagel 2021-2022) und dazu als Folie eine wissenschaftssoziologische Perspektive kontrastieren, die intersektionale Kriterien berücksichtigt.
+                </p>
+                <p>
+                    <hi rend="bold">Sarah Lang </hi>(Perspektive AG Empowerment) ist Computational Humanist am Grazer Zentrum für Informationsmodellierung. Sie lotet im Rahmen des Panels wissenschaftstheoretische Aspekte des Umgangs mit Fehlern vor dem Hintergrund breiterer Fragen, wie z. B. unsichtbaren Machtstrukturen, Prekariat und Diskriminierung, aus.
+                </p>
+                <p>
+                    <hi rend="bold">Stefan Karcher</hi> (Perspektive Fördergeber) ist Referent bei der Deutschen Forschungsgemeinschaft (DFG) und dort unter anderem für den Bereich Digital Humanities zuständig. Im Panel wird er die Frage von für die Forschung zuträglichen Kulturen des Scheiterns aus der Perspektive eines Drittmittelgebers diskutieren.
+                </p>
+                <p>
+                    <hi rend="bold">Torsten Schrade</hi> (Perspektive Research Software Engineering und wissenschaftliche Infrastruktur) leitet die Digitale Akademie der Akademie der Wissenschaften und der Literatur | Mainz und ist Spokesperson von NFDI4Culture. Zu den Leitsprüchen seiner Forschungs- und Entwicklungsaktivitäten zählen "Weniger schlecht programmieren" (Passig/Jander) und "Fail better" (Beckett).
+                </p>
+                <p>Moderation: </p>
+                <p>
+                    <hi rend="bold">Ulrike Wuttke</hi> (Fachhochschule Potsdam, Fachbereich Informationswissenschaften) lehrt und forscht am Fachbereich Informationswissenschaften der Fachhochschule Potsdam. Zu ihren Schwerpunkten gehören Open Science Advocacy und Training.
+                </p>
+                <p>
+                    <hi rend="bold">Dario Kampkaspar</hi> (Technische Universität Darmstadt, Universitäts- und Landesbibliothek) leitet das Zentrum für digitale Editionen und ist seit über 10 Jahren in digitalen Projekten sowohl öffentlicher wie privater Fördergeber in Deutschland und Österreich inhaltlich wie organisierend tätig.
+                </p>
+            </div>
+        </body>
+        <back>
+<div type="notes">
+<note xml:id="ftn1" rend="footnote text" n="1"><ref target="http://ceur-ws.org/Vol-2989/">http://ceur-ws.org/Vol-2989/</ref>
+                        </note>
+<note xml:id="ftn2" rend="footnote text" n="2">
+                        <ref target="https://archive.jtrialerror.com/">https://archive.jtrialerror.com</ref>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Dombrowski, Quinn.</hi> 2014. “What Ever Happened to Project Bamboo?” Literary and Linguistic Computing 29, Nr. 3: 326–39. 
+                        <ptr target="https://doi.org/10.1093/llc/fqu026"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Dombrowski, Quinn.</hi> 2019. “Book Review: ‘Failing Gloriously and Other Essays’ by Shawn Graham,” Digital Humanities @ Stanford, 18. November 2019. 
+                        <ptr target="https://digitalhumanities.stanford.edu/book-review-failing-gloriously-and-other-essays-shawn-graham"/> (zugegriffen 12. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Drucker, Johanna.</hi> 2021. “Sustainability and Complexity: Knowledge and Authority in the Digital Humanities,” Digital Scholarship in the Humanities 36, Nr. Supplement_2: ii86–94. 
+                        <ptr target="https://doi.org/10.1093/llc/fqab025"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Frank, Markus.</hi> 2022. “Projektmanagement für die Digital Humanities (Workshop).” In DHd2022: Kulturen des digitalen Gedächtnisses: Konferenzabstracts, Universität Potsdam &amp; Fachhochschule Potsdam, 07. bis 11. März 2022, hg. von Michaela Geierhos, Potsdam, 400-2. 
+                        <ptr target="https://doi.org/10.5281/zenodo.6304590"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">FuReSH I+II.</hi> 2022. “Veranstaltungsreihe: Kulturen des Scheiterns,” Mai 2022. 
+                        <ptr target="https://blogs.hu-berlin.de/furesh/2022/05/19/veranstaltungsreihe-kulturen-des-scheiterns/"/> (zugegriffen 12. Juli 2022).
+                    </bibl>
+                    <bibl><hi rend="bold">Gengnagel, Tessa.</hi> 2021-2022. “Vom Topos des Scheiterns als konstituierender Kraft: Ein Essay über Erkenntnisprozesse in den Digital Humanities.” In Fabrikation von Erkenntnis – Experimente in den Digital Humanities, hg. von Manuel Burghardt, Lisa Dieckmann, Timo Steyer, Peer Trilcke, Niels Walkowski, Joëlle Weis und Ulrike Wuttke, Wolfenbüttel, 2021-2022 (= Zeitschrift für digitale Geisteswissenschaften / Sonderbände, 5) 
+                        <ptr target="https://doi.org/10.17175/SB005_011"/>.
+                    </bibl>
+                    <bibl><hi rend="bold">Graham, Shawn.</hi> Failing Gloriously and Other Essays, with a foreword by Eric Kansa and afterword by Neha Gupta. 2019. Grand Forks, ND, 2019. 
+                        <ptr target="https://doi.org/10.31356/dpb015"/>
+                    </bibl>
+                    <bibl><hi rend="bold">RaDiHum20.</hi> 2022. “RaDIHum20 spricht mit Markus Frank über Projektmanagement,” 20. April, 2022. 
+                        <ptr target="https://radihum20.de/radihum20-markus-frank-projektmanagement/"/> (zugegriffen 12. Juli 2022)
+                    </bibl>
+                    <bibl><hi rend="bold">Schumacher, Mareike.</hi> 2022. “Wie Wölkchen im Morgenlicht”. Zur automatisierten Metaphern-Erkennung und der Datenbank literarischer Raummetaphern laRa.” In DHd2022: Kulturen des digitalen Gedächtnisses: Konferenzabstracts, Universität Potsdam &amp; Fachhochschule Potsdam, 07. bis 11. März 2022, hg. von Michaela Geierhos, Potsdam, 232-6. 
+                        <ptr target="https://doi.org/10.5281/zenodo.6304590"/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
