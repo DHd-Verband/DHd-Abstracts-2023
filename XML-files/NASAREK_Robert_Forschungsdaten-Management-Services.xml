@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Forschungsdaten-Management-Services für Linked Open Data: Ein Vergleich</title>
+                <author>
+                    <persName>
+                        <surname>Nasarek</surname>
+                        <forename>Robert</forename>
+                    </persName>
+                    <affiliation>Germanisches Nationalmuseum Nürnberg, Deutschland</affiliation>
+                    <email>r.nasarek@gnm.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rossenova</surname>
+                        <forename>Lozana</forename>
+                    </persName>
+                    <affiliation>Leibniz Information Centre for Science and Technology</affiliation>
+                    <email>Lozana.Rossenova@tib.eu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sohmen</surname>
+                        <forename>Lucia</forename>
+                    </persName>
+                    <affiliation>Leibniz Information Centre for Science and Technology</affiliation>
+                    <email>Lucia.Sohmen@tib.eu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Duchesne</surname>
+                        <forename>Paul</forename>
+                    </persName>
+                    <affiliation>Leibniz Information Centre for Science and Technology</affiliation>
+                    <email>Paul.Duchesne@tib.eu</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-12-09T12:12:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Culture and Computation Lab</publisher>
+                <address>
+                    <addrLine>Université du Luxembourg</addrLine>
+                    <addrLine>2, Avenue de l'Université</addrLine>
+                    <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                    <addrLine>Luxembourg</addrLine>
+                </address>
+                <publisher>Luxembourg Centre for Contemporary and Digital History</publisher>
+                <address>
+                    <addrLine>Université du Luxembourg</addrLine>
+                    <addrLine>2, Avenue de l'Université</addrLine>
+                    <addrLine>L-4365 Esch-sur Alzette</addrLine>
+                    <addrLine>Luxembourg</addrLine>
+                </address>
+                <publisher>Trier Center for Digital Humanities</publisher>
+                <address>
+                    <addrLine>Universität Trier</addrLine>  
+                    <addrLine>Universitätsring 15</addrLine>
+                    <addrLine>54296 Trier</addrLine>
+                    <addrLine>Deutschland</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Linked Open Data</term>
+                    <term>Forschungsdaten-Management-Service</term>
+                    <term>Giant Global Graph</term>                   
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Modellierung</term>
+                    <term>Kollaboration</term>
+                    <term>Webentwicklung</term>
+                    <term>Organisation</term>
+                    <term>Daten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Vor fast 15 Jahren stellte Tim Berners-Lee seine Vision des "Giant Global Graph" vor: Nach dem Net, das Computer miteinander verbinde und dem Web, das Dokumente verknüpfe, setze der Graph einzelne digitale Dinge miteinander in Beziehung und stelle die dritte Stufe des Internets dar (Berners-Lee 2007). Einzelne Datensätze können referenziert werden und die Vorteile für die Forschung liegen auf der Hand: Die erleichterte Wiederverwendung vermeidet die Mehrfacherfassung von Daten und reduziert so Arbeitsaufwand und Redundanzen, was den Ressourcenverbrauch, die Mehrdeutigkeit und die Fehleranfälligkeit verringert (W3C 2011; Neumann 2021). Die Basis eines solchen Graphen ist heute als Linked Open Data (LOD) bekannt: vernetzte, eindeutig identifizierbare, offen zugängliche Daten, die mit Semantik angereichert und damit universell verständlich sind.</p>
+                <p style="text-align: left; ">Seit Berners-Lee diese Vision im Jahr 2007 postulierte, haben sich die Bedingungen für die Erstellung und Verbreitung von LOD stetig verbessert. Neben Beschreibungs- und Abfragesprachen (namentlich RDF/OWL, SPARQL), Normdaten (wie z.B. die Gemeinsame Normdatei), Vokabularen (wie z.B. die Getty Vocabularies) und Standard-Ontologien (wie z.B. das Conceptual Reference Model des Internationalen Komitees für Dokumentation - CIDOC CRM) stehen uns heute eine Vielzahl von elaborierten Softwareumgebungen zur Verfügung, die uns bei der Erstellung, Bearbeitung und Veröffentlichung von LOD unterstützen (Engelhardt und Kutsch 2021, 458-460).</p>
+                <p style="text-align: left;">
+                    Zu Beginn eines Projekts stehen viele Forscher:innen jedoch vor der Herausforderung, eine geeignete Softwareumgebung auszuwählen, die alle relevanten Anforderungen der Dateneingabe, -speicherung, -modifikation, -annotation, -analyse, -präsentation, -archivierung und -publikation erfüllt. Oftmals wissen die Datenkurator:innen nicht im Voraus, welche Eigenschaften und Funktionen einer Software sie benötigen, da sich bestimmte Anforderungen im Laufe eines Forschungsprojekts ergeben oder ändern können. Die Auswahl einer geeigneten Forschungsdaten-Management-Umgebung ist eine der wichtigsten Entscheidungen eines datenfokussierten Projektes, die nur mit großem Aufwand im fortgeschrittenen Stadium geändert werden kann (Humboldt-Universität zu Berlin 2020). In diesem Zusammenhang glauben wir, dass ein Überblick über alle verfügbaren LOD-Management-Systeme und ihre relevanten Eigenschaften ein äußerst nützliches Werkzeug für alle Forscher:innen sein kann, die vor der Herausforderung stehen, den am besten geeigneten Software für ihr spezifisches Projekt auszuwählen.</p>
+                </div>
+                <div type="div1" rend="DH-Heading1">
+                <head>Die Linked Open Data Arbeitsgruppe</head>
+                <p style="text-align: left;">
+                NFDI4Culture ist ein deutsches Konsortium von Forschungs- und Kultureinrichtungen, das auf eine gemeinsame Infrastruktur für Forschungsdaten hinarbeitet, die den Bedürfnissen der Datenersteller:innen, -kurator:innen und -nutzer:innen des 21. Jahrhunderts im breiten Spektrum des kulturellen Erbes und der Digital Humanities entspricht (NFDI4Culture 2022). Die Linked Open Data Working Group von NFDI4Culture soll als Initiative die Erstellung des Culture Knowledge Graph unterstützen, dessen Ziel es ist, Forschungsdaten zu verknüpfen, die von verschiedenen Partnerorganisationen des Konsortiums erzeugt wurden (Linked Open Data Working Group 2022a). Im Rahmen dieser unterstützenden Rolle im Konsortium organisiert die LOD-Working Group Workshops (Rossenova und Sohmen 2021a), Infoveranstaltungen (Linked Open Data Working Group 2022b) und veröffentlicht Schulungsmaterial, um Forscher:innen den Einstieg in LOD zu erleichtern (Rossenova und Sohmen 2021b). Während der monatlichen Treffen mit den Mitgliedern der NFDI4Culture-Gemeinschaft stellt die LOD-Working Group auch die besonderen Bedürfnisse und Anforderungen der Gemeinschaft heraus. Als Mitbegründer der Gruppe konnten wir den Mangel an leicht verfügbaren Ressourcen feststellen, die einen umfassenden Überblick über die verschiedenen Software-Umgebungen bieten, die Forscher:innen zur Verfügung stehen, und gleichzeitig die Anforderungen an Daten und Software berücksichtigen, die den FAIR-Prinzipien entsprechen (Wilkinson et al. 2016). Seitdem haben wir gemeinsam mit Nutzer:innen und Expert:innen aus den jeweiligen Communities einen ersten Überblick über die folgenden Forschungsdaten-Management-Software erstellt: ConedaKor, Omeka S, Metaphacts Community/ ResearchSpace, WikiBase und WissKI, die unserer Meinung nach zu den am häufigsten genutzten Linked Open Data-fähigen Umgebungen in den digitalen Geisteswissenschaften gehören. Damit einher ging die Entwicklung von Vergleichskategorien, anhand derer diese Software-Umgebungen bewertet werden können    
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodik</head>
+                <p style="text-align: left;">Der Vergleich wurde mit agilen, Community-orientierten Methoden entwickelt. Community-Treffen, Experteninterviews und Literaturrecherchen bestimmten die endgültige Auswahl der zu vergleichenden Softwareoptionen und die endgültigen Vergleichskategorien. Die Rekrutierung erfolgte über die Mailingliste der LOD WG und über Community-Veranstaltungen, die vom NFDI4Culture-Konsortium und der LOD WG selbst organisiert wurden. Letztendlich wurde nur Software in den Vergleich einbezogen, für die Mitglieder der jeweiligen Maintainer-Community und erfahrene Nutzer an einer Reihe von Expertenrunden teilnehmen und zur endgültigen Tabelle beitragen konnten. </p>
+                <p style="text-align: left;">Der Vergleich sollte fünf Eckpunkte berücksichtigen: Neben dem übergreifenden Bezug zu den FAIR-Prinzipien, der projekt- und technikbezogenen Nachhaltigkeit und der Benutzerfreundlichkeit, sollten sowohl Anwender:innen als auch Entwickler:innenperspektiven beachtet werden. Es wurde darauf geachtet, dass alle Kategorien auch bei allen Forschungsdaten-Management-Umgebungen angewendet werden können und es keine individuellen Vergleichspunkte gibt, die nur bei einzelnen Anwendungen sinnvoll ausgefüllt werden können.</p>
+                <p style="text-align: left;">Für jede Kategorie wurde ein kontrolliertes Vokabular mit Erklärung entwickelt, um größtmögliche Vergleichbarkeit zu gewährleisten. Da jedoch zu manchen Punkten eine detaillierte Erläuterung hilfreich ist, wurde den Expert:innen die Möglichkeit gegeben, an gesonderter Stelle in Freitextfeldern weitere Informationen zu vermerken.</p>
+                <p style="text-align: left;">Das Ergebnis ist damit eine Tabelle mit zwei Arbeitsblättern: Das erste Tabellenblatt dient eines einfachen Vergleichs und enthält in der ersten Zeile die Forschungsdaten-Management-Systeme und in der ersten Spalte die Vergleichskategorien mit Erläuterungs-Tooltip. Die Zellinhalte dürfen nur mit einem kontrollierten Vokabular (Ja/Nein, Checkbox, Auswahlliste) gefüllt werden (siehe Abbildung 1). Das zweite Arbeitsblatt hat die gleiche Tabellenstruktur, jedoch können in die Zellen nun Freitexte eingeben werden (siehe Abbildung 2).</p>
+                <figure>
+                    <graphic n="1001" width="10.945086111111111cm" height="17.123333333333335cm" url="Pictures/image1.png" rend="inline"/> <!--URL hier ggf ändern-->
+                    <head>Abbildung 1: Arbeitsblatt “Vergleich” mit kontrolliertem Vokabular und Erläuterungen als Tooltip.</head>
+                </figure>
+                <figure>
+                    <graphic n="1001" width="10.945086111111111cm" height="17.123333333333335cm" url="Pictures/image2.png" rend="inline"/><!--URL hier ggf ändern-->
+                    <head>Abbildung 2: Arbeitsblatt “Details” mit genaueren Informationen zu einzelnen Punkten.</head>
+                </figure>
+                </div>
+
+                <div type="div1" rend="DH-Heading1">
+                    <head>Das Vergleichssystem</head>
+                    <p style="text-align: left;">Die mehr als 30 Vergleichskategorien beziehen sich auf wichtige Funktionen und Merkmale einer LOD-Management-Software. Diese gehen jedoch über die rein quantitativen Informationen hinaus und umfassen auch qualitative Aspekte in Bezug auf den Lebenszyklus von Forschungsdaten und Wartungsaktivitäten, die von jeder Software und der dazugehörigen Entwicklergemeinschaft bereitgestellt werden. In diesem Vortrag werden wir uns auf diese qualitativen Aspekte konzentrieren, um die Auswirkungen der verschiedenen Funktionalitäten auf die langfristige Verwaltung von FAIR-Daten aufzuzeigen. Wir werden nicht jedes Tool einzeln vergleichen, da die Konferenzteilnehmer:innen dies anhand der auf der NFDI4Culture-Website veröffentlichten Vergleichstabelle tun können. Stattdessen werden wir uns mit unserer Hauptforschungsfrage befassen: Welche Funktionalitäten und Eigenschaften sollte eine LOD-Software-Umgebung für die langfristige Verwaltung von FAIR-Forschungsdaten bieten und wie kann unsere Überblickstabelle Forscher:innen helfen, in ihrem projektspezifischen Kontext zeitnahe Entscheidungen zu treffen?</p>                   
+                    <p style="text-align: left;">Folgende Kategorien flossen in den Vergleich ein:</p>
+                    <p>Generelle Informationen</p>
+                    <list type="unordered">
+                        <item>Offizielle Website</item>
+                        <item>Lizenz</item>
+                        <item>Zugänglichkeit des Quellcodes</item>
+                        <item>Community-Reife</item>
+                        <item>Metriken</item>
+                        <item>Geschäftsmodelle</item>
+                        <item>Maintainer</item>
+                        <item>Dokumentation</item>
+                        <item>Infrastruktur-Umgebung/ Stack</item>
+                    </list>
+                    <p>Schnittstellen und Endpoints</p>
+                    <list type="unordered">
+                        <item>verfügbare APIs</item>
+                        <item>Benutzerfreundlichkeit der APIs</item>
+                        <item>Zugänglichkeit des SPARQL Endpoints</item>
+                    </list>
+                    <p>Semantische Modellierung</p>
+                    <list type="unordered">
+                        <item>Reificationsmechanismus</item>
+                        <item>Reasoning</item>
+                        <item>Implementierung der Ontologie</item>
+                        <item>Umsetzung der Ontologiedefinitionen</item>
+                        <item>Wertvalidierung</item>
+                    </list>
+                    <p>Nachnutzung von Daten</p>
+                    <list type="unordered">
+                        <item>Mapping/ Harvesting von Daten</item>
+                        <item>Generierung der Permanent-Identifiers</item>
+                        <item>Nachnutzen von Permanent-Identifiers</item>
+                        <item>Import-Exportfunktionalitäten</item>
+                        <item>Richtung des Datenzugriffs</item>
+                    </list>
+                    <p>Datenmanagement</p>
+                    <list type="unordered">
+                        <item>Unterstützte Datentypen</item>
+                        <item>Mehrfachwerte</item>
+                    </list>
+                    <p>Anpassbarkeit, Berechtigungen und Revisionierung</p>
+                    <list type="unordered">
+                        <item>Verwendung von Templates</item>
+                        <item>Anpassung des Interface</item>
+                        <item>Mehrsprachigkeit</item>
+                        <item>Versionierung</item>
+                        <item>Berechtigungen</item>
+                    </list>
+                    <p>Integration, Datenvisualisierung und Skalierbarkeit</p>
+                    <list type="unordered">
+                        <item>integrierbare Medienformate</item>
+                        <item>Datenvisualisierung</item>
+                        <item>Datenanalyse</item>
+                        <item>Drittanbieterbibliotheken bzw. Erweiterungen</item>
+                        <item>Skalierbarkeit</item>
+                    </list>
+
+                <p style="text-align: left;">Neben grundlegenden Aspekten wie der Codebase-Lizenzierung und der Maintainer-Community, die sich um einer bestimmten Software gebildet hat, betrachten wir die notwendige DevOps-Infrastruktur: Was ist das Frontend-Framework, was ist die Datenbanktechnologie, und welche Deployment-Pipelines sind mit diesem Tool möglich. Oft ist die notwendige Systemarchitektur die erste Hürde für Anwender:innen, wenn Web-basierte Softwareeine bestimmte Serverinfrastruktur und Datenbanktechnologie erfordert oder moderne Deployment-Formate wie Docker nicht unterstützt. Auch ist es wichtig zu wissen, welche Struktureinheiten ausgetauscht werden können, zum Beispiel, ob als Datenbanktyp Postgres statt MySQL oder eine ElasticSearch statt einer Solr-basierten Suche verwendet werden kann. Dies wird im Vergleichssystem oder in den für jede Software verfügbaren zusätzlichen Hinweisen erfasst.</p>
+                <p style="text-align: left;">Um die Verpflichtung zu den FAIR-Prinzipien des NFDI-Konsortiums zu erfüllen, analysieren wir auch die Prozesse zur Erstellung von persistenten Identifikatoren (URIs), die verfügbaren Abfrageschnittstellen (APIs und SPARQL-Endpunkte) und die Import-/Exportoptionen der einzelnen Software. Entitäten müssen intern und extern wiederverwendbar sein, und Daten sollten leicht importiert und exportiert werden können. Wenn Daten(-strukturen) nur innerhalb einer Software funktionsfähig sind, entstehen Abhängigkeiten, die einer flexiblen Nutzung  fortschreitenden Technologien im Wege stehen können. Interoperabilität bedeutet hier, dass Daten in Formaten gespeichert oder über Schnittstellen verfügbar gemacht werden, die unabhängig von der Software sind, die sie erstellt hat. Die Bereitstellung solcher Kerninformationen über die für diese Software erforderliche technologische Infrastruktur - sowie über den Stand der Wartung und der Dokumentation - kann auch die Konzeption von Forschungsprojekten insgesamt beeinflussen. Wenn sich Forscher beispielsweise für eine bestimmte Software entscheiden, weil sie deren besondere Funktionen benötigen, kann der Grad der Komplexität des Infrastruktur-Stacks Aufschluss darüber geben, wie viel Personal sie für das Projekt einstellen müssen, für wie viele Jahre usw. Je mehr verschiedene Technologien und Frameworks an einem System beteiligt sind, desto mehr technische Personalstunden sind im Allgemeinen erforderlich. Darüber hinaus kann eine unzureichende Dokumentation oder eine kleinere Maintainer-Community auch einen höheren Zeitaufwand für Debugging usw. bedeuten. Die Vergleichstabelle kann keine exakten Schätzungen liefern, soll aber als allgemeine Orientierung dienen und helfen, die Erwartungen zu steuern.</p>
+                <p style="text-align: left;">Um Forschungsdaten wirklich interoperabel und wiederverwendbar zu gestalten - wie es für die Einhaltung der FAIR-Datenanforderungen entscheidend ist - geht es beim LOD-Management nicht nur darum, die Daten im technischen Sinne referenzierbar und zugänglich zu halten, sondern auch darum, dass die Daten von Menschen und Maschinen verstanden werden können (Sack 2021). Daher muss auch der Umgang mit der Semantik und den ontologischen Grundlagen innerhalb der Software näher betrachtet werden. Die LOD-Modellierung besteht aus zwei Schritten: dem Ontologie-Engineering für das verfügbare Vokabular und dessen Syntax, das häufig auf einem Standardmodell aufbaut, und dem Entwurf des Eingabe- und Ausgabedatenmodells. Die in unserer Übersicht untersuchten Software-Umgebungen unterscheiden sich erheblich in der Handhabung der zugrundeliegenden Semantik oder der Implementierung ontologischer Strukturen und Restriktionen in ihren Eingabe-, Darstellungs- und Verteilungsmodellen. Daher werden diese Unterschiede in unserem Vergleichssystem in separaten Kategorien näher beleuchtet.</p>
+                <p style="text-align: left;">Ein gemeinsames Merkmal vieler Software ist die in einer Benutzerobefläche gesteuerte semantische Anreicherung des Kerndatenmodells (Nasarek 2021; ResearchSpace 2021; Rossenova 2022). In solchen Fällen kann zusätzlich zur reinen Syntax - z.B. die Entität "Person" hat die Eigenschaft "Name" - eine auf einer Ontologie basierende Semantik hinzugefügt werden: die Entität "Person" kann als vom Typ "E21_Person" spezifiziert werden, wenn das CIDOC-CRM befolgt wird. In diesem CIDOC-CRM-Beispiel würde die Eigenschaft "Name" zur Klasse "E41_Appellation" gehören und die Beziehung würde mit der Aussage "E21_Person P1_ist_identifiziert_durch E41_Appellation" definiert werden. Die Möglichkeit, mit einem Standard wie CIDOC-CRM zu arbeiten, insbesondere wenn sie über eine grafische Benutzeroberfläche unterstützt wird, könnte für einige DH-Projekte eine Schlüsselanforderung sein. Die Hervorhebung dieses Aspekts und die Möglichkeit, schnell und einfach zu prüfen, welche Software einen solchen Arbeitsablauf unterstützen kann und welche nicht, soll Forscher:innen und Projektbeteiligten dabei helfen, fundierte Entscheidungen über die Wahl ihrers Software zu treffen.</p>
+                <p style="text-align: left;">Um die Auffindbarkeit und Wiederverwendbarkeit von Daten weiter zu unterstützen, sollte eine LOD-Management-Software über die Standardfunktionalitäten der Dateneingabe, wie z. B. die Validierung des Datentyps oder der Kardinalität hinausgehen, indem er Verifizierungs- oder Disambiguierungsfunktionen bietet (Sack, 2021). Die Software benötigt auch Routinen für das Mapping, Harvesting und/oder die Integration von Daten aus anderen bestehenden LOD-Quellen, um das Potenzial eines Giant Global Graph im Sinne von Berners-Lee zu erfüllen (Anders et al. 2022; Matthiak et al. 2022). Denn was nützen Dienste wie die der Gemeinsamen Normdatei, wenn sie nicht reibungslos mit existierenden Strukturen und Datenbeständen zusammengeführt werden können?</p>
+                <p style="text-align: left;">Natürlich sollten auch die eigenen Daten möglichst integrationsfähig sein, doch der bei Linked Open Data zentrale Grundsatz der Offenheit gestaltet sich meist komplizierter. Datenkurator:innen - insbesondere im Kulturbereich, wo das Urheberrecht noch immer stark durchgesetzt wird - sehen sich beispielsweise aus Gründen des Datenschutzes allzuoft gezwungen die Nutzer- und Zugriffsrechte einzuschränken (Rodríguez-Doncel et al. 2016). Die Granularität (System, Webseite, Entität, Feld) oder Dynamik (Benutzerrolle, Entitätstyp, Feldwert) der Zugriffsberechtigungen bestimmen letztlich, wer welche Daten unter welchen Umständen sehen kann. Dieser Punkt kann zu einer vollständigen Abschottung der Datenbank nach außen führen, wenn die Berechtigungen nicht dynamisch in der Form "Zeige allen nicht angemeldeten Benutzer:innen (Rolle) nur Datensätze von Personen (Entitätstyp), die seit mehr als 75 Jahren verstorben sind (Feldwert)" festgelegt werden können. Daher war die Einbeziehung von Details zu Berechtigungssystemen in der LOD-Management-Software eine weiterer wichtiger Punkt für unser Vergleichssystem.</p>
+                <p style="text-align: left;">Hinzu kommen Funktionalitäten wie Mehrsprachigkeit - besonders wichtig, wenn Forschung über Fachgebiete und Ländergrenzen hinweg sinnvoll in Systeme des bidirektionalen Datenaustauschs integriert werden soll (Labra Gayo, Kontokostas u. Auer 2015); Möglichkeiten der Versionskontrolle bei Datenbankänderungen in verschiedenen Granularitätsgraden - bedeutend, wenn die Datenprovenienz eine entscheidende Rolle für die Vertrauenswürdigkeit der Daten und die wissenschaftliche Integrität spielt (Papakonstantinou et al. 2022); aber auch das Vorhandensein erweiterter Formen der Datendarstellung, das heißt welche Suchmasken, Formulare und Datenvisualisierungen als Zugang zur Datenbank dienen oder inwieweit Frontend-Schnittstellen angepasst werden können, um die Benutzerfreundlichkeit zu erhöhen (Garcia et al. 2016).</p>
+                <p style="text-align: left;">Nicht zuletzt spielen auch Leistung und Skalierbarkeit eine wichtige Rolle bei der Entscheidungsfindung, wenn das Forschungsprojekt Hunderttausende oder gar Millionen von Datensätzen betrifft (Duchesne 2022). Im Rahmen des Vergleichs der Software wird versucht, dies anhand von Benchmark-Beispielen zu beurteilen und die Fähigkeit eines jeden Projekts zu bewerten, Add-ons, Erweiterungen und, falls erforderlich, Techniken zur Leistungsoptimierung  zu entwickeln, die an die Gemeinschaft der Software-Maintainer zurückgegeben werden können.</p>  
+            </div>
+
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left;">Trotz eines reichhaltigen und vielfältigen Angebot an Werkzeugen für die Verwaltung, die Veröffentlichung und den Austausch von LOD, ist die Übernahme von LOD in vielen Wissensbereichen noch eher die Ausnahme als die Regel. Innerhalb des NFDI4Culture-Konsortiums haben wir viele Projekte und Partnerorganisationen identifiziert, die bereit sind, den Sprung zur Speicherung und Zugänglichmachung ihrer Daten als LOD zu wagen. Die Entscheidung für ein Tool hängt wie dargelegt von den Bedarfen des Projektkontextes ab, d. h. vom Umfang und Menge der Daten, der gewünschten Schemakonformität (Notwendigkeit der Einhaltung spezifischer Standards, die von ihrem Wissensgebiet festgelegt wurden), dem Grad der Benutzerfreundlichkeit (Benutzer mit wenig oder gar keiner Erfahrung in der Datenwissenschaft und Anforderungen an zugängliche grafische Benutzeroberflächen) und auch dem Grad der Offenheit (Notwendigkeit, Teile des Datensatzes zu sperren und nur Teile davon zu öffnen). Mit der Veröffentlichung unserer Vergleichstabelle und dem dazugehörigen Dokumentations-Toolkit hoffen wir, die Akzeptanz verschiedener LOD-Software-Umgebungen innerhalb der NFDI4Culture-Community und darüber hinaus zu erhöhen. In diesem Vortrag werden wir das Vergleichssystem und die wichtigsten Erfolgsgeschichten von Community-Projekten vorstellen, die sich auf der Grundlage einer fundierten Bewertung der Fähigkeiten des Werkzeugs im Vergleich zu den Anforderungen des Projekts für die Nutzung einer bestimmten Software entschieden haben.</p>
+            </div>
+        </body>
+
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+  <head>Bibliographie</head>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Anders, Ivonne, Tobias Arera-Rütenik, Susanne Arndt, et al. 2022.</hi>
+                <hi rend="italic">“Ontology Harmonization and Mapping - Working Group Charter (NFDI section-metadata) (1.0).”</hi>
+                Zenodo. <ref target="https://doi.org/10.5281/zenodo.6726519">
+                <hi rend="italic">https://doi.org/10.5281/zenodo.6726519</hi>
+                </ref>
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Berners-Lee, Tim. 2007.</hi>
+                <hi rend="italic">“Giant Global Graph.”</hi>
+                Internet Archive Wayback Machine <ref target="https://web.archive.org/web/20160713021037/http://dig.csail.mit.edu/breadcrumbs/node/215">
+                <hi rend="underline color(1155CC)">https://web.archive.org/web/20160713021037/http://dig.csail.mit.edu/breadcrumbs/node/215</hi>
+                </ref>
+                (zugegriffen: 14. Juli 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Duchesne, Paul. 2022.</hi>
+                <hi rend="italic">“Wikidata and Wikibase as complementary research services for cultural heritage data.”</hi>
+                TIB blog. <ref target="https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/">
+                <hi rend="italic">https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Engelhardt, Claudia u. Harald Kusch. 2021.</hi>
+                <hi rend="italic">“Kollaboratives Arbeiten mit Daten.”</hi>
+                In Putnings, Markus, Heike Neuroth u. Janna Neumann, Praxishandbuch Forschungsdatenmanagement, 451-475. Berlin, Bosten: De Gruyter, Saur.
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">García, Roberto, Rosa Gil, Juan Manuel Gimeno, Eirik Bakke, u. David R. Karger. 2016.</hi>
+                <hi rend="italic">“BESDUI: A benchmark for end-user structured data user interfaces.”</hi>
+                In The Semantic Web – ISWC 2016. ISWC 2016. Lecture Notes in Computer Science, vol 9982. Springer, Cham. <ref target="https://doi.org/10.1007/978-3-319-46547-0_8">
+                <hi rend="italic">https://doi.org/10.1007/978-3-319-46547-0_8</hi>
+                </ref>
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Humboldt-Universität zu Berlin. 2020.</hi>
+                <hi rend="italic">“Digitales Netzwerk Sammlungen – ein Projekt der Berlin University Alliance.”</hi>
+                <ref target="https://www.ub.hu-berlin.de/de/ueber-uns/projekte/digitales-netzwerk-sammlungen/projekt-digitales-netzwerk-sammlungen">
+                <hi rend="underline color(1155CC)">https://www.ub.hu-berlin.de/de/ueber-uns/projekte/digitales-netzwerk-sammlungen/projekt-digitales-netzwerk-sammlungen</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Labra Gayo, Jose Emilio, Dimitris Kontokostas u. Sören Auer. 2015.</hi>
+                <hi rend="italic">“Multilingual linked data patterns.”</hi>
+                Semantic Web 6 (2015): 319-337.
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Linked Open Data Working Group. 2022a.</hi>
+                <hi rend="italic">“Overarching technical, ethical and legal activities.”</hi>
+                <ref target="https://nfdi4culture.de/what-we-do/task-areas/task-area-5.html">
+                <hi rend="underline color(1155CC)">https://nfdi4culture.de/what-we-do/task-areas/task-area-5.html</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Linked Open Data Working Group. 2022b.</hi>
+                <hi rend="italic">“First open meeting of the 4Culture Linked Open Data Working Group.”</hi>
+                <ref target="https://nfdi4culture.de/news-events/events/first-open-meeting-of-the-4culture-linked-open-data-working-group.html">
+                <hi rend="underline color(1155CC)">https://nfdi4culture.de/news-events/events/first-open-meeting-of-the-4culture-linked-open-data-working-group.html</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Mathiak, Brigitte, Heinrich Widmann, Luca Ghiringhelli, Holger Israel, Fidan Limani, Christin Henzen  u. Gerhard Heyer. 2022.</hi>
+                <hi rend="italic">“Working Group Charter - Search and Harvesting.”</hi>
+                Zenodo. <ref target="https://doi.org/10.5281/zenodo.6770763">
+                <hi rend="italic">https://doi.org/10.5281/zenodo.6770763</hi>
+                </ref>
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Nasarek, Robert. 2021.</hi>
+                <hi rend="italic">“Ontology Engineering.”</hi>
+                <ref target="https://wiss-ki.eu/documentation/data-modeling/ontology-engineering">
+                <hi rend="underline color(1155CC)">https://wiss-ki.eu/documentation/data-modeling/ontology-engineering</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Neumann, Janna. 2021.</hi>
+                <hi rend="italic">“Datentransfer und -nachnutzung.”</hi>
+                In: Putnings, Markus, Heike Neuroth u. Janna Neumann, Praxishandbuch Forschungsdatenmanagement, 399-403. Berlin, Bosten: De Gruyter, Saur.
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">NFDI4Culture. 2022.</hi>
+                <hi rend="italic">“NFDI4Culture – Consortium for Research Data on Material and Immaterial Cultural Heritage.”</hi>
+                <ref target="https://nfdi4culture.de/index.html">
+                <hi rend="underline color(1155CC)">https://nfdi4culture.de/index.html</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Papakonstantinou, Vassilis, Giorgos Flouris, Irini Fundulaki, Kostas Stefanidis u. Yannis Roussakis. 2016.</hi>
+                <hi rend="italic">“Versioning for Linked Data: Archiving Systems and Benchmarks.”</hi>
+                BLINK@ISWC. <ref target="http://users.ics.forth.gr/~fgeo/files/BLINK16Versioning.pdf">
+                <hi rend="underline color(1155CC)">http://users.ics.forth.gr/~fgeo/files/BLINK16Versioning.pdf</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">ResearchSpace. 2021.</hi>
+                <hi rend="italic">“Semantic Tools: Become author of meaningful structured data.”</hi>
+                <ref target="https://researchspace.org/semantic-tools/">
+                <hi rend="underline color(1155CC)">https://researchspace.org/semantic-tools/</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Rodríguez-Doncel, Víctor, Cristiana Santos, Pompeu Casanovas u. Asunción Gómez-Pérez. 2016.</hi>
+                <hi rend="italic">“Legal aspects of linked data – The European framework.”</hi>
+                Computer Law &amp; Security Review (32) 6: 99-813, <ref target="https://doi.org/10.1016/j.clsr.2016.07.005">
+                <hi rend="italic">https://doi.org/10.1016/j.clsr.2016.07.005</hi>
+                </ref>.
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Rossenova, Lozana. 2022.</hi>
+                <hi rend="italic">“Examining Wikidata and Wikibase in the context of research data management applications.”</hi>
+                TIB Blog. <ref target="https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications/">
+                <hi rend="italic">https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications/</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Rossenova, Lozana u. Lucia Sohmen. 2021a.</hi>
+                <hi rend="italic">“BYOD workshop (Bring your own dataset) – How to use Wikibase, OpenRefine and Linked Data.”</hi>
+                <ref target="https://nfdi4culture.de/news-events/events/byod-workshop-bring-your-own-dataset-how-to-use-wikibase-openrefine-and-linked-data.html">
+                <hi rend="underline color(1155CC)">https://nfdi4culture.de/news-events/events/byod-workshop-bring-your-own-dataset-how-to-use-wikibase-openrefine-and-linked-data.html</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Rossenova, Lozana u. Lucia Sohmen. 2021b.</hi>
+                <hi rend="italic">“OpenRefine to Wikibase: Data Upload Pipeline.”</hi>
+                Wikiversity. <ref target="https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline">
+                <hi rend="underline color(1155CC)">https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Sack, Harald. 2021.</hi>
+                <hi rend="italic">“The NFDI4Culture Knowledge Graph and Wikibase.”</hi>
+                WikidataCon, Oct 29-31th, 2021. <ref target="https://www.youtube.com/watch?v=JieuRJz14Sk%26ab_channel=wikimediaDE">
+                <hi rend="italic">https://www.youtube.com/watch?v=JieuRJz14Sk%26ab_channel=wikimediaDE</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">W3C. 2011.</hi>
+                <hi rend="italic">“Benefits - Library Linked Data.”</hi>
+                <ref target="https://www.w3.org/2005/Incubator/lld/wiki/Benefits">
+                <hi rend="underline color(1155CC)">https://www.w3.org/2005/Incubator/lld/wiki/Benefits</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            <bibl style="text-align: left;">
+                <hi rend="bold">Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016.</hi>
+                <hi rend="italic">“The FAIR Guiding Principles for scientific data management and stewardship.”</hi>
+                Sci Data 3, 160018. <ref target="https://doi.org/10.1038/sdata.2016.18">
+                <hi rend="italic">https://doi.org/10.1038/sdata.2016.18</hi>
+                </ref>
+                (zugegriffen: 02. August 2022).
+            </bibl>
+            </listBibl>
+
+          </div>
+        </back>
+    </text>
+</TEI>
