@@ -81,3 +81,5 @@ See also contributions of all other DHd-Conferences:
 - DHd2019: https://github.com/DHd-Verband/DHd-Abstracts-2019
 - DHd2020: https://github.com/DHd-Verband/DHd-Abstracts-2020
 - DHd2022: https://github.com/DHd-Verband/DHd-Abstracts-2022
+- DHd2025: https://github.com/DHd-Verband/DHd-Abstracts-2025
+
